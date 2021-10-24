@@ -1,7 +1,7 @@
 baseURL: https://frytea.com/
 defaultContentLanguage: "zh"
 languageCode: zh-cn
-title: Linny
+title: Frytea
 paginate: 5
 theme: "PaperMod"
 
@@ -50,7 +50,7 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Frytea"
+        text: "🏡 Frytea"
         #icon: "🏠"
         iconHeight: 35
 
@@ -126,17 +126,17 @@ params:
 menu:
     main:
         - identifier: categories
-          name: categories
+          name: 📔 系列
           url: /categories/
           weight: 10
         - identifier: tags
-          name: tags
+          name: 🔖 关键词
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
