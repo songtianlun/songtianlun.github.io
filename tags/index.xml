@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Frytea</title>
-    <link>https://frytea.com/tags/</link>
+    <link>https://dev.frytea.com/hugo-website/tags/</link>
     <description>Recent content in Tags on Frytea</description>
     <image>
-      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>first</title>
-      <link>https://frytea.com/tags/first/</link>
+      <link>https://dev.frytea.com/hugo-website/tags/first/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://frytea.com/tags/first/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/first/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://frytea.com/tags/css/</link>
+      <link>https://dev.frytea.com/hugo-website/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://frytea.com/tags/css/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://frytea.com/tags/html/</link>
+      <link>https://dev.frytea.com/hugo-website/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://frytea.com/tags/html/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://frytea.com/tags/markdown/</link>
+      <link>https://dev.frytea.com/hugo-website/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://frytea.com/tags/markdown/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://frytea.com/tags/themes/</link>
+      <link>https://dev.frytea.com/hugo-website/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://frytea.com/tags/themes/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/themes/</guid>
       <description></description>
     </item>
     

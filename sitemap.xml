@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://frytea.com/</loc>
+    <loc>https://dev.frytea.com/hugo-website/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/posts/</loc>
+    <loc>https://dev.frytea.com/hugo-website/posts/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/posts/my-first-chinese/</loc>
+    <loc>https://dev.frytea.com/hugo-website/posts/my-first-chinese/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/posts/my-first-posr/</loc>
+    <loc>https://dev.frytea.com/hugo-website/posts/my-first-posr/</loc>
     <lastmod>2021-10-21T14:20:22+08:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/first/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/posts/papermod/</loc>
+    <loc>https://dev.frytea.com/hugo-website/posts/papermod/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/categories/</loc>
+    <loc>https://dev.frytea.com/hugo-website/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/css/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/html/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/markdown/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/posts/markdown-syntax/</loc>
+    <loc>https://dev.frytea.com/hugo-website/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/categories/syntax/</loc>
+    <loc>https://dev.frytea.com/hugo-website/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/tags/themes/</loc>
+    <loc>https://dev.frytea.com/hugo-website/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/categories/themes/</loc>
+    <loc>https://dev.frytea.com/hugo-website/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frytea.com/archives/</loc>
+    <loc>https://dev.frytea.com/hugo-website/archives/</loc>
   </url>
 </urlset>
