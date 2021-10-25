@@ -84,6 +84,8 @@ params:
           url: "mailto:songtianlun@frytea.com"
         - name: linkedin
           url: "https://www.linkedin.com/in/songtianlun/"
+        - name: rss
+          url: "/index.xml"
 
     analytics:
         google:
@@ -132,10 +134,23 @@ menu:
           name: 🔖 关键词
           url: /tags/
           weight: 20
+        - identifier: archives
+          name: 🗃 归档
+          url: /archives/
+          weight: 30
+        - identifier: search
+          name: 🔍 搜索
+          url: /search/
+          weight: 40
         # - identifier: example
         #   name: example.org
         #   url: https://example.org
         #   weight: 30
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
