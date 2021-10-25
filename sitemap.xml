@@ -4,51 +4,85 @@
   <url>
     <loc>https://dev.frytea.com/hugo-website/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/posts/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/posts/my-first-chinese/</loc>
     <lastmod>2021-10-24T19:16:52+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/posts/my-first-posr/</loc>
     <lastmod>2021-10-21T14:20:22+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/posts/papermod/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/archives/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://dev.frytea.com/hugo-website/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
