@@ -1,7 +1,8 @@
 <!-- valine -->
 {{- if .Site.Params.valine.enable -}}
 <!-- id 将作为查询条件 --> 
-<div id="vcomments"></div>
+<div id="vcomments" style="background-color: var(--theme); margin-top: 15px;
+  padding: 20px; border-radius: var(--radius); box-shadow: 0px 0px 10px grey;"></div>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script type="text/javascript">
