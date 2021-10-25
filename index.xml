@@ -51,5 +51,14 @@ sfsdafsdaf</description>
     
     
     
+    <item>
+      <title>免责声明</title>
+      <link>https://dev.frytea.com/hugo-website/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dev.frytea.com/hugo-website/disclaimer/</guid>
+      <description>disclaimer</description>
+    </item>
+    
   </channel>
 </rss>
