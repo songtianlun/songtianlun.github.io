@@ -151,6 +151,11 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
