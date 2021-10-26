@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Frytea</title>
-    <link>https://dev.frytea.com/hugo-website/tags/</link>
+    <link>https://dev.frytea.com/tags/</link>
     <description>Recent content in Tags on Frytea</description>
     <image>
-      <url>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://dev.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dev.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://dev.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021</title>
-      <link>https://dev.frytea.com/hugo-website/tags/2021/</link>
+      <link>https://dev.frytea.com/tags/2021/</link>
       <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/2021/</guid>
+      <guid>https://dev.frytea.com/tags/2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retrospective</title>
-      <link>https://dev.frytea.com/hugo-website/tags/retrospective/</link>
+      <link>https://dev.frytea.com/tags/retrospective/</link>
       <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/retrospective/</guid>
+      <guid>https://dev.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     
     <item>
       <title>review</title>
-      <link>https://dev.frytea.com/hugo-website/tags/review/</link>
+      <link>https://dev.frytea.com/tags/review/</link>
       <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/review/</guid>
+      <guid>https://dev.frytea.com/tags/review/</guid>
       <description></description>
     </item>
     
