@@ -10,49 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>https://dev.frytea.com/hugo-website/tags/first/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <title>2021</title>
+      <link>https://dev.frytea.com/hugo-website/tags/2021/</link>
+      <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/first/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/2021/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>https://dev.frytea.com/hugo-website/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>retrospective</title>
+      <link>https://dev.frytea.com/hugo-website/tags/retrospective/</link>
+      <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/css/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/retrospective/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://dev.frytea.com/hugo-website/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>review</title>
+      <link>https://dev.frytea.com/hugo-website/tags/review/</link>
+      <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
       
-      <guid>https://dev.frytea.com/hugo-website/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://dev.frytea.com/hugo-website/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dev.frytea.com/hugo-website/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://dev.frytea.com/hugo-website/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dev.frytea.com/hugo-website/tags/themes/</guid>
+      <guid>https://dev.frytea.com/hugo-website/tags/review/</guid>
       <description></description>
     </item>
     

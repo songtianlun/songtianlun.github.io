@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Frytea</title>
-    <link>https://dev.frytea.com/hugo-website/</link>
-    <description>Recent content on Frytea</description>
+    <title>2021 on Frytea</title>
+    <link>https://dev.frytea.com/hugo-website/tags/2021/</link>
+    <description>Recent content in 2021 on Frytea</description>
     <image>
       <url>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dev.frytea.com/hugo-website/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://dev.frytea.com/hugo-website/tags/2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>「2021年9月复盘」国庆快乐！</title>
       <link>https://dev.frytea.com/hugo-website/posts/retrospective/2021-09/</link>
@@ -112,26 +112,6 @@
       
       <guid>https://dev.frytea.com/hugo-website/posts/retrospective/2021-01/</guid>
       <description>从0到1的第一个月。</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>免责声明</title>
-      <link>https://dev.frytea.com/hugo-website/disclaimer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dev.frytea.com/hugo-website/disclaimer/</guid>
-      <description>disclaimer</description>
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>https://dev.frytea.com/hugo-website/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dev.frytea.com/hugo-website/about/</guid>
-      <description>about</description>
     </item>
     
   </channel>
