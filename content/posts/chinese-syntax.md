@@ -2,7 +2,7 @@
 title: "中文 Markdown 渲染测试"
 date: 2021-10-24T19:16:52+08:00
 description: "中文 markdown 测试文档，希望一切安好。"
-draft: false
+draft: true
 ---
 
 这篇文档是用于测试中文 Markdown 渲染效果的。
@@ -43,10 +43,10 @@ Blockquote 元素表示从其他来源引用的内容，可以选择使用一个
 
 表格并不是 Markdown 规范的核心部分，但是 Hugo 支持开箱即用。
 
-| Name  | Age | Name  | Age | Name  | Age |
-| ----- | --- | ----- | --- | ----- | --- |
-| Bob   | 27  | Bob   | 27  | Bob   | 27  |
-| Alice | 23  | Alice | 23  | Alice | 23  |
+| Name  | Age | Name  | Age | Name  | Age | Name  | Age | Name  | Age |
+| ----- | --- | ----- | --- | ----- | --- | ----- | --- | ----- | --- |
+| Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | 27  |
+| Alice | 23  | Alice | 23  | Alice | 23  | Alice | 23  | Alice | 23  |
 
 ### 表内嵌 Markdown
 

@@ -38,8 +38,6 @@ params:
     hideSummary: false
     showtoc: true
     tocopen: false
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -67,8 +65,10 @@ params:
         buttons:
             - name: ✒️ 文章
               url: posts
-            - name: 🏷 标签
-              url: tags
+            - name: 📷 摄影
+              url: https://image.frytea.com
+            - name: 📎 资源
+              url: https://res.frytea.com
 
     # home-info mode
     homeInfoParams:
@@ -96,9 +96,11 @@ params:
             SiteVerificationTag: "XYZabc"
 
     cover:
-        hidden: true # hide everywhere but not in structured data
+        hidden: false # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
+        responsiveImages: false
+        linkFullImages: false
 
     editPost:
         URL: "https://github.com/songtianlun/songtianlun.github.io/content"
@@ -131,7 +133,7 @@ menu:
           url: /categories/
           weight: 10
         - identifier: tags
-          name: 🔖 关键词
+          name: 🏷️ 标签
           url: /tags/
           weight: 20
         - identifier: archives
