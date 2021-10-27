@@ -94,6 +94,7 @@ params:
             SiteVerificationTag: "XYZabc"
         yandex:
             SiteVerificationTag: "XYZabc"
+    googleAdSense: ca-pub-6802937888103792
 
     cover:
         hidden: false # hide everywhere but not in structured data
