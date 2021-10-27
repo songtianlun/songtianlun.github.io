@@ -64,7 +64,7 @@ params:
         imageTitle: frytea logo
         buttons:
             - name: ✒️ 文章
-              url: posts
+              url: posts/
             - name: 📷 摄影
               url: https://image.frytea.com
             - name: 📎 资源
