@@ -69,6 +69,8 @@ params:
               url: https://image.frytea.com
             - name: 📎 资源
               url: https://res.frytea.com
+            - name: 📜 旧书
+              url: https://blog.frytea.com
 
     # home-info mode
     homeInfoParams:
