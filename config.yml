@@ -103,7 +103,7 @@ params:
         linkFullImages: false
 
     editPost:
-        URL: "https://github.com/songtianlun/songtianlun.github.io/content"
+        URL: "https://github.com/songtianlun/songtianlun.github.io/edit/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
