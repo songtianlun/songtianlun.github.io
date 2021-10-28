@@ -97,6 +97,7 @@ params:
         yandex:
             SiteVerificationTag: "XYZabc"
     googleAdSense: ca-pub-6802937888103792
+    umamiCodeID: 3d947a98-2774-46b0-805f-fe2e4877a1d7
 
     cover:
         hidden: false # hide everywhere but not in structured data
