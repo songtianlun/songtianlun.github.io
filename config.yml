@@ -65,6 +65,12 @@ params:
         buttons:
             - name: ✒️ 文章
               url: posts/
+            - name: 💻 技术
+              url: technology/
+            - name: 🤔 复盘
+              url: retrospective/
+            # - name: 💡 灵感
+            #   url: ideas/
             - name: 📷 摄影
               url: https://image.frytea.com
             - name: 📎 资源
@@ -171,3 +177,14 @@ sitemap:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+#### 允许 html 渲染 start ####
+blackfriday:
+extensionsmask: ["noIntraEmphasis"]
+fractions: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+#### 允许 html 渲染 end #### 
