@@ -1,5 +1,7 @@
 ## Frytea's Homepage
 
+[![GitHub Pages](https://github.com/songtianlun/songtianlun.github.io/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/songtianlun/songtianlun.github.io/actions/workflows/main.yml)
+
 ### 网站架构
 
 ```
