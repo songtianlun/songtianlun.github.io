@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Oct 2021 23:25:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 00:26:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://www.frytea.com/tags/tmux/</link>
+      <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/tmux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>2021</title>
       <link>https://www.frytea.com/tags/2021/</link>
