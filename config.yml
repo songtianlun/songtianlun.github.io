@@ -96,12 +96,12 @@ params:
           url: "/index.xml"
 
     analytics:
-        google:
-            SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
+        # google:
+        #     SiteVerificationTag: "XYZabc"
+        # bing:
+        #     SiteVerificationTag: "XYZabc"
         yandex:
-            SiteVerificationTag: "XYZabc"
+            SiteVerificationTag: "73b1a797f62c0e98"
     googleAdSense: ca-pub-7296634171837358
     umamiCodeID: 3d947a98-2774-46b0-805f-fe2e4877a1d7
 
