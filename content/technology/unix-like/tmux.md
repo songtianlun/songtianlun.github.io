@@ -3,7 +3,7 @@ title: "Tmux"
 date: 2021-10-31T00:26:08+08:00
 description: "一个终端复用器。"
 categories: ["unix-like"]
-tags: ["linux", "tmux"]
+tags: ["linux", "linux-app","tmux"]
 draft: false
 ---
 
