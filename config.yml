@@ -30,6 +30,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: false
     ShowFullTextinRSS: false
+    ShowAllPagesInArchive: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     disableAnchoredHeadings: fase
