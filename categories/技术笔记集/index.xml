@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:37:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:44:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 系统时间校对方法</title>
+      <link>https://www.frytea.com/technology/unix-like/linux-sync-time/</link>
+      <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/linux-sync-time/</guid>
+      <description>使用 ntp 校对 Linux 系统时间的方法.</description>
+    </item>
+    
+    <item>
+      <title>Bash快捷指令</title>
+      <link>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</link>
+      <pubDate>Wed, 03 Nov 2021 14:39:21 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</guid>
+      <description>常用指令速查.</description>
+    </item>
+    
     <item>
       <title>Tcpdump</title>
       <link>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</link>
