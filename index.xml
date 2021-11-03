@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:13:38 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:17:50 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim 版本升级（Vim8）</title>
+      <link>https://www.frytea.com/technology/unix-like/shell/vim/vim-update-release8/</link>
+      <pubDate>Wed, 03 Nov 2021 14:17:50 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/shell/vim/vim-update-release8/</guid>
+      <description>源码编译安装新版 vim 的方法</description>
+    </item>
+    
     <item>
       <title>VIM 文件自动添加头部注释的方法</title>
       <link>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</link>

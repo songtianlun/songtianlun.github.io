@@ -3,56 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/linux-app/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/technology/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/tmux/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/vim/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <loc>https://www.frytea.com/technology/unix-like/shell/vim/vim-update-release8/</loc>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/vim-%E9%85%8D%E7%BD%AE%E9%9B%86/</loc>
-    <lastmod>2021-11-03T14:13:38+08:00</lastmod>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-11-03T14:17:50+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</loc>
     <lastmod>2021-11-03T14:13:38+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -103,6 +98,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/technology/unix-like/shell/tmux/</loc>
+    <lastmod>2021-10-31T00:26:08+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/tmux/</loc>
     <lastmod>2021-10-31T00:26:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
