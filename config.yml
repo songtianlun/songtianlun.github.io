@@ -23,7 +23,8 @@ params:
     beian: "粤 ICP 备 19144283 号"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
-
+    disablePWA: false
+    
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
