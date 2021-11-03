@@ -10,31 +10,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:17:50 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:37:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tcpdump</title>
+      <link>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</link>
+      <pubDate>Wed, 03 Nov 2021 14:37:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</guid>
+      <description>一个运行在命令行下的抓包工具.</description>
+    </item>
+    
+    <item>
+      <title>Vim 一键编译运行 C/C&#43;&#43;</title>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-one-run-and-build-c/</link>
+      <pubDate>Wed, 03 Nov 2021 14:30:19 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-one-run-and-build-c/</guid>
+      <description>一种按键映射自动编译运行 C/C&#43;&#43; 的方法</description>
+    </item>
+    
+    <item>
+      <title>Vim 多窗口、多文件之间切换</title>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-mult-windows-switch/</link>
+      <pubDate>Wed, 03 Nov 2021 14:24:33 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-mult-windows-switch/</guid>
+      <description>介绍 vim 多窗口以及多文件之间的切换方法</description>
+    </item>
+    
+    <item>
+      <title>vim 代码折叠之设置默认代码不折叠</title>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-set-no-foldmethod/</link>
+      <pubDate>Wed, 03 Nov 2021 14:22:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-set-no-foldmethod/</guid>
+      <description>简单介绍 vim 代码折叠及配置</description>
+    </item>
+    
     <item>
       <title>Vim 版本升级（Vim8）</title>
-      <link>https://www.frytea.com/technology/unix-like/shell/vim/vim-update-release8/</link>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-update-release8/</link>
       <pubDate>Wed, 03 Nov 2021 14:17:50 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/shell/vim/vim-update-release8/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-update-release8/</guid>
       <description>源码编译安装新版 vim 的方法</description>
     </item>
     
     <item>
       <title>VIM 文件自动添加头部注释的方法</title>
-      <link>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</link>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-auto-file-header/</link>
       <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-auto-file-header/</guid>
       <description>一种 vim 创建文件时自动添加头部注释的方法</description>
     </item>
     
     <item>
       <title>Vim 安装插件管理器 Vundle</title>
-      <link>https://www.frytea.com/technology/unix-like/shell/vim/instal-vim-vundle/</link>
+      <link>https://www.frytea.com/technology/unix-like/cmd/vim/instal-vim-vundle/</link>
       <pubDate>Wed, 03 Nov 2021 14:04:30 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/shell/vim/instal-vim-vundle/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/instal-vim-vundle/</guid>
       <description>Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器</description>
     </item>
     
@@ -49,19 +85,19 @@
     
     <item>
       <title>Uname</title>
-      <link>https://www.frytea.com/technology/unix-like/shell/uname/</link>
+      <link>https://www.frytea.com/technology/unix-like/cmd/uname/</link>
       <pubDate>Sun, 31 Oct 2021 11:47:24 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/shell/uname/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/cmd/uname/</guid>
       <description>打印当前计算机和操作系统的名称、版本及其他细节.</description>
     </item>
     
     <item>
       <title>Tmux</title>
-      <link>https://www.frytea.com/technology/unix-like/shell/tmux/</link>
+      <link>https://www.frytea.com/technology/unix-like/cmd/tmux/</link>
       <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/shell/tmux/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/cmd/tmux/</guid>
       <description>一个终端复用器。</description>
     </item>
     
