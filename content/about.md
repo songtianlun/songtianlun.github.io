@@ -42,3 +42,4 @@ summary: about
 - 2021.10.22, 本站正式加入 Google Adsense，但愿能摊平运营成本；
 - 2021.10.26, 分析了现有网站的利弊之后，决定自己定制网站，使用 Hugo 引擎；
 - 2021.10.27, 采用定制 PaperMod 主题的个人网站正式上线，要做的还有很多。
+- 2021.11.03, 网站正式支持 [PWA](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps) ，来试试吧！
