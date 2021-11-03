@@ -103,6 +103,8 @@ params:
         #     SiteVerificationTag: "XYZabc"
         yandex:
             SiteVerificationTag: "73b1a797f62c0e98"
+        baidu:
+            SiteVerificationTag: "code-gnOrbP1RyC"
     baiduUnionVerify: "4c552c344295cb984c46ebe74962b067"
     googleAdSense: ca-pub-7296634171837358
     umamiCodeID: 3d947a98-2774-46b0-805f-fe2e4877a1d7
