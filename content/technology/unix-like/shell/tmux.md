@@ -3,7 +3,7 @@ title: "Tmux"
 date: 2021-10-31T00:26:08+08:00
 description: "一个终端复用器。"
 categories: ["技术笔记集","shell 命令集"]
-tags: ["linux", "linux-app","tmux"]
+tags: ["linux","tmux"]
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "VIM 文件自动添加头部注释的方法"
 date: 2021-11-03T14:13:38+08:00
 description: "一种 vim 创建文件时自动添加头部注释的方法"
 categories: ["技术笔记集","vim 配置集"]
-tags: ["linux", "linux-app","tmux", "vim"]
+tags: ["linux", "vim"]
 draft: false
 ---
 

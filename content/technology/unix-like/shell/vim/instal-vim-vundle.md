@@ -3,7 +3,7 @@ title: "Vim 安装插件管理器 Vundle"
 date: 2021-11-03T14:04:30+08:00
 description: "Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器"
 categories: ["技术笔记集","vim 配置集"]
-tags: ["linux", "linux-app","tmux", "vim"]
+tags: ["linux", "vim"]
 draft: false
 ---
 

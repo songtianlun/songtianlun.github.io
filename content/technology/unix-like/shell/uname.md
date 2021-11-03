@@ -3,7 +3,7 @@ title: "Uname"
 date: 2021-10-31T11:47:24+08:00
 description: "打印当前计算机和操作系统的名称、版本及其他细节."
 categories: ["技术笔记集","shell 命令集"]
-tags: ["linux", "linux-app","uname"]
+tags: ["linux","uname"]
 draft: false
 ---
 
