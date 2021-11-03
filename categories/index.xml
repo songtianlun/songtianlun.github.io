@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Nov 2021 00:14:14 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:13:38 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vim 配置集</title>
+      <link>https://www.frytea.com/categories/vim-%E9%85%8D%E7%BD%AE%E9%9B%86/</link>
+      <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/vim-%E9%85%8D%E7%BD%AE%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术笔记集</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+      <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>人生复盘</title>
       <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</link>
@@ -21,11 +39,11 @@
     </item>
     
     <item>
-      <title>unix-like</title>
-      <link>https://www.frytea.com/categories/unix-like/</link>
+      <title>shell 命令集</title>
+      <link>https://www.frytea.com/categories/shell-%E5%91%BD%E4%BB%A4%E9%9B%86/</link>
       <pubDate>Sun, 31 Oct 2021 11:47:24 +0800</pubDate>
       
-      <guid>https://www.frytea.com/categories/unix-like/</guid>
+      <guid>https://www.frytea.com/categories/shell-%E5%91%BD%E4%BB%A4%E9%9B%86/</guid>
       <description></description>
     </item>
     

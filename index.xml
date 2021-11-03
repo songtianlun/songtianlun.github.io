@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 Nov 2021 00:14:14 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:13:38 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VIM 文件自动添加头部注释的方法</title>
+      <link>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</link>
+      <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/shell/vim/vim-auto-file-header/</guid>
+      <description>一种 vim 创建文件时自动添加头部注释的方法</description>
+    </item>
+    
+    <item>
+      <title>Vim 安装插件管理器 Vundle</title>
+      <link>https://www.frytea.com/technology/unix-like/shell/vim/instal-vim-vundle/</link>
+      <pubDate>Wed, 03 Nov 2021 14:04:30 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/shell/vim/instal-vim-vundle/</guid>
+      <description>Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器</description>
+    </item>
+    
     <item>
       <title>「2021年10月复盘 ｜ 正秋时</title>
       <link>https://www.frytea.com/retrospective/2021-10/</link>
@@ -22,19 +40,19 @@
     
     <item>
       <title>Uname</title>
-      <link>https://www.frytea.com/technology/unix-like/uname/</link>
+      <link>https://www.frytea.com/technology/unix-like/shell/uname/</link>
       <pubDate>Sun, 31 Oct 2021 11:47:24 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/uname/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/shell/uname/</guid>
       <description>打印当前计算机和操作系统的名称、版本及其他细节.</description>
     </item>
     
     <item>
       <title>Tmux</title>
-      <link>https://www.frytea.com/technology/unix-like/tmux/</link>
+      <link>https://www.frytea.com/technology/unix-like/shell/tmux/</link>
       <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/tmux/</guid>
+      <guid>https://www.frytea.com/technology/unix-like/shell/tmux/</guid>
       <description>一个终端复用器。</description>
     </item>
     
