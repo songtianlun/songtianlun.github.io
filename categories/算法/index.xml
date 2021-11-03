@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tcpdump on Frytea</title>
-    <link>https://www.frytea.com/tags/tcpdump/</link>
-    <description>Recent content in tcpdump on Frytea</description>
+    <title>算法 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 算法 on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:48:31 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/tcpdump/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 14:48:31 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C 实现零空间开销交换两个数的值</title>
       <link>https://www.frytea.com/technology/ccpp/c-switch-two-number-with-one-line/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://www.frytea.com/technology/ccpp/c-switch-two-number-with-one-line/</guid>
       <description>C 实现的不引入新变量交换两数的方法.</description>
-    </item>
-    
-    <item>
-      <title>Tcpdump</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</link>
-      <pubDate>Wed, 03 Nov 2021 14:37:08 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</guid>
-      <description>一个运行在命令行下的抓包工具.</description>
     </item>
     
   </channel>
