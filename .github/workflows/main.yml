@@ -40,8 +40,7 @@ jobs:
 
       - name: Install automic-algolia
         run: | 
-          npm init
-          npm install atomic-algolia
+          npm install atomic-algolia -g
           npm run algolia
         env:
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
