@@ -65,7 +65,7 @@ params:
         imageHeight: 120
         imageTitle: frytea logo
         buttons:
-            - name: ✒️ 文章
+            - name: ✒️ 随笔
               url: posts/
             - name: 💻 技术
               url: technology/
