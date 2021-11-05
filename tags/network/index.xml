@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>network on Frytea</title>
+    <link>https://www.frytea.com/tags/network/</link>
+    <description>Recent content in network on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Nov 2021 00:32:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 20.04 修改网卡配置</title>
+      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</link>
+      <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</guid>
+      <description>Ubuntu 新版网络配置方法.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 16.04 网卡配置方法</title>
+      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</link>
+      <pubDate>Fri, 05 Nov 2021 00:30:54 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</guid>
+      <description>Ubuntu 旧版网卡配置方法.</description>
+    </item>
+    
+  </channel>
+</rss>

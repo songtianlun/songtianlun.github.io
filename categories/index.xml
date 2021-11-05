@@ -10,13 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:48:31 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 01:20:18 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perl 笔记</title>
+      <link>https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>技术笔记集</title>
       <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
-      <pubDate>Wed, 03 Nov 2021 14:48:31 +0800</pubDate>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
       
       <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux 笔记</title>
+      <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Wed, 03 Nov 2021 14:48:31 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E7%AE%97%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux 笔记</title>
-      <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     

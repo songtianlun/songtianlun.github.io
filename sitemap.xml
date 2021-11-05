@@ -2,22 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.frytea.com/technology/ccpp/c-switch-two-number-with-one-line/</loc>
-    <lastmod>2021-11-03T14:48:31+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-03T14:48:31+08:00</lastmod>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-11-03T14:48:31+08:00</lastmod>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/linux/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/perl/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/perl/build-install-perl/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/libvirt/</loc>
+    <lastmod>2021-11-05T01:11:27+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-11-05T01:11:27+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</loc>
+    <lastmod>2021-11-05T01:11:27+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/ubuntu/</loc>
+    <lastmod>2021-11-05T01:11:27+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/virt-manager/</loc>
+    <lastmod>2021-11-05T01:11:27+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/apt/</loc>
+    <lastmod>2021-11-05T00:46:42+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/debian/</loc>
+    <lastmod>2021-11-05T00:46:42+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</loc>
+    <lastmod>2021-11-05T00:46:42+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/network/</loc>
+    <lastmod>2021-11-05T00:32:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</loc>
+    <lastmod>2021-11-05T00:32:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</loc>
+    <lastmod>2021-11-05T00:30:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/ccpp/c-switch-two-number-with-one-line/</loc>
     <lastmod>2021-11-03T14:48:31+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -27,28 +112,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/</loc>
-    <lastmod>2021-11-03T14:48:31+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
-    <lastmod>2021-11-03T14:48:31+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-11-03T14:48:31+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2021-11-03T14:44:16+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-11-03T14:44:16+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

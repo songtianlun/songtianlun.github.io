@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Perl 笔记 on Frytea</title>
+    <link>https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in Perl 笔记 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Nov 2021 01:20:18 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perl 编译安装 （Linux）</title>
+      <link>https://www.frytea.com/technology/perl/build-install-perl/</link>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/perl/build-install-perl/</guid>
+      <description>Centos 下演示编译安装 Perl 环境的方法.</description>
+    </item>
+    
+  </channel>
+</rss>

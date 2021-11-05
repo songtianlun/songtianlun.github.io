@@ -10,22 +10,85 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:48:31 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 01:20:18 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>perl</title>
+      <link>https://www.frytea.com/tags/perl/</link>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libvirt</title>
+      <link>https://www.frytea.com/tags/libvirt/</link>
+      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/libvirt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://www.frytea.com/tags/ubuntu/</link>
+      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virt-manager</title>
+      <link>https://www.frytea.com/tags/virt-manager/</link>
+      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/virt-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apt</title>
+      <link>https://www.frytea.com/tags/apt/</link>
+      <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/apt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://www.frytea.com/tags/debian/</link>
+      <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://www.frytea.com/tags/network/</link>
+      <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/network/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>tcpdump</title>
       <link>https://www.frytea.com/tags/tcpdump/</link>
       <pubDate>Wed, 03 Nov 2021 14:48:31 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/tcpdump/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
