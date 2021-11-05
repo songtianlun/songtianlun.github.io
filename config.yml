@@ -70,7 +70,7 @@ params:
             - name: 💻 技术
               url: technology/
             - name: 🤔 复盘
-              url: retrospective/
+              url: tags/retrospective/
             # - name: 💡 灵感
             #   url: ideas/
             - name: 📷 摄影
