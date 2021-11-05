@@ -1,5 +1,5 @@
 ---
-title: "配置 Ubuntu 软件包管理 apt 的国内镜像源"
+title: "配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）"
 date: 2021-11-05T00:46:42Z
 description: "Ubuntu 软件包管理采用国内镜像源的配置方法."
 categories: ["技术笔记集","Linux 笔记"]
