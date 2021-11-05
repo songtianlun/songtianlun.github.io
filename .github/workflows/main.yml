@@ -35,5 +35,5 @@ jobs:
           
       # 用docker容器上传algolia索引文件
       # - uses: actions/checkout@v2
-      - name: Run container for atomic-algolia
-        run: docker run --rm -e ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} -e ALGOLIA_INDEX_FILE=/public/algolia.json -e ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }} -e ALGOLIA_INDEX_NAME=${{ secrets.ALGOLIA_INDEX_NAME }} -v $PWD/public:/public registry.cn-shenzhen.aliyuncs.com/lan-k8s/ubuntu:algolia atomic-algolia
+      #- name: Run container for atomic-algolia
+      #  run: docker run --rm -e ALGOLIA_ADMIN_KEY=${{ secrets.ALGOLIA_ADMIN_KEY }} -e ALGOLIA_INDEX_FILE=/public/algolia.json -e ALGOLIA_APP_ID=${{ secrets.ALGOLIA_APP_ID }} -e ALGOLIA_INDEX_NAME=${{ secrets.ALGOLIA_INDEX_NAME }} -v $PWD/public:/public registry.cn-shenzhen.aliyuncs.com/lan-k8s/ubuntu:algolia atomic-algolia
