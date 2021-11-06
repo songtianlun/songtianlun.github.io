@@ -141,6 +141,9 @@ params:
         avatar: Tianlun Song
         placeholder: 说点什么吧...
         visitor: true
+    algolia:
+      vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+      params: ["categories", "tags"]
 menu:
     main:
         - identifier: categories
@@ -168,6 +171,14 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+        - Algolia
+
+outputFormats:
+    Algolia:
+      baseName: "algolia"
+      isPlainText: true
+      mediaType: "application/json"
+      notAlternative: true
 
 sitemap:
   changefreq: monthly
