@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Nov 2021 01:20:18 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Nov 2021 16:41:41 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>news</title>
+      <link>https://www.frytea.com/categories/news/</link>
+      <pubDate>Sat, 06 Nov 2021 16:41:41 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>奇思妙想</title>
+      <link>https://www.frytea.com/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/</link>
+      <pubDate>Sat, 06 Nov 2021 16:41:41 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Perl 笔记</title>
       <link>https://www.frytea.com/categories/perl-%E7%AC%94%E8%AE%B0/</link>
@@ -71,15 +89,6 @@
       <pubDate>Mon, 01 Nov 2021 00:14:14 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>news</title>
-      <link>https://www.frytea.com/categories/news/</link>
-      <pubDate>Thu, 21 Oct 2021 00:42:29 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/news/</guid>
       <description></description>
     </item>
     

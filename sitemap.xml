@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/news/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/%E4%B8%AD%E5%9B%BD%E5%B4%9B%E8%B5%B7/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/embrace-open-source-and-rise-of-chinese-technology/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-11-06T16:41:41+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -28,11 +68,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/technology/perl/build-install-perl/</loc>
-    <lastmod>2021-11-05T01:20:18+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2021-11-05T01:20:18+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -187,11 +222,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/posts/</loc>
-    <lastmod>2021-11-01T00:14:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/retrospective/</loc>
     <lastmod>2021-11-01T00:14:14+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -229,11 +259,6 @@
   </url><url>
     <loc>https://www.frytea.com/app-list/</loc>
     <lastmod>2021-10-28T07:08:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/news/</loc>
-    <lastmod>2021-10-21T00:42:29+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

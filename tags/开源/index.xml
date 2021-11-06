@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>news on Frytea</title>
-    <link>https://www.frytea.com/categories/news/</link>
-    <description>Recent content in news on Frytea</description>
+    <title>开源 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E5%BC%80%E6%BA%90/</link>
+    <description>Recent content in 开源 on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 06 Nov 2021 16:41:41 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Nov 2021 16:41:41 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>拥抱开源将是中国技术崛起最佳途径</title>
       <link>https://www.frytea.com/posts/embrace-open-source-and-rise-of-chinese-technology/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://www.frytea.com/posts/embrace-open-source-and-rise-of-chinese-technology/</guid>
       <description>一个终端复用器。</description>
-    </item>
-    
-    <item>
-      <title>「煎茶」正式上线啦</title>
-      <link>https://www.frytea.com/posts/a-new-website/</link>
-      <pubDate>Thu, 21 Oct 2021 00:42:29 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/posts/a-new-website/</guid>
-      <description>一个全新的网站，重装上阵。</description>
     </item>
     
   </channel>
