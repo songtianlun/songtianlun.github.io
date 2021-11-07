@@ -171,14 +171,6 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
-        - Algolia
-
-outputFormats:
-    Algolia:
-      baseName: "algolia"
-      isPlainText: true
-      mediaType: "application/json"
-      notAlternative: true
 
 sitemap:
   changefreq: monthly
@@ -204,3 +196,4 @@ markup:
     renderer:
       unsafe: true
 #### 允许 html 渲染 end #### 
+
