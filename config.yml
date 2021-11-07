@@ -144,6 +144,10 @@ params:
     algolia:
       vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
       params: ["categories", "tags"]
+      appId: "SY75R7MWL1"
+      indexName: "article"
+      searchOnlyKey: "b41779cc74b4658395f902d11d3ade78"  # Search-Only API Key
+  
 menu:
     main:
         - identifier: categories
