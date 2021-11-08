@@ -24,7 +24,7 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: false
     disablePWA: false
-    
+
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
@@ -39,7 +39,7 @@ params:
     hidemeta: false
     hideSummary: false
     showtoc: true
-    tocopen: false
+    tocopen: true
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -147,7 +147,7 @@ params:
       appId: "SY75R7MWL1"
       indexName: "article"
       searchOnlyKey: "b41779cc74b4658395f902d11d3ade78"  # Search-Only API Key
-  
+
 menu:
     main:
         - identifier: categories
@@ -199,5 +199,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-#### 允许 html 渲染 end #### 
+#### 允许 html 渲染 end ####
 
