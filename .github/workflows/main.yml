@@ -33,10 +33,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
 
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
+#      - name: Use Node.js
+#        uses: actions/setup-node@v1
+#        with:
+#          node-version: '12.x'
 
       - name: Push algolia search index
         run: |
