@@ -10,7 +10,6 @@
         "use": "@cloudbase/framework-plugin-website",
         "inputs": {
           "outputPath": "public",
-          "cloudPath": "/public",
           "ignore": [".git", ".github", "node_modules", "cloudbaserc.js"]
         }
       }
