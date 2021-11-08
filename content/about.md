@@ -1,6 +1,6 @@
 ---
 title: "关于"
-# layout: "disclaimer"
+layout: "about"
 url: "/about/"
 summary: about
 ---
