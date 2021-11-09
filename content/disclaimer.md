@@ -3,6 +3,7 @@ title: "免责声明"
 # layout: "disclaimer"
 url: "/disclaimer/"
 summary: disclaimer
+TocOpen: false
 ---
 
 ## 版权信息

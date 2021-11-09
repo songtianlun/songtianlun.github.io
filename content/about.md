@@ -3,6 +3,7 @@ title: "关于"
 layout: "about"
 url: "/about/"
 summary: about
+TocOpen: false
 ---
 
 ## 关于本站

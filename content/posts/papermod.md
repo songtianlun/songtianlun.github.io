@@ -21,7 +21,7 @@ ShowPostNavLinks: true
 cover:
     image: "https://imagehost-cdn.frytea.com/images/2021/10/07/david-schultz-SrewPUfo2c0-unsplash2c2ed2f51402a7ae.jpg" # image path/url
     alt: "cover" # alt text
-    caption: "My first" # display caption under cover
+    #caption: "My first" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
@@ -30,10 +30,13 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+## test1 
+
 dsfas;fjds;jfadsj;flk
 
 dfljasd;fj slaj f
 
+## test2 
 
 dsf asdj;f lsdja fjsa
 
