@@ -12,6 +12,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
+      <link>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</link>
+      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
+      <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
+    </item>
+    
+    <item>
       <title>Perl 编译安装 （Linux）</title>
       <link>https://www.frytea.com/technology/perl/build-install-perl/</link>
       <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
