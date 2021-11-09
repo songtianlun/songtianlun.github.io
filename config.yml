@@ -82,9 +82,9 @@ params:
               url: https://blog.frytea.com
 
     # home-info mode
-    homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+#    homeInfoParams:
+#        Title: "Hi there \U0001F44B"
+#        Content: Welcome to my blog
 
     socialIcons:
         - name: github
