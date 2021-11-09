@@ -43,3 +43,4 @@ TocOpen: false
 - 2021.10.26, 分析了现有网站的利弊之后，决定自己定制网站，使用 Hugo 引擎；
 - 2021.10.27, 采用定制 PaperMod 主题的个人网站正式上线，要做的还有很多。
 - 2021.11.03, 网站正式支持 [PWA](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps) ，来试试吧！
+- 2021.11.09, 本站正式签订[《十年之约》](https://www.foreverblog.cn)，与千名站长一起狂欢，保持独立原创网站更新和活力！
