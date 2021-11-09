@@ -158,10 +158,10 @@ menu:
           name: 🏷️ 标签
           url: /tags/
           weight: 20
-        - identifier: archives
-          name: 🗃 归档
-          url: /archives/
-          weight: 30
+#        - identifier: archives
+#          name: 🗃 归档
+#          url: /archives/
+#          weight: 30
         - identifier: search
           name: 🔍 搜索
           url: /search/
