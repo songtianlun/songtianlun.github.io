@@ -32,6 +32,7 @@ params:
     ShowCodeCopyButtons: false
     ShowFullTextinRSS: false
     ShowAllPagesInArchive: true
+    ShowWormhole: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     disableAnchoredHeadings: fase
