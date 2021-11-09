@@ -166,6 +166,10 @@ menu:
           name: 🔍 搜索
           url: /search/
           weight: 40
+        - identifier: travelling
+          name: 🚇 开往
+          url: https://travellings.link
+          weight: 50
         # - identifier: example
         #   name: example.org
         #   url: https://example.org
