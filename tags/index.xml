@@ -10,22 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Nov 2021 07:49:13 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Nov 2021 10:18:19 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fdisk</title>
-      <link>https://www.frytea.com/tags/fdisk/</link>
-      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
+      <title>docker</title>
+      <link>https://www.frytea.com/tags/docker/</link>
+      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/tags/fdisk/</guid>
+      <guid>https://www.frytea.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
+      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SW</title>
+      <link>https://www.frytea.com/tags/sw/</link>
+      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/sw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uos</title>
+      <link>https://www.frytea.com/tags/uos/</link>
+      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/uos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fdisk</title>
+      <link>https://www.frytea.com/tags/fdisk/</link>
+      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/fdisk/</guid>
       <description></description>
     </item>
     

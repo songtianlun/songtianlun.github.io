@@ -12,12 +12,21 @@
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
+      <link>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</link>
+      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</guid>
+      <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
+    </item>
+    
+    <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
       <link>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</link>
       <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
       
       <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
-      <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
+      <description>新硬盘从分区到挂载的全流程指南.</description>
     </item>
     
     <item>
