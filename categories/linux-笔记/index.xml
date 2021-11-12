@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Nov 2021 10:18:19 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 23:54:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 VPS/群晖 搭建『云端/内网 浏览器』</title>
+      <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>
+      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</guid>
+      <description>云端服务器安装远程浏览器。</description>
+    </item>
+    
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
       <link>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</link>

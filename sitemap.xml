@@ -2,37 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.frytea.com/technology/app-list/</loc>
+    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/docker/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/sw/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
+    <loc>https://www.frytea.com/tags/synology/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/vps/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/sw/</loc>
     <lastmod>2021-11-10T10:18:19+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -43,11 +73,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-11-10T10:18:19+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2021-11-10T10:18:19+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -328,11 +353,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/windows/</loc>
-    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/app-list/</loc>
     <lastmod>2021-10-28T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

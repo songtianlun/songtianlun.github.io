@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Nov 2021 10:18:19 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 23:54:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>优质软件集</title>
+      <link>https://www.frytea.com/technology/app-list/</link>
+      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/app-list/</guid>
+      <description>汇集常用优质软件.</description>
+    </item>
+    
+    <item>
+      <title>使用 VPS/群晖 搭建『云端/内网 浏览器』</title>
+      <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>
+      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</guid>
+      <description>云端服务器安装远程浏览器。</description>
+    </item>
+    
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
       <link>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</link>
@@ -180,15 +198,6 @@
       
       <guid>https://www.frytea.com/technology/unix-like/cmd/tmux/</guid>
       <description>一个终端复用器。</description>
-    </item>
-    
-    <item>
-      <title>优质软件集</title>
-      <link>https://www.frytea.com/technology/app-list/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/technology/app-list/</guid>
-      <description>汇集常用优质软件.</description>
     </item>
     
   </channel>
