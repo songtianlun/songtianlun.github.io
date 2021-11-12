@@ -322,7 +322,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/app-list/</loc>
+    <loc>https://www.frytea.com/tags/macos/</loc>
+    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/windows/</loc>
+    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/app-list/</loc>
     <lastmod>2021-10-28T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
