@@ -5,6 +5,7 @@ description: "汇集常用优质软件."
 categories: ["技术笔记集"]
 tags: ["linux", "windows", "macos"]
 draft: false
+weight: 5
 ---
 
 | 名称 | 类别 | 平台 | 获取 |
