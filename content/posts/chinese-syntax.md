@@ -43,10 +43,10 @@ Blockquote 元素表示从其他来源引用的内容，可以选择使用一个
 
 表格并不是 Markdown 规范的核心部分，但是 Hugo 支持开箱即用。
 
-| Name  | Age | Name  | Age | Name  | Age | Name  | Age | Name  | Age |
+| Name  | Age | Name  | Age | Name  | Age | Name  | Age | Name  | long |
 | ----- | --- | ----- | --- | ----- | --- | ----- | --- | ----- | --- |
-| Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | 27  |
-| Alice | 23  | Alice | 23  | Alice | 23  | Alice | 23  | Alice | 23  |
+| Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | 27  | Bob   | sdfiajs;fjsdkfjadslkfj;lkdsajflkadsjflkasdjf  |
+| Alice | 23  | Alice | 23  | Alice | 23  | Alice | 23  | Alice | dshfisadhfjsdakfja;lsdjf;lkdsajflkadsjl;fjl  |
 
 ### 表内嵌 Markdown
 
