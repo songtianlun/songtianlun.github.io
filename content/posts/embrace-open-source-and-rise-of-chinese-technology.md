@@ -2,7 +2,7 @@
 title: "拥抱开源将是中国技术崛起最佳途径"
 date: 2021-11-06T16:41:41+08:00
 description: "科技巨头的垄断行为正阻碍着中国乃至世界的发展"
-categories: ["news","奇思妙想"]
+categories: ["news","思考杂谈"]
 tags: ["开源","自由软件","中国崛起"]
 draft: false
 ---
