@@ -1,6 +1,7 @@
 baseURL: https://www.frytea.com/
 defaultContentLanguage: "zh"
 languageCode: zh-cn
+hasCJKLanguage: true # 设定网站有 CJK 字符（中日韩统一表意文字）
 title: Frytea
 paginate: 5
 theme: "PaperMod"
@@ -24,8 +25,10 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: false
     disablePWA: false
+    disableBuSuanZi: false
 
     ShowReadingTime: true
+    ShowWordNumber: true
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
