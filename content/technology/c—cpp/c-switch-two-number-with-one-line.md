@@ -17,7 +17,7 @@ draft: false
 ## 方法一
 
 ```c
-void swap(int *p, int *q)
+void swap(int *a, int *b)
 {
     *a = *a ^ *b;
     *b = *b ^ *a;
