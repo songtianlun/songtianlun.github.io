@@ -50,9 +50,18 @@
     <item>
       <title>news</title>
       <link>https://www.frytea.com/categories/news/</link>
-      <pubDate>Sun, 07 Nov 2021 20:27:26 +0800</pubDate>
+      <pubDate>Wed, 10 Nov 2021 13:58:14 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>思考杂谈</title>
+      <link>https://www.frytea.com/categories/%E6%80%9D%E8%80%83%E6%9D%82%E8%B0%88/</link>
+      <pubDate>Wed, 10 Nov 2021 13:58:14 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%80%9D%E8%80%83%E6%9D%82%E8%B0%88/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Sun, 07 Nov 2021 20:27:26 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E6%B8%B8%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>奇思妙想</title>
-      <link>https://www.frytea.com/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/</link>
-      <pubDate>Sat, 06 Nov 2021 16:41:41 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/</guid>
       <description></description>
     </item>
     
