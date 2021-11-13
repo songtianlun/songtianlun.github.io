@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Nov 2021 23:54:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 23:57:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇集常用优质软件.</description>
+    </item>
+    
+    <item>
+      <title>谈谈原创独立博客的未来 ｜ 互联网同质化的今天如何创新</title>
+      <link>https://www.frytea.com/posts/how-to-innovate-today-when-the-internet-is-homogenized/</link>
+      <pubDate>Sat, 13 Nov 2021 23:57:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/how-to-innovate-today-when-the-internet-is-homogenized/</guid>
+      <description>科技的发展是否压制了人们的创造力?</description>
     </item>
     
     <item>

@@ -7,17 +7,47 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <loc>https://www.frytea.com/tags/blog/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/docker/</loc>
-    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
+    <loc>https://www.frytea.com/categories/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/news/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%80%9D%E8%80%83%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/how-to-innovate-today-when-the-internet-is-homogenized/</loc>
+    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/docker/</loc>
     <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -33,11 +63,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/synology/</loc>
-    <lastmod>2021-11-12T23:54:19+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2021-11-12T23:54:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -79,26 +104,6 @@
   </url><url>
     <loc>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</loc>
     <lastmod>2021-11-10T10:18:19+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/blog/</loc>
-    <lastmod>2021-11-10T13:58:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/news/</loc>
-    <lastmod>2021-11-10T13:58:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/posts/</loc>
-    <lastmod>2021-11-10T13:58:14+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%80%9D%E8%80%83%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2021-11-10T13:58:14+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
