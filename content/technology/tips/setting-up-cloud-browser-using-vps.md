@@ -5,6 +5,12 @@ description: "云端服务器安装远程浏览器。"
 categories: ["技术笔记集","Linux 笔记","技术技巧集"]
 tags: ["linux", "docker", "vps", "synology"]
 draft: false
+cover:
+    image: "https://imagehost-cdn.frytea.com/images/2021/11/15/1479a399cf3d8cd5f39166f4236f488b09e046cada67bf0b.png" # image path/url
+    alt: "cover" # alt text
+    #caption: "My first" # display caption under cover
+    relative: true # when using page bundles set this to true
+    hidden: false # only hide on current single page
 ---
 
 为了操作家里的群晖服务器，之前一直是通过 VPN 或是Todesk、向日葵连入家里旧电脑的 Win 桌面进行操作的，需要使用浏览器下载一些内容时也必须通过 Win 桌面挂机实现。就在最近这台挂机用的电脑出问题了，于是我在想能不能使用 Docker 启一个浏览器直接连入局域网呢？
