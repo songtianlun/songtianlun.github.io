@@ -8,6 +8,7 @@ draft: false
 weight: 5
 ---
 
-| 名称 | 类别 | 平台 | 获取 |
-| :--: | :--: | :--: | :--: |
-| flameshot | `工具` `截图`  | `Linux`/`MacOS`/`Win` | [GitHub](https://github.com/flameshot-org/flameshot) [官网](https://flameshot.org/) |
+| 名称 | 类别 | 平台 | 获取 | 备注 |
+| :--: | :--: | :--: | :--: | :--: |
+| flameshot | `工具` `截图`  | `Linux`/`MacOS`/`Win` | [GitHub](https://github.com/flameshot-org/flameshot) [官网](https://flameshot.org/) | \ |
+| Apple Music Electron | `音乐` | `Linux`/`MacOS`/`Win` | [GitHub](https://github.com/Apple-Music-Electron/Apple-Music-Electron) [官网](https://applemusicelectron.com/) | Linux 平台使用 Apple Music |
