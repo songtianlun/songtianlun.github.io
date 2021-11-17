@@ -52,17 +52,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/posts/</loc>
+    <lastmod>2021-11-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/blog/</loc>
     <lastmod>2021-11-13T23:57:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/news/</loc>
-    <lastmod>2021-11-13T23:57:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/posts/</loc>
     <lastmod>2021-11-13T23:57:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
