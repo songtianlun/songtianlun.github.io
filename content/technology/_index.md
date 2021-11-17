@@ -1,6 +1,6 @@
 ---
-title: My Technology Note
-description: Welcome to my technology note.
+title: 技术文集
+description: 汇集开发技巧、计算机基础知识以及有趣的技术技巧，内容涉及开发者和普通用户，欢迎探索！
 date: 2021-11-07
 publishdate: 2021-11-07
 ---
