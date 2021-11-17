@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇集常用优质软件.</description>
+    </item>
+    
+    <item>
+      <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
+      <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
+      <description>故事开始的地方，深入 Linux 系统的启动流程，自己编译内核并制作根文件系统，并使用 QEMU 模拟启动.</description>
     </item>
     
     <item>

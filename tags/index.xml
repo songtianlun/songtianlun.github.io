@@ -10,22 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>geekbach</title>
-      <link>https://www.frytea.com/tags/geekbach/</link>
-      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      <title>busybox</title>
+      <link>https://www.frytea.com/tags/busybox/</link>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/tags/geekbach/</guid>
+      <guid>https://www.frytea.com/tags/busybox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>https://www.frytea.com/tags/qemu/</link>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rootfs</title>
+      <link>https://www.frytea.com/tags/rootfs/</link>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/rootfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geekbach</title>
+      <link>https://www.frytea.com/tags/geekbach/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/geekbach/</guid>
       <description></description>
     </item>
     

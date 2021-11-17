@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>busybox on Frytea</title>
+    <link>https://www.frytea.com/tags/busybox/</link>
+    <description>Recent content in busybox on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/busybox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
+      <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
+      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
+      <description>故事开始的地方，深入 Linux 系统的启动流程，自己编译内核并制作根文件系统，并使用 QEMU 模拟启动.</description>
+    </item>
+    
+  </channel>
+</rss>
