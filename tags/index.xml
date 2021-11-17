@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Nov 2021 23:57:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>geekbach</title>
+      <link>https://www.frytea.com/tags/geekbach/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/geekbach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unixbench</title>
+      <link>https://www.frytea.com/tags/unixbench/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/unixbench/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://www.frytea.com/tags/blog/</link>
@@ -26,15 +53,6 @@
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     

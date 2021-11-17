@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Nov 2021 23:54:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇集常用优质软件.</description>
+    </item>
+    
+    <item>
+      <title>两种终端跑分方法介绍 | Linux 下如何跑分</title>
+      <link>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</guid>
+      <description>介绍两种 Linux 环境下测试硬件性能的方法.</description>
     </item>
     
     <item>

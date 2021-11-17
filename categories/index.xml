@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Nov 2021 23:57:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 笔记</title>
+      <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术笔记集</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>news</title>
       <link>https://www.frytea.com/categories/news/</link>
@@ -30,29 +48,11 @@
     </item>
     
     <item>
-      <title>Linux 笔记</title>
-      <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>技术技巧集</title>
       <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术笔记集</title>
-      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
       <description></description>
     </item>
     
