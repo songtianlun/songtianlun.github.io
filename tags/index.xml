@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 19:30:35 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021</title>
+      <link>https://www.frytea.com/tags/2021/</link>
+      <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dentist</title>
+      <link>https://www.frytea.com/tags/dentist/</link>
+      <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/dentist/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>busybox</title>
       <link>https://www.frytea.com/tags/busybox/</link>
@@ -143,15 +161,6 @@
       <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/mount/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2021</title>
-      <link>https://www.frytea.com/tags/2021/</link>
-      <pubDate>Sun, 07 Nov 2021 20:27:26 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2021/</guid>
       <description></description>
     </item>
     

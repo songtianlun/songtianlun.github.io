@@ -7,17 +7,42 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/busybox/</loc>
-    <lastmod>2021-11-17T03:29:39+00:00</lastmod>
+    <loc>https://www.frytea.com/tags/2021/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-11-17T03:29:39+00:00</lastmod>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/dentist/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/documentary/third-root-canal-therapy-eight-years-later/</loc>
+    <lastmod>2021-11-20T19:30:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/busybox/</loc>
     <lastmod>2021-11-17T03:29:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,11 +63,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/rootfs/</loc>
-    <lastmod>2021-11-17T03:29:39+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2021-11-17T03:29:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -164,11 +184,6 @@
   </url><url>
     <loc>https://www.frytea.com/tags/mount/</loc>
     <lastmod>2021-11-09T07:49:13+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/2021/</loc>
-    <lastmod>2021-11-07T20:27:26+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
