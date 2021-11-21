@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2021-11-21T07:27:12.479Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="9qmlerA3P3bGV6R0r4oy" version="15.3.5" type="github">
+  <diagram id="YgtcaARV4qq0c6kwkRDJ" name="Page-1">
+    <mxGraphModel dx="1350" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NmMHFaE2mOKTvwyClcih-1" value="&lt;a href=&quot;https://www.frytea.com/&quot;&gt;Homapage&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
