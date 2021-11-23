@@ -36,6 +36,7 @@ params:
     ShowFullTextinRSS: false
     ShowAllPagesInArchive: true
     ShowWormhole: true
+    ShowReprinted: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     disableAnchoredHeadings: fase

@@ -4,6 +4,7 @@ layout: "about"
 url: "/about/"
 summary: about
 TocOpen: false
+disableReprinted: true
 ---
 
 ## 关于本站

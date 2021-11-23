@@ -4,6 +4,7 @@ title: "免责声明"
 url: "/disclaimer/"
 summary: disclaimer
 TocOpen: false
+disableReprinted: true
 ---
 
 ## 版权信息
