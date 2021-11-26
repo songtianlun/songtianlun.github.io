@@ -10,31 +10,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Nov 2021 19:30:35 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>人生轨迹</title>
-      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</link>
-      <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 26 Nov 2021 16:16:40 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 笔记</title>
       <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>国产化笔记</title>
+      <link>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>技术笔记集</title>
       <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
-      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
+      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>人生轨迹</title>
+      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</link>
+      <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>国产化笔记</title>
-      <link>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     

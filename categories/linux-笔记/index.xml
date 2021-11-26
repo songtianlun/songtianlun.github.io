@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 16:16:40 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
+      <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
+      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</guid>
+      <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
+    </item>
+    
     <item>
       <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
       <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
@@ -40,10 +49,10 @@
     
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</link>
+      <link>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
       <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/sw-1621-with-uos20-compiler-installed-docke/</guid>
+      <guid>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
       <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
     </item>
     
