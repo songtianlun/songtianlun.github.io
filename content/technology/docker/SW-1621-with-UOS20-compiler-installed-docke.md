@@ -47,6 +47,12 @@ $ sudo make install
 install -D -m0755 runc /usr/local/sbin/runc
 ```
 
+- 可能需要解决 `Package libseccomp was not found in the pkg-config search path.` 问题：
+
+```bash
+sudo apt install libseccomp-dev
+```
+
 ### 本地编译 containerd
 
 1.解压 `containerd` 源码至 `~/go/src/github.com/containerd` 目录，重命名为 `containerd`；
@@ -106,6 +112,15 @@ $ make
 + binaries
 $ sudo make install                   
 + install bin/ctr bin/containerd bin/containerd-stress bin/containerd-shim bin/containerd-shim-runc-v1 bin/containerd-shim-runc-v2
+```
+
+- 可能需要解决`fatal error: btrfs/ioctl.h: No such file or directory` 问题
+
+```bash
+# debian 系
+$ sudo apt-get install libbtrfs-dev
+# redhat 系
+$ yum install btrfs-progs-devel
 ```
 
 6. 使用 `systemd` 管理 `containerd` 服务。首先将 `containerd` 主目录下的 `containerd.service` 文件复制到 `/usr/lib/systemd/system/` 目录，然后执行 `systemctl daemon-reload` 、 `systemctl start containerd` 、 `systemctl enable containerd`，最后执行 `systemctl status containerd` 查看服务状态。
@@ -177,7 +192,7 @@ WARNING: binary creates a Linux executable. Use cross for macOS or Windows.
 ./scripts/build/binary                                                                               
 Building statically linked build/docker-linux-sw64
 
-$ sudo cp docker /usr/bin/
+$ sudo cp build/docker /usr/bin/
 ```
 
 ### 编译 `dockerd`
@@ -185,7 +200,7 @@ $ sudo cp docker /usr/bin/
 1.进入 `docker` 目录，替换 `vendor/golang.org/x/sys/unix` 目录为申威平台 `golang1.14.1` 源码中的 `go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix` 目录。
 
 ```bash
-$ cp -r ~/data/go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix vendor/golang.org/x/sys/unix
+$ cp -r ~/go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix vendor/golang.org/x/sys/unix
 ```
 
 2.修改 `vendor/github.com/containerd/fifo/handle_linux.go` 文件，将 `const O_PATH=010000000` 改为 `040000000`。
@@ -235,9 +250,10 @@ esac
 dynbinary-daemon` 进行本地编译，编译后得到的二进制文件在 `bundles` 目录下。
 
 ```bash
+# 记得修改 GOPATH 为您 go env 输出的内容
 $ VERSION=18.09.9 GOPATH="/home/songtianlun/go" DOCKER_GITCOMMIT=new ./hack/make.sh
 $ sudo cp bundles/binary-daemon/dockerd /usr/bin/
-sudo VERSION=18.09.9 GOPATH="/home/songtianlun/go" DOCKER_GITCOMMIT=new KEEPBUNDLE=1 ./hack/make.sh install-binary
+~~sudo VERSION=18.09.9 GOPATH="/home/songtianlun/go" DOCKER_GITCOMMIT=new KEEPBUNDLE=1 ./hack/make.sh install-binary~~
 ```
 
 ### 编译 `docker-init`
@@ -298,7 +314,7 @@ $ git clone https://github.com/moby/libnetwork.git
 2.进入 `libnetwork` 主目录，替换 `vendor/golang.org/x/sys/unix` 目录为申威平台`golang1.14.1` 源码中的 `go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix` 目录。
 
 ```bash
-$ cp -r ~/data/go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix vendor/golang.org/x/sys/unix
+$ cp -r ~/go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix vendor/golang.org/x/sys/unix
 ```
 
 3.进入 `cmd/proxy` 目录，执行 `CGO_ENABLED=0 go build -o docker-proxy` ，得到 `docker-proxy` 二进制文件。
@@ -387,6 +403,9 @@ $ yum install device-mapper-devel
 [go-sw64-1.14.1.tar.gz](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7edfa4fe-596d-45ed-aecb-ead3a2f878af/go-sw64-1.14.1.tar.gz)
 
 [docker-18.09.9-sw64.tar.gz](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db572ead-47b1-474d-8b30-4a9ee9bdc501/docker-18.09.9-sw64.tar.gz)
+
+> 附件若无法下载请转到本文的 Notion 共享页下载：[https://fryteacs.notion.site/SW-1621-UOS-20-Docker-c1d7ff16b6a4492a99c794fab253b24d](https://www.notion.so/SW-1621-UOS-20-Docker-c1d7ff16b6a4492a99c794fab253b24d)
+> 
 
 ## 参考文献
 
