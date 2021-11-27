@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 26 Nov 2021 16:16:40 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 20:32:45 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
+    </item>
+    
+    <item>
+      <title>周日谈｜「2021总第47周」记账与做事</title>
+      <link>https://www.frytea.com/posts/retrospective/2021-week-47/</link>
+      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/retrospective/2021-week-47/</guid>
+      <description>祝生日快乐。</description>
     </item>
     
     <item>

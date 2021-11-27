@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>周日谈 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</link>
+    <description>Recent content in 周日谈 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 27 Nov 2021 20:32:45 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周日谈｜「2021总第47周」记账与做事</title>
+      <link>https://www.frytea.com/posts/retrospective/2021-week-47/</link>
+      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/retrospective/2021-week-47/</guid>
+      <description>祝生日快乐。</description>
+    </item>
+    
+  </channel>
+</rss>
