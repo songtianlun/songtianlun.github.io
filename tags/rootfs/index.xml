@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rootfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 10:24:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/rootfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
+      <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
+      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
+      <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
+    </item>
+    
+    <item>
+      <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
+      <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
+      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</guid>
+      <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
+    </item>
+    
     <item>
       <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
       <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
