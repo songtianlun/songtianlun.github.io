@@ -170,3 +170,4 @@ curos                        latest              1113e49df40d        5 days ago 
 - **[Ubuntu使用debootstrap制作Docker镜像](https://blog.csdn.net/kongxx/article/details/52618517)**
 - **[如何自行构建sw_64平台的docker镜像](https://forum.developer.wxiat.com/forum.php?mod=viewthread&tid=420&highlight=UOS) By 申威生态社区**
 - **[UOS-SW-公网仓库](https://forum.developer.wxiat.com/forum.php?mod=viewthread&tid=387&highlight=UOS) By 申威生态社区**
+- [Debootstrap](https://wiki.debian.org/zh_CN/Debootstrap) By Debian
