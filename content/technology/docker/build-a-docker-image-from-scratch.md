@@ -3,7 +3,7 @@ title: "从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker
 date: 2021-11-26T16:16:40+08:00
 description: "基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像."
 categories: ["技术笔记集","Linux 笔记","国产化笔记"]
-tags: ["linux", "uos", "docker", "SW", "busybox"]
+tags: ["linux", "uos", "docker", "SW", "busybox", "rootfs"]
 draft: false
 ---
 
