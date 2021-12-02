@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
+      <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
+    </item>
+    
+    <item>
       <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
       <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>

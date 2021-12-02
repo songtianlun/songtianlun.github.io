@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 10:24:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
+    </item>
+    
+    <item>
+      <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
+      <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
     </item>
     
     <item>

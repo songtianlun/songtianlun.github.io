@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 10:24:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://www.frytea.com/tags/hugo/</link>
+      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>debootstrap</title>
       <link>https://www.frytea.com/tags/debootstrap/</link>
@@ -26,15 +44,6 @@
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
