@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
+      <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
+      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
+      <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
+    </item>
+    
+    <item>
       <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
       <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
       <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
