@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 22:25:15 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优质软件集</title>
       <link>https://www.frytea.com/technology/app-list/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/app-list/</guid>
       <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
+    </item>
+    
+    <item>
+      <title>「2021年11月复盘」买了个小太阳很暖和</title>
+      <link>https://www.frytea.com/posts/retrospective/2021-11/</link>
+      <pubDate>Thu, 02 Dec 2021 22:25:15 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/retrospective/2021-11/</guid>
+      <description>逐渐感觉自己的头脑和精力不够用，之前有些事情都是自己在做，现在必须开始想办法提效保质适当取舍</description>
     </item>
     
     <item>

@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Dec 2021 22:25:15 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021</title>
+      <link>https://www.frytea.com/tags/2021/</link>
+      <pubDate>Thu, 02 Dec 2021 22:25:15 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.frytea.com/tags/retrospective/</link>
+      <pubDate>Thu, 02 Dec 2021 22:25:15 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://www.frytea.com/tags/hugo/</link>
@@ -71,24 +89,6 @@
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/uos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2021</title>
-      <link>https://www.frytea.com/tags/2021/</link>
-      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     

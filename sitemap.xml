@@ -7,13 +7,38 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/tags/2021/</loc>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-12-02T14:32:08+08:00</lastmod>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-12-02T14:32:08+08:00</lastmod>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/retrospective/</loc>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/retrospective/2021-11/</loc>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</loc>
+    <lastmod>2021-12-02T22:25:15+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -28,11 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-12-02T14:32:08+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2021-12-02T14:32:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -84,21 +104,6 @@
   </url><url>
     <loc>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-12-02T10:24:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/2021/</loc>
-    <lastmod>2021-11-27T20:32:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/retrospective/</loc>
-    <lastmod>2021-11-27T20:32:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</loc>
-    <lastmod>2021-11-27T20:32:45+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
