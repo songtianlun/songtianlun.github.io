@@ -10,22 +10,58 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:31:23 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GDB</title>
-      <link>https://www.frytea.com/tags/gdb/</link>
-      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      <title>cloud-init</title>
+      <link>https://www.frytea.com/tags/cloud-init/</link>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
-      <guid>https://www.frytea.com/tags/gdb/</guid>
+      <guid>https://www.frytea.com/tags/cloud-init/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://www.frytea.com/tags/debian/</link>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
       <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pve</title>
+      <link>https://www.frytea.com/tags/pve/</link>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/pve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>make</title>
+      <link>https://www.frytea.com/tags/make/</link>
+      <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/make/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GDB</title>
+      <link>https://www.frytea.com/tags/gdb/</link>
+      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/gdb/</guid>
       <description></description>
     </item>
     
@@ -71,15 +107,6 @@
       <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>make</title>
-      <link>https://www.frytea.com/tags/make/</link>
-      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/make/</guid>
       <description></description>
     </item>
     
@@ -323,15 +350,6 @@
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/apt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>debian</title>
-      <link>https://www.frytea.com/tags/debian/</link>
-      <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/debian/</guid>
       <description></description>
     </item>
     

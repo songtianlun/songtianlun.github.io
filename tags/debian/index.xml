@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Nov 2021 00:46:42 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:31:23 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
+      <link>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</link>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
+      <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
+    </item>
+    
+    <item>
+      <title>PVE 内核模块 pve-kernal 编译安装方法</title>
+      <link>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</link>
+      <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
+    </item>
+    
     <item>
       <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
       <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>

@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>make on Frytea</title>
-    <link>https://www.frytea.com/tags/make/</link>
-    <description>Recent content in make on Frytea</description>
+    <title>pve on Frytea</title>
+    <link>https://www.frytea.com/tags/pve/</link>
+    <description>Recent content in pve on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:29:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/make/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:31:23 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
+      <link>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</link>
+      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
+      <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
+    </item>
+    
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
       <link>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</link>
@@ -18,15 +27,6 @@
       
       <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
-    </item>
-    
-    <item>
-      <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</link>
-      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
-      <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
     </item>
     
   </channel>
