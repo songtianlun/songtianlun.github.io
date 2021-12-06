@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>虚拟化笔记 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 虚拟化笔记 on Frytea</description>
+    <title>虚拟化笔记集 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+    <description>Recent content in 虚拟化笔记集 on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
       <link>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</link>
