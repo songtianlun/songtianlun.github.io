@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 17 Nov 2021 03:29:39 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
+      <link>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</link>
+      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</guid>
+      <description>使用 GDB 跟踪 QEMU 的具体执行细节.</description>
+    </item>
+    
+    <item>
+      <title>Qemu，KVM，Virsh 概念指南</title>
+      <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <description>一次搞懂 qemu、kvm、virsh 区别.</description>
+    </item>
+    
     <item>
       <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
       <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>

@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Nov 2021 01:11:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/libvirt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:10:11 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/libvirt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qemu，KVM，Virsh 概念指南</title>
+      <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <description>一次搞懂 qemu、kvm、virsh 区别.</description>
+    </item>
+    
+    <item>
+      <title>Centos7.6 下编译安装 Libvirt 7.5</title>
+      <link>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
+    </item>
+    
+    <item>
+      <title>Libvirt domblkinfo 命令源码跟踪记 (GDB)</title>
+      <link>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</link>
+      <pubDate>Mon, 06 Dec 2021 14:03:38 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</guid>
+      <description>使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节.</description>
+    </item>
+    
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
       <link>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>

@@ -10,7 +10,79 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 22:25:15 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDB</title>
+      <link>https://www.frytea.com/tags/gdb/</link>
+      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/gdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qemu</title>
+      <link>https://www.frytea.com/tags/qemu/</link>
+      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/qemu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kvm</title>
+      <link>https://www.frytea.com/tags/kvm/</link>
+      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/kvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libvirt</title>
+      <link>https://www.frytea.com/tags/libvirt/</link>
+      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/libvirt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virsh</title>
+      <link>https://www.frytea.com/tags/virsh/</link>
+      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/virsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>centos</title>
+      <link>https://www.frytea.com/tags/centos/</link>
+      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>make</title>
+      <link>https://www.frytea.com/tags/make/</link>
+      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/make/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>2021</title>
       <link>https://www.frytea.com/tags/2021/</link>
@@ -35,15 +107,6 @@
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -107,15 +170,6 @@
       <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/dentist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>qemu</title>
-      <link>https://www.frytea.com/tags/qemu/</link>
-      <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/qemu/</guid>
       <description></description>
     </item>
     
@@ -242,15 +296,6 @@
       <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/perl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>libvirt</title>
-      <link>https://www.frytea.com/tags/libvirt/</link>
-      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/libvirt/</guid>
       <description></description>
     </item>
     

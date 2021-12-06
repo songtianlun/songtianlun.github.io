@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>centos on Frytea</title>
+    <link>https://www.frytea.com/tags/centos/</link>
+    <description>Recent content in centos on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 06 Dec 2021 14:06:56 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Centos7.6 下编译安装 Libvirt 7.5</title>
+      <link>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
+    </item>
+    
+  </channel>
+</rss>
