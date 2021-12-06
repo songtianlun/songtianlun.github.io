@@ -2,7 +2,7 @@
 title: "Libvirt domblkinfo 命令源码跟踪记 (GDB)"
 date: 2021-12-06T14:03:38+08:00
 description: "使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节."
-categories: ["技术笔记集","虚拟化笔记"]
+categories: ["技术笔记集","虚拟化笔记集"]
 tags: ["linux", "libvirt", "GDB"]
 draft: false
 ---

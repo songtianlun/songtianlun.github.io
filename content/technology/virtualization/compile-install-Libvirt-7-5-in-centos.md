@@ -2,7 +2,7 @@
 title: "Centos7.6 下编译安装 Libvirt 7.5"
 date: 2021-12-06T14:06:56+08:00
 description: "介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式."
-categories: ["技术笔记集","虚拟化笔记"]
+categories: ["技术笔记集","虚拟化笔记集"]
 tags: ["linux", "libvirt", "make", "centos"]
 draft: false
 ---

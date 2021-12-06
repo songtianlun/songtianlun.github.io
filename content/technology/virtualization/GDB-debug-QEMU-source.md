@@ -2,7 +2,7 @@
 title: "GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）"
 date: 2021-12-06T14:13:17+08:00
 description: "使用 GDB 跟踪 QEMU 的具体执行细节."
-categories: ["技术笔记集","虚拟化笔记"]
+categories: ["技术笔记集","虚拟化笔记集"]
 tags: ["linux", "qemu", "GDB"]
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: "Qemu，KVM，Virsh 概念指南"
 date: 2021-12-06T14:10:11+08:00
 description: "一次搞懂 qemu、kvm、virsh 区别."
-categories: ["技术笔记集","虚拟化笔记"]
+categories: ["技术笔记集","虚拟化笔记集"]
 tags: ["linux", "libvirt", "kvm", "qemu", "virsh"]
 draft: false
 ---
