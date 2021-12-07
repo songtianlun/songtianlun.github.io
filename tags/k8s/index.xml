@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>k8s on Frytea</title>
+    <link>https://www.frytea.com/tags/k8s/</link>
+    <description>Recent content in k8s on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Dec 2021 23:49:51 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSpence</title>
+      <link>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubespence-with-3c-server/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubespence-with-3c-server/</guid>
+      <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
+    </item>
+    
+  </channel>
+</rss>

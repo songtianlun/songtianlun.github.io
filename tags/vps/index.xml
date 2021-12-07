@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Nov 2021 23:54:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 23:49:51 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSpence</title>
+      <link>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubespence-with-3c-server/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubespence-with-3c-server/</guid>
+      <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
+    </item>
+    
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
       <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>

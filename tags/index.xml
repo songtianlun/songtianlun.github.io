@@ -10,7 +10,61 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:31:23 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 23:49:51 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://www.frytea.com/tags/docker/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://www.frytea.com/tags/k8s/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://www.frytea.com/tags/kubernetes/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KubeSpence</title>
+      <link>https://www.frytea.com/tags/kubespence/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/kubespence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vps</title>
+      <link>https://www.frytea.com/tags/vps/</link>
+      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/vps/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cloud-init</title>
       <link>https://www.frytea.com/tags/cloud-init/</link>
@@ -26,15 +80,6 @@
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -147,15 +192,6 @@
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://www.frytea.com/tags/docker/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>rootfs</title>
       <link>https://www.frytea.com/tags/rootfs/</link>
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
@@ -233,15 +269,6 @@
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/synology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vps</title>
-      <link>https://www.frytea.com/tags/vps/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vps/</guid>
       <description></description>
     </item>
     
