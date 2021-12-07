@@ -1,5 +1,5 @@
 ---
-title: "使用 VPS/群晖 搭建『云端/内网 浏览器』"
+title: "把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』"
 date: 2021-11-12T23:54:19+08:00
 description: "云端服务器安装远程浏览器。"
 categories: ["技术笔记集","Linux 笔记","技术技巧集"]
