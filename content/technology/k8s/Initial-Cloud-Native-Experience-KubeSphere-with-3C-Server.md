@@ -1,15 +1,15 @@
 ---
-title: "云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSpence"
+title: "云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere"
 date: 2021-12-07T23:49:51+08:00
 description: "记录对云原生的初体验，顺带测评 3C云活动价服务器."
 categories: ["技术笔记集","云原生笔记集"]
-tags: ["linux", "docker", "k8s", "kubernetes","KubeSpence", "vps"]
+tags: ["linux", "docker", "k8s", "kubernetes","KubeSphere", "vps"]
 draft: false
 ---
 
 一直对云原生超级感兴趣，自己的博客、图床、资源站以及一些个人开发项目都打算用起来，但一直迫于成本太高。毕竟我现在所有的服务都是部署在两台 1c2g 的服务器上的，基本的 k8s 及类似生产环节可用的单节点部署方案都要 2c4g 才可。
 
-加上部署也比较复杂，整个系统用在上规模的开发和生产一定很棒，但是入门起来真的门槛有点高。知道最近偶然看到国产的开源项目 KubeSpence，使用局域网内服务器部署了一下，真的立刻就体会到云原生的好处，于是就立刻用起来吧。
+加上部署也比较复杂，整个系统用在上规模的开发和生产一定很棒，但是入门起来真的门槛有点高。知道最近偶然看到国产的开源项目 KubeSphere，使用局域网内服务器部署了一下，真的立刻就体会到云原生的好处，于是就立刻用起来吧。
 
 首先我需要找一台 2c4g 的服务器来使用，首先我使用的是 [Digitalocean](https://www.digitalocean.com) 新加坡节点，但是不知今天是怎么了，延迟高达 300ms+，命令行操作一卡一卡的，而且频繁丢包。
 
@@ -54,9 +54,9 @@ draft: false
 
 I/O看起来还不错，比我的腾讯云轻量高一点，不知道这么低的价格是怎么做到的。初期我也用不了这么好的资源，先凑合了。
 
-## KubeSpence 配置
+## KubeSphere 配置
 
-按照 kubespence 官网提供的「**[在 Linux 上以 All-in-One 模式安装 KubeSphere](https://kubesphere.io/zh/docs/quick-start/all-in-one-on-linux/)**」流程配置即可，下面简单整理一下：
+按照 KubeSphere 官网提供的「**[在 Linux 上以 All-in-One 模式安装 KubeSphere](https://kubesphere.io/zh/docs/quick-start/all-in-one-on-linux/)**」流程配置即可，下面简单整理一下：
 
 首先获取配置工具 KubeKey
 
@@ -153,7 +153,7 @@ Please check the result using the command:
 
 - 云原生实验室
 
-还是偶然进入 [云原生实验室](https://fuckcloudnative.io) 博客，今儿了解到一群 KubeSpence 的维护者，为何都很愿意称自己为云原生的追随者，视其为一种信仰，近乎狂热，虽然有点不懂，但也许这其中真的有很吸引人的地方吧。
+还是偶然进入 [云原生实验室](https://fuckcloudnative.io) 博客，今儿了解到一群 KubeSphere 的维护者，为何都很愿意称自己为云原生的追随者，视其为一种信仰，近乎狂热，虽然有点不懂，但也许这其中真的有很吸引人的地方吧。
 
 我现在能做的，只有先把这些东西用起来，慢慢适应，再尝试靠近。
 
