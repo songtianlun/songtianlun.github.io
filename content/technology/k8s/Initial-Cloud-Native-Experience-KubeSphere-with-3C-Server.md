@@ -3,7 +3,7 @@ title: "云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere"
 date: 2021-12-07T23:49:51+08:00
 description: "记录对云原生的初体验，顺带测评 3C云活动价服务器."
 categories: ["技术笔记集","云原生笔记集"]
-tags: ["linux", "docker", "k8s", "kubernetes","KubeSphere", "vps"]
+tags: ["linux", "docker", "k8s", "kubernetes","KubeSphere", "vps", "云原生"]
 draft: false
 ---
 
