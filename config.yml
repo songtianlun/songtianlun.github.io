@@ -88,6 +88,8 @@ params:
               url: technology/app-list/
             - name: 📁 项目
               url: technology/projects/
+            - name: 📒 知库
+              url: https://wiki.frytea.com/
 
     # home-info mode
 #    homeInfoParams:
