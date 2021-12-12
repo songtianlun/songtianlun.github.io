@@ -1,9 +1,9 @@
 ---
 title: "个人项目"
 date: 2021-12-12T13:10:03+08:00
-description: "汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享."
-categories: ["技术笔记集"]
-tags: ["linux", "windows", "macos"]
+description: "汇集个人做过的项目清单."
+categories: []
+tags: []
 draft: false
 # weight: 5
 ---
