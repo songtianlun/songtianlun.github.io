@@ -10,16 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Dec 2021 13:10:03 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>个人项目</title>
-      <link>https://www.frytea.com/technology/projects/</link>
-      <pubDate>Sun, 12 Dec 2021 13:10:03 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/projects/</guid>
-      <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 07 Dec 2021 23:49:51 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
       <link>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
