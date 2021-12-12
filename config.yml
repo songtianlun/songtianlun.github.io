@@ -84,6 +84,10 @@ params:
               url: https://res.frytea.com
             - name: 📜 旧书
               url: https://blog.frytea.com
+            - name: 🛠 工具
+              url: technology/app-list/
+            - name: 📁 项目
+              url: technology/projects/
 
     # home-info mode
 #    homeInfoParams:

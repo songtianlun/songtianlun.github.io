@@ -18,19 +18,7 @@ disableReprinted: true
 [^1]: frytea.com
 [^2]: [hugo](https://gohugo.io/),The world’s fastest framework for building websites. 
 
-## 关于我
-
-毕业于 **霍格沃茨魔法学校**，主修魔药学（Potions）、魔咒课（Charms）、黑魔法防御术（Defence Against the Dark Arts）、变形学（Transfiguration）。我喜欢摄影、阅读、观影、写作、演讲，安静的做事情。致力于创造更高更广泛的价值。
-
-## 联系方式
-
-- Email：[songtianlun@frytea.com](mailto:songtianlun@frytea.com)
-- WeChat/Phone: 18803979433
-- Google Voice: (+1)936-6662109
-- QQ: 1305647042
-
-
-## 历史
+### 历史
 
 - 2018.10.07, 开始建造我的世界，并拥有自己的第一个域名（songtianlun.cn）；
 - 2018.11.12, 使用 WordPress 搭建自己的第一版博客；
@@ -45,3 +33,26 @@ disableReprinted: true
 - 2021.10.27, 采用定制 PaperMod 主题的个人网站正式上线，要做的还有很多。
 - 2021.11.03, 网站正式支持 [PWA](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps) ，来试试吧！
 - 2021.11.09, 本站正式签订[《十年之约》](https://www.foreverblog.cn)，与千名站长一起狂欢，保持独立原创网站更新和活力！
+
+## 关于我
+
+毕业于 **霍格沃茨魔法学校**，主修魔药学（Potions）、魔咒课（Charms）、黑魔法防御术（Defence Against the Dark Arts）、变形学（Transfiguration）。
+
+一个有理想的 **程序员** ，职业 **技术人** ，不仅会写代码，还会写文章，对做产品很感兴趣。天生 **责任心极强** ，不仅为写过的代码负责，还关注写代码的 **原因和目的** ，代码为需求服务，致力于成为一名不仅仅会写代码的 **全能型** 选手。
+
+## 联系方式
+
+- HomePage: <https://www.frytea.com>
+- Email：[songtianlun@frytea.com](mailto:songtianlun@frytea.com)
+- WeChat/Phone: 18803979433
+- Google Voice: (+1)936-6662109
+- QQ: 1305647042
+- Telegram: [@songtianlun](https://t.me/songtianlun)
+- GitHub: [@songtianlun](https://github.com/songtianlun)
+- Linked-in: [@songtianlun](https://www.linkedin.com/in/songtianlun/)
+- Twitter: [@tianlun_song](https://twitter.com/tianlun_song)
+- 微博: [@煎茶_frytea](https://weibo.com/u/2255345151)
+- V2EX: [@Frytea](https://www.v2ex.com/member/Frytea)
+- 即刻: [@煎茶_frytea](https://web.okjike.com/u/93f05b30-c2af-4096-b90e-32961464b881)
+- 知乎: [@煎茶frytea](https://www.zhihu.com/people/song-tian-lun-64)
+- 少数派: [@frytea](https://sspai.com/u/frytea/)

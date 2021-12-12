@@ -5,7 +5,7 @@ description: "汇总个人在用/用过的优质软件，开源为主，方便�
 categories: ["技术笔记集"]
 tags: ["linux", "windows", "macos"]
 draft: false
-weight: 5
+# weight: 5
 ---
 
 ## 日用软件集
