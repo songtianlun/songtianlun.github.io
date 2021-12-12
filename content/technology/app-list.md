@@ -23,3 +23,11 @@ weight: 5
 | 名称 | 类别 | 平台 | 获取 | 备注 |
 | :--: | :--: | :--: | :--: | :--: |
 | IconKitchen | `logo` | `web` | [官网](https://icon.kitchen/) | 快速为多个平台生成风格统一的应用图标。 |
+
+## Notion 辅助集
+
+| 名称 | 类别 | 平台 | 获取 | 备注 |
+| :--: | :--: | :--: | :--: | :--: |
+| Notion icon | `icon` | `Notion` | [官网](https://notion-icons.com) | 简单实用美观好用的 Notion ICON 图标集。 |
+| fruitionsite | `engine` | `CloudFlare` | [GitHub](https://github.com/stephenou/fruitionsite) | 将 Notion 的公开页面发布为普通网页。 |
+| theBlock | `blog` | `Notion` | [the-block](https://the-block.club) | 分享一些以 Notion 为主的信息/技巧/文章翻译 |
