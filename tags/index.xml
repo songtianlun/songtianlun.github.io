@@ -10,7 +10,61 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Dec 2021 23:29:15 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 22:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BaaS</title>
+      <link>https://www.frytea.com/tags/baas/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/baas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LeanCloud</title>
+      <link>https://www.frytea.com/tags/leancloud/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/leancloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaaS</title>
+      <link>https://www.frytea.com/tags/paas/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/paas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://www.frytea.com/tags/react/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.frytea.com/tags/web/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>2021</title>
       <link>https://www.frytea.com/tags/2021/</link>
@@ -98,15 +152,6 @@
       <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
