@@ -38,15 +38,15 @@ jobs:
 #        with:
 #          node-version: '12.x'
 
-      - name: Push algolia search index
-        run: |
-          go mod tidy
-          go run main.go
-        env:
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          ALGOLIA_INDEX_FILE: "./public/index.json"
+      # - name: Push algolia search index
+      #   run: |
+      #     go mod tidy
+      #     go run main.go
+      #   env:
+      #     ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      #     ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+      #     ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+      #     ALGOLIA_INDEX_FILE: "./public/index.json"
 
 #      - name: Install CloudBase-Cli
 #        run: npm install -g @cloudbase/cli
@@ -62,18 +62,28 @@ jobs:
 #          ENV_ID: ${{secrets.envId}}
 #        run: tcb framework deploy -e "$ENV_ID"
 
-      # 使用云开发 Github Action 部署
-      - name: Deploy static to Tencent CloudBase
-        id: deployStatic
-        uses: TencentCloudBase/cloudbase-action@v2
+      # 使用腾讯云云开发 Github Action 部署
+      # - name: Deploy static to Tencent CloudBase
+      #   id: deployStatic
+      #   uses: TencentCloudBase/cloudbase-action@v2
+      #   with:
+      #     # 云开发的访问密钥 secretId 和 secretKey
+      #     secretId: ${{ secrets.SECRET_ID }}
+      #     secretKey: ${{ secrets.SECRET_KEY }}
+      #     # 云开发的环境id
+      #     envId: ${{ secrets.ENV_ID }}
+      #     # Github 项目静态文件的路径
+      #     # staticSrcPath: public
+
+      # 部署到阿里云 oss
+      - name: setup aliyun oss
+        uses: manyuanrong/setup-ossutil@master
         with:
-          # 云开发的访问密钥 secretId 和 secretKey
-          secretId: ${{ secrets.SECRET_ID }}
-          secretKey: ${{ secrets.SECRET_KEY }}
-          # 云开发的环境id
-          envId: ${{ secrets.ENV_ID }}
-          # Github 项目静态文件的路径
-          # staticSrcPath: public
+        endpoint: oss-cn-beijing.aliyuncs.com
+        access-key-id: ${{ secrets.OSS_KEY_ID }}
+        access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+      - name: cp aliyun oss
+        run: ossutil cp -rf public oss://frytea-homepage/
 
       # 用docker容器上传algolia索引文件
       # - uses: actions/checkout@v2
