@@ -73,17 +73,17 @@ jobs:
 #        run: tcb framework deploy -e "$ENV_ID"
 
       # 使用腾讯云云开发 Github Action 部署
-      - name: Deploy static to Tencent CloudBase
-        id: deployStatic
-        uses: TencentCloudBase/cloudbase-action@v2
-        with:
-          # 云开发的访问密钥 secretId 和 secretKey
-          secretId: ${{ secrets.SECRET_ID }}
-          secretKey: ${{ secrets.SECRET_KEY }}
-          # 云开发的环境id
-          envId: ${{ secrets.ENV_ID }}
-          # Github 项目静态文件的路径
-          # staticSrcPath: public
+      # - name: Deploy static to Tencent CloudBase
+      #   id: deployStatic
+      #   uses: TencentCloudBase/cloudbase-action@v2
+      #   with:
+      #     # 云开发的访问密钥 secretId 和 secretKey
+      #     secretId: ${{ secrets.SECRET_ID }}
+      #     secretKey: ${{ secrets.SECRET_KEY }}
+      #     # 云开发的环境id
+      #     envId: ${{ secrets.ENV_ID }}
+      #     # Github 项目静态文件的路径
+      #     # staticSrcPath: public
 
       # 用docker容器上传algolia索引文件
       # - uses: actions/checkout@v2
