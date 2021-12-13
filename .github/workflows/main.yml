@@ -35,13 +35,13 @@ jobs:
 
       # 部署到阿里云 oss
       - name: Deploy to Aliyun OSS
-        uses: manyuanrong/setup-ossutil@master
+        uses: manyuanrong/setup-ossutil@master
         with:
           endpoint: oss-cn-beijing.aliyuncs.com
           access-key-id: ${{ secrets.OSS_KEY_ID }}
           access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-      - name: cp aliyun oss
-        run: ossutil cp -rf public oss://frytea-homepage/
+      - name: cp aliyun oss
+        run: ossutil cp -rf public oss://frytea-homepage/
 
 #      - name: Use Node.js
 #        uses: actions/setup-node@v1
