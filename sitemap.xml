@@ -2,27 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.frytea.com/categories/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/debian/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/linux/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/lxc/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/pve/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-12-14T16:04:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/baas/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/leancloud/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/linux/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -37,22 +72,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/web/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -148,21 +173,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</loc>
-    <lastmod>2021-12-06T14:31:23+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/debian/</loc>
-    <lastmod>2021-12-06T14:31:23+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/pve/</loc>
-    <lastmod>2021-12-06T14:31:23+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2021-12-06T14:31:23+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

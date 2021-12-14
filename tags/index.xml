@@ -10,7 +10,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Dec 2021 22:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 16:04:43 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian</title>
+      <link>https://www.frytea.com/tags/debian/</link>
+      <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lxc</title>
+      <link>https://www.frytea.com/tags/lxc/</link>
+      <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/lxc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pve</title>
+      <link>https://www.frytea.com/tags/pve/</link>
+      <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/pve/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>BaaS</title>
       <link>https://www.frytea.com/tags/baas/</link>
@@ -26,15 +62,6 @@
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/leancloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -170,24 +197,6 @@
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/cloud-init/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>debian</title>
-      <link>https://www.frytea.com/tags/debian/</link>
-      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pve</title>
-      <link>https://www.frytea.com/tags/pve/</link>
-      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/pve/</guid>
       <description></description>
     </item>
     
