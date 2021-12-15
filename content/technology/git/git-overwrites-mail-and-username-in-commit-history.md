@@ -2,7 +2,7 @@
 title: "Git 修改提交历史中的邮箱和用户名"
 date: 2021-12-15T15:16:03+08:00
 description: "重写 git commit 历史中的邮箱和用户名."
-categories: ["技术笔记集","Linux 笔记集"]
+categories: ["技术笔记集","Git 笔记集"]
 tags: ["linux", "git"]
 draft: false
 ---

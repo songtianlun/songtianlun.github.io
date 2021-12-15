@@ -2,7 +2,7 @@
 title: "Git 常用操作"
 date: 2021-12-15T15:21:48+08:00
 description: "记录常用 git 操作命令，方便速查."
-categories: ["技术笔记集","Linux 笔记集"]
+categories: ["技术笔记集","Git 笔记集"]
 tags: ["linux", "git"]
 draft: false
 ---
@@ -12,6 +12,9 @@ draft: false
 
 # 检查当前状态 
 $ git status
+
+# 避免协同时自动生成 merge commit （把远程最新的 commit 以变基的方式同步到本地）
+$ git pull --rebase
 
 # 跟踪新文件（.标识当前目录下所有文件，也可指定文件）
 $ git add .
