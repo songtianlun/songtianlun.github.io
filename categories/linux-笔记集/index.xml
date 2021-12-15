@@ -10,25 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Dec 2021 15:21:48 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git 常用操作</title>
-      <link>https://www.frytea.com/technology/git/git-quick-cmd/</link>
-      <pubDate>Wed, 15 Dec 2021 15:21:48 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/git/git-quick-cmd/</guid>
-      <description>记录常用 git 操作命令，方便速查.</description>
-    </item>
-    
-    <item>
-      <title>Git 修改提交历史中的邮箱和用户名</title>
-      <link>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</link>
-      <pubDate>Wed, 15 Dec 2021 15:16:03 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</guid>
-      <description>重写 git commit 历史中的邮箱和用户名.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
       <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>

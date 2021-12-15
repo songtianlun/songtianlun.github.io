@@ -3,41 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/git/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/git/git-quick-cmd/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <loc>https://www.frytea.com/categories/git-%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
-    <lastmod>2021-12-15T15:21:48+08:00</lastmod>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/git/no-proxy-clone-github-with-mirror/</loc>
+    <lastmod>2021-12-15T15:32:54+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/git/fix-github-err-gnutls-handshake-failed/</loc>
+    <lastmod>2021-12-15T15:25:55+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/git/git-quick-cmd/</loc>
     <lastmod>2021-12-15T15:21:48+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -263,6 +273,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/hugo/</loc>
+    <lastmod>2021-12-02T14:32:08+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2021-12-02T14:32:08+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
