@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Dec 2021 16:04:43 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 15:21:48 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 常用操作</title>
+      <link>https://www.frytea.com/technology/git/git-quick-cmd/</link>
+      <pubDate>Wed, 15 Dec 2021 15:21:48 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/git/git-quick-cmd/</guid>
+      <description>记录常用 git 操作命令，方便速查.</description>
+    </item>
+    
+    <item>
+      <title>Git 修改提交历史中的邮箱和用户名</title>
+      <link>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</link>
+      <pubDate>Wed, 15 Dec 2021 15:16:03 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</guid>
+      <description>重写 git commit 历史中的邮箱和用户名.</description>
+    </item>
+    
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
       <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>

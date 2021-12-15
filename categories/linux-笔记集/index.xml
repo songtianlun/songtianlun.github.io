@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Linux 笔记 on Frytea</title>
-    <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in Linux 笔记 on Frytea</description>
+    <title>Linux 笔记集 on Frytea</title>
+    <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+    <description>Recent content in Linux 笔记集 on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 15:21:48 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 常用操作</title>
+      <link>https://www.frytea.com/technology/git/git-quick-cmd/</link>
+      <pubDate>Wed, 15 Dec 2021 15:21:48 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/git/git-quick-cmd/</guid>
+      <description>记录常用 git 操作命令，方便速查.</description>
+    </item>
+    
+    <item>
+      <title>Git 修改提交历史中的邮箱和用户名</title>
+      <link>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</link>
+      <pubDate>Wed, 15 Dec 2021 15:16:03 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</guid>
+      <description>重写 git commit 历史中的邮箱和用户名.</description>
+    </item>
+    
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
       <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>
@@ -81,6 +99,15 @@
       
       <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
       <description>新硬盘从分区到挂载的全流程指南.</description>
+    </item>
+    
+    <item>
+      <title>Perl 编译安装 （Linux）</title>
+      <link>https://www.frytea.com/technology/perl/build-install-perl/</link>
+      <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/perl/build-install-perl/</guid>
+      <description>Centos 下演示编译安装 Perl 环境的方法.</description>
     </item>
     
     <item>
