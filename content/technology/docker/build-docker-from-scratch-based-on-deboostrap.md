@@ -2,7 +2,7 @@
 title: "从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker"
 date: 2021-12-02T10:24:39+08:00
 description: "基于 debootstrap 从零生成最小 debian 并制作 docker 镜像."
-categories: ["技术笔记集","Linux 笔记","国产化笔记"]
+categories: ["技术笔记集","Linux 笔记集","国产化笔记"]
 tags: ["linux", "uos", "docker", "SW", "debootstrap", "rootfs"]
 draft: false
 ---

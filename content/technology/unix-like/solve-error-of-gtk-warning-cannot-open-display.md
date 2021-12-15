@@ -2,7 +2,7 @@
 title: "Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”"
 date: 2021-11-05T01:11:27Z
 description: "解决无法打开远程服务器 virt-manager 等图形窗口软件的方法."
-categories: ["技术笔记集","Linux 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux", "ubuntu", "libvirt", "virt-manager"]
 draft: false
 ---

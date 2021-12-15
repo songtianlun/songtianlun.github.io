@@ -2,7 +2,7 @@
 title: "两种终端跑分方法介绍 | Linux 下如何跑分"
 date: 2021-11-17T01:20:21Z
 description: "介绍两种 Linux 环境下测试硬件性能的方法."
-categories: ["技术笔记集","Linux 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux", "unixbench", "geekbach"]
 draft: false
 ---

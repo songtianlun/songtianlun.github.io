@@ -2,7 +2,7 @@
 title: "使用 Cloud Studio 撰写、预览 Hugo 的配置方法"
 date: 2021-12-02T14:32:08+08:00
 description: "使用 Cloud Studio 在云端编辑、预览、发布博客。"
-categories: ["技术笔记集","Linux 笔记","技术技巧集"]
+categories: ["技术笔记集","Linux 笔记集","技术技巧集"]
 tags: ["linux", "hugo"]
 draft: false
 cover:

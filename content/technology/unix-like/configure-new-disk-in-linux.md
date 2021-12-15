@@ -2,7 +2,7 @@
 title: "Linux 下新硬盘分区、格式化、挂载全流程"
 date: 2021-11-09T07:49:13Z
 description: "新硬盘从分区到挂载的全流程指南."
-categories: ["技术笔记集","Linux 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux", "fdisk", "mount", "lsblk"]
 draft: false
 ---

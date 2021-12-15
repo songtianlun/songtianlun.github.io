@@ -2,7 +2,7 @@
 title: "Ubuntu 16.04 网卡配置方法"
 date: 2021-11-05T00:30:54Z
 description: "Ubuntu 旧版网卡配置方法."
-categories: ["技术笔记集","Linux 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux", "ubuntu", "network"]
 draft: false
 ---

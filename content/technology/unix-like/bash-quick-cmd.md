@@ -2,7 +2,7 @@
 title: "Bash快捷指令"
 date: 2021-11-03T14:39:21+08:00
 description: "常用指令速查."
-categories: ["技术笔记集","Linux 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux"]
 draft: false
 ---

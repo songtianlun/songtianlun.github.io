@@ -2,7 +2,7 @@
 title: "Perl 编译安装 （Linux）"
 date: 2021-11-05T01:20:18Z
 description: "Centos 下演示编译安装 Perl 环境的方法."
-categories: ["技术笔记集","Perl 笔记"]
+categories: ["技术笔记集","Linux 笔记集"]
 tags: ["linux", "perl"]
 draft: false
 ---

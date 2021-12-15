@@ -2,7 +2,7 @@
 title: "申威（神/声）（SW）1621 + UOS 20 编译安装 Docker | 容器国产化适配"
 date: 2021-11-10T10:18:19Z
 description: "申威处理器+UOS操作系统下编译安装Docker服务."
-categories: ["技术笔记集","Linux 笔记","国产化笔记"]
+categories: ["技术笔记集","Linux 笔记集","国产化笔记"]
 tags: ["linux", "uos", "docker", "SW"]
 draft: false
 ---
