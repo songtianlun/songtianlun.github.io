@@ -56,3 +56,4 @@ disableReprinted: true
 - 即刻: [@煎茶_frytea](https://web.okjike.com/u/93f05b30-c2af-4096-b90e-32961464b881)
 - 知乎: [@煎茶frytea](https://www.zhihu.com/people/song-tian-lun-64)
 - 少数派: [@frytea](https://sspai.com/u/frytea/)
+- 微信公众号: @宋天伦
