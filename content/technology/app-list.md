@@ -18,6 +18,13 @@ draft: false
 | StarUML | `绘图` `UML`  | `Linux` `MacOS` `Win` | [GitHub](https://github.com/staruml) [官网](https://staruml.io/) | 开源跨平台的UML工具列表软件。 |
 | 搜狗拼音 | `输入法` | `Linux` `MacOS` `Win` | [官网](https://pinyin.sogou.com/) | 多平台支持的输入法工具，特别是 Linux 平台下中文输入体验很好。 |
 
+## 创作与内容
+
+| 名称 | 类别 | 平台 | 获取 | 备注 |
+| :--: | :--: | :--: | :--: | :--: |
+| 竹白 | `Newsletter` | `mail` `微信` | [官网](https://zhubai.love) | 专为创作者设计，多平台触达，拥抱忠实读者。 |
+| Hedwig | `Newsletter` | `mail` | [官网](https://hedwig.pub) | Just Simple。 |
+
 ## 开发软件集
 
 | 名称 | 类别 | 平台 | 获取 | 备注 |
