@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Dec 2021 15:32:54 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 23:35:22 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021</title>
+      <link>https://www.frytea.com/tags/2021/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notion</title>
+      <link>https://www.frytea.com/tags/notion/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/notion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.frytea.com/tags/retrospective/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://www.frytea.com/tags/git/</link>
@@ -102,38 +129,11 @@
     </item>
     
     <item>
-      <title>2021</title>
-      <link>https://www.frytea.com/tags/2021/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>kubeSphere</title>
       <link>https://www.frytea.com/tags/kubesphere/</link>
       <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/kubesphere/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notion</title>
-      <link>https://www.frytea.com/tags/notion/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/notion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     

@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Dec 2021 15:32:54 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 23:35:22 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>人生复盘</title>
+      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>周日谈</title>
+      <link>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Git 笔记集</title>
       <link>https://www.frytea.com/categories/git-%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
@@ -35,24 +53,6 @@
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>人生复盘</title>
-      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>周日谈</title>
-      <link>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</guid>
       <description></description>
     </item>
     
