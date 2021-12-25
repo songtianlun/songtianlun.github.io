@@ -40,6 +40,8 @@ disableReprinted: true
 
 一个有理想的 **程序员** ，职业 **技术人** ，不仅会写代码，还会写文章，对做产品很感兴趣。天生 **责任心极强** ，不仅为写过的代码负责，还关注写代码的 **原因和目的** ，代码为需求服务，致力于成为一名不仅仅会写代码的 **全能型** 选手。
 
+在 [这里](https://www.overleaf.com/read/fntrwsvyfhny) 可以获取我的 LaTeX 个人简历。
+
 ## 联系方式
 
 - HomePage: <https://www.frytea.com>
