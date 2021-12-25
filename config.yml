@@ -39,7 +39,8 @@ params:
     ShowReprinted: true
     disableSpecial1stPost: false
     disableScrollToTop: false
-    disableAnchoredHeadings: fase
+    disableAnchoredHeadings: false
+    disableAPlayer: false
     comments: true
     hidemeta: false
     hideSummary: false
