@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Dec 2021 23:35:22 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Dec 2021 14:13:26 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 实战项目解决循环依赖问题</title>
+      <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
+      <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/python/resolve-python-loop-import/</guid>
+      <description>记录一次定为解决 python 循环依赖问题。</description>
+    </item>
+    
     <item>
       <title>周日谈/50 ｜ 做减法与激励机制</title>
       <link>https://www.frytea.com/posts/retrospective/2021-week-50/</link>

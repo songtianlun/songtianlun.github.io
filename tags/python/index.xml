@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on Frytea</title>
+    <link>https://www.frytea.com/tags/python/</link>
+    <description>Recent content in python on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 27 Dec 2021 14:13:26 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python 实战项目解决循环依赖问题</title>
+      <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
+      <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/python/resolve-python-loop-import/</guid>
+      <description>记录一次定为解决 python 循环依赖问题。</description>
+    </item>
+    
+  </channel>
+</rss>
