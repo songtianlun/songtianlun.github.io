@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Dec 2021 14:13:26 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 22:54:25 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021</title>
+      <link>https://www.frytea.com/tags/2021/</link>
+      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.frytea.com/tags/retrospective/</link>
+      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>python</title>
       <link>https://www.frytea.com/tags/python/</link>
@@ -21,29 +39,11 @@
     </item>
     
     <item>
-      <title>2021</title>
-      <link>https://www.frytea.com/tags/2021/</link>
-      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Notion</title>
       <link>https://www.frytea.com/tags/notion/</link>
       <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/notion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     

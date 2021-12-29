@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Dec 2021 14:13:26 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Dec 2021 22:54:25 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「2021年终总结」平淡中蓄力 · 习惯中突破</title>
+      <link>https://www.frytea.com/posts/retrospective/2021/</link>
+      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/retrospective/2021/</guid>
+      <description>在年末，完成自己的 2021 年度总结。</description>
+    </item>
+    
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
       <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
