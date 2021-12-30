@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CDN on Frytea</title>
+    <link>https://www.frytea.com/tags/cdn/</link>
+    <description>Recent content in CDN on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Dec 2021 20:14:00 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>国内对象存储/CDN服务价格汇总</title>
+      <link>https://www.frytea.com/technology/tips/cdn-price/</link>
+      <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/cdn-price/</guid>
+      <description>汇集国内主流对象存储、CDN服务价格</description>
+    </item>
+    
+  </channel>
+</rss>

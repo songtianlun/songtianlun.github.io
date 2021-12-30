@@ -12,6 +12,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>国内对象存储/CDN服务价格汇总</title>
+      <link>https://www.frytea.com/technology/tips/cdn-price/</link>
+      <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/cdn-price/</guid>
+      <description>汇集国内主流对象存储、CDN服务价格</description>
+    </item>
+    
+    <item>
       <title>Python 实战项目解决循环依赖问题</title>
       <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
       <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>

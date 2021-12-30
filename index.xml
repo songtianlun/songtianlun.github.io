@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Dec 2021 22:54:25 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 20:14:00 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>国内对象存储/CDN服务价格汇总</title>
+      <link>https://www.frytea.com/technology/tips/cdn-price/</link>
+      <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/cdn-price/</guid>
+      <description>汇集国内主流对象存储、CDN服务价格</description>
+    </item>
+    
     <item>
       <title>「2021年终总结」平淡中蓄力 · 习惯中突破</title>
       <link>https://www.frytea.com/posts/retrospective/2021/</link>
