@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: frytea.com
+Token: b62a4447900f0198d2a8fd9621a947a129f1aa62b0ef7c645033128f2a4686a2
