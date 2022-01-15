@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Dec 2021 20:14:00 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 21:40:32 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「周日谈-202202」持久的内容</title>
+      <link>https://www.frytea.com/posts/retrospective/2022-week-02/</link>
+      <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/posts/retrospective/2022-week-02/</guid>
+      <description>人最原始的欲望，只是温饱而已。</description>
+    </item>
+    
     <item>
       <title>国内对象存储/CDN服务价格汇总</title>
       <link>https://www.frytea.com/technology/tips/cdn-price/</link>

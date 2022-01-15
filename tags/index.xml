@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Dec 2021 20:14:00 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jan 2022 21:40:32 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://www.frytea.com/tags/2022/</link>
+      <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2022/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CDN</title>
       <link>https://www.frytea.com/tags/cdn/</link>
