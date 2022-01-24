@@ -17,6 +17,7 @@ draft: false
 | Ventoy | `工具` `启动盘`  | `Linux` `MacOS` `Win` | [GitHub](https://github.com/ventoy/Ventoy) [官网](https://www.ventoy.net/cn/index.html) | 开源流行的多系统启动U盘解决方案 |
 | StarUML | `绘图` `UML`  | `Linux` `MacOS` `Win` | [GitHub](https://github.com/staruml) [官网](https://staruml.io/) | 开源跨平台的UML工具列表软件。 |
 | 搜狗拼音 | `输入法` | `Linux` `MacOS` `Win` | [官网](https://pinyin.sogou.com/) | 多平台支持的输入法工具，特别是 Linux 平台下中文输入体验很好。 |
+| Snipaste | `截图` | `MacOS` `Win` | [官网](https://zh.snipaste.com) | 高效、纯净、好用的截图工具。 |
 
 ## 创作与内容
 
