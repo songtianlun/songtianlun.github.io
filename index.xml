@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Jan 2022 21:40:32 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 15:12:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
+      <link>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</guid>
+      <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
+    </item>
+    
     <item>
       <title>「周日谈-202202」持久的内容</title>
       <link>https://www.frytea.com/posts/retrospective/2022-week-02/</link>

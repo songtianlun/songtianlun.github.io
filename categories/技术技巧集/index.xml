@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 15:12:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E6%8A%80%E5%B7%A7%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
+      <link>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</guid>
+      <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
+    </item>
+    
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
       <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>

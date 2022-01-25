@@ -10,7 +10,52 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Jan 2022 21:40:32 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 15:12:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macos</title>
+      <link>https://www.frytea.com/tags/macos/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote-viewer</title>
+      <link>https://www.frytea.com/tags/remote-viewer/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/remote-viewer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spice</title>
+      <link>https://www.frytea.com/tags/spice/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/spice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virt-manager</title>
+      <link>https://www.frytea.com/tags/virt-manager/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/virt-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virt-viewer</title>
+      <link>https://www.frytea.com/tags/virt-viewer/</link>
+      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/virt-viewer/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>2022</title>
       <link>https://www.frytea.com/tags/2022/</link>
@@ -489,15 +534,6 @@
     </item>
     
     <item>
-      <title>virt-manager</title>
-      <link>https://www.frytea.com/tags/virt-manager/</link>
-      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/virt-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>apt</title>
       <link>https://www.frytea.com/tags/apt/</link>
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
@@ -557,15 +593,6 @@
       <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/tmux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macos</title>
-      <link>https://www.frytea.com/tags/macos/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/macos/</guid>
       <description></description>
     </item>
     
