@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jan 2022 15:12:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jan 2022 11:18:24 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://www.frytea.com/tags/2022/</link>
+      <pubDate>Mon, 31 Jan 2022 11:18:24 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.frytea.com/tags/retrospective/</link>
+      <pubDate>Mon, 31 Jan 2022 11:18:24 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>macos</title>
       <link>https://www.frytea.com/tags/macos/</link>
@@ -57,15 +75,6 @@
     </item>
     
     <item>
-      <title>2022</title>
-      <link>https://www.frytea.com/tags/2022/</link>
-      <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CDN</title>
       <link>https://www.frytea.com/tags/cdn/</link>
       <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
@@ -80,15 +89,6 @@
       <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     
