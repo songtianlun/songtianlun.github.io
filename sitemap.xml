@@ -3,61 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/docker/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/k3s/</loc>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</loc>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/k8s/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/kubernetes/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/vps/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
-    <lastmod>2022-02-04T13:06:26+08:00</lastmod>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/k8s/k3s-deployment-on-public-network/</loc>
+    <lastmod>2022-03-08T14:36:35+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</loc>
     <lastmod>2022-02-04T13:06:26+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
