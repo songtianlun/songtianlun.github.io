@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "15410e827c9f5fa2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a1e49947ad94a68",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/retrospective/2022-03.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba43a65bcdb7a745",
+    "type": "split",
+    "children": [
+      {
+        "id": "f86cb4fa7809d794",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7f1af9683e1d4ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "df18d039525a0e73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b4c7233c9d07455c",
+    "type": "split",
+    "children": [
+      {
+        "id": "852776c51533d188",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c79fc84a5ff8b686",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/retrospective/2022-03.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2a1e49947ad94a68",
+  "lastOpenFiles": [
+    "content/posts/retrospective/2022-03.md",
+    "content/posts/antume-trip-in-2021.md"
+  ]
+}
