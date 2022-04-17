@@ -157,6 +157,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/posts/retrospective/2022-week-05/</loc>
+    <lastmod>2022-01-15T21:40:32+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</loc>
     <lastmod>2022-01-15T21:40:32+08:00</lastmod>
     <changefreq>monthly</changefreq>
