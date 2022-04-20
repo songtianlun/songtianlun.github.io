@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/posts/retrospective/2022-week-15.md",
+            "file": "content/posts/antume-trip-in-2021.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/retrospective/2022-week-15.md",
+                "file": "content/posts/antume-trip-in-2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,12 @@
   },
   "active": "2a1e49947ad94a68",
   "lastOpenFiles": [
+    "content/posts/antume-trip-in-2021.md",
+    "content/posts/chinese-syntax.md",
+    "content/posts/a-new-website.md",
+    "content/posts/_index.md",
     "content/posts/retrospective/2022-week-15.md",
     "content/posts/retrospective/2022-week-02.md",
-    "content/posts/retrospective/2022-03.md",
-    "content/posts/antume-trip-in-2021.md"
+    "content/posts/retrospective/2022-03.md"
   ]
 }
