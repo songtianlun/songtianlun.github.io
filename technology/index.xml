@@ -12,6 +12,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
+      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
+      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
+      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
+    </item>
+    
+    <item>
       <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
       <link>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
       <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
@@ -126,15 +135,6 @@
       
       <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
-    </item>
-    
-    <item>
-      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
-      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
-      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
     </item>
     
     <item>

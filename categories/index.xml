@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 Apr 2022 12:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 15:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术笔记集</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>人生复盘</title>
       <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</link>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术笔记集</title>
-      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
       <description></description>
     </item>
     

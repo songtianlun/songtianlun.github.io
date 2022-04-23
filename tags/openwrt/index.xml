@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Dec 2021 22:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 15:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
       <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
       <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>

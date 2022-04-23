@@ -2,27 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.frytea.com/categories/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/linux/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/openwrt/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/wireguard/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/2022/</loc>
     <lastmod>2022-04-16T12:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2022-04-16T12:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/</loc>
-    <lastmod>2022-04-16T12:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/retrospective/</loc>
-    <lastmod>2022-04-16T12:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2022-04-16T12:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -67,11 +92,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/vps/</loc>
     <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -83,11 +103,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/categories/%E4%BA%91%E5%8E%9F%E7%94%9F%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
-    <lastmod>2022-03-08T14:43:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2022-03-08T14:43:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -272,16 +287,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/openwrt/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/paas/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -293,11 +298,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/web/</loc>
-    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/wireguard/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

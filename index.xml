@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 Apr 2022 12:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Apr 2022 15:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
+      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
+      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
+      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
+    </item>
+    
     <item>
       <title>「2022年3月」突然间，一切都成了回忆</title>
       <link>https://www.frytea.com/posts/retrospective/2022-03/</link>
@@ -189,15 +198,6 @@
       
       <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
-    </item>
-    
-    <item>
-      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
-      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
-      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
     </item>
     
     <item>
