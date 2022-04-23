@@ -1,6 +1,6 @@
 ---
 title: "Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）"
-date: 2021-12-12T22:42:39+08:00
+date: 2022-04-23T15:42:39+08:00
 description: "使用 Wireguard 、OpenWrt、VPS 完成异地组网."
 categories: ["技术笔记集"]
 tags: ["linux", "WireGuard", "OpenWrt"]
