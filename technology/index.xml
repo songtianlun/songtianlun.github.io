@@ -129,6 +129,15 @@
     </item>
     
     <item>
+      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
+      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
+      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
+    </item>
+    
+    <item>
       <title>使用 LeanCloud 云引擎部署 React Web 应用</title>
       <link>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</link>
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>

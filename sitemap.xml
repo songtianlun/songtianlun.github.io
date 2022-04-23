@@ -272,6 +272,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/tags/openwrt/</loc>
+    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</loc>
+    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/paas/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -283,6 +293,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/web/</loc>
+    <lastmod>2021-12-12T22:42:39+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/wireguard/</loc>
     <lastmod>2021-12-12T22:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

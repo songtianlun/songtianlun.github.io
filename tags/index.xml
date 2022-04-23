@@ -228,6 +228,15 @@
     </item>
     
     <item>
+      <title>OpenWrt</title>
+      <link>https://www.frytea.com/tags/openwrt/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PaaS</title>
       <link>https://www.frytea.com/tags/paas/</link>
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
@@ -251,6 +260,15 @@
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WireGuard</title>
+      <link>https://www.frytea.com/tags/wireguard/</link>
+      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/wireguard/</guid>
       <description></description>
     </item>
     
