@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/technology/tips/openwrt-with-wireguard-networking.md",
+            "file": "content/posts/retrospective/2022-04.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/technology/tips/openwrt-with-wireguard-networking.md",
+                "file": "content/posts/retrospective/2022-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "2a1e49947ad94a68",
   "lastOpenFiles": [
+    "content/posts/retrospective/2022-04.md",
     "content/technology/tips/openwrt-with-wireguard-networking.md",
     "content/technology/tips/spice-cloud-desktop-usage.md",
     "content/technology/tips/write-and-preview-hugo-using-Cloud-Studio.md",
@@ -97,7 +98,6 @@
     "content/technology/k8s/kubernetes-abstract.md",
     "content/technology/k8s/kubernetes-all-yaml.md",
     "content/technology/k8s/kubernetes-core-concept.md",
-    "content/technology/tips/deploy-react-app-using-LeanCloud.md",
-    "content/posts/antume-trip-in-2021.md"
+    "content/technology/tips/deploy-react-app-using-LeanCloud.md"
   ]
 }
