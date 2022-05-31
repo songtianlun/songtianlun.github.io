@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/posts/retrospective/2022-04.md",
+            "file": "content/technology/tips/setting-up-cloud-browser-using-vps.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/retrospective/2022-04.md",
+                "file": "content/technology/tips/setting-up-cloud-browser-using-vps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "2a1e49947ad94a68",
   "lastOpenFiles": [
+    "content/technology/tips/setting-up-cloud-browser-using-vps.md",
     "content/posts/retrospective/2022-04.md",
     "content/technology/tips/openwrt-with-wireguard-networking.md",
     "content/technology/tips/spice-cloud-desktop-usage.md",
@@ -97,7 +98,6 @@
     "content/technology/k8s/k3s-uses-Letsencrypt-and-Traefik-to-deploy-the-https.md",
     "content/technology/k8s/kubernetes-abstract.md",
     "content/technology/k8s/kubernetes-all-yaml.md",
-    "content/technology/k8s/kubernetes-core-concept.md",
-    "content/technology/tips/deploy-react-app-using-LeanCloud.md"
+    "content/technology/k8s/kubernetes-core-concept.md"
   ]
 }
