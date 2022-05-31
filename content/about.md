@@ -46,7 +46,6 @@ disableReprinted: true
 
 - HomePage: <https://www.frytea.com>
 - Email：[songtianlun@frytea.com](mailto:songtianlun@frytea.com)
-- WeChat/Phone: 18803979433
 - Google Voice: (+1)936-6662109
 - QQ: 1305647042
 - Telegram: [@songtianlun](https://t.me/songtianlun)
