@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/posts/retrospective/2022-05.md",
+            "file": "content/posts/retrospective/2022-06.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/retrospective/2022-05.md",
+                "file": "content/posts/retrospective/2022-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "2a1e49947ad94a68",
   "lastOpenFiles": [
+    "content/posts/retrospective/2022-06.md",
     "content/posts/retrospective/2022-05.md",
     "content/posts/retrospective/2022-04.md",
     "content/about.md",
@@ -97,7 +98,6 @@
     "content/technology/tips/spice-cloud-desktop-usage.md",
     "content/technology/tips/write-and-preview-hugo-using-Cloud-Studio.md",
     "content/technology/k8s/k3s-deployment-on-public-network.md",
-    "content/technology/k8s/k3s-uses-Letsencrypt-and-Traefik-to-deploy-the-https.md",
-    "content/technology/k8s/kubernetes-abstract.md"
+    "content/technology/k8s/k3s-uses-Letsencrypt-and-Traefik-to-deploy-the-https.md"
   ]
 }
