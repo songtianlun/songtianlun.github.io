@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esxi on Frytea</title>
+    <link>https://www.frytea.com/tags/esxi/</link>
+    <description>Recent content in Esxi on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 04 Sep 2020 11:43:05 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/esxi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>变废为宝 ｜ 旧电脑变云数据中心 ｜ Esxi 配置</title>
+      <link>https://www.frytea.com/posts/essay/posts/448/</link>
+      <pubDate>Fri, 04 Sep 2020 11:43:05 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/448/</guid>
+      <description>VMware Inc. 是虚拟机软件行业的老大，vSphere 是在VMware数据中心产品下的一套软件，ESXi, vSphere client 和 vCeneter 都是 vSphere 的组件。ESXi是 vSphere 中最重要的一</description>
+    </item>
+    
+  </channel>
+</rss>

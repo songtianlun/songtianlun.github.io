@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>qemu on Frytea</title>
+    <title>QEMU on Frytea</title>
     <link>https://www.frytea.com/tags/qemu/</link>
-    <description>Recent content in qemu on Frytea</description>
+    <description>Recent content in QEMU on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -36,6 +36,33 @@
       
       <guid>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
       <description>故事开始的地方，深入 Linux 系统的启动流程，自己编译内核并制作根文件系统，并使用 QEMU 模拟启动.</description>
+    </item>
+    
+    <item>
+      <title>虚拟机 img 镜像密码修改</title>
+      <link>https://www.frytea.com/posts/essay/posts/567/</link>
+      <pubDate>Fri, 03 Sep 2021 15:29:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/567/</guid>
+      <description>本文介绍使用 libguestfs-tools 修改镜像文件密码的方法。 步骤 # 环境 # CentOS Linux release 7.9.2009 (AltArch) # 鲲鹏 ARM 服务器 第一步：检查并修改qemu访问虚拟机镜像的权限 修改 qemu 配置文件 /et</description>
+    </item>
+    
+    <item>
+      <title>GDB 调试 QEMU 源码跟踪 QMP 协议执行</title>
+      <link>https://www.frytea.com/posts/essay/posts/566/</link>
+      <pubDate>Fri, 03 Sep 2021 09:53:08 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/566/</guid>
+      <description>接上文，通过跟踪 libvirt 的源码，找到 virsh domblkinfo 最终是使用 QMP 协议从 QEMU 获取到关键字为 query-block 的数据，其中带有 wr_highest_offset 字段，该字段被 libvirt 认定为 磁盘利用率中 Allocation 值的来源。 今天就</description>
+    </item>
+    
+    <item>
+      <title>QEMU 编译报错 undefined reference to g_app_info_launch_default_for_uri_finish 解决过程</title>
+      <link>https://www.frytea.com/posts/essay/posts/560/</link>
+      <pubDate>Fri, 20 Aug 2021 11:56:31 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/560/</guid>
+      <description>编译 QEMU 时报如下错误： /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_finish&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_check_instance_is_fundamentally_a&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_async&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_strv_contains&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_type&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_drive_is_removable&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_application_get_resource_base_path&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_log_structured_standard&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_get_instance_count&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_n_items&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_file_enumerator_iterate&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_param_spec_get_name_quark&amp;#39;</description>
     </item>
     
   </channel>

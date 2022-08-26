@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cloud-init on Frytea</title>
+    <title>Cloud-init on Frytea</title>
     <link>https://www.frytea.com/tags/cloud-init/</link>
-    <description>Recent content in cloud-init on Frytea</description>
+    <description>Recent content in Cloud-init on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -18,6 +18,15 @@
       
       <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
       <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
+    </item>
+    
+    <item>
+      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
+      <link>https://www.frytea.com/posts/essay/posts/583/</link>
+      <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/583/</guid>
+      <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
     </item>
     
   </channel>

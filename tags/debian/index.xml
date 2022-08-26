@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Dec 2021 16:04:43 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 09:05:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
+      <link>https://www.frytea.com/posts/essay/posts/605/</link>
+      <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/605/</guid>
+      <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
+    </item>
+    
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
       <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
@@ -45,6 +54,15 @@
       
       <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
       <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
+    </item>
+    
+    <item>
+      <title>deb 软件包里都有什么</title>
+      <link>https://www.frytea.com/posts/essay/posts/591/</link>
+      <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/591/</guid>
+      <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
     </item>
     
   </channel>

@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:30:19 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 12:31:37 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim 对比文件差异 | Linux 下同屏查看文件差异并修改</title>
+      <link>https://www.frytea.com/posts/essay/posts/594/</link>
+      <pubDate>Mon, 08 Nov 2021 12:31:37 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/594/</guid>
+      <description>在 windows 下有如 Beyond Compare 这样的文本对比工具，而在 Linux 其实预装了很好用的文本对比工具 → vimdiff 使用方法很简单： vimdiff [options] file1 file2 [file3 [file4]] 比如这样： vimdiff Release Release.new 效果是这样的： 可以使用</description>
+    </item>
+    
     <item>
       <title>Vim 一键编译运行 C/C&#43;&#43;</title>
       <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-one-run-and-build-c/</link>
@@ -63,6 +72,51 @@
       
       <guid>https://www.frytea.com/technology/unix-like/cmd/vim/instal-vim-vundle/</guid>
       <description>Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器</description>
+    </item>
+    
+    <item>
+      <title>Vim安装插件管理器Vundle</title>
+      <link>https://www.frytea.com/posts/essay/posts/418/</link>
+      <pubDate>Sun, 26 Jul 2020 19:17:16 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/418/</guid>
+      <description>安装vundle $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 默认安装在/.vim/bundle/vundle下； 配置说明： 插件有三种类型: Github上vim-scripts</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu下为vim安装YouCompleteMe插件</title>
+      <link>https://www.frytea.com/posts/essay/posts/419/</link>
+      <pubDate>Sun, 26 Jul 2020 19:17:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/419/</guid>
+      <description>前提条件 已安装 Vundle (参考 Vim安装插件管理器Vundle） Vim 版本 ≥ Vim 7.4.1578+ （查看 vim --version） 安装 第一步，使用Vundle安装YouCom</description>
+    </item>
+    
+    <item>
+      <title>VIM 创建程序文件自动添加头部注释</title>
+      <link>https://www.frytea.com/posts/essay/posts/416/</link>
+      <pubDate>Sun, 26 Jul 2020 19:16:37 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/416/</guid>
+      <description>修改 /etc/vimrc 或 ~/.vimrc，在文件最后添加以下内容： &amp;#34; 当新建 .h .c .hpp .cpp .mk .sh等文件时自动调用SetTitle 函数 autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh exec &amp;#34;:call SetTitle()&amp;#34; &amp;#34; 加入注释 func SetComment() call setline(1,&amp;#34;/*================================================================&amp;#34;)</description>
+    </item>
+    
+    <item>
+      <title>VIM个性化配置（一）</title>
+      <link>https://www.frytea.com/posts/essay/posts/417/</link>
+      <pubDate>Sun, 26 Jul 2020 19:16:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/417/</guid>
+      <description>配置 只需在Home目录创建一个 ~/.vimrc ****文件即可以配置 vim 了，如需安装插件，在 ~/.vim 目录下创建一个bundle文件夹，插件装在里面。（需安装 Vundle 插件</description>
+    </item>
+    
+    <item>
+      <title>Vim 版本升级（Vim8）</title>
+      <link>https://www.frytea.com/posts/essay/posts/415/</link>
+      <pubDate>Sun, 26 Jul 2020 19:15:57 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/415/</guid>
+      <description>安装步骤 第一步，下载源码 到Vim官方Github仓库下载目前最新的Vim Release版本 wget https://codeload.github.com/vim/vim/tar.gz/v8.2.1258 第二步，解压 $ mv v8.2.1258 vim-v8.2.1258.tar.gz $ tar -xvzf vim-v8.2.1258.tar.gz 第三步，编译安装 $</description>
     </item>
     
   </channel>

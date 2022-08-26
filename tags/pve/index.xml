@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pve on Frytea</title>
+    <title>PVE on Frytea</title>
     <link>https://www.frytea.com/tags/pve/</link>
-    <description>Recent content in pve on Frytea</description>
+    <description>Recent content in PVE on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Dec 2021 16:04:43 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 10:43:42 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox VE (PVE) 销毁集群</title>
+      <link>https://www.frytea.com/posts/essay/posts/628/</link>
+      <pubDate>Thu, 14 Apr 2022 10:43:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/628/</guid>
+      <description>当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍</description>
+    </item>
+    
+    <item>
+      <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
+      <link>https://www.frytea.com/posts/essay/posts/605/</link>
+      <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/605/</guid>
+      <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
+    </item>
+    
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
       <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
@@ -36,6 +54,33 @@
       
       <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
+    </item>
+    
+    <item>
+      <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
+      <link>https://www.frytea.com/posts/essay/posts/600/</link>
+      <pubDate>Wed, 24 Nov 2021 17:38:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/600/</guid>
+      <description>最近在看 PVE 源码时看到这样一段： # old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数 # new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法 sub get { return PVE::RESTEnvironment-&amp;gt;get(); } 好奇两种调用方式是什么区别，经过研</description>
+    </item>
+    
+    <item>
+      <title>pve-kernal 编译安装步骤</title>
+      <link>https://www.frytea.com/posts/essay/posts/586/</link>
+      <pubDate>Wed, 20 Oct 2021 09:55:57 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/586/</guid>
+      <description>以 pve-release-6.x ，基于 debian buster 为例： Step1: 配置国内 PVE 镜像源 # 配置 pve 软件包国内镜像源 $ echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian buster pve-no-subscription&amp;#34; &amp;gt; /etc/apt/sources.list.d/pve-no-subscription.list $ wget https://enterprise.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-6.x.gpg Setp2：安装依赖包 Install build dependencies (i got these from the pve-kernel/debian/control file): apt install asciidoc-base automake bc</description>
+    </item>
+    
+    <item>
+      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
+      <link>https://www.frytea.com/posts/essay/posts/583/</link>
+      <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/583/</guid>
+      <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
     </item>
     
   </channel>

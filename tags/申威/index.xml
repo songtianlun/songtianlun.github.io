@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>申威 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</link>
+    <description>Recent content in 申威 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 10 Nov 2021 18:08:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
+      <link>https://www.frytea.com/posts/essay/posts/598/</link>
+      <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/598/</guid>
+      <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
+    </item>
+    
+  </channel>
+</rss>

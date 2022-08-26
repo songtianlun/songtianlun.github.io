@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>json on Frytea</title>
+    <link>https://www.frytea.com/tags/json/</link>
+    <description>Recent content in json on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Apr 2022 10:11:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shell 中格式化显示 json 字符串</title>
+      <link>https://www.frytea.com/posts/essay/posts/629/</link>
+      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/629/</guid>
+      <description>有时需要在终端环境中查看 json 数据，比如使用 curl 调试接口时。直接看到的 json 数据是类似这样的： $ echo &amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39; {&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;} 如果想要以更直观的方式格式化显示 json 数</description>
+    </item>
+    
+    <item>
+      <title>Vue项目api加载json文件</title>
+      <link>https://www.frytea.com/posts/essay/posts/44/</link>
+      <pubDate>Sun, 10 Mar 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/44/</guid>
+      <description>概述 在vue项目开发过程中，免不了的要进行api接口的调用，当后端接口未搭建完成时，可以使用json文件模拟数据调用来搭建功能，同时有一些相</description>
+    </item>
+    
+  </channel>
+</rss>

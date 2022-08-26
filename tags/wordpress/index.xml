@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>wordpress on Frytea</title>
+    <link>https://www.frytea.com/tags/wordpress/</link>
+    <description>Recent content in wordpress on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 17 Jan 2019 15:39:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordpress邮件通知插件Notification使用小记</title>
+      <link>https://www.frytea.com/posts/essay/posts/55/</link>
+      <pubDate>Thu, 17 Jan 2019 15:39:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/55/</guid>
+      <description>Notification是wordpress上一款功能强劲的插件，可以实现wordpress各种事件的邮件通知功能，更可以根据自己的实际需求</description>
+    </item>
+    
+    <item>
+      <title>Wordpress评论区爆炸特效</title>
+      <link>https://www.frytea.com/posts/essay/posts/54/</link>
+      <pubDate>Tue, 15 Jan 2019 10:26:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/54/</guid>
+      <description>一直羡慕别人的博客输入有这样一个特效，想自己做一个，终于在这个博客找到了解决方案，于是尝试一下成功了！ WordPress优化：给博客添加评论</description>
+    </item>
+    
+    <item>
+      <title>Wordpress鼠标指针样式自定义</title>
+      <link>https://www.frytea.com/posts/essay/posts/53/</link>
+      <pubDate>Sat, 12 Jan 2019 00:55:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/53/</guid>
+      <description>继续折腾自己的博客！ 今天要做的事自定义鼠标样式！需要做的是增加css样式！ 第一步：选择鼠标样式，最好是两个状态，正常和链接，即普通的箭头和小</description>
+    </item>
+    
+    <item>
+      <title>Wordpress鼠标点击出现爱心</title>
+      <link>https://www.frytea.com/posts/essay/posts/60/</link>
+      <pubDate>Sat, 12 Jan 2019 00:37:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/60/</guid>
+      <description>同上文，眼馋各大博主博客令人眼前一亮的设计，想要给自己博客也打扮打扮，今天就来弄弄鼠标点击出现爱心的效果吧！ 采用了代码方式实现，很简单： 第一</description>
+    </item>
+    
+    <item>
+      <title>Wordpress 添加下雪特效</title>
+      <link>https://www.frytea.com/posts/essay/posts/59/</link>
+      <pubDate>Fri, 11 Jan 2019 23:48:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/59/</guid>
+      <description>最近非常热衷于逛博客，各大博主博客都非常出彩，弄得我心里面痒痒的也想弄，就先从一个下雪效果开始吧！ 在网上找了很多资料，最后找到一个非常靠谱的</description>
+    </item>
+    
+    <item>
+      <title>Wordpress自动推送新文章收录百度</title>
+      <link>https://www.frytea.com/posts/essay/posts/57/</link>
+      <pubDate>Fri, 11 Jan 2019 23:14:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/57/</guid>
+      <description>百度站长工具提供了很多种页面收录方式，在百度资源搜索平台提供了多种提交方式，比如自动提交，手动提交，以及sitemap。 百度资源搜索平台：h</description>
+    </item>
+    
+    <item>
+      <title>Wordpress检测文章手否被百度收录</title>
+      <link>https://www.frytea.com/posts/essay/posts/61/</link>
+      <pubDate>Fri, 11 Jan 2019 22:38:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/61/</guid>
+      <description>开通博客后就痴迷于让更多的人看到自己的博客，在百度搜索资源提交链接，又配置了文章自动提交百度的代码，还是想知道文章是否被百度收录，于是找到了</description>
+    </item>
+    
+  </channel>
+</rss>

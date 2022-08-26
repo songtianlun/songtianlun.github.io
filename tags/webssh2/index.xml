@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>webssh2 on Frytea</title>
+    <link>https://www.frytea.com/tags/webssh2/</link>
+    <description>Recent content in webssh2 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 Feb 2019 18:17:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/webssh2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网页版终端webssh2配置</title>
+      <link>https://www.frytea.com/posts/essay/posts/33/</link>
+      <pubDate>Thu, 21 Feb 2019 18:17:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/33/</guid>
+      <description>开源项目webssh2可以实现浏览器访问终端，参照网上教程实践后，记录步骤如下： 安装NVM curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash source ~/.bashrc 安装稳定版node.js nvm ls-remote --lts 查询最</description>
+    </item>
+    
+  </channel>
+</rss>

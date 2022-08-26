@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shadowsocks on Frytea</title>
+    <link>https://www.frytea.com/tags/shadowsocks/</link>
+    <description>Recent content in shadowsocks on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 12 Jan 2019 11:52:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vps使用Shadowsocks搭建vpn</title>
+      <link>https://www.frytea.com/posts/essay/posts/30/</link>
+      <pubDate>Sat, 12 Jan 2019 11:52:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/30/</guid>
+      <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的vpn经历无一不遇奸商！于是下决心搭建自己的vpn！就在今天，vpn终于搭建成功</description>
+    </item>
+    
+  </channel>
+</rss>

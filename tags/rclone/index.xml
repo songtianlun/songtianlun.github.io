@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rclone on Frytea</title>
+    <link>https://www.frytea.com/tags/rclone/</link>
+    <description>Recent content in rclone on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 06 May 2019 23:58:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux下使用rclone挂载网盘到本地</title>
+      <link>https://www.frytea.com/posts/essay/posts/31/</link>
+      <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/31/</guid>
+      <description>&lt;h1 id=&#34;linux下使用rclone挂载网盘到本地&#34;&gt;Linux下使用rclone挂载网盘到本地&lt;/h1&gt;
+&lt;p&gt;Rclone是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前Rclone支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone还支持SFTP 、FTP 、HTTP挂载。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

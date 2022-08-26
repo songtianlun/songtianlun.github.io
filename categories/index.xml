@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Aug 2022 04:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编程开发</title>
+      <link>https://www.frytea.com/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术价值</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E4%BB%B7%E5%80%BC/</link>
+      <pubDate>Tue, 16 Aug 2022 16:00:04 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E4%BB%B7%E5%80%BC/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>人生复盘</title>
       <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</link>
@@ -75,6 +93,15 @@
     </item>
     
     <item>
+      <title>人生轨迹</title>
+      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</link>
+      <pubDate>Sun, 12 Dec 2021 17:38:06 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux 笔记集</title>
       <link>https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
@@ -89,15 +116,6 @@
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%AC%94%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>人生轨迹</title>
-      <link>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</link>
-      <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E8%BD%A8%E8%BF%B9/</guid>
       <description></description>
     </item>
     
@@ -152,6 +170,24 @@
       <pubDate>Wed, 03 Nov 2021 14:30:19 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/vim-%E9%85%8D%E7%BD%AE%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>阅读笔记</title>
+      <link>https://www.frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 09 Mar 2021 23:50:14 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基础学科</title>
+      <link>https://www.frytea.com/categories/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/</link>
+      <pubDate>Fri, 19 Jun 2020 16:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/</guid>
       <description></description>
     </item>
     

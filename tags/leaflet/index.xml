@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>leaflet on Frytea</title>
+    <link>https://www.frytea.com/tags/leaflet/</link>
+    <description>Recent content in leaflet on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 09 Mar 2019 00:29:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/leaflet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vue项目使用leaflet&#43;heatmap.js加载热力图</title>
+      <link>https://www.frytea.com/posts/essay/posts/41/</link>
+      <pubDate>Sat, 09 Mar 2019 00:29:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/41/</guid>
+      <description>概述 最近做数字工程实践涉及到大量的地图操作，刚开始跳过依赖于supermap iclient for JavaScript，但是越做深入越发现局限性太大，于是开始</description>
+    </item>
+    
+    <item>
+      <title>Vue项目使用Vue2Leaflet插件实现地图显示</title>
+      <link>https://www.frytea.com/posts/essay/posts/43/</link>
+      <pubDate>Sun, 03 Mar 2019 18:47:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/43/</guid>
+      <description>简介 vue是一个渐进式javascript框架，用来快速构建网页项目，在vue框架之上结构化leaflet地图库的产物vue2leaflet</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>vue on Frytea</title>
+    <link>https://www.frytea.com/tags/vue/</link>
+    <description>Recent content in vue on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 17 Mar 2019 17:51:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vue项目使用axios对接第三方api，并做跨域处理</title>
+      <link>https://www.frytea.com/posts/essay/posts/40/</link>
+      <pubDate>Sun, 17 Mar 2019 17:51:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/40/</guid>
+      <description>简介 使用vue框架对接第三方接口时，常常使用anxios。 有很多时候你在构建应用时需要访问一个 API 并展示其数据。做这件事的方法有好几种，而使用</description>
+    </item>
+    
+    <item>
+      <title>Vue项目使用经验积累</title>
+      <link>https://www.frytea.com/posts/essay/posts/42/</link>
+      <pubDate>Tue, 12 Mar 2019 10:51:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/42/</guid>
+      <description>参考文献 vue 引入自定义js方法并调用 在vue项目中使用地图api,在vue-cli搭建的项目中使用高德地图定位 Vue - 监听文本框数据的三种方法</description>
+    </item>
+    
+    <item>
+      <title>Vue项目api加载json文件</title>
+      <link>https://www.frytea.com/posts/essay/posts/44/</link>
+      <pubDate>Sun, 10 Mar 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/44/</guid>
+      <description>概述 在vue项目开发过程中，免不了的要进行api接口的调用，当后端接口未搭建完成时，可以使用json文件模拟数据调用来搭建功能，同时有一些相</description>
+    </item>
+    
+    <item>
+      <title>Vue项目使用leaflet&#43;heatmap.js加载热力图</title>
+      <link>https://www.frytea.com/posts/essay/posts/41/</link>
+      <pubDate>Sat, 09 Mar 2019 00:29:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/41/</guid>
+      <description>概述 最近做数字工程实践涉及到大量的地图操作，刚开始跳过依赖于supermap iclient for JavaScript，但是越做深入越发现局限性太大，于是开始</description>
+    </item>
+    
+    <item>
+      <title>Vue项目使用Vue2Leaflet插件实现地图显示</title>
+      <link>https://www.frytea.com/posts/essay/posts/43/</link>
+      <pubDate>Sun, 03 Mar 2019 18:47:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/43/</guid>
+      <description>简介 vue是一个渐进式javascript框架，用来快速构建网页项目，在vue框架之上结构化leaflet地图库的产物vue2leaflet</description>
+    </item>
+    
+    <item>
+      <title>Windows下纯控制台配置vue环境并创建第一个vue项目</title>
+      <link>https://www.frytea.com/posts/essay/posts/48/</link>
+      <pubDate>Fri, 01 Mar 2019 09:50:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/48/</guid>
+      <description>概述 本文叙述如何在windows环境下完全使用cmd控制台配置vue环境并使用控制台创建vue项目，最终使用webstorm运行。 环境配置 第</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>libpcap on Frytea</title>
+    <link>https://www.frytea.com/tags/libpcap/</link>
+    <description>Recent content in libpcap on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Sep 2021 15:34:30 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/libpcap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Libpcap 落地包转发及性能调优</title>
+      <link>https://www.frytea.com/posts/essay/posts/570/</link>
+      <pubDate>Tue, 07 Sep 2021 15:34:30 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/570/</guid>
+      <description>近期接到一个需求，需要使用 libpcap 从某网卡抓包发送到另一张网卡，关于 libpcap 的使用方法在这里不再赘述，网上有很多教程，本文最后会给出一个示例程序。这里记</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,265 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>NMAP 基础扫描 | Frytea</title><meta name=keywords content><meta name=description content="以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。 1、Nmap 简单扫描 $ nmap <target ip address> $ nmap 192.168.41.41 直接指定需要扫描的主机IP"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/posts/essay/posts/507/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link crossorigin=anonymous href=/assets/css/stylesheet.min.d6915a40438ada26eb4bbe6b06836e00e13b20f99d6d3252319dd3a6cc407661.css integrity="sha256-1pFaQEOK2ibrS75rBoNuAOE7IPmdbTJSMZ3TpsxAdmE=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.85.0"><link rel=manifest href=/manifest.json><script src=https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js></script><script src=https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js></script><script type=text/javascript>function downloadJSAtOnload(){var a=document.createElement("script");a.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358",document.body.appendChild(a)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/umami.js></script><script async defer data-website-id=460b58e0-655d-42d7-926c-7a44aeb5730f src=https://frytea-umami.onrender.com/umami.js></script><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><link rel=stylesheet href=//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script>var _hmt=_hmt||[];(function(){var a=document.createElement("script"),b;a.src="https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-136094326-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="NMAP 基础扫描"><meta property="og:description" content="以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。 1、Nmap 简单扫描 $ nmap <target ip address> $ nmap 192.168.41.41 直接指定需要扫描的主机IP"><meta property="og:type" content="article"><meta property="og:url" content="https://www.frytea.com/posts/essay/posts/507/"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-01-26T17:18:25+00:00"><meta property="article:modified_time" content="2021-01-26T17:18:25+00:00"><meta property="og:site_name" content="Frytea"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="NMAP 基础扫描"><meta name=twitter:description content="以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。 1、Nmap 简单扫描 $ nmap <target ip address> $ nmap 192.168.41.41 直接指定需要扫描的主机IP"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"随笔文集","item":"https://www.frytea.com/posts/"},{"@type":"ListItem","position":2,"name":"NMAP 基础扫描","item":"https://www.frytea.com/posts/essay/posts/507/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"NMAP 基础扫描","name":"NMAP 基础扫描","description":"以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。 1、Nmap 简单扫描 $ nmap \u0026lt;target ip address\u0026gt; $ nmap 192.168.41.41 直接指定需要扫描的主机IP","keywords":[],"articleBody":"以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。\n1、Nmap 简单扫描 $ nmap $ nmap 192.168.41.41 直接指定需要扫描的主机IP开始扫描，返回详细描述。\n2、Nmap 扫描并输出详细信息 $ nmap -vv $ nmap 192.168.41.41 -vv 3、Nmap 指定端口范围扫描 $ nmap -p(range) # （rangge）为要扫描的端口（范围），端口大小不能超过65535\r# nmap 192.168.41.41 -p1-50\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:37 CST\rNmap scan report for bogon (192.168.41.41)\rHost is up (0.0038s latency).\rNot shown: 46 closed ports\rPORT STATE SERVICE\r5/tcp filtered rje\r21/tcp filtered ftp\r23/tcp open telnet\r27/tcp filtered nsw-fe\rMAC Address: 00:11:22:33:44:41 (Cimsys)\rNmap done: 1 IP address (1 host up) scanned in 7.99 seconds\r4、Nmap 指定端口扫描 $ nmap -p(port1,port2,port3,...) $ nmap -p23 192.168.41.41 Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:44 CST Nmap scan report for bogon (192.168.41.41) Host is up (0.0083s latency). PORT STATE SERVICE 23/tcp open telnet MAC Address: 00:11:22:33:44:41 (Cimsys) Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds 5、Nmap Ping 扫描 $ nmap -sP $ nmap -sP 192.168.41.41\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:45 CST\rNmap scan report for bogon (192.168.41.41)\rHost is up (0.0064s latency).\rMAC Address: 00:11:22:33:44:41 (Cimsys)\rNmap done: 1 IP address (1 host up) scanned in 0.02 seconds\r6、Nmap路由跟踪 $ nmap --traceroute $ nmap --traceroute 119.29.29.29\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:50 CST\rNmap scan report for pdns.dnspod.cn (119.29.29.29)\rHost is up (0.019s latency).\rNot shown: 998 filtered ports\rPORT STATE SERVICE\r53/tcp open domain\r80/tcp open http\rTRACEROUTE (using port 80/tcp)\rHOP RTT ADDRESS\r1 1.99 ms bogon (192.168.6.1)\r2 2.71 ms bogon (192.168.169.9)\r3 2.71 ms bogon (192.168.169.1)\r4 19.82 ms hn.kd.ny.adsl (123.14.80.1)\r5 4.74 ms hn.kd.ny.adsl (125.40.240.77)\r6 6.17 ms pc93.zz.ha.cn (61.168.37.93)\r7 ... 8\r9 44.19 ms no-data (125.39.198.178)\r10 ... 19\r20 19.46 ms pdns.dnspod.cn (119.29.29.29)\rNmap done: 1 IP address (1 host up) scanned in 10.55 seconds\r7 Nmap 扫描某网段IP $ nmap -sP $ nmap -sP 192.168.8.0/24\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:53 CST\rNmap scan report for bogon (192.168.8.129)\rHost is up (0.00084s latency).\rNmap done: 256 IP addresses (1 host up) scanned in 19.87 seconds\r8、Nmap 探测操作系统类别 $ nmap -O $ nmap -O 119.29.29.29\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:59 CST\rNmap scan report for pdns.dnspod.cn (119.29.29.29)\rHost is up (0.021s latency).\rNot shown: 998 filtered ports\rPORT STATE SERVICE\r53/tcp open domain\r80/tcp open http\rWarning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port\rDevice type: specialized|media device|WAP\rRunning (JUST GUESSING): Linux 2.6.X|3.X (88%), Hikvision embedded (88%)\rOS CPE: cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:3.0 cpe:/o:linux:linux_kernel:3.10\rAggressive OS guesses: HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (88%), Linux 3.0 (88%), DD-WRT v24-sp2 (Linux 3.10) (87%)\rNo exact OS matches for host (test conditions non-ideal).\rOS detection performed. Please report any incorrect results at https://nmap.org/submit/ .\rNmap done: 1 IP address (1 host up) scanned in 8.49 seconds\r9、Nmap 万能扫描 此选项设置包含了1-10000的端口ping扫描，操作系统扫描，脚本扫描，路由跟踪，服务探测。 命令语法：\n$ nmap -A $ nmap -A 119.29.29.29\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 17:08 CST\rNmap scan report for pdns.dnspod.cn (119.29.29.29)\rHost is up (0.020s latency).\rNot shown: 998 filtered ports\rPORT STATE SERVICE VERSION\r53/tcp open domain ISC BIND 9.11.3\r| dns-nsid:\r|_ bind.version: 9.11.3\r80/tcp open http Http Server\r| fingerprint-strings:\r| FourOhFourRequest, GetRequest:\r| HTTP/1.0 404 Not Found\r| Connection: close\r| Server: Http Server\r| Content-Type: text/html\r| Content-Length: 174\r| \r| Server error message\r| \r| Error 404: Not Found\r| request could not be completed because:\r| Document not found!\r| \r|_ \r|_http-server-header: Http Server\r|_http-title: Server error message\r1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :\rSF-Port80-TCP:V=7.80%I=7%D=1/26%Time=600FDC05%P=x86_64-redhat-linux-gnu%r(\rSF:GetRequest,11E,\"HTTP/1\\.0\\x20404\\x20Not\\x20Found\\r\\nConnection:\\x20clos\rSF:e\\r\\nServer:\\x20Http\\x20Server\\r\\nContent-Type:\\x20text/html\\r\\nContent\rSF:-Length:\\x20174\\r\\n\\r\\n\\nServer\\x20error\\x20message\\n\\nError\\x20404:\\x20Not\\x20Found\\nThe\\x20\rSF:request\\x20could\\x20not\\x20be\\x20completed\\x20because:\\n\\x20Document\\x2\rSF:0not\\x20found!\\n\\n\\n\")%r(FourOhFourRequest,11E,\"HTTP/1\\.0\rSF:\\x20404\\x20Not\\x20Found\\r\\nConnection:\\x20close\\r\\nServer:\\x20Http\\x20S\rSF:erver\\r\\nContent-Type:\\x20text/html\\r\\nContent-Length:\\x20174\\r\\n\\r\\n\\nServer\\x20error\\x20message\\n\\nError\\x20404:\\x20Not\\x20Found\\nThe\\x20request\\x20could\\x20not\\x\rSF:20be\\x20completed\\x20because:\\n\\x20Document\\x20not\\x20found!\\n\\n\rSF:\\n\");\rWarning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port\rDevice type: media device|specialized|WAP|security-misc\rRunning (JUST GUESSING): Linux 3.X|2.6.X (88%), Hikvision embedded (87%), Imperva SecureSphere (86%)\rOS CPE: cpe:/o:linux:linux_kernel:3.0 cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:3.10 cpe:/o:imperva:securesphere\rAggressive OS guesses: Linux 3.0 (88%), HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (87%), DD-WRT v24-sp2 (Linux 3.10) (87%), Linux 2.6.32 (86%)\rNo exact OS matches for host (test conditions non-ideal).\rNetwork Distance: 20 hops\rTRACEROUTE (using port 53/tcp)\rHOP RTT ADDRESS\r1 1.83 ms bogon (192.168.6.1)\r2 2.69 ms bogon (192.168.169.9)\r3 2.12 ms bogon (192.168.169.1)\r4 4.01 ms hn.kd.ny.adsl (123.14.80.1)\r5 3.74 ms hn.kd.ny.adsl (125.40.240.77)\r6 5.07 ms pc73.zz.ha.cn (61.168.37.73)\r7 ...\r8 17.91 ms dns2.online.tj.cn (117.8.222.2)\r9 30.42 ms no-data (125.39.198.178)\r10 ... 19\r20 20.12 ms pdns.dnspod.cn (119.29.29.29)\rOS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .\rNmap done: 1 IP address (1 host up) scanned in 164.97 seconds\r10、Nmap 命令混合式扫描 $ nmap -vv -p1-1000 -O $ nmap -vv -p1-50 -O 192.168.41.41\rStarting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 17:12 CST\rInitiating ARP Ping Scan at 17:12\rScanning 192.168.41.41 [1 port]\rCompleted ARP Ping Scan at 17:12, 0.01s elapsed (1 total hosts)\rInitiating Parallel DNS resolution of 1 host. at 17:12\rCompleted Parallel DNS resolution of 1 host. at 17:12, 0.00s elapsed\rInitiating SYN Stealth Scan at 17:12\rScanning bogon (192.168.41.41) [50 ports]\rDiscovered open port 23/tcp on 192.168.41.41\rIncreasing send delay for 192.168.41.41 from 0 to 5 due to 13 out of 43 dropped probes since last increase.\rCompleted SYN Stealth Scan at 17:12, 4.52s elapsed (50 total ports)\rInitiating OS detection (try #1) against bogon (192.168.41.41)\rRetrying OS detection (try #2) against bogon (192.168.41.41)\rRetrying OS detection (try #3) against bogon (192.168.41.41)\rRetrying OS detection (try #4) against bogon (192.168.41.41)\rRetrying OS detection (try #5) against bogon (192.168.41.41)\rNmap scan report for bogon (192.168.41.41)\rHost is up, received arp-response (0.0030s latency).\rScanned at 2021-01-26 17:12:37 CST for 16s\rPORT STATE SERVICE REASON\r1/tcp closed tcpmux reset ttl 64\r2/tcp filtered compressnet no-response\r3/tcp closed compressnet reset ttl 64\r4/tcp closed unknown reset ttl 64\r5/tcp closed rje reset ttl 64\r6/tcp closed unknown reset ttl 64\r7/tcp closed echo reset ttl 64\r8/tcp closed unknown reset ttl 64\r9/tcp closed discard reset ttl 64\r10/tcp closed unknown reset ttl 64\r11/tcp closed systat reset ttl 64\r12/tcp closed unknown reset ttl 64\r13/tcp closed daytime reset ttl 64\r14/tcp closed unknown reset ttl 64\r15/tcp closed netstat reset ttl 64\r16/tcp closed unknown reset ttl 64\r17/tcp closed qotd reset ttl 64\r18/tcp closed msp reset ttl 64\r19/tcp closed chargen reset ttl 64\r20/tcp closed ftp-data reset ttl 64\r21/tcp closed ftp reset ttl 64\r22/tcp closed ssh reset ttl 64\r23/tcp open telnet syn-ack ttl 64\r24/tcp closed priv-mail reset ttl 64\r25/tcp closed smtp reset ttl 64\r26/tcp closed rsftp reset ttl 64\r27/tcp closed nsw-fe reset ttl 64\r28/tcp closed unknown reset ttl 64\r29/tcp closed msg-icp reset ttl 64\r30/tcp closed unknown reset ttl 64\r31/tcp closed msg-auth reset ttl 64\r32/tcp closed unknown reset ttl 64\r33/tcp closed dsp reset ttl 64\r34/tcp closed unknown reset ttl 64\r35/tcp closed priv-print reset ttl 64\r36/tcp closed unknown reset ttl 64\r37/tcp closed time reset ttl 64\r38/tcp closed rap reset ttl 64\r39/tcp closed rlp reset ttl 64\r40/tcp closed unknown reset ttl 64\r41/tcp closed graphics reset ttl 64\r42/tcp closed nameserver reset ttl 64\r43/tcp closed whois reset ttl 64\r44/tcp closed mpm-flags reset ttl 64\r45/tcp closed mpm reset ttl 64\r46/tcp closed mpm-snd reset ttl 64\r47/tcp closed ni-ftp reset ttl 64\r48/tcp filtered auditd no-response\r49/tcp closed tacacs reset ttl 64\r50/tcp closed re-mail-ck reset ttl 64\rMAC Address: 00:11:22:33:44:41 (Cimsys)\rNo exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).\rTCP/IP fingerprint:\rOS:SCAN(V=7.80%E=4%D=1/26%OT=23%CT=1%CU=37223%PV=Y%DS=1%DC=D%G=Y%M=001122%T\rOS:M=600FDD15%P=x86_64-redhat-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=RD\rOS:%TS=A)SEQ(SP=104%GCD=1%ISR=10C%TI=Z%CI=RI%II=I%TS=A)OPS(O1=M5A0ST11NW7%O\rOS:2=M5A0ST11NW7%O3=M5A0NNT11NW7%O4=M5A0ST11NW7%O5=M5A0ST11NW7%O6=M5A0ST11)\rOS:WIN(W1=6F90%W2=6F90%W3=6F90%W4=6F90%W5=6F90%W6=6F90)ECN(R=Y%DF=Y%T=40%W=\rOS:7080%O=M5A0NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%\rOS:DF=Y%T=2B%W=80%S=A%A=Z%F=R%O=WANM109T10S%RD=0%Q=)T3(R=N)T4(R=Y%DF=Y%T=38\rOS:%W=400%S=A%A=Z%F=R%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=A%A=S+%F\rOS:=AR%O=%RD=0%Q=)T5(R=N)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=Z%F=R%O=WANM109T10S%\rOS:RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=Z%F=R%O=WFNM109T10S%RD=0%Q=)U1(R=Y\rOS:%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T\rOS:=40%CD=S)\rUptime guess: 34.815 days (since Tue Dec 22 21:38:45 2020)\rNetwork Distance: 1 hop\rTCP Sequence Prediction: Difficulty=261 (Good luck!)\rIP ID Sequence Generation: All zeros\rRead data files from: /usr/bin/../share/nmap\rOS detection performed. Please report any incorrect results at https://nmap.org/submit/ .\rNmap done: 1 IP address (1 host up) scanned in 15.95 seconds\rRaw packets sent: 187 (12.130KB) | Rcvd: 159 (10.202KB)\r参考文献  Nmap基础教程：https://wooyun.js.org/drops/NMAP%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html 利用 Nmap 实现快速的网络发现与管理：https://developer.ibm.com/zh/articles/os-cn-nmap/ Nmap 中文手册 - Nmap 中文网：http://www.nmap.com.cn/doc/manual.shtm#4  ","wordCount":"1816","inLanguage":"zh","datePublished":"2021-01-26T17:18:25Z","dateModified":"2021-01-26T17:18:25Z","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.frytea.com/posts/essay/posts/507/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://www.frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://www.frytea.com/categories/ title=🗂><span>🗂</span></a></li><li><a href=https://www.frytea.com/tags/ title=🏷️><span>🏷️</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 (Alt + /)" accesskey=/><span>🔍</span></a></li><li><a href=https://www.frytea.com/posts/ title=✒️><span>✒️</span></a></li><li><a href=https://www.frytea.com/technology/ title=⚙️><span>⚙️</span></a></li><li><a href=https://www.frytea.com/technology/app-list/ title=🛠><span>🛠</span></a></li><li><a href=https://www.frytea.com/technology/projects/ title=📁><span>📁</span></a></li><li><a href=https://travellings.link title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/posts/>随笔文集</a></div><h1 class=post-title><a href=https://www.frytea.com/posts/essay/posts/507/>NMAP 基础扫描</a></h1><div class=post-meta>January 26, 2021&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1816 字&nbsp;·&nbsp;Tianlun Song&nbsp;|&nbsp;<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/posts/essay/posts/NMAP-%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f.md rel="noopener noreferrer" target=_blank>PR</a>
+&nbsp;| &nbsp;<span id=busuanzi_value_page_pv><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits</div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><ul><li><a href=#1nmap-%e7%ae%80%e5%8d%95%e6%89%ab%e6%8f%8f aria-label="1、Nmap 简单扫描">1、Nmap 简单扫描</a></li><li><a href=#2nmap-%e6%89%ab%e6%8f%8f%e5%b9%b6%e8%be%93%e5%87%ba%e8%af%a6%e7%bb%86%e4%bf%a1%e6%81%af aria-label="2、Nmap 扫描并输出详细信息">2、Nmap 扫描并输出详细信息</a></li><li><a href=#3nmap-%e6%8c%87%e5%ae%9a%e7%ab%af%e5%8f%a3%e8%8c%83%e5%9b%b4%e6%89%ab%e6%8f%8f aria-label="3、Nmap 指定端口范围扫描">3、Nmap 指定端口范围扫描</a></li><li><a href=#4nmap-%e6%8c%87%e5%ae%9a%e7%ab%af%e5%8f%a3%e6%89%ab%e6%8f%8f aria-label="4、Nmap 指定端口扫描">4、Nmap 指定端口扫描</a></li><li><a href=#5nmap-ping-%e6%89%ab%e6%8f%8f aria-label="5、Nmap Ping 扫描">5、Nmap Ping 扫描</a></li><li><a href=#6nmap%e8%b7%af%e7%94%b1%e8%b7%9f%e8%b8%aa aria-label=6、Nmap路由跟踪>6、Nmap路由跟踪</a></li><li><a href=#7-nmap-%e6%89%ab%e6%8f%8f%e6%9f%90%e7%bd%91%e6%ae%b5ip aria-label="7 Nmap 扫描某网段IP">7 Nmap 扫描某网段IP</a></li><li><a href=#8nmap-%e6%8e%a2%e6%b5%8b%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e7%b1%bb%e5%88%ab aria-label="8、Nmap 探测操作系统类别">8、Nmap 探测操作系统类别</a></li><li><a href=#9nmap-%e4%b8%87%e8%83%bd%e6%89%ab%e6%8f%8f aria-label="9、Nmap 万能扫描">9、Nmap 万能扫描</a></li><li><a href=#10nmap-%e5%91%bd%e4%bb%a4%e6%b7%b7%e5%90%88%e5%bc%8f%e6%89%ab%e6%8f%8f aria-label="10、Nmap 命令混合式扫描">10、Nmap 命令混合式扫描</a></li></ul><li><a href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae aria-label=参考文献>参考文献</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://www.frytea.com/posts/essay/posts/507/>本文</a>
+首发于
+<a href=https://www.frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://www.frytea.com/posts/essay/posts/507/>来源</a>。</p></blockquote><p>以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。</p><h3 id=1nmap-简单扫描>1、Nmap 简单扫描<a hidden class=anchor aria-hidden=true href=#1nmap-简单扫描>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ nmap &lt;target ip address&gt;
+$ nmap 192.168.41.41
+</code></pre></div><p>直接指定需要扫描的主机IP开始扫描，返回详细描述。</p><h3 id=2nmap-扫描并输出详细信息>2、Nmap 扫描并输出详细信息<a hidden class=anchor aria-hidden=true href=#2nmap-扫描并输出详细信息>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ nmap &lt;target ip address&gt; -vv
+$ nmap 192.168.41.41 -vv
+</code></pre></div><h3 id=3nmap-指定端口范围扫描>3、Nmap 指定端口范围扫描<a hidden class=anchor aria-hidden=true href=#3nmap-指定端口范围扫描>#</a></h3><pre><code>$ nmap -p(range) &lt;target IP&gt;
+# （rangge）为要扫描的端口（范围），端口大小不能超过65535
+
+# nmap 192.168.41.41 -p1-50
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:37 CST
+Nmap scan report for bogon (192.168.41.41)
+Host is up (0.0038s latency).
+Not shown: 46 closed ports
+PORT   STATE    SERVICE
+5/tcp  filtered rje
+21/tcp filtered ftp
+23/tcp open     telnet
+27/tcp filtered nsw-fe
+MAC Address: 00:11:22:33:44:41 (Cimsys)
+
+Nmap done: 1 IP address (1 host up) scanned in 7.99 seconds
+</code></pre><h3 id=4nmap-指定端口扫描>4、Nmap 指定端口扫描<a hidden class=anchor aria-hidden=true href=#4nmap-指定端口扫描>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ nmap -p<span style=color:#f92672>(</span>port1,port2,port3,...<span style=color:#f92672>)</span> &lt;target ip&gt; 
+
+$ nmap -p23 192.168.41.41
+Starting Nmap 7.80 <span style=color:#f92672>(</span> https://nmap.org <span style=color:#f92672>)</span> at 2021-01-26 16:44 CST
+Nmap scan report <span style=color:#66d9ef>for</span> bogon <span style=color:#f92672>(</span>192.168.41.41<span style=color:#f92672>)</span>
+Host is up <span style=color:#f92672>(</span>0.0083s latency<span style=color:#f92672>)</span>.
+
+PORT   STATE SERVICE
+23/tcp open  telnet
+MAC Address: 00:11:22:33:44:41 <span style=color:#f92672>(</span>Cimsys<span style=color:#f92672>)</span>
+
+Nmap <span style=color:#66d9ef>done</span>: <span style=color:#ae81ff>1</span> IP address <span style=color:#f92672>(</span><span style=color:#ae81ff>1</span> host up<span style=color:#f92672>)</span> scanned in 0.04 seconds
+</code></pre></div><h3 id=5nmap-ping-扫描>5、Nmap Ping 扫描<a hidden class=anchor aria-hidden=true href=#5nmap-ping-扫描>#</a></h3><pre><code>$ nmap -sP &lt;target ip&gt; 
+$ nmap -sP 192.168.41.41
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:45 CST
+Nmap scan report for bogon (192.168.41.41)
+Host is up (0.0064s latency).
+MAC Address: 00:11:22:33:44:41 (Cimsys)
+Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+</code></pre><h3 id=6nmap路由跟踪>6、Nmap路由跟踪<a hidden class=anchor aria-hidden=true href=#6nmap路由跟踪>#</a></h3><pre><code>$ nmap --traceroute &lt;target ip&gt; 
+$  nmap --traceroute 119.29.29.29
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:50 CST
+Nmap scan report for pdns.dnspod.cn (119.29.29.29)
+Host is up (0.019s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   1.99 ms  bogon (192.168.6.1)
+2   2.71 ms  bogon (192.168.169.9)
+3   2.71 ms  bogon (192.168.169.1)
+4   19.82 ms hn.kd.ny.adsl (123.14.80.1)
+5   4.74 ms  hn.kd.ny.adsl (125.40.240.77)
+6   6.17 ms  pc93.zz.ha.cn (61.168.37.93)
+7   ... 8
+9   44.19 ms no-data (125.39.198.178)
+10  ... 19
+20  19.46 ms pdns.dnspod.cn (119.29.29.29)
+
+Nmap done: 1 IP address (1 host up) scanned in 10.55 seconds
+</code></pre><h3 id=7-nmap-扫描某网段ip>7 Nmap 扫描某网段IP<a hidden class=anchor aria-hidden=true href=#7-nmap-扫描某网段ip>#</a></h3><pre><code>$ nmap -sP &lt;network address &gt; &lt;/CIDR &gt;
+$ nmap -sP 192.168.8.0/24
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:53 CST
+Nmap scan report for bogon (192.168.8.129)
+Host is up (0.00084s latency).
+Nmap done: 256 IP addresses (1 host up) scanned in 19.87 seconds
+</code></pre><h3 id=8nmap-探测操作系统类别>8、Nmap 探测操作系统类别<a hidden class=anchor aria-hidden=true href=#8nmap-探测操作系统类别>#</a></h3><pre><code>$ nmap -O &lt;target ip&gt; 
+$  nmap -O 119.29.29.29
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 16:59 CST
+Nmap scan report for pdns.dnspod.cn (119.29.29.29)
+Host is up (0.021s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|media device|WAP
+Running (JUST GUESSING): Linux 2.6.X|3.X (88%), Hikvision embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:3.0 cpe:/o:linux:linux_kernel:3.10
+Aggressive OS guesses: HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (88%), Linux 3.0 (88%), DD-WRT v24-sp2 (Linux 3.10) (87%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
+</code></pre><h3 id=9nmap-万能扫描>9、Nmap 万能扫描<a hidden class=anchor aria-hidden=true href=#9nmap-万能扫描>#</a></h3><p>此选项设置包含了1-10000的端口ping扫描，操作系统扫描，脚本扫描，路由跟踪，服务探测。
+命令语法：</p><pre><code>$ nmap -A &lt;target ip&gt;
+$ nmap -A 119.29.29.29
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 17:08 CST
+Nmap scan report for pdns.dnspod.cn (119.29.29.29)
+Host is up (0.020s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  ISC BIND 9.11.3
+| dns-nsid:
+|_  bind.version: 9.11.3
+80/tcp open  http    Http Server
+| fingerprint-strings:
+|   FourOhFourRequest, GetRequest:
+|     HTTP/1.0 404 Not Found
+|     Connection: close
+|     Server: Http Server
+|     Content-Type: text/html
+|     Content-Length: 174
+|     &lt;html&gt;
+|     &lt;head&gt;&lt;title&gt;Server error message&lt;/title&gt;&lt;/head&gt;
+|     &lt;body&gt;
+|     &lt;h1&gt;Error 404: Not Found&lt;/h1&gt;
+|     request could not be completed because:
+|     Document not found!
+|     &lt;/body&gt;
+|_    &lt;/html&gt;
+|_http-server-header: Http Server
+|_http-title: Server error message
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.80%I=7%D=1/26%Time=600FDC05%P=x86_64-redhat-linux-gnu%r(
+SF:GetRequest,11E,&quot;HTTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20clos
+SF:e\r\nServer:\x20Http\x20Server\r\nContent-Type:\x20text/html\r\nContent
+SF:-Length:\x20174\r\n\r\n&lt;html&gt;\n&lt;head&gt;&lt;title&gt;Server\x20error\x20message&lt;
+SF:/title&gt;&lt;/head&gt;\n&lt;body&gt;\n&lt;h1&gt;Error\x20404:\x20Not\x20Found&lt;/h1&gt;\nThe\x20
+SF:request\x20could\x20not\x20be\x20completed\x20because:\n\x20Document\x2
+SF:0not\x20found!\n&lt;/body&gt;\n&lt;/html&gt;\n&quot;)%r(FourOhFourRequest,11E,&quot;HTTP/1\.0
+SF:\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nServer:\x20Http\x20S
+SF:erver\r\nContent-Type:\x20text/html\r\nContent-Length:\x20174\r\n\r\n&lt;h
+SF:tml&gt;\n&lt;head&gt;&lt;title&gt;Server\x20error\x20message&lt;/title&gt;&lt;/head&gt;\n&lt;body&gt;\n&lt;
+SF:h1&gt;Error\x20404:\x20Not\x20Found&lt;/h1&gt;\nThe\x20request\x20could\x20not\x
+SF:20be\x20completed\x20because:\n\x20Document\x20not\x20found!\n&lt;/body&gt;\n
+SF:&lt;/html&gt;\n&quot;);
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: media device|specialized|WAP|security-misc
+Running (JUST GUESSING): Linux 3.X|2.6.X (88%), Hikvision embedded (87%), Imperva SecureSphere (86%)
+OS CPE: cpe:/o:linux:linux_kernel:3.0 cpe:/o:linux:linux_kernel:2.6.10 cpe:/h:hikvision:ds-7600 cpe:/o:linux:linux_kernel:3.10 cpe:/o:imperva:securesphere
+Aggressive OS guesses: Linux 3.0 (88%), HIKVISION DS-7600 Linux Embedded NVR (Linux 2.6.10) (87%), DD-WRT v24-sp2 (Linux 3.10) (87%), Linux 2.6.32 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 20 hops
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT      ADDRESS
+1   1.83 ms  bogon (192.168.6.1)
+2   2.69 ms  bogon (192.168.169.9)
+3   2.12 ms  bogon (192.168.169.1)
+4   4.01 ms  hn.kd.ny.adsl (123.14.80.1)
+5   3.74 ms  hn.kd.ny.adsl (125.40.240.77)
+6   5.07 ms  pc73.zz.ha.cn (61.168.37.73)
+7   ...
+8   17.91 ms dns2.online.tj.cn (117.8.222.2)
+9   30.42 ms no-data (125.39.198.178)
+10  ... 19
+20  20.12 ms pdns.dnspod.cn (119.29.29.29)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 164.97 seconds
+</code></pre><h3 id=10nmap-命令混合式扫描>10、Nmap 命令混合式扫描<a hidden class=anchor aria-hidden=true href=#10nmap-命令混合式扫描>#</a></h3><pre><code>$ nmap -vv -p1-1000 -O &lt;target ip&gt;
+$ nmap -vv -p1-50 -O 192.168.41.41
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-26 17:12 CST
+Initiating ARP Ping Scan at 17:12
+Scanning 192.168.41.41 [1 port]
+Completed ARP Ping Scan at 17:12, 0.01s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 17:12
+Completed Parallel DNS resolution of 1 host. at 17:12, 0.00s elapsed
+Initiating SYN Stealth Scan at 17:12
+Scanning bogon (192.168.41.41) [50 ports]
+Discovered open port 23/tcp on 192.168.41.41
+Increasing send delay for 192.168.41.41 from 0 to 5 due to 13 out of 43 dropped probes since last increase.
+Completed SYN Stealth Scan at 17:12, 4.52s elapsed (50 total ports)
+Initiating OS detection (try #1) against bogon (192.168.41.41)
+Retrying OS detection (try #2) against bogon (192.168.41.41)
+Retrying OS detection (try #3) against bogon (192.168.41.41)
+Retrying OS detection (try #4) against bogon (192.168.41.41)
+Retrying OS detection (try #5) against bogon (192.168.41.41)
+Nmap scan report for bogon (192.168.41.41)
+Host is up, received arp-response (0.0030s latency).
+Scanned at 2021-01-26 17:12:37 CST for 16s
+
+PORT   STATE    SERVICE     REASON
+1/tcp  closed   tcpmux      reset ttl 64
+2/tcp  filtered compressnet no-response
+3/tcp  closed   compressnet reset ttl 64
+4/tcp  closed   unknown     reset ttl 64
+5/tcp  closed   rje         reset ttl 64
+6/tcp  closed   unknown     reset ttl 64
+7/tcp  closed   echo        reset ttl 64
+8/tcp  closed   unknown     reset ttl 64
+9/tcp  closed   discard     reset ttl 64
+10/tcp closed   unknown     reset ttl 64
+11/tcp closed   systat      reset ttl 64
+12/tcp closed   unknown     reset ttl 64
+13/tcp closed   daytime     reset ttl 64
+14/tcp closed   unknown     reset ttl 64
+15/tcp closed   netstat     reset ttl 64
+16/tcp closed   unknown     reset ttl 64
+17/tcp closed   qotd        reset ttl 64
+18/tcp closed   msp         reset ttl 64
+19/tcp closed   chargen     reset ttl 64
+20/tcp closed   ftp-data    reset ttl 64
+21/tcp closed   ftp         reset ttl 64
+22/tcp closed   ssh         reset ttl 64
+23/tcp open     telnet      syn-ack ttl 64
+24/tcp closed   priv-mail   reset ttl 64
+25/tcp closed   smtp        reset ttl 64
+26/tcp closed   rsftp       reset ttl 64
+27/tcp closed   nsw-fe      reset ttl 64
+28/tcp closed   unknown     reset ttl 64
+29/tcp closed   msg-icp     reset ttl 64
+30/tcp closed   unknown     reset ttl 64
+31/tcp closed   msg-auth    reset ttl 64
+32/tcp closed   unknown     reset ttl 64
+33/tcp closed   dsp         reset ttl 64
+34/tcp closed   unknown     reset ttl 64
+35/tcp closed   priv-print  reset ttl 64
+36/tcp closed   unknown     reset ttl 64
+37/tcp closed   time        reset ttl 64
+38/tcp closed   rap         reset ttl 64
+39/tcp closed   rlp         reset ttl 64
+40/tcp closed   unknown     reset ttl 64
+41/tcp closed   graphics    reset ttl 64
+42/tcp closed   nameserver  reset ttl 64
+43/tcp closed   whois       reset ttl 64
+44/tcp closed   mpm-flags   reset ttl 64
+45/tcp closed   mpm         reset ttl 64
+46/tcp closed   mpm-snd     reset ttl 64
+47/tcp closed   ni-ftp      reset ttl 64
+48/tcp filtered auditd      no-response
+49/tcp closed   tacacs      reset ttl 64
+50/tcp closed   re-mail-ck  reset ttl 64
+MAC Address: 00:11:22:33:44:41 (Cimsys)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=1/26%OT=23%CT=1%CU=37223%PV=Y%DS=1%DC=D%G=Y%M=001122%T
+OS:M=600FDD15%P=x86_64-redhat-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=RD
+OS:%TS=A)SEQ(SP=104%GCD=1%ISR=10C%TI=Z%CI=RI%II=I%TS=A)OPS(O1=M5A0ST11NW7%O
+OS:2=M5A0ST11NW7%O3=M5A0NNT11NW7%O4=M5A0ST11NW7%O5=M5A0ST11NW7%O6=M5A0ST11)
+OS:WIN(W1=6F90%W2=6F90%W3=6F90%W4=6F90%W5=6F90%W6=6F90)ECN(R=Y%DF=Y%T=40%W=
+OS:7080%O=M5A0NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%
+OS:DF=Y%T=2B%W=80%S=A%A=Z%F=R%O=WANM109T10S%RD=0%Q=)T3(R=N)T4(R=Y%DF=Y%T=38
+OS:%W=400%S=A%A=Z%F=R%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=A%A=S+%F
+OS:=AR%O=%RD=0%Q=)T5(R=N)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=Z%F=R%O=WANM109T10S%
+OS:RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=Z%F=R%O=WFNM109T10S%RD=0%Q=)U1(R=Y
+OS:%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T
+OS:=40%CD=S)
+
+Uptime guess: 34.815 days (since Tue Dec 22 21:38:45 2020)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.95 seconds
+           Raw packets sent: 187 (12.130KB) | Rcvd: 159 (10.202KB)
+</code></pre><h2 id=参考文献>参考文献<a hidden class=anchor aria-hidden=true href=#参考文献>#</a></h2><ul><li>Nmap基础教程：https://wooyun.js.org/drops/NMAP%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html</li><li>利用 Nmap 实现快速的网络发现与管理：https://developer.ibm.com/zh/articles/os-cn-nmap/</li><li>Nmap 中文手册 - Nmap 中文网：http://www.nmap.com.cn/doc/manual.shtm#4</li></ul><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on twitter" href="https://twitter.com/intent/tweet/?text=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f&url=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f&hashtags="><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f&title=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f&summary=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f&source=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f&title=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on whatsapp" href="https://api.whatsapp.com/send?text=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f%20-%20https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share NMAP 基础扫描 on telegram" href="https://telegram.me/share/url?text=NMAP%20%e5%9f%ba%e7%a1%80%e6%89%ab%e6%8f%8f&url=https%3a%2f%2fwww.frytea.com%2fposts%2fessay%2fposts%2f507%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://www.frytea.com/posts/essay/posts/508/><span class=title>« 上一页</span><br><span>成事的基础准则：抓住要领，紧跟需求</span></a>
+<a class=next href=https://www.frytea.com/posts/essay/posts/506/><span class=title>下一页 »</span><br><span>五分钟定输赢</span></a></nav></footer><div id=vcomments style="background-color:var(--theme);margin-top:15px;padding:20px;border-radius:var(--radius);box-shadow:0 0 10px grey"></div><script src=//cdn1.lncld.net/static/js/3.0.4/av-min.js></script><script src=//unpkg.com/valine/dist/Valine.min.js></script><script type=text/javascript>new Valine({el:'#vcomments',appId:'mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz',appKey:'nx1gknfuCi4dsFHwG7cAbqUL',notify:'false',verify:'false',avatar:'Tianlun Song',placeholder:'说点什么吧...',visitor:'true'})</script></article></main><footer class=footer><span>Copyright &copy; 2022 • <a href=https://www.frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span><a href=/about/>关于</a>
+• <a href=/disclaimer/>免责声明</a>
+• <a href=/sitemap.xml target=view_window>站点地图</a>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
+• PV <span id=busuanzi_value_site_pv><i class="fa fa-spinner fa-spin"></i></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script><meta name=”apple-mobile-web-app-capable” content="”yes”"><script>'serviceWorker'in navigator&&window.addEventListener('load',()=>{navigator.serviceWorker.register('/service-worker.js')})</script></body></html>

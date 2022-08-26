@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gitkraken on Frytea</title>
+    <link>https://www.frytea.com/tags/gitkraken/</link>
+    <description>Recent content in gitkraken on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Dec 2021 09:31:05 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/gitkraken/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 安装 GitKraken 并汉化</title>
+      <link>https://www.frytea.com/posts/essay/posts/613/</link>
+      <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/613/</guid>
+      <description>GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。 安装及汉化 首先在 GitKraken 官网下载安装包： GitKraken 官</description>
+    </item>
+    
+  </channel>
+</rss>

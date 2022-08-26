@@ -20,5 +20,14 @@
       <description>一个终端复用器。</description>
     </item>
     
+    <item>
+      <title>Tmux 使用笔记</title>
+      <link>https://www.frytea.com/posts/essay/posts/585/</link>
+      <pubDate>Wed, 13 Oct 2021 14:30:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/585/</guid>
+      <description>Tmux 是一个终端复用器（terminal multiplexer），用起来就离不开。网上有很多 Tmux 使用指南，但是用下来发现还是自己整理一遍才能真正的</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>win10 on Frytea</title>
+    <link>https://www.frytea.com/tags/win10/</link>
+    <description>Recent content in win10 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 11 Apr 2019 22:34:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/win10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win10安装Rational_Rose_2007步骤及安装包下载</title>
+      <link>https://www.frytea.com/posts/essay/posts/45/</link>
+      <pubDate>Thu, 11 Apr 2019 22:34:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/45/</guid>
+      <description>&lt;p&gt;经典IBM给力软件，UML建模利器，亲身体验，安装步骤及资源全聚合。&lt;/p&gt;
+&lt;h1 id=&#34;win10-安装rational_rose_2007-步骤及安装包下载&#34;&gt;Win10 安装Rational_Rose_2007 步骤及安装包下载&lt;/h1&gt;
+&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;Rational rose是一款创建UML模型的软件，由于其相对古老，因此安装流程较为曲折，在这里分享自己的安装经历，记录自己，方便他人。&lt;/p&gt;
+&lt;p&gt;安装分为两部分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;虚拟光驱工具Alcohol120%的安装&lt;/li&gt;
+&lt;li&gt;Rational rose软件安装包的打开&lt;/li&gt;
+&lt;li&gt;软件安装&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

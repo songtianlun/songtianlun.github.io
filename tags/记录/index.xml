@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>记录 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 记录 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 Feb 2019 15:46:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown语法</title>
+      <link>https://www.frytea.com/posts/essay/posts/58/</link>
+      <pubDate>Thu, 21 Feb 2019 15:46:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/58/</guid>
+      <description>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。因为其简单的语法及强大的</description>
+    </item>
+    
+  </channel>
+</rss>

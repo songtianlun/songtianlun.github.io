@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bash on Frytea</title>
+    <link>https://www.frytea.com/tags/bash/</link>
+    <description>Recent content in Bash on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 Sep 2021 17:35:23 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自动递归下载依赖 deb 包 bash 脚本</title>
+      <link>https://www.frytea.com/posts/essay/posts/575/</link>
+      <pubDate>Sat, 18 Sep 2021 17:35:23 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/575/</guid>
+      <description>说明 脚本自动递归下载给定包列表deb包及其依赖包，深度3层； 若指定参数则下载给定的包及其依赖包（目前仅支持指定1个包，不支持多包）； 若无参数</description>
+    </item>
+    
+  </channel>
+</rss>

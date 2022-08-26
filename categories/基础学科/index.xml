@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>基础学科 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/</link>
+    <description>Recent content in 基础学科 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 19 Jun 2020 16:32:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco PT 案例九：单臂路由</title>
+      <link>https://www.frytea.com/posts/essay/posts/350/</link>
+      <pubDate>Fri, 19 Jun 2020 16:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/350/</guid>
+      <description>单臂路由（router-on-a-stick）是指在路由器的一个接口上通过配置子接口（或“逻辑接口”，并不存在真正物理接口）的方式，实现原来</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT  案例八：配置基本ACL访问控制</title>
+      <link>https://www.frytea.com/posts/essay/posts/349/</link>
+      <pubDate>Fri, 19 Jun 2020 09:52:23 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/349/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置F0/1接口IP： R1(config)#interface fastEthernet 0/1 //进入Fa0/1 R1(config-if)#ip address 172.16.1.1 255.255.255.0 //配置IP R1(config-if)#no shutdown //开启端口 ** 配置F0</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例七：配置链路聚合 / 负载均衡</title>
+      <link>https://www.frytea.com/posts/essay/posts/348/</link>
+      <pubDate>Fri, 19 Jun 2020 09:51:53 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/348/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置交换机0 Switch&amp;gt;enable Switch#configure terminal Switch(config)#hostname SA （更改交换机名字） SA(config)#interface port-channel 1 （聚合通道1） SA(config-if)#exit SA(config)#interface fa0/22 SA(config-if)#channel-group 1 mode on （开启聚合通道1）</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例六：交换机端口与Mac地址绑定</title>
+      <link>https://www.frytea.com/posts/essay/posts/347/</link>
+      <pubDate>Fri, 19 Jun 2020 09:51:04 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/347/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 1、进入相应的接口 （以端口1设置Mac地址绑定，PC0接1端口举例） Switch&amp;gt;enable Switch#config Configuring from terminal, memory, or network [terminal]? Enter configuration commands,</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例五：VLAN（Trunk模式实践）</title>
+      <link>https://www.frytea.com/posts/essay/posts/346/</link>
+      <pubDate>Fri, 19 Jun 2020 09:50:29 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/346/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3，财务部对应VLAN 2，销售部对应VLAN 3 将部门PC对应</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例四：VLAN（Access模式实践）</title>
+      <link>https://www.frytea.com/posts/essay/posts/345/</link>
+      <pubDate>Fri, 19 Jun 2020 09:49:46 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/345/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3 将部门PC对应端口划分到相应的VLAN中 PC设置 192.168.1.2 //PC0 192.168.1.3 //PC1 192.168.1.4</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例三：端口使能/禁用</title>
+      <link>https://www.frytea.com/posts/essay/posts/344/</link>
+      <pubDate>Fri, 19 Jun 2020 09:48:54 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/344/</guid>
+      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 # 进入特权模式 Switch&amp;gt;enable # 进入全局配置模式 Switch#configure terminal Enter configuration commands, one per line. End with CNTL/Z. Switch(config)# # 进入端口 Switch(config)#interface FastEthernet0/1 Switch(config-if)# # 禁用 Switch(config-if)#shutdown %LINK-5-CHANGED: Interface FastEthernet0/1, changed state</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT 案例二：为路由器配置并连接SSH</title>
+      <link>https://www.frytea.com/posts/essay/posts/343/</link>
+      <pubDate>Fri, 19 Jun 2020 09:47:49 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/343/</guid>
+      <description>1. 案例目标 通过本案例，你可以掌握如下技能： 配置 SSH 使用 SSH 访问路由器 2. 背景知识 过去对路由器的远程管理访问一般使用 TCP 端口 23 上的 Telnet。但 Telnet 是</description>
+    </item>
+    
+    <item>
+      <title>Cisco PT案例一：为交换机配置并连接TELNET</title>
+      <link>https://www.frytea.com/posts/essay/posts/342/</link>
+      <pubDate>Fri, 19 Jun 2020 09:42:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/342/</guid>
+      <description>Telnet协议是TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式。它为用户提供了在本地计算机上完成远程主机工</description>
+    </item>
+    
+    <item>
+      <title>【翻译】早起的7个好处</title>
+      <link>https://www.frytea.com/posts/essay/posts/154/</link>
+      <pubDate>Mon, 05 Aug 2019 20:15:55 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/154/</guid>
+      <description>该图片由Rudy and Peter Skitterians在Pixabay上发布 前言 英文原文来自Medium Link: https://link.medium.com/6WIzWKCRTY Title: **7 Benefits of Waking Up Early (That Have Nothing to Do With Being a CEO) ** 中文翻译为</description>
+    </item>
+    
+    <item>
+      <title>【翻译】十分钟助您明晰方向、激发创造</title>
+      <link>https://www.frytea.com/posts/essay/posts/153/</link>
+      <pubDate>Sat, 03 Aug 2019 17:02:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/153/</guid>
+      <description>该图片由Colin Behrens在Pixabay上发布 前言 英文原文来自Medium Link: https://link.medium.com/D2uSLE0oQY Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity ** 中文翻译为博主自主翻译，若有不</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.8.2</title>
+      <link>https://www.frytea.com/posts/essay/posts/152/</link>
+      <pubDate>Fri, 02 Aug 2019 19:58:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/152/</guid>
+      <description>图片来源：Photo by Chokniti Khongchum from Pexels 句子原型 But while young and old mostly agree on what constitutes the finish lineof a fulfilling life, they offer strikingly different paths for reaching it.（Text 4. 2016. 英二） 词汇积累 constitute / ˈkɔnstitj</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.8.1.md</title>
+      <link>https://www.frytea.com/posts/essay/posts/151/</link>
+      <pubDate>Thu, 01 Aug 2019 20:19:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/151/</guid>
+      <description>图片来源：Photo by Chokniti Khongchum from Pexels 句子原型 “Carry a book with you at all times” can actually work, too—providing you dip in often enough, so that reading becomes the default state from which you temporarily surface</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.31</title>
+      <link>https://www.frytea.com/posts/essay/posts/150/</link>
+      <pubDate>Thu, 01 Aug 2019 20:10:36 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/150/</guid>
+      <description>图片来源：Photo by Chokniti Khongchum from Pexels 句子原型 Under the plan, for example, the agency said it would not prosecutelandowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.（Text 2. 2016.</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.30</title>
+      <link>https://www.frytea.com/posts/essay/posts/149/</link>
+      <pubDate>Thu, 01 Aug 2019 20:00:26 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/149/</guid>
+      <description>图片来源：Photo by Chokniti Khongchum from Pexels 句子原型 In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.（T</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.29</title>
+      <link>https://www.frytea.com/posts/essay/posts/148/</link>
+      <pubDate>Thu, 01 Aug 2019 19:48:15 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/148/</guid>
+      <description>图片来源：Photo by Chokniti Khongchum from Pexels 句子原型 Biologists estimate that as many as 2 million lesser prairie chickens—a kind of bird living on stretching grasslands—once lent red to the often gray landscape of the mid-western</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.26</title>
+      <link>https://www.frytea.com/posts/essay/posts/147/</link>
+      <pubDate>Thu, 01 Aug 2019 19:34:10 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/147/</guid>
+      <description>图片来源：Pixabay 句子原型 Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.（Text 1. 2016. 英二） 词汇</description>
+    </item>
+    
+    <item>
+      <title>【翻译】看看Netflix如何躲避瘟疫一般的规则</title>
+      <link>https://www.frytea.com/posts/essay/posts/146/</link>
+      <pubDate>Thu, 01 Aug 2019 17:12:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/146/</guid>
+      <description>Photo by John-Mark Smith from Pexels 前言 英文原文来自Medium Link: https://medium.com/inc./netflix-avoids-rules-like-the-plague-heres-what-it-does-instead-8da3b3423391 Title: **Netflix Avoids Rules Like the Plague. Here’s What It Does Instead. ** 中文翻译为博主自主翻译，若有不足之处，恳请在评论中指出。 One reason</description>
+    </item>
+    
+    <item>
+      <title>【翻译】Being ‘Busy’ Doesn’t Mean You’re Successful</title>
+      <link>https://www.frytea.com/posts/essay/posts/145/</link>
+      <pubDate>Tue, 30 Jul 2019 15:14:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/145/</guid>
+      <description>图片来源：https://www.pexels.com 前言 英文原文来自Medium Link：https://link.medium.com/</description>
+    </item>
+    
+    <item>
+      <title>【翻译】How to Fall Asleep in 120 Seconds</title>
+      <link>https://www.frytea.com/posts/essay/posts/144/</link>
+      <pubDate>Sun, 28 Jul 2019 17:03:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/144/</guid>
+      <description>图片来源：https://www.ssyer.com Trouble sleeping? Here’s a military-tested trick for guaranteed slumber 失眠吗？这里有一个经过军事测试，可用来保证睡眠的技巧。 前言 英</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.25</title>
+      <link>https://www.frytea.com/posts/essay/posts/142/</link>
+      <pubDate>Fri, 26 Jul 2019 14:29:52 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/142/</guid>
+      <description>图片来源：Pixabay 句子原型 The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.（Text 1. 2016. 英二） 词汇积累 programming /</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.24</title>
+      <link>https://www.frytea.com/posts/essay/posts/141/</link>
+      <pubDate>Thu, 25 Jul 2019 17:41:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/141/</guid>
+      <description>句子原型 Students also benefit from learning something about coding before they get to college, where introductorycomputer-science classes are packed to the brim, which can drive the less-experienced or -determined students away.（Text 1. 2016. 英二） 词汇积累 benefit from 从…中受益；得益于 introductory / ˌintr</description>
+    </item>
+    
+    <item>
+      <title>【翻译】10 Bad Habits of Unsuccessful People</title>
+      <link>https://www.frytea.com/posts/essay/posts/140/</link>
+      <pubDate>Thu, 25 Jul 2019 17:06:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/140/</guid>
+      <description>Instead of looking for traits to emulate, focus on ones to avoid 与其寻找模仿的特质，不如关注哪些需要避免的特质 前言 英文原文来自Medium Link：https://forge.me</description>
+    </item>
+    
+    <item>
+      <title>【研译】评分标准与技巧</title>
+      <link>https://www.frytea.com/posts/essay/posts/139/</link>
+      <pubDate>Wed, 24 Jul 2019 17:29:31 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/139/</guid>
+      <description>图片来源：Pixabay 翻译的评分标准（英语一） 如果发现句子译文明显扭曲原文意义，该句得分最多不超过0.5分 如果考生就一个题目提供了两个或两</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第七章 为新中国而奋斗</title>
+      <link>https://www.frytea.com/posts/essay/posts/137/</link>
+      <pubDate>Tue, 23 Jul 2019 20:53:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/137/</guid>
+      <description>该图片由PublicDomainPictures在Pixabay上发布 1.蒋介石邀请毛泽东去重庆谈判的原因： 全国人民强烈要求和平 运往内战前线</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第六章 中华民族的抗日战争</title>
+      <link>https://www.frytea.com/posts/essay/posts/135/</link>
+      <pubDate>Tue, 23 Jul 2019 17:35:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/135/</guid>
+      <description>该图片由Janice_Li在Pixabay上发布 1.西安事变的和平解决成为时局转换的枢纽 2.毛泽东在陕西瓦窑堡会议上作了《论反对日本帝国主义</description>
+    </item>
+    
+    <item>
+      <title>【翻译】The Only Sleep Hack That Actually Works</title>
+      <link>https://www.frytea.com/posts/essay/posts/134/</link>
+      <pubDate>Mon, 22 Jul 2019 17:38:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/134/</guid>
+      <description>前言 英文原文由Darius Foroux发布在The Bolg Of Darius Foroux中，我在Medium中看到这篇文章，下附原文链接： Meduim link：https</description>
+    </item>
+    
+    <item>
+      <title>【高2.2】中值定理及导数的应用</title>
+      <link>https://www.frytea.com/posts/essay/posts/133/</link>
+      <pubDate>Mon, 22 Jul 2019 10:29:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/133/</guid>
+      <description>该图片由ElisaRiva在Pixabay上发布 一、微分中值定理 1.费马引理 设函数 $f(x)$ 在点 $x_{0}$ 的某邻域 $U(x_{0})$ 内有定义，并且在 $x_{0}$ 处可导，如果对任意 $x \in</description>
+    </item>
+    
+    <item>
+      <title>【长句分析】2019.7.11</title>
+      <link>https://www.frytea.com/posts/essay/posts/132/</link>
+      <pubDate>Mon, 22 Jul 2019 07:10:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/132/</guid>
+      <description>句子原型： So they compared U.S. cities’ average happiness measured by Gallup polling with the investment activity of publicly traded firms in those areas.（完形. 2016. 英二） 词汇积累 compare&amp;hellip;with&amp;hellip; 将……和……相互比较 Gallup polling n.盖洛普民意</description>
+    </item>
+    
+    <item>
+      <title>【语法三四】长难句三大套路</title>
+      <link>https://www.frytea.com/posts/essay/posts/131/</link>
+      <pubDate>Sun, 21 Jul 2019 17:37:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/131/</guid>
+      <description>该图片由zhaomengqi23在Pixabay上发布 知识结构 一、平行结构 1. 名词、词组、介词短语的平行并列 (1) {{The English, the Germans, the Dutch and the French : 主}} {{were investing :</description>
+    </item>
+    
+    <item>
+      <title>【高 1】 函数、极限、连续</title>
+      <link>https://www.frytea.com/posts/essay/posts/130/</link>
+      <pubDate>Sun, 21 Jul 2019 17:00:45 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/130/</guid>
+      <description>大纲要求 略 本章重点 掌握求极限的各种方法。 掌握无穷小阶的比较及确定无穷小阶的方法，会用等价无穷小求极限。 判断函数是否连续及确定间断点的类型（本</description>
+    </item>
+    
+    <item>
+      <title>考研数二知识说明</title>
+      <link>https://www.frytea.com/posts/essay/posts/129/</link>
+      <pubDate>Sun, 21 Jul 2019 16:53:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/129/</guid>
+      <description>知识架构 http://frytea-data.test.upcdn.net/2019072119185781322145.png 版权声明 本笔记中的全部内容由本文作者整理，内容全部基于考虫2020考研系统班讲义，若有侵权立即删除！ 高等数学 授课教师：陈晓燕老师 线</description>
+    </item>
+    
+    <item>
+      <title>【史纲】近现代史纲要知识说明</title>
+      <link>https://www.frytea.com/posts/essay/posts/128/</link>
+      <pubDate>Sat, 20 Jul 2019 19:02:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/128/</guid>
+      <description>该图片由Janice_Li在Pixabay上发布 近现代史纲要知识结构 版权声明 本笔记中的全部内容由本文作者整理，内容全部基于考虫2020考研系</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第五章 中国革命的新道路</title>
+      <link>https://www.frytea.com/posts/essay/posts/127/</link>
+      <pubDate>Sat, 20 Jul 2019 19:01:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/127/</guid>
+      <description>第五章 中国革命的新道路 1.标志着国民党在全国范围内建立了自己的政治的事件是：东北易帜 2.八七会议的主要内容 彻底清算了大革命后期的陈独秀右倾机</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第四章 开天辟地的大事变</title>
+      <link>https://www.frytea.com/posts/essay/posts/126/</link>
+      <pubDate>Sat, 20 Jul 2019 19:01:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/126/</guid>
+      <description>第四章 开天辟地的大事变 1.新文化运动兴起的标志：1915年9月陈独秀在上海创办《新青年》杂志 新文化运动的主要阵地：《新青年》杂志和北京大学 2</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第一章   反对外国侵略的斗争</title>
+      <link>https://www.frytea.com/posts/essay/posts/123/</link>
+      <pubDate>Sat, 20 Jul 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/123/</guid>
+      <description>第一章 反对外国侵略的斗争 1.鸦片战争是中国近代史（1840-1949）的起点。 2.中国近代史上第一个不平等条约是与英国签订的《南京条约》 3.</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第三章 辛亥革命与君主专制制度的终结</title>
+      <link>https://www.frytea.com/posts/essay/posts/125/</link>
+      <pubDate>Sat, 20 Jul 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/125/</guid>
+      <description>第三章 辛亥革命与君主专制制度的终结 1.清末“新政”的破产 改革丝毫没有触动封建专制统治 并没有能够挽救清王朝，反而激化了社会矛盾 根本目的是为了延</description>
+    </item>
+    
+    <item>
+      <title>【史纲】第二章 对国家出路的早期探索</title>
+      <link>https://www.frytea.com/posts/essay/posts/124/</link>
+      <pubDate>Sat, 20 Jul 2019 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/124/</guid>
+      <description>第二章 对国家出路的早期探索 1.《天朝田亩制度》是最能体现太平天国社会理想和这次农民起义特色的纲领性文件 2.《天朝田亩制度》的缺点： 它并没有超</description>
+    </item>
+    
+    <item>
+      <title>【语法二】长难句入门</title>
+      <link>https://www.frytea.com/posts/essay/posts/120/</link>
+      <pubDate>Sat, 20 Jul 2019 16:12:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/120/</guid>
+      <description>一、句子的基本结构 英语句子 简单句 并列句/and/but/or/not (only)&amp;hellip;but(also)/either&amp;hellip;or.. 复合句/三大从句 句子三原则 句子结束标志：“==,==” “==!==” “</description>
+    </item>
+    
+    <item>
+      <title>【高2.1】函数与微分</title>
+      <link>https://www.frytea.com/posts/essay/posts/117/</link>
+      <pubDate>Fri, 19 Jul 2019 11:26:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/117/</guid>
+      <description>2.1 导数与微分 一、导数与微分的基本概念 1. 函数在一点$x_{0}$处的导数定义 设函数$ y=f(x) $在点$x_{0}$的某邻域内有定义，当自变量$x$在$</description>
+    </item>
+    
+    <item>
+      <title>【语法一】基础语法入门</title>
+      <link>https://www.frytea.com/posts/essay/posts/115/</link>
+      <pubDate>Thu, 18 Jul 2019 16:39:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/115/</guid>
+      <description>英语语法真是一个很魔性的东西，学了这么多年，却还是一窍不通，每每提及这件事情我自己总会不自觉的伤感起来。曾经教过我的老师们一定也很恼火，这学</description>
+    </item>
+    
+    <item>
+      <title>software engineering Final Review | 软件工程期末复习</title>
+      <link>https://www.frytea.com/posts/essay/posts/96/</link>
+      <pubDate>Sun, 02 Jun 2019 21:18:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/96/</guid>
+      <description>&lt;h1 id=&#34;软件工程复习&#34;&gt;软件工程复习&lt;/h1&gt;
+&lt;h2 id=&#34;more-important&#34;&gt;more important&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;模块独立性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;模块独立性，是指软件系统中每个模块只涉及软件要求的具体的子功能，而和软件系统中其他模块的接口是简单的。&lt;/li&gt;
+&lt;li&gt;高内聚低耦合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;类间的关系&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;继承&lt;/li&gt;
+&lt;li&gt;继承关系表示子类重用父类的属性和操作，子类对象也是父类的对象，有时也称父类是子类的泛化。&lt;/li&gt;
+&lt;li&gt;聚集&lt;/li&gt;
+&lt;li&gt;普通聚集关系：一个部件对象可同时参与多个整体对象&lt;/li&gt;
+&lt;li&gt;构成关系：限定一个部件对象在任意时刻只能参与一个整体类的对象，部件对象与整体类对象共存亡&lt;/li&gt;
+&lt;li&gt;关联&lt;/li&gt;
+&lt;li&gt;表示两个类的对象之间存在着用于消息传递的稳定通道。&lt;/li&gt;
+&lt;li&gt;依赖&lt;/li&gt;
+&lt;li&gt;依赖类B的对象需要向被依赖类A的对象传递消息；被依赖类A可作为依赖类B操作的形参类型&lt;/li&gt;
+&lt;li&gt;依赖关系表示临时性的消息传递通道，操作完成通道消失&lt;/li&gt;
+&lt;li&gt;依赖关系是关联关系的弱化，它表示被依赖的类的变化会影响到依赖类。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spatial database</title>
+      <link>https://www.frytea.com/posts/essay/posts/95/</link>
+      <pubDate>Tue, 21 May 2019 14:12:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/95/</guid>
+      <description>A spatial database is a database that is optimized for storing and querying data that represents objects defined in a geometric space. from Wikipedia Through the space database course was completed last semester. But to be honest, i am fail to understand what a space database is. Even though i have always claimed to be using a spatial database. Actually, i am really using a spatial database ,but it was</description>
+    </item>
+    
+    <item>
+      <title>智能手机中的传感器</title>
+      <link>https://www.frytea.com/posts/essay/posts/97/</link>
+      <pubDate>Sat, 11 May 2019 22:35:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/97/</guid>
+      <description>&lt;h1 id=&#34;智能手机中的传感器&#34;&gt;智能手机中的传感器&lt;/h1&gt;
+&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;随着现代信息技术的飞速发展，智能手机已经成为人们生活不可获取的一部分，同时其职能也从一开始的通讯发展到现在的娱乐、社交甚至生产，为了应对人们对手机越老越高的要求，其自身必定要生产的越来越人性化、智能化，而为了实现这一目标，就必定需要更加智能化的传感器支持，今天作者就在这里整理一下互联网及学术平台上开发可以查到的智能手机传感器相关信息，让我们进一步了解手上的这一台智能设备。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>物联网技术概论</title>
+      <link>https://www.frytea.com/posts/essay/posts/98/</link>
+      <pubDate>Tue, 09 Apr 2019 10:51:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/98/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;教材《物联网概论》——崔艳荣、周贤善&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;第一章&#34;&gt;第一章&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;简述对物联网（IOT）的概念理解&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;当前几乎所有技术与计算机、互联网技术的结合，实现物体与物体之间、环境以及状态信息实时的共享以及智能化的收集、传递、处理、执行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;简述物联网技术特征&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;全面感知&lt;/li&gt;
+&lt;li&gt;互通互联&lt;/li&gt;
+&lt;li&gt;智慧运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;物联网与互联网的关系&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;互联网是物联网的基础&lt;/li&gt;
+&lt;li&gt;互联网和物联网终端连接方式不同&lt;/li&gt;
+&lt;li&gt;物联网涉及的技术范围更广&lt;/li&gt;
+&lt;li&gt;物联网是让中国技术走在世界前列的机遇&lt;/li&gt;
+&lt;li&gt;特别的，物联网
+&lt;ul&gt;
+&lt;li&gt;集合了各种感知技术&lt;/li&gt;
+&lt;li&gt;是一种建立在互联网之上的泛在网络&lt;/li&gt;
+&lt;li&gt;不仅仅提供了传感器的链接，其本身也具有智能处理的能力，能够对物体实施智能控制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

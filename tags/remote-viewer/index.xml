@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jan 2022 15:12:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/remote-viewer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 15:10:58 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/remote-viewer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
+      <link>https://www.frytea.com/posts/essay/posts/624/</link>
+      <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/624/</guid>
+      <description>最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。 MacOS 平台下没有很好的支</description>
+    </item>
+    
     <item>
       <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
       <link>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</link>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>区块链 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
+    <description>Recent content in 区块链 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 31 Dec 2021 17:17:07 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是 WEB3 以及其发展概要</title>
+      <link>https://www.frytea.com/posts/essay/posts/615/</link>
+      <pubDate>Fri, 31 Dec 2021 17:17:07 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/615/</guid>
+      <description>要问何为 Web3，就先从什么味 Web2 和 Web1 来说起吧。 最近在网上看到 Web3 的概念很火热，比肩区块链、元宇宙，其实貌似一整个未来，特意整理一下认为比较好的</description>
+    </item>
+    
+  </channel>
+</rss>

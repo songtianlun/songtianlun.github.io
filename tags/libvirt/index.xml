@@ -47,5 +47,23 @@
       <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
     </item>
     
+    <item>
+      <title>虚拟机 img 镜像密码修改</title>
+      <link>https://www.frytea.com/posts/essay/posts/567/</link>
+      <pubDate>Fri, 03 Sep 2021 15:29:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/567/</guid>
+      <description>本文介绍使用 libguestfs-tools 修改镜像文件密码的方法。 步骤 # 环境 # CentOS Linux release 7.9.2009 (AltArch) # 鲲鹏 ARM 服务器 第一步：检查并修改qemu访问虚拟机镜像的权限 修改 qemu 配置文件 /et</description>
+    </item>
+    
+    <item>
+      <title>GDB 调试 libvirt 源码之 domblkinfo 命令源码跟踪记</title>
+      <link>https://www.frytea.com/posts/essay/posts/565/</link>
+      <pubDate>Thu, 02 Sep 2021 13:42:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/565/</guid>
+      <description>最近发现环境中 KVM 虚拟机磁盘利用率查不准，使用 virsh 命令查看磁盘使用情况得到如下结果： # virsh domblkinfo 20 vda --human Capacity: 2.000 GiB Allocation: 2.000 GiB Physical: 2.000 GiB 显然是有问题的，正常的数值三个</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>USB on Frytea</title>
+    <link>https://www.frytea.com/tags/usb/</link>
+    <description>Recent content in USB on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 24 Aug 2022 18:04:46 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux USB 设备基础理论</title>
+      <link>https://www.frytea.com/posts/essay/posts/633/</link>
+      <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/posts/essay/posts/633/</guid>
+      <description>通过扫描以下目录获取物理节点所有 USB 设备： /sys/bus/usb/devices/usb* /sys/bus/usb/devices/usb*/$busnum-* 从该文件系统收集某一个设备的主要信息如下： { &amp;#34;busnum&amp;#34;: 1, &amp;#34;class&amp;#34;: 0, &amp;#34;devnum&amp;#34;: 2, &amp;#34;level&amp;#34;: 1, &amp;#34;manufacturer&amp;#34;: &amp;#34;QEMU&amp;#34;, &amp;#34;port&amp;#34;: 0, &amp;#34;prodid&amp;#34;: &amp;#34;0001&amp;#34;, &amp;#34;product&amp;#34;: &amp;#34;QEMU USB Tablet&amp;#34;, &amp;#34;speed&amp;#34;: &amp;#34;12&amp;#34;, &amp;#34;usbpath&amp;#34;: &amp;#34;1&amp;#34;, &amp;#34;vendid&amp;#34;: &amp;#34;0627&amp;#34; } 文</description>
+    </item>
+    
+  </channel>
+</rss>
