@@ -1417,6 +1417,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/posts/archieve/production/</loc>
+    <lastmod>2021-07-09T09:20:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/posts/essay/546/</loc>
     <lastmod>2021-07-07T14:47:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -2722,6 +2727,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/posts/archieve/friends/</loc>
+    <lastmod>2019-11-06T16:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/posts/essay/174/</loc>
     <lastmod>2019-11-03T16:53:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -2999,6 +3009,16 @@
   </url><url>
     <loc>https://www.frytea.com/posts/essay/114/</loc>
     <lastmod>2019-07-17T22:14:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/archieve/archives/</loc>
+    <lastmod>2019-07-16T16:58:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/archieve/about/</loc>
+    <lastmod>2019-07-14T10:34:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
