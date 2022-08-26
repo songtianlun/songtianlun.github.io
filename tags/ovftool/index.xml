@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ovftool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware ovftool arm zip 包安装</title>
-      <link>https://www.frytea.com/posts/essay/posts/634/</link>
+      <link>https://www.frytea.com/posts/essay/634/</link>
       <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/634/</guid>
+      <guid>https://www.frytea.com/posts/essay/634/</guid>
       <description>ovftool 是 VMware 提供的一款开放的导入、导出 OVF 格式虚拟机的 CLI 工具，支持 X86 和 Arm。 官方提供两种，一种是类似 .bundle 安装包，另一种是 zip 压缩包。本文介绍 zip 压缩包使</description>
     </item>
     

@@ -22,19 +22,19 @@
     
     <item>
       <title>私人网盘搭建之centos下安装cloudreve</title>
-      <link>https://www.frytea.com/posts/essay/posts/29/</link>
+      <link>https://www.frytea.com/posts/essay/29/</link>
       <pubDate>Fri, 15 Mar 2019 13:10:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/29/</guid>
+      <guid>https://www.frytea.com/posts/essay/29/</guid>
       <description>简介 cloudreve是基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。 主页 | 论坛 | 演示站 | QQ群 支持的存储</description>
     </item>
     
     <item>
       <title>Centos系统安装docker</title>
-      <link>https://www.frytea.com/posts/essay/posts/37/</link>
+      <link>https://www.frytea.com/posts/essay/37/</link>
       <pubDate>Tue, 12 Mar 2019 11:13:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/37/</guid>
+      <guid>https://www.frytea.com/posts/essay/37/</guid>
       <description>主要步骤 1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。 通过 uname -r 命令查看你当前的内核版</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Sep 2021 15:34:30 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/libpcap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Libpcap 落地包转发及性能调优</title>
-      <link>https://www.frytea.com/posts/essay/posts/570/</link>
+      <link>https://www.frytea.com/posts/essay/570/</link>
       <pubDate>Tue, 07 Sep 2021 15:34:30 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/570/</guid>
+      <guid>https://www.frytea.com/posts/essay/570/</guid>
       <description>近期接到一个需求，需要使用 libpcap 从某网卡抓包发送到另一张网卡，关于 libpcap 的使用方法在这里不再赘述，网上有很多教程，本文最后会给出一个示例程序。这里记</description>
     </item>
     

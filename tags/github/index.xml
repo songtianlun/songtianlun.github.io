@@ -13,28 +13,28 @@
     <lastBuildDate>Thu, 30 Dec 2021 09:31:05 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/posts/essay/posts/613/</link>
+      <link>https://www.frytea.com/posts/essay/613/</link>
       <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/613/</guid>
+      <guid>https://www.frytea.com/posts/essay/613/</guid>
       <description>GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。 安装及汉化 首先在 GitKraken 官网下载安装包： GitKraken 官</description>
     </item>
     
     <item>
       <title>一键在 vs code online 中打开任意 github 仓库</title>
-      <link>https://www.frytea.com/posts/essay/posts/568/</link>
+      <link>https://www.frytea.com/posts/essay/568/</link>
       <pubDate>Fri, 03 Sep 2021 17:58:13 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/568/</guid>
+      <guid>https://www.frytea.com/posts/essay/568/</guid>
       <description>之前有大佬开发过一个项目 [github1s](https://github.com/conwnet/github1s) ，利用 GitHub action ，仅需在任意 github 仓库在 github 后面加上 1s 即可在一个在线的 VS code 中打开这个项目。 就在前不久，Github 官方发布了类</description>
     </item>
     
     <item>
       <title>WebStorm中使用Git同步代码到Github</title>
-      <link>https://www.frytea.com/posts/essay/posts/47/</link>
+      <link>https://www.frytea.com/posts/essay/47/</link>
       <pubDate>Wed, 27 Feb 2019 10:01:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/47/</guid>
+      <guid>https://www.frytea.com/posts/essay/47/</guid>
       <description>WebStorm下配置GitHub实现代码同步 项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 01 Aug 2021 23:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决OpenVPN证书过期问题</title>
-      <link>https://www.frytea.com/posts/essay/posts/553/</link>
+      <link>https://www.frytea.com/posts/essay/553/</link>
       <pubDate>Sun, 01 Aug 2021 23:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/553/</guid>
+      <guid>https://www.frytea.com/posts/essay/553/</guid>
       <description>使用 Synology 提供的 VPN Server 一阵子，突然用不了了，大意是说 SSL 证书过期了，但是不知道如何解决，网络搜索也没有结果，试过了重置套件，无法解决。 最后查阅文档发</description>
     </item>
     

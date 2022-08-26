@@ -13,19 +13,19 @@
     <lastBuildDate>Wed, 27 Nov 2019 10:34:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/nextcloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/posts/essay/posts/265/</link>
+      <link>https://www.frytea.com/posts/essay/265/</link>
       <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/265/</guid>
+      <guid>https://www.frytea.com/posts/essay/265/</guid>
       <description>自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我： 完整、好用的客户端，</description>
     </item>
     
     <item>
       <title>私人网盘nextcloud配置问题解决</title>
-      <link>https://www.frytea.com/posts/essay/posts/32/</link>
+      <link>https://www.frytea.com/posts/essay/32/</link>
       <pubDate>Thu, 10 Jan 2019 11:29:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/32/</guid>
+      <guid>https://www.frytea.com/posts/essay/32/</guid>
       <description>安装流程 配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。 博文跳转:https://www.vp</description>
     </item>
     

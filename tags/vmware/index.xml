@@ -13,19 +13,19 @@
     <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware ovftool arm zip 包安装</title>
-      <link>https://www.frytea.com/posts/essay/posts/634/</link>
+      <link>https://www.frytea.com/posts/essay/634/</link>
       <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/634/</guid>
+      <guid>https://www.frytea.com/posts/essay/634/</guid>
       <description>ovftool 是 VMware 提供的一款开放的导入、导出 OVF 格式虚拟机的 CLI 工具，支持 X86 和 Arm。 官方提供两种，一种是类似 .bundle 安装包，另一种是 zip 压缩包。本文介绍 zip 压缩包使</description>
     </item>
     
     <item>
       <title>基于 Ubuntu 平台安装 OS X 10.15 虚拟机</title>
-      <link>https://www.frytea.com/posts/essay/posts/302/</link>
+      <link>https://www.frytea.com/posts/essay/302/</link>
       <pubDate>Thu, 30 Jan 2020 20:06:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/302/</guid>
+      <guid>https://www.frytea.com/posts/essay/302/</guid>
       <description>OS X 系统启动时会识别计算机主板，针对非苹果电脑拒绝启动，就算是虚拟机，也有天然的限制不可以随便安装 OS X 虚拟机，本文就介绍了在 Ubuntu 平台上使用 VMware Workstation</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 19 Jan 2022 09:49:24 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决 SSH 无操作自动断开 | pychram 超时无响应</title>
-      <link>https://www.frytea.com/posts/essay/posts/623/</link>
+      <link>https://www.frytea.com/posts/essay/623/</link>
       <pubDate>Wed, 19 Jan 2022 09:49:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/623/</guid>
+      <guid>https://www.frytea.com/posts/essay/623/</guid>
       <description>工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。 这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的</description>
     </item>
     

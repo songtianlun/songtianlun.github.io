@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 30 Dec 2021 09:31:05 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/posts/essay/posts/613/</link>
+      <link>https://www.frytea.com/posts/essay/613/</link>
       <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/613/</guid>
+      <guid>https://www.frytea.com/posts/essay/613/</guid>
       <description>GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。 安装及汉化 首先在 GitKraken 官网下载安装包： GitKraken 官</description>
     </item>
     
@@ -58,37 +58,37 @@
     
     <item>
       <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/posts/essay/posts/591/</link>
+      <link>https://www.frytea.com/posts/essay/591/</link>
       <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/591/</guid>
+      <guid>https://www.frytea.com/posts/essay/591/</guid>
       <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
     </item>
     
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/posts/essay/posts/267/</link>
+      <link>https://www.frytea.com/posts/essay/267/</link>
       <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/267/</guid>
+      <guid>https://www.frytea.com/posts/essay/267/</guid>
       <description>DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。 在内网中又</description>
     </item>
     
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/posts/essay/posts/266/</link>
+      <link>https://www.frytea.com/posts/essay/266/</link>
       <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/266/</guid>
+      <guid>https://www.frytea.com/posts/essay/266/</guid>
       <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
     </item>
     
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/posts/essay/posts/265/</link>
+      <link>https://www.frytea.com/posts/essay/265/</link>
       <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/265/</guid>
+      <guid>https://www.frytea.com/posts/essay/265/</guid>
       <description>自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我： 完整、好用的客户端，</description>
     </item>
     

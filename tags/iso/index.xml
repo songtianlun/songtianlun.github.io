@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 06 Apr 2022 14:22:49 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/iso/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>*.iso 和 *.img 的区别</title>
-      <link>https://www.frytea.com/posts/essay/posts/627/</link>
+      <link>https://www.frytea.com/posts/essay/627/</link>
       <pubDate>Wed, 06 Apr 2022 14:22:49 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/627/</guid>
+      <guid>https://www.frytea.com/posts/essay/627/</guid>
       <description>最近经常接触各种系统镜像，大部分是 *.iso 格式（如 debian ），少部分是 *.img 格式（如 cirros），这两者究竟有何区别，最终在维基百科找到比较可靠的一段描述</description>
     </item>
     

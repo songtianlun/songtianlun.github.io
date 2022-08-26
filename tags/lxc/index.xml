@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 14 Dec 2021 09:05:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/posts/essay/posts/605/</link>
+      <link>https://www.frytea.com/posts/essay/605/</link>
       <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/605/</guid>
+      <guid>https://www.frytea.com/posts/essay/605/</guid>
       <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
     </item>
     

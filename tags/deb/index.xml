@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 28 Oct 2021 11:32:28 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/deb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/posts/essay/posts/591/</link>
+      <link>https://www.frytea.com/posts/essay/591/</link>
       <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/591/</guid>
+      <guid>https://www.frytea.com/posts/essay/591/</guid>
       <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
     </item>
     

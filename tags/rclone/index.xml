@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 06 May 2019 23:58:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/posts/essay/posts/31/</link>
+      <link>https://www.frytea.com/posts/essay/31/</link>
       <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/posts/31/</guid>
+      <guid>https://www.frytea.com/posts/essay/31/</guid>
       <description>&lt;h1 id=&#34;linux下使用rclone挂载网盘到本地&#34;&gt;Linux下使用rclone挂载网盘到本地&lt;/h1&gt;
 &lt;p&gt;Rclone是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
