@@ -46,13 +46,9 @@ disableReprinted: true
 
 - HomePage: <https://www.frytea.com>
 - Email：[songtianlun@frytea.com](mailto:songtianlun@frytea.com)
-- Google Voice: (+1)936-6662109
-- QQ: 1305647042
 - Telegram: [@songtianlun](https://t.me/songtianlun)
 - GitHub: [@songtianlun](https://github.com/songtianlun)
 - Linked-in: [@songtianlun](https://www.linkedin.com/in/songtianlun/)
-- Twitter: [@tianlun_song](https://twitter.com/tianlun_song)
-- 微博: [@煎茶_frytea](https://weibo.com/u/2255345151)
 - V2EX: [@Frytea](https://www.v2ex.com/member/Frytea)
 - 即刻: [@煎茶_frytea](https://web.okjike.com/u/93f05b30-c2af-4096-b90e-32961464b881)
 - 知乎: [@煎茶frytea](https://www.zhihu.com/people/song-tian-lun-64)
