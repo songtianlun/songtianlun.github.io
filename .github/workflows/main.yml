@@ -34,29 +34,29 @@ jobs:
           publish_dir: ./public
 
       # 部署到阿里云 oss
-      - name: Deploy to Aliyun OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1
-        with:
-            accessKeyId: ${{ secrets.OSS_KEY_ID  }}
-            accessKeySecret: ${{ secrets.OSS_KEY_SECRET  }}
-            bucket: frytea-homepage
+      # - name: Deploy to Aliyun OSS
+      #   uses: fangbinwei/aliyun-oss-website-action@v1
+      #   with:
+      #       accessKeyId: ${{ secrets.OSS_KEY_ID  }}
+      #       accessKeySecret: ${{ secrets.OSS_KEY_SECRET  }}
+      #       bucket: frytea-homepage
             # use your own endpoint
-            endpoint: oss-cn-beijing.aliyuncs.com
-            folder: ./public
+            # endpoint: oss-cn-beijing.aliyuncs.com
+            # folder: ./public
 #      - name: Use Node.js
 #        uses: actions/setup-node@v1
 #        with:
 #          node-version: '12.x'
 
-      - name: Push algolia search index
-        run: |
-          go mod tidy
-          go run main.go
-        env:
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          ALGOLIA_INDEX_FILE: "./public/index.json"
+      # - name: Push algolia search index
+      #   run: |
+      #     go mod tidy
+      #     go run main.go
+      #   env:
+      #     ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      #     ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+      #     ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+      #     ALGOLIA_INDEX_FILE: "./public/index.json"
 
 #      - name: Install CloudBase-Cli
 #        run: npm install -g @cloudbase/cli
