@@ -84,10 +84,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "2a1e49947ad94a68",
+  "active": "c79fc84a5ff8b686",
   "lastOpenFiles": [
     "content/posts/a-new-website.md",
     "content/posts/_index.md",
