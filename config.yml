@@ -75,20 +75,20 @@ params:
               url: posts/
             - name: ⚙️ 技术
               url: technology/
-            - name: 🤔 复盘
-              url: tags/retrospective/
+            # - name: 🤔 复盘
+            #   url: tags/retrospective/
             # - name: 💡 灵感
             #   url: ideas/
 #            - name: 📷 摄影
 #              url: https://image.frytea.com
-            - name: 🗃 知库
-              url: https://wiki.frytea.com/
+            # - name: 🗃 知库
+            #   url: https://wiki.frytea.com/
             - name: 📎 资源
               url: https://res.frytea.com
-            - name: 📜 旧书
-              url: https://blog.frytea.com
-            - name: 🦉 Newsletter
-              url: https://frytea.hedwig.pub
+            # - name: 📜 旧书
+            #   url: https://blog.frytea.com
+            # - name: 🦉 Newsletter
+            #   url: https://frytea.hedwig.pub
 #            - name: 🛠 工具
 #              url: technology/app-list/
 #            - name: 📁 项目
