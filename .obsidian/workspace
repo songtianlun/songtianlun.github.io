@@ -7,12 +7,8 @@
         "id": "2a1e49947ad94a68",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "content/about.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "996",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +82,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c79fc84a5ff8b686",
+  "active": "2a1e49947ad94a68",
   "lastOpenFiles": [
+    "content/posts/essay/996也许不是真正的压榨.md",
+    "content/about.md",
     "content/posts/a-new-website.md",
     "content/posts/_index.md",
     "content/posts/documentary/third-root-canal-therapy-eight-years-later.md",
@@ -95,8 +93,6 @@
     "struct.svg",
     "content/posts/retrospective/2022-07.md",
     "content/posts/retrospective/2022-06.md",
-    "content/posts/retrospective/2022-05.md",
-    "content/posts/retrospective/2022-04.md",
-    "content/about.md"
+    "content/posts/retrospective/2022-05.md"
   ]
 }
