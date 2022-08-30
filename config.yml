@@ -71,9 +71,9 @@ params:
         imageHeight: 120
         imageTitle: frytea logo
         buttons:
-            - name: 📝 随笔
+            - name: 🖋 随笔
               url: posts/
-            - name: ⚙️ 技术
+            - name: 🛠 技术
               url: technology/
             # - name: 🤔 复盘
             #   url: tags/retrospective/
@@ -181,15 +181,15 @@ menu:
           url: /search/
           weight: 40
         - identifier: posts
-          name: 📝
+          name: 🖋
           url: /posts/
           weight: 41
         - identifier: technology
-          name: ⚙️
+          name: 🛠
           url: /technology/
           weight: 42
         - identifier: tools
-          name: 🛠
+          name: ⚖️
           url: /technology/app-list/
           weight: 43
         - identifier: projects
