@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dos</title>
+      <link>https://www.frytea.com/tags/dos/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/dos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http-get</title>
+      <link>https://www.frytea.com/tags/http-get/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/http-get/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://www.frytea.com/tags/linux/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ovftool</title>
       <link>https://www.frytea.com/tags/ovftool/</link>
@@ -26,15 +53,6 @@
       <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -809,24 +827,6 @@
       <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/deepin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dos</title>
-      <link>https://www.frytea.com/tags/dos/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/dos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>http-get</title>
-      <link>https://www.frytea.com/tags/http-get/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/http-get/</guid>
       <description></description>
     </item>
     

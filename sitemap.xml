@@ -3,21 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2022-08-25T11:59:10+00:00</lastmod>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/dos/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
-    <lastmod>2022-08-25T11:59:10+00:00</lastmod>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/ovftool/</loc>
-    <lastmod>2022-08-25T11:59:10+00:00</lastmod>
+    <loc>https://www.frytea.com/tags/http-get/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/linux/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
+    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/ovftool/</loc>
     <lastmod>2022-08-25T11:59:10+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -34,11 +59,6 @@
   </url><url>
     <loc>https://www.frytea.com/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2022-08-25T11:59:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2022-08-24T18:04:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -123,11 +143,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/wireguard/</loc>
-    <lastmod>2022-04-23T15:42:39+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</loc>
     <lastmod>2022-04-23T15:42:39+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1114,21 +1129,6 @@
   </url><url>
     <loc>https://www.frytea.com/tags/deepin/</loc>
     <lastmod>2021-10-28T11:32:28+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/dos/</loc>
-    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/http-get/</loc>
-    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</loc>
-    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

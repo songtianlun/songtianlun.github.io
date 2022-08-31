@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次简单的http-get攻击</title>
+      <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</guid>
+      <description>记录一次简单 Dos 攻击方法，提升网络安全意识.</description>
+    </item>
+    
     <item>
       <title>VMware ovftool arm zip 包安装</title>
       <link>https://www.frytea.com/posts/essay/634/</link>
@@ -1008,15 +1017,6 @@
       
       <guid>https://www.frytea.com/posts/essay/591/</guid>
       <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
-    </item>
-    
-    <item>
-      <title>一次简单的http-get攻击</title>
-      <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</guid>
-      <description>记录一次简单 Dos 攻击方法，提升网络安全意识.</description>
     </item>
     
     <item>

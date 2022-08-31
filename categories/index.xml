@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Aug 2022 11:59:10 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术笔记集</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>编程开发</title>
       <link>https://www.frytea.com/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/</link>
@@ -35,15 +44,6 @@
       <pubDate>Sun, 14 Aug 2022 04:40:02 +0800</pubDate>
       
       <guid>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术笔记集</title>
-      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
-      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/</guid>
       <description></description>
     </item>
     

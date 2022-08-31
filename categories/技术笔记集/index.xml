@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Apr 2022 15:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次简单的http-get攻击</title>
+      <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>
+      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</guid>
+      <description>记录一次简单 Dos 攻击方法，提升网络安全意识.</description>
+    </item>
+    
     <item>
       <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
       <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
@@ -432,15 +441,6 @@
       
       <guid>https://www.frytea.com/technology/unix-like/cmd/tmux/</guid>
       <description>一个终端复用器。</description>
-    </item>
-    
-    <item>
-      <title>一次简单的http-get攻击</title>
-      <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>
-      <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</guid>
-      <description>记录一次简单 Dos 攻击方法，提升网络安全意识.</description>
     </item>
     
     <item>
