@@ -1,6 +1,6 @@
 ---
 title: "一次简单的http-get攻击"
-date: 2021-10-28T07:08:22Z
+date: 2022-08-31T07:08:22Z
 description: "记录一次简单 Dos 攻击方法，提升网络安全意识."
 categories: ["技术笔记集"]
 tags: ["dos", "linux", "http-get"]
