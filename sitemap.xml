@@ -1117,7 +1117,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/attack-defense/%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84http-get%E6%94%BB%E5%87%BB/</loc>
+    <loc>https://www.frytea.com/tags/dos/</loc>
+    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/http-get/</loc>
+    <lastmod>2021-10-28T07:08:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</loc>
     <lastmod>2021-10-28T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
