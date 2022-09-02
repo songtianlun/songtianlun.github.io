@@ -9,10 +9,10 @@ date: "2021-10-28 00:10:00"
 
 2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名：
 
-- [blog.frytea.com](http://blog.frytea.com) 内容太过庞杂，不成体系，很难重新做规整；
-- [blog.frytea.com](http://blog.frytea.com) 目前采用的付费主题虽然各方面做的都比较均衡，但是在google网站扫描过程中还是发现许多加载缓慢的因素，无法优化；
+- [blog.frytea.com](https://blog.frytea.com) 内容太过庞杂，不成体系，很难重新做规整；
+- [blog.frytea.com](https://blog.frytea.com) 目前采用的付费主题虽然各方面做的都比较均衡，但是在google网站扫描过程中还是发现许多加载缓慢的因素，无法优化；
 - [blog.frytae.com](http://blog.frytae.com) 作为我的主站申请 google adsense 多次没有通过，原因未知；
-- [blog.frytea.com](http://blog.frytea.com) 目前主题由于其定位，无法作为一个个人网站的索引，目前是分成两套体系分别进行。
+- [blog.frytea.com](https://blog.frytea.com) 目前主题由于其定位，无法作为一个个人网站的索引，目前是分成两套体系分别进行。
 
 ## 新网站目标
 

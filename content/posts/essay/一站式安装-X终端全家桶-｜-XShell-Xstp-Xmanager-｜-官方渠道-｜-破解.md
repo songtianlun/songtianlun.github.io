@@ -44,7 +44,7 @@ https://cdn.netsarang.net/7940ce13/XmanagerPowerSuite-6.0.0029r.exe
 
 注册机可以在互联网上自己寻找，或是在本站资源站下载：
 
-Frytea‘s res：[http://res.frytea.com/Dev/终端软件/NetSarang_AIO_8in1_Keygen_v1.5_DFoX.exe](http://res.frytea.com/Dev/%E7%BB%88%E7%AB%AF%E8%BD%AF%E4%BB%B6/NetSarang_AIO_8in1_Keygen_v1.5_DFoX.exe)
+Frytea‘s res：[https://res.frytea.com/Dev/终端软件/NetSarang_AIO_8in1_Keygen_v1.5_DFoX.exe](http://res.frytea.com/Dev/%E7%BB%88%E7%AB%AF%E8%BD%AF%E4%BB%B6/NetSarang_AIO_8in1_Keygen_v1.5_DFoX.exe)
 
 **第三步、当需要输入序列号时，填写注册机生成的激活码**
 
