@@ -1,7 +1,7 @@
 ---
 title: "一个 Notion 一站式记账复盘看板系统 ｜ BJ-PFD 正式发布"
 categories: [ "技术价值" ]
-tags: [ "Bullet Journa" ]
+tags: [ "Bullet Journal" ]
 draft: false
 slug: "578"
 date: "2021-09-25 23:40:00"
