@@ -2,17 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <loc>https://www.frytea.com/tags/2022/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/dos/</loc>
-    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
+    <loc>https://www.frytea.com/categories/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/retrospective/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/posts/retrospective/2022-08/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</loc>
+    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/dos/</loc>
     <lastmod>2022-08-31T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -23,11 +48,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/linux/</loc>
-    <lastmod>2022-08-31T07:08:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2022-08-31T07:08:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -92,22 +112,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/tags/2022/</loc>
-    <lastmod>2022-08-14T04:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/retrospective/</loc>
-    <lastmod>2022-08-14T04:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/posts/retrospective/2022-07/</loc>
-    <lastmod>2022-08-14T04:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E4%BA%BA%E7%94%9F%E5%A4%8D%E7%9B%98/</loc>
     <lastmod>2022-08-14T04:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

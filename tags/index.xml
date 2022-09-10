@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 04:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://www.frytea.com/tags/2022/</link>
+      <pubDate>Sat, 10 Sep 2022 04:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.frytea.com/tags/retrospective/</link>
+      <pubDate>Sat, 10 Sep 2022 04:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dos</title>
       <link>https://www.frytea.com/tags/dos/</link>
@@ -71,24 +89,6 @@
       <pubDate>Mon, 15 Aug 2022 11:14:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/tags/win11/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2022</title>
-      <link>https://www.frytea.com/tags/2022/</link>
-      <pubDate>Sun, 14 Aug 2022 04:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Sun, 14 Aug 2022 04:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
       <description></description>
     </item>
     
