@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BJ-PFD on Frytea</title>
-    <link>https://www.frytea.com/tags/bj-pfd/</link>
+    <link>https://www.frytea.com/categories/bj-pfd/</link>
     <description>Recent content in BJ-PFD on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 11 Sep 2022 04:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 04:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BJ-PFD</title>
       <link>https://www.frytea.com/technology/bj-pfd/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://www.frytea.com/technology/bj-pfd/</guid>
       <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。 专注 专为个人财物管理需求量身定制，没有多余复杂的功能， 让您的财务状况、财产积累状况、消费状况</description>
-    </item>
-    
-    <item>
-      <title>Bullet Journal for Notion 之概览</title>
-      <link>https://www.frytea.com/posts/essay/571/</link>
-      <pubDate>Fri, 10 Sep 2021 00:31:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/571/</guid>
-      <description>最近几乎花费全部业余时间制作了一个 BJ for Notion 辅助看板工具，配合我做的 Bj 模版使用。本文主要就是做一个预览，具体的使用方法后面慢慢出文介绍。话不多说</description>
     </item>
     
   </channel>
