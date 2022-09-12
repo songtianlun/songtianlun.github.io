@@ -8,7 +8,15 @@ draft: false
 # weight: 5
 ---
 
+| 项目名称 | 简介 | 链接 |
+| :--: | :--: | :--: |
+| ~~BJ-PFD~~ | 基于 Notion 的个人复盘、财富管理全功能工具。(计划弃用，请使用 BJ-PFD2) | |
+| BJ-PFD2 | 基于 Notion 的全功能个人财富管理，更快，更全。 |  [文档](https://www.frytea.com/technology/bj-pfd/home/) [主页](https://bjpfd2.frytea.com/)  |
+| BJ | 基于 Notion 的全功能 Bullet Journel 模版 | [文档](https://www.frytea.com/technology/bj-pfd/bj-tutor/) [模版](https://www.notion.so/Bullet-Journal-6367af1cab744eb59c33b7bd857919f) |
+| PlanAssistant | 一个简单的生活轨迹记录 Android App（不再更新）。 | [GitHub][songtianlun/PlanAssistant](https://github.com/songtianlun/PlanAssistant) [主页](https://songtianlun.github.io/PlanAssistant/#/) |
 
+
+~~~
 ### 👉 BJ-PFD 基于 Notion 的全功能 Bullet Journal 及 个人财务看板
 
 Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记辅助看板，由一套 [Bullet journal 模版](https://bjpfd.frytea.com/help/docs/tutoral-bj/intro)（`BJ`）和基于此模版的 [个人财务看板](https://bjpfd.frytea.com/help/docs/tutoral-pfd)（`Personal Finance Dashboard`）构成，提供全方位 Bullet Journal 功能支持的基础上，具备图表可视化支持。
@@ -43,5 +51,6 @@ Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记
 
 一个简单的生活轨迹记录、日程管理APP。
 
-- 项目主页: [PlanAssistant](https://dev.frytea.com/PlanAssistant/#/)
+- 项目主页: [PlanAssistant](https://songtianlun.github.io/PlanAssistant/#/)
 - 项目 GitHub: [songtianlun/PlanAssistant](https://github.com/songtianlun/PlanAssistant)
+~~~
