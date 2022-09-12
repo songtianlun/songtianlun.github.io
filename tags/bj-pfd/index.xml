@@ -10,14 +10,59 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 10 Sep 2022 04:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 20:40:02 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BJ-PFD - PFD 使用指南</title>
+      <link>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</link>
+      <pubDate>Sat, 10 Sep 2022 20:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</guid>
+      <description>注册登陆 打开 BJ-PFD，点击 Get Started。 如果您有账号可以直接登陆： 如果没有账号，点击其中的 Sign Up： 填入相关信息注册即可，成功后会自动</description>
+    </item>
+    
+    <item>
+      <title>BJ-PFD - BJ 使用指南</title>
+      <link>https://www.frytea.com/technology/bj-pfd/bj-tutor/</link>
+      <pubDate>Sat, 10 Sep 2022 10:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/bj-pfd/bj-tutor/</guid>
+      <description>Bullet Journal 模版简介 Bullet Journal 模版已经过了多次迭代，正式向外发布了多个版本，可以在 「版本发布页」 找到模版链接。由于一直找不到比较好的 Notion 模版发布平台，因此都</description>
+    </item>
+    
+    <item>
+      <title>BJ-PFD - 快速开始</title>
+      <link>https://www.frytea.com/technology/bj-pfd/quick-start/</link>
+      <pubDate>Sat, 10 Sep 2022 07:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/bj-pfd/quick-start/</guid>
+      <description>前些日子我的 BJ for Notion 辅助看板工具 —— BJ-PFD，专注于个人财务看板的小工具正式发布啦。再公布了预览之后得到许多热心网友的关注，我也真心的希望</description>
+    </item>
+    
+    <item>
+      <title>BJ-PFD - 快速预览</title>
+      <link>https://www.frytea.com/technology/bj-pfd/overview/</link>
+      <pubDate>Sat, 10 Sep 2022 06:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/bj-pfd/overview/</guid>
+      <description>在本页面，您可以快速的看到 BJ-PFD 项目的效果展示。 演示账户 第一次进入需要注册登陆，请记好您的邮箱和密码。 :::note 设置登陆的目的在于 加密 记录您的 Notion Token 及各个</description>
+    </item>
+    
+    <item>
+      <title>BJ-PFD - 简介</title>
+      <link>https://www.frytea.com/technology/bj-pfd/intro/</link>
+      <pubDate>Sat, 10 Sep 2022 05:40:02 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/bj-pfd/intro/</guid>
+      <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记辅助看板，由一套 Bullet journal 模版（BJ）和基于此模版的 个人财务看板（Personal Finance Dashboard）构成，提供全方</description>
+    </item>
+    
     <item>
       <title>BJ-PFD</title>
-      <link>https://www.frytea.com/technology/bj-pfd/</link>
+      <link>https://www.frytea.com/technology/bj-pfd/home/</link>
       <pubDate>Sat, 10 Sep 2022 04:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/</guid>
-      <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。 专注 专为个人财物管理需求量身定制，没有多余复杂的功能， 让您的财务状况、财产积累状况、消费状况</description>
+      <guid>https://www.frytea.com/technology/bj-pfd/home/</guid>
+      <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。 专注 美观 安全 专为个人财物管理需求量身定制，没有多余复杂的功能， 让您的财务状况、财产积累状况、</description>
     </item>
     
     <item>
