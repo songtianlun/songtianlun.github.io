@@ -13,7 +13,13 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-# Bullet Journal 模版简介
+| BJ-PFD 文档清单 |
+| :--: |
+| [BJ-PFD - 简介](/technology/bj-pfd/intro) |
+| [BJ-PFD - 快速预览](/technology/bj-pfd/overview) |
+| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start) |
+| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor) |
+| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor) |
 
 Bullet Journal 模版已经过了多次迭代，正式向外发布了多个版本，可以在 [「版本发布页」](/docs/tutoral-bj/version) 找到模版链接。由于一直找不到比较好的 Notion 模版发布平台，因此都是直接在个人博客、公众号之类的地方发布了。
 

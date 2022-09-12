@@ -22,7 +22,7 @@ Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记
 
 以下是文档清单
 
-| 文档清单 |
+| BJ-PFD 文档清单 |
 | :--: |
 | [BJ-PFD - 简介](/technology/bj-pfd/intro) |
 | [BJ-PFD - 快速预览](/technology/bj-pfd/overview) |

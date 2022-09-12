@@ -13,6 +13,14 @@ cover:
     hidden: false # only hide on current single page
 ---
 
+| BJ-PFD 文档清单 |
+| :--: |
+| [BJ-PFD - 简介](/technology/bj-pfd/intro) |
+| [BJ-PFD - 快速预览](/technology/bj-pfd/overview) |
+| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start) |
+| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor) |
+| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor) |
+
 Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记辅助看板，**由一套 [Bullet journal 模版](/docs/tutoral-bj/intro)（`BJ`）和基于此模版的 [个人财务看板](/docs/tutoral-pfd)（`Personal Finance Dashboard`）构成**，提供全方位 Bullet Journal 功能支持的基础上，具备图表可视化支持。
 
 ![](https://imagehost-cdn.frytea.com/images/2021/09/18/2021-09-18-11.12.1673bab25f17fc31ce.png)
