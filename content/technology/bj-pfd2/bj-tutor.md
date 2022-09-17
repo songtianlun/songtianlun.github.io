@@ -22,7 +22,7 @@ cover:
 | [BJ-PFD2 - BJ 使用方法](/technology/bj-pfd2/bj-tutor/) |
 | [BJ-PFD2 - PFD 使用方法](/technology/bj-pfd2/pfd-tutor/) |
 
-Bullet Journal 模版已经过了多次迭代，正式向外发布了多个版本，可以在 [「版本发布页」](/docs/tutoral-bj/version) 找到模版链接。由于一直找不到比较好的 Notion 模版发布平台，因此都是直接在个人博客、公众号之类的地方发布了。
+> 模版链接：https://frytea-share.notion.site/Bullet-Journal-V1-0-1-c3ec01960fd04c4aa3def130722a21d0
 
 模版灵感来源于比较喜欢的一些博主推荐的 Bullet Journal 模版，发现这真是一个日常复盘、记账的好方法，于是就有了这套模版，具体的使用方法请点开各个目录查看。
 
