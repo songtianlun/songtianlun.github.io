@@ -32,25 +32,20 @@ cover:
 
 ## 使用方法
 
-第一次
+用法很简单，只需输入您的 Notion Token 即可，保证该 Token 具有访问您 Bullet Journal 页面的权限即可。
 
-![](https://imagehost-cdn.frytea.com/images/2022/09/17/2022091711135747485bdd60a7e1811.png)
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/202209171135262948771316714087d.png)
 
-如果您是注册后第一次登陆该工具，登陆成功后会弹出设置页面，您也可以在右上角找到它。
+> 默认会将您的密钥在您当前设备记录一周，放心使用。
 
-![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.10.536ff63630e083c389.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.10.536ff63630e083c389.png)
-
-在这里填入您Notion页面的各项数据即可，具体请查看后面的的 《开始使用》。
+输入密钥点击 `查看报告`，稍等片刻即可看到您的专属报告。
 
 ## 效果展示
 
-当一切配置妥当，您大概就可以看到 BJ 数据库中的数据被填充进该工具的各个表格中。
 
 ### 资产总览
 
-![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.12.5671df52d28519e322.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.12.5671df52d28519e322.png)
-
-在首页，您可以看到您的账户总额、投资总额、消费统计等情况，在下方的「资产总况」中可以看到您各个账户的分布情况。
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/202209171138025bda4a134db5a69a5.png)
 
 ### 资产瀑布图
 
