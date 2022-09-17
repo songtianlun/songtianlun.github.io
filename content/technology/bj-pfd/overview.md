@@ -15,11 +15,11 @@ cover:
 
 | BJ-PFD 文档清单 |
 | :--: |
-| [BJ-PFD - 简介](/technology/bj-pfd/intro) |
-| [BJ-PFD - 快速预览](/technology/bj-pfd/overview) |
-| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start) |
-| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor) |
-| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor) |
+| [BJ-PFD - 简介](/technology/bj-pfd/intro/) |
+| [BJ-PFD - 快速预览](/technology/bj-pfd/overview/) |
+| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start/) |
+| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor/) |
+| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor/) |
 
 在本页面，您可以快速的看到 BJ-PFD 项目的效果展示。
 

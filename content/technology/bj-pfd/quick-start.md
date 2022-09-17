@@ -15,11 +15,11 @@ cover:
 
 | BJ-PFD 文档清单 |
 | :--: |
-| [BJ-PFD - 简介](/technology/bj-pfd/intro) |
-| [BJ-PFD - 快速预览](/technology/bj-pfd/overview) |
-| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start) |
-| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor) |
-| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor) |
+| [BJ-PFD - 简介](/technology/bj-pfd/intro/) |
+| [BJ-PFD - 快速预览](/technology/bj-pfd/overview/) |
+| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start/) |
+| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor/) |
+| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor/) |
 
 前些日子我的 BJ for Notion 辅助看板工具 —— BJ-PFD，专注于个人财务看板的小工具正式发布啦。再公布了预览之后得到许多热心网友的关注，我也真心的希望这个小工具能带给更多人价值。于是今天就带来了这篇《Bullet Journal for Notion 之快速入门》，目的在于快速配置，从注册 Notion 开始，带您快速看到效果。
 
