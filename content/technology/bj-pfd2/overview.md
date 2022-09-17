@@ -49,17 +49,13 @@ cover:
 
 ### 资产瀑布图
 
-![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.15.21c233efc2eec9ff9c.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.15.21c233efc2eec9ff9c.png)
-
-再向下看，可以看到「资产瀑布图」，这里统计了您选中年份的月度资产汇总情况，红色和绿色区别出您资产的增减，资产累计情况一目了然。
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/2022091711396478e7c82fb841a5cdd.png)
 
 ### 预算消费趋势图
 
-![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.17.013b3283c8874b7bf3.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.17.013b3283c8874b7bf3.png)
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/202209171140951ecf090996a30b48e.png)
 
-再向下，就是一个按月为单位的消费统计图，该统计图展示了您各个月份预算及实际花销的对比图，同样是红绿区分出消费和预算，红色的区域就是您超出预算的部分，提醒您要小心消费咯！
-
-### 日消费趋势图
+### 消费趋势图
 
 ![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.18.301d34e1c9b791f1b0.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.18.301d34e1c9b791f1b0.png)
 
