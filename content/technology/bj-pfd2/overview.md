@@ -57,15 +57,17 @@ cover:
 
 ### 消费趋势图
 
-![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.18.301d34e1c9b791f1b0.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.18.301d34e1c9b791f1b0.png)
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/20220917114164847a2e8166898ae50.png)
 
-习惯的养成源于日常的点滴，如果想控制消费就需要从每一天去努力，接下来就是一个「日消费趋势图」，该趋势图统计出您选定月份按日统计的消费情况，要是那一天太过“突出”记得去 Notion 看看钱都花到哪里去了吧！
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/20220917114188275da82f76c054e6a.png)
 
-### 年度消费统计图
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/2022091711424214233dab5d559a6a4.png)
+
+### 投资趋势图
 
 ![https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.20.12fbb5284e99462acc.png](https://imagehost-cdn.frytea.com/images/2021/09/10/2021-09-10-12.20.12fbb5284e99462acc.png)
 
-在最后，是一个年度消费统计图。**人们总是高估一天的价值，低估半年、一年的价值**。不信就来看看这幅年度消费统计图吧。
+![](https://imagehost-cdn.frytea.com/images/2022/09/17/202209171142647ca6e828fdb9e5aa6.png)
 
 ## 总结
 
