@@ -1,9 +1,9 @@
 ---
-title: "BJ-PFD(请升级)"
+title: "BJ-PFD2"
 date: 2022-09-10T04:40:02+08:00
 description: "Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。"
-categories: ["个人项目集","BJ-PFD"]
-tags: ["BJ-PFD"]
+categories: ["个人项目集","BJ-PFD2"]
+tags: ["BJ-PFD2"]
 draft: false
 cover:
     #image: "https://imagehost-cdn.frytea.com/images/2022/09/10/FBC9E170-AC72-44AA-8A17-4D21BCCC7AE21dda98e00bd9bc36.jpg" # image path/url
@@ -24,8 +24,9 @@ Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记
 
 | BJ-PFD 文档清单 |
 | :--: |
-| [BJ-PFD - 简介](/technology/bj-pfd/intro/) |
-| [BJ-PFD - 快速预览](/technology/bj-pfd/overview/) |
-| [BJ-PFD - 快速使用](/technology/bj-pfd/quick-start/) |
-| [BJ-PFD - BJ 使用方法](/technology/bj-pfd/bj-tutor/) |
-| [BJ-PFD - PFD 使用方法](/technology/bj-pfd/pfd-tutor/) |
+| [BJ-PFD2 - 入口](https://bjpfd2.frytea.com/) |
+| [BJ-PFD2 - 简介](/technology/bj-pfd2/intro/) |
+| [BJ-PFD2 - 快速预览](/technology/bj-pfd2/overview/) |
+| [BJ-PFD2- 快速使用](/technology/bj-pfd2/quick-start/) |
+| [BJ-PFD2 - BJ 使用方法](/technology/bj-pfd2/bj-tutor/) |
+| [BJ-PFD2 - PFD 使用方法](/technology/bj-pfd2/pfd-tutor/) |
