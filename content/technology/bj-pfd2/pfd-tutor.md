@@ -21,15 +21,7 @@ cover:
 | [BJ-PFD2 - PFD 使用方法](/technology/bj-pfd2/pfd-tutor/) |
 
 
-## 参数配置
-
-如果没有配置，进入主页后所有图表数据为空，请先配置相关参数：
-
-![](https://imagehost-cdn.frytea.com/images/2022/09/23/2022092300404362fd3fb2d0273d2d2.png)
-
-按照下面的步骤配置各个参数：
-
-###  Notion **Token**
+##  Step1: 获取 Notion **Token**
 
 > BJ-PFD 是基于 Notion 公开 API 实现的，因此要想让 BJ-PFD 读取您账本中的数据并可视化，需要配置 Token。
 
@@ -49,7 +41,7 @@ cover:
 
 ![https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.31.47-1c786a5b79b6f0f99.png](https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.31.47-1c786a5b79b6f0f99.png)
 
-这就获取到了 Notion Token，回去填到 BJ-PFD 对应表格中即可。
+这就获取到了 Notion Token。
 
 都这里还没完，该 integration 还没有权限访问您的 Bullet Journal，还需要给它一个权限。
 
@@ -65,4 +57,14 @@ cover:
 >  - 该 Token 是否是在您 Bullet Journal 所在的工作空间生成？
 >  - 该 Token 是否具有读取您 Bullet Journal 整个页面内容的权限？
 
-如果您不确定哪一步出问题，请按照该部分文档再试一次。
+## Step2: 查看报告
+
+打开工具链接：https://bjpfd2.frytea.com/login
+
+![](https://imagehost-cdn.frytea.com/images/2022/09/23/2022092300404362fd3fb2d0273d2d2.png)
+
+输入您在第一步获取的 notion token 即可。
+
+![](https://imagehost-cdn.frytea.com/images/2022/09/23/202209230050967482992a97998816a.png)
+
+至此，使用方法介绍结束。如果报错，**请检查您的 notion token 是否正确，并赋予了足够的权限**。
