@@ -26,7 +26,7 @@
       <pubDate>Sat, 10 Sep 2022 20:40:02 +0800</pubDate>
       
       <guid>https://www.frytea.com/technology/bj-pfd2/pfd-tutor/</guid>
-      <description>BJ-PFD2 文档清单 BJ-PFD2 - 入口 BJ-PFD2 - 快速开始 BJ-PFD2 - BJ 使用方法 BJ-PFD2 - PFD 使用方法 参数配置 如果没有配置，进入主页后所有图表数据为空，请先配置相关参数： 按照下面的步骤</description>
+      <description>BJ-PFD2 文档清单 BJ-PFD2 - 入口 BJ-PFD2 - 快速开始 BJ-PFD2 - BJ 使用方法 BJ-PFD2 - PFD 使用方法 Step1: 获取 Notion Token BJ-PFD 是基于 Notion 公开 API 实现的，因此要想让 BJ-PFD 读取您账本中的数据并可视化，需要配置</description>
     </item>
     
     <item>
