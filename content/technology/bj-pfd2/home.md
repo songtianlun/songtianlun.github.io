@@ -13,14 +13,15 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。
+Bullet Journal Personal Finance Dashboard (BJ-PFD2) ，一个 Notion 子弹笔记（财务向）辅助看板，仅需两步，即可生成您个人的财务报表。
 
 | 专注 | 美观 | 安全 |
 | :-- | :-- | :-- |
 | 专为个人管理量身定制，使用简单，个人财务状况、财富积累、消费趋势一目了然。 | 界面简单清爽，响应式设计，数据密度刚刚好，让您保持心情愉悦。 | 数据全部存储在 `Notion` ，项目开源，放心使用。 |
 
+现在已经更新到 BJ-PFD2 啦，使用 GO 重构，速度更快，使用更加便捷，快来试试吧。
 
-以下是文档清单
+以下是文档清单：
 
 | BJ-PFD2 文档清单 |
 | :--: |
