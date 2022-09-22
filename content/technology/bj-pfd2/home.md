@@ -29,3 +29,6 @@ Bullet Journal Personal Finance Dashboard (BJ-PFD2) ，一个 Notion 子弹笔�
 | [BJ-PFD2 - 快速开始](/technology/bj-pfd2/overview/) |
 | [BJ-PFD2 - BJ 使用方法](/technology/bj-pfd2/bj-tutor/) |
 | [BJ-PFD2 - PFD 使用方法](/technology/bj-pfd2/pfd-tutor/) |
+
+
+![](https://imagehost-cdn.frytea.com/images/2022/09/23/202209230110801e714d16a189091b8.png)
