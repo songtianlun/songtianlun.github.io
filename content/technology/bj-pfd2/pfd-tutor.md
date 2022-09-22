@@ -33,7 +33,7 @@ cover:
 
 ![https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.29.346746050488b6912c.png](https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.29.346746050488b6912c.png)
 
-填写一下名称，点击 Submit 即可。
+填写一下名称，确认具有读权限，点击 Submit 即可。
 
 ![https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.30.213d41d39156036287.png](https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.30.213d41d39156036287.png)
 
@@ -45,7 +45,7 @@ cover:
 
 都这里还没完，该 integration 还没有权限访问您的 Bullet Journal，还需要给它一个权限。
 
-![https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.34.368c92d5a82e66a8f5.png](https://imagehost-cdn.frytea.com/images/2021/09/11/2021-09-11-4.34.368c92d5a82e66a8f5.png)
+![](https://imagehost-cdn.frytea.com/images/2022/09/23/2022092300533740dd320ef4b4ea6fd.png)
 
 再次回到您的 Bullet Journal 页面，点击右上角的 Share ，选择 Invite ，选中您刚刚创建的 integration 之后 invite即可，此时再点击 Share 可以看到您创建的 integration 就有了访问您 Bullet Journal 的权限。BJ-PFD就是通过这个来访问您的数据并可视化的。
 
