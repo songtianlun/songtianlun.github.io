@@ -1,5 +1,5 @@
 ---
-title: "BJ-PFD - 快速预览"
+title: "BJ-PFD2 - 快速预览"
 date: 2022-09-10T06:40:02+08:00
 description: ""
 categories: ["BJ-PFD2"]

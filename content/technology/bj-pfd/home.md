@@ -1,6 +1,6 @@
 ---
 title: "BJ-PFD(请升级)"
-date: 2022-09-10T04:40:02+08:00
+date: 2021-09-10T04:40:02+08:00
 description: "Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。"
 categories: ["个人项目集","BJ-PFD"]
 tags: ["BJ-PFD"]

@@ -1,6 +1,6 @@
 ---
 title: "BJ-PFD - 快速开始"
-date: 2022-09-10T07:40:02+08:00
+date: 2021-09-10T07:40:02+08:00
 description: ""
 categories: ["BJ-PFD"]
 tags: ["BJ-PFD"]
