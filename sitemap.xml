@@ -2,21 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.frytea.com/tags/bj-pfd/</loc>
-    <lastmod>2022-09-10T20:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/bj-pfd/</loc>
-    <lastmod>2022-09-10T20:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</loc>
-    <lastmod>2022-09-10T20:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/technology/bj-pfd2/pfd-tutor/</loc>
     <lastmod>2022-09-10T20:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -47,23 +32,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/bj-tutor/</loc>
-    <lastmod>2022-09-10T10:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/technology/bj-pfd2/bj-tutor/</loc>
     <lastmod>2022-09-10T10:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/quick-start/</loc>
-    <lastmod>2022-09-10T07:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/overview/</loc>
-    <lastmod>2022-09-10T06:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -72,17 +42,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/intro/</loc>
-    <lastmod>2022-09-10T05:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/2022/</loc>
-    <lastmod>2022-09-10T04:40:02+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/technology/bj-pfd/home/</loc>
     <lastmod>2022-09-10T04:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1352,8 +1312,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/tags/bj-pfd/</loc>
+    <lastmod>2021-09-10T20:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/bj-pfd/</loc>
+    <lastmod>2021-09-10T20:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</loc>
+    <lastmod>2021-09-10T20:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/bj-tutor/</loc>
+    <lastmod>2021-09-10T10:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/posts/essay/571/</loc>
     <lastmod>2021-09-10T00:31:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/quick-start/</loc>
+    <lastmod>2021-09-10T07:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/overview/</loc>
+    <lastmod>2021-09-10T06:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/intro/</loc>
+    <lastmod>2021-09-10T05:40:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/technology/bj-pfd/home/</loc>
+    <lastmod>2021-09-10T04:40:02+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
