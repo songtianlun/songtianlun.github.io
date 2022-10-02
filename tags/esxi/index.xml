@@ -13,10 +13,10 @@
     <lastBuildDate>Fri, 04 Sep 2020 11:43:05 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/esxi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>变废为宝 ｜ 旧电脑变云数据中心 ｜ Esxi 配置</title>
-      <link>https://www.frytea.com/posts/essay/448/</link>
+      <link>https://www.frytea.com/technology/others/448/</link>
       <pubDate>Fri, 04 Sep 2020 11:43:05 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/448/</guid>
+      <guid>https://www.frytea.com/technology/others/448/</guid>
       <description>VMware Inc. 是虚拟机软件行业的老大，vSphere 是在VMware数据中心产品下的一套软件，ESXi, vSphere client 和 vCeneter 都是 vSphere 的组件。ESXi是 vSphere 中最重要的一</description>
     </item>
     

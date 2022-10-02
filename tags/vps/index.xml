@@ -76,10 +76,10 @@
     
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/posts/essay/31/</link>
+      <link>https://www.frytea.com/technology/others/31/</link>
       <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/31/</guid>
+      <guid>https://www.frytea.com/technology/others/31/</guid>
       <description>&lt;h1 id=&#34;linux下使用rclone挂载网盘到本地&#34;&gt;Linux下使用rclone挂载网盘到本地&lt;/h1&gt;
 &lt;p&gt;Rclone是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
@@ -88,19 +88,19 @@
     
     <item>
       <title>vps使用Shadowsocks搭建vpn</title>
-      <link>https://www.frytea.com/posts/essay/30/</link>
+      <link>https://www.frytea.com/technology/others/30/</link>
       <pubDate>Sat, 12 Jan 2019 11:52:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/30/</guid>
+      <guid>https://www.frytea.com/technology/others/30/</guid>
       <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的vpn经历无一不遇奸商！于是下决心搭建自己的vpn！就在今天，vpn终于搭建成功</description>
     </item>
     
     <item>
       <title>私人网盘nextcloud配置问题解决</title>
-      <link>https://www.frytea.com/posts/essay/32/</link>
+      <link>https://www.frytea.com/technology/others/32/</link>
       <pubDate>Thu, 10 Jan 2019 11:29:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/32/</guid>
+      <guid>https://www.frytea.com/technology/others/32/</guid>
       <description>安装流程 配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。 博文跳转:https://www.vp</description>
     </item>
     

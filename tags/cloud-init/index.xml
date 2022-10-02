@@ -22,10 +22,10 @@
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/posts/essay/583/</link>
+      <link>https://www.frytea.com/technology/others/583/</link>
       <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/583/</guid>
+      <guid>https://www.frytea.com/technology/others/583/</guid>
       <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
     </item>
     

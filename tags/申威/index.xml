@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 10 Nov 2021 18:08:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/posts/essay/598/</link>
+      <link>https://www.frytea.com/technology/others/598/</link>
       <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/598/</guid>
+      <guid>https://www.frytea.com/technology/others/598/</guid>
       <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
     </item>
     

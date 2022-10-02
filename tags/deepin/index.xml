@@ -13,19 +13,19 @@
     <lastBuildDate>Thu, 28 Oct 2021 11:32:28 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/deepin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/posts/essay/591/</link>
+      <link>https://www.frytea.com/technology/others/591/</link>
       <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/591/</guid>
+      <guid>https://www.frytea.com/technology/others/591/</guid>
       <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
     </item>
     
     <item>
       <title>Deepin（Linux）下实现Android投屏</title>
-      <link>https://www.frytea.com/posts/essay/34/</link>
+      <link>https://www.frytea.com/technology/others/34/</link>
       <pubDate>Tue, 18 Jun 2019 08:39:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/34/</guid>
+      <guid>https://www.frytea.com/technology/others/34/</guid>
       <description>&lt;h1 id=&#34;deepinlinux下实现android投屏&#34;&gt;Deepin（Linux）下实现Android投屏&lt;/h1&gt;
 &lt;p&gt;最近需要演示自己的安卓开发作品，因此需要在自己的主力操作系统（Deepin）上实现安卓投屏，之后才好连接电脑在班级里演示。找寻一圈之后终于发现了开源的Linux端投屏神器&lt;code&gt;Scrcpy&lt;/code&gt;. 因此在这里简单记录配置过程，方便后用。&lt;/p&gt;
 &lt;p&gt;项目源码：&lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;Scrcpy的GitHub&lt;/a&gt;&lt;/p&gt;

@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 27 Jan 2022 09:25:31 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wiki.js 离线部署方法 ｜ 离线拉取语言包</title>
-      <link>https://www.frytea.com/posts/essay/625/</link>
+      <link>https://www.frytea.com/technology/others/625/</link>
       <pubDate>Thu, 27 Jan 2022 09:25:31 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/625/</guid>
+      <guid>https://www.frytea.com/technology/others/625/</guid>
       <description>最近想在内网搭建一套 Wiki，在调研了各种 wiki 的搭建方式、功能之后，选择了 wiki.js。但是在部署过程中，发现其默认是通过公网拉取语言包等资</description>
     </item>
     

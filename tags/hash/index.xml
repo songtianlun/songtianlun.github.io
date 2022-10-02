@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 23 Dec 2021 14:14:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/hash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Perl 调试打印 HASH 内容</title>
-      <link>https://www.frytea.com/posts/essay/608/</link>
+      <link>https://www.frytea.com/technology/others/608/</link>
       <pubDate>Thu, 23 Dec 2021 14:14:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/608/</guid>
+      <guid>https://www.frytea.com/technology/others/608/</guid>
       <description>在调试 Perl 程序时常常需要打印哈希表内容，虽然可以直接使用 foreach 打印，但数据复杂了就难办了，此时可以将 Hash 表转换为 json 文本再打印： use JSON; my $data = {&amp;#39;info&amp;#39;=&amp;gt; &amp;#34;test&amp;#34;, &amp;#39;struct&amp;#39; =&amp;gt; {&amp;#39;test1&amp;#39;=&amp;gt;&amp;#39;test1&amp;#39;, &amp;#39;test2&amp;#39;=&amp;gt;&amp;#39;test2&amp;#39;}};</description>
     </item>
     

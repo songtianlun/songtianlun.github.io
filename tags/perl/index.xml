@@ -13,55 +13,55 @@
     <lastBuildDate>Wed, 27 Jul 2022 14:56:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Perl 特性之不安全的依赖</title>
-      <link>https://www.frytea.com/posts/essay/630/</link>
+      <link>https://www.frytea.com/technology/others/630/</link>
       <pubDate>Wed, 27 Jul 2022 14:56:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/630/</guid>
+      <guid>https://www.frytea.com/technology/others/630/</guid>
       <description>最近写 Perl 程序时遇到一个很奇怪的问题： Insecure dependency in unlink while running with -T switch at ../tmpfile.pl line 44. 经过检查，发现这是 Perl 语言一个特性，在运行时使用 -w 或 -T 都意味着 &amp;ldquo;万无</description>
     </item>
     
     <item>
       <title>Python 二进制结构化数据处理和封装</title>
-      <link>https://www.frytea.com/posts/essay/621/</link>
+      <link>https://www.frytea.com/technology/others/621/</link>
       <pubDate>Mon, 17 Jan 2022 16:04:48 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/621/</guid>
+      <guid>https://www.frytea.com/technology/others/621/</guid>
       <description>当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 struct 这个模块提供的方法。 详细方法可以查看 官方教程</description>
     </item>
     
     <item>
       <title>Perl //= 和 ||= 的区别 | 附实验</title>
-      <link>https://www.frytea.com/posts/essay/619/</link>
+      <link>https://www.frytea.com/technology/others/619/</link>
       <pubDate>Wed, 12 Jan 2022 15:42:03 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/619/</guid>
+      <guid>https://www.frytea.com/technology/others/619/</guid>
       <description>结论 $var//=2：等价于 defined($var)||2，即 未定义 时才赋值为 2 ，否则不变（ 即使是 0或 空字符串 ） $var||=2 ：除非定义且为 true 才不会赋</description>
     </item>
     
     <item>
       <title>Perl 常用内置函数 -r -e 等</title>
-      <link>https://www.frytea.com/posts/essay/617/</link>
+      <link>https://www.frytea.com/technology/others/617/</link>
       <pubDate>Tue, 11 Jan 2022 15:55:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/617/</guid>
+      <guid>https://www.frytea.com/technology/others/617/</guid>
       <description>-r: File is readable by effective uid/gid. -w: File is writable by effective uid/gid. -x: File is executable by effective uid/gid. -o: File is owned by effective uid. -R: File is readable by real uid/gid. -W: File is writable by real uid/gid. -X: File is executable by real uid/gid. -O: File is owned by real uid. -e: File exists. -z: File has zero size (is empty). -s: File has nonzero</description>
     </item>
     
     <item>
       <title>Perl 调试打印 HASH 内容</title>
-      <link>https://www.frytea.com/posts/essay/608/</link>
+      <link>https://www.frytea.com/technology/others/608/</link>
       <pubDate>Thu, 23 Dec 2021 14:14:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/608/</guid>
+      <guid>https://www.frytea.com/technology/others/608/</guid>
       <description>在调试 Perl 程序时常常需要打印哈希表内容，虽然可以直接使用 foreach 打印，但数据复杂了就难办了，此时可以将 Hash 表转换为 json 文本再打印： use JSON; my $data = {&amp;#39;info&amp;#39;=&amp;gt; &amp;#34;test&amp;#34;, &amp;#39;struct&amp;#39; =&amp;gt; {&amp;#39;test1&amp;#39;=&amp;gt;&amp;#39;test1&amp;#39;, &amp;#39;test2&amp;#39;=&amp;gt;&amp;#39;test2&amp;#39;}};</description>
     </item>
     
     <item>
       <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
-      <link>https://www.frytea.com/posts/essay/600/</link>
+      <link>https://www.frytea.com/technology/others/600/</link>
       <pubDate>Wed, 24 Nov 2021 17:38:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/600/</guid>
+      <guid>https://www.frytea.com/technology/others/600/</guid>
       <description>最近在看 PVE 源码时看到这样一段： # old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数 # new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法 sub get { return PVE::RESTEnvironment-&amp;gt;get(); } 好奇两种调用方式是什么区别，经过研</description>
     </item>
     
@@ -76,28 +76,28 @@
     
     <item>
       <title>Perl 程序后台执行示例</title>
-      <link>https://www.frytea.com/posts/essay/563/</link>
+      <link>https://www.frytea.com/technology/others/563/</link>
       <pubDate>Thu, 26 Aug 2021 11:51:48 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/563/</guid>
+      <guid>https://www.frytea.com/technology/others/563/</guid>
       <description>最近阅读 PVE 源码发现一处源码这样使用了 fork() 方法： $spid = fork(); if (!defined ($spid)) { die &amp;#34;can&amp;#39;t put server into background - fork failed&amp;#34;; } elsif ($spid) { # parent exit (0); } 自己写示例发现这种方法可以使程序进入后台执行状</description>
     </item>
     
     <item>
       <title>Perl 面向对象之基类(use base)</title>
-      <link>https://www.frytea.com/posts/essay/562/</link>
+      <link>https://www.frytea.com/technology/others/562/</link>
       <pubDate>Wed, 25 Aug 2021 16:39:33 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/562/</guid>
+      <guid>https://www.frytea.com/technology/others/562/</guid>
       <description>use base somemodule; # 相当于以下两句的结合： BEGIN{ use somemodule (); push @ISA, qw(somemodule); } # 也可以同时 use base 两个或者两个以上的模块，即多继承，例如： use base qw(Foo Bar); BEGIN { use Foo (); use Bar (); push @ISA, qw(Foo Bar); } Perl 里</description>
     </item>
     
     <item>
       <title>Perl 模块路径指定（调试环境）</title>
-      <link>https://www.frytea.com/posts/essay/561/</link>
+      <link>https://www.frytea.com/technology/others/561/</link>
       <pubDate>Wed, 25 Aug 2021 16:33:50 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/561/</guid>
+      <guid>https://www.frytea.com/technology/others/561/</guid>
       <description>在调试 Perl 测试程序时，常常需要在测试路劲执行 Perl 脚本，相应的 .pm 模块测试程序也需并不在 Perl 默认的模块路径下，使用以下语句即可指定模块检索路径。 #!/usr/bin/perl use lib</description>
     </item>
     

@@ -22,10 +22,10 @@
     
     <item>
       <title>Linux USB 设备基础理论</title>
-      <link>https://www.frytea.com/posts/essay/633/</link>
+      <link>https://www.frytea.com/technology/others/633/</link>
       <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/633/</guid>
+      <guid>https://www.frytea.com/technology/others/633/</guid>
       <description>通过扫描以下目录获取物理节点所有 USB 设备： /sys/bus/usb/devices/usb* /sys/bus/usb/devices/usb*/$busnum-* 从该文件系统收集某一个设备的主要信息如下： { &amp;#34;busnum&amp;#34;: 1, &amp;#34;class&amp;#34;: 0, &amp;#34;devnum&amp;#34;: 2, &amp;#34;level&amp;#34;: 1, &amp;#34;manufacturer&amp;#34;: &amp;#34;QEMU&amp;#34;, &amp;#34;port&amp;#34;: 0, &amp;#34;prodid&amp;#34;: &amp;#34;0001&amp;#34;, &amp;#34;product&amp;#34;: &amp;#34;QEMU USB Tablet&amp;#34;, &amp;#34;speed&amp;#34;: &amp;#34;12&amp;#34;, &amp;#34;usbpath&amp;#34;: &amp;#34;1&amp;#34;, &amp;#34;vendid&amp;#34;: &amp;#34;0627&amp;#34; } 文</description>
     </item>
     
@@ -85,19 +85,19 @@
     
     <item>
       <title>INOTIFY - 监听事件</title>
-      <link>https://www.frytea.com/posts/essay/626/</link>
+      <link>https://www.frytea.com/technology/others/626/</link>
       <pubDate>Thu, 27 Jan 2022 09:35:37 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/626/</guid>
+      <guid>https://www.frytea.com/technology/others/626/</guid>
       <description>Linux 2.6.13 内核中引入了新的文件系统变化通知机制 inotify ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。 各种语言基本都提供了对该接口的调用方法</description>
     </item>
     
     <item>
       <title>Linux 下的文件锁</title>
-      <link>https://www.frytea.com/posts/essay/620/</link>
+      <link>https://www.frytea.com/technology/others/620/</link>
       <pubDate>Thu, 13 Jan 2022 14:30:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/620/</guid>
+      <guid>https://www.frytea.com/technology/others/620/</guid>
       <description>本文内容为 Linux 系统通用，各个语言实现可能稍有不同，但原理相同。 当多个进程或多个程序都想要修同一个文件的时候，如果不加控制，多进程或多程序将可能</description>
     </item>
     
@@ -283,10 +283,10 @@
     
     <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/posts/essay/597/</link>
+      <link>https://www.frytea.com/technology/others/597/</link>
       <pubDate>Tue, 09 Nov 2021 15:45:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/597/</guid>
+      <guid>https://www.frytea.com/technology/others/597/</guid>
       <description>互联网上搜索到的 Linux 环境新磁盘配置方法资料质量都不尽如人意，因此自己整理了一份，日常 Linux 磁盘分区时查阅足够了，主要是用到了 fdisk 命令。 fdisk 基本使用 新增</description>
     </item>
     
@@ -301,10 +301,10 @@
     
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/posts/essay/595/</link>
+      <link>https://www.frytea.com/technology/others/595/</link>
       <pubDate>Mon, 08 Nov 2021 18:43:30 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/595/</guid>
+      <guid>https://www.frytea.com/technology/others/595/</guid>
       <description>问题重现 在使用 libvirt 管理虚拟机时，有时会用到 virt-manager 提供的图形界面管理虚拟机，查看 vnc 输出等，但是常常会得到如下错误： (virt-manager:25381): Gtk-WARNING **: 08:55:23.876: cannot open display: Linux 解决 如果是在 Linux 桌面</description>
     </item>
     
@@ -463,55 +463,55 @@
     
     <item>
       <title>Tmux 使用笔记</title>
-      <link>https://www.frytea.com/posts/essay/585/</link>
+      <link>https://www.frytea.com/technology/others/585/</link>
       <pubDate>Wed, 13 Oct 2021 14:30:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/585/</guid>
+      <guid>https://www.frytea.com/technology/others/585/</guid>
       <description>Tmux 是一个终端复用器（terminal multiplexer），用起来就离不开。网上有很多 Tmux 使用指南，但是用下来发现还是自己整理一遍才能真正的</description>
     </item>
     
     <item>
       <title>基于 Ubuntu 平台安装 OS X 10.15 虚拟机</title>
-      <link>https://www.frytea.com/posts/essay/302/</link>
+      <link>https://www.frytea.com/technology/others/302/</link>
       <pubDate>Thu, 30 Jan 2020 20:06:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/302/</guid>
+      <guid>https://www.frytea.com/technology/others/302/</guid>
       <description>OS X 系统启动时会识别计算机主板，针对非苹果电脑拒绝启动，就算是虚拟机，也有天然的限制不可以随便安装 OS X 虚拟机，本文就介绍了在 Ubuntu 平台上使用 VMware Workstation</description>
     </item>
     
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/posts/essay/267/</link>
+      <link>https://www.frytea.com/technology/others/267/</link>
       <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/267/</guid>
+      <guid>https://www.frytea.com/technology/others/267/</guid>
       <description>DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。 在内网中又</description>
     </item>
     
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/posts/essay/266/</link>
+      <link>https://www.frytea.com/technology/others/266/</link>
       <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/266/</guid>
+      <guid>https://www.frytea.com/technology/others/266/</guid>
       <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
     </item>
     
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/posts/essay/265/</link>
+      <link>https://www.frytea.com/technology/others/265/</link>
       <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/265/</guid>
+      <guid>https://www.frytea.com/technology/others/265/</guid>
       <description>自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我： 完整、好用的客户端，</description>
     </item>
     
     <item>
       <title>Deepin（Linux）下实现Android投屏</title>
-      <link>https://www.frytea.com/posts/essay/34/</link>
+      <link>https://www.frytea.com/technology/others/34/</link>
       <pubDate>Tue, 18 Jun 2019 08:39:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/34/</guid>
+      <guid>https://www.frytea.com/technology/others/34/</guid>
       <description>&lt;h1 id=&#34;deepinlinux下实现android投屏&#34;&gt;Deepin（Linux）下实现Android投屏&lt;/h1&gt;
 &lt;p&gt;最近需要演示自己的安卓开发作品，因此需要在自己的主力操作系统（Deepin）上实现安卓投屏，之后才好连接电脑在班级里演示。找寻一圈之后终于发现了开源的Linux端投屏神器&lt;code&gt;Scrcpy&lt;/code&gt;. 因此在这里简单记录配置过程，方便后用。&lt;/p&gt;
 &lt;p&gt;项目源码：&lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;Scrcpy的GitHub&lt;/a&gt;&lt;/p&gt;
@@ -525,10 +525,10 @@
     
     <item>
       <title>Linux后台运行hexo</title>
-      <link>https://www.frytea.com/posts/essay/50/</link>
+      <link>https://www.frytea.com/technology/others/50/</link>
       <pubDate>Thu, 21 Feb 2019 15:22:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/50/</guid>
+      <guid>https://www.frytea.com/technology/others/50/</guid>
       <description>hexo是一个非常高效的博客，但由于其设计特点，目的是为了转换为静态页面，因此不必要一直在后台运行，但是我想随时随地写博客同步到github</description>
     </item>
     

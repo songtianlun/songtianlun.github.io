@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 20 Apr 2022 10:11:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shell 中格式化显示 json 字符串</title>
-      <link>https://www.frytea.com/posts/essay/629/</link>
+      <link>https://www.frytea.com/technology/others/629/</link>
       <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/629/</guid>
+      <guid>https://www.frytea.com/technology/others/629/</guid>
       <description>有时需要在终端环境中查看 json 数据，比如使用 curl 调试接口时。直接看到的 json 数据是类似这样的： $ echo &amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39; {&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;} 如果想要以更直观的方式格式化显示 json 数</description>
     </item>
     

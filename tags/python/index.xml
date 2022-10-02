@@ -13,37 +13,37 @@
     <lastBuildDate>Wed, 20 Apr 2022 10:11:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shell 中格式化显示 json 字符串</title>
-      <link>https://www.frytea.com/posts/essay/629/</link>
+      <link>https://www.frytea.com/technology/others/629/</link>
       <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/629/</guid>
+      <guid>https://www.frytea.com/technology/others/629/</guid>
       <description>有时需要在终端环境中查看 json 数据，比如使用 curl 调试接口时。直接看到的 json 数据是类似这样的： $ echo &amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39; {&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;} 如果想要以更直观的方式格式化显示 json 数</description>
     </item>
     
     <item>
       <title>Python 传值 or 传引用</title>
-      <link>https://www.frytea.com/posts/essay/622/</link>
+      <link>https://www.frytea.com/technology/others/622/</link>
       <pubDate>Wed, 19 Jan 2022 09:11:11 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/622/</guid>
+      <guid>https://www.frytea.com/technology/others/622/</guid>
       <description>先说结论：python不允许程序员选择采用传值还是传引用。 如果函数收到的是一个 可变对象 （比如 字典 或者 列表 ）的引用，就能修改对象的原始值－－相</description>
     </item>
     
     <item>
       <title>Python 二进制结构化数据处理和封装</title>
-      <link>https://www.frytea.com/posts/essay/621/</link>
+      <link>https://www.frytea.com/technology/others/621/</link>
       <pubDate>Mon, 17 Jan 2022 16:04:48 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/621/</guid>
+      <guid>https://www.frytea.com/technology/others/621/</guid>
       <description>当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 struct 这个模块提供的方法。 详细方法可以查看 官方教程</description>
     </item>
     
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/posts/essay/610/</link>
+      <link>https://www.frytea.com/technology/others/610/</link>
       <pubDate>Mon, 27 Dec 2021 14:15:49 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/610/</guid>
+      <guid>https://www.frytea.com/technology/others/610/</guid>
       <description>问题重现 在一次简单的代码合并后，发现 Python 项目跑不起来了，报错如下： ssh://root@192.168.226.76:22/usr/bin/python3 -B -u /tmp/pycharm_project_882/mimic_daemon_server/helper_main.py Traceback (most recent call last): File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/helper_main.py&amp;#34;, line 1, in &amp;lt;module&amp;gt; from mimic_daemon_server import create_app File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/__init__.py&amp;#34;, line 14, in &amp;lt;module&amp;gt; from mimic_daemon_server.nodes import nodes File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/nodes/__init__.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; from . import</description>
     </item>
     
@@ -58,10 +58,10 @@
     
     <item>
       <title>Python3下基于Scapy库完成网卡抓包解析</title>
-      <link>https://www.frytea.com/posts/essay/451/</link>
+      <link>https://www.frytea.com/technology/others/451/</link>
       <pubDate>Mon, 07 Sep 2020 14:55:08 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/451/</guid>
+      <guid>https://www.frytea.com/technology/others/451/</guid>
       <description>Scapy是一个可以让用户发送、侦听和解析并伪装网络报文的Python程序。这些功能可以用于制作侦测、扫描和攻击网络的工具。 在 Python 代码中可以通</description>
     </item>
     

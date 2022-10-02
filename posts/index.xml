@@ -21,24 +21,6 @@
     </item>
     
     <item>
-      <title>VMware ovftool arm zip 包安装</title>
-      <link>https://www.frytea.com/posts/essay/634/</link>
-      <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/634/</guid>
-      <description>ovftool 是 VMware 提供的一款开放的导入、导出 OVF 格式虚拟机的 CLI 工具，支持 X86 和 Arm。 官方提供两种，一种是类似 .bundle 安装包，另一种是 zip 压缩包。本文介绍 zip 压缩包使</description>
-    </item>
-    
-    <item>
-      <title>Linux USB 设备基础理论</title>
-      <link>https://www.frytea.com/posts/essay/633/</link>
-      <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/633/</guid>
-      <description>通过扫描以下目录获取物理节点所有 USB 设备： /sys/bus/usb/devices/usb* /sys/bus/usb/devices/usb*/$busnum-* 从该文件系统收集某一个设备的主要信息如下： { &amp;#34;busnum&amp;#34;: 1, &amp;#34;class&amp;#34;: 0, &amp;#34;devnum&amp;#34;: 2, &amp;#34;level&amp;#34;: 1, &amp;#34;manufacturer&amp;#34;: &amp;#34;QEMU&amp;#34;, &amp;#34;port&amp;#34;: 0, &amp;#34;prodid&amp;#34;: &amp;#34;0001&amp;#34;, &amp;#34;product&amp;#34;: &amp;#34;QEMU USB Tablet&amp;#34;, &amp;#34;speed&amp;#34;: &amp;#34;12&amp;#34;, &amp;#34;usbpath&amp;#34;: &amp;#34;1&amp;#34;, &amp;#34;vendid&amp;#34;: &amp;#34;0627&amp;#34; } 文</description>
-    </item>
-    
-    <item>
       <title>使用 qemu-img 转换镜像格式</title>
       <link>https://www.frytea.com/posts/essay/632/</link>
       <pubDate>Tue, 16 Aug 2022 16:00:04 +0000</pubDate>
@@ -48,30 +30,12 @@
     </item>
     
     <item>
-      <title>Win11 手动调整任务栏大小 ｜ 定制任务栏 2022</title>
-      <link>https://www.frytea.com/posts/essay/631/</link>
-      <pubDate>Mon, 15 Aug 2022 11:14:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/631/</guid>
-      <description>最近自己的 MacBook Air M1 资源吃紧，干起活来常常被内存拖累。 虽然平时都是远程开发，但终端一多，网页一多，很容易达到性能瓶颈导致工作效率下降。于是心生一</description>
-    </item>
-    
-    <item>
       <title>「2022-07」尽量将错误“安排”在低成本时刻</title>
       <link>https://www.frytea.com/posts/retrospective/2022-07/</link>
       <pubDate>Sun, 14 Aug 2022 04:40:02 +0800</pubDate>
       
       <guid>https://www.frytea.com/posts/retrospective/2022-07/</guid>
       <description>只要努力走过每一段路程，尽自己所想规划，尽自己所能前进，就距离自己的目标更近了一步。</description>
-    </item>
-    
-    <item>
-      <title>Perl 特性之不安全的依赖</title>
-      <link>https://www.frytea.com/posts/essay/630/</link>
-      <pubDate>Wed, 27 Jul 2022 14:56:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/630/</guid>
-      <description>最近写 Perl 程序时遇到一个很奇怪的问题： Insecure dependency in unlink while running with -T switch at ../tmpfile.pl line 44. 经过检查，发现这是 Perl 语言一个特性，在运行时使用 -w 或 -T 都意味着 &amp;ldquo;万无</description>
     </item>
     
     <item>
@@ -93,15 +57,6 @@
     </item>
     
     <item>
-      <title>shell 中格式化显示 json 字符串</title>
-      <link>https://www.frytea.com/posts/essay/629/</link>
-      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/629/</guid>
-      <description>有时需要在终端环境中查看 json 数据，比如使用 curl 调试接口时。直接看到的 json 数据是类似这样的： $ echo &amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39; {&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;} 如果想要以更直观的方式格式化显示 json 数</description>
-    </item>
-    
-    <item>
       <title>「2022-04」第一个月，适应到释放</title>
       <link>https://www.frytea.com/posts/retrospective/2022-04/</link>
       <pubDate>Sat, 16 Apr 2022 12:40:02 +0800</pubDate>
@@ -117,24 +72,6 @@
       
       <guid>https://www.frytea.com/posts/retrospective/2022-03/</guid>
       <description>愿世界和平。</description>
-    </item>
-    
-    <item>
-      <title>Proxmox VE (PVE) 销毁集群</title>
-      <link>https://www.frytea.com/posts/essay/628/</link>
-      <pubDate>Thu, 14 Apr 2022 10:43:42 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/628/</guid>
-      <description>当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍</description>
-    </item>
-    
-    <item>
-      <title>*.iso 和 *.img 的区别</title>
-      <link>https://www.frytea.com/posts/essay/627/</link>
-      <pubDate>Wed, 06 Apr 2022 14:22:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/627/</guid>
-      <description>最近经常接触各种系统镜像，大部分是 *.iso 格式（如 debian ），少部分是 *.img 格式（如 cirros），这两者究竟有何区别，最终在维基百科找到比较可靠的一段描述</description>
     </item>
     
     <item>
@@ -156,60 +93,6 @@
     </item>
     
     <item>
-      <title>INOTIFY - 监听事件</title>
-      <link>https://www.frytea.com/posts/essay/626/</link>
-      <pubDate>Thu, 27 Jan 2022 09:35:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/626/</guid>
-      <description>Linux 2.6.13 内核中引入了新的文件系统变化通知机制 inotify ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。 各种语言基本都提供了对该接口的调用方法</description>
-    </item>
-    
-    <item>
-      <title>Wiki.js 离线部署方法 ｜ 离线拉取语言包</title>
-      <link>https://www.frytea.com/posts/essay/625/</link>
-      <pubDate>Thu, 27 Jan 2022 09:25:31 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/625/</guid>
-      <description>最近想在内网搭建一套 Wiki，在调研了各种 wiki 的搭建方式、功能之后，选择了 wiki.js。但是在部署过程中，发现其默认是通过公网拉取语言包等资</description>
-    </item>
-    
-    <item>
-      <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
-      <link>https://www.frytea.com/posts/essay/624/</link>
-      <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/624/</guid>
-      <description>最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。 MacOS 平台下没有很好的支</description>
-    </item>
-    
-    <item>
-      <title>解决 SSH 无操作自动断开 | pychram 超时无响应</title>
-      <link>https://www.frytea.com/posts/essay/623/</link>
-      <pubDate>Wed, 19 Jan 2022 09:49:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/623/</guid>
-      <description>工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。 这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的</description>
-    </item>
-    
-    <item>
-      <title>Python 传值 or 传引用</title>
-      <link>https://www.frytea.com/posts/essay/622/</link>
-      <pubDate>Wed, 19 Jan 2022 09:11:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/622/</guid>
-      <description>先说结论：python不允许程序员选择采用传值还是传引用。 如果函数收到的是一个 可变对象 （比如 字典 或者 列表 ）的引用，就能修改对象的原始值－－相</description>
-    </item>
-    
-    <item>
-      <title>Python 二进制结构化数据处理和封装</title>
-      <link>https://www.frytea.com/posts/essay/621/</link>
-      <pubDate>Mon, 17 Jan 2022 16:04:48 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/621/</guid>
-      <description>当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 struct 这个模块提供的方法。 详细方法可以查看 官方教程</description>
-    </item>
-    
-    <item>
       <title>「周日谈-202202」持久的内容</title>
       <link>https://www.frytea.com/posts/retrospective/2022-week-02/</link>
       <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
@@ -228,75 +111,12 @@
     </item>
     
     <item>
-      <title>Linux 下的文件锁</title>
-      <link>https://www.frytea.com/posts/essay/620/</link>
-      <pubDate>Thu, 13 Jan 2022 14:30:39 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/620/</guid>
-      <description>本文内容为 Linux 系统通用，各个语言实现可能稍有不同，但原理相同。 当多个进程或多个程序都想要修同一个文件的时候，如果不加控制，多进程或多程序将可能</description>
-    </item>
-    
-    <item>
-      <title>Perl //= 和 ||= 的区别 | 附实验</title>
-      <link>https://www.frytea.com/posts/essay/619/</link>
-      <pubDate>Wed, 12 Jan 2022 15:42:03 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/619/</guid>
-      <description>结论 $var//=2：等价于 defined($var)||2，即 未定义 时才赋值为 2 ，否则不变（ 即使是 0或 空字符串 ） $var||=2 ：除非定义且为 true 才不会赋</description>
-    </item>
-    
-    <item>
-      <title>OS-Wars</title>
-      <link>https://www.frytea.com/posts/essay/618/</link>
-      <pubDate>Wed, 12 Jan 2022 13:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/618/</guid>
-      <description>今天看到一张图，简直笑喷了，必须发一下， 提名叫做： OS-Wars 注：图片来源 ozan (oz) yigit 参考文献 ozan (oz) yigit 简易正则表达式引擎源码阅读</description>
-    </item>
-    
-    <item>
-      <title>Perl 常用内置函数 -r -e 等</title>
-      <link>https://www.frytea.com/posts/essay/617/</link>
-      <pubDate>Tue, 11 Jan 2022 15:55:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/617/</guid>
-      <description>-r: File is readable by effective uid/gid. -w: File is writable by effective uid/gid. -x: File is executable by effective uid/gid. -o: File is owned by effective uid. -R: File is readable by real uid/gid. -W: File is writable by real uid/gid. -X: File is executable by real uid/gid. -O: File is owned by real uid. -e: File exists. -z: File has zero size (is empty). -s: File has nonzero</description>
-    </item>
-    
-    <item>
       <title>2021 下半年博客「经营」报告</title>
       <link>https://www.frytea.com/posts/essay/616/</link>
       <pubDate>Sat, 01 Jan 2022 15:36:58 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/616/</guid>
       <description>距离发布《2021 上半年博客「经营」报告》已经半年过去了，这半年里，我发布了 Notion BoJo模版及其配套的财务看板「BJ-PFD」，发布了随机壁纸</description>
-    </item>
-    
-    <item>
-      <title>什么是 WEB3 以及其发展概要</title>
-      <link>https://www.frytea.com/posts/essay/615/</link>
-      <pubDate>Fri, 31 Dec 2021 17:17:07 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/615/</guid>
-      <description>要问何为 Web3，就先从什么味 Web2 和 Web1 来说起吧。 最近在网上看到 Web3 的概念很火热，比肩区块链、元宇宙，其实貌似一整个未来，特意整理一下认为比较好的</description>
-    </item>
-    
-    <item>
-      <title>国内对象存储/CDN服务价格横评</title>
-      <link>https://www.frytea.com/posts/essay/614/</link>
-      <pubDate>Thu, 30 Dec 2021 20:11:59 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/614/</guid>
-      <description>话不多说，直接上表格。 价格表(国内HTTPS价格) 名称 存储免费额度(GB) 存储费用(元 / GB / 日) 流量免费额度 流量费用(元/GB) CDN流量费</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/posts/essay/613/</link>
-      <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/613/</guid>
-      <description>GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。 安装及汉化 首先在 GitKraken 官网下载安装包： GitKraken 官</description>
     </item>
     
     <item>
@@ -309,93 +129,12 @@
     </item>
     
     <item>
-      <title>深挖 docker 默认网络 | 为什么 docker 默认网络能上外网</title>
-      <link>https://www.frytea.com/posts/essay/612/</link>
-      <pubDate>Tue, 28 Dec 2021 14:49:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/612/</guid>
-      <description>为什么默认配置创建出来的 docker 容器可以访问外网，为什么监听对应端口就能对外暴露docker服务，一张图搞清楚。 首先 Docker 有四中网络模式， 分别是 Bri</description>
-    </item>
-    
-    <item>
-      <title>理解网桥、集线器、交换机、路由器的本质</title>
-      <link>https://www.frytea.com/posts/essay/611/</link>
-      <pubDate>Tue, 28 Dec 2021 10:19:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/611/</guid>
-      <description>一直弄不清楚这几者的区别，加之现代的三层交换机，就更搞不清楚几者的关系了。 后来发现试图以现代产品的思维理解这几个概念是极其容易混淆的，必须回</description>
-    </item>
-    
-    <item>
-      <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/posts/essay/610/</link>
-      <pubDate>Mon, 27 Dec 2021 14:15:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/610/</guid>
-      <description>问题重现 在一次简单的代码合并后，发现 Python 项目跑不起来了，报错如下： ssh://root@192.168.226.76:22/usr/bin/python3 -B -u /tmp/pycharm_project_882/mimic_daemon_server/helper_main.py Traceback (most recent call last): File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/helper_main.py&amp;#34;, line 1, in &amp;lt;module&amp;gt; from mimic_daemon_server import create_app File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/__init__.py&amp;#34;, line 14, in &amp;lt;module&amp;gt; from mimic_daemon_server.nodes import nodes File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/nodes/__init__.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; from . import</description>
-    </item>
-    
-    <item>
-      <title>解决 perl: warning: Setting locale failed.</title>
-      <link>https://www.frytea.com/posts/essay/609/</link>
-      <pubDate>Mon, 27 Dec 2021 09:28:48 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/609/</guid>
-      <description>使用 Ubuntu 主机远程 PVE 服务器执行命令时报错： # qm list perl: warning: Setting locale failed. perl: warning: Please check that your locale settings: LANGUAGE = (unset), LC_ALL = (unset), LC_ADDRESS = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_NAME = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_MONETARY = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_PAPER = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_IDENTIFICATION = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_TELEPHONE = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_MEASUREMENT = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_TIME = &amp;#34;zh_CN.UTF-8&amp;#34;, LC_NUMERIC = &amp;#34;zh_CN.UTF-8&amp;#34;, LANG =</description>
-    </item>
-    
-    <item>
-      <title>Perl 调试打印 HASH 内容</title>
-      <link>https://www.frytea.com/posts/essay/608/</link>
-      <pubDate>Thu, 23 Dec 2021 14:14:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/608/</guid>
-      <description>在调试 Perl 程序时常常需要打印哈希表内容，虽然可以直接使用 foreach 打印，但数据复杂了就难办了，此时可以将 Hash 表转换为 json 文本再打印： use JSON; my $data = {&amp;#39;info&amp;#39;=&amp;gt; &amp;#34;test&amp;#34;, &amp;#39;struct&amp;#39; =&amp;gt; {&amp;#39;test1&amp;#39;=&amp;gt;&amp;#39;test1&amp;#39;, &amp;#39;test2&amp;#39;=&amp;gt;&amp;#39;test2&amp;#39;}};</description>
-    </item>
-    
-    <item>
-      <title>分享一个快捷内网、漏洞扫描工具 fscan</title>
-      <link>https://www.frytea.com/posts/essay/607/</link>
-      <pubDate>Tue, 21 Dec 2021 09:10:30 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/607/</guid>
-      <description>fscan 是一款 go 语言写成 “一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描”。是我在刷 kon9chunkit 发起的 GitHub中文排行榜 时发现的。 该工具支持主机存</description>
-    </item>
-    
-    <item>
       <title>周日谈/50 ｜ 做减法与激励机制</title>
       <link>https://www.frytea.com/posts/retrospective/2021-week-50/</link>
       <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
       
       <guid>https://www.frytea.com/posts/retrospective/2021-week-50/</guid>
       <description>2021年第50周，谈谈个人管理和激励反馈</description>
-    </item>
-    
-    <item>
-      <title>Windows 禁用 AppXSVC 解决 CPU 占用高问题</title>
-      <link>https://www.frytea.com/posts/essay/606/</link>
-      <pubDate>Thu, 16 Dec 2021 11:26:36 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/606/</guid>
-      <description>在一台虚拟机上安装了 Windows 10 lstc 2021 版，启动后发现 CPU 占用率一直居高不下，查看任务管理器发现是一个叫 wsapp 的系统服务服务占用 CPU 过高，搜索后发现对应的是 AppX Deployment</description>
-    </item>
-    
-    <item>
-      <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/posts/essay/605/</link>
-      <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/605/</guid>
-      <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
-    </item>
-    
-    <item>
-      <title>Git 修改提交过的邮箱和用户名</title>
-      <link>https://www.frytea.com/posts/essay/604/</link>
-      <pubDate>Mon, 13 Dec 2021 10:00:16 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/604/</guid>
-      <description>内网提交需要校验企业邮箱，但有时邮箱设置错误导致 commit 的邮箱有问题，此时可以通过修改已提交记录中的邮箱来修复，无需重新提交。 经过检索，发现两种方</description>
     </item>
     
     <item>
@@ -453,24 +192,6 @@
     </item>
     
     <item>
-      <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
-      <link>https://www.frytea.com/posts/essay/600/</link>
-      <pubDate>Wed, 24 Nov 2021 17:38:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/600/</guid>
-      <description>最近在看 PVE 源码时看到这样一段： # old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数 # new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法 sub get { return PVE::RESTEnvironment-&amp;gt;get(); } 好奇两种调用方式是什么区别，经过研</description>
-    </item>
-    
-    <item>
-      <title>最新 2021 Win10 LTSC 20H1 安装激活方法</title>
-      <link>https://www.frytea.com/posts/essay/599/</link>
-      <pubDate>Sun, 21 Nov 2021 14:54:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/599/</guid>
-      <description>我个人日常使用操作系统主要是 Linux 或 MacOS，但在一些特殊情况下，一些工作使用 Windows 桌面处理起来会方便一些（比如 Linux 环境时需要首发企业微信等），于是</description>
-    </item>
-    
-    <item>
       <title>疗牙记 ｜ 八年后的第三次根管</title>
       <link>https://www.frytea.com/posts/documentary/third-root-canal-therapy-eight-years-later/</link>
       <pubDate>Sat, 20 Nov 2021 19:30:35 +0800</pubDate>
@@ -489,48 +210,12 @@
     </item>
     
     <item>
-      <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/posts/essay/598/</link>
-      <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/598/</guid>
-      <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
-    </item>
-    
-    <item>
       <title>找寻独立原创博客的价值</title>
       <link>https://www.frytea.com/posts/the-value-of-independent-original-blog/</link>
       <pubDate>Wed, 10 Nov 2021 13:58:14 +0800</pubDate>
       
       <guid>https://www.frytea.com/posts/the-value-of-independent-original-blog/</guid>
       <description>分享自己个人网站建站的所思所想与大家讨论</description>
-    </item>
-    
-    <item>
-      <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/posts/essay/597/</link>
-      <pubDate>Tue, 09 Nov 2021 15:45:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/597/</guid>
-      <description>互联网上搜索到的 Linux 环境新磁盘配置方法资料质量都不尽如人意，因此自己整理了一份，日常 Linux 磁盘分区时查阅足够了，主要是用到了 fdisk 命令。 fdisk 基本使用 新增</description>
-    </item>
-    
-    <item>
-      <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/posts/essay/595/</link>
-      <pubDate>Mon, 08 Nov 2021 18:43:30 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/595/</guid>
-      <description>问题重现 在使用 libvirt 管理虚拟机时，有时会用到 virt-manager 提供的图形界面管理虚拟机，查看 vnc 输出等，但是常常会得到如下错误： (virt-manager:25381): Gtk-WARNING **: 08:55:23.876: cannot open display: Linux 解决 如果是在 Linux 桌面</description>
-    </item>
-    
-    <item>
-      <title>Vim 对比文件差异 | Linux 下同屏查看文件差异并修改</title>
-      <link>https://www.frytea.com/posts/essay/594/</link>
-      <pubDate>Mon, 08 Nov 2021 12:31:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/594/</guid>
-      <description>在 windows 下有如 Beyond Compare 这样的文本对比工具，而在 Linux 其实预装了很好用的文本对比工具 → vimdiff 使用方法很简单： vimdiff [options] file1 file2 [file3 [file4]] 比如这样： vimdiff Release Release.new 效果是这样的： 可以使用</description>
     </item>
     
     <item>
@@ -579,84 +264,12 @@
     </item>
     
     <item>
-      <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/posts/essay/591/</link>
-      <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/591/</guid>
-      <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
-    </item>
-    
-    <item>
-      <title>Google Adsense 注意事项</title>
-      <link>https://www.frytea.com/posts/essay/590/</link>
-      <pubDate>Thu, 28 Oct 2021 00:21:06 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/590/</guid>
-      <description>最近刚刚通过了 Google Adsense 的审核，加入了其联盟，兴奋之余不忘思考，既然如此艰难的通过了审核，虽然我也不知道为什么之前为什么一直不通过（没有给出具体原</description>
-    </item>
-    
-    <item>
-      <title>CDN 中的 「回源HOST」与「源站」</title>
-      <link>https://www.frytea.com/posts/essay/589/</link>
-      <pubDate>Thu, 28 Oct 2021 00:11:48 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/589/</guid>
-      <description>在配置网站 CDN 时总是搞不清其中「回源HOST」与「源站」的区别，因此在这里简单记录。 源站和回源HOST的区别： 源站：源站决定了回源时请求到的具</description>
-    </item>
-    
-    <item>
-      <title>新 Hugo 博客相关记录笔记</title>
-      <link>https://www.frytea.com/posts/essay/588/</link>
-      <pubDate>Thu, 28 Oct 2021 00:10:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/588/</guid>
-      <description>2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名： blog.frytea.com 内容太过庞杂，不成体系，很难重新做规整； blog.frytea.com 目前采用的付费</description>
-    </item>
-    
-    <item>
-      <title>Homebrew 安装策略（M1芯片 Macbook）</title>
-      <link>https://www.frytea.com/posts/essay/587/</link>
-      <pubDate>Thu, 28 Oct 2021 00:08:29 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/587/</guid>
-      <description>换了 m1 芯片的 Macbook 之后第一个感受到的就是使用 homebrew 的不一样，由于不同的芯片架构，其安装方法也有不同，在这简单记录。 Arm Mac 安装步骤 # arm homebrew 同时设为国内源 /bin/zsh</description>
-    </item>
-    
-    <item>
       <title>「煎茶」正式上线啦</title>
       <link>https://www.frytea.com/posts/a-new-website/</link>
       <pubDate>Thu, 21 Oct 2021 00:42:29 +0800</pubDate>
       
       <guid>https://www.frytea.com/posts/a-new-website/</guid>
       <description>一个全新的网站，重装上阵。</description>
-    </item>
-    
-    <item>
-      <title>pve-kernal 编译安装步骤</title>
-      <link>https://www.frytea.com/posts/essay/586/</link>
-      <pubDate>Wed, 20 Oct 2021 09:55:57 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/586/</guid>
-      <description>以 pve-release-6.x ，基于 debian buster 为例： Step1: 配置国内 PVE 镜像源 # 配置 pve 软件包国内镜像源 $ echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian buster pve-no-subscription&amp;#34; &amp;gt; /etc/apt/sources.list.d/pve-no-subscription.list $ wget https://enterprise.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-6.x.gpg Setp2：安装依赖包 Install build dependencies (i got these from the pve-kernel/debian/control file): apt install asciidoc-base automake bc</description>
-    </item>
-    
-    <item>
-      <title>Tmux 使用笔记</title>
-      <link>https://www.frytea.com/posts/essay/585/</link>
-      <pubDate>Wed, 13 Oct 2021 14:30:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/585/</guid>
-      <description>Tmux 是一个终端复用器（terminal multiplexer），用起来就离不开。网上有很多 Tmux 使用指南，但是用下来发现还是自己整理一遍才能真正的</description>
-    </item>
-    
-    <item>
-      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/posts/essay/583/</link>
-      <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/583/</guid>
-      <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
     </item>
     
     <item>
@@ -696,42 +309,6 @@
     </item>
     
     <item>
-      <title>一个 Notion 一站式记账复盘看板系统 ｜ BJ-PFD 正式发布</title>
-      <link>https://www.frytea.com/posts/essay/578/</link>
-      <pubDate>Sat, 25 Sep 2021 23:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/578/</guid>
-      <description>今天发生了不少事情，孟晚舟历经千余天终于归国，探访了某通信城，再次回味某一本哈利波特，后被堵在 Apple Store 外面，滑了两下 Pixel 3，汇总了下旧红包，继续设</description>
-    </item>
-    
-    <item>
-      <title>原生 clash linux 环境配置方法</title>
-      <link>https://www.frytea.com/posts/essay/577/</link>
-      <pubDate>Fri, 24 Sep 2021 10:53:26 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/577/</guid>
-      <description>环境 Ubuntu Desktop 20.04 理论适用大部分 Linux 发行版 Dreamacro / clash 方法 步骤一：配置 clash 执行程序 首先从 clash 的github仓拉取稳定版二进制可执行文件 wget https://github.com/Dreamacro/clash/releases/download/v1.7.1/clash-linux-amd64-v1.7.1.gz gzip -d clash-linux-amd64-v1.7.1.gz sudo mv clash-linux-amd64-v1.7.1 /usr/bin/clash sudo chmod +x /usr/bin/clash</description>
-    </item>
-    
-    <item>
-      <title>Docker 内部安装 postfix</title>
-      <link>https://www.frytea.com/posts/essay/576/</link>
-      <pubDate>Sat, 18 Sep 2021 17:42:36 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/576/</guid>
-      <description>今天写 Dockerfile 定制 Docker 镜像需要在内部安装 postfix ，但是其默认安装后会弹出配置界面，DOcker 构建过程是无法进行交互的，结果就是卡在该界面无法继续： 搜寻一</description>
-    </item>
-    
-    <item>
-      <title>自动递归下载依赖 deb 包 bash 脚本</title>
-      <link>https://www.frytea.com/posts/essay/575/</link>
-      <pubDate>Sat, 18 Sep 2021 17:35:23 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/575/</guid>
-      <description>说明 脚本自动递归下载给定包列表deb包及其依赖包，深度3层； 若指定参数则下载给定的包及其依赖包（目前仅支持指定1个包，不支持多包）； 若无参数</description>
-    </item>
-    
-    <item>
       <title>Bullet Journal for Notion 之个人财务架构 ｜ 好的设计胜千言</title>
       <link>https://www.frytea.com/posts/essay/574/</link>
       <pubDate>Mon, 13 Sep 2021 22:41:50 +0000</pubDate>
@@ -750,30 +327,12 @@
     </item>
     
     <item>
-      <title>Windows Terminal 快速快捷键指南</title>
-      <link>https://www.frytea.com/posts/essay/572/</link>
-      <pubDate>Fri, 10 Sep 2021 18:06:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/572/</guid>
-      <description>Ctrl + Shift + T 打开默认配置文件的新标签。 Ctrl + Shift + N 其他指定配置文件新标签。 Alt + Shift + D 复制并拆分窗格。 Ctrl + Alt + N 切换打开的控制台 Alt + Shift+ + 复制垂直窗</description>
-    </item>
-    
-    <item>
       <title>Bullet Journal for Notion 之概览</title>
       <link>https://www.frytea.com/posts/essay/571/</link>
       <pubDate>Fri, 10 Sep 2021 00:31:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/571/</guid>
       <description>最近几乎花费全部业余时间制作了一个 BJ for Notion 辅助看板工具，配合我做的 Bj 模版使用。本文主要就是做一个预览，具体的使用方法后面慢慢出文介绍。话不多说</description>
-    </item>
-    
-    <item>
-      <title>Libpcap 落地包转发及性能调优</title>
-      <link>https://www.frytea.com/posts/essay/570/</link>
-      <pubDate>Tue, 07 Sep 2021 15:34:30 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/570/</guid>
-      <description>近期接到一个需求，需要使用 libpcap 从某网卡抓包发送到另一张网卡，关于 libpcap 的使用方法在这里不再赘述，网上有很多教程，本文最后会给出一个示例程序。这里记</description>
     </item>
     
     <item>
@@ -795,129 +354,12 @@
     </item>
     
     <item>
-      <title>一键在 vs code online 中打开任意 github 仓库</title>
-      <link>https://www.frytea.com/posts/essay/568/</link>
-      <pubDate>Fri, 03 Sep 2021 17:58:13 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/568/</guid>
-      <description>之前有大佬开发过一个项目 [github1s](https://github.com/conwnet/github1s) ，利用 GitHub action ，仅需在任意 github 仓库在 github 后面加上 1s 即可在一个在线的 VS code 中打开这个项目。 就在前不久，Github 官方发布了类</description>
-    </item>
-    
-    <item>
-      <title>虚拟机 img 镜像密码修改</title>
-      <link>https://www.frytea.com/posts/essay/567/</link>
-      <pubDate>Fri, 03 Sep 2021 15:29:19 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/567/</guid>
-      <description>本文介绍使用 libguestfs-tools 修改镜像文件密码的方法。 步骤 # 环境 # CentOS Linux release 7.9.2009 (AltArch) # 鲲鹏 ARM 服务器 第一步：检查并修改qemu访问虚拟机镜像的权限 修改 qemu 配置文件 /et</description>
-    </item>
-    
-    <item>
-      <title>GDB 调试 QEMU 源码跟踪 QMP 协议执行</title>
-      <link>https://www.frytea.com/posts/essay/566/</link>
-      <pubDate>Fri, 03 Sep 2021 09:53:08 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/566/</guid>
-      <description>接上文，通过跟踪 libvirt 的源码，找到 virsh domblkinfo 最终是使用 QMP 协议从 QEMU 获取到关键字为 query-block 的数据，其中带有 wr_highest_offset 字段，该字段被 libvirt 认定为 磁盘利用率中 Allocation 值的来源。 今天就</description>
-    </item>
-    
-    <item>
-      <title>GDB 调试 libvirt 源码之 domblkinfo 命令源码跟踪记</title>
-      <link>https://www.frytea.com/posts/essay/565/</link>
-      <pubDate>Thu, 02 Sep 2021 13:42:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/565/</guid>
-      <description>最近发现环境中 KVM 虚拟机磁盘利用率查不准，使用 virsh 命令查看磁盘使用情况得到如下结果： # virsh domblkinfo 20 vda --human Capacity: 2.000 GiB Allocation: 2.000 GiB Physical: 2.000 GiB 显然是有问题的，正常的数值三个</description>
-    </item>
-    
-    <item>
-      <title>解决 Clash for windows 端口为 0 导致无法使用</title>
-      <link>https://www.frytea.com/posts/essay/564/</link>
-      <pubDate>Mon, 30 Aug 2021 09:58:33 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/564/</guid>
-      <description>今天更新完 Windows 重启后发现上不了网了，检查 clash for windows 发现监听端口为 0 。 这就不正常了，检查了一下 C:\Users\&amp;lt;username&amp;gt;\.config\clash\logs 的日志，发现这行报错： level=error msg=&amp;#34;Start Mixed(http and socks) server error: listen tcp 127.0.0.1:7890: bind: An attempt was made</description>
-    </item>
-    
-    <item>
-      <title>Perl 程序后台执行示例</title>
-      <link>https://www.frytea.com/posts/essay/563/</link>
-      <pubDate>Thu, 26 Aug 2021 11:51:48 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/563/</guid>
-      <description>最近阅读 PVE 源码发现一处源码这样使用了 fork() 方法： $spid = fork(); if (!defined ($spid)) { die &amp;#34;can&amp;#39;t put server into background - fork failed&amp;#34;; } elsif ($spid) { # parent exit (0); } 自己写示例发现这种方法可以使程序进入后台执行状</description>
-    </item>
-    
-    <item>
-      <title>Perl 面向对象之基类(use base)</title>
-      <link>https://www.frytea.com/posts/essay/562/</link>
-      <pubDate>Wed, 25 Aug 2021 16:39:33 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/562/</guid>
-      <description>use base somemodule; # 相当于以下两句的结合： BEGIN{ use somemodule (); push @ISA, qw(somemodule); } # 也可以同时 use base 两个或者两个以上的模块，即多继承，例如： use base qw(Foo Bar); BEGIN { use Foo (); use Bar (); push @ISA, qw(Foo Bar); } Perl 里</description>
-    </item>
-    
-    <item>
-      <title>Perl 模块路径指定（调试环境）</title>
-      <link>https://www.frytea.com/posts/essay/561/</link>
-      <pubDate>Wed, 25 Aug 2021 16:33:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/561/</guid>
-      <description>在调试 Perl 测试程序时，常常需要在测试路劲执行 Perl 脚本，相应的 .pm 模块测试程序也需并不在 Perl 默认的模块路径下，使用以下语句即可指定模块检索路径。 #!/usr/bin/perl use lib</description>
-    </item>
-    
-    <item>
-      <title>QEMU 编译报错 undefined reference to g_app_info_launch_default_for_uri_finish 解决过程</title>
-      <link>https://www.frytea.com/posts/essay/560/</link>
-      <pubDate>Fri, 20 Aug 2021 11:56:31 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/560/</guid>
-      <description>编译 QEMU 时报如下错误： /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_finish&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_check_instance_is_fundamentally_a&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_async&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_strv_contains&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_type&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_drive_is_removable&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_application_get_resource_base_path&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_log_structured_standard&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_get_instance_count&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_n_items&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_file_enumerator_iterate&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_param_spec_get_name_quark&amp;#39;</description>
-    </item>
-    
-    <item>
-      <title>鲲鹏ARM环境编译升级虚拟化组件（QEMU&#43;libvirt）</title>
-      <link>https://www.frytea.com/posts/essay/559/</link>
-      <pubDate>Wed, 18 Aug 2021 09:57:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/559/</guid>
-      <description>鲲鹏ARM环境编译升级虚拟化组件（QEMU+libvirt） 在 鲲鹏 arm 环境下可以直接使用yum安装相关虚拟化组件（以centos为例）： yum -y install</description>
-    </item>
-    
-    <item>
       <title>【爱发电】入驻声明</title>
       <link>https://www.frytea.com/posts/essay/558/</link>
       <pubDate>Sat, 14 Aug 2021 20:53:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/558/</guid>
       <description>本人已入驻爱发电，希望喜欢我开发作品的小伙伴依个人意愿支持我，赞赏就是为您想要的世界投票。 我的作品集在这里： https://blog.frytea.com/production.html 我的爱发电主页： https://afdian.net/@frytea</description>
-    </item>
-    
-    <item>
-      <title>一键修改Windows远程桌面（RDP）端口号</title>
-      <link>https://www.frytea.com/posts/essay/555/</link>
-      <pubDate>Tue, 10 Aug 2021 11:25:36 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/555/</guid>
-      <description>本文主要内容来微软官方文档，命令未 PowerShell 命令，管理员权限运行，最后给出链接。 若要查看当前 RDP 端口，可使用以下 PowerShell 命令： Get-ItemProperty -Path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp&amp;#39; -name &amp;#34;PortNumber&amp;#34; 若要修改 RDP 端口，可</description>
-    </item>
-    
-    <item>
-      <title>Mac 下解决 zsh: no matches found: postcss@^7</title>
-      <link>https://www.frytea.com/posts/essay/554/</link>
-      <pubDate>Sun, 08 Aug 2021 19:22:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/554/</guid>
-      <description>mac开发引入 tailwindcss 库时遇到如下错误： zsh: no matches found: postcss@^7 可以这样解决： # 官网给出的命令如下 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@\^7 autoprefixer@\^9 # mac的zsh中需要这样，因为错误的 ^ 解析 npm install -D</description>
-    </item>
-    
-    <item>
-      <title>解决OpenVPN证书过期问题</title>
-      <link>https://www.frytea.com/posts/essay/553/</link>
-      <pubDate>Sun, 01 Aug 2021 23:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/553/</guid>
-      <description>使用 Synology 提供的 VPN Server 一阵子，突然用不了了，大意是说 SSL 证书过期了，但是不知道如何解决，网络搜索也没有结果，试过了重置套件，无法解决。 最后查阅文档发</description>
     </item>
     
     <item>
@@ -966,93 +408,12 @@
     </item>
     
     <item>
-      <title>virt-manager 启动提示 virt qemu-sock no such file or directory</title>
-      <link>https://www.frytea.com/posts/essay/548/</link>
-      <pubDate>Fri, 09 Jul 2021 18:08:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/548/</guid>
-      <description>检查后应该是 virtqemud 服务没起来导致的，编译安装默认生成的服务路径在 /usr/local/* 下，而我们指定了安装在默认位置 /usr ，参考 systemd 无法启动的解决方法即可解决该问题。 首先</description>
-    </item>
-    
-    <item>
       <title>作品</title>
       <link>https://www.frytea.com/posts/archieve/production/</link>
       <pubDate>Fri, 09 Jul 2021 09:20:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/archieve/production/</guid>
       <description>@(haha)@(haha)@(haha) 您好，欢迎查看我的作品集！ 我的项目 [collapse title=&amp;ldquo;BJ-PFD 基于 Notion 的全功能 Bullet Journal 及 个人财务看板&amp;rdquo; show=&amp;ldquo;true&amp;rdquo;] Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记辅助看板，由一套 Bullet journal 模版</description>
-    </item>
-    
-    <item>
-      <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/posts/essay/546/</link>
-      <pubDate>Wed, 07 Jul 2021 14:47:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/546/</guid>
-      <description>libvirt 是目前使用最为广泛的对KVM虚拟机进行管理的工具和 API 。 Libvirtd 是一个 daemon 进程，可以被本地的 virsh 调用，也可以被远程的 virsh 调用， Libvirtd 调用 qemu-kvm 操作虚拟机。下面介</description>
-    </item>
-    
-    <item>
-      <title>C实现不用临时变量交换两个数的值（一行代码）</title>
-      <link>https://www.frytea.com/posts/essay/545/</link>
-      <pubDate>Wed, 07 Jul 2021 11:19:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/545/</guid>
-      <description>最近看到一个问题感觉很有意思： “如何在不申请临时变量的情况下交换两个数的值？” 思考许久没有思路，查阅一番发现方法不少，在这里介绍四种方法： 方</description>
-    </item>
-    
-    <item>
-      <title>Linux 下 Shell 命令寻址顺序</title>
-      <link>https://www.frytea.com/posts/essay/544/</link>
-      <pubDate>Tue, 06 Jul 2021 16:32:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/544/</guid>
-      <description>起源 当出现 PATH 下有一个与系统命令重名的命令时，先执行哪一个呢？当 PATH 下有多个重名命令，会执行哪一个呢？这就涉及到 SHELL 执行命令的寻找顺序。 默认顺序 s</description>
-    </item>
-    
-    <item>
-      <title>Linux虚拟化入门（五）KVM 管理命令指南</title>
-      <link>https://www.frytea.com/posts/essay/543/</link>
-      <pubDate>Mon, 05 Jul 2021 15:04:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/543/</guid>
-      <description>qemu-img是QEMU的磁盘管理工具 格式: qemu-img command [command options] command： check 对磁盘镜像文件进行一致性检查，查找镜像文件中的错误 create 创建一个可以指定</description>
-    </item>
-    
-    <item>
-      <title>Linux虚拟化入门（四）KVM 创建一个 Centos 实例</title>
-      <link>https://www.frytea.com/posts/essay/542/</link>
-      <pubDate>Mon, 05 Jul 2021 15:04:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/542/</guid>
-      <description>前提条件 完整 KVM 环境 Centos 镜像 步骤 第一步、创建磁盘 qemu-img create -f qcow2 centos_kvm1.qcow2 16G 第二步、安装虚拟机 virt-install \ --virt-type=kvm \ --name=centos-kvm \ --hvm \ --vcpus=1 \ --memory=1024 \ --cdrom=/srv/kvm/CentOS-7-x86_64-Minimal-1810.iso \ --disk path=/srv/kvm/centos_kvm1.qcow2,size=16,format=qcow2 \ --graphics vnc,password=kvm,listen=::,port=5911 \ --network bridge=virbr0 \ --autostart \ --force 安装成功后使用</description>
-    </item>
-    
-    <item>
-      <title>Linux虚拟化入门（三）Fedora 安装 KVM 管理环境</title>
-      <link>https://www.frytea.com/posts/essay/541/</link>
-      <pubDate>Mon, 05 Jul 2021 15:03:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/541/</guid>
-      <description>部署步骤 第一步、检查环境要求 使用如下命令检查您的 CPU 是否支持虚拟化： $ egrep &#39;^flags.*(vmx|svm)&#39; /proc/cpuinfo 如果没有任何输出，则说明您的系统不支持相关扩展功能。您仍然可以使用</description>
-    </item>
-    
-    <item>
-      <title>Linux虚拟化入门（一）Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/posts/essay/539/</link>
-      <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/539/</guid>
-      <description>当你安装了一台Linux，想启动一个KVM虚拟机的时候，你会发现需要安装不同的软件，启动虚拟机的时候，有多种方法： virsh start kvm命令 qemu命令</description>
-    </item>
-    
-    <item>
-      <title>Linux虚拟化入门（二）Hyper-V 开启 KVM 嵌套虚拟化</title>
-      <link>https://www.frytea.com/posts/essay/540/</link>
-      <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/540/</guid>
-      <description>日常办公使用 Windows 平台，需要研究 KVM 的使用，此时就需要在 Windows 提供的 Hyper-V 工具运行 Linux 虚拟机来测试 KVM 相关的使用，但是在 Hyper-V 虚拟机中再次运行 KVM 虚拟化属于嵌套虚拟</description>
     </item>
     
     <item>
@@ -1074,39 +435,12 @@
     </item>
     
     <item>
-      <title>C&#43;&#43;中冒号（:）和双冒号（::）的用法总结</title>
-      <link>https://www.frytea.com/posts/essay/536/</link>
-      <pubDate>Wed, 09 Jun 2021 11:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/536/</guid>
-      <description>冒号（:）用法 （1）表示机构内位域的定义（即该变量占几个 bit 空间） typedef struct _XXX{ unsigned char a:4; unsigned char c; } ; XXX （2）构造函数后面的冒号起分割作用，是类给成员变量赋</description>
-    </item>
-    
-    <item>
-      <title>Typecho 博客文首自动添加本页链接</title>
-      <link>https://www.frytea.com/posts/essay/535/</link>
-      <pubDate>Wed, 09 Jun 2021 09:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/535/</guid>
-      <description>自己的博客不觉间已经上线两年多了，随着内容和浏览量的增加，我的博客开始被一些搬运站盯上，常常搜索自己博客内容却在其他人博客里找到完全一样的内</description>
-    </item>
-    
-    <item>
       <title>Bullet Journal （肆）&amp;amp; 日常管理</title>
       <link>https://www.frytea.com/posts/essay/534/</link>
       <pubDate>Wed, 09 Jun 2021 00:06:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/534/</guid>
       <description>不知不觉，Bullet Journal 模版系列文章就要迎来尾声啦。今天带来的是 Bullet Journal 中的核心部分 —— 日常管理。 我认为 Bullet Journal 的核心就在于其每日记录，用最快的方式</description>
-    </item>
-    
-    <item>
-      <title>从 Redis 表项看 SONiC 架构</title>
-      <link>https://www.frytea.com/posts/essay/533/</link>
-      <pubDate>Tue, 08 Jun 2021 17:18:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/533/</guid>
-      <description>SONiC 系统的架构由各种模块组成，这些模块通过集中式和可扩展的基础架构相互交互。这个基础设施依赖于使用一个 redis-database 引擎来提供一个独立于语言的接口，一个在</description>
     </item>
     
     <item>
@@ -1173,33 +507,6 @@
     </item>
     
     <item>
-      <title>解决 Fedora 无法访问码云私有库问题</title>
-      <link>https://www.frytea.com/posts/essay/526/</link>
-      <pubDate>Sat, 17 Apr 2021 10:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/526/</guid>
-      <description>本文首发于：https://blog.frytea.com/archives/526/ 近期在 Fedora 33 系统上总是无法访问 gitee 私有库，得到以下报错： $</description>
-    </item>
-    
-    <item>
-      <title>为 Windows 10 新增物理网卡子接口</title>
-      <link>https://www.frytea.com/posts/essay/525/</link>
-      <pubDate>Mon, 12 Apr 2021 08:55:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/525/</guid>
-      <description>本文首发于：https://blog.frytea.com/archives/525/ 在进行网络设备调试时常常会使用到多 IP ，Linux 上可以</description>
-    </item>
-    
-    <item>
-      <title>三步激活 StarUML V4.0.1 (WIN10为例) | 仅供学习</title>
-      <link>https://www.frytea.com/posts/essay/524/</link>
-      <pubDate>Wed, 07 Apr 2021 21:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/524/</guid>
-      <description>StarUML 是一个开源的 UML 工具列表软件，它遵守 GNU GPL 的一个修订版。StarUML 项目宣称的目标是代替大型的商业 UML 工具软件，如 IBM 的 Rational Rose ， Borland 公司的 Together 。Sta</description>
-    </item>
-    
-    <item>
       <title>「2021年3月复盘」</title>
       <link>https://www.frytea.com/posts/retrospective/2021-03/</link>
       <pubDate>Tue, 06 Apr 2021 23:39:29 +0800</pubDate>
@@ -1254,15 +561,6 @@
     </item>
     
     <item>
-      <title>Windows CMD 换肤</title>
-      <link>https://www.frytea.com/posts/essay/518/</link>
-      <pubDate>Wed, 03 Mar 2021 09:28:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/518/</guid>
-      <description>由于经常使用到 Windows 下的 CMD 终端进行各种操作，特别是集成了 Ubuntu 子系统之后，在 Windows 平台上进行 C 开发更方便了。为了呼出 WSL 子系统，我习惯在 CMD 下进行，可默认皮</description>
-    </item>
-    
-    <item>
       <title>「二月复盘」 时间的车轮滚滚向前</title>
       <link>https://www.frytea.com/posts/essay/517/</link>
       <pubDate>Mon, 01 Mar 2021 23:55:07 +0000</pubDate>
@@ -1278,15 +576,6 @@
       
       <guid>https://www.frytea.com/posts/retrospective/2021-02/</guid>
       <description>时间的车轮滚滚向前。</description>
-    </item>
-    
-    <item>
-      <title>解决 Win10 热点无法上网及与 Hyper-V 虚拟网卡冲突问题</title>
-      <link>https://www.frytea.com/posts/essay/514/</link>
-      <pubDate>Fri, 26 Feb 2021 16:49:38 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/514/</guid>
-      <description>最近给 Win10 电脑加装了一个无线网卡，想要开热点使用，但是发现手机连上之后显示无法联网，在这里记录解决办法。 首先查看一下当前电脑上网使用的网卡是哪</description>
     </item>
     
     <item>
@@ -1335,39 +624,12 @@
     </item>
     
     <item>
-      <title>NMAP 基础扫描</title>
-      <link>https://www.frytea.com/posts/essay/507/</link>
-      <pubDate>Tue, 26 Jan 2021 17:18:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/507/</guid>
-      <description>以下几个示例带领你快速了解nmap的基本扫描方法，更多详情请查阅nmap手册。 1、Nmap 简单扫描 $ nmap &amp;lt;target ip address&amp;gt; $ nmap 192.168.41.41 直接指定需要扫描的主机IP</description>
-    </item>
-    
-    <item>
       <title>五分钟定输赢</title>
       <link>https://www.frytea.com/posts/essay/506/</link>
       <pubDate>Sun, 24 Jan 2021 18:16:59 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/506/</guid>
       <description>开始的前五分钟，往往决定了一切。 我曾认为，不管花多长时间，只要最终能够做出成果，就是靠谱，就能够创造价值。后来发现，这是个天大的错误。有些事</description>
-    </item>
-    
-    <item>
-      <title>Linux 多进程通信开发之 UNIX domain Socket 通信机制从 TCP 切换为 UDP</title>
-      <link>https://www.frytea.com/posts/essay/505/</link>
-      <pubDate>Wed, 13 Jan 2021 18:09:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/505/</guid>
-      <description>Unix domain socket 或者 IPC socket是一种终端，可以使同一台操作系统上的两个或多个进程进行数据通信。提供 UDP 和 TCP 两种通信机制。 因为一些原因，项目现有软件架</description>
-    </item>
-    
-    <item>
-      <title>无需代理直接加速各种 GitHub 资源拉取 | 国内镜像赋能 | 助力开发</title>
-      <link>https://www.frytea.com/posts/essay/504/</link>
-      <pubDate>Mon, 04 Jan 2021 14:05:45 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/504/</guid>
-      <description>常见的github加速方法如修改 hosts 文件、魔法上网、设置 proxy 等方法在此不在赘述，本文主要介绍在不进行多余网络配置的情况下，直接使用提供了gith</description>
     </item>
     
     <item>
@@ -1389,30 +651,12 @@
     </item>
     
     <item>
-      <title>一种C程序使用IPC多进程共享内存并实现热迁移的方法</title>
-      <link>https://www.frytea.com/posts/essay/501/</link>
-      <pubDate>Thu, 31 Dec 2020 00:23:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/501/</guid>
-      <description>在软件中，术语共享内存指可被多个进程存取的内存，一个进程是一段程序的单个运行实例。在这种情况下，共享内存被用作进程间的通讯。——WikiPe</description>
-    </item>
-    
-    <item>
       <title>步入社会到保险理财，你要的基础知识都在这里啦</title>
       <link>https://www.frytea.com/posts/essay/500/</link>
       <pubDate>Fri, 25 Dec 2020 22:50:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/500/</guid>
       <description>步入社会小半年了，有些坑在这里记下。 不觉间，又到了十二月底，步入职场已近小半年了，家里的“老师”说，“人家在外面干的孩子都各种抱怨，你倒是没</description>
-    </item>
-    
-    <item>
-      <title>Docker 热迁移探索，基于CRIU实现运行状态迁移</title>
-      <link>https://www.frytea.com/posts/essay/499/</link>
-      <pubDate>Wed, 23 Dec 2020 13:57:29 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/499/</guid>
-      <description>版本限制 Docker: 17.06.0-ce criu: 3.12 kernal: 3.10.0-957.el7.x86_64 || 5.10.2-1.el7.elrepo.x86_64 (Optional) os: CentOS Linux release 7.9.2009 (Core) (Optional) 实测在该环境下，容器热迁移可用，热迁移成功与否与 docker 和 criu 版本强相关。 环境部署 # Docker 安装 $ sudo yum install -y yum-utils $ sudo yum-config-manager</description>
     </item>
     
     <item>
@@ -1431,15 +675,6 @@
       
       <guid>https://www.frytea.com/posts/essay/497/</guid>
       <description>近期陆续参与了几次面试，虽人数不算多，但从求职者到面试者这一身份转换之间，我体会到了许多、看到了许多，面对明天可能面临的种种境遇，面对自己的</description>
-    </item>
-    
-    <item>
-      <title>tcpdump 过滤数据包长度</title>
-      <link>https://www.frytea.com/posts/essay/496/</link>
-      <pubDate>Tue, 15 Dec 2020 14:31:23 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/496/</guid>
-      <description>tcpdump 支持 protocol[x:x] 表达式，用于指定某协议[起始偏移量:数值类型长度], 如指定IP包长度大于100: tcpdump -i eth0 -n &#39;ip[2:2] &amp;gt; 100&#39; 捕获tcp目标端口在10000和200</description>
     </item>
     
     <item>
@@ -1479,15 +714,6 @@
     </item>
     
     <item>
-      <title>聊聊搜索引擎的那些事儿 ｜ 又一款国产搜索引擎502了</title>
-      <link>https://www.frytea.com/posts/essay/491/</link>
-      <pubDate>Sun, 29 Nov 2020 10:33:20 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/491/</guid>
-      <description>本文创作背景音乐：Beautiful Relaxing Music: Norway&amp;rsquo;s Nature, Violin Music, Flute Music, Piano Music, Harp Music：https://youtu.be/XEfDYMngJeE 2019年6月</description>
-    </item>
-    
-    <item>
       <title>BuJo ｜ 使用Notion进行个人账目管理、投资管理</title>
       <link>https://www.frytea.com/posts/essay/490/</link>
       <pubDate>Sat, 28 Nov 2020 13:23:00 +0000</pubDate>
@@ -1524,24 +750,6 @@
     </item>
     
     <item>
-      <title>苹果M1芯片对大众生活的影响 ｜ M1现存问题及未来发展 ｜ MacBook</title>
-      <link>https://www.frytea.com/posts/essay/486/</link>
-      <pubDate>Wed, 18 Nov 2020 22:33:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/486/</guid>
-      <description>苹果在今年（2020年）11月11日凌晨举办的今秋第三场线上发布会上发布了搭载Apple自研M1芯片的Mac，分别是MacBook Air、1</description>
-    </item>
-    
-    <item>
-      <title>随机命令自动测试脚本 | SecureCRT 下 Python 实现</title>
-      <link>https://www.frytea.com/posts/essay/485/</link>
-      <pubDate>Tue, 17 Nov 2020 11:52:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/485/</guid>
-      <description>在进行命令终端软件开发及通信道路开发时，常常需要测试终端的稳定性，此时通过命令脚本自动化的敲命令可以节省许多人力，这里写了一个SecureC</description>
-    </item>
-    
-    <item>
       <title>创作瓶颈 ｜ 感恩支持，继续加油 ｜ 记录些疲惫感</title>
       <link>https://www.frytea.com/posts/essay/484/</link>
       <pubDate>Mon, 16 Nov 2020 22:43:03 +0000</pubDate>
@@ -1560,57 +768,12 @@
     </item>
     
     <item>
-      <title>frp实现内网穿透 | frp服务端配置 | frp客户端配置</title>
-      <link>https://www.frytea.com/posts/essay/482/</link>
-      <pubDate>Fri, 13 Nov 2020 14:59:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/482/</guid>
-      <description>frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公</description>
-    </item>
-    
-    <item>
-      <title>群晖OpenVPN服务器网关配置</title>
-      <link>https://www.frytea.com/posts/essay/481/</link>
-      <pubDate>Fri, 13 Nov 2020 14:19:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/481/</guid>
-      <description>使用群晖OpenVpn服务套件搭建了VPN服务后，导出配置文件，默认是不会在客户端的 openvpn.ovpn 文件中设置重定向网关选项的，此时连接上VPN是无法通过</description>
-    </item>
-    
-    <item>
-      <title>使用git将code同时提交多个远程仓</title>
-      <link>https://www.frytea.com/posts/essay/480/</link>
-      <pubDate>Fri, 13 Nov 2020 11:40:08 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/480/</guid>
-      <description>想用一次git提交到多个仓库，可以通过以下命令实现： # 设置第一个远程仓库 git git remote add origin https://github.com/w4ctech/hellogit.git # 新增一个远程仓库 git remote set-url --add origin https://gitee.com/w4ctech/hellogit.git # 新增另一个远程仓库 git remote set-url</description>
-    </item>
-    
-    <item>
-      <title>Git 回滚到某个 commit 上及返回主分支</title>
-      <link>https://www.frytea.com/posts/essay/479/</link>
-      <pubDate>Fri, 13 Nov 2020 11:39:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/479/</guid>
-      <description>1. 代码回退 首先要用 git log 查看回到的版本，然后用以下命令，将本地代码回退到某个版本： git reset --hard HEAD^ 回退到上个版本 git reset --hard commit_id 退到/进到 指定 commit_id 如果需要将回退</description>
-    </item>
-    
-    <item>
       <title>预算&#43;记账 ｜ 财富管理 ｜ 独立后的第一道门槛</title>
       <link>https://www.frytea.com/posts/essay/478/</link>
       <pubDate>Sun, 08 Nov 2020 23:22:07 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/478/</guid>
       <description>时间过的真快，十一月第一周已经过去。采用预算+记账的生存方案已经几个月了，复盘的时候发现成果不错，预算做到了上个月开销几乎全覆盖，实施来看只</description>
-    </item>
-    
-    <item>
-      <title>解决群晖Moment不显示拷入照片</title>
-      <link>https://www.frytea.com/posts/essay/477/</link>
-      <pubDate>Sat, 07 Nov 2020 23:19:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/477/</guid>
-      <description>近期趁着双十一购入群晖一台，装好Moments，将照片导入Moment文件夹，但刷新并没有在Moments主页看到直接考入文件夹内的照片。 开</description>
     </item>
     
     <item>
@@ -1632,15 +795,6 @@
     </item>
     
     <item>
-      <title>局域网内跨平台传输文件、文字 ｜ Dukto</title>
-      <link>https://www.frytea.com/posts/essay/474/</link>
-      <pubDate>Fri, 30 Oct 2020 11:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/474/</guid>
-      <description>在日常生活和实际工作中经常需要涉及到局域网内多设备传输文件，此前尝试过飞鸽传书，发现Mac平台体验并不好，也不够可靠；使用NAS等网络存储设</description>
-    </item>
-    
-    <item>
       <title>睡不着吗？这里有些灵感帮您入眠。</title>
       <link>https://www.frytea.com/posts/essay/473/</link>
       <pubDate>Sat, 24 Oct 2020 22:34:00 +0000</pubDate>
@@ -1650,102 +804,12 @@
     </item>
     
     <item>
-      <title>iTerms 常用快捷键</title>
-      <link>https://www.frytea.com/posts/essay/472/</link>
-      <pubDate>Thu, 22 Oct 2020 15:21:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/472/</guid>
-      <description>切换 tab： ⌘+← , ⌘+→ , ⌘+{ , ⌘+} , ⌘+数字 直接定位到该 tab； 新建 tab： ⌘+t； 顺序切换 pane： ⌘+[ , ⌘+] ； 按方向切换 pa</description>
-    </item>
-    
-    <item>
-      <title>Python执行或远程执行shell命令</title>
-      <link>https://www.frytea.com/posts/essay/471/</link>
-      <pubDate>Wed, 21 Oct 2020 21:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/471/</guid>
-      <description>最近想要实现通过脚本循环再Linux下运行shell命令，经过探索发现使用Python语言有几种解决方案，在此简单记录。 方案一：脚本本地执行</description>
-    </item>
-    
-    <item>
-      <title>终端抓包神器 ｜ tcpdump参数解析及使用</title>
-      <link>https://www.frytea.com/posts/essay/470/</link>
-      <pubDate>Tue, 20 Oct 2020 17:21:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/470/</guid>
-      <description>本文整理转自：tcpdump参数解析及使用详解 tcpdump介绍 tcpdump 是一个运行在命令行下的抓包工具。它允许用户拦截和显示发送或收到过网络连接到</description>
-    </item>
-    
-    <item>
-      <title>SecureCRT下Python脚本编写</title>
-      <link>https://www.frytea.com/posts/essay/469/</link>
-      <pubDate>Thu, 15 Oct 2020 21:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/469/</guid>
-      <description>本文主要内容转自：SecureCRT中python脚本编写学习指南 SecureCRT支持VB、JavaScript、Python等多种脚本语</description>
-    </item>
-    
-    <item>
-      <title>Make参数</title>
-      <link>https://www.frytea.com/posts/essay/468/</link>
-      <pubDate>Wed, 14 Oct 2020 23:03:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/468/</guid>
-      <description>-b -m 这两个参数的作用是忽略和其它版本make的兼容性。 -B –always-make 认为所有的目标都需要更新（重编译）。 -C –directory=</description>
-    </item>
-    
-    <item>
-      <title>Makefile实例：批量编译多个目标</title>
-      <link>https://www.frytea.com/posts/essay/467/</link>
-      <pubDate>Wed, 14 Oct 2020 22:56:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/467/</guid>
-      <description>gist: https://gist.github.com/songtianlun/8984626fd80cd20b7c2e71f95caaf8d1 # Batch Single C file MakeFile # 指定CPU架构 Architecture -&amp;gt; ARCH ARCH ?= CC = $(ARCH)gcc SUFFIX = .c CFLAGS += -Wall -g LD = CUR_SOURCE = $(wildcard *$(SUFFIX)) CUR_TARGETS = $(patsubst %$(SUFFIX), %, $(CUR_SOURCE)) all:$(CUR_TARGETS) # %:%.c 是一个表示与目标相同 文件的模式变量 $(CUR_TARGETS):%:%$(SUFFIX) $(CC) $&amp;lt; $(CFLAGS) -o $@ $(LD)</description>
-    </item>
-    
-    <item>
-      <title>Makefile中部分函数的使用</title>
-      <link>https://www.frytea.com/posts/essay/466/</link>
-      <pubDate>Wed, 14 Oct 2020 22:55:08 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/466/</guid>
-      <description>foreach 一、作用 循环处理文件列表。 二、格式 $(foreach var text commond) var：局部变量 text：文件列表，空格隔开，每一次取一个值赋值为变量var commond：对v</description>
-    </item>
-    
-    <item>
-      <title>Makefile基础语法</title>
-      <link>https://www.frytea.com/posts/essay/465/</link>
-      <pubDate>Wed, 14 Oct 2020 22:53:18 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/465/</guid>
-      <description>Makefile 是描述文件依赖关系的说明，由若干个规则组成，每个 规则 的格式如下： 目标：依赖关系 &amp;lt;tab键&amp;gt; 命令 其中： 目标 是指 make 最终要创造的产物</description>
-    </item>
-    
-    <item>
-      <title>Make/Makefile 简介</title>
-      <link>https://www.frytea.com/posts/essay/464/</link>
-      <pubDate>Wed, 14 Oct 2020 22:52:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/464/</guid>
-      <description>Make 工具可用于在 Unix-like 和 Microsoft Windows 系统上，根据 Makrfile 文件指定的目标及步骤，自动编译构建、更新目标文件。 类Unix Makefile起源于类Unix系统，在此类</description>
-    </item>
-    
-    <item>
       <title>五分钟记日记，规划复盘效率翻倍</title>
       <link>https://www.frytea.com/posts/essay/463/</link>
       <pubDate>Tue, 13 Oct 2020 23:19:31 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/463/</guid>
       <description>最近一直在研究 Bullet Journal 和 快速日记方法，为的是快速规划和复盘，使自己人生效率翻倍。 对于人生的掌控感，终于在工作后感受到一些。随着时间的推移，需要自</description>
-    </item>
-    
-    <item>
-      <title>自建KMS服务器 | 持续激活Windows</title>
-      <link>https://www.frytea.com/posts/essay/462/</link>
-      <pubDate>Fri, 09 Oct 2020 16:19:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/462/</guid>
-      <description>最近在 GitHub 上发现一个项目： dylanbai8/kmspro：https://github.com/dylanbai8/kmspro 该项目中提供</description>
     </item>
     
     <item>
@@ -1767,30 +831,12 @@
     </item>
     
     <item>
-      <title>Chevereto 配合 Picgo 打造个人相册/图床解决方案</title>
-      <link>https://www.frytea.com/posts/essay/459/</link>
-      <pubDate>Mon, 05 Oct 2020 08:54:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/459/</guid>
-      <description>Chevereto 是一款很好用图床工具，可以实现一键上传、一键 Markdown 引用等功能，最近发现还可以和 Picgo 配合起来使用，打造更加方便实用个人图床。 Picgo 是一个用于快速上传图</description>
-    </item>
-    
-    <item>
       <title>夺冠的感觉？ ｜ 精神传承 ｜ 自我到为人</title>
       <link>https://www.frytea.com/posts/essay/458/</link>
       <pubDate>Wed, 30 Sep 2020 00:34:41 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/458/</guid>
       <description>今天组织集体去看了电影《夺冠》。 《夺冠》是由中宣部与国家体育总局联合拍摄，由陈可辛执导的剧情运动片，巩俐、黄渤、吴刚、彭昱畅、白浪、中国女子</description>
-    </item>
-    
-    <item>
-      <title>微PE制作U盘启动盘，并安装Win10</title>
-      <link>https://www.frytea.com/posts/essay/457/</link>
-      <pubDate>Mon, 28 Sep 2020 21:59:45 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/457/</guid>
-      <description>微PE 是一款很好用的 WinPE （Windows预先安装环境（英语：Microsoft Windows Preinstallation Environment），简称Windows PE或WinPE</description>
     </item>
     
     <item>
@@ -1812,24 +858,6 @@
     </item>
     
     <item>
-      <title>Linux 特殊权限 SUID,SGID,SBIT</title>
-      <link>https://www.frytea.com/posts/essay/454/</link>
-      <pubDate>Wed, 16 Sep 2020 10:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/454/</guid>
-      <description>setuid 和 setgid 分别是 set uid ID upon execution 和 set group ID upon execution 的缩写。我们一般会再次把它们缩写为 suid 和 sgid。它们是控制文件访问的权限标志(flag)，它们分别允许用户</description>
-    </item>
-    
-    <item>
-      <title>Python解析变长结构体</title>
-      <link>https://www.frytea.com/posts/essay/453/</link>
-      <pubDate>Mon, 14 Sep 2020 16:21:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/453/</guid>
-      <description>最近接到一个需求，需要使用 Python 解析 C 来的数据包，而数据包中的格式是通过如下结构体定义的： typedef struct msg_t { int oid; int msg_len; char msg_data[0]; }MSG_T; 其中的 msg_data 字符串的长度是由 msg_len 给出的</description>
-    </item>
-    
-    <item>
       <title>幸福领导力 ｜ 高层次的激励力量</title>
       <link>https://www.frytea.com/posts/essay/452/</link>
       <pubDate>Sat, 12 Sep 2020 09:59:48 +0000</pubDate>
@@ -1839,57 +867,12 @@
     </item>
     
     <item>
-      <title>Python3下基于Scapy库完成网卡抓包解析</title>
-      <link>https://www.frytea.com/posts/essay/451/</link>
-      <pubDate>Mon, 07 Sep 2020 14:55:08 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/451/</guid>
-      <description>Scapy是一个可以让用户发送、侦听和解析并伪装网络报文的Python程序。这些功能可以用于制作侦测、扫描和攻击网络的工具。 在 Python 代码中可以通</description>
-    </item>
-    
-    <item>
-      <title>LEDE(OpenWrt)安装openclash ｜旁路由技巧 ｜ 配置网络流量全部通过旁路由</title>
-      <link>https://www.frytea.com/posts/essay/450/</link>
-      <pubDate>Fri, 04 Sep 2020 12:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/450/</guid>
-      <description>今天我们来安装一个运行在OpenWrt上的Clash客户端，兼容Shadowsocks、ShadowsocksR、Vmess、Trojan、</description>
-    </item>
-    
-    <item>
-      <title>Esxi安装LEDE(OpenWrt) ｜ 旧电脑变旁路由</title>
-      <link>https://www.frytea.com/posts/essay/449/</link>
-      <pubDate>Fri, 04 Sep 2020 12:09:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/449/</guid>
-      <description>在上篇文章中介绍了如何将旧电脑变成私有云计算数据中心，今天就来讲讲如何在这个数据中心安装一个 OpenWrt ，使其摇身一变为庞路由。 在继续之前简单介绍 LEDE 和</description>
-    </item>
-    
-    <item>
-      <title>变废为宝 ｜ 旧电脑变云数据中心 ｜ Esxi 配置</title>
-      <link>https://www.frytea.com/posts/essay/448/</link>
-      <pubDate>Fri, 04 Sep 2020 11:43:05 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/448/</guid>
-      <description>VMware Inc. 是虚拟机软件行业的老大，vSphere 是在VMware数据中心产品下的一套软件，ESXi, vSphere client 和 vCeneter 都是 vSphere 的组件。ESXi是 vSphere 中最重要的一</description>
-    </item>
-    
-    <item>
       <title>回顾8月 ｜ 机遇 ｜ 成长 ｜ 变化 </title>
       <link>https://www.frytea.com/posts/essay/447/</link>
       <pubDate>Thu, 03 Sep 2020 00:18:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/447/</guid>
       <description>大自然的变化已经很迅速；与自然相比，人类显得微小；因此人的变化相比来看变化就更快。于是，凡事与人相关的事情，其变化速度更是令人意想不到。 于是</description>
-    </item>
-    
-    <item>
-      <title>解决SSH登录缓慢</title>
-      <link>https://www.frytea.com/posts/essay/446/</link>
-      <pubDate>Wed, 02 Sep 2020 17:52:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/446/</guid>
-      <description>解决方法 第一步：修改SSH服务端配置文件： vim /etc/ssh/sshd_config 第二步：按照下面说明进行修改： - GSSAPIAuthentication yes + GSSAPIAuthentication no - UseDNS yes + UseDNS no UseDNS选项是打开的话，服务器会先根</description>
     </item>
     
     <item>
@@ -1929,39 +912,12 @@
     </item>
     
     <item>
-      <title>OpsnSSH抓包分析 | SSH协议分析</title>
-      <link>https://www.frytea.com/posts/essay/440/</link>
-      <pubDate>Mon, 24 Aug 2020 19:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/440/</guid>
-      <description>SSH协议是建立在不安全的网络之上的进行远程安全登陆的协议。它是一个协议族，其中有三个子协议，分别是： 1、传输层协议[SSH-TRANS]:</description>
-    </item>
-    
-    <item>
-      <title>Linux下文件系统技巧 | 统计个数 | 只见文件或目录</title>
-      <link>https://www.frytea.com/posts/essay/439/</link>
-      <pubDate>Mon, 24 Aug 2020 10:42:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/439/</guid>
-      <description>统计个数 查看某目录下文件的个数 $ ls -l | grep &amp;#34;^-&amp;#34; | wc -l # example $ ls -l /etc | grep &amp;#34;^-&amp;#34; | wc -l 134 或 $ find ./company -type f | wc -l # Example $ sudo find /etc -type f | wc -l 3829 查看某目录下文件的个数，</description>
-    </item>
-    
-    <item>
       <title>成长的样子 ｜ 学会对自己好</title>
       <link>https://www.frytea.com/posts/essay/438/</link>
       <pubDate>Sun, 23 Aug 2020 09:16:19 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/438/</guid>
       <description>真的很久很久，没有这样子开心/难过了。开心是因为因为一些事情真的很开心，难过是因为大概是第一次体会上吐下泻的感觉。恰逢几位 Youtber 更新，好像大家都</description>
-    </item>
-    
-    <item>
-      <title>Putty个性化配置</title>
-      <link>https://www.frytea.com/posts/essay/437/</link>
-      <pubDate>Fri, 21 Aug 2020 10:19:52 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/437/</guid>
-      <description>终端工具用一圈，还是Putty简单好用。就是Putty难看的外观、不清晰的字体劝退了许多人，今天就简单介绍一种快速美化putty的方法。 Pu</description>
     </item>
     
     <item>
@@ -1974,30 +930,12 @@
     </item>
     
     <item>
-      <title>Ubuntu20.04修改网卡配置</title>
-      <link>https://www.frytea.com/posts/essay/435/</link>
-      <pubDate>Thu, 20 Aug 2020 09:52:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/435/</guid>
-      <description>近期常常用到Ubuntu20.04server镜像，在一次虚拟机配置时不小心配错了ip，修在网络配置时找了一大圈教程都是无效。最后发现 “ub</description>
-    </item>
-    
-    <item>
       <title>美国商务部出口管制实体清单 | 转自知乎</title>
       <link>https://www.frytea.com/posts/essay/434/</link>
       <pubDate>Thu, 20 Aug 2020 09:37:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/434/</guid>
       <description>清单内容获取自 2020年8月20日。 其中提及华为多达184次之多。 甚至我的家乡石河子也光荣上榜： 官方清单介绍：https://www.bis</description>
-    </item>
-    
-    <item>
-      <title>Aria2 &#43; Rclone 实现离线下载 | 完美脚本配置 | 解决无法上传问题</title>
-      <link>https://www.frytea.com/posts/essay/433/</link>
-      <pubDate>Wed, 19 Aug 2020 20:08:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/433/</guid>
-      <description>首先声明，本文完美脚本来自于： P3TERX/aria2.conf，本文记录的是安装完美脚本 2020.08.08 版本时遇到的问题。 安装步骤 第一步，安装 Aria2 这里使用</description>
     </item>
     
     <item>
@@ -2019,66 +957,12 @@
     </item>
     
     <item>
-      <title>个性化终端 | zsh bash oh-my-zsh</title>
-      <link>https://www.frytea.com/posts/essay/430/</link>
-      <pubDate>Sat, 15 Aug 2020 12:09:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/430/</guid>
-      <description>一直搞不清楚各类终端的区别，最近看到一张图描述的不错。 自己装虚拟机发现为什么自己的虚拟机默认sh这么丑，而且自动补全不好用，今天才发现原来看</description>
-    </item>
-    
-    <item>
-      <title>VirtualBox无限嵌套方法 | 虚拟机套娃</title>
-      <link>https://www.frytea.com/posts/essay/429/</link>
-      <pubDate>Sat, 15 Aug 2020 11:18:14 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/429/</guid>
-      <description>接上文，最近研究移动办公环境，采用VirtualBox虚拟机环境，由于一些桌面办公软件必须采用Windows系统，因此采用VirtualBo</description>
-    </item>
-    
-    <item>
-      <title>Win10 LTSC 激活方法 | Win10专业版(永久激活)长期服务版 LTSC 2019密钥</title>
-      <link>https://www.frytea.com/posts/essay/428/</link>
-      <pubDate>Sat, 15 Aug 2020 09:17:45 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/428/</guid>
-      <description>本文核心内容转自雨林木风资讯：http://www.ylmfwin100.com/ 最近计划打造一套随身携带的移动办公环境，可以做到在陌生环境</description>
-    </item>
-    
-    <item>
-      <title>一站式安装 X终端全家桶 ｜ XShell Xstp Xmanager ｜ 官方渠道 ｜ 破解</title>
-      <link>https://www.frytea.com/posts/essay/427/</link>
-      <pubDate>Fri, 14 Aug 2020 08:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/427/</guid>
-      <description>前言 由 NetSarang 公司推出的一系列终端模拟软件：XShell、Xftp、XManager 提供了强大且安全的远程终端模拟功能，是 Windows 平台上比较强大的终端模</description>
-    </item>
-    
-    <item>
-      <title>VMware 安装运行 deepin 虚拟机 | 体验中国深度</title>
-      <link>https://www.frytea.com/posts/essay/426/</link>
-      <pubDate>Thu, 13 Aug 2020 19:49:06 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/426/</guid>
-      <description>一、安装步骤 第一步，准备系统镜像 镜像在官网下载即可。 深度官网：https://www.deepin.org/zh/ 第二步，创建虚拟机 在Vmw</description>
-    </item>
-    
-    <item>
       <title>《让你的时间更有价值》十句感悟</title>
       <link>https://www.frytea.com/posts/essay/425/</link>
       <pubDate>Sat, 08 Aug 2020 21:21:41 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/425/</guid>
       <description>让你的时间更有价值：空闲时间就是你的未来财富（微信阅读独家首发） 张萌 萌姐 共51个笔记 与萌姐第一次“遇见”是在那一本《精力管理手册》，后来那本</description>
-    </item>
-    
-    <item>
-      <title>计算机基础之位运算 | 按位取反</title>
-      <link>https://www.frytea.com/posts/essay/424/</link>
-      <pubDate>Thu, 06 Aug 2020 19:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/424/</guid>
-      <description>程序中的所有数在计算机内存中都是以二进制的形式储存的。位操作是程序设计中对位模式或二进制数的一元和二元操作。在许多古老的微处理器上，位运算比</description>
     </item>
     
     <item>
@@ -2100,60 +984,6 @@
     </item>
     
     <item>
-      <title>解决拉取github仓库报错“gnutls_handshake() failed”问题</title>
-      <link>https://www.frytea.com/posts/essay/421/</link>
-      <pubDate>Mon, 27 Jul 2020 08:21:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/421/</guid>
-      <description>本文首发于：https://blog.frytea.com/archives/421/ gnutls_handshake() failed: The TLS connection was non-properly terminated. 最近为新配置的虚机拉取库，但是从 GitHub 拉取</description>
-    </item>
-    
-    <item>
-      <title>Vim安装插件管理器Vundle</title>
-      <link>https://www.frytea.com/posts/essay/418/</link>
-      <pubDate>Sun, 26 Jul 2020 19:17:16 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/418/</guid>
-      <description>安装vundle $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 默认安装在/.vim/bundle/vundle下； 配置说明： 插件有三种类型: Github上vim-scripts</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu下为vim安装YouCompleteMe插件</title>
-      <link>https://www.frytea.com/posts/essay/419/</link>
-      <pubDate>Sun, 26 Jul 2020 19:17:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/419/</guid>
-      <description>前提条件 已安装 Vundle (参考 Vim安装插件管理器Vundle） Vim 版本 ≥ Vim 7.4.1578+ （查看 vim --version） 安装 第一步，使用Vundle安装YouCom</description>
-    </item>
-    
-    <item>
-      <title>VIM 创建程序文件自动添加头部注释</title>
-      <link>https://www.frytea.com/posts/essay/416/</link>
-      <pubDate>Sun, 26 Jul 2020 19:16:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/416/</guid>
-      <description>修改 /etc/vimrc 或 ~/.vimrc，在文件最后添加以下内容： &amp;#34; 当新建 .h .c .hpp .cpp .mk .sh等文件时自动调用SetTitle 函数 autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh exec &amp;#34;:call SetTitle()&amp;#34; &amp;#34; 加入注释 func SetComment() call setline(1,&amp;#34;/*================================================================&amp;#34;)</description>
-    </item>
-    
-    <item>
-      <title>VIM个性化配置（一）</title>
-      <link>https://www.frytea.com/posts/essay/417/</link>
-      <pubDate>Sun, 26 Jul 2020 19:16:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/417/</guid>
-      <description>配置 只需在Home目录创建一个 ~/.vimrc ****文件即可以配置 vim 了，如需安装插件，在 ~/.vim 目录下创建一个bundle文件夹，插件装在里面。（需安装 Vundle 插件</description>
-    </item>
-    
-    <item>
-      <title>Vim 版本升级（Vim8）</title>
-      <link>https://www.frytea.com/posts/essay/415/</link>
-      <pubDate>Sun, 26 Jul 2020 19:15:57 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/415/</guid>
-      <description>安装步骤 第一步，下载源码 到Vim官方Github仓库下载目前最新的Vim Release版本 wget https://codeload.github.com/vim/vim/tar.gz/v8.2.1258 第二步，解压 $ mv v8.2.1258 vim-v8.2.1258.tar.gz $ tar -xvzf vim-v8.2.1258.tar.gz 第三步，编译安装 $</description>
-    </item>
-    
-    <item>
       <title>寻找使命，确立愿景</title>
       <link>https://www.frytea.com/posts/essay/414/</link>
       <pubDate>Sat, 25 Jul 2020 19:13:53 +0000</pubDate>
@@ -2163,39 +993,12 @@
     </item>
     
     <item>
-      <title>Windows 开机自启VMware虚拟机</title>
-      <link>https://www.frytea.com/posts/essay/413/</link>
-      <pubDate>Wed, 22 Jul 2020 09:08:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/413/</guid>
-      <description>由于进行Linux下软件开发，需要频繁使用 VMware 虚拟机，为提高效率找到一种开机启动启动 VMware 虚拟机的方法，可以大大提升效率。 第一步，编写脚本 首先编写</description>
-    </item>
-    
-    <item>
       <title>【简记】Linux 计划任务 Crontab</title>
       <link>https://www.frytea.com/posts/essay/411/</link>
       <pubDate>Mon, 20 Jul 2020 11:45:40 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/411/</guid>
       <description>cron 简介 cron 是 UNIX, SOLARIS，LINUX 下的一个十分有用的工具。通过 cron 脚本能使计划任务定期地在系统后台自动运行。 cron 命令 crontab -e – 编辑该用户的 cro</description>
-    </item>
-    
-    <item>
-      <title>VS Code 免密登录Linux服务器</title>
-      <link>https://www.frytea.com/posts/essay/410/</link>
-      <pubDate>Mon, 20 Jul 2020 09:38:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/410/</guid>
-      <description>使用 VS Code 中提供的 Remote Development 可以实现连接远程服务器，管理文件、远程调试、远程管理等功能，实现远程开发。今天主要介绍如何通过配置SSH公钥实现 VC Code 免密</description>
-    </item>
-    
-    <item>
-      <title>Linux部署私钥实现免密登录</title>
-      <link>https://www.frytea.com/posts/essay/409/</link>
-      <pubDate>Mon, 20 Jul 2020 09:37:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/409/</guid>
-      <description>第一步，生成密钥对（windows或linux均可）： ssh-keygen 之后一路回车，默认不设密码，默认目录为 ~/.ssh 第二步，部署公钥至服务器端（Linux），并</description>
     </item>
     
     <item>
@@ -2217,156 +1020,12 @@
     </item>
     
     <item>
-      <title>解决git不小心提交大文件导致无法提交问题</title>
-      <link>https://www.frytea.com/posts/essay/406/</link>
-      <pubDate>Fri, 17 Jul 2020 15:37:55 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/406/</guid>
-      <description>在一次不小心向GitHub提交了一个1GB文件后，出现一个令人崩溃的错误： remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com. remote: error: Trace: a22b6b202ddb6da3e2795ca71663de19 remote: error: See http://git.io/iEPt8g for more information. remote: error: File system_status/test_26457 is</description>
-    </item>
-    
-    <item>
-      <title>计算 Linux 内存使用率方法及C实现</title>
-      <link>https://www.frytea.com/posts/essay/405/</link>
-      <pubDate>Thu, 16 Jul 2020 15:21:33 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/405/</guid>
-      <description>通过获取Linux中的 /proc/stat 文件中的内容可以获取系统内存的详细信息： # cat /proc/meminfo MemTotal: 3880404 kB MemFree: 3182248 kB MemAvailable: 3396580 kB Buffers: 39588 kB Cached: 355616 kB SwapCached: 0 kB Active: 318708 kB Inactive: 252380 kB Active(anon): 176120 kB Inactive(anon): 248 kB Active(file): 142588 kB Inactive(file): 252132</description>
-    </item>
-    
-    <item>
-      <title>计算 Linux CPU 利用率</title>
-      <link>https://www.frytea.com/posts/essay/404/</link>
-      <pubDate>Wed, 15 Jul 2020 18:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/404/</guid>
-      <description>在 Linux 系统中的 /proc/stat 文件中存储了CPU 活动的信息，该文件中的所有值都是从系统启动开始累计到当前时刻。不同内核版本中该文件的格式可能不大一致，以下通</description>
-    </item>
-    
-    <item>
-      <title>Linux 内存参数详细说明</title>
-      <link>https://www.frytea.com/posts/essay/403/</link>
-      <pubDate>Tue, 14 Jul 2020 18:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/403/</guid>
-      <description>在 Linux 下 free 命令可以看出系统当前内存状况，附上 -k , -m , -g 可以分别输出对应单位的内存状况： Usage: free [options] Options: -b, --bytes show output in bytes -k, --kilo show output in kilobytes -m, --mega show output in megabytes -g, --giga show output in gigabytes</description>
-    </item>
-    
-    <item>
-      <title>Linux 下 Sysstat 系统监控程序详解</title>
-      <link>https://www.frytea.com/posts/essay/402/</link>
-      <pubDate>Tue, 14 Jul 2020 13:58:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/402/</guid>
-      <description>Sysstat 包包含许多商业单位共有的各种实用程序，用于监控系统性能和使用活动: iostat (1) 报告设备、分区和网络文件系统的CPU统计和硬盘吞吐效率的数据。 # 核心</description>
-    </item>
-    
-    <item>
-      <title>安装 Linux系统监控工具 systat</title>
-      <link>https://www.frytea.com/posts/essay/401/</link>
-      <pubDate>Tue, 14 Jul 2020 11:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/401/</guid>
-      <description>Sysstat是一种在Linux系统服务器中常用的软件工具包，可以用来监控服务器的性能。比如可以监控CPU、硬盘、网络等数据，我们可以用来进</description>
-    </item>
-    
-    <item>
-      <title>Linux 中 /proc 文件系统内容详述</title>
-      <link>https://www.frytea.com/posts/essay/400/</link>
-      <pubDate>Tue, 14 Jul 2020 09:06:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/400/</guid>
-      <description>Linux 下的 /proc 文件系统中提供了许多有用的信息，除了基本的CPU使用率、版本号等，你甚至还可以在这里直接看到内核的输出。下面这张表，简单列举 /proc 中文件</description>
-    </item>
-    
-    <item>
       <title>拯救你的硬盘，一切井井有条</title>
       <link>https://www.frytea.com/posts/essay/399/</link>
       <pubDate>Sun, 05 Jul 2020 10:06:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/399/</guid>
       <description>由于一直研究计算机相关技术，从开始的500GB硬盘，带后来1TB的移动硬盘，再到后来4TB移动硬盘，再到后来移动NAS。 随着数据量的不断增长</description>
-    </item>
-    
-    <item>
-      <title>VIM学习使用笔记</title>
-      <link>https://www.frytea.com/posts/essay/398/</link>
-      <pubDate>Fri, 03 Jul 2020 18:07:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/398/</guid>
-      <description>如果是初学vi，运行一下 vimtutor是个聪明的决定。 （如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行 vimtutor zh） 学习笔记</description>
-    </item>
-    
-    <item>
-      <title>Vim第七讲 帮助、个性化和补全</title>
-      <link>https://www.frytea.com/posts/essay/397/</link>
-      <pubDate>Fri, 03 Jul 2020 18:06:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/397/</guid>
-      <description>7.1 获取帮助信息 ** 使用在线帮助系统 ** Vim 拥有一个细致全面的在线帮助系统。要启动该帮助系统，请选择如下三种方 法之一： 按下 &amp;lt;HELP&amp;gt; 键 (如果键盘上有的话) 按</description>
-    </item>
-    
-    <item>
-      <title>Vim第六讲 插入、附加、复制粘贴、高级选项</title>
-      <link>https://www.frytea.com/posts/essay/396/</link>
-      <pubDate>Fri, 03 Jul 2020 18:06:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/396/</guid>
-      <description>6.1 打开类命令 ** 输入 o 将在光标的下方打开新的一行并进入插入模式。** 输入小写的 o 在光标 下方 打开新的一行，这个命令会使您 进入插入模式。 然后输入一</description>
-    </item>
-    
-    <item>
-      <title>Vim第五讲 内部命令、另存、部分保存、插入文件</title>
-      <link>https://www.frytea.com/posts/essay/395/</link>
-      <pubDate>Fri, 03 Jul 2020 18:06:20 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/395/</guid>
-      <description>5.1 在 VIM 内执行外部命令的方法 ** 输入 :! 然后紧接着输入一个外部命令可以执行该外部命令。** 按下我们所熟悉的 : 命令使光标移动到屏幕底部。这样您就可以</description>
-    </item>
-    
-    <item>
-      <title>Vim第四讲 搜索、查找、替换</title>
-      <link>https://www.frytea.com/posts/essay/394/</link>
-      <pubDate>Fri, 03 Jul 2020 18:06:07 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/394/</guid>
-      <description>4.1 定位及文件状态 ** 输入 CTRL-G 显示当前编辑文件中当前光标所在行位置以及文件状态信息。 输入大写 G 则直接跳转到文件中的某一指定行。** 按下 CTRL 键不放开然</description>
-    </item>
-    
-    <item>
-      <title>Vim第三讲 置入、替换、更改</title>
-      <link>https://www.frytea.com/posts/essay/393/</link>
-      <pubDate>Fri, 03 Jul 2020 18:05:52 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/393/</guid>
-      <description>3.1 置入类命令 ** 输入 p 将最后一次删除的内容置入光标之后。 ** # example ---&amp;gt; b) Violets are blue, ---&amp;gt; c) Intelligence is learned, ---&amp;gt; d) Can you learn too? ---&amp;gt; |a) Roses are red, $ dd | ---&amp;gt; b) Violets are blue, ---&amp;gt; c) Intelligence is learned, ---&amp;gt; d) Can you learn too?</description>
-    </item>
-    
-    <item>
-      <title>Vim第二讲 删除、重复、撤销</title>
-      <link>https://www.frytea.com/posts/essay/392/</link>
-      <pubDate>Fri, 03 Jul 2020 18:05:38 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/392/</guid>
-      <description>2.1 简单命令 ** 输入 dw 可以从光标处删除至一个单词的末尾。** # example ---&amp;gt; Tha words don&amp;#39;t |belong paper in this sentence. $ dw ---&amp;gt; Tha words don&amp;#39;t paper in this sentence. 2.2 更多删除 ** 输入 d$ 从当前光标删除到行末。*</description>
-    </item>
-    
-    <item>
-      <title>Vim第一讲 基础操作</title>
-      <link>https://www.frytea.com/posts/essay/391/</link>
-      <pubDate>Fri, 03 Jul 2020 18:05:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/391/</guid>
-      <description>1.1 移动光标 ** 要移动光标，请依照说明分别按下 h、j、k、l 键。 ** ^ k 提示： h 的键位于左边，每次按下就会向左移动。 &amp;lt; h l &amp;gt; l 的键位于右边，每次按</description>
-    </item>
-    
-    <item>
-      <title>GCC -l选项：手动添加链接库</title>
-      <link>https://www.frytea.com/posts/essay/390/</link>
-      <pubDate>Fri, 03 Jul 2020 10:06:02 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/390/</guid>
-      <description>最近研究C语言CRC循环冗余校验，找到一个开源的库： lammertb/libcrc 其中有实例代码，但是无论如何运行不起来，报错如下： [root@frytea-dev-test examples]# gcc tstcrc.c -o tstcrc -L ~/libcrc/include /tmp/ccEcajcY.o: In function `main&amp;#39;: tstcrc.c:(.text+0x2db): undefined reference to `update_crc_16&amp;#39; tstcrc.c:(.text+0x2f6):</description>
     </item>
     
     <item>
@@ -2388,105 +1047,6 @@
     </item>
     
     <item>
-      <title>资源分享之计算机网络虚拟实践</title>
-      <link>https://www.frytea.com/posts/essay/387/</link>
-      <pubDate>Sat, 20 Jun 2020 10:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/387/</guid>
-      <description>喜欢整理一些资源，之后放在知识库或是资源站里，等待着有缘人去发现，可等了许久发现：有的人需要它，可就是找不到；有些人不需要它，却误打误撞地看</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例九：单臂路由</title>
-      <link>https://www.frytea.com/posts/essay/350/</link>
-      <pubDate>Fri, 19 Jun 2020 16:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/350/</guid>
-      <description>单臂路由（router-on-a-stick）是指在路由器的一个接口上通过配置子接口（或“逻辑接口”，并不存在真正物理接口）的方式，实现原来</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT  案例八：配置基本ACL访问控制</title>
-      <link>https://www.frytea.com/posts/essay/349/</link>
-      <pubDate>Fri, 19 Jun 2020 09:52:23 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/349/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置F0/1接口IP： R1(config)#interface fastEthernet 0/1 //进入Fa0/1 R1(config-if)#ip address 172.16.1.1 255.255.255.0 //配置IP R1(config-if)#no shutdown //开启端口 ** 配置F0</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例七：配置链路聚合 / 负载均衡</title>
-      <link>https://www.frytea.com/posts/essay/348/</link>
-      <pubDate>Fri, 19 Jun 2020 09:51:53 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/348/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置交换机0 Switch&amp;gt;enable Switch#configure terminal Switch(config)#hostname SA （更改交换机名字） SA(config)#interface port-channel 1 （聚合通道1） SA(config-if)#exit SA(config)#interface fa0/22 SA(config-if)#channel-group 1 mode on （开启聚合通道1）</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例六：交换机端口与Mac地址绑定</title>
-      <link>https://www.frytea.com/posts/essay/347/</link>
-      <pubDate>Fri, 19 Jun 2020 09:51:04 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/347/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 1、进入相应的接口 （以端口1设置Mac地址绑定，PC0接1端口举例） Switch&amp;gt;enable Switch#config Configuring from terminal, memory, or network [terminal]? Enter configuration commands,</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例五：VLAN（Trunk模式实践）</title>
-      <link>https://www.frytea.com/posts/essay/346/</link>
-      <pubDate>Fri, 19 Jun 2020 09:50:29 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/346/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3，财务部对应VLAN 2，销售部对应VLAN 3 将部门PC对应</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例四：VLAN（Access模式实践）</title>
-      <link>https://www.frytea.com/posts/essay/345/</link>
-      <pubDate>Fri, 19 Jun 2020 09:49:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/345/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3 将部门PC对应端口划分到相应的VLAN中 PC设置 192.168.1.2 //PC0 192.168.1.3 //PC1 192.168.1.4</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例三：端口使能/禁用</title>
-      <link>https://www.frytea.com/posts/essay/344/</link>
-      <pubDate>Fri, 19 Jun 2020 09:48:54 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/344/</guid>
-      <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 # 进入特权模式 Switch&amp;gt;enable # 进入全局配置模式 Switch#configure terminal Enter configuration commands, one per line. End with CNTL/Z. Switch(config)# # 进入端口 Switch(config)#interface FastEthernet0/1 Switch(config-if)# # 禁用 Switch(config-if)#shutdown %LINK-5-CHANGED: Interface FastEthernet0/1, changed state</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT 案例二：为路由器配置并连接SSH</title>
-      <link>https://www.frytea.com/posts/essay/343/</link>
-      <pubDate>Fri, 19 Jun 2020 09:47:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/343/</guid>
-      <description>1. 案例目标 通过本案例，你可以掌握如下技能： 配置 SSH 使用 SSH 访问路由器 2. 背景知识 过去对路由器的远程管理访问一般使用 TCP 端口 23 上的 Telnet。但 Telnet 是</description>
-    </item>
-    
-    <item>
-      <title>Cisco PT案例一：为交换机配置并连接TELNET</title>
-      <link>https://www.frytea.com/posts/essay/342/</link>
-      <pubDate>Fri, 19 Jun 2020 09:42:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/342/</guid>
-      <description>Telnet协议是TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式。它为用户提供了在本地计算机上完成远程主机工</description>
-    </item>
-    
-    <item>
-      <title>解决ClashR打开配置空白</title>
-      <link>https://www.frytea.com/posts/essay/341/</link>
-      <pubDate>Tue, 16 Jun 2020 22:24:53 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/341/</guid>
-      <description>由于做程序设计常常会需要国外网站，因此一个靠谱的代理非常有必要。 此前写过一篇 私有 vpn 搭建工具集合及靠谱的 vpn 提供商. 最近发现 ClashR 这款很好用的代理客</description>
-    </item>
-    
-    <item>
       <title>陪伴是最好的解药，可我们时常孤独</title>
       <link>https://www.frytea.com/posts/essay/339/</link>
       <pubDate>Wed, 10 Jun 2020 23:23:00 +0000</pubDate>
@@ -2496,39 +1056,12 @@
     </item>
     
     <item>
-      <title>解决Win10下H3C网络设备模拟器无法启动问题</title>
-      <link>https://www.frytea.com/posts/essay/338/</link>
-      <pubDate>Wed, 10 Jun 2020 10:39:04 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/338/</guid>
-      <description>由于工作学习需要，需在win10上安装H3C网络设备模拟器，但无奈安装好后各种启动不起来。 查看日之后发现报错如下： Traceback (most recent call last): File &amp;quot;HCLUpdate.py&amp;quot;, line 9, in &amp;lt;module&amp;gt; File &amp;quot;Ui_PopUp.pyc&amp;quot;,</description>
-    </item>
-    
-    <item>
-      <title>解决Windows下帮助文件打开空白</title>
-      <link>https://www.frytea.com/posts/essay/337/</link>
-      <pubDate>Wed, 10 Jun 2020 09:22:43 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/337/</guid>
-      <description>今天从某官网下载了一份帮助文档，正常解压，正常弹出警告。 可点击打开后傻眼了，整个文档都是空白的，只能看到目录结构。 经过一番搜索找到解决方案，</description>
-    </item>
-    
-    <item>
       <title>还有说不完的话，风催着我们出发</title>
       <link>https://www.frytea.com/posts/essay/336/</link>
       <pubDate>Mon, 08 Jun 2020 22:10:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/336/</guid>
       <description>听着听着，突然就泪目了，想起这几年，本来有那么多的不满意，可最后又有些舍不得了。我的毕业照，不会就是这样草草收场吧。 如果说大学不值得，想想大</description>
-    </item>
-    
-    <item>
-      <title>【ZMQ】第一个C服务器</title>
-      <link>https://www.frytea.com/posts/essay/335/</link>
-      <pubDate>Mon, 08 Jun 2020 16:47:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/335/</guid>
-      <description>技术背景 ØMQ （也拼写作ZeroMQ，0MQ或ZMQ)，号称号称是“史上最快的消息队列”，基于c语言开发。ZMQ(以下ZeroMQ简称ZMQ</description>
     </item>
     
     <item>
@@ -2613,30 +1146,12 @@
     </item>
     
     <item>
-      <title>Minecraft 从安装到入门</title>
-      <link>https://www.frytea.com/posts/essay/325/</link>
-      <pubDate>Thu, 02 Apr 2020 10:47:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/325/</guid>
-      <description>近期才入坑 Minecraft ，自建了服务器，写了一篇文章记录服务器配置过程：适当愉悦，自建 Minecraft 服务器。 高深的东西咱也不懂，就感觉一群朋友在一起创造自己的世界挺</description>
-    </item>
-    
-    <item>
       <title>人生八十一难</title>
       <link>https://www.frytea.com/posts/essay/324/</link>
       <pubDate>Mon, 30 Mar 2020 14:54:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/324/</guid>
       <description>这些日子听家人讲了许多此前没有听到的事情，感触良多，想到了许多新的事情，有一些观点和想法被这些事情验证，于是就更加坚定。跟此前一样，将想法分</description>
-    </item>
-    
-    <item>
-      <title>适当愉悦，自建 Minecraft 服务器</title>
-      <link>https://www.frytea.com/posts/essay/322/</link>
-      <pubDate>Fri, 27 Mar 2020 11:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/322/</guid>
-      <description>背景 背景 1 原来总是认为，玩游戏都是不务正业。直到自己在学习生活中遇到挫折又无处宣泄，长时间的坏心情下才感觉到有这么一个发泄情感、寻找愉悦的途</description>
     </item>
     
     <item>
@@ -2649,39 +1164,12 @@
     </item>
     
     <item>
-      <title>[编程题]和为S的连续正数序列</title>
-      <link>https://www.frytea.com/posts/essay/320/</link>
-      <pubDate>Tue, 03 Mar 2020 18:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/320/</guid>
-      <description>题目来源 牛客网首页 &amp;gt; 试题广场 &amp;gt; 和为S的连续正数序列 时间限制：C/C++ 1秒，其他语言2秒空间限制：C/C++ 32M，其他语言64M 题目描述 小</description>
-    </item>
-    
-    <item>
-      <title>[编程题]evaluate-reverse-polish-notati</title>
-      <link>https://www.frytea.com/posts/essay/319/</link>
-      <pubDate>Tue, 25 Feb 2020 11:44:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/319/</guid>
-      <description>题目来源 牛客网首页 &amp;gt; 试题广场 &amp;gt; evaluate-reverse-polish-notati 时间限制：C/C++ 1秒，其他语言2秒空间限制：C/C++ 32M，其他语言64M 题目描述 链接：https:/</description>
-    </item>
-    
-    <item>
       <title>助力求职之STAR法则</title>
       <link>https://www.frytea.com/posts/essay/318/</link>
       <pubDate>Mon, 24 Feb 2020 18:03:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/318/</guid>
       <description>最近在投递简历，投了至少100个岗位，收获甚少，主要问题还在于自己是第一次求职，简历总是会出现一些问题，需要在不断的被拒中寻求方法。 今天收到</description>
-    </item>
-    
-    <item>
-      <title>[编程题]minimum-depth-of-binary-tree</title>
-      <link>https://www.frytea.com/posts/essay/317/</link>
-      <pubDate>Sun, 23 Feb 2020 18:18:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/317/</guid>
-      <description>题目来源 牛客网首页 &amp;gt; 试题广场 &amp;gt; minimum-depth-of-binary-tree 时间限制：C/C++ 1秒，其他语言2秒空间限制：C/C++ 32M，其他语言64M 题目描述 求给定二叉树的最小深</description>
     </item>
     
     <item>
@@ -2694,66 +1182,12 @@
     </item>
     
     <item>
-      <title>[编程题]进制转换</title>
-      <link>https://www.frytea.com/posts/essay/315/</link>
-      <pubDate>Sat, 22 Feb 2020 16:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/315/</guid>
-      <description>题目来源 牛客网首页 &amp;gt; 试题广场 &amp;gt; 进制转换 时间限制：C/C++ 1秒，其他语言2秒空间限制：C/C++ 32M，其他语言64M 题目描述 写出一个程序，</description>
-    </item>
-    
-    <item>
-      <title>这款云盘在国内表现很惊艳了！</title>
-      <link>https://www.frytea.com/posts/essay/314/</link>
-      <pubDate>Tue, 18 Feb 2020 21:51:53 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/314/</guid>
-      <description>前些日子在全球主机论坛看到这篇帖子：还在为空间小而烦恼么 世纪互联 onedrive 解烦恼. 大概是说 Zephyr 大佬小店里出售的 世纪互联Office365 A1 for EDU 现在使用</description>
-    </item>
-    
-    <item>
-      <title>一键配置 Seafile 云盘并开启 https 访问</title>
-      <link>https://www.frytea.com/posts/essay/313/</link>
-      <pubDate>Thu, 13 Feb 2020 15:42:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/313/</guid>
-      <description>前些日子终于受够了臃肿的 Nextcloud ，将其完全卸载，寻觅已久之后选择了 Seafile 云盘。之所以放弃 Nextcloud，大致有以下原因： 插件丰富，功能强大的同时带</description>
-    </item>
-    
-    <item>
       <title>究竟什么算作进步</title>
       <link>https://www.frytea.com/posts/essay/312/</link>
       <pubDate>Tue, 11 Feb 2020 03:37:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/312/</guid>
       <description>常常会在思考，我究竟如何才算做是进步了。若说是进步，仿佛今天和昨天却是没有什么不同，难道自己一直付出换来的全是原地踏步吗？ 就在今天突然灵光乍</description>
-    </item>
-    
-    <item>
-      <title>GitLab 神奇问题之ssl</title>
-      <link>https://www.frytea.com/posts/essay/311/</link>
-      <pubDate>Fri, 07 Feb 2020 02:12:01 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/311/</guid>
-      <description>今天配置 GitLab 时为 GitLab Pages 配置 SSL 总是有问题，大概表现为： 不开启 ssl 就无法让 gitlab pages 实现 https 访问 开启 ssl 后可能无法访问 对设置变更后可能需要重新部署 pages 经过长时间的</description>
-    </item>
-    
-    <item>
-      <title>迁移 GitLab 小记</title>
-      <link>https://www.frytea.com/posts/essay/310/</link>
-      <pubDate>Thu, 06 Feb 2020 19:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/310/</guid>
-      <description>由于服务器到期等因素，需要对 GitLab 进行迁移，在此记下一段历程。 首先要保证迁入和迁出 GitLab 的版本是一致的，使用这一条指令： cat /opt/gitlab/embedded/service/gitlab-rails/VERSION 我的两个服务器输出分别是</description>
-    </item>
-    
-    <item>
-      <title>解决VMeare 安装 Android x86 错误</title>
-      <link>https://www.frytea.com/posts/essay/309/</link>
-      <pubDate>Wed, 05 Feb 2020 22:04:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/309/</guid>
-      <description>今天尝试使用 VMware 安装Android x86 9.0 时出现一个问题。 安装过程参考教程： VMware实现Android x86 8.1 从安装到使用 VMware 安装 Android x86 7.1.2 64 位 安装镜像</description>
     </item>
     
     <item>
@@ -2775,30 +1209,12 @@
     </item>
     
     <item>
-      <title>华为鲲鹏服务器初探</title>
-      <link>https://www.frytea.com/posts/essay/306/</link>
-      <pubDate>Tue, 04 Feb 2020 17:29:21 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/306/</guid>
-      <description>起因 报名了华为云微认证 轻松玩转Kubernetes ，需要一台北京四区的华为云 ECS 做客户机进行实验，发现华为云的 云创校园 活动新推出了鲲鹏云服务器</description>
-    </item>
-    
-    <item>
       <title>论解决问题的心态</title>
       <link>https://www.frytea.com/posts/essay/305/</link>
       <pubDate>Sat, 01 Feb 2020 15:53:43 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/305/</guid>
       <description>就在今天解决了困扰我一个多月的问题，详见博文 告别 Android 开发 “Read timed out”。问题的起因是在自己重新开始开发，配置完环境后，却怎么也无法进行编</description>
-    </item>
-    
-    <item>
-      <title>告别 Android 开发“Read timed out”</title>
-      <link>https://www.frytea.com/posts/essay/304/</link>
-      <pubDate>Sat, 01 Feb 2020 15:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/304/</guid>
-      <description>问题背景 困扰博主近一个月的问题，导致近一个月没办法进行 Android 开发的问题终于解决了！ 问题错误特征 Could not run phased build action using Gradle distribution &#39;https://services.gradle.org/distributions/gradle-5.5.1-all.zip&#39; A problem occurred configuring root project &#39;PlanAssistant&#39;. Could not resolve all artifacts for configuration &#39;:classpath&#39;.</description>
     </item>
     
     <item>
@@ -2811,42 +1227,6 @@
     </item>
     
     <item>
-      <title>基于 Ubuntu 平台安装 OS X 10.15 虚拟机</title>
-      <link>https://www.frytea.com/posts/essay/302/</link>
-      <pubDate>Thu, 30 Jan 2020 20:06:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/302/</guid>
-      <description>OS X 系统启动时会识别计算机主板，针对非苹果电脑拒绝启动，就算是虚拟机，也有天然的限制不可以随便安装 OS X 虚拟机，本文就介绍了在 Ubuntu 平台上使用 VMware Workstation</description>
-    </item>
-    
-    <item>
-      <title>一个方便转存 Google Drive 分享文件的方法</title>
-      <link>https://www.frytea.com/posts/essay/301/</link>
-      <pubDate>Thu, 30 Jan 2020 11:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/301/</guid>
-      <description>用过 Google Drive (以下简称GD) 的朋友们应该都清楚，GD 分享的文件可以一键添加到自己的云盘中，速度很快，一度让我感觉 Google 好牛，但仔细一看会发现这并不是</description>
-    </item>
-    
-    <item>
-      <title>今天，你上云了吗？</title>
-      <link>https://www.frytea.com/posts/essay/300/</link>
-      <pubDate>Fri, 24 Jan 2020 12:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/300/</guid>
-      <description>注：本文部分内容摘自《中国公有云服务市场（2019上半年）跟踪》报告，若有侵权立即删除。作者根据行文逻辑穿插个人理解，若有不当指出还请不吝指</description>
-    </item>
-    
-    <item>
-      <title>这项技术解决了博客访问的大问题</title>
-      <link>https://www.frytea.com/posts/essay/299/</link>
-      <pubDate>Thu, 23 Jan 2020 11:35:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/299/</guid>
-      <description>由于一些原因，我的博客暂时托管在香港某家服务提供商的云主机之上，虽然商家已经尽权力为线路做了优化，但是到达大陆一些地域的访问速度还是不太理想</description>
-    </item>
-    
-    <item>
       <title>【夜思】学会克制</title>
       <link>https://www.frytea.com/posts/essay/298/</link>
       <pubDate>Thu, 23 Jan 2020 00:17:28 +0000</pubDate>
@@ -2856,66 +1236,12 @@
     </item>
     
     <item>
-      <title>版本控制及代码托管平台综述</title>
-      <link>https://www.frytea.com/posts/essay/297/</link>
-      <pubDate>Mon, 20 Jan 2020 00:50:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/297/</guid>
-      <description>版本控制是协助软件开发的重要工具之一，根据维基百科中“版本控制”词条的描述，版本控制（英语：Version control）是维护工程蓝图的标</description>
-    </item>
-    
-    <item>
-      <title>为Linux发行版安装中文字体</title>
-      <link>https://www.frytea.com/posts/essay/296/</link>
-      <pubDate>Thu, 16 Jan 2020 11:17:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/296/</guid>
-      <description>前文提到博主为自己的 ThinkPad E450 安装了一款来自爱尔兰的 Linux/GNU 发行版 作为主力系统使用：这款来自爱尔兰的操作系统真的是爱了。近期需要进行文字处理工作，安装了</description>
-    </item>
-    
-    <item>
       <title>细节决定价值</title>
       <link>https://www.frytea.com/posts/essay/295/</link>
       <pubDate>Sat, 11 Jan 2020 19:55:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/295/</guid>
       <description>此前写过一篇文章用来综述智能手机中的传感器，文章使用 Samsung S9 为主线探究了其携带的各种传感器，最终得出结论：价值，都体现在细节 。 今天为什么又写了一</description>
-    </item>
-    
-    <item>
-      <title>一种高兼容度的通用文档解决方案</title>
-      <link>https://www.frytea.com/posts/essay/294/</link>
-      <pubDate>Thu, 09 Jan 2020 18:12:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/294/</guid>
-      <description>你是否经常遇到这种情况：辛苦调好格式写好的 word 文档到其他人电脑上格式就莫名其妙的乱了；word 和 wps 处理的 docx 文档，不同的软件之间打开就是会出现一</description>
-    </item>
-    
-    <item>
-      <title>这款来自爱尔兰的操作系统真的是爱了</title>
-      <link>https://www.frytea.com/posts/essay/293/</link>
-      <pubDate>Tue, 07 Jan 2020 11:15:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/293/</guid>
-      <description>Zorin OS，是一个基于Ubuntu的GNU/Linux发行版。其目的是尽可能的模拟Windows的操作习惯，让用户可以方便的使用Zorin OS。</description>
-    </item>
-    
-    <item>
-      <title>Typecho 调取随机文章</title>
-      <link>https://www.frytea.com/posts/essay/292/</link>
-      <pubDate>Mon, 06 Jan 2020 20:17:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/292/</guid>
-      <description>想要在博客每一篇博文结束的时候加上几篇博客其他文章，之后找到一个可以实现随机调取制定数量文章的方法，代码来源 博客吧。实现方法很简单，并且可以</description>
-    </item>
-    
-    <item>
-      <title>Typecho插件之飘雪插件</title>
-      <link>https://www.frytea.com/posts/essay/290/</link>
-      <pubDate>Mon, 06 Jan 2020 19:44:17 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/290/</guid>
-      <description>这或许是一个很容易找到的东西，Typecho 博客飘雪花特效插件 Snowstorm，但是很奇怪的，博主好像就是很喜欢雪的那一个。而且每次看到飘</description>
     </item>
     
     <item>
@@ -2952,24 +1278,6 @@
       
       <guid>https://www.frytea.com/posts/essay/286/</guid>
       <description>2020年到来，作为我个人来说并没有太大的感受，或许我比较确定的事情是 我今年的收获并不大。 上句一出便奠定了本文略显消极的风格，作为新年的开篇</description>
-    </item>
-    
-    <item>
-      <title>一种用于Linux 自动更换精美壁纸的方法</title>
-      <link>https://www.frytea.com/posts/essay/285/</link>
-      <pubDate>Thu, 26 Dec 2019 13:13:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/285/</guid>
-      <description>本文介绍一种使用脚本自动获取 Unsplsh 精美图片并设置为桌面的方法，最终效果为命令行使用一条指令达到上述效果。理论上说，本文原理可用于所有 Gnome 桌面环境的</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 安装 Android Studio</title>
-      <link>https://www.frytea.com/posts/essay/284/</link>
-      <pubDate>Tue, 24 Dec 2019 17:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/284/</guid>
-      <description>网上关于 Linux 环境下安装 Android Studio 的教程很多，但是因发行版的不同而异，在这里记录使用官网提供的打包好的安装包安装在 Zorin 系统上并创建快捷方式的方法： 第一步</description>
     </item>
     
     <item>
@@ -3036,15 +1344,6 @@
     </item>
     
     <item>
-      <title>GitLab Pipline 使用 mkdocs 及 docs-material 自动编译生成静态页面并自动提交 GitLab Pages</title>
-      <link>https://www.frytea.com/posts/essay/275/</link>
-      <pubDate>Tue, 03 Dec 2019 18:33:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/275/</guid>
-      <description>又被一个问题折磨疯了，然后又在一个莫名其妙的地方解决了？？？ MkDocs 是一个快速、简单、快捷可用的静态网站生成工具，文档使用 Markdown 书写，并仅需一个 YAML 配置</description>
-    </item>
-    
-    <item>
       <title>直面问题，反对空想</title>
       <link>https://www.frytea.com/posts/essay/274/</link>
       <pubDate>Tue, 03 Dec 2019 11:41:00 +0000</pubDate>
@@ -3063,24 +1362,6 @@
     </item>
     
     <item>
-      <title>Kvm 虚拟机安装 OnlyOffice</title>
-      <link>https://www.frytea.com/posts/essay/272/</link>
-      <pubDate>Sun, 01 Dec 2019 19:22:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/272/</guid>
-      <description>OnlyOffice OnlyOffice 是一个开源的办公套件，由 Ascensio System SIA 公司开发，提供了在线文档编辑、文档管理、文档协作、邮件和项目管理等功能。(WikiPedia) 打开官网可以</description>
-    </item>
-    
-    <item>
-      <title>【GitLab CI/CD】记一个脑残问题  `too large archive`</title>
-      <link>https://www.frytea.com/posts/essay/271/</link>
-      <pubDate>Sun, 01 Dec 2019 00:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/271/</guid>
-      <description>昨天到今天，我终于解决了一个脑残的问题！！ 事情是这样子的，我自己搭建了 GitLab ，并导入了我在 GitHub 所有的仓库，并打算未来就在这里提交我的代码了。一方面</description>
-    </item>
-    
-    <item>
       <title>真的有必要活的这么累吗？</title>
       <link>https://www.frytea.com/posts/essay/270/</link>
       <pubDate>Sat, 30 Nov 2019 20:28:00 +0000</pubDate>
@@ -3090,111 +1371,12 @@
     </item>
     
     <item>
-      <title>GitLab 绑定 GCP 使用 Auto DevOps（可领取GCP $200.00 赠金）</title>
-      <link>https://www.frytea.com/posts/essay/269/</link>
-      <pubDate>Thu, 28 Nov 2019 21:44:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/269/</guid>
-      <description>Auto DevOps provides pre-defined CI/CD configuration which allows you to automatically detect, build, test, deploy, and monitor your applications. Leveraging CI/CD best practices and tools, Auto DevOps aims to simplify the setup and execution of a mature &amp;amp; modern software development lifecycle. GitLab 的 Auto DevOps 是一个亮点，博主对于其特性还不够了解，在此不多谈</description>
-    </item>
-    
-    <item>
-      <title>综述 DevOps </title>
-      <link>https://www.frytea.com/posts/essay/268/</link>
-      <pubDate>Thu, 28 Nov 2019 20:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/268/</guid>
-      <description>DevOps 常见于各大云计算提供商。DevOpe被用于打破开发者和运维者之间的壁垒，目的是缩短软件开发周期并提供高质量的持续集成。 [tip type=&amp;ldquo;info&amp;rdquo; title=&amp;ldquo;DevOps&amp;rdquo;] DevOps is a set of practices that</description>
-    </item>
-    
-    <item>
-      <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/posts/essay/267/</link>
-      <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/267/</guid>
-      <description>DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。 在内网中又</description>
-    </item>
-    
-    <item>
-      <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/posts/essay/266/</link>
-      <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/266/</guid>
-      <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
-    </item>
-    
-    <item>
-      <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/posts/essay/265/</link>
-      <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/265/</guid>
-      <description>自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我： 完整、好用的客户端，</description>
-    </item>
-    
-    <item>
-      <title>解决 MySQL 报错 “ Column count of mysql.user is wrong...”</title>
-      <link>https://www.frytea.com/posts/essay/264/</link>
-      <pubDate>Sat, 23 Nov 2019 20:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/264/</guid>
-      <description>新建 MySQL 账户报错： Column count of mysql.user is wrong. Expected 45, found 43. Created with MySQL 5 错误是由于你曾经升级过数据库，升级完后没有使用mysql_upgrade升级数据结构造成的。 解决</description>
-    </item>
-    
-    <item>
-      <title>NextCloud手动添加文件并列出</title>
-      <link>https://www.frytea.com/posts/essay/263/</link>
-      <pubDate>Sat, 23 Nov 2019 11:08:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/263/</guid>
-      <description>NextCloud 自带的数据目录在列目录时都是通过数据库查询，如果需要手动在磁盘目录上添加文件并使用nextcloud列出就需要手动扫描。 sudo -u www php console.php files:scan --all 这条</description>
-    </item>
-    
-    <item>
-      <title> kvm 虚拟化安装 Ubuntu 18.04 server</title>
-      <link>https://www.frytea.com/posts/essay/262/</link>
-      <pubDate>Sat, 23 Nov 2019 10:37:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/262/</guid>
-      <description>本文续上篇 《裸金属服务器 kvm 虚拟化安装 win10》继续记录使用 KVM 在 Centos 7.5 裸金属服务器上安装 Ubuntu 18.04 Server的过程及遇到的问题。 资源准备 首先要配置</description>
-    </item>
-    
-    <item>
-      <title>裸金属服务器kvm虚拟化安装win10</title>
-      <link>https://www.frytea.com/posts/essay/261/</link>
-      <pubDate>Thu, 21 Nov 2019 16:39:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/261/</guid>
-      <description>受够了小鸡的各种卡顿以及各种套路，就想要一只&amp;quot;大鸡&amp;quot;，趁着双十一的余热购入达州创梦网络的江苏宿迁高防裸金属服务器（一种集</description>
-    </item>
-    
-    <item>
-      <title>【持续集成】Android使用Github Action自动打包并发布Fir.im内测</title>
-      <link>https://www.frytea.com/posts/essay/260/</link>
-      <pubDate>Sun, 17 Nov 2019 21:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/260/</guid>
-      <description>!!! Photo by Mesut Kaya on Unsplash !!! 为什么封面图是一张旅游的照片？因为使用 CI/CD 等工具高效的完成工作，就可以出去玩了！ 前言 GitHub Actions 是 GitHub 官方提供并免费提供给开源仓库使用的</description>
-    </item>
-    
-    <item>
       <title>「更多积极」or「更少消极」</title>
       <link>https://www.frytea.com/posts/essay/249/</link>
       <pubDate>Thu, 14 Nov 2019 20:59:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/249/</guid>
       <description>!!! Photo by Alex Alvarez on Unsplash !!! 午饭时间有幸听到了盐选推荐的《从自我苛求中解放出来》，其中有一句话对我很有启发，这句话是这么说的： 不是凭空追求「更多积极」，</description>
-    </item>
-    
-    <item>
-      <title>从网站建设看中外差异</title>
-      <link>https://www.frytea.com/posts/essay/244/</link>
-      <pubDate>Wed, 13 Nov 2019 17:21:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/244/</guid>
-      <description>!!! Photo by Taras Shypka on Unsplash !!! 今天早晨收到一条短信，顿时从头顶兴奋到脚尖。 网站备案是我一直想要做，但却一直求之不得。从去年（2018）开始建站的那一天起就</description>
     </item>
     
     <item>
@@ -3270,24 +1452,6 @@
     </item>
     
     <item>
-      <title>5 步打造自己的资讯阅读平台</title>
-      <link>https://www.frytea.com/posts/essay/170/</link>
-      <pubDate>Tue, 29 Oct 2019 19:26:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/170/</guid>
-      <description>!!! Photo by Roman Kraft on Unsplash !!! 今天偶然看到一个GitHub仓库，创建者计划制做一个工具，用来连接中文独立博客博主，打造一个面向独立博客的推荐、曝光、资讯互</description>
-    </item>
-    
-    <item>
-      <title>GTD高效工具之 WorkFlowy 推荐</title>
-      <link>https://www.frytea.com/posts/essay/169/</link>
-      <pubDate>Sat, 26 Oct 2019 23:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/169/</guid>
-      <description>!!! [tag outline] Photo by Andrew Neel on Unsplash [/tag] !!! GTD（Getting Things Done / 尽管去做），是一种行为管理的方法，也是戴维·艾伦（英语：David Allen (author)）写的</description>
-    </item>
-    
-    <item>
       <title>【趣味操作】Terminals显示带有酷炫linux标志的基本硬件信息</title>
       <link>https://www.frytea.com/posts/essay/168/</link>
       <pubDate>Mon, 21 Oct 2019 17:39:00 +0000</pubDate>
@@ -3303,15 +1467,6 @@
       
       <guid>https://www.frytea.com/posts/essay/167/</guid>
       <description>!!! [tag outline] Photo by zhao chen on Unsplash [/tag] !!! 去除幻想和传说，回归现实和创造，新天地？旧天地。 我问自己，有没有这么一首歌，满载快乐、幸福、美满、团聚？&amp;hellip</description>
-    </item>
-    
-    <item>
-      <title>泛谈云计算</title>
-      <link>https://www.frytea.com/posts/essay/166/</link>
-      <pubDate>Sun, 13 Oct 2019 19:09:12 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/166/</guid>
-      <description>!!! [tag outline] Photo by Avi Richards on Unsplash [/tag] !!! “大数据与云计算”可谓是当今很火热的两个词，许多相关的竞赛、项目不断捧热这些新型的词汇。但是究竟什么才是云计算，它究竟</description>
     </item>
     
     <item>
@@ -3402,15 +1557,6 @@
       
       <guid>https://www.frytea.com/posts/essay/156/</guid>
       <description>该图片由luthfi pribadi在Pixabay上发布 看到李笑来《人人都能用英语》这本书的那一刻，就像是阴暗之中射进一束光。书里说了不少“</description>
-    </item>
-    
-    <item>
-      <title>The Legend of 1900</title>
-      <link>https://www.frytea.com/posts/essay/155/</link>
-      <pubDate>Tue, 13 Aug 2019 16:26:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/155/</guid>
-      <description>!!! !!! ðə ɛnd əv ðə wərld The end of the world. 在世界的尽头， tek e piæno Take a piano. 轻抚琴键， ðə kiz bɪgɪn ðə kiz ɛnd The keys begin, the keys end. 琴声升起又落下</description>
     </item>
     
     <item>
@@ -3763,121 +1909,6 @@
     </item>
     
     <item>
-      <title>Deepin（Linux）下实现Android投屏</title>
-      <link>https://www.frytea.com/posts/essay/34/</link>
-      <pubDate>Tue, 18 Jun 2019 08:39:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/34/</guid>
-      <description>&lt;h1 id=&#34;deepinlinux下实现android投屏&#34;&gt;Deepin（Linux）下实现Android投屏&lt;/h1&gt;
-&lt;p&gt;最近需要演示自己的安卓开发作品，因此需要在自己的主力操作系统（Deepin）上实现安卓投屏，之后才好连接电脑在班级里演示。找寻一圈之后终于发现了开源的Linux端投屏神器&lt;code&gt;Scrcpy&lt;/code&gt;. 因此在这里简单记录配置过程，方便后用。&lt;/p&gt;
-&lt;p&gt;项目源码：&lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;Scrcpy的GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;简单说明&#34;&gt;简单说明&lt;/h2&gt;
-&lt;p&gt;Scripe支持桌面全平台。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It works on GNU/Linux, Windows and MacOS.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;但是在这里主要记录下Linux下的Deepin系统配置。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My note | 我的笔记本</title>
-      <link>https://www.frytea.com/posts/essay/70/</link>
-      <pubDate>Sun, 16 Jun 2019 00:38:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/70/</guid>
-      <description>&lt;h1 id=&#34;我的笔记本迭代历程&#34;&gt;我的笔记本迭代历程&lt;/h1&gt;
-&lt;p&gt;就在今天，我终于把我的MarkDown笔记迁移到一个令我非常满意的平台上了.好激动!!&lt;/p&gt;
-&lt;h2 id=&#34;缘起&#34;&gt;缘起&lt;/h2&gt;
-&lt;p&gt;究竟是怎么一回事？事情还要从我刚开始讲电脑生产环境切换到Linux说起。在有一天我终于受够了快要被塞满的电脑磁盘后，下定决心要切换系统，思考再三决定不再使用Windows，转而将Linux系统作为我的主要生产系统。主要原因有下面几点：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;windows系统过于繁重。使用半年左右居然就占据了进70GB的体量，还是在我在注册表级别关闭自动更新的前提之下。&lt;/li&gt;
-&lt;li&gt;windows系统在终端程序的支持上弱于Linux&lt;/li&gt;
-&lt;li&gt;Linux系统天生就是开发利器，因为基本所有服务器都运行在Linux平台之上&lt;/li&gt;
-&lt;li&gt;Linux平台开发Android程序具有一定优势&lt;/li&gt;
-&lt;li&gt;合适的Linux系统体量很小，且非常灵活&lt;/li&gt;
-&lt;li&gt;在Linux系统之上具有极大地灵活性，让我免于受到第三方服务商的限制，对于系统可以做到更底层的控制&lt;/li&gt;
-&lt;li&gt;Linux系统相比于Windows系统，中毒的几率更低 ，攻击破坏力更小&lt;/li&gt;
-&lt;li&gt;系统恢复成本更低，数据迁移更灵活&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;由于本文主要打算说明，关于Linux系统的挑选细节在这里不再详述，在这里只需说明在我经过长期的使用体验之后确定了&lt;code&gt;deepin&lt;/code&gt;这一款由国人开发且在国际平台知名的基于&lt;code&gt;debian&lt;/code&gt;的Linux发行版，体验很棒！（如有需要我会在后期分享deepin使用体验）&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Confidence and humility</title>
-      <link>https://www.frytea.com/posts/essay/71/</link>
-      <pubDate>Fri, 14 Jun 2019 20:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/71/</guid>
-      <description>不知道这篇文章能不能发出来。 最近国内外都发生了许许多多的大事情，特别对于世界各地的中华人民来说更是如此。由于做计算机程序开发的特长，我能够看</description>
-    </item>
-    
-    <item>
-      <title>Thinking about the trade war</title>
-      <link>https://www.frytea.com/posts/essay/66/</link>
-      <pubDate>Thu, 06 Jun 2019 16:41:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/66/</guid>
-      <description>作为一个普通的大学生，对于贸易战的理解还仅仅停留在貌似美国又要逼迫中国签订一些不平等条约，这样子表面上的行为上，那么贸易战究竟是怎么一回事呢</description>
-    </item>
-    
-    <item>
-      <title>My shortcomings | 我的不足</title>
-      <link>https://www.frytea.com/posts/essay/69/</link>
-      <pubDate>Sun, 02 Jun 2019 21:23:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/69/</guid>
-      <description>&lt;p&gt;每个人都有自己独特的地方，每个人都有自己擅长的领域；同样的，每个人多多少少可能都会有一些不足的地方。今天借这这不多的时间来谈谈我自己身上的不足，借以提醒自己改进或是加强。&lt;/p&gt;
-&lt;p&gt;活在这世上每个人都有不同的经历，每个人的生活阅历都是不同的，生活因此而显得多姿多彩，正因为如此人与人之间才产生各种各样奇妙的缘分。但也同样的，正因为每个人独特的经历，也许在一些大多数人都经历过的事或者是有人经历过的事自己没有经历过，可能就会造成在某些方面的欠缺。这些细致入微几乎察觉不到的人与人之间的差别常常会在不久的将来以各种各样奇妙的方式影响一个人的一生。就像是人们分析一个人失败的原因常常会说“死都不知道怎么死的”，也许这就是其中的原因之一。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>software engineering Final Review | 软件工程期末复习</title>
-      <link>https://www.frytea.com/posts/essay/96/</link>
-      <pubDate>Sun, 02 Jun 2019 21:18:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/96/</guid>
-      <description>&lt;h1 id=&#34;软件工程复习&#34;&gt;软件工程复习&lt;/h1&gt;
-&lt;h2 id=&#34;more-important&#34;&gt;more important&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;模块独立性&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;模块独立性，是指软件系统中每个模块只涉及软件要求的具体的子功能，而和软件系统中其他模块的接口是简单的。&lt;/li&gt;
-&lt;li&gt;高内聚低耦合&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;类间的关系&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;继承&lt;/li&gt;
-&lt;li&gt;继承关系表示子类重用父类的属性和操作，子类对象也是父类的对象，有时也称父类是子类的泛化。&lt;/li&gt;
-&lt;li&gt;聚集&lt;/li&gt;
-&lt;li&gt;普通聚集关系：一个部件对象可同时参与多个整体对象&lt;/li&gt;
-&lt;li&gt;构成关系：限定一个部件对象在任意时刻只能参与一个整体类的对象，部件对象与整体类对象共存亡&lt;/li&gt;
-&lt;li&gt;关联&lt;/li&gt;
-&lt;li&gt;表示两个类的对象之间存在着用于消息传递的稳定通道。&lt;/li&gt;
-&lt;li&gt;依赖&lt;/li&gt;
-&lt;li&gt;依赖类B的对象需要向被依赖类A的对象传递消息；被依赖类A可作为依赖类B操作的形参类型&lt;/li&gt;
-&lt;li&gt;依赖关系表示临时性的消息传递通道，操作完成通道消失&lt;/li&gt;
-&lt;li&gt;依赖关系是关联关系的弱化，它表示被依赖的类的变化会影响到依赖类。&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Plan energy, supplemented by time</title>
-      <link>https://www.frytea.com/posts/essay/68/</link>
-      <pubDate>Wed, 29 May 2019 17:18:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/68/</guid>
-      <description>&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-&lt;p&gt;I recently continued to develop my visionary planning assistant software through the opportunity of the software engineering course. In the process of software development, experienced many difficulties and tests. In particular, in the process of development, in the process of continuously coordination development and various other things. For the schedule planning, I have some ideas of my own, so i want to writer this article and make a small record.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引语
-最近借着软件工程课程练习的契机，继续开发我梦想中的规划助手软件。在开发的过程中，遇到了许多的困难与考验。特别的，在开发的过程中，在不断的协调开发和其他各种事情过程中，对于日程规划，有了自己的一些小想法，因此我写下了这篇文章，打算进行一个小的记录。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
       <title>五岁的自信</title>
       <link>https://www.frytea.com/posts/essay/77/</link>
       <pubDate>Mon, 27 May 2019 18:46:00 +0000</pubDate>
@@ -3900,67 +1931,12 @@
     </item>
     
     <item>
-      <title>Reading books</title>
-      <link>https://www.frytea.com/posts/essay/67/</link>
-      <pubDate>Sat, 25 May 2019 10:33:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/67/</guid>
-      <description>&lt;p&gt;Maybe reading is the most valuable thing in my life.&lt;/p&gt;
-&lt;h2 id=&#34;reading-brings-me-happiness-from-the-heart&#34;&gt;Reading brings me happiness from the heart&lt;/h2&gt;
-&lt;p&gt;I like reading. And reading brings me happiness from the heart. I need to do a lot of things every day. But how to do things well and quickly? I deem that if my try my utmost to reading, i will do it. By reading i can see a bigger world, i can find that maybe i need. Through such a little accumulation. I have gained a lot of useful knowledge. And when knowledge accumulates to a certain extent, i will achieve a new transformation. Just like before, i will be working quickly and perfect. Not only that, i will be able to do more and more work.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Spatial database</title>
-      <link>https://www.frytea.com/posts/essay/95/</link>
-      <pubDate>Tue, 21 May 2019 14:12:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/95/</guid>
-      <description>A spatial database is a database that is optimized for storing and querying data that represents objects defined in a geometric space. from Wikipedia Through the space database course was completed last semester. But to be honest, i am fail to understand what a space database is. Even though i have always claimed to be using a spatial database. Actually, i am really using a spatial database ,but it was</description>
-    </item>
-    
-    <item>
       <title>为什么而活</title>
       <link>https://www.frytea.com/posts/essay/80/</link>
       <pubDate>Mon, 20 May 2019 14:38:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/80/</guid>
       <description>为什么而活 很抱歉选择了这么一个直截了当引人遐想的题目，只是自己觉得最近非写这个主题不可，因为想到了，确定了一些东西，仅此而已，若有不适还请多</description>
-    </item>
-    
-    <item>
-      <title>智能手机中的传感器</title>
-      <link>https://www.frytea.com/posts/essay/97/</link>
-      <pubDate>Sat, 11 May 2019 22:35:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/97/</guid>
-      <description>&lt;h1 id=&#34;智能手机中的传感器&#34;&gt;智能手机中的传感器&lt;/h1&gt;
-&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
-&lt;p&gt;随着现代信息技术的飞速发展，智能手机已经成为人们生活不可获取的一部分，同时其职能也从一开始的通讯发展到现在的娱乐、社交甚至生产，为了应对人们对手机越老越高的要求，其自身必定要生产的越来越人性化、智能化，而为了实现这一目标，就必定需要更加智能化的传感器支持，今天作者就在这里整理一下互联网及学术平台上开发可以查到的智能手机传感器相关信息，让我们进一步了解手上的这一台智能设备。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Android编程之Navigation项目迁移AndroidX踩坑记录</title>
-      <link>https://www.frytea.com/posts/essay/27/</link>
-      <pubDate>Wed, 08 May 2019 19:19:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/27/</guid>
-      <description>&lt;h1 id=&#34;android编程之navigation项目迁移androidx踩坑记录&#34;&gt;Android编程之Navigation项目迁移AndroidX踩坑记录&lt;/h1&gt;
-&lt;p&gt;androidx 是对 android.support.xxx 包的整理后产物。由于之前的support包过于混乱，所以，google推出了 androidX。&lt;/p&gt;
-&lt;p&gt;在项目迁移AndroidX的过程中遇到一些问题，特别是Navigation抽屉页面迁移的过程中遇到一些问题，跟着网上的教程走完了全程，却总是闪退，原因直指xml布局文件。&lt;/p&gt;
-&lt;p&gt;经过一番斗争，终于完成了Android studio原生Navigation Drawer Activity的AndroidX迁移工作，在这里仅以此为例，记录迁移流程，及注意细节。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/posts/essay/31/</link>
-      <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/31/</guid>
-      <description>&lt;h1 id=&#34;linux下使用rclone挂载网盘到本地&#34;&gt;Linux下使用rclone挂载网盘到本地&lt;/h1&gt;
-&lt;p&gt;Rclone是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;目前Rclone支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone还支持SFTP 、FTP 、HTTP挂载。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -4006,48 +1982,6 @@
 &lt;p&gt;近期有越来越多的同学已经投入考研大军，这是多么感人有吓人的一幕。越来越多的人决定考研，考研大军不断壮大，这意味着有越来越多的人决心深造，为祖国伟大复兴事业贡献自己的力量。&lt;/p&gt;
 &lt;p&gt;随着时间的深入，越来越多的人开始上课不听讲，复习考研内容；随着越来越多的人投入，有越来越多的人前赴后继。多么壮烈，多么坦荡，又是多么的激动人心。&lt;/p&gt;
 &lt;p&gt;就在越来越多的老师告诉同学们&amp;quot;现在可以开始准备考研了～&amp;quot;的时候，同时又听到另外一种声音&amp;quot;现在准备考研就是&amp;rsquo;误入歧途&#39;&amp;quot;。虽说听上去像是一句玩笑话，可就是这样一句话引发了我一些思考，同时也让我有了一些新的想法，坚定了一些东西，于是就有了这篇文章，我决定把自己的这些想法记录下来，供大家批评。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Windows Update服务启动弹出“拒绝访问的解决方案</title>
-      <link>https://www.frytea.com/posts/essay/49/</link>
-      <pubDate>Sat, 13 Apr 2019 22:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/49/</guid>
-      <description>&lt;h1 id=&#34;windows-update服务启动弹出拒绝访问的解决方案&#34;&gt;Windows Update服务启动弹出“拒绝访问的解决方案”&lt;/h1&gt;
-&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
-&lt;p&gt;说起windows自动更新相信这是让很多人又爱又恨的东西，爱在于它可以带给我们更新更安全的系统，让我们的生活添加一些新意；而恨就在于其常常在我们不知情的情况下强行开始更新并运行很久的时间。&lt;/p&gt;
-&lt;p&gt;作者对于windows自动更新忍无可忍，从注册表层关闭了windows自动更新；但是当时年少无知，只图一时爽快，确实很长的一段时间没有再更新，但是当有一天我需要自动更新的时候却发现自动更新的服务怎么也打不开了，具体表现在开启windows update服务会提示拒绝访问&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190413122206.png&#34; alt=&#34;&#34;  /&gt;
-&lt;/p&gt;
-&lt;p&gt;经过多次的探索，终于在今天成功开启了自动更新，并开始了一次漫长的更新，第一次感觉到了自动更新是多麽的开心！！在这里记录下这一过程，会开启，会关闭，才算真正学会这一大法，本文介绍方法反之即可作为彻底禁用自动更新的办法！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>私有vpn搭建工具集合及靠谱的vpn提供商</title>
-      <link>https://www.frytea.com/posts/essay/39/</link>
-      <pubDate>Fri, 12 Apr 2019 20:04:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/39/</guid>
-      <description>经过本人两年多的实际体验，自建 *** 的方式风险、稳定性等都有待考究，并不是由一台海外服务器就能成的，m感时期可能几分钟就没了，因此还是比较推荐 「</description>
-    </item>
-    
-    <item>
-      <title>Win10安装Rational_Rose_2007步骤及安装包下载</title>
-      <link>https://www.frytea.com/posts/essay/45/</link>
-      <pubDate>Thu, 11 Apr 2019 22:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/45/</guid>
-      <description>&lt;p&gt;经典IBM给力软件，UML建模利器，亲身体验，安装步骤及资源全聚合。&lt;/p&gt;
-&lt;h1 id=&#34;win10-安装rational_rose_2007-步骤及安装包下载&#34;&gt;Win10 安装Rational_Rose_2007 步骤及安装包下载&lt;/h1&gt;
-&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
-&lt;p&gt;Rational rose是一款创建UML模型的软件，由于其相对古老，因此安装流程较为曲折，在这里分享自己的安装经历，记录自己，方便他人。&lt;/p&gt;
-&lt;p&gt;安装分为两部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;虚拟光驱工具Alcohol120%的安装&lt;/li&gt;
-&lt;li&gt;Rational rose软件安装包的打开&lt;/li&gt;
-&lt;li&gt;软件安装&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -4141,24 +2075,6 @@
     </item>
     
     <item>
-      <title>vue项目使用axios对接第三方api，并做跨域处理</title>
-      <link>https://www.frytea.com/posts/essay/40/</link>
-      <pubDate>Sun, 17 Mar 2019 17:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/40/</guid>
-      <description>简介 使用vue框架对接第三方接口时，常常使用anxios。 有很多时候你在构建应用时需要访问一个 API 并展示其数据。做这件事的方法有好几种，而使用</description>
-    </item>
-    
-    <item>
-      <title>私人网盘搭建之centos下安装cloudreve</title>
-      <link>https://www.frytea.com/posts/essay/29/</link>
-      <pubDate>Fri, 15 Mar 2019 13:10:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/29/</guid>
-      <description>简介 cloudreve是基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。 主页 | 论坛 | 演示站 | QQ群 支持的存储</description>
-    </item>
-    
-    <item>
       <title>我想去贝克街221B</title>
       <link>https://www.frytea.com/posts/essay/78/</link>
       <pubDate>Wed, 13 Mar 2019 19:26:00 +0000</pubDate>
@@ -4168,84 +2084,12 @@
     </item>
     
     <item>
-      <title>Centos系统安装docker</title>
-      <link>https://www.frytea.com/posts/essay/37/</link>
-      <pubDate>Tue, 12 Mar 2019 11:13:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/37/</guid>
-      <description>主要步骤 1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。 通过 uname -r 命令查看你当前的内核版</description>
-    </item>
-    
-    <item>
-      <title>Vue项目使用经验积累</title>
-      <link>https://www.frytea.com/posts/essay/42/</link>
-      <pubDate>Tue, 12 Mar 2019 10:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/42/</guid>
-      <description>参考文献 vue 引入自定义js方法并调用 在vue项目中使用地图api,在vue-cli搭建的项目中使用高德地图定位 Vue - 监听文本框数据的三种方法</description>
-    </item>
-    
-    <item>
       <title>我宁愿多“失败”几次</title>
       <link>https://www.frytea.com/posts/essay/79/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/79/</guid>
       <description>你“2”或者不“2”，它就在那里。 你做或者不做，世界不停运转。 该走过的路，该爬出来的坑，一个也躲不了。 该遇到的阻力，该冲破的屏障，它们就在那</description>
-    </item>
-    
-    <item>
-      <title>Vue项目api加载json文件</title>
-      <link>https://www.frytea.com/posts/essay/44/</link>
-      <pubDate>Sun, 10 Mar 2019 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/44/</guid>
-      <description>概述 在vue项目开发过程中，免不了的要进行api接口的调用，当后端接口未搭建完成时，可以使用json文件模拟数据调用来搭建功能，同时有一些相</description>
-    </item>
-    
-    <item>
-      <title>获取指定尺寸随机美图 </title>
-      <link>https://www.frytea.com/posts/essay/51/</link>
-      <pubDate>Sat, 09 Mar 2019 11:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/51/</guid>
-      <description>简介 unsplash是一个美图资源站点，站点提供大量高质量美图，重点突出，极其美丽，是获取资源的不二选择，同时该站点还提供了一系列接口，在这</description>
-    </item>
-    
-    <item>
-      <title>Vue项目使用leaflet&#43;heatmap.js加载热力图</title>
-      <link>https://www.frytea.com/posts/essay/41/</link>
-      <pubDate>Sat, 09 Mar 2019 00:29:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/41/</guid>
-      <description>概述 最近做数字工程实践涉及到大量的地图操作，刚开始跳过依赖于supermap iclient for JavaScript，但是越做深入越发现局限性太大，于是开始</description>
-    </item>
-    
-    <item>
-      <title>Vue项目使用Vue2Leaflet插件实现地图显示</title>
-      <link>https://www.frytea.com/posts/essay/43/</link>
-      <pubDate>Sun, 03 Mar 2019 18:47:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/43/</guid>
-      <description>简介 vue是一个渐进式javascript框架，用来快速构建网页项目，在vue框架之上结构化leaflet地图库的产物vue2leaflet</description>
-    </item>
-    
-    <item>
-      <title>Windows下纯控制台配置vue环境并创建第一个vue项目</title>
-      <link>https://www.frytea.com/posts/essay/48/</link>
-      <pubDate>Fri, 01 Mar 2019 09:50:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/48/</guid>
-      <description>概述 本文叙述如何在windows环境下完全使用cmd控制台配置vue环境并使用控制台创建vue项目，最终使用webstorm运行。 环境配置 第</description>
-    </item>
-    
-    <item>
-      <title>WebStorm中使用Git同步代码到Github</title>
-      <link>https://www.frytea.com/posts/essay/47/</link>
-      <pubDate>Wed, 27 Feb 2019 10:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/47/</guid>
-      <description>WebStorm下配置GitHub实现代码同步 项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现</description>
     </item>
     
     <item>
@@ -4264,51 +2108,6 @@
       
       <guid>https://www.frytea.com/posts/essay/94/</guid>
       <description>最近考虫赠送了重塑思维的十五讲，尚龙老师主讲的课程，今天讲到了【和家人和睦相处的法则】这一讲，感触良多，分享出来自己的笔记以及自己的想法。 3</description>
-    </item>
-    
-    <item>
-      <title>Hexo在GitHub及gitee配置小记</title>
-      <link>https://www.frytea.com/posts/essay/56/</link>
-      <pubDate>Fri, 22 Feb 2019 15:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/56/</guid>
-      <description>问题小记 hexo d操作后将源代码上传而不是上传静态网页 解决方案是设置git账户， $ git config --global user.name &amp;quot;liuxianan&amp;quot;// 你的github用户名，非昵称 $ git config --global user.email &amp;quot;xxx@qq.com&amp;quot;// 填写你的gi</description>
-    </item>
-    
-    <item>
-      <title>网页版终端webssh2配置</title>
-      <link>https://www.frytea.com/posts/essay/33/</link>
-      <pubDate>Thu, 21 Feb 2019 18:17:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/33/</guid>
-      <description>开源项目webssh2可以实现浏览器访问终端，参照网上教程实践后，记录步骤如下： 安装NVM curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash source ~/.bashrc 安装稳定版node.js nvm ls-remote --lts 查询最</description>
-    </item>
-    
-    <item>
-      <title>Markdown语法</title>
-      <link>https://www.frytea.com/posts/essay/58/</link>
-      <pubDate>Thu, 21 Feb 2019 15:46:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/58/</guid>
-      <description>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。因为其简单的语法及强大的</description>
-    </item>
-    
-    <item>
-      <title>Linux后台运行hexo</title>
-      <link>https://www.frytea.com/posts/essay/50/</link>
-      <pubDate>Thu, 21 Feb 2019 15:22:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/50/</guid>
-      <description>hexo是一个非常高效的博客，但由于其设计特点，目的是为了转换为静态页面，因此不必要一直在后台运行，但是我想随时随地写博客同步到github</description>
-    </item>
-    
-    <item>
-      <title>Hexo右上角添加GitHub Corner</title>
-      <link>https://www.frytea.com/posts/essay/52/</link>
-      <pubDate>Thu, 21 Feb 2019 13:46:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/52/</guid>
-      <description>使用hexo主题及github发布了博客，想在现有博客上添加一个github corner，于是使用下面的方法，由于我只想在主页添加，于是在主</description>
     </item>
     
     <item>
@@ -4366,51 +2165,12 @@
     </item>
     
     <item>
-      <title>使用aria2实现离线下载</title>
-      <link>https://www.frytea.com/posts/essay/36/</link>
-      <pubDate>Wed, 23 Jan 2019 21:56:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/36/</guid>
-      <description>迅雷、百度网盘等的下载工具体验是越来越差了。作为一家独大的下载工具迅雷虽然其下载能力一流，但商业化太过严重，即使开通会员也不能保证一个稳定的</description>
-    </item>
-    
-    <item>
       <title>不满足型人格</title>
       <link>https://www.frytea.com/posts/essay/90/</link>
       <pubDate>Tue, 22 Jan 2019 22:16:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/90/</guid>
       <description>题目叫做不满足型人格，并不是对身边人的吐槽，而更多的是对于自己的一些反思，喜欢抱怨身边各种不满意的我今天才突然发现其实最不完美的是自己。 还记</description>
-    </item>
-    
-    <item>
-      <title>Android 集成腾讯定位</title>
-      <link>https://www.frytea.com/posts/essay/28/</link>
-      <pubDate>Thu, 17 Jan 2019 23:44:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/28/</guid>
-      <description>&lt;h1 id=&#34;android-集成腾讯定位&#34;&gt;Android 集成腾讯定位&lt;/h1&gt;
-&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
-&lt;p&gt;在安卓软件开发过程中需要用到定位，在对比了国内比较知名的三种：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;高德定位&lt;/li&gt;
-&lt;li&gt;百度定位&lt;/li&gt;
-&lt;li&gt;腾讯定位&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;后选择了第三种，腾讯定位，原因主要是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;支持获取WGS-84坐标&lt;/li&gt;
-&lt;li&gt;支持网络定位&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Wordpress邮件通知插件Notification使用小记</title>
-      <link>https://www.frytea.com/posts/essay/55/</link>
-      <pubDate>Thu, 17 Jan 2019 15:39:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/55/</guid>
-      <description>Notification是wordpress上一款功能强劲的插件，可以实现wordpress各种事件的邮件通知功能，更可以根据自己的实际需求</description>
     </item>
     
     <item>
@@ -4441,111 +2201,12 @@
     </item>
     
     <item>
-      <title>ArcGis综合运用实践</title>
-      <link>https://www.frytea.com/posts/essay/46/</link>
-      <pubDate>Tue, 15 Jan 2019 17:46:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/46/</guid>
-      <description>准备工作 环境：windows 10 home 软件：Arcgis 10.5 数据： （1）新乡市矢量边界 （2）包含新乡及周边的dem高程数据 （3）新乡市多波段合成遥感</description>
-    </item>
-    
-    <item>
       <title>《西南联大》之八音合奏读后感</title>
       <link>https://www.frytea.com/posts/essay/108/</link>
       <pubDate>Tue, 15 Jan 2019 14:14:00 +0000</pubDate>
       
       <guid>https://www.frytea.com/posts/essay/108/</guid>
       <description>今日观看纪录片《西南联大》第一集，西南联大，感触良多，一个关键词则为西南联大之团结合作，互相退让令人感触良多。 本片的第一集《八音合奏》围绕北</description>
-    </item>
-    
-    <item>
-      <title>Wordpress评论区爆炸特效</title>
-      <link>https://www.frytea.com/posts/essay/54/</link>
-      <pubDate>Tue, 15 Jan 2019 10:26:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/54/</guid>
-      <description>一直羡慕别人的博客输入有这样一个特效，想自己做一个，终于在这个博客找到了解决方案，于是尝试一下成功了！ WordPress优化：给博客添加评论</description>
-    </item>
-    
-    <item>
-      <title>Linux 常用命令</title>
-      <link>https://www.frytea.com/posts/essay/38/</link>
-      <pubDate>Mon, 14 Jan 2019 20:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/38/</guid>
-      <description>Linux常用命令 端口占用查询 netstat -apn Centos查看端口占用情况命令 比如查看80端口占用情况使用如下命令： lsof -i tcp:80 列出所有端口 netstat -ntlp 程序归属（ma</description>
-    </item>
-    
-    <item>
-      <title>vps使用Shadowsocks搭建vpn</title>
-      <link>https://www.frytea.com/posts/essay/30/</link>
-      <pubDate>Sat, 12 Jan 2019 11:52:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/30/</guid>
-      <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的vpn经历无一不遇奸商！于是下决心搭建自己的vpn！就在今天，vpn终于搭建成功</description>
-    </item>
-    
-    <item>
-      <title>Wordpress鼠标指针样式自定义</title>
-      <link>https://www.frytea.com/posts/essay/53/</link>
-      <pubDate>Sat, 12 Jan 2019 00:55:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/53/</guid>
-      <description>继续折腾自己的博客！ 今天要做的事自定义鼠标样式！需要做的是增加css样式！ 第一步：选择鼠标样式，最好是两个状态，正常和链接，即普通的箭头和小</description>
-    </item>
-    
-    <item>
-      <title>Wordpress鼠标点击出现爱心</title>
-      <link>https://www.frytea.com/posts/essay/60/</link>
-      <pubDate>Sat, 12 Jan 2019 00:37:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/60/</guid>
-      <description>同上文，眼馋各大博主博客令人眼前一亮的设计，想要给自己博客也打扮打扮，今天就来弄弄鼠标点击出现爱心的效果吧！ 采用了代码方式实现，很简单： 第一</description>
-    </item>
-    
-    <item>
-      <title>Wordpress 添加下雪特效</title>
-      <link>https://www.frytea.com/posts/essay/59/</link>
-      <pubDate>Fri, 11 Jan 2019 23:48:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/59/</guid>
-      <description>最近非常热衷于逛博客，各大博主博客都非常出彩，弄得我心里面痒痒的也想弄，就先从一个下雪效果开始吧！ 在网上找了很多资料，最后找到一个非常靠谱的</description>
-    </item>
-    
-    <item>
-      <title>Wordpress自动推送新文章收录百度</title>
-      <link>https://www.frytea.com/posts/essay/57/</link>
-      <pubDate>Fri, 11 Jan 2019 23:14:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/57/</guid>
-      <description>百度站长工具提供了很多种页面收录方式，在百度资源搜索平台提供了多种提交方式，比如自动提交，手动提交，以及sitemap。 百度资源搜索平台：h</description>
-    </item>
-    
-    <item>
-      <title>Wordpress检测文章手否被百度收录</title>
-      <link>https://www.frytea.com/posts/essay/61/</link>
-      <pubDate>Fri, 11 Jan 2019 22:38:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/61/</guid>
-      <description>开通博客后就痴迷于让更多的人看到自己的博客，在百度搜索资源提交链接，又配置了文章自动提交百度的代码，还是想知道文章是否被百度收录，于是找到了</description>
-    </item>
-    
-    <item>
-      <title>私人网盘nextcloud配置问题解决</title>
-      <link>https://www.frytea.com/posts/essay/32/</link>
-      <pubDate>Thu, 10 Jan 2019 11:29:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/32/</guid>
-      <description>安装流程 配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。 博文跳转:https://www.vp</description>
-    </item>
-    
-    <item>
-      <title>DirectoryLister搭建个人资源分享站点及私人云盘搭建小记</title>
-      <link>https://www.frytea.com/posts/essay/35/</link>
-      <pubDate>Tue, 08 Jan 2019 22:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/35/</guid>
-      <description>喜大普奔！本站开通了资源共享站点及私人云盘！ 简直是好一通折腾，故事说来话长，本文主要谈谈私人共享站点搭建过程中遇到的问题及体会 引言 一直想要搭</description>
     </item>
     
     <item>
@@ -4591,17 +2252,6 @@
       
       <guid>https://www.frytea.com/posts/essay/99/</guid>
       <description>会议时间：2018年12月28日 会议地点：郑州大学 会议主题：地图与空间认知 会议议程： 地图与空间认知的邂逅——高俊院士 地图理解和空间认知-人和</description>
-    </item>
-    
-    <item>
-      <title>智能生活管家项目之一-系统简介 </title>
-      <link>https://www.frytea.com/posts/essay/26/</link>
-      <pubDate>Tue, 04 Dec 2018 02:30:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/26/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;用“智能”决策生活，篆刻生活印记&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;随着技术的发展和人类的进步，人们的生活节奏越来越快，每一天都淹没在“数据”的海洋中。我们在享受先进技术、快捷网络以及城市便捷性的同时，越来越追求精神层面的享受。但同样的，在我们中常常会有一些人，他们难以适应日新月异的快节奏生活，于是越来越多的面对这个忙碌的世界感到迷茫，不知道一天都做了什么，不知道一天这么多事情该如何处理。随着时代的发展，我们每一天都有越来越多的事情等待完成，人们的步伐越来越快，渐渐的忘记了我们去过那里，忘记了我们去做过什么，忽略了我们的生活结构是怎样。“复盘”是帮助一个人进步很好的方式，但快节奏的生活让越来越多的人忘记了自己的轨迹，更难以去优化自己的生活轨迹；换句话说，我们将自己有限的精力放在了更重要的地方，可记录并优化生活结构这样非常有助于我们提高生活效率的方式却常常无法完成。
-于是，我们想到了开发“智能生活管家”系统，以用户APP的方式和用户交互并提供相关功能，我们希望将自己所学专业知识，运用到实际生活中，甚至能够帮助人们更好的生活！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -4656,15 +2306,6 @@
       
       <guid>https://www.frytea.com/posts/essay/105/</guid>
       <description>读《山茶文具店》的这段日子，心里日常被温暖包围。无论发生了什么，睡前读几页书，可以感觉到从内而外的温暖。这真是一本好书，好到最后读到98%，</description>
-    </item>
-    
-    <item>
-      <title>使用滴答清单的一点小体会</title>
-      <link>https://www.frytea.com/posts/essay/63/</link>
-      <pubDate>Sun, 14 Oct 2018 00:42:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/posts/essay/63/</guid>
-      <description>滴答清单是一款专注于个人时间管理的功能强大的软件，基于各种例如时间四象限、番茄钟等理论开发功能，从去年大概是六七月份开始使用，如今已经一年有</description>
     </item>
     
     <item>

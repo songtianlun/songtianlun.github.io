@@ -13,37 +13,37 @@
     <lastBuildDate>Sat, 01 Feb 2020 15:34:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>告别 Android 开发“Read timed out”</title>
-      <link>https://www.frytea.com/posts/essay/304/</link>
+      <link>https://www.frytea.com/technology/others/304/</link>
       <pubDate>Sat, 01 Feb 2020 15:34:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/304/</guid>
+      <guid>https://www.frytea.com/technology/others/304/</guid>
       <description>问题背景 困扰博主近一个月的问题，导致近一个月没办法进行 Android 开发的问题终于解决了！ 问题错误特征 Could not run phased build action using Gradle distribution &#39;https://services.gradle.org/distributions/gradle-5.5.1-all.zip&#39; A problem occurred configuring root project &#39;PlanAssistant&#39;. Could not resolve all artifacts for configuration &#39;:classpath&#39;.</description>
     </item>
     
     <item>
       <title>Ubuntu 安装 Android Studio</title>
-      <link>https://www.frytea.com/posts/essay/284/</link>
+      <link>https://www.frytea.com/technology/others/284/</link>
       <pubDate>Tue, 24 Dec 2019 17:25:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/284/</guid>
+      <guid>https://www.frytea.com/technology/others/284/</guid>
       <description>网上关于 Linux 环境下安装 Android Studio 的教程很多，但是因发行版的不同而异，在这里记录使用官网提供的打包好的安装包安装在 Zorin 系统上并创建快捷方式的方法： 第一步</description>
     </item>
     
     <item>
       <title>【持续集成】Android使用Github Action自动打包并发布Fir.im内测</title>
-      <link>https://www.frytea.com/posts/essay/260/</link>
+      <link>https://www.frytea.com/technology/others/260/</link>
       <pubDate>Sun, 17 Nov 2019 21:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/260/</guid>
+      <guid>https://www.frytea.com/technology/others/260/</guid>
       <description>!!! Photo by Mesut Kaya on Unsplash !!! 为什么封面图是一张旅游的照片？因为使用 CI/CD 等工具高效的完成工作，就可以出去玩了！ 前言 GitHub Actions 是 GitHub 官方提供并免费提供给开源仓库使用的</description>
     </item>
     
     <item>
       <title>Deepin（Linux）下实现Android投屏</title>
-      <link>https://www.frytea.com/posts/essay/34/</link>
+      <link>https://www.frytea.com/technology/others/34/</link>
       <pubDate>Tue, 18 Jun 2019 08:39:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/34/</guid>
+      <guid>https://www.frytea.com/technology/others/34/</guid>
       <description>&lt;h1 id=&#34;deepinlinux下实现android投屏&#34;&gt;Deepin（Linux）下实现Android投屏&lt;/h1&gt;
 &lt;p&gt;最近需要演示自己的安卓开发作品，因此需要在自己的主力操作系统（Deepin）上实现安卓投屏，之后才好连接电脑在班级里演示。找寻一圈之后终于发现了开源的Linux端投屏神器&lt;code&gt;Scrcpy&lt;/code&gt;. 因此在这里简单记录配置过程，方便后用。&lt;/p&gt;
 &lt;p&gt;项目源码：&lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;Scrcpy的GitHub&lt;/a&gt;&lt;/p&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>Android编程之Navigation项目迁移AndroidX踩坑记录</title>
-      <link>https://www.frytea.com/posts/essay/27/</link>
+      <link>https://www.frytea.com/technology/others/27/</link>
       <pubDate>Wed, 08 May 2019 19:19:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/27/</guid>
+      <guid>https://www.frytea.com/technology/others/27/</guid>
       <description>&lt;h1 id=&#34;android编程之navigation项目迁移androidx踩坑记录&#34;&gt;Android编程之Navigation项目迁移AndroidX踩坑记录&lt;/h1&gt;
 &lt;p&gt;androidx 是对 android.support.xxx 包的整理后产物。由于之前的support包过于混乱，所以，google推出了 androidX。&lt;/p&gt;
 &lt;p&gt;在项目迁移AndroidX的过程中遇到一些问题，特别是Navigation抽屉页面迁移的过程中遇到一些问题，跟着网上的教程走完了全程，却总是闪退，原因直指xml布局文件。&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>智能生活管家项目之一-系统简介 </title>
-      <link>https://www.frytea.com/posts/essay/26/</link>
+      <link>https://www.frytea.com/technology/others/26/</link>
       <pubDate>Tue, 04 Dec 2018 02:30:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/26/</guid>
+      <guid>https://www.frytea.com/technology/others/26/</guid>
       <description>&lt;p&gt;&lt;strong&gt;用“智能”决策生活，篆刻生活印记&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;随着技术的发展和人类的进步，人们的生活节奏越来越快，每一天都淹没在“数据”的海洋中。我们在享受先进技术、快捷网络以及城市便捷性的同时，越来越追求精神层面的享受。但同样的，在我们中常常会有一些人，他们难以适应日新月异的快节奏生活，于是越来越多的面对这个忙碌的世界感到迷茫，不知道一天都做了什么，不知道一天这么多事情该如何处理。随着时代的发展，我们每一天都有越来越多的事情等待完成，人们的步伐越来越快，渐渐的忘记了我们去过那里，忘记了我们去做过什么，忽略了我们的生活结构是怎样。“复盘”是帮助一个人进步很好的方式，但快节奏的生活让越来越多的人忘记了自己的轨迹，更难以去优化自己的生活轨迹；换句话说，我们将自己有限的精力放在了更重要的地方，可记录并优化生活结构这样非常有助于我们提高生活效率的方式却常常无法完成。
 于是，我们想到了开发“智能生活管家”系统，以用户APP的方式和用户交互并提供相关功能，我们希望将自己所学专业知识，运用到实际生活中，甚至能够帮助人们更好的生活！&lt;/p&gt;</description>

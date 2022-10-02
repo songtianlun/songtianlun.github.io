@@ -13,82 +13,82 @@
     <lastBuildDate>Fri, 19 Jun 2020 16:32:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cisco PT 案例九：单臂路由</title>
-      <link>https://www.frytea.com/posts/essay/350/</link>
+      <link>https://www.frytea.com/technology/others/350/</link>
       <pubDate>Fri, 19 Jun 2020 16:32:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/350/</guid>
+      <guid>https://www.frytea.com/technology/others/350/</guid>
       <description>单臂路由（router-on-a-stick）是指在路由器的一个接口上通过配置子接口（或“逻辑接口”，并不存在真正物理接口）的方式，实现原来</description>
     </item>
     
     <item>
       <title>Cisco PT  案例八：配置基本ACL访问控制</title>
-      <link>https://www.frytea.com/posts/essay/349/</link>
+      <link>https://www.frytea.com/technology/others/349/</link>
       <pubDate>Fri, 19 Jun 2020 09:52:23 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/349/</guid>
+      <guid>https://www.frytea.com/technology/others/349/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置F0/1接口IP： R1(config)#interface fastEthernet 0/1 //进入Fa0/1 R1(config-if)#ip address 172.16.1.1 255.255.255.0 //配置IP R1(config-if)#no shutdown //开启端口 ** 配置F0</description>
     </item>
     
     <item>
       <title>Cisco PT 案例七：配置链路聚合 / 负载均衡</title>
-      <link>https://www.frytea.com/posts/essay/348/</link>
+      <link>https://www.frytea.com/technology/others/348/</link>
       <pubDate>Fri, 19 Jun 2020 09:51:53 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/348/</guid>
+      <guid>https://www.frytea.com/technology/others/348/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 配置交换机0 Switch&amp;gt;enable Switch#configure terminal Switch(config)#hostname SA （更改交换机名字） SA(config)#interface port-channel 1 （聚合通道1） SA(config-if)#exit SA(config)#interface fa0/22 SA(config-if)#channel-group 1 mode on （开启聚合通道1）</description>
     </item>
     
     <item>
       <title>Cisco PT 案例六：交换机端口与Mac地址绑定</title>
-      <link>https://www.frytea.com/posts/essay/347/</link>
+      <link>https://www.frytea.com/technology/others/347/</link>
       <pubDate>Fri, 19 Jun 2020 09:51:04 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/347/</guid>
+      <guid>https://www.frytea.com/technology/others/347/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 1、进入相应的接口 （以端口1设置Mac地址绑定，PC0接1端口举例） Switch&amp;gt;enable Switch#config Configuring from terminal, memory, or network [terminal]? Enter configuration commands,</description>
     </item>
     
     <item>
       <title>Cisco PT 案例五：VLAN（Trunk模式实践）</title>
-      <link>https://www.frytea.com/posts/essay/346/</link>
+      <link>https://www.frytea.com/technology/others/346/</link>
       <pubDate>Fri, 19 Jun 2020 09:50:29 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/346/</guid>
+      <guid>https://www.frytea.com/technology/others/346/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3，财务部对应VLAN 2，销售部对应VLAN 3 将部门PC对应</description>
     </item>
     
     <item>
       <title>Cisco PT 案例四：VLAN（Access模式实践）</title>
-      <link>https://www.frytea.com/posts/essay/345/</link>
+      <link>https://www.frytea.com/technology/others/345/</link>
       <pubDate>Fri, 19 Jun 2020 09:49:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/345/</guid>
+      <guid>https://www.frytea.com/technology/others/345/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 实验步骤 创建VLAN 2和VLAN 3 将部门PC对应端口划分到相应的VLAN中 PC设置 192.168.1.2 //PC0 192.168.1.3 //PC1 192.168.1.4</description>
     </item>
     
     <item>
       <title>Cisco PT 案例三：端口使能/禁用</title>
-      <link>https://www.frytea.com/posts/essay/344/</link>
+      <link>https://www.frytea.com/technology/others/344/</link>
       <pubDate>Fri, 19 Jun 2020 09:48:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/344/</guid>
+      <guid>https://www.frytea.com/technology/others/344/</guid>
       <description>环境 Cisco Packet Tracer 5.3 Windows 10 操作 操作：按照如图所示连接拓扑图 # 进入特权模式 Switch&amp;gt;enable # 进入全局配置模式 Switch#configure terminal Enter configuration commands, one per line. End with CNTL/Z. Switch(config)# # 进入端口 Switch(config)#interface FastEthernet0/1 Switch(config-if)# # 禁用 Switch(config-if)#shutdown %LINK-5-CHANGED: Interface FastEthernet0/1, changed state</description>
     </item>
     
     <item>
       <title>Cisco PT 案例二：为路由器配置并连接SSH</title>
-      <link>https://www.frytea.com/posts/essay/343/</link>
+      <link>https://www.frytea.com/technology/others/343/</link>
       <pubDate>Fri, 19 Jun 2020 09:47:49 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/343/</guid>
+      <guid>https://www.frytea.com/technology/others/343/</guid>
       <description>1. 案例目标 通过本案例，你可以掌握如下技能： 配置 SSH 使用 SSH 访问路由器 2. 背景知识 过去对路由器的远程管理访问一般使用 TCP 端口 23 上的 Telnet。但 Telnet 是</description>
     </item>
     
     <item>
       <title>Cisco PT案例一：为交换机配置并连接TELNET</title>
-      <link>https://www.frytea.com/posts/essay/342/</link>
+      <link>https://www.frytea.com/technology/others/342/</link>
       <pubDate>Fri, 19 Jun 2020 09:42:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/342/</guid>
+      <guid>https://www.frytea.com/technology/others/342/</guid>
       <description>Telnet协议是TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式。它为用户提供了在本地计算机上完成远程主机工</description>
     </item>
     
@@ -382,10 +382,10 @@
     
     <item>
       <title>software engineering Final Review | 软件工程期末复习</title>
-      <link>https://www.frytea.com/posts/essay/96/</link>
+      <link>https://www.frytea.com/technology/others/96/</link>
       <pubDate>Sun, 02 Jun 2019 21:18:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/96/</guid>
+      <guid>https://www.frytea.com/technology/others/96/</guid>
       <description>&lt;h1 id=&#34;软件工程复习&#34;&gt;软件工程复习&lt;/h1&gt;
 &lt;h2 id=&#34;more-important&#34;&gt;more important&lt;/h2&gt;
 &lt;ol&gt;
@@ -415,19 +415,19 @@
     
     <item>
       <title>Spatial database</title>
-      <link>https://www.frytea.com/posts/essay/95/</link>
+      <link>https://www.frytea.com/technology/others/95/</link>
       <pubDate>Tue, 21 May 2019 14:12:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/95/</guid>
+      <guid>https://www.frytea.com/technology/others/95/</guid>
       <description>A spatial database is a database that is optimized for storing and querying data that represents objects defined in a geometric space. from Wikipedia Through the space database course was completed last semester. But to be honest, i am fail to understand what a space database is. Even though i have always claimed to be using a spatial database. Actually, i am really using a spatial database ,but it was</description>
     </item>
     
     <item>
       <title>智能手机中的传感器</title>
-      <link>https://www.frytea.com/posts/essay/97/</link>
+      <link>https://www.frytea.com/technology/others/97/</link>
       <pubDate>Sat, 11 May 2019 22:35:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/97/</guid>
+      <guid>https://www.frytea.com/technology/others/97/</guid>
       <description>&lt;h1 id=&#34;智能手机中的传感器&#34;&gt;智能手机中的传感器&lt;/h1&gt;
 &lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 &lt;p&gt;随着现代信息技术的飞速发展，智能手机已经成为人们生活不可获取的一部分，同时其职能也从一开始的通讯发展到现在的娱乐、社交甚至生产，为了应对人们对手机越老越高的要求，其自身必定要生产的越来越人性化、智能化，而为了实现这一目标，就必定需要更加智能化的传感器支持，今天作者就在这里整理一下互联网及学术平台上开发可以查到的智能手机传感器相关信息，让我们进一步了解手上的这一台智能设备。&lt;/p&gt;</description>

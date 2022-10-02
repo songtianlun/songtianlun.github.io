@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 10 Aug 2021 11:25:36 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一键修改Windows远程桌面（RDP）端口号</title>
-      <link>https://www.frytea.com/posts/essay/555/</link>
+      <link>https://www.frytea.com/technology/others/555/</link>
       <pubDate>Tue, 10 Aug 2021 11:25:36 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/555/</guid>
+      <guid>https://www.frytea.com/technology/others/555/</guid>
       <description>本文主要内容来微软官方文档，命令未 PowerShell 命令，管理员权限运行，最后给出链接。 若要查看当前 RDP 端口，可使用以下 PowerShell 命令： Get-ItemProperty -Path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp&amp;#39; -name &amp;#34;PortNumber&amp;#34; 若要修改 RDP 端口，可</description>
     </item>
     

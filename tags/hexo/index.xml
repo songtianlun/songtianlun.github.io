@@ -13,28 +13,28 @@
     <lastBuildDate>Fri, 22 Feb 2019 15:51:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hexo在GitHub及gitee配置小记</title>
-      <link>https://www.frytea.com/posts/essay/56/</link>
+      <link>https://www.frytea.com/technology/others/56/</link>
       <pubDate>Fri, 22 Feb 2019 15:51:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/56/</guid>
+      <guid>https://www.frytea.com/technology/others/56/</guid>
       <description>问题小记 hexo d操作后将源代码上传而不是上传静态网页 解决方案是设置git账户， $ git config --global user.name &amp;quot;liuxianan&amp;quot;// 你的github用户名，非昵称 $ git config --global user.email &amp;quot;xxx@qq.com&amp;quot;// 填写你的gi</description>
     </item>
     
     <item>
       <title>Linux后台运行hexo</title>
-      <link>https://www.frytea.com/posts/essay/50/</link>
+      <link>https://www.frytea.com/technology/others/50/</link>
       <pubDate>Thu, 21 Feb 2019 15:22:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/50/</guid>
+      <guid>https://www.frytea.com/technology/others/50/</guid>
       <description>hexo是一个非常高效的博客，但由于其设计特点，目的是为了转换为静态页面，因此不必要一直在后台运行，但是我想随时随地写博客同步到github</description>
     </item>
     
     <item>
       <title>Hexo右上角添加GitHub Corner</title>
-      <link>https://www.frytea.com/posts/essay/52/</link>
+      <link>https://www.frytea.com/technology/others/52/</link>
       <pubDate>Thu, 21 Feb 2019 13:46:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/52/</guid>
+      <guid>https://www.frytea.com/technology/others/52/</guid>
       <description>使用hexo主题及github发布了博客，想在现有博客上添加一个github corner，于是使用下面的方法，由于我只想在主页添加，于是在主</description>
     </item>
     

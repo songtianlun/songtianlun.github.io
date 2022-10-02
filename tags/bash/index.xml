@@ -13,10 +13,10 @@
     <lastBuildDate>Sat, 18 Sep 2021 17:35:23 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自动递归下载依赖 deb 包 bash 脚本</title>
-      <link>https://www.frytea.com/posts/essay/575/</link>
+      <link>https://www.frytea.com/technology/others/575/</link>
       <pubDate>Sat, 18 Sep 2021 17:35:23 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/essay/575/</guid>
+      <guid>https://www.frytea.com/technology/others/575/</guid>
       <description>说明 脚本自动递归下载给定包列表deb包及其依赖包，深度3层； 若指定参数则下载给定的包及其依赖包（目前仅支持指定1个包，不支持多包）； 若无参数</description>
     </item>
     
