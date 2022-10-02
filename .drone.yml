@@ -11,8 +11,14 @@ steps:
 - name: submodules
   image: alpine/git
   commands:
-    - mkdir -p ~/.ssh
-    - ssh-keyscan -p 2022 -t rsa git.frytea.local >> ~/.ssh/known_hosts
+#    - mkdir -p ~/.ssh
+#    - ssh-keyscan -p 2022 -t rsa git.frytea.local >> ~/.ssh/known_hosts
+    - mkdir ${HOME}/.ssh
+    - echo -n "$DRONE_SSH_KEY" > ${HOME}/.ssh/id_rsa
+    - chmod 600 ${HOME}/.ssh/id_rsa
+    - touch ${HOME}/.ssh/known_hosts
+    - chmod 600 ${HOME}/.ssh/known_hosts
+    - ssh-keyscan -H ${DRONE_NETRC_MACHINE} > /etc/ssh/ssh_known_hosts 2> /dev/null
     - git submodule update --init --recursive
 - name: build
   image: plugins/hugo
