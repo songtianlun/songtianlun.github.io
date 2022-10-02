@@ -26,7 +26,16 @@ steps:
     - name: deps
       path: /public
   commands:
+    - export GOPROXY=https://mirrors.cloud.tencent.com/go/
     - go run main.go
+- name: notify
+  image: drillster/drone-email
+  settings:
+    host: smtp.feishu.cn
+    port: 465
+    username: broadcast@frytea.com
+    password: I7FCtf4W0n2tgkf7
+    from: broadcast@frytea.com
 
 volumes:
   - name: deps
