@@ -13,7 +13,7 @@ steps:
   commands:
 #    - mkdir -p ~/.ssh
 #    - ssh-keyscan -p 2022 -t rsa git.frytea.local >> ~/.ssh/known_hosts
-     - cat <<EOF > ${HOME}/.netrc
+     - cat <<EOF > ~/.netrc
        machine ${DRONE_NETRC_MACHINE}
        login ${DRONE_NETRC_USERNAME}
        password ${DRONE_NETRC_PASSWORD}
