@@ -17,3 +17,10 @@ steps:
   settings:
     hugo_version: 0.85.0
     validate: true
+
+trigger:
+  branch:
+    - main
+    - drone
+  event:
+    - push
