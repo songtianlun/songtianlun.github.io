@@ -21,6 +21,7 @@ steps:
   image: plugins/s3
   settings:
     bucket: s-gz-3197-frytea-com-1258813047
+    endpoint: https://cos.ap-guangzhou.myqcloud.com
     access_key: f16fe1e46bdfb004
     secret_key: 9edec3898fc9d3d0fd9c6ea7e4e1c8bb
     source: public/**/*
