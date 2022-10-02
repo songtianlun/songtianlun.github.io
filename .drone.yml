@@ -1,5 +1,11 @@
 kind: pipeline
+type: docker
 name: default
+
+clone:
+  depth: 50
+  tags: true
+  skip_verify: true
 
 steps:
 - name: build
