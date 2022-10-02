@@ -11,6 +11,7 @@ steps:
 - name: submodules
   image: alpine/git
   commands:
+    - mkdir -p ~/.ssh
     - ssh-keyscan -t rsa git.frytea.local >> ~/.ssh/known_hosts
     - git submodule update --init --recursive
 - name: build
