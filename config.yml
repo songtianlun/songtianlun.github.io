@@ -150,11 +150,10 @@ params:
         enable: true
         appId: mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz
         appKey: nx1gknfuCi4dsFHwG7cAbqUL
-        notify: false
-        verify: false
-        avatar: Tianlun Song
+        avatar: retro
         placeholder: 说点什么吧...
         visitor: true
+        recordIP: true
     algolia:
       vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
       params: ["categories", "tags"]
