@@ -13,15 +13,13 @@ steps:
   commands:
 #    - mkdir -p ~/.ssh
 #    - ssh-keyscan -p 2022 -t rsa git.frytea.local >> ~/.ssh/known_hosts
-    - mkdir ~/.ssh
-    - echo -n "$DRONE_SSH_KEY" > ~/.ssh/id_rsa
-    - cat ~/.ssh/id_rsa
-    - chmod 600 ~/.ssh/id_rsa
-    - touch ~/.ssh/known_hosts
-    - chmod 600 ~/.ssh/known_hosts
-    - ssh-keyscan -p 2022 -t rsa git.frytea.local >> ~/.ssh/known_hosts
+     - cat <<EOF > ${HOME}/.netrc
+       machine ${DRONE_NETRC_MACHINE}
+       login ${DRONE_NETRC_USERNAME}
+       password ${DRONE_NETRC_PASSWORD}
+       EOF
 #    - ssh-keyscan -H ${DRONE_NETRC_MACHINE} > /etc/ssh/ssh_known_hosts 2> /dev/null
-    - git submodule update --init --recursive
+     - git submodule update --init --recursive
 - name: build
   image: plugins/hugo
   settings:
