@@ -71,18 +71,16 @@ params:
         imageHeight: 120
         imageTitle: frytea logo
         buttons:
+            - name: 🔍 检索
+              url: /search
             - name: 🖋 随笔
               url: posts/
             - name: 🛠 技术
               url: technology/
-            # - name: 🤔 复盘
-            #   url: tags/retrospective/
-            # - name: 💡 灵感
-            #   url: ideas/
-            # - name: 📷 摄影
-            #   url: https://image.frytea.com
-            # - name: 🗃 知库
-            #   url: https://wiki.frytea.com/
+            - name: 📋 微语
+              url: shuoshuo/
+            - name: 📁 项目
+              url: technology/projects/
             - name: 📎 资源
               url: https://res.frytea.com
             # - name: 📜 旧书
@@ -91,8 +89,7 @@ params:
             #   url: https://frytea.hedwig.pub
             # - name: 🛠 工具
             #   url: technology/app-list/
-            # - name: 📁 项目
-            #   url: technology/projects/
+
 
     # home-info mode
 #    homeInfoParams:
@@ -160,6 +157,8 @@ params:
       appId: "SY75R7MWL1"
       indexName: "article"
       searchOnlyKey: "b41779cc74b4658395f902d11d3ade78"  # Search-Only API Key
+    shuoshuo:
+        enable: true
 
 menu:
     main:
@@ -187,10 +186,14 @@ menu:
           name: 🛠
           url: /technology/
           weight: 42
-        - identifier: tools
-          name: ⚖️
-          url: /technology/app-list/
+        - identifier: shuoshuo
+          name: 📋
+          url: /shuoshuo/
           weight: 43
+        # - identifier: tools
+        #   name: ⚖️
+        #   url: /technology/app-list/
+        #   weight: 43
         - identifier: projects
           name: 📁
           url: /technology/projects/

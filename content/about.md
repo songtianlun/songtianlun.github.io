@@ -15,6 +15,14 @@ disableReprinted: true
 
 本站采用世界上最快的网站建设框架[^2] [hugo](https://gohugo.io/)，并基于一款极其高效的模版定制了本站样式。
 
+### 说说/微语
+
+更新一些技术随想、个人记录等，减少更新文章的心智负担。
+
+采用 [Artitalk](https://artitalk.js.org) 实现，基于 [LeanCloud](https://leancloud.cn) 云服务。
+
+配色来自 [中国色](http://zhongguose.com/)，选择了其中的 [搪磁蓝](http://zhongguose.com/#tangcilan) 和 [殷红](http://zhongguose.com/#yanhong)。
+
 [^1]: frytea.com
 [^2]: [hugo](https://gohugo.io/),The world’s fastest framework for building websites. 
 
