@@ -35,10 +35,10 @@ steps:
     PASSWORD:
       from_secret: SMTP_PASSWORD
   settings:
-    host: $SMTP_HOST
+    host: $HOST
     port: 465
     username: broadcast@frytea.com
-    password: $SMTP_PASSWORD
+    password: $PASSWORD
     from: broadcast@frytea.com
 
 volumes:
