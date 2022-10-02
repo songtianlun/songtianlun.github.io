@@ -14,18 +14,23 @@ steps:
      - git submodule update --init --recursive
 - name: build
   image: plugins/hugo
+  volumes:
+    - name: deps
+      path: /public
   settings:
     hugo_version: 0.85.0
     validate: true
 - name: upload
-  image: plugins/s3
-  settings:
-    bucket: s-gz-3197-frytea-com-1258813047
-    endpoint: cos.ap-guangzhou.myqcloud.com
-    access_key: f16fe1e46bdfb004
-    secret_key: 9edec3898fc9d3d0fd9c6ea7e4e1c8bb
-    source: public/**/*
-    target: /
+  image: golang
+  volumes:
+    - name: deps
+      path: /public
+  commands:
+    - go run main.go
+
+volumes:
+  - name: deps
+    temp: {}
 
 trigger:
   branch:
