@@ -26,7 +26,6 @@ steps:
     - name: deps
       path: /public
   commands:
-    - export GOPROXY=https://mirrors.cloud.tencent.com/go/
     - go run main.go
 - name: notify
   image: drillster/drone-email
