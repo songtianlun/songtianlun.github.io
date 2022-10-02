@@ -29,11 +29,16 @@ steps:
     - go run main.go
 - name: notify
   image: drillster/drone-email
+  environment:
+    HOST:
+      from_secret: SMTP_HOST
+    PASSWORD:
+      from_secret: SMTP_PASSWORD
   settings:
-    host: smtp.feishu.cn
+    host: ${SMTP_HOST}
     port: 465
     username: broadcast@frytea.com
-    password: I7FCtf4W0n2tgkf7
+    password: ${SMTP_PASSWORD}
     from: broadcast@frytea.com
 
 volumes:
