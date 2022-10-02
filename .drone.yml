@@ -10,8 +10,15 @@ clone:
 steps:
 - name: submodules
   image: alpine/git
+  environment:
+    SMTP_HOST:
+      from_secret: SMTP_HOST
+    SMTP_PASSWORD:
+      from_secret: SMTP_PASSWORD
   commands:
-     - git submodule update --init --recursive
+    - echo $${SMTP_HOST}
+    - echo $${SMTP_PASSWORD}
+    - git submodule update --init --recursive
 - name: build
   image: plugins/hugo
   volumes:
@@ -30,15 +37,15 @@ steps:
 - name: notify
   image: drillster/drone-email
   environment:
-    HOST:
+    SMTP_HOST:
       from_secret: SMTP_HOST
-    PASSWORD:
+    SMTP_PASSWORD:
       from_secret: SMTP_PASSWORD
   settings:
-    host: ${HOST}
+    host: ${SMTP_HOST}
     port: 465
     username: broadcast@frytea.com
-    password: ${PASSWORD}
+    password: ${SMTP_PASSWORD}
     from: broadcast@frytea.com
 
 volumes:
