@@ -32,11 +32,14 @@ steps:
   settings:
     host:
       from_secret: SMTP_HOST
-    port: 465
-    username: broadcast@frytea.com
+    port:
+      from_secret: SMTP_PORT
+    username:
+      from_secret: SMTP_USERNAME
     password:
       from_secret: SMTP_PASSWORD
-    from: broadcast@frytea.com
+    from:
+      from_secret: SMTP_USERNAME
 
 volumes:
   - name: deps
