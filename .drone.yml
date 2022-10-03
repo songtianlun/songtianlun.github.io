@@ -7,23 +7,10 @@ clone:
   tags: true
   skip_verify: true
 
-environment:
-  SMTP_HOST:
-    from_secret: SMTP_HOST
-  SMTP_PASSWORD:
-    from_secret: SMTP_PASSWORD
-
 steps:
 - name: submodules
   image: alpine/git
-  environment:
-    SMTP_HOST:
-      from_secret: SMTP_HOST
-    SMTP_PASSWORD:
-      from_secret: SMTP_PASSWORD
   commands:
-    - echo $${SMTP_HOST}
-    - echo $${SMTP_PASSWORD}
     - git submodule update --init --recursive
 - name: build
   image: plugins/hugo
@@ -48,6 +35,11 @@ steps:
     username: broadcast@frytea.com
     password: $SMTP_PASSWORD
     from: broadcast@frytea.com
+  environment:
+    SMTP_HOST:
+      from_secret: SMTP_HOST
+    SMTP_PASSWORD:
+      from_secret: SMTP_PASSWORD
 
 volumes:
   - name: deps
