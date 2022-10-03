@@ -30,10 +30,10 @@ steps:
 - name: notify
   image: drillster/drone-email
   settings:
-    host: $SMTP_HOST
+    host: <SMTP_HOST>
     port: 465
     username: broadcast@frytea.com
-    password: $SMTP_PASSWORD
+    password: <SMTP_PASSWORD>
     from: broadcast@frytea.com
   environment:
     SMTP_HOST:
