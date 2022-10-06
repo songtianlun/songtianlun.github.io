@@ -51,12 +51,12 @@ steps:
     - perl get-uploader.pl ${gitea_api_key}
     - chmod +x uploader
     - ./uploader -V
-    - ./uploader \
-      -E $S3_ENDPOINT \
-      -B $S3_BUCKET \
-      -A $S3_ACCESS_KEY_ID \
-      -S $S3_SECRET_ACCESS_KEY \
-      -P ./public' \
+    - ./uploader
+      -E $S3_ENDPOINT
+      -B $S3_BUCKET
+      -A $S3_ACCESS_KEY_ID
+      -S $S3_SECRET_ACCESS_KEY
+      -P ./public'
       -T ./'
 - name: notify
   image: drillster/drone-email
