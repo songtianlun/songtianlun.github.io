@@ -20,13 +20,37 @@ steps:
   settings:
     hugo_version: 0.85.0
     validate: true
+#- name: upload
+#  image: golang
+#  volumes:
+#    - name: deps
+#      path: /public
+#  commands:
+#    - go run main.go
 - name: upload
-  image: golang
+  image: perl
   volumes:
     - name: deps
       path: /public
+  environment:
+    S3_ENDPOINT:
+      from_secret: S3_ENDPOINT
+    S3_BUCKET:
+      from_secret: S3_BUCKET
+    S3_ACCESS_KEY_ID:
+        from_secret: S3_AK
+    S3_SECRET_ACCESS_KEY:
+        from_secret: S3_SK
   commands:
-    - go run main.go
+    - perl get-uploader.pl
+    - chmod +x upload_s3
+    - ./upload_s3upload-s3 \
+      -E '${S3_ENDPOINT}' \
+      -B '${S3_BUCKET}' \
+      -A '${S3_ACCESS_KEY_ID}' \
+      -S '${9edec3898fc9d3d0fd9c6ea7e4e1c8bb}' \
+      -P './public' \
+      -T './'
 - name: notify
   image: drillster/drone-email
   settings:
