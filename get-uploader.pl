@@ -15,6 +15,9 @@ sub pretty_print_hash {
 sub get_uploader {
     my ($gitea_api_key) = @_;
 
+    die "Please to set GITEA_API_KEY environment variable"
+        unless $gitea_api_key ne '';
+
     my $cmd = "curl -X 'GET' "
         ."'https://git.frytea.local/api/v1/repos/songtianlun/upload-s3/releases' "
         ."-H 'accept: application/json' "
@@ -43,8 +46,6 @@ sub get_uploader {
     "$file_url -o uploader");
 }
 
-if (@ARGV <= 0) {
-    die "Usage: \n\t $0 gitea_api_key\n";
-} else {
-    get_uploader($ARGV[0]);
-}
+my $gitea_api_key = $ENV{'gitea_api_key'} || @ARGV[0];
+
+get_uploader($gitea_api_key);
