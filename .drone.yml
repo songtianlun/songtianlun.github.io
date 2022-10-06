@@ -47,7 +47,7 @@ steps:
     - apt-get update
     - apt-get upgrade -y
     - apt-get install -y libjson-perl
-    - perl get-uploader-url.pl ${gitea_api_key}
+    - perl get-uploader.pl ${gitea_api_key}
     - chmod +x uploader
     - ./uploader -V
     - ./uploader \
