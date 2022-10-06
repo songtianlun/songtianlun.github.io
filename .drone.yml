@@ -28,7 +28,7 @@ steps:
 #  commands:
 #    - go run main.go
 - name: upload
-  image: 5.36-bullseye
+  image: perl:5.36-bullseye
   volumes:
     - name: deps
       path: /public
