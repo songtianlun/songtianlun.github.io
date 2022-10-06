@@ -56,8 +56,8 @@ steps:
       -B $S3_BUCKET
       -A $S3_ACCESS_KEY_ID
       -S $S3_SECRET_ACCESS_KEY
-      -P ./public'
-      -T ./'
+      -P './public'
+      -T './'
 - name: notify
   image: drillster/drone-email
   settings:
