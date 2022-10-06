@@ -41,7 +41,7 @@ steps:
         from_secret: S3_AK
     S3_SECRET_ACCESS_KEY:
         from_secret: S3_SK
-    gitea_api_key:
+    GITEA_API_KEY:
         from_secret: gitea_api_key
   commands:
 #    - apt-get update
