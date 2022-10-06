@@ -43,4 +43,8 @@ sub get_uploader {
     "$file_url -o uploader");
 }
 
-get_uploader();
+if ($#ARGV != 0) {
+    print "Usage: \n\t $0 gitea_api_key\n";
+} else {
+    get_uploader($ARGV[0]);
+}
