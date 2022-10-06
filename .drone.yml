@@ -41,17 +41,20 @@ steps:
         from_secret: S3_AK
     S3_SECRET_ACCESS_KEY:
         from_secret: S3_SK
+    gitea_api_key:
+        from_secret: gitea_api_key
   commands:
     - apt-get update
+    - apt-get upgrade -y
     - apt-get install -y libjson-perl
-    - url=$(perl get-uploader-url.pl)
-    - curl -k -L -o uploader $url
+    - perl get-uploader-url.pl ${gitea_api_key}
     - chmod +x uploader
+    - ./uploader -V
     - ./uploader \
       -E '${S3_ENDPOINT}' \
       -B '${S3_BUCKET}' \
       -A '${S3_ACCESS_KEY_ID}' \
-      -S '${9edec3898fc9d3d0fd9c6ea7e4e1c8bb}' \
+      -S '${S3_SECRET_ACCESS_KEY}' \
       -P './public' \
       -T './'
 - name: notify
