@@ -19,14 +19,7 @@ steps:
       path: /public
   settings:
     hugo_version: 0.85.0
-    validate: true
-#- name: upload
-#  image: golang
-#  volumes:
-#    - name: deps
-#      path: /public
-#  commands:
-#    - go run main.go
+    validate: truerm
 - name: upload
   image: git.frytea.local:80/songtianlun/upload-s3:latest
   pull: always
@@ -45,12 +38,6 @@ steps:
     GITEA_API_KEY:
         from_secret: gitea_api_key
   commands:
-#    - apt-get update
-#    - apt-get upgrade -y
-#    - apt-get install -y libjson-perl
-#    - cpanm JSON
-#    - perl get-uploader.pl ${gitea_api_key}
-#    - chmod +x uploader
     - /uploader -V
     - /uploader
       -E $S3_ENDPOINT
@@ -59,6 +46,7 @@ steps:
       -S $S3_SECRET_ACCESS_KEY
       -P './public'
       -T './'
+
 - name: notify
   image: drillster/drone-email
   settings:
