@@ -15,10 +15,10 @@ sub pretty_print_hash {
 sub get_uploader {
     my ($gitea_api_key) = @_;
 
-    my $cmd = "curl -X 'GET' ".
-        "'https://git.frytea.local/api/v1/repos/songtianlun/upload-s3/releases' ".
-        "-H 'accept: application/json' ".
-        "-H 'authorization: token $gitea_api_key' ".
+    my $cmd = "curl -X 'GET' ".\
+        "'https://git.frytea.local/api/v1/repos/songtianlun/upload-s3/releases' ".\
+        "-H 'accept: application/json' ".\
+        "-H 'authorization: token $gitea_api_key' ".\
         "-k";
     # print("$cmd\n");
 
