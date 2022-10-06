@@ -3,7 +3,6 @@
 use strict;
 use warnings;
 use JSON;
-use LWP::Simple;
 
 sub pretty_print_hash {
     my ($hash, $just_return) = @_;
