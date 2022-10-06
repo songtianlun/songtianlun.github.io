@@ -44,9 +44,10 @@ steps:
     gitea_api_key:
         from_secret: gitea_api_key
   commands:
-    - apt-get update
-    - apt-get upgrade -y
-    - apt-get install -y libjson-perl
+#    - apt-get update
+#    - apt-get upgrade -y
+#    - apt-get install -y libjson-perl
+    - cpanm JSON
     - perl get-uploader.pl ${gitea_api_key}
     - chmod +x uploader
     - ./uploader -V
