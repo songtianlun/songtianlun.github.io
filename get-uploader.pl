@@ -23,7 +23,7 @@ sub get_uploader {
         ."-H 'accept: application/json' "
         ."-H 'authorization: token $gitea_api_key' "
         ."-k";
-    # print("$cmd\n");
+    print("$cmd\n");
 
     my $res = `$cmd 2>/dev/null`;
 

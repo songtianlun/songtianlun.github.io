@@ -28,7 +28,8 @@ steps:
 #  commands:
 #    - go run main.go
 - name: upload
-  image: perl:5.30.3-bullseye
+  image: git.frytea.local:80/songtianlun/upload-s3:latest
+  pull: always
   volumes:
     - name: deps
       path: /public
@@ -47,11 +48,11 @@ steps:
 #    - apt-get update
 #    - apt-get upgrade -y
 #    - apt-get install -y libjson-perl
-    - cpanm JSON
-    - perl get-uploader.pl ${gitea_api_key}
-    - chmod +x uploader
-    - ./uploader -V
-    - ./uploader
+#    - cpanm JSON
+#    - perl get-uploader.pl ${gitea_api_key}
+#    - chmod +x uploader
+    - /uploader -V
+    - /uploader
       -E $S3_ENDPOINT
       -B $S3_BUCKET
       -A $S3_ACCESS_KEY_ID
