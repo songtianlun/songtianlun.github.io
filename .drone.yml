@@ -19,7 +19,7 @@ steps:
       path: /public
   settings:
     hugo_version: 0.85.0
-    validate: truerm
+    validate: true
 - name: upload
   image: git.frytea.local:80/songtianlun/upload-s3:latest
   pull: always
