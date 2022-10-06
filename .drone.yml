@@ -28,7 +28,7 @@ steps:
 #  commands:
 #    - go run main.go
 - name: upload
-  image: perl
+  image: 5.36-bullseye
   volumes:
     - name: deps
       path: /public
@@ -42,9 +42,12 @@ steps:
     S3_SECRET_ACCESS_KEY:
         from_secret: S3_SK
   commands:
-    - perl get-uploader.pl
-    - chmod +x upload_s3
-    - ./upload_s3upload-s3 \
+    - apt-get update
+    - apt-get install -y libjson-perl
+    - url=$(perl get-uploader-url.pl)
+    - curl -k -L -o uploader $url
+    - chmod +x uploader
+    - ./uploader \
       -E '${S3_ENDPOINT}' \
       -B '${S3_BUCKET}' \
       -A '${S3_ACCESS_KEY_ID}' \

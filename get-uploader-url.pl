@@ -20,22 +20,25 @@ sub main {
         "-H 'accept: application/json' ".
         "-H 'authorization: token 28a1d7224f64960094e9afd5e0b160ed889d17f4' ".
         "-k";
-    print("$cmd\n");
+    # print("$cmd\n");
 
-    my $res = `$cmd`;
+    my $res = `$cmd 2>/dev/null`;
 
-    print("---\n");
+    # print("---\n");
 
     eval {$res = decode_json("$res") if ($res);};
     die "err:$@\nres:$res\n" if ($@);
 
-    pretty_print_hash($res);
+    # pretty_print_hash($res);
 
-    my $file_url = $res->[0]->{assets}->[1]->{browser_download_url};
+    my $file_url = $res->[0]->{assets}->[1]->{browser_download_url}
+        if ($res && $res->[0] && $res->[0]->{assets} && $res->[0]->{assets}->[1]);
+
+    die "cannot get uploader file url\n" if (!$file_url || $file_url eq "");
 
     print $file_url, "\n";
 
-    system("curl -k -L -o upload_s3 $file_url ");
+    # system("curl -k -L -o upload_s3 $file_url ");
 }
 
 
