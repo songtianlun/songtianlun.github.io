@@ -46,8 +46,6 @@ volumes:
     temp: {}
 
 trigger:
-  branch:
-    - main
-    - drone
-  event:
-    - push
+  ref:
+    - refs/tags/*
+    - refs/heads/*
