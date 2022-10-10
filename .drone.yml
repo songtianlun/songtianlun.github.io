@@ -20,7 +20,7 @@ steps:
   settings:
     hugo_version: 0.85.0
     validate: true
-- name: upload
+- name: deploy_dogeCloud
   image: git.frytea.local:80/songtianlun/upload-s3:latest
   pull: always
   volumes:
@@ -46,7 +46,23 @@ steps:
       -S $S3_SECRET_ACCESS_KEY
       -P './public'
       -T './'
-
+- name: deploy_Vercel
+  image: docker.io/kameshsampath/drone-vercel-deploy
+  pull: never
+  settings:
+    log_level: debug
+    # valid values are production, development, preview
+    vercel_env: production
+    vercel_token:
+      from_secret: vercel_token
+    vercel_org_id:
+      from_secret: vercel_org_id
+    vercel_project_id:
+      from_secret: vercel_project_id
+    vercel_project_create: true
+    vercel_environment:
+      - NEXT_PUBLIC_FOO=BAR
+      - NEXT_PUBLIC_XMAS=25 Dec
 - name: notify
   image: drillster/drone-email
   settings:
