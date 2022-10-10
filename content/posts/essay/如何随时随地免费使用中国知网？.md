@@ -9,7 +9,7 @@ date: "2020-01-03 18:07:00"
 
 一般图书馆、高校研究机构都购买有万方、知网数据库，有时是通过 `ip` 认证进行登陆的，机构登陆后即可下载文献资料，但是有时在代理环境或是不在教育网环境中却急需查询一些文献时怎么办呢？
 
-今天找到一个可行的方案 ： [浙江图书馆](https//www.zjlib.cn/)
+今天找到一个可行的方案 ： [浙江图书馆](https://www.zjlib.cn/)
 
 ## 打开方式
 
@@ -17,7 +17,7 @@ date: "2020-01-03 18:07:00"
 
 第一步：打开支付宝搜索浙江图书馆生活号，点击服务 ? 我的账号 ? 办理读者证 ? 然后支付宝授权会直接生成。
 
-第二步：电脑打开[浙江图书馆](https//www.zjlib.cn/)官网用刚才的读者证登录
+第二步：电脑打开[浙江图书馆](https://www.zjlib.cn/)官网用刚才的读者证登录
 
 ![2020-01-03-18-04-57-.png](https://imagehost-cdn.frytea.com/images/2020/01/03/2020-01-03-18-04-57-.png)
 
@@ -27,7 +27,7 @@ date: "2020-01-03 18:07:00"
 
 ## 致谢
 
-感谢 [浙江图书馆](https//www.zjlib.cn/) , 感谢知乎 [@Junspr](https://www.zhihu.com/people/sprite-39/activities)
+感谢 [浙江图书馆](https://www.zjlib.cn/) , 感谢知乎 [@Junspr](https://www.zhihu.com/people/sprite-39/activities)
 
 ## 参考文献
 
