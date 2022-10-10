@@ -46,23 +46,34 @@ steps:
       -S $S3_SECRET_ACCESS_KEY
       -P './public'
       -T './'
-- name: deploy_Vercel
-  image: docker.io/kameshsampath/drone-vercel-deploy
-  pull: never
+#- name: deploy_Vercel
+#  image: docker.io/kameshsampath/drone-vercel-deploy
+#  pull: never
+#  settings:
+#    log_level: debug
+#    # valid values are production, development, preview
+#    vercel_env: production
+#    vercel_token:
+#      from_secret: vercel_token
+#    vercel_org_id:
+#      from_secret: vercel_org_id
+#    vercel_project_id:
+#      from_secret: vercel_project_id
+#    vercel_project_create: true
+#    vercel_environment:
+#      - NEXT_PUBLIC_FOO=BAR
+#      - NEXT_PUBLIC_XMAS=25 Dec
+- name: deploy_vercel
+  image: one000mph/drone-now        # Use one000mph's version as lucaperret's is outdated
   settings:
-    log_level: debug
-    # valid values are production, development, preview
-    vercel_env: production
-    vercel_token:
+    secret:           # Refers to the above environment variable
       from_secret: vercel_token
-    vercel_org_id:
-      from_secret: vercel_org_id
-    vercel_project_id:
-      from_secret: vercel_project_id
-    vercel_project_create: true
-    vercel_environment:
-      - NEXT_PUBLIC_FOO=BAR
-      - NEXT_PUBLIC_XMAS=25 Dec
+    deploy_name: songtianlun-github-io          # The name of your vercel project
+    type: static
+    team: songtianlun
+    alias: www.frytea.com
+#    prod: true                    # Leave this if you want to deploy to production, remove to disable production
+    directory: public             # Only if you've pre-rendered the page. Normally you let vercel handle this
 - name: notify
   image: drillster/drone-email
   settings:
