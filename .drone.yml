@@ -65,6 +65,9 @@ steps:
 #      - NEXT_PUBLIC_XMAS=25 Dec
 - name: deploy_vercel
   image: one000mph/drone-now        # Use one000mph's version as lucaperret's is outdated
+  environment:
+    NOW_TOKEN:
+      from_secret: vercel_token
   settings:
     secret:           # Refers to the above environment variable
       from_secret: vercel_token
