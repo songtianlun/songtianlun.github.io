@@ -143,6 +143,11 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+    waline:
+      enable: true
+      url: https://waline.frytea.com
+      commentCount: true
+      pageviewCount: true
     valine:
         enable: false
         appId: mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz
@@ -151,8 +156,6 @@ params:
         placeholder: 说点什么吧...
         visitor: true
         recordIP: true
-    waline:
-      enable: true
     algolia:
       vars: ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
       params: ["categories", "tags"]
