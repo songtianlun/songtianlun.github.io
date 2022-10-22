@@ -14,3 +14,14 @@
   });
 </script>
 {{- end -}}
+
+{{- if .Site.Params.waline.enable -}}
+<div id="waline" style="background-color: var(--theme); margin-top: 15px;
+  padding: 20px; border-radius: var(--radius); box-shadow: 0px 0px 10px grey;"></div>
+<script>
+    Waline.init({
+        el: '#waline',
+        serverURL: '//api.waline.frytea.com',
+    });
+</script>
+{{- end -}}
