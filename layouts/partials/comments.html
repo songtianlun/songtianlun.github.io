@@ -24,4 +24,16 @@
         pageview: {{ .Site.Params.waline.pageviewCount }},
     });
 </script>
+<style>
+    :root {
+        --waline-border: auto;
+        --waline-box-shadow: 0 12px 40px rgb(134 151 168 / 25%);
+    }
+
+    @media (prefers-color-scheme: auto) {
+        body {
+            --waline-box-shadow: 0 12px 40px #0f0e0d;
+        }
+    }
+</style>
 {{- end -}}

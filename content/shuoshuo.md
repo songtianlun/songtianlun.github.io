@@ -7,4 +7,5 @@ summary: "shuoshuo"
 appId: "mhm2sAPpC3cW2VJ15fpGGDPb-gzGzoHsz"
 appKey: "nx1gknfuCi4dsFHwG7cAbqUL"
 serverURL: "https://mhm2sapp.lc-cn-n1-shared.com"
+hideMeta: true
 ---
