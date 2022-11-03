@@ -4,6 +4,12 @@ date: 2022-11-03T14:44:16+08:00
 description: "使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图."
 categories: ["技术笔记集","macOS 笔记集"]
 tags: ["macOS", "ventura", "utm"]
+cover:
+    image: "https://imagehost-cdn.frytea.com/images/2022/11/03/2022110323554039758266c71664c9c.png" # image path/url
+    alt: "cover" # alt text
+    #caption: "My first" # display caption under cover
+    relative: true # when using page bundles set this to true
+    hidden: false # only hide on current single page
 draft: false
 ---
 
