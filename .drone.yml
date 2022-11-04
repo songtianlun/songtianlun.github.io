@@ -75,7 +75,7 @@ steps:
     type: static
     team: songtianlun
     alias: www.frytea.com
-#    prod: true                    # Leave this if you want to deploy to production, remove to disable production
+    prod: true                    # Leave this if you want to deploy to production, remove to disable production
     directory: public             # Only if you've pre-rendered the page. Normally you let vercel handle this
 - name: notify
   image: drillster/drone-email
