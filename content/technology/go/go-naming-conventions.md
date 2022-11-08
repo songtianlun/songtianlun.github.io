@@ -5,7 +5,7 @@ description: "GO 语言精简命名规范汇集."
 categories: ["技术笔记集"]
 tags: ["go"]
 cover:
-    image: "https://imagehost-cdn.frytea.com/images/2022/11/03/2022110323554039758266c71664c9c.png" # image path/url
+    image: "https://imagehost-cdn.frytea.com/images/2022/11/08/202211081715882a02e5b310c1ff688.png" # image path/url
     alt: "cover" # alt text
     #caption: "My first" # display caption under cover
     relative: true # when using page bundles set this to true
