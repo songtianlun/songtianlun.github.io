@@ -1,3 +1,5 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://git.frytea.local/songtianlun/hugo-TeaPaper.git
+[submodule "themes/PaperMod/"]
+	url = https://e.coding.net/frytea/homepage/hugo-theme-teaPaper.git
