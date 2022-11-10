@@ -77,14 +77,14 @@ params:
               url: posts/
             - name: 🛠 技术
               url: technology/
-            - name: 📋 微语
-              url: shuoshuo/
+            # - name: 📋 微语
+            #   url: shuoshuo/
             - name: 📁 项目
               url: technology/projects/
             - name: 📎 资源
               url: https://res.frytea.com
-            # - name: 📜 旧书
-            #   url: https://blog.frytea.com
+            - name: 📜 旧书
+              url: https://blog.frytea.com
             # - name: 🦉 Newsletter
             #   url: https://frytea.hedwig.pub
             # - name: 🛠 工具
@@ -163,7 +163,7 @@ params:
       indexName: "article"
       searchOnlyKey: "b41779cc74b4658395f902d11d3ade78"  # Search-Only API Key
     shuoshuo:
-        enable: true
+        enable: false
 
 menu:
     main:
@@ -191,10 +191,10 @@ menu:
           name: 🛠
           url: /technology/
           weight: 42
-        - identifier: shuoshuo
-          name: 📋
-          url: /shuoshuo/
-          weight: 43
+        # - identifier: shuoshuo
+        #   name: 📋
+        #   url: /shuoshuo/
+        #   weight: 43
         # - identifier: tools
         #   name: ⚖️
         #   url: /technology/app-list/
