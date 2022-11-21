@@ -41,6 +41,7 @@ params:
     disableScrollToTop: false
     disableAnchoredHeadings: false
     disableAPlayer: false
+    disableMermaid: false
     comments: true
     hidemeta: false
     hideSummary: false

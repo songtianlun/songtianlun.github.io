@@ -15,13 +15,33 @@ disableReprinted: true
 
 本站采用世界上最快的网站建设框架[^2] [hugo](https://gohugo.io/)，并基于一款极其高效的模版定制了本站样式。
 
-### 说说/微语
-
-更新一些技术随想、个人记录等，减少更新文章的心智负担。
-
-采用 [Artitalk](https://artitalk.js.org) 实现，基于 [LeanCloud](https://leancloud.cn) 云服务。
-
-配色来自 [中国色](http://zhongguose.com/)，选择了其中的 [搪磁蓝](http://zhongguose.com/#tangcilan) 和 [殷红](http://zhongguose.com/#yanhong)。
+```mermaid
+graph LR
+    F(Frytea - 烹茶室)-->H(主页)
+    F-->P(相册)
+    F-->D(分享)
+    F-->B(博客)
+    H-->HPR(项目)
+    H-->HA(随笔精选)
+    H-->HT(技术精选)
+    B-->BT(技术)
+    B-->BL(生活)
+    B-->BS(学习)
+    click F "https://www.frytea.com"
+    click H "https://www.frytea.com"
+    click B "https://blog.frytea.com"
+    click D "https://res.frytea.com"
+    click P "https://image.frytea.com"
+    click HPR "https://www.frytea.com/technology/projects/"
+    click HA "https://www.frytea.com/posts/"
+    click HT "https://www.frytea.com/technology/"
+    click BT "https://blog.frytea.com/category/it/"
+    click BL "https://blog.frytea.com/category/life/"
+    click BS "https://blog.frytea.com/category/study/"
+    classDef allNode fill:#fdffff,color:#1abc9c,stroke:#333,stroke-width:2px,size:9px;
+    class F,D,H,B,P allNode;
+    class HPR,HA,HT,BT,BL,BS allNode;
+```
 
 [^1]: frytea.com
 [^2]: [hugo](https://gohugo.io/),The world’s fastest framework for building websites. 
