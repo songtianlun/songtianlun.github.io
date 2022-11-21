@@ -83,7 +83,7 @@ params:
               url: technology/projects/
             - name: 📎 资源
               url: https://res.frytea.com
-            - name: 📜 旧书
+            - name: 📜 博客
               url: https://blog.frytea.com
             # - name: 🦉 Newsletter
             #   url: https://frytea.hedwig.pub
