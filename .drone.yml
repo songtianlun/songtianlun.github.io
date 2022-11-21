@@ -12,16 +12,23 @@ steps:
   image: alpine/git
   commands:
     - git submodule update --init --recursive
+#- name: build
+#  image: plugins/hugo
+#  volumes:
+#    - name: deps
+#      path: /public
+#  settings:
+#    hugo_version: 0.85.0
+#    validate: true
 - name: build
-  image: plugins/hugo
+  image: klakegg/hugo:0.85.0-debian-ci
   volumes:
     - name: deps
       path: /public
-  settings:
-    hugo_version: 0.85.0
-    validate: true
+  commands:
+    - hugo
 - name: deploy_dogeCloud
-  image: git.frytea.local:80/songtianlun/upload-s3:latest
+  image: git.frytea.com/songtianlun/upload-s3:latest
   pull: always
   volumes:
     - name: deps
@@ -35,8 +42,6 @@ steps:
         from_secret: S3_AK
     S3_SECRET_ACCESS_KEY:
         from_secret: S3_SK
-    GITEA_API_KEY:
-        from_secret: gitea_api_key
   commands:
     - /uploader -V
     - /uploader
