@@ -16,7 +16,7 @@ disableReprinted: true
 本站采用世界上最快的网站建设框架[^2] [hugo](https://gohugo.io/)，并基于一款极其高效的模版定制了本站样式。
 
 ```mermaid
-graph LR
+graph TD
     F(Frytea - 烹茶室)-->H(主页)
     F-->P(相册)
     F-->D(分享)
