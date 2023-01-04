@@ -206,7 +206,7 @@ menu:
           weight: 44
         - identifier: travelling
           name: 🚇
-          url: https://travellings.link
+          url: https://www.travellings.cn/go.html
           weight: 50
         # - identifier: example
         #   name: example.org
