@@ -66,26 +66,28 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: 🌱 煎茶
-        subtitle: "原创，优质、有深度、有思考的内容分享。"
+        subtitle: "原创，优质、深度、有思想的优质内容分享。"
         #imageUrl: "<img location>"
         imageWidth: 120
         imageHeight: 120
         imageTitle: frytea logo
         buttons:
-            - name: 🔍 检索
-              url: /search
-            - name: 🖋 随笔
+            # - name: 🔍 检索
+            #   url: /search
+            - name: 🖋 随笔精选
               url: posts/
-            - name: 🛠 技术
+            - name: 🛠 技术精选
               url: technology/
             # - name: 📋 微语
             #   url: shuoshuo/
-            - name: 📁 项目
-              url: technology/projects/
-            - name: 📎 资源
+            # - name: 📁 项目
+            #   url: technology/projects/
+            - name: 📎 资源分享
               url: https://res.frytea.com
-            - name: 📜 博客
+            - name: 📜 技术博客
               url: https://blog.frytea.com
+            - name: 🤖 云与AI专题
+              url: https://skybyte.me
             # - name: 🦉 Newsletter
             #   url: https://frytea.hedwig.pub
             # - name: 🛠 工具
@@ -168,10 +170,10 @@ params:
 
 menu:
     main:
-        - identifier: categories
-          name: 🗂
-          url: /categories/
-          weight: 10
+        # - identifier: categories
+        #   name: 🗂
+        #   url: /categories/
+        #   weight: 10
         - identifier: tags
           name: 🏷️
           url: /tags/
@@ -200,10 +202,10 @@ menu:
         #   name: ⚖️
         #   url: /technology/app-list/
         #   weight: 43
-        - identifier: projects
-          name: 📁
-          url: /technology/projects/
-          weight: 44
+        # - identifier: projects
+        #   name: 📁
+        #   url: /technology/projects/
+        #   weight: 44
         - identifier: travelling
           name: 🚇
           url: https://www.travellings.cn/go.html
