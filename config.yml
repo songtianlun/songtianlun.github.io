@@ -40,7 +40,6 @@ params:
     disableSpecial1stPost: false
     disableScrollToTop: false
     disableAnchoredHeadings: false
-    disableAPlayer: false
     disableMermaid: false
     comments: true
     hidemeta: false
@@ -72,22 +71,26 @@ params:
         imageHeight: 120
         imageTitle: frytea logo
         buttons:
-            # - name: 🔍 检索
-            #   url: /search
-            - name: 🖋 随笔精选
-              url: posts/
-            - name: 🛠 技术精选
-              url: technology/
+            - name: 🔍 索引
+              url: /search
+            # - name: 🖋 随笔精选
+            #   url: posts/
+            # - name: 🛠 技术精选
+            #   url: technology/
             # - name: 📋 微语
             #   url: shuoshuo/
             # - name: 📁 项目
             #   url: technology/projects/
-            - name: 📎 资源分享
+            - name: 📎 资源
               url: https://res.frytea.com
-            - name: 📜 技术博客
-              url: https://blog.frytea.com
-            - name: 🤖 云与AI专题
-              url: https://skybyte.me
+              newTab: true
+            - name: 🤖️ ChatGPT
+              url: https://chatgpt.skybyte.me
+              newTab: true
+            # - name: 📜 技术博客
+            #   url: https://blog.frytea.com
+            # - name: 🤖 云与AI专题
+            #   url: https://skybyte.me
             # - name: 🦉 Newsletter
             #   url: https://frytea.hedwig.pub
             # - name: 🛠 工具
@@ -170,12 +173,12 @@ params:
 
 menu:
     main:
-        # - identifier: categories
-        #   name: 🗂
-        #   url: /categories/
-        #   weight: 10
+        - identifier: categories
+          name: 🗂 归类
+          url: /categories/
+          weight: 10
         - identifier: tags
-          name: 🏷️
+          name: 🏷️ 标签
           url: /tags/
           weight: 20
 #        - identifier: archives
@@ -183,17 +186,17 @@ menu:
 #          url: /archives/
 #          weight: 30
         - identifier: search
-          name: 🔍
+          name: 🔍 索引
           url: /search/
           weight: 40
-        - identifier: posts
-          name: 🖋
-          url: /posts/
-          weight: 41
-        - identifier: technology
-          name: 🛠
-          url: /technology/
-          weight: 42
+        # - identifier: posts
+        #   name: 🖋 随笔
+        #   url: /posts/
+        #   weight: 41
+        # - identifier: technology
+        #   name: 🛠 技术
+        #   url: /technology/
+        #   weight: 42
         # - identifier: shuoshuo
         #   name: 📋
         #   url: /shuoshuo/
@@ -244,4 +247,5 @@ markup:
     renderer:
       unsafe: true
 #### 允许 html 渲染 end ####
+
 
