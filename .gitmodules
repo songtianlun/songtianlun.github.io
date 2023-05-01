@@ -1,3 +1,3 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
-	url = https://git.frytea.com/songtianlun/hugo-TeaPaper.git
+	url = git@github.com:songtianlun/hugo-myPaperMod.git
