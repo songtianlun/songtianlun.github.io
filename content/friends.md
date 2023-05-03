@@ -28,19 +28,27 @@ ShowShareButtons: false
 {{<friend name= "YOYLING." url="https://yoyling.com" logo="https://yoyling.com/favicon.png" word="">}}
 
 {{<friend name= "Kitcham 的归墟" url="https://blog.uiharu.top/" logo="https://cdn.uiharu.top/blog/home/img/avatar-link.png" word="">}}
+
 {{<friend name= "云帆沧海" url="https://yf-ch.com" logo="https://yf-ch.com/img/favicon.png" word="">}}
+
 {{<friend name= "摩尔の镇 | モル·町" url="https://www.mole9630.top" logo="https://img.mole9630.top/blog-logo.png" word="一座奇妙的小孤岛.">}}
+
 {{<friend name= "StubbornHuang's Blog" url="https://www.stubbornhuang.com" logo="https://www.stubbornhuang.com/wp-content/uploads/2019/11/2019112216333826.png" word="">}}
 
 {{<friend name= "BORBER" url="https://borber.vercel.app/" logo="https://cdn.jsdelivr.net/gh/Borber/PublicPic1/headImg/head.png" word="">}}
+
 {{<friend name= "爱·绮梦" url="https://x.iqimeng.com/" logo="https://m.iqimeng.com/images/avatar.jpg" word="学而时习之 不亦说乎">}}
 
 {{<friend name= "静かな森" url="https://innei.ren/" logo="https://imagehost-cdn.frytea.com/images/2021/09/07/202109070948567de3396c577ec6b9.png" word="致虚极，守静笃。">}}
+
 {{<friend name= "Colsrch" url="https://colsrch.cn" logo="https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg" word="愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。">}}
+
 {{<friend name= "两双筷子" url="https://www.dbkuaizi.com" logo="https://cdn.dbkuaizi.com/static/image/avatar.jpg" word="">}}
+
 {{<friend name= "晨鹤小站" url="https://chenhe.me/" logo="https://gravatar.loli.net/avatar/e343865a5581e33479a3d6791891101e?s=200" word="">}}
 
 {{<friend name= "Verne" url="https://blog.einverne.info/" logo="https://blog.frytea.com/usr/uploads/2019/11/1809897456.png" word="">}}
+
 {{<friend name= "二丫讲梵" url="https://wiki.eryajf.net/" logo="https://wiki.eryajf.net/img/logo.png" word="">}}
 
 {{<friend name= "马春杰杰博客" url="https://www.machunjie.com" logo="https://ypyssl.machunjie.com/logo.png" word="人工智能学习博客，助力机器学习领域发展。">}}
