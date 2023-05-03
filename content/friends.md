@@ -57,6 +57,8 @@ ShowShareButtons: false
 
 {{<friend name= "相位🚀" url="https:/shenyiming.life" logo="https://shenyiming.life/apple-touch-icon.png" word="Either outstanding or out.">}}
 
+{{<friend name= "Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif " word="一个记录技术、阅读、生活的博客">}}
+
 ## 老友区
 
 {{<friend name= "Noisky" url="https://www.noisky.cn/" logo="https://imagehost-cdn.frytea.com/images/2020/01/31/20190505211940cdf2ef54c83ece56.png" word="">}}
@@ -79,15 +81,17 @@ ShowShareButtons: false
 
 ## 成为网友
 
-如果你也热爱分享、喜欢原创，或是热衷技术、喜欢科技，或是充满好奇，就让我们互换链接，一起玩耍。
+如果你也热爱分享、喜欢原创，或是充满好奇，就让我们互换链接，一起玩耍。
 
 欢迎在这留下您的博客信息，期待与您成为网邻！
 
 > 申请友链请至少提供下面带 🌟 内容。
 
-* 🌟 Name: 煎茶
-* 🌟 Link: https://frytea.com
-* Avatar: https://imagehost-cdn.frytea.com/Avatar.jpg
-* Desc: 对月吟诗，煮雪烹茶。
+| | |
+| :--: | :--: |
+| 🌟 名称： | 煎茶 |
+| 🌟 网址： | https://frytea.com |
+| 网站图标： |  https://imagehost-cdn.frytea.com/Avatar.jpg |
+| 网站简述： | 对月吟诗，煮雪烹茶。 |
 
 > 博主会不定期去朋友家作客，如果无法正常访问，或是找不到我的位置，就会视情况放入「观察区」，最终删除。
