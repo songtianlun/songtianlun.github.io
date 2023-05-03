@@ -209,6 +209,10 @@ menu:
         #   name: 📁
         #   url: /technology/projects/
         #   weight: 44
+        - identifier: friends
+          name: 🧑‍🤝‍🧑 友链
+          url: /friends
+          weight: 45
         - identifier: travelling
           name: 🚇
           url: https://www.travellings.cn/go.html

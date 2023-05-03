@@ -5,7 +5,7 @@ date: 2023-05-03T08:40:22Z
 description: "搜集一些有意思的小店."
 categories: ["网址收藏夹"]
 tags: ["小店"]
-draft: true
+draft: false
 ---
 
 -  [xedu教育邮箱](https://xedu.me/): ChatGPT `5$` , jetbrains, edu mail...
