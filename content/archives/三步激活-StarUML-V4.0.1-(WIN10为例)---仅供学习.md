@@ -104,14 +104,13 @@ asar pack asar app.asar
 
 ![https://imagehost-cdn.frytea.com/images/2021/04/07/20210407210104e7b6dba384d8b246.png](https://imagehost-cdn.frytea.com/images/2021/04/07/20210407210104e7b6dba384d8b246.png)
 
-[tip type="info" title="资源"]
+
 为方便有需求的朋友，在这里直接给出我修改好的 `app.aspr` 及对应版本的安装包，安装好后替换 `app.aspr` 即可。
 
-[file href="https://res.frytea.com/Dev/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/StarUML_with_aspr.zip?download"]StarUML_with_aspr.zip[/file]
+- https://res.frytea.com/Others/StarUML_with_aspr.zip
 
 > 若链接失效，请留言，或前往我的 [资源站](https://res.frytea.com/) 查找。
 
-[/tip]
 
 ## 总结
 
