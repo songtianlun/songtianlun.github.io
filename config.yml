@@ -85,7 +85,7 @@ params:
               url: https://res.frytea.com
               newTab: true
             - name: 🤖️ ChatGPT
-              url: https://chatgpts.skybyte.me
+              url: https://bots.skybyte.me
               newTab: true
             # - name: 📜 技术博客
             #   url: https://blog.frytea.com
