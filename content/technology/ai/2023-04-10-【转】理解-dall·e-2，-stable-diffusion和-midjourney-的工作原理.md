@@ -20,7 +20,7 @@ categories:
 
  **作者** | Arham Islam
 
- **编译** | 岳扬 
+ **编译** | 岳扬
 
 在过去的几年里，人工智能（AI）取得了极大的进展，而 AI 的新产品中有 AI 图像生成器。这是一种能够将输入的语句转换为图像的工具。文本转图像的 AI 工具有许多，但最突出的就属 DALL-E 2、Stable Diffusion 和 Midjourney 了。
 
@@ -28,18 +28,15 @@ categories:
 
 DALL-E 2 由 OpenAI 开发，它通过一段文本描述生成图像。其使用超过 100 亿个参数训练的 GPT-3 转化器模型，能够解释自然语言输入并生成相应的图像。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/2023041000454946fc2054d8728d9f.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/2023041000454946fc2054d8728d9f.png)
 
 DALL-E 2 主要由两部分组成——将用户输入转换为图像的表示（称为 Prior），然后是将这种表示转换为实际的照片（称为 Decoder）。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/20230410004605d254508d16f5fd18.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/20230410004605d254508d16f5fd18.png)
 
 其中使用到的文本和图像嵌入来自另一个叫做 CLIP（对比语言 - 图像预训练）的网络，这也是由 OpenAI 研发的。CLIP 是一种神经网络，为输入的图像返回最佳的标题。它所做的事情与 DALL-E 2 所做的相反——它是将图像转换为文本，而 DALL-E 2 是将文本转换为图像。引入 CLIP 的目的是为了学习物体的视觉和文字表示之间的联系。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046199a814be1e4e2dc7d.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046199a814be1e4e2dc7d.png)
 
 DALL-E 2 的工作是训练两个模型。第一个是 Prior，接受文本标签并创建 CLIP 图像嵌入。第二个是 Decoder，其接受 CLIP 图像嵌入并生成图像。模型训练完成之后，推理的流程如下：
 
@@ -59,8 +56,7 @@ DALL-E 2 的工作是训练两个模型。第一个是 Prior，接受文本标�
 
 Stable Diffusion 是一个文转图的模型，其使用了 CLIP ViT-L/14 文本编码器，能够通过文本提示调整模型。它在运行时将成像过程分离成“扩散（diffusion）”的过程——从有噪声的情况开始，逐渐改善图像，直到完全没有噪声，逐步接近所提供的文本描述。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/2023041000463085478e7fe1b9211f.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/2023041000463085478e7fe1b9211f.png)
 
 Stable Diffusion 是基于 Latent Diffusion Model（LDM）的，LDM 是一款顶尖的文转图合成技术。在了解 LDM 的工作原理之前，让我们先看看什么是扩散模型以及为什么我们需要 LDM。
 
@@ -74,15 +70,13 @@ DM 存在的问题是强大的 DM 往往要消耗大量 GPU 资源，而且由�
 
 Midjourney 也是一款由人工智能驱动的工具，其能够根据用户的提示生成图像。MidJourney 善于适应实际的艺术风格，创造出用户想要的任何效果组合的图像。它擅长环境效果，特别是幻想和科幻场景，看起来就像游戏的艺术效果。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046434533a6a73ba51032.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046434533a6a73ba51032.png)
 
 Midjourney 也是一个人工智能图像生成工具，它通过输入文本和参数，并使用在大量图像数据上训练出的机器学习（ML）算法来生成独一无二的图像。
 
 Midjourney 目前只能通过其官方 Discord 上的 Discord 机器人使用。用户使用“/imagine”命令生成图像，并像其他 AI 图像生成工具一样输入命令提示。然后机器人会返回一张图片。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046522c30a809b14ec306.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100046522c30a809b14ec306.png)
 
 <ol start="04">
   <li>
@@ -100,16 +94,15 @@ Stable Diffusion 是一个开源的模型，人人都可以使用。它对当代
 
 下面的 prompt 有助于了解每种模型的相似性和差异。
 
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047113add206c67001eb4.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" //>  
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047285f8276f707d740e1.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" //>  
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047427f16fd4d3c69dc3f.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" //>  
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/20230410004751e74b1014fabea707.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" //>  
-<img title="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理"
-             alt="【转】理解 DALL·E 2，Stable Diffusion 和 Midjourney 的工作原理" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/10/202304100048018a6ba9e720678590.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047113add206c67001eb4.png)
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047285f8276f707d740e1.png)
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100047427f16fd4d3c69dc3f.png)
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/20230410004751e74b1014fabea707.png)
+![](https://imagehost-cdn.frytea.com/images/2023/04/10/202304100048018a6ba9e720678590.png)
 
 **END**
 
- **参考资料** 
+ **参考资料**
 
   * <a href="https://link.zhihu.com/?target=https%3A//medium.com/mlearning-ai/dall-e2-vs-stable-diffusion-same-prompt-different-results-e795c84adc56" target="_blank"  rel="nofollow">https://medium.com/mlearning-ai/dall-e2-vs-stable-diffusion-same-prompt-different-results-e795c84adc56</a>
   * <a href="https://link.zhihu.com/?target=https%3A//medium.com/geekculture/what-is-dalle-2-what-to-know-before-trying-the-groundbreaking-ai-e7a585f2edf0" target="_blank"  rel="nofollow">https://medium.com/geekculture/what-is-dalle-2-what-to-know-before-trying-the-groundbreaking-ai-e7a585f2edf0</a>

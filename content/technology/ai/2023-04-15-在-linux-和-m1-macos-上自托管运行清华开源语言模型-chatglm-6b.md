@@ -16,13 +16,11 @@ tags:
   - macOS
 
 ---
-<img title="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B"
-             alt="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/15/20230415180448a2c49a7697be35ba.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" />
+![](https://imagehost-cdn.frytea.com/images/2023/04/15/20230415180448a2c49a7697be35ba.png)
 
 ChatGLM-6B 是一个由清华 THUDM 开源的、支持中英双语的对话语言模型，基于 <a href="https://github.com/THUDM/GLM" target="_blank"  rel="nofollow">General Language Model (GLM)</a> 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。
 
-<img title="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B"
-             alt="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/15/20230415175952f317f46ef9d3cae7.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/15/20230415175952f317f46ef9d3cae7.png)
 
 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答，更多信息请参考他们的  <a href="https://chatglm.cn/blog" target="_blank"  rel="nofollow">博客</a>。
 
@@ -35,8 +33,7 @@ ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进
 
 在 Linux 虚拟机下可以正常运行和对话，但是速度稍慢，有 GPU 应该会快很多。
 
-<img title="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B"
-             alt="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/15/2023041517471326c0e30400911771.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/15/2023041517471326c0e30400911771.png)
 
 本文仅介绍在以上两种平台下的完整运行方法。
 
@@ -171,8 +168,7 @@ index 97ea622..f302bff 100644
 
 针对 `cli_demo.py` 只需要修改上面前两部分即可运行。
 
-<img title="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B"
-             alt="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/15/202304151737441110f88beff77973.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/15/202304151737441110f88beff77973.png)
 
 这样就可以运行起来了，web 版会自动弹出浏览器。
 
@@ -230,8 +226,7 @@ index 97ea622..2d7597c 100644
 
 这样就可以运行起来了。
 
-<img title="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B"
-             alt="在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/15/20230415172819b7b9292c1c621ef0.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/15/20230415172819b7b9292c1c621ef0.png)
 
 ## References {#pk-menu-10}
 

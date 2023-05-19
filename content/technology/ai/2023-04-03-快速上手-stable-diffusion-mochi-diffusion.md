@@ -20,49 +20,42 @@ tags:
 ---
 <a href="https://github.com/godly-devotion/MochiDiffusion" target="_blank"  rel="nofollow">Mochi Diffusion</a> 是一个开源的在 Mac 上原生运行 Stable Diffusion 的客户端，可以在 iOS 和 Mac 上使用 Stable Diffusion 画图而无需联网。
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/03/20230403231822638479abdda136bb.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/03/20230403231822638479abdda136bb.png)
 
 项目基于 Apple 前阵子发布的针对 M1/M2 芯片优化的 Stable Diffusion (开源文生图项目) 版本 —— <a href="https://github.com/apple/ml-stable-diffusion" target="_blank"  rel="nofollow">ml-stable-diffusion</a>
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/03/2023040323243317123d5a237df9f7.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/03/2023040323243317123d5a237df9f7.png)
 
 据网友测试支持多个 SD 主流的画图模型，都已经转换成了 Core ML 模型，包括大家熟悉的 ChilloutMix，M1 的 Macbook Pro 大概 14 秒生成一张图。
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/03/20230403231904ad31e3abb1d1fda1.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/03/20230403231904ad31e3abb1d1fda1.png)
 
 ## 使用方法  {#pk-menu-0}
 
 使用本人的 MacBook Air m1 是可以正常运行出图的，安装方法真的非常简单，简单总结仅需两步：
 
-  * 第一步：下载安装 
-  * 第二步：下载模型载入 
+  * 第一步：下载安装
+  * 第二步：下载模型载入
 
 下载安装这一步直接在  <a href="https://github.com/godly-devotion/MochiDiffusion/releases" target="_blank"  rel="nofollow">官网 release</a> 页面下载即可，如果下载有困难，可以在  <a href="https://res.frytea.com/Dev/MochiDiffusion" target="_blank"  rel="nofollow">这里 </a> 下载试试。
 
 载入模型这一步稍微复杂一些，可以在 <a href="https://huggingface.co/coreml?sort_models=likes#models" target="_blank"  rel="nofollow">Core ML Models</a> 下载到一些已经转换好的模型。
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/20230409133549db9fdb2dcb36b809.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/20230409133549db9fdb2dcb36b809.png)
 
 下面以下载 <a href="https://huggingface.co/coreml/coreml-ChilloutMix" target="_blank"  rel="nofollow">coreml/coreml-ChilloutMix</a> 模型举例：
 
 进入模型页面后找到 `Clone Repository` 按钮：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/202304091337008f294a48c861b454.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/202304091337008f294a48c861b454.png)
 
 点击按钮可以看到一些命令：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/202304091338093b7d9be0273e3f38.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/202304091338093b7d9be0273e3f38.png)
 
 下面我们来到自己的电脑上，找到模型文件夹所在位置：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/202304091340476a82ffd4611f51f3.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/202304091340476a82ffd4611f51f3.png)
 
 切换到该文件夹，之后 Clone 该模型：
 
@@ -99,8 +92,7 @@ coreml-ChilloutMix
 
 之后回到软件中就可以看到刚刚下载下来的模型了：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/20230409144328cf639d231b5754c7.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/20230409144328cf639d231b5754c7.png)
 
 ## 快速使用  {#pk-menu-1}
 
@@ -108,18 +100,15 @@ coreml-ChilloutMix
 
 比如我们使用这组参数：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/202304091445490115d54884582f3a.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/202304091445490115d54884582f3a.png)
 
 在我们自己的电脑上运行即可：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/202304091450471b374b78d6e33cd0.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/202304091450471b374b78d6e33cd0.png)
 
 运行效果为：
 
-<img title="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion"
-             alt="使用 Mac 快速上手 Stable Diffusion —— Mochi Diffusion" decoding="async" data-src="https://imagehost-cdn.frytea.com/images/2023/04/09/20230409145103175f7e62ed19846d.png" data-lazy="true" src="https://skybyte.me/wp-content/themes/wordpress-theme-puock-2.7.6/assets/img/z/load.svg" alt="" /> 
+![](https://imagehost-cdn.frytea.com/images/2023/04/09/20230409145103175f7e62ed19846d.png)
 
 大家自己试试吧。
 
