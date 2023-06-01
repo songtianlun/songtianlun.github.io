@@ -10,5 +10,5 @@ draft: false
 
 -  [xedu教育邮箱](https://xedu.me/): ChatGPT `5$` , jetbrains, edu mail...
 - [Keya - 可鸭发卡网](https://keya.pw/): ChatGPT `5$` / `120$`
-- [chatgpt nbfaka](https://aichat.aifk.pw/ds/): ChatGPT Plus 成品，ChatGPT 直连租用
+- [chatgpt nbfaka](https://aichat.aifk.pw/): ChatGPT Plus 成品，ChatGPT 直连租用
 - [Chatgpt 120$](https://gi0.cn/CvA): ChatGPT `120$` 
