@@ -23,7 +23,7 @@ sudo vim /etc/netplan/00-installer-config.yaml
 
 步骤二，修改内容即可
 
-![https://imagehost-cdn.frytea.com/20200820095111.png](https://imagehost-cdn.frytea.com/20200820095111.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200820095111.png](https://imagehost-cdn.frytea.com/images/archives/20200820095111.png)
 
 步骤三，生效配置
 

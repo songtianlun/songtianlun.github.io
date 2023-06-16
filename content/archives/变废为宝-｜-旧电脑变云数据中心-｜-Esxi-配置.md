@@ -19,7 +19,7 @@ VMware Inc. 是虚拟机软件行业的老大，vSphere 是在VMware数据中心
 
 官网产品下载地址：[https://my.vmware.com/cn/web/vmware/downloads/#all_products](https://my.vmware.com/cn/web/vmware/downloads/#all_products)
 
-![https://imagehost-cdn.frytea.com/20200904112816.png](https://imagehost-cdn.frytea.com/20200904112816.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904112816.png](https://imagehost-cdn.frytea.com/images/archives/20200904112816.png)
 
 大概在这个位置可以找到下载地址，您需要具有VMware账号才可以完成正常的下载。
 
@@ -39,13 +39,13 @@ VMware Inc. 是虚拟机软件行业的老大，vSphere 是在VMware数据中心
 
 如果一切顺利，屏幕上会显示当前web面板的登录地址，使用局域网内的设备登录即可。
 
-![https://imagehost-cdn.frytea.com/20200904113430.png](https://imagehost-cdn.frytea.com/20200904113430.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904113430.png](https://imagehost-cdn.frytea.com/images/archives/20200904113430.png)
 
 ### 第五步，激活
 
 博主在安装时选择的是 6.7 版本，属于预览版，需要授权码激活。
 
-![https://imagehost-cdn.frytea.com/20200904113852.png](https://imagehost-cdn.frytea.com/20200904113852.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904113852.png](https://imagehost-cdn.frytea.com/images/archives/20200904113852.png)
 
 在这里输入授权码，即可完成激活。博主在网上找到一个激活码，成功激活。
 
@@ -53,7 +53,7 @@ VMware vSphere 6 Enterprise Plus：  `0A65P-00HD0-3Z5M1-M097M-22P7H`
 
 到这里，安装已经结束，后面根据需求，创建虚拟机即可。
 
-![https://imagehost-cdn.frytea.com/20200904114112.png](https://imagehost-cdn.frytea.com/20200904114112.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904114112.png](https://imagehost-cdn.frytea.com/images/archives/20200904114112.png)
 
 至此，旧电脑摇身一变成为简单的云数据中心，再高大上一些就是完成了云计算私有化部署。当然也可以创建一个虚拟机跑 OpenWrt ，达到旁路由的效果，后面再更新 Esxi 下配置 OpenWrt 的教程。
 

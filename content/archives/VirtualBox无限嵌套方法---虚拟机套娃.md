@@ -17,11 +17,11 @@ C:\Program Files\Oracle\VirtualBox>VBoxManage.exe  modifyvm "PortableWindows10" 
 
 之后会发现嵌套虚拟化已经被打开，之后在虚拟机中就可以新建虚拟机了！
 
-![https://imagehost-cdn.frytea.com/20200815111355.png](https://imagehost-cdn.frytea.com/20200815111355.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200815111355.png](https://imagehost-cdn.frytea.com/images/archives/20200815111355.png)
 
 附上一张套娃效果图：
 
-![https://imagehost-cdn.frytea.com/20200815111547.png](https://imagehost-cdn.frytea.com/20200815111547.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200815111547.png](https://imagehost-cdn.frytea.com/images/archives/20200815111547.png)
 
 ## 参考文献
 

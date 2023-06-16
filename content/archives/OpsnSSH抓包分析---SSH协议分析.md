@@ -13,7 +13,7 @@ SSH 协议是建立在不安全的网络之上的进行远程安全登陆的协�
 - 2、验证协议`[SSH-USERAUTH]`:向服务器验证客户端用户，有基于用户名密码和公钥两种验证方式，建立在传输层协议`[SSH-TRANS]`之上。
 - 3、连接协议`[SSH-CONNECT]`:将加密隧道复用为若干逻辑信道。它建立在验证协议之上。
 
-![https://imagehost-cdn.frytea.com/20200820115639.png](https://imagehost-cdn.frytea.com/20200820115639.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200820115639.png](https://imagehost-cdn.frytea.com/images/archives/20200820115639.png)
 
 继续之前，补充一下两个概念：
 
@@ -22,33 +22,33 @@ SSH 协议是建立在不安全的网络之上的进行远程安全登陆的协�
 
 SSH 协议握手过程大致流程如下图所示：
 
-![https://imagehost-cdn.frytea.com/20200820115811.png](https://imagehost-cdn.frytea.com/20200820115811.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200820115811.png](https://imagehost-cdn.frytea.com/images/archives/20200820115811.png)
 
 下面使用 Wirdshark 进行抓包分析，开启 wireshark 抓包，进行一次正常的 SSH 登录，停止抓包，通过 IP 过滤出相关的报文如下：
 
-![https://imagehost-cdn.frytea.com/20200824191459.png](https://imagehost-cdn.frytea.com/20200824191459.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824191459.png](https://imagehost-cdn.frytea.com/images/archives/20200824191459.png)
 
 如果将上述报文根据 SSH 协议运行的流程分析，流程和报文的对应关系如下：
 
 - TCP 三次握手
 
-![https://imagehost-cdn.frytea.com/20200824191531.png](https://imagehost-cdn.frytea.com/20200824191531.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824191531.png](https://imagehost-cdn.frytea.com/images/archives/20200824191531.png)
 
 - 版本协议交换
 
-![https://imagehost-cdn.frytea.com/20200824191628.png](https://imagehost-cdn.frytea.com/20200824191628.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824191628.png](https://imagehost-cdn.frytea.com/images/archives/20200824191628.png)
 
 - 密钥协商
 
-![https://imagehost-cdn.frytea.com/20200824193145.png](https://imagehost-cdn.frytea.com/20200824193145.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824193145.png](https://imagehost-cdn.frytea.com/images/archives/20200824193145.png)
 
 在协商阶段客户端和客户端互相告知自己支持的加密方法：
 
-![https://imagehost-cdn.frytea.com/20200824192240.png](https://imagehost-cdn.frytea.com/20200824192240.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824192240.png](https://imagehost-cdn.frytea.com/images/archives/20200824192240.png)
 
 确定加密方法后，交换公钥：
 
-![https://imagehost-cdn.frytea.com/20200824192518.png](https://imagehost-cdn.frytea.com/20200824192518.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824192518.png](https://imagehost-cdn.frytea.com/images/archives/20200824192518.png)
 
 - 加密通信
 
@@ -56,7 +56,7 @@ SSH 协议握手过程大致流程如下图所示：
 
 > SSH 使用对称密钥对整个连接进行加密。与某些用户的假设相反，可以创建的公共/私有非对称密钥对只用于身份验证，而不用于对连接进行加密。对称加密甚至可以保护密码身份验证不被窥探。（2021 年 10 月 20 日修改）
 
-![https://imagehost-cdn.frytea.com/20200824191835.png](https://imagehost-cdn.frytea.com/20200824191835.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200824191835.png](https://imagehost-cdn.frytea.com/images/archives/20200824191835.png)
 
 大概可以看出是以 `New Keys` 为界，区分密钥协商和加密通信。
 

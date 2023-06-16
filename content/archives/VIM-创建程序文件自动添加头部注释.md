@@ -80,7 +80,7 @@ endfun
 
 使用效果：
 
-![https://imagehost-cdn.frytea.com/20200720192515.png](https://imagehost-cdn.frytea.com/20200720192515.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200720192515.png](https://imagehost-cdn.frytea.com/images/archives/20200720192515.png)
 
 ## 参考文献
 

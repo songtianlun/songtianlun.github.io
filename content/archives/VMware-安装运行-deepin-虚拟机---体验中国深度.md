@@ -19,7 +19,7 @@ date: "2020-08-13 19:49:06"
 
 在Vmware Wordstation 中新建一个虚拟机，选择标准安装即可，镜像直接加载刚刚下载好的镜像即可，在选择客户机操作系统时选择 `Ubuntu 64` 位。
 
-![https://imagehost-cdn.frytea.com/20200810161927.png](https://imagehost-cdn.frytea.com/20200810161927.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200810161927.png](https://imagehost-cdn.frytea.com/images/archives/20200810161927.png)
 
 硬件选择时按照自己的需求给定硬件资源，官网教程给定的最低资源限制如下：
 
@@ -27,21 +27,21 @@ date: "2020-08-13 19:49:06"
 - 内存：至少 2G 内存(RAM)，4G 以上是达到更好性能的推荐值
 - 硬盘：至少 25 GB 的空闲空间（实测建议最少64GB，128GB更佳）
 
-![https://imagehost-cdn.frytea.com/20200810162014.png](https://imagehost-cdn.frytea.com/20200810162014.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200810162014.png](https://imagehost-cdn.frytea.com/images/archives/20200810162014.png)
 
 ### 第三步，运行安装
 
 开启虚拟机，下面基本就是一路下一步，首先选择好语言；
 
-![https://imagehost-cdn.frytea.com/20200811015726.png](https://imagehost-cdn.frytea.com/20200811015726.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200811015726.png](https://imagehost-cdn.frytea.com/images/archives/20200811015726.png)
 
 之后选择安装位置，选择刚刚分配的磁盘即可，如果磁盘空间小于 64 GB 可能会弹出警告，要求最少64GB，在这里我没有测试低于 64GB 能否安装。
 
-![https://imagehost-cdn.frytea.com/20200813092738.png](https://imagehost-cdn.frytea.com/20200813092738.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200813092738.png](https://imagehost-cdn.frytea.com/images/archives/20200813092738.png)
 
 之后一路等待安装结束，重启进入系统即可！
 
-![https://imagehost-cdn.frytea.com/20200813092810.png](https://imagehost-cdn.frytea.com/20200813092810.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200813092810.png](https://imagehost-cdn.frytea.com/images/archives/20200813092810.png)
 
 ### 第四步，enjoy it！
 

@@ -19,7 +19,7 @@ OpenClash： [https://github.com/vernesong/OpenClash/releases](https://github.co
 
 下载完毕后可以使用LEDE后台提供的文件管理功能上传安装包，推荐上传到 `/tmp` 目录下。
 
-![https://imagehost-cdn.frytea.com/20200904121513.png](https://imagehost-cdn.frytea.com/20200904121513.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904121513.png](https://imagehost-cdn.frytea.com/images/archives/20200904121513.png)
 
 ### 第二步，安装依赖
 
@@ -56,7 +56,7 @@ opkg install /tmp/luci-app-openclash_0.33.7-beta_all.ipk
 
 安装结束后刷新 web 管理页面，在服务里看到clash即安装成功：
 
-![https://imagehost-cdn.frytea.com/20200904121702.png](https://imagehost-cdn.frytea.com/20200904121702.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904121702.png](https://imagehost-cdn.frytea.com/images/archives/20200904121702.png)
 
 ### 卸载
 
@@ -70,7 +70,7 @@ opkg remove luci-app-openclash
 
 当clash正常运行，您就可以通过配置系统的代理，实现相关功能，但是系统代理作用面比较窄，大部分软件是不走代理的，此时您可以通过手动指定网关的方法使设备全局流量经过您的LEDE旁路由。
 
-![https://imagehost-cdn.frytea.com/20200904122021.png](https://imagehost-cdn.frytea.com/20200904122021.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904122021.png](https://imagehost-cdn.frytea.com/images/archives/20200904122021.png)
 
 方法很简单，将IPv4配置为手动，进行如下配置：
 

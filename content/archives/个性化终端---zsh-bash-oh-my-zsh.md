@@ -53,7 +53,7 @@ vim ~/.zshrc
 
 `ys`
 
-![https://imagehost-cdn.frytea.com/20200815120758.png](https://imagehost-cdn.frytea.com/20200815120758.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200815120758.png](https://imagehost-cdn.frytea.com/images/archives/20200815120758.png)
 
 更多主题可以查阅官网：[https://github.com/ohmyzsh/ohmyzsh/wiki/Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 

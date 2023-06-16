@@ -22,7 +22,7 @@ date: "2020-07-20 09:38:00"
 
 ### 第二步，找到 VS Code 配置文件
 
-![https://imagehost-cdn.frytea.com/20200720093404.png](https://imagehost-cdn.frytea.com/20200720093404.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200720093404.png](https://imagehost-cdn.frytea.com/images/archives/20200720093404.png)
 
 ### 第三步，修改 VS Code 配置文件
 

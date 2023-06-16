@@ -17,15 +17,15 @@ date: "2020-08-14 08:40:00"
 
 第一步、打开netsarang公司的官方中文网站，https://www.netsarang.com/zh/all-downloads，选择 `Xmanager PowerSuit`  下载。
 
-![https://imagehost-cdn.frytea.com/20200813111300.png](https://imagehost-cdn.frytea.com/20200813111300.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200813111300.png](https://imagehost-cdn.frytea.com/images/archives/20200813111300.png)
 
 第二步、选择试用版本，姓名随便填写，但是邮箱一定要填写正确，用于接收下载链接。
 
-![https://imagehost-cdn.frytea.com/20200813111405.png](https://imagehost-cdn.frytea.com/20200813111405.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200813111405.png](https://imagehost-cdn.frytea.com/images/archives/20200813111405.png)
 
 第四步、用谷歌浏览器（或者其他浏览器）打开邮箱中的链接，会开始下载，此时右键复制下载链接。
 
-![https://imagehost-cdn.frytea.com/20200813111511.png](https://imagehost-cdn.frytea.com/20200813111511.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200813111511.png](https://imagehost-cdn.frytea.com/images/archives/20200813111511.png)
 
 第五步、在复制的下载链接版本后尾部添加 `r` ，下载即可。例如：
 

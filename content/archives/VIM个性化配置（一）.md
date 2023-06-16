@@ -309,7 +309,7 @@ set completeopt=longest,menu
 
 效果预览：
 
-![https://imagehost-cdn.frytea.com/20200726191412.png](https://imagehost-cdn.frytea.com/20200726191412.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200726191412.png](https://imagehost-cdn.frytea.com/images/archives/20200726191412.png)
 
 ## 后续步骤
 

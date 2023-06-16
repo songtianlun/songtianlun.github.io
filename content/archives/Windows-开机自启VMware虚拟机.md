@@ -21,7 +21,7 @@ date: "2020-07-22 09:08:11"
 
 如果像我一样路径里面包含中文，记得将编码转化为 `ANSI` 编码即可正常使用，否则运行会乱码。
 
-![https://imagehost-cdn.frytea.com/20200722085533.png](https://imagehost-cdn.frytea.com/20200722085533.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200722085533.png](https://imagehost-cdn.frytea.com/images/archives/20200722085533.png)
 
 如果需要关机自动关闭脚本 `vm_stop.bat` ，内容如下：
 

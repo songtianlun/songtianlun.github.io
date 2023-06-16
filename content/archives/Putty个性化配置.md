@@ -250,11 +250,11 @@ Windows Registry Editor Version 5.00
 
 双击运行，写入注册表。之后打开putty，是不是多了一个配置？
 
-![https://imagehost-cdn.frytea.com/20200821101535.png](https://imagehost-cdn.frytea.com/20200821101535.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200821101535.png](https://imagehost-cdn.frytea.com/images/archives/20200821101535.png)
 
 Load它，之后修改host，open，就可以看到修改后的putty了。
 
-![https://imagehost-cdn.frytea.com/20200821101656.png](https://imagehost-cdn.frytea.com/20200821101656.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200821101656.png](https://imagehost-cdn.frytea.com/images/archives/20200821101656.png)
 
 这个方法也可以用来保存putty配置，快速移植。
 

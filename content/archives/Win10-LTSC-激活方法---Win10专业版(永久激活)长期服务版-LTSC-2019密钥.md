@@ -47,7 +47,7 @@ slmgr -ato
 slmgr -dlv
 ```
 
-![https://imagehost-cdn.frytea.com/20200815091640.png](https://imagehost-cdn.frytea.com/20200815091640.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200815091640.png](https://imagehost-cdn.frytea.com/images/archives/20200815091640.png)
 
 原版下载地址:
 

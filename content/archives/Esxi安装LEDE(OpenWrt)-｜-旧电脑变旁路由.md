@@ -23,7 +23,7 @@ date: "2020-09-04 12:09:00"
 
 LEDE_X64_fw867： [https://firmware.koolshare.cn/LEDE_X64_fw867/](https://firmware.koolshare.cn/LEDE_X64_fw867/)
 
-![https://imagehost-cdn.frytea.com/20200904114828.png](https://imagehost-cdn.frytea.com/20200904114828.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904114828.png](https://imagehost-cdn.frytea.com/images/archives/20200904114828.png)
 
 理论上下载 `*img.gz` 或是 直接下载 `*.vmdk` 都是可以的，在这里介绍压缩版安装方法，直接下载镜像的请直接跳过第二步。
 
@@ -50,24 +50,24 @@ windows下转盘工具：StarWindConverter.exe：[https://www.starwindsoftware.c
 
 虚拟机基本配置：
 
-![https://imagehost-cdn.frytea.com/20200904115636.png](https://imagehost-cdn.frytea.com/20200904115636.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904115636.png](https://imagehost-cdn.frytea.com/images/archives/20200904115636.png)
 
 虚拟机资源配置：
 
 首先删除现有硬盘，选择添加现有硬盘：
 
-![https://imagehost-cdn.frytea.com/20200904115736.png](https://imagehost-cdn.frytea.com/20200904115736.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904115736.png](https://imagehost-cdn.frytea.com/images/archives/20200904115736.png)
 
 之后创建一个文件夹，将上一步生成的虚拟硬盘文件上传上去，之后选中，继续
 
-![https://imagehost-cdn.frytea.com/20200904115811.png](https://imagehost-cdn.frytea.com/20200904115811.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904115811.png](https://imagehost-cdn.frytea.com/images/archives/20200904115811.png)
 
 结束后先不要开机，编辑虚拟机，进行以下操作：
 
 1. 调高默认硬盘大小（大于原有大小即可）；
 2. 修改控制器位置为IDE控制器。
 
-![https://imagehost-cdn.frytea.com/20200904120010.png](https://imagehost-cdn.frytea.com/20200904120010.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904120010.png](https://imagehost-cdn.frytea.com/images/archives/20200904120010.png)
 
 如果不进行上述配置，虚拟机应该是启动不起来的。
 
@@ -99,11 +99,11 @@ ifconfig | more
 
 完成上述配置，通过虚拟机IP就可以进入LEDE的后台了：
 
-![https://imagehost-cdn.frytea.com/20200904120507.png](https://imagehost-cdn.frytea.com/20200904120507.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904120507.png](https://imagehost-cdn.frytea.com/images/archives/20200904120507.png)
 
 OpenWrt提供了丰富的插件，可以尽情折腾。
 
-![https://imagehost-cdn.frytea.com/20200904120630.png](https://imagehost-cdn.frytea.com/20200904120630.png)
+![https://imagehost-cdn.frytea.com/images/archives/20200904120630.png](https://imagehost-cdn.frytea.com/images/archives/20200904120630.png)
 
 您还可以在这里安装一个clash服务器，后面会写文章介绍LEDE安装clash的方法。
 
