@@ -149,8 +149,15 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-    waline:
+    giscus:
       enable: true
+      repo: songtianlun/songtianlun.github.io
+      repoID: R_kgDOGQ9BVQ
+      category: Announcements
+      categoryID: DIC_kwDOGQ9BVc4CX1qg
+      mapping: pathname
+    waline:
+      enable: false
       url: https://waline.frytea.com
       commentCount: true
       pageviewCount: true

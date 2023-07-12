@@ -14,6 +14,7 @@
   });
 </script>
 {{- else if .Site.Params.waline.enable -}}
+<!-- waline -->
 <div id="waline" style="background-color: var(--theme); margin-top: 15px;
   padding: 20px; border-radius: var(--radius); box-shadow: 0px 0px 10px grey;"></div>
 <script>
@@ -36,4 +37,23 @@
         }
     }
 </style>
+{{- else if .Site.Params.giscus.enable -}}
+<!-- giscus -->
+<script src="https://giscus.app/client.js"
+        data-repo='{{ .Site.Params.giscus.repo }}'
+        data-repo-id='{{ .Site.Params.giscus.repoID }}'
+        data-category='{{ .Site.Params.giscus.category }}'
+        data-category-id='{{ .Site.Params.giscus.categoryID }}'
+        data-mapping='{{ .Site.Params.giscus.mapping }}'
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 {{- end -}}
+
