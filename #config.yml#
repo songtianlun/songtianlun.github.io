@@ -1,4 +1,4 @@
-baseURL: https://www.frytea.com/
+gibaseURL: https://www.frytea.com/
 defaultContentLanguage: "zh"
 languageCode: zh-cn
 hasCJKLanguage: true # 设定网站有 CJK 字符（中日韩统一表意文字）
@@ -180,10 +180,10 @@ params:
 
 menu:
     main:
-#        - identifier: categories
-#          name: 🗂 归类
-#          url: /categories/
-#          weight: 10
+        - identifier: categories
+          name: 🗂 归类
+          url: /categories/
+          weight: 10
         - identifier: tags
           name: 🏷️ 标签
           url: /tags/
