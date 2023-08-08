@@ -24,14 +24,24 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+      - name: upload files to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+            accessKeyId: ${{ secrets.OSS_ACCESS_KEY_ID }}
+            accessKeySecret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+            bucket: frytea-com
+            # use your own endpoint
+            endpoint: oss-cn-beijing.aliyuncs.com
+            folder: ./public
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./public
 
       # 部署到阿里云 oss
       # - name: Deploy to Aliyun OSS
