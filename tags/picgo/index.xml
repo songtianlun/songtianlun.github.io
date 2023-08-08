@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>picgo on Frytea</title>
+    <link>https://www.frytea.com/tags/picgo/</link>
+    <description>Recent content in picgo on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Feb 2023 22:31:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/picgo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arm64 版 picgo 提示已损坏解决办法</title>
+      <link>https://www.frytea.com/archives/739/</link>
+      <pubDate>Thu, 09 Feb 2023 22:31:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/739/</guid>
+      <description>PicGo 是一款很好用的图床辅助软件，一直在使用。 最新下载最新版的 picGo arm64 版安装，提示已损坏，执行以下命令解决： sudo xattr -d com.apple.quarantine &amp;#34;/Applications/PicGo.app&amp;#34; 参考 https://github.com/1zilc/fishing-funds/issues/149#issuecomment-928044197 https://github.com/Molunerfinn/PicGo/issues/1055</description>
+    </item>
+    
+  </channel>
+</rss>

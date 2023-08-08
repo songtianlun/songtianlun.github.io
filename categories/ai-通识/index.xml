@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 通识 on Frytea</title>
+    <link>https://www.frytea.com/categories/ai-%E9%80%9A%E8%AF%86/</link>
+    <description>Recent content in AI 通识 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 09 Apr 2023 16:48:29 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/ai-%E9%80%9A%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【转】理解 DALL·E 2， Stable Diffusion和 Midjourney 的工作原理</title>
+      <link>https://www.frytea.com/70.html</link>
+      <pubDate>Sun, 09 Apr 2023 16:48:29 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/70.html</guid>
+      <description>【随着 AIGC 的兴起，各位小伙伴们对文生图工具 DALL-E 2、Stable Diffusion 和 Midjourney 一定并不陌生。本期 IDP Inspiration，小白将和大家一同走进这三者背后的</description>
+    </item>
+    
+  </channel>
+</rss>

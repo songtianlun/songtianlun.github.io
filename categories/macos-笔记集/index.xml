@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>macOS 笔记集 on Frytea</title>
+    <link>https://www.frytea.com/categories/macos-%E7%AC%94%E8%AE%B0%E9%9B%86/</link>
+    <description>Recent content in macOS 笔记集 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Nov 2022 14:44:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/macos-%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS13</title>
+      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
+    </item>
+    
+    <item>
+      <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
+      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <description>一行命令解决 Alacritty 不断请求权限问题.</description>
+    </item>
+    
+  </channel>
+</rss>

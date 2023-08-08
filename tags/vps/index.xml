@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Mar 2022 14:43:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
+      <link>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
+    </item>
+    
+    <item>
+      <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
+      <link>https://www.frytea.com/archives/660/</link>
+      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/660/</guid>
+      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+    </item>
+    
+    <item>
+      <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
+      <link>https://www.frytea.com/archives/658/</link>
+      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/658/</guid>
+      <description>很长一段时间中，我都在思考容器建站的可行性。 容器有诸多益处，各类好处就不一一列举了。 在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一</description>
+    </item>
+    
     <item>
       <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
       <link>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
@@ -76,31 +103,30 @@
     
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/technology/others/31/</link>
+      <link>https://www.frytea.com/archives/31/</link>
       <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/31/</guid>
-      <description>&lt;h1 id=&#34;linux下使用rclone挂载网盘到本地&#34;&gt;Linux下使用rclone挂载网盘到本地&lt;/h1&gt;
-&lt;p&gt;Rclone是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
+      <guid>https://www.frytea.com/archives/31/</guid>
+      <description>&lt;p&gt;Rclone 是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;目前Rclone支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone还支持SFTP 、FTP 、HTTP挂载。&lt;/p&gt;</description>
+&lt;p&gt;目前 Rclone 支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone 还支持 SFTP 、FTP 、HTTP 挂载。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>vps使用Shadowsocks搭建vpn</title>
-      <link>https://www.frytea.com/technology/others/30/</link>
+      <link>https://www.frytea.com/archives/30/</link>
       <pubDate>Sat, 12 Jan 2019 11:52:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/30/</guid>
-      <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的vpn经历无一不遇奸商！于是下决心搭建自己的vpn！就在今天，vpn终于搭建成功</description>
+      <guid>https://www.frytea.com/archives/30/</guid>
+      <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的 vpn 经历无一不遇奸商！于是下决心搭建自己的 vpn！就在今天，vpn 终于搭建成功，在</description>
     </item>
     
     <item>
       <title>私人网盘nextcloud配置问题解决</title>
-      <link>https://www.frytea.com/technology/others/32/</link>
+      <link>https://www.frytea.com/archives/32/</link>
       <pubDate>Thu, 10 Jan 2019 11:29:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/32/</guid>
+      <guid>https://www.frytea.com/archives/32/</guid>
       <description>安装流程 配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。 博文跳转:https://www.vp</description>
     </item>
     

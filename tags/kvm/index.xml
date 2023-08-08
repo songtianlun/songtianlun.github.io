@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:10:11 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 00:06:47 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>检查当前机器是不是虚拟机并确认底层虚拟化技术</title>
+      <link>https://www.frytea.com/archives/776/</link>
+      <pubDate>Mon, 01 May 2023 00:06:47 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/776/</guid>
+      <description>要确定当前运行的系统是否在虚拟机（VM）中，并了解底层虚拟化技术，可以使用一些命令和工具进行检查。以下是几种方法： 使用 dmidecode 命令： dmidecode 是一个用于获</description>
+    </item>
+    
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
       <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
@@ -22,100 +31,100 @@
     
     <item>
       <title>QEMU 编译报错 undefined reference to g_app_info_launch_default_for_uri_finish 解决过程</title>
-      <link>https://www.frytea.com/technology/others/560/</link>
+      <link>https://www.frytea.com/archives/560/</link>
       <pubDate>Fri, 20 Aug 2021 11:56:31 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/560/</guid>
+      <guid>https://www.frytea.com/archives/560/</guid>
       <description>编译 QEMU 时报如下错误： /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_finish&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_check_instance_is_fundamentally_a&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_async&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_strv_contains&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_type&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_drive_is_removable&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_application_get_resource_base_path&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_log_structured_standard&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_get_instance_count&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_n_items&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_file_enumerator_iterate&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_param_spec_get_name_quark&amp;#39;</description>
     </item>
     
     <item>
       <title>virt-manager 启动提示 virt qemu-sock no such file or directory</title>
-      <link>https://www.frytea.com/technology/others/548/</link>
+      <link>https://www.frytea.com/archives/548/</link>
       <pubDate>Fri, 09 Jul 2021 18:08:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/548/</guid>
+      <guid>https://www.frytea.com/archives/548/</guid>
       <description>检查后应该是 virtqemud 服务没起来导致的，编译安装默认生成的服务路径在 /usr/local/* 下，而我们指定了安装在默认位置 /usr ，参考 systemd 无法启动的解决方法即可解决该问题。 首先</description>
     </item>
     
     <item>
       <title>Linux虚拟化入门（五）KVM 管理命令指南</title>
-      <link>https://www.frytea.com/technology/others/543/</link>
+      <link>https://www.frytea.com/archives/543/</link>
       <pubDate>Mon, 05 Jul 2021 15:04:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/543/</guid>
+      <guid>https://www.frytea.com/archives/543/</guid>
       <description>qemu-img是QEMU的磁盘管理工具 格式: qemu-img command [command options] command： check 对磁盘镜像文件进行一致性检查，查找镜像文件中的错误 create 创建一个可以指定</description>
     </item>
     
     <item>
       <title>Linux虚拟化入门（四）KVM 创建一个 Centos 实例</title>
-      <link>https://www.frytea.com/technology/others/542/</link>
+      <link>https://www.frytea.com/archives/542/</link>
       <pubDate>Mon, 05 Jul 2021 15:04:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/542/</guid>
+      <guid>https://www.frytea.com/archives/542/</guid>
       <description>前提条件 完整 KVM 环境 Centos 镜像 步骤 第一步、创建磁盘 qemu-img create -f qcow2 centos_kvm1.qcow2 16G 第二步、安装虚拟机 virt-install \ --virt-type=kvm \ --name=centos-kvm \ --hvm \ --vcpus=1 \ --memory=1024 \ --cdrom=/srv/kvm/CentOS-7-x86_64-Minimal-1810.iso \ --disk path=/srv/kvm/centos_kvm1.qcow2,size=16,format=qcow2 \ --graphics vnc,password=kvm,listen=::,port=5911 \ --network bridge=virbr0 \ --autostart \ --force 安装成功后使用</description>
     </item>
     
     <item>
       <title>Linux虚拟化入门（三）Fedora 安装 KVM 管理环境</title>
-      <link>https://www.frytea.com/technology/others/541/</link>
+      <link>https://www.frytea.com/archives/541/</link>
       <pubDate>Mon, 05 Jul 2021 15:03:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/541/</guid>
+      <guid>https://www.frytea.com/archives/541/</guid>
       <description>部署步骤 第一步、检查环境要求 使用如下命令检查您的 CPU 是否支持虚拟化： $ egrep &#39;^flags.*(vmx|svm)&#39; /proc/cpuinfo 如果没有任何输出，则说明您的系统不支持相关扩展功能。您仍然可以使用</description>
     </item>
     
     <item>
       <title>Linux虚拟化入门（一）Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/technology/others/539/</link>
+      <link>https://www.frytea.com/archives/539/</link>
       <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/539/</guid>
+      <guid>https://www.frytea.com/archives/539/</guid>
       <description>当你安装了一台Linux，想启动一个KVM虚拟机的时候，你会发现需要安装不同的软件，启动虚拟机的时候，有多种方法： virsh start kvm命令 qemu命令</description>
     </item>
     
     <item>
       <title>Linux虚拟化入门（二）Hyper-V 开启 KVM 嵌套虚拟化</title>
-      <link>https://www.frytea.com/technology/others/540/</link>
+      <link>https://www.frytea.com/archives/540/</link>
       <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/540/</guid>
+      <guid>https://www.frytea.com/archives/540/</guid>
       <description>日常办公使用 Windows 平台，需要研究 KVM 的使用，此时就需要在 Windows 提供的 Hyper-V 工具运行 Linux 虚拟机来测试 KVM 相关的使用，但是在 Hyper-V 虚拟机中再次运行 KVM 虚拟化属于嵌套虚拟</description>
     </item>
     
     <item>
       <title>Kvm 虚拟机安装 OnlyOffice</title>
-      <link>https://www.frytea.com/technology/others/272/</link>
+      <link>https://www.frytea.com/archives/272/</link>
       <pubDate>Sun, 01 Dec 2019 19:22:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/272/</guid>
+      <guid>https://www.frytea.com/archives/272/</guid>
       <description>OnlyOffice OnlyOffice 是一个开源的办公套件，由 Ascensio System SIA 公司开发，提供了在线文档编辑、文档管理、文档协作、邮件和项目管理等功能。(WikiPedia) 打开官网可以</description>
     </item>
     
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/technology/others/266/</link>
+      <link>https://www.frytea.com/archives/266/</link>
       <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/266/</guid>
+      <guid>https://www.frytea.com/archives/266/</guid>
       <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
     </item>
     
     <item>
       <title> kvm 虚拟化安装 Ubuntu 18.04 server</title>
-      <link>https://www.frytea.com/technology/others/262/</link>
+      <link>https://www.frytea.com/archives/262/</link>
       <pubDate>Sat, 23 Nov 2019 10:37:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/262/</guid>
+      <guid>https://www.frytea.com/archives/262/</guid>
       <description>本文续上篇 《裸金属服务器 kvm 虚拟化安装 win10》继续记录使用 KVM 在 Centos 7.5 裸金属服务器上安装 Ubuntu 18.04 Server的过程及遇到的问题。 资源准备 首先要配置</description>
     </item>
     
     <item>
       <title>裸金属服务器kvm虚拟化安装win10</title>
-      <link>https://www.frytea.com/technology/others/261/</link>
+      <link>https://www.frytea.com/archives/261/</link>
       <pubDate>Thu, 21 Nov 2019 16:39:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/261/</guid>
+      <guid>https://www.frytea.com/archives/261/</guid>
       <description>受够了小鸡的各种卡顿以及各种套路，就想要一只&amp;quot;大鸡&amp;quot;，趁着双十一的余热购入达州创梦网络的江苏宿迁高防裸金属服务器（一种集</description>
     </item>
     

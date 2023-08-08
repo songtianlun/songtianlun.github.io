@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 28 Oct 2021 00:08:29 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/m1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 19:32:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/m1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
+      <link>https://www.frytea.com/archives/740/</link>
+      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/740/</guid>
+      <description>最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用</description>
+    </item>
+    
     <item>
       <title>Homebrew 安装策略（M1芯片 Macbook）</title>
-      <link>https://www.frytea.com/technology/others/587/</link>
+      <link>https://www.frytea.com/archives/587/</link>
       <pubDate>Thu, 28 Oct 2021 00:08:29 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/587/</guid>
+      <guid>https://www.frytea.com/archives/587/</guid>
       <description>换了 m1 芯片的 Macbook 之后第一个感受到的就是使用 homebrew 的不一样，由于不同的芯片架构，其安装方法也有不同，在这简单记录。 Arm Mac 安装步骤 # arm homebrew 同时设为国内源 /bin/zsh</description>
     </item>
     

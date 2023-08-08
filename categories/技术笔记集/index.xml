@@ -10,7 +10,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 Aug 2022 07:08:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 02:44:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go 语言命名规范整理</title>
+      <link>https://www.frytea.com/technology/go/go-naming-conventions/</link>
+      <pubDate>Tue, 08 Nov 2022 02:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/go/go-naming-conventions/</guid>
+      <description>GO 语言精简命名规范汇集.</description>
+    </item>
+    
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS13</title>
+      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
+    </item>
+    
+    <item>
+      <title>群晖 Docker 配置镜像源和私有源</title>
+      <link>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</link>
+      <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</guid>
+      <description>记录群晖 Docker 配置和重启.</description>
+    </item>
+    
+    <item>
+      <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
+      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <description>一行命令解决 Alacritty 不断请求权限问题.</description>
+    </item>
+    
     <item>
       <title>一次简单的http-get攻击</title>
       <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>

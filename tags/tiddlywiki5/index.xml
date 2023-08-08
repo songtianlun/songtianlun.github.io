@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tiddlywiki5 on Frytea</title>
+    <link>https://www.frytea.com/tags/tiddlywiki5/</link>
+    <description>Recent content in Tiddlywiki5 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 22 Apr 2023 15:40:07 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/tiddlywiki5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiddlywiki 单体/文件夹互转</title>
+      <link>https://www.frytea.com/archives/781/</link>
+      <pubDate>Sat, 22 Apr 2023 15:40:07 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/781/</guid>
+      <description># TiddlyWiki单文件转文件夹命令 $ tiddlywiki --load ./mywiki.html --savewikifolder ./mywikifolder # TiddlyWiki文件夹转单文件命令 $ tiddlywiki ./mywikifolder --rendertiddler &amp;#39;$:/core/save/all&amp;#39; mywiki.html text/plain Reference TiddlyWiki文件夹版与H</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 28 Nov 2019 16:35:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/technology/others/267/</link>
+      <link>https://www.frytea.com/archives/267/</link>
       <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/267/</guid>
+      <guid>https://www.frytea.com/archives/267/</guid>
       <description>DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。 在内网中又</description>
     </item>
     

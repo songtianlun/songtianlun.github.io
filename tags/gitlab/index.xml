@@ -13,46 +13,46 @@
     <lastBuildDate>Fri, 07 Feb 2020 02:12:01 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitLab 神奇问题之ssl</title>
-      <link>https://www.frytea.com/technology/others/311/</link>
+      <link>https://www.frytea.com/archives/311/</link>
       <pubDate>Fri, 07 Feb 2020 02:12:01 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/311/</guid>
+      <guid>https://www.frytea.com/archives/311/</guid>
       <description>今天配置 GitLab 时为 GitLab Pages 配置 SSL 总是有问题，大概表现为： 不开启 ssl 就无法让 gitlab pages 实现 https 访问 开启 ssl 后可能无法访问 对设置变更后可能需要重新部署 pages 经过长时间的</description>
     </item>
     
     <item>
       <title>迁移 GitLab 小记</title>
-      <link>https://www.frytea.com/technology/others/310/</link>
+      <link>https://www.frytea.com/archives/310/</link>
       <pubDate>Thu, 06 Feb 2020 19:30:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/310/</guid>
+      <guid>https://www.frytea.com/archives/310/</guid>
       <description>由于服务器到期等因素，需要对 GitLab 进行迁移，在此记下一段历程。 首先要保证迁入和迁出 GitLab 的版本是一致的，使用这一条指令： cat /opt/gitlab/embedded/service/gitlab-rails/VERSION 我的两个服务器输出分别是</description>
     </item>
     
     <item>
       <title>版本控制及代码托管平台综述</title>
-      <link>https://www.frytea.com/technology/others/297/</link>
+      <link>https://www.frytea.com/archives/297/</link>
       <pubDate>Mon, 20 Jan 2020 00:50:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/297/</guid>
+      <guid>https://www.frytea.com/archives/297/</guid>
       <description>版本控制是协助软件开发的重要工具之一，根据维基百科中“版本控制”词条的描述，版本控制（英语：Version control）是维护工程蓝图的标</description>
     </item>
     
     <item>
       <title>【GitLab CI/CD】记一个脑残问题  `too large archive`</title>
-      <link>https://www.frytea.com/technology/others/271/</link>
+      <link>https://www.frytea.com/archives/271/</link>
       <pubDate>Sun, 01 Dec 2019 00:01:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/271/</guid>
+      <guid>https://www.frytea.com/archives/271/</guid>
       <description>昨天到今天，我终于解决了一个脑残的问题！！ 事情是这样子的，我自己搭建了 GitLab ，并导入了我在 GitHub 所有的仓库，并打算未来就在这里提交我的代码了。一方面</description>
     </item>
     
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/technology/others/266/</link>
+      <link>https://www.frytea.com/archives/266/</link>
       <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/266/</guid>
+      <guid>https://www.frytea.com/archives/266/</guid>
       <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
     </item>
     

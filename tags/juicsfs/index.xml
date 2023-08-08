@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JuicsFS on Frytea</title>
+    <link>https://www.frytea.com/tags/juicsfs/</link>
+    <description>Recent content in JuicsFS on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Nov 2022 21:56:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/juicsfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
+      <link>https://www.frytea.com/archives/660/</link>
+      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/660/</guid>
+      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+    </item>
+    
+  </channel>
+</rss>

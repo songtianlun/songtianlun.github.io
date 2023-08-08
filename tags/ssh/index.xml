@@ -10,13 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 Jan 2022 09:49:24 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 02:07:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH 密钥类型及格式</title>
+      <link>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
+      <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
+      <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
+    </item>
+    
+    <item>
+      <title>sshd 拒绝连接错误 refused connected from</title>
+      <link>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
+      <pubDate>Fri, 19 May 2023 02:16:16 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
+      <description>sshd 拒绝连接错误 refused connected from 最近发现一种会导致 sshd 拒绝登陆的方法： 登陆时 sshd 会报出日志： refused connected from 以下是集中可能的原因/方法： 检查主机的访问权限：你需要检查</description>
+    </item>
+    
     <item>
       <title>解决 SSH 无操作自动断开 | pychram 超时无响应</title>
-      <link>https://www.frytea.com/technology/others/623/</link>
+      <link>https://www.frytea.com/archives/623/</link>
       <pubDate>Wed, 19 Jan 2022 09:49:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/623/</guid>
+      <guid>https://www.frytea.com/archives/623/</guid>
       <description>工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。 这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的</description>
     </item>
     

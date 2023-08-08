@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>报告 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E6%8A%A5%E5%91%8A/</link>
+    <description>Recent content in 报告 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 02 Jan 2023 14:07:45 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%8A%A5%E5%91%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 年博客经营报告</title>
+      <link>https://www.frytea.com/archives/717/</link>
+      <pubDate>Mon, 02 Jan 2023 14:07:45 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/717/</guid>
+      <description>过去一年中，个人网站策略做了简单的调整。 大概从去年开始，打算全面使用静态网站了， 使用 hugo 建立了个人主页，本打算替换掉博客， 将当时大部分的文章都</description>
+    </item>
+    
+    <item>
+      <title>2021 下半年博客「经营」报告</title>
+      <link>https://www.frytea.com/archives/616/</link>
+      <pubDate>Sat, 01 Jan 2022 15:36:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/616/</guid>
+      <description>距离发布《2021 上半年博客「经营」报告》已经半年过去了，这半年里，我发布了 Notion BoJo模版及其配套的财务看板「BJ-PFD」，发布了随机壁纸</description>
+    </item>
+    
+    <item>
+      <title>2021 上半年博客「经营」报告</title>
+      <link>https://www.frytea.com/archives/549/</link>
+      <pubDate>Sat, 10 Jul 2021 00:05:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/549/</guid>
+      <description>2018.10.07 开始建站以来，我的个人博客已经上线运营快三年啦，一直没有做过所谓「经营报告」，这个词也是有点夸张了，只是来简单做一下流量统计分析罢了。 说来</description>
+    </item>
+    
+  </channel>
+</rss>

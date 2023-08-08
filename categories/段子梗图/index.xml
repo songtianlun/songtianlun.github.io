@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>段子梗图 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E6%AE%B5%E5%AD%90%E6%A2%97%E5%9B%BE/</link>
+    <description>Recent content in 段子梗图 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 24 Dec 2022 10:59:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E6%AE%B5%E5%AD%90%E6%A2%97%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从 Windows 迭代看为什么要用 Linux </title>
+      <link>https://www.frytea.com/archives/714/</link>
+      <pubDate>Sat, 24 Dec 2022 10:59:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/714/</guid>
+      <description>Windows 的待机问题、兼容问题，已经总是被人诟病的“监控”问题，促使我不断探索除 Windows 的操作系统，最近已经将 Linux Mint 作为自己工作的主要系统。 至于 Windows 的问题，下</description>
+    </item>
+    
+    <item>
+      <title>[转] 疫情开放后的一次医患对话</title>
+      <link>https://www.frytea.com/archives/707/</link>
+      <pubDate>Sun, 18 Dec 2022 09:30:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/707/</guid>
+      <description>患者：医生，我想做抗原 医生：你哪不舒服？ 患者：没有不舒服 医生：那为什么要做抗原呢？ 患者：我想知道我得没得新冠 医生：抗原有假阳性、假阴性，做了</description>
+    </item>
+    
+    <item>
+      <title>[今日一梗] 体验一下用语言让人窒息的感觉</title>
+      <link>https://www.frytea.com/archives/691/</link>
+      <pubDate>Fri, 16 Dec 2022 13:04:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/691/</guid>
+      <description>一个听不懂基础对话逻辑的酒店前台 她告诉我们：酒店前台不负责收快递，你们的快递别丢在这里，外边就有菜鸟驿站。不然快递丢了我们负不起责任。 我们：</description>
+    </item>
+    
+  </channel>
+</rss>

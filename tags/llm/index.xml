@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLM on Frytea</title>
+    <link>https://www.frytea.com/tags/llm/</link>
+    <description>Recent content in LLM on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Apr 2023 13:56:04 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在浏览器里运行 ChatGPT 和 Stable Diffusion</title>
+      <link>https://www.frytea.com/79.html</link>
+      <pubDate>Thu, 20 Apr 2023 13:56:04 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/79.html</guid>
+      <description>直接在浏览器里面运行的大语言模型，不需要部署直接调用 webGPU 进行运算，已经把模型部署成本拉到最低了。 目前只有 M1 或者 M2 芯片的 Mac 可以运行，需要下载谷歌</description>
+    </item>
+    
+  </channel>
+</rss>

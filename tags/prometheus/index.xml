@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>prometheus on Frytea</title>
+    <link>https://www.frytea.com/tags/prometheus/</link>
+    <description>Recent content in prometheus on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 15 Jan 2023 08:27:24 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prometheus 部署 Black Exporter 黑盒监控 DNS-TCP-ICMP</title>
+      <link>https://www.frytea.com/archives/727/</link>
+      <pubDate>Sun, 15 Jan 2023 08:27:24 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/727/</guid>
+      <description>建议软件包安装，二进制安装请自行解决配置问题，docker安装需考虑网络问题。 linux 软件包直接部署 apt install prometheus-blackbox-exporter 二进制部署 # 下载安装 wget https://github.com/prometheus/blackbox_exporter/releases/download/v0.23.0/blackbox_exporter-0.23.0.linux-amd64.tar.gz tar -xvf blackbox_exporter-0.23.0.linux-amd64.tar.gz mv blackbox_exporter-0.23.0.linux-amd64/ /usr/local/blackbox_exporter # 创</description>
+    </item>
+    
+    <item>
+      <title>部署 Prometheus 主机监控完全体</title>
+      <link>https://www.frytea.com/archives/664/</link>
+      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/664/</guid>
+      <description>监控完全体 = Prometheus + Node Exporter + cadvisor + grafana Prometheus 作为轮转数据库，从各个服务器采集数据； node-exporter 作为数据采集器，接受 prometheus 采集请求，上报主机各项参数； vadvisor 作为容器数据采集器</description>
+    </item>
+    
+  </channel>
+</rss>

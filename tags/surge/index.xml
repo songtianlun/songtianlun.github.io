@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Surge on Frytea</title>
+    <link>https://www.frytea.com/tags/surge/</link>
+    <description>Recent content in Surge on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 May 2023 00:06:42 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/surge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Surge 从零开始配置</title>
+      <link>https://www.frytea.com/archives/782/</link>
+      <pubDate>Mon, 01 May 2023 00:06:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/782/</guid>
+      <description>Surge for macOS 基于 这份 修改。 # Surge 的规则配置手册: https://manual.nssurge.com/ [General] loglevel = notify # 从 Surge iOS 4 / Surge Mac 3.3.0 起，工具开始支持 DoH doh-server = https://doh.pub/dns-query, https://dns.alidns.com/dns-query # https://dns.alidns.com/dns-query, https://13800000000.rubyfish.cn/, https://doh.360.cn/dns-query, https://dns.google/dns-query dns-server = 223.5.5.5, 114.114.114.114 tun-excluded-routes = 0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.168.0.0/16, 192.88.99.0/24, 198.51.100.0/24, 203.0.113.0/24,</description>
+    </item>
+    
+  </channel>
+</rss>

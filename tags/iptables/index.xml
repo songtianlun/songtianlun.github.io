@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iptables on Frytea</title>
+    <link>https://www.frytea.com/tags/iptables/</link>
+    <description>Recent content in iptables on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 May 2023 02:07:50 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian bullseye iptables 配置持久化</title>
+      <link>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+      <pubDate>Tue, 23 May 2023 02:07:50 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+      <description>debian bullseye iptables 配置持久化 在Debian 11中，iptables规则可以通过使用iptables-persistent包进行持久化。以下是一个如何安装</description>
+    </item>
+    
+    <item>
+      <title>iptables 设置默认规则</title>
+      <link>https://www.frytea.com/archives/735/</link>
+      <pubDate>Tue, 31 Jan 2023 20:48:53 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/735/</guid>
+      <description>设置默认的规则 iptables -P INPUT DROP # 配置默认的不让进 iptables -P FORWARD DROP # 默认的不允许转发 iptables -P OUTPUT ACCEPT # 默认的可以出去 参考文献 iptables - Linux man</description>
+    </item>
+    
+  </channel>
+</rss>

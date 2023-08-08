@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Notion on Frytea</title>
+    <title>notion on Frytea</title>
     <link>https://www.frytea.com/tags/notion/</link>
-    <description>Recent content in Notion on Frytea</description>
+    <description>Recent content in notion on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Dec 2021 23:35:22 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/notion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 20:23:34 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/notion/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>周日谈/50 ｜ 做减法与激励机制</title>
-      <link>https://www.frytea.com/posts/retrospective/2021-week-50/</link>
-      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      <title>ChatGPT VS Notion AI</title>
+      <link>https://www.frytea.com/archives/752/</link>
+      <pubDate>Sun, 12 Mar 2023 20:23:34 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/retrospective/2021-week-50/</guid>
-      <description>2021年第50周，谈谈个人管理和激励反馈</description>
+      <guid>https://www.frytea.com/archives/752/</guid>
+      <description>简介 在当今世界中，涌现了许多基于人工智能的工具和平台，旨在简化各种功能。聊天机器人和虚拟助手是近年来广受欢迎的两个例子。 ChatGPT 和 Notion AI 是提供基于人</description>
     </item>
     
     <item>
-      <title>周日谈/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
-      <link>https://www.frytea.com/posts/retrospective/2021-week-49/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
+      <title>整理 Notion 导出文档名称</title>
+      <link>https://www.frytea.com/archives/743/</link>
+      <pubDate>Tue, 28 Feb 2023 19:40:56 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/retrospective/2021-week-49/</guid>
-      <description>2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙</description>
+      <guid>https://www.frytea.com/archives/743/</guid>
+      <description>从 Notion 导出 md 格式的文档，默认会对文件名做一些处理， 大概是这样，会讲过长的文档名称压缩，在首行使用 md 一级标签标记文件名，再将文档截断为图示的样子</description>
+    </item>
+    
+    <item>
+      <title>mermaid.js 效果相册</title>
+      <link>https://www.frytea.com/archives/663/</link>
+      <pubDate>Thu, 24 Nov 2022 14:38:35 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/663/</guid>
+      <description>mermaid 是一款 javascript 库，能够轻而易举地通过文本代码绘图。 作为普通用户，将其理解为一种绘图的语言即可，集成它之后就可以在 markdown 的轻松插入特定语法编写的各类图</description>
     </item>
     
   </channel>

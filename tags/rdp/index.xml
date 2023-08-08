@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Aug 2021 11:25:36 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 14:53:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/rdp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kali linux 配置 xrdp 远程桌面服务</title>
+      <link>https://www.frytea.com/archives/645/</link>
+      <pubDate>Tue, 08 Nov 2022 14:53:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/645/</guid>
+      <description>xrdp 的配置让我充满疑惑，今天误打误撞完成了 kali 下的 xrdp 配置，能够顺利远程桌面进入 kali，这里记录一些可能必须的步骤，以备后用。 首先按照 kali 官网给出</description>
+    </item>
+    
     <item>
       <title>一键修改Windows远程桌面（RDP）端口号</title>
-      <link>https://www.frytea.com/technology/others/555/</link>
+      <link>https://www.frytea.com/archives/555/</link>
       <pubDate>Tue, 10 Aug 2021 11:25:36 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/555/</guid>
+      <guid>https://www.frytea.com/archives/555/</guid>
       <description>本文主要内容来微软官方文档，命令未 PowerShell 命令，管理员权限运行，最后给出链接。 若要查看当前 RDP 端口，可使用以下 PowerShell 命令： Get-ItemProperty -Path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp&amp;#39; -name &amp;#34;PortNumber&amp;#34; 若要修改 RDP 端口，可</description>
     </item>
     

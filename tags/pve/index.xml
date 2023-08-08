@@ -10,22 +10,76 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 14 Apr 2022 10:43:42 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 May 2023 02:47:52 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PVE 迁入 Win xp/2003 解决蓝屏问题</title>
+      <link>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Fri, 12 May 2023 02:47:52 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
+      <description>PVE 迁入 Win xp/2003 解决蓝屏问题 Windows xp/2003 或是 Windows Server 2003 之类的老旧系统使用迁移工具迁入 PVE 集群后，即使配置了 IDE 总线磁盘，还是可能出现蓝屏问题。 该问题给出两种解决方</description>
+    </item>
+    
+    <item>
+      <title>PVE 批量销毁虚拟机</title>
+      <link>https://www.frytea.com/archives/771/</link>
+      <pubDate>Sat, 08 Apr 2023 14:56:44 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/771/</guid>
+      <description>可以使用以下命令一次性删除所有 QEMU 虚拟机： 串行 qm list | awk &#39;NR&amp;gt;1 {print $1}&#39; | xargs -I {} qm destroy {} 解释： qm list 命令获取所有虚拟机的列表。 awk &#39;NR&amp;gt;1 {print $1}&#39; 命令跳过第一行（表头）并</description>
+    </item>
+    
+    <item>
+      <title>PVE 删除/离开集群</title>
+      <link>https://www.frytea.com/archives/753/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:59 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/753/</guid>
+      <description>删除节点 cd /etc/pve/nodes rm -rf *** pvecm delnode *** 离开集群 # 离线的节点操作 systemctl stop pve-cluster.service systemctl stop corosync.service pmxcfs -l rm /etc/pve/corosync.conf rm -rf /etc/corosync/* killall pmxcfs systemctl start pve-cluster.service cd /etc/pve/nodes ls rm -rf /etc/pve/nodes/*** pvecm delnode *** # 正常的节点操作： cd /etc/pve/nodes rm -rf *** pvecm delnode *** Reference PVE</description>
+    </item>
+    
+    <item>
+      <title>PVE 手动创建 lvm-thin-pool 加入多磁盘</title>
+      <link>https://www.frytea.com/archives/748/</link>
+      <pubDate>Sun, 12 Mar 2023 13:21:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/748/</guid>
+      <description>新建存储池，包括多块硬盘 lsblk pvcreate /dev/sdb /dev/sdc /dev/sdd vgcreate thin-pool /dev/sdb /dev/sdc /dev/sdd lvcreate -T thin-pool/data -l +99%FREE pvesm add lvmthin thin-pool-data --content rootdir,images --thinpool data --vgname thin-pool Reference adding a disk and set it as lvm-thin: help needed, please</description>
+    </item>
+    
+    <item>
+      <title>PVE 批量创建、配置虚拟机 IP、网卡、启停及销毁</title>
+      <link>https://www.frytea.com/archives/737/</link>
+      <pubDate>Wed, 08 Feb 2023 08:46:10 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/737/</guid>
+      <description># 从模版批量派生，100 虚拟机仅需2 min for i in {001..128}; do qm clone 336 11$i --name stl-ceph-bare-node$i --pool stl-ceph-cluster2; done # 使用 cloud-init 批量配置 ip，需在模版提前装好 cloud-init 软件包并添加设备 for i in {1..128}; do num=`echo $i | awk</description>
+    </item>
+    
+    <item>
+      <title>PVE 虚拟机导入 vmdk 磁盘</title>
+      <link>https://www.frytea.com/archives/736/</link>
+      <pubDate>Wed, 01 Feb 2023 09:45:31 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/736/</guid>
+      <description>先把磁盘镜像上传到 pve 服务器中，若空间不足可挂载本地存储； 把 vmdk 转为 qcow2 qemu-img convert -O qcow2 test.vmdk test.qcow2 注：-O 是大写的字母 O 使用 qm importdisk 命令导入 $ qm importdisk &amp;lt;vmid&amp;gt; &amp;lt;images-name&amp;gt; &amp;lt;storage pool&amp;gt; --format=&amp;lt;disk-fs&amp;gt; # vmi</description>
+    </item>
+    
     <item>
       <title>Proxmox VE (PVE) 销毁集群</title>
-      <link>https://www.frytea.com/technology/others/628/</link>
+      <link>https://www.frytea.com/archives/628/</link>
       <pubDate>Thu, 14 Apr 2022 10:43:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/628/</guid>
+      <guid>https://www.frytea.com/archives/628/</guid>
       <description>当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍</description>
     </item>
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/others/605/</link>
+      <link>https://www.frytea.com/archives/605/</link>
       <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/605/</guid>
+      <guid>https://www.frytea.com/archives/605/</guid>
       <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
     </item>
     
@@ -58,28 +112,28 @@
     
     <item>
       <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
-      <link>https://www.frytea.com/technology/others/600/</link>
+      <link>https://www.frytea.com/archives/600/</link>
       <pubDate>Wed, 24 Nov 2021 17:38:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/600/</guid>
+      <guid>https://www.frytea.com/archives/600/</guid>
       <description>最近在看 PVE 源码时看到这样一段： # old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数 # new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法 sub get { return PVE::RESTEnvironment-&amp;gt;get(); } 好奇两种调用方式是什么区别，经过研</description>
     </item>
     
     <item>
       <title>pve-kernal 编译安装步骤</title>
-      <link>https://www.frytea.com/technology/others/586/</link>
+      <link>https://www.frytea.com/archives/586/</link>
       <pubDate>Wed, 20 Oct 2021 09:55:57 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/586/</guid>
+      <guid>https://www.frytea.com/archives/586/</guid>
       <description>以 pve-release-6.x ，基于 debian buster 为例： Step1: 配置国内 PVE 镜像源 # 配置 pve 软件包国内镜像源 $ echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian buster pve-no-subscription&amp;#34; &amp;gt; /etc/apt/sources.list.d/pve-no-subscription.list $ wget https://enterprise.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-6.x.gpg Setp2：安装依赖包 Install build dependencies (i got these from the pve-kernel/debian/control file): apt install asciidoc-base automake bc</description>
     </item>
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/technology/others/583/</link>
+      <link>https://www.frytea.com/archives/583/</link>
       <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/583/</guid>
+      <guid>https://www.frytea.com/archives/583/</guid>
       <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
     </item>
     

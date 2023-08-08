@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenAI on Frytea</title>
+    <link>https://www.frytea.com/tags/openai/</link>
+    <description>Recent content in OpenAI on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 06 Dec 2022 23:25:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT 注册方法（附万能接码方法）</title>
+      <link>https://www.frytea.com/archives/671/</link>
+      <pubDate>Tue, 06 Dec 2022 23:25:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/671/</guid>
+      <description>ChatGPT 是一个训练有素的语言模型，由 OpenAI 公司训练而成。目的是帮助回答问题，提供信息和支持，但不具备人类的感知能力，也不会回答所有问题。 以上自我介绍原</description>
+    </item>
+    
+  </channel>
+</rss>

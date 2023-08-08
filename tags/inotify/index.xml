@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 27 Jan 2022 09:35:37 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/inotify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>INOTIFY - 监听事件</title>
-      <link>https://www.frytea.com/technology/others/626/</link>
+      <link>https://www.frytea.com/archives/626/</link>
       <pubDate>Thu, 27 Jan 2022 09:35:37 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/626/</guid>
+      <guid>https://www.frytea.com/archives/626/</guid>
       <description>Linux 2.6.13 内核中引入了新的文件系统变化通知机制 inotify ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。 各种语言基本都提供了对该接口的调用方法</description>
     </item>
     

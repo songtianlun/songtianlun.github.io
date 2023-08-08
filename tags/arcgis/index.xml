@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 15 Jan 2019 17:46:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/arcgis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ArcGis综合运用实践</title>
-      <link>https://www.frytea.com/technology/others/46/</link>
+      <link>https://www.frytea.com/archives/46/</link>
       <pubDate>Tue, 15 Jan 2019 17:46:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/46/</guid>
+      <guid>https://www.frytea.com/archives/46/</guid>
       <description>准备工作 环境：windows 10 home 软件：Arcgis 10.5 数据： （1）新乡市矢量边界 （2）包含新乡及周边的dem高程数据 （3）新乡市多波段合成遥感</description>
     </item>
     

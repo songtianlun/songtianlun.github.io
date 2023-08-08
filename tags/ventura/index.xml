@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ventura on Frytea</title>
+    <link>https://www.frytea.com/tags/ventura/</link>
+    <description>Recent content in Ventura on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 04 Nov 2022 00:23:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ventura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS 13 Ventura (多图预警)</title>
+      <link>https://www.frytea.com/archives/643/</link>
+      <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/643/</guid>
+      <description>UTM 是苹果 IOS、macOS 生态下的一款开源的虚拟机软件，底层基于 QEMU 或 Apple 虚拟化，能够在苹果操作系统上以半虚拟化（同 CPU 架构）或全虚拟化（异构 CPU 系</description>
+    </item>
+    
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS13</title>
+      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
+    </item>
+    
+  </channel>
+</rss>

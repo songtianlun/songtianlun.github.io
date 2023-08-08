@@ -10,13 +10,85 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Dec 2021 09:05:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 02:16:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian 挂载 iso 为本地 apt 软件源</title>
+      <link>https://www.frytea.com/technology/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <pubDate>Sat, 22 Jul 2023 02:16:27 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <description>debian 挂载 iso 为本地 apt 软件源 首先，下载debian 10.1.0 amd64架构的dvd iso 将四张dvd iso分别挂载到/media目录的挂载点: # mount /path/to/debian-10.1.0-amd64-DVD-1.iso /media/cdrom1/ # mount /path/to/debian-10.1.0-amd64-DVD-2.iso /media/cdrom2/</description>
+    </item>
+    
+    <item>
+      <title>Debian 开启 IOMMU 支持</title>
+      <link>https://www.frytea.com/technology/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</link>
+      <pubDate>Sat, 22 Jul 2023 02:11:50 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</guid>
+      <description>Debian 开启 IOMMU 支持 vi /etc/default/grub 找到 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet&amp;quot; 修改为 intel: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet intel_iommu=on&amp;quot; AMD: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet amd_iommu=on&amp;quot; 保存并退出，输入以下命令： update-grub 最后重启生效。 References 充分利用手头小机器，从Debian开始搭建aio(Deb</description>
+    </item>
+    
+    <item>
+      <title>debian bullseye iptables 配置持久化</title>
+      <link>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+      <pubDate>Tue, 23 May 2023 02:07:50 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+      <description>debian bullseye iptables 配置持久化 在Debian 11中，iptables规则可以通过使用iptables-persistent包进行持久化。以下是一个如何安装</description>
+    </item>
+    
+    <item>
+      <title>替换 apt-key 导入私有公钥</title>
+      <link>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</link>
+      <pubDate>Wed, 17 May 2023 03:29:33 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</guid>
+      <description>替换 apt-key 导入私有公钥 在使用 apt-key 导入私钥时会遇到以下警告： Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead 将密钥添加到 /etc/apt/trusted.gpg.d 是不安全的，因为它会为所有存储库添加密钥。这正是 apt-key 必须</description>
+    </item>
+    
+    <item>
+      <title>apt 查看软件库中软件包所有可用版本</title>
+      <link>https://www.frytea.com/archives/786/</link>
+      <pubDate>Mon, 01 May 2023 00:06:32 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/786/</guid>
+      <description>要查看软件库中现有的所有可用版本，您可以使用以下命令： apt-cache madison &amp;lt;package-name&amp;gt; 将 &amp;lt;package-name&amp;gt; 替换为您要查看版本信息的软件包名称。此命令将显示所有可用版本的软件包及其详细</description>
+    </item>
+    
+    <item>
+      <title>debmirror 镜像 nexus3 apt 仓库</title>
+      <link>https://www.frytea.com/archives/790/</link>
+      <pubDate>Mon, 01 May 2023 00:06:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/790/</guid>
+      <description>nexus3 没有很好的目录重命名方法。 使用 apt-mirror 镜像会出错，实测 debmirror 没问题。下面记录方法： 首先导入公钥 导入 apt 公钥 如果你已经有了公钥文件（如 public.ke</description>
+    </item>
+    
+    <item>
+      <title>debian/ubuntu 防火墙 ufw 简单使用</title>
+      <link>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <description>debian/ubuntu 防火墙 ufw 简单使用 什么是 UFW ？ UFW，即简单防火墙 Uncomplicated FireWall，是一个管理防火墙规则的前端，大部分 Linux 系统都可以使用。它的目的就是为了使防</description>
+    </item>
+    
+    <item>
+      <title>Linux (Debian 系) 安装官方微信 (Electron，非 wine 版)</title>
+      <link>https://www.frytea.com/archives/677/</link>
+      <pubDate>Fri, 09 Dec 2022 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/677/</guid>
+      <description>使用 Linux 作为唯一主力系统的阻力之一，就来自于微信。 微信大概是目前大多数人都无法离开的软件，而在 Linux 下安装微信在此前是比较复杂的，这对于使用 Linux 工作</description>
+    </item>
+    
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/others/605/</link>
+      <link>https://www.frytea.com/archives/605/</link>
       <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/605/</guid>
+      <guid>https://www.frytea.com/archives/605/</guid>
       <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
     </item>
     
@@ -58,10 +130,10 @@
     
     <item>
       <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/technology/others/591/</link>
+      <link>https://www.frytea.com/archives/591/</link>
       <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/591/</guid>
+      <guid>https://www.frytea.com/archives/591/</guid>
       <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
     </item>
     

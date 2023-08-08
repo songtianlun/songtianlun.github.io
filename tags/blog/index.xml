@@ -10,31 +10,13 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Nov 2021 23:57:46 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谈谈原创独立博客的未来 ｜ 互联网同质化的今天如何创新</title>
-      <link>https://www.frytea.com/posts/how-to-innovate-today-when-the-internet-is-homogenized/</link>
-      <pubDate>Sat, 13 Nov 2021 23:57:46 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/posts/how-to-innovate-today-when-the-internet-is-homogenized/</guid>
-      <description>科技的发展是否压制了人们的创造力?</description>
-    </item>
-    
-    <item>
-      <title>找寻独立原创博客的价值</title>
-      <link>https://www.frytea.com/posts/the-value-of-independent-original-blog/</link>
-      <pubDate>Wed, 10 Nov 2021 13:58:14 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/posts/the-value-of-independent-original-blog/</guid>
-      <description>分享自己个人网站建站的所思所想与大家讨论</description>
-    </item>
-    
+    <lastBuildDate>Thu, 28 Oct 2021 00:10:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>新 Hugo 博客相关记录笔记</title>
-      <link>https://www.frytea.com/technology/others/588/</link>
+      <link>https://www.frytea.com/archives/588/</link>
       <pubDate>Thu, 28 Oct 2021 00:10:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/588/</guid>
+      <guid>https://www.frytea.com/archives/588/</guid>
       <description>2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名： blog.frytea.com 内容太过庞杂，不成体系，很难重新做规整； blog.frytea.com 目前采用的付费</description>
     </item>
     

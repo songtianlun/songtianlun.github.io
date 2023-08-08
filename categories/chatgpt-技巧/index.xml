@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>chatGPT 技巧 on Frytea</title>
+    <link>https://www.frytea.com/categories/chatgpt-%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in chatGPT 技巧 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 13 Apr 2023 15:00:09 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/chatgpt-%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推荐一份 ChatGPT 中文调教指南</title>
+      <link>https://www.frytea.com/72.html</link>
+      <pubDate>Thu, 13 Apr 2023 15:00:09 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/72.html</guid>
+      <description>《🧠ChatGPT 中文调教指南》 是一份帮助你“调教”chatGPT 的指南，可以给人许多灵感。</description>
+    </item>
+    
+    <item>
+      <title>基于chatGPT 创建个人知识库助手 – copilot hub</title>
+      <link>https://www.frytea.com/38.html</link>
+      <pubDate>Thu, 30 Mar 2023 13:57:05 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/38.html</guid>
+      <description>目前 chatGPT 的资料截止 2021，许多资料是过时的，如何使用自己现有的资料构建个人的 chatGPT 知识库助手呢？copilot hub 或许是一个解决方案。 以下内容转载</description>
+    </item>
+    
+    <item>
+      <title>破解海外 ChatGPT 检测技巧</title>
+      <link>https://www.frytea.com/37.html</link>
+      <pubDate>Thu, 30 Mar 2023 13:51:11 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/37.html</guid>
+      <description>以下内容转载自：https://web.okjike.com/originalPost/6421ac4b97c3df8e4ff0c1d0 1️</description>
+    </item>
+    
+    <item>
+      <title>用 ChatGPT 学日语</title>
+      <link>https://www.frytea.com/36.html</link>
+      <pubDate>Thu, 30 Mar 2023 13:48:32 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/36.html</guid>
+      <description>看到一些即友会使用 ChatGPT 学日语，感觉很有意思，在这里分享一下： 启发开始用 ChatGPT 学日语，真的是特耐心的个性化定制日语老师。除了不能语音对话、需要再用别</description>
+    </item>
+    
+  </channel>
+</rss>

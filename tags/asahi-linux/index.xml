@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>asahi linux on Frytea</title>
+    <link>https://www.frytea.com/tags/asahi-linux/</link>
+    <description>Recent content in asahi linux on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 10 Jan 2023 21:05:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/asahi-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>m1 MacBook 安装 asahi linux 磁盘调整失败解决</title>
+      <link>https://www.frytea.com/archives/725/</link>
+      <pubDate>Tue, 10 Jan 2023 21:05:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/725/</guid>
+      <description>尝试在 MacBook Air m1 安装 asahi linux ，在磁盘分区过程遭遇报错，具体过程没有留下来，是类似这样的报错： error: doc-id tree: record exists for doc-id 64, file-id 9665861 but no inode references this doc-id 大致解决是要进恢复模式，</description>
+    </item>
+    
+  </channel>
+</rss>

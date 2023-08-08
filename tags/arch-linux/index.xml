@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>arch linux on Frytea</title>
+    <link>https://www.frytea.com/tags/arch-linux/</link>
+    <description>Recent content in arch linux on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Mar 2023 23:09:06 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch Linux 高分屏缩放方案</title>
+      <link>https://www.frytea.com/archives/742/</link>
+      <pubDate>Thu, 02 Mar 2023 23:09:06 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/742/</guid>
+      <description>linux 下高分屏适配当前在 macos/windows/Linux 中的排位尚属末尾，采用整数倍缩放效果尚好（例如 100%、200%），但是若是使用非整数倍缩放（125%、175%）常常</description>
+    </item>
+    
+    <item>
+      <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
+      <link>https://www.frytea.com/archives/740/</link>
+      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/740/</guid>
+      <description>最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用</description>
+    </item>
+    
+  </channel>
+</rss>

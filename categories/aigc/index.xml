@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AIGC on Frytea</title>
+    <link>https://www.frytea.com/categories/aigc/</link>
+    <description>Recent content in AIGC on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 May 2023 00:06:36 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/aigc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AutoGPT 用法</title>
+      <link>https://www.frytea.com/archives/785/</link>
+      <pubDate>Mon, 01 May 2023 00:06:36 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/785/</guid>
+      <description>git clone https://github.com/Torantulino/Auto-GPT.git cd &amp;#39;Auto-GPT&amp;#39; pip install -r requirements.txt # Rename .env.template to .env and fill in your OPENAI_API_KEY. If you plan to use Speech Mode, fill in your ELEVEN_LABS_API_KEY as well. python scripts/main.py # You will find activity and error logs in the folder ./output/logs python scripts/main.py --debug References https://github.com/Torantulino/Auto-GPT https://beta.elevenlabs.io/ https://agentgpt.reworkd.ai/</description>
+    </item>
+    
+    <item>
+      <title>在浏览器里运行 ChatGPT 和 Stable Diffusion</title>
+      <link>https://www.frytea.com/archives/780/</link>
+      <pubDate>Thu, 20 Apr 2023 21:58:02 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/780/</guid>
+      <description>现在可以在浏览器里运行 ChatGPT 和 Stable Diffusion 了，详细请看：https://skybyte.me/79.html M1 M2 电脑可以直接运行，其他电脑也可以试试，快</description>
+    </item>
+    
+    <item>
+      <title>在自己的电脑运行清华开源语言模型 ChatGLM-6B</title>
+      <link>https://www.frytea.com/archives/779/</link>
+      <pubDate>Sat, 15 Apr 2023 18:14:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/779/</guid>
+      <description>有人说 AIGC 用 2 年时间走完了互联网 10 年的路，因为大家看到的是围绕 AI 的产品在最近如雨后春笋般涌现，看不到的事各领域大佬早在几年前已经开始了相关布局</description>
+    </item>
+    
+    <item>
+      <title>在 MacBook 上运行开源版 AI 图像生成模型之 Mochi Diffusion</title>
+      <link>https://www.frytea.com/archives/778/</link>
+      <pubDate>Sun, 09 Apr 2023 15:11:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/778/</guid>
+      <description>Mochi Diffusion 是一个开源的在 Mac 上原生运行 Stable Diffusion 的客户端，可以在 iOS 和 Mac 上使用 Stable Diffusion 画图而无需联网。 Stable Diffusion 作为当前火爆 AI 图像生成中的开源方案，得到广泛关注。使用</description>
+    </item>
+    
+    <item>
+      <title>拯救全网的 ChatGPT 解封攻略</title>
+      <link>https://www.frytea.com/archives/770/</link>
+      <pubDate>Mon, 03 Apr 2023 23:46:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/770/</guid>
+      <description>不知为什么最近 OpenAI 账号大批量被封这条新闻火遍各大媒体，还以为真的发生了什么大事。好在手里的这几个帐号暂时无恙。 对于这一消息，我第一反应是质疑，</description>
+    </item>
+    
+    <item>
+      <title>在自己的电脑运行开源版 ChatGPT —— gpt4all</title>
+      <link>https://www.frytea.com/archives/769/</link>
+      <pubDate>Sun, 02 Apr 2023 15:20:46 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/769/</guid>
+      <description>GPT4All 是基于大量干净的助手数据（包括代码、故事和对话）训练而成的聊天机器人，数据包括 ～800k 条 GPT-3.5-Turbo 生成数据，基于 LLaMa 完成，M1 Mac、Window</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT 给出的计算机科学学习计划</title>
+      <link>https://www.frytea.com/archives/768/</link>
+      <pubDate>Sat, 01 Apr 2023 15:43:57 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/768/</guid>
+      <description>尝试询问 chatGPT 计算机科学学习计划： 我目前是一名云计算工程师，不是计算机科班出身，学习过基础的计算机导论、程序设计基础、C 程序开发以及 C++ 程序设计开</description>
+    </item>
+    
+    <item>
+      <title>如何提升博客访问量</title>
+      <link>https://www.frytea.com/archives/767/</link>
+      <pubDate>Sat, 01 Apr 2023 14:11:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/767/</guid>
+      <description>最近在探索提升博客访问量的方法，以下是 ChatGPT4 给出的答案： 要增加博客的访问量，你可以采取以下策略： 高质量内容：确保你的博客内容有趣、有价值、有深度</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT 给出的计算机科学学习计划</title>
+      <link>https://www.frytea.com/51.html</link>
+      <pubDate>Sat, 01 Apr 2023 07:43:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/51.html</guid>
+      <description>尝试询问 chatGPT 计算机科学学习计划： 我目前是一名云计算工程师，不是计算机科班出身，学习过基础的计算机导论、程序设计基础、C 程序开发以及 C++ 程序设计开</description>
+    </item>
+    
+    <item>
+      <title>如何提升博客访问量</title>
+      <link>https://www.frytea.com/50.html</link>
+      <pubDate>Sat, 01 Apr 2023 06:10:54 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/50.html</guid>
+      <description>最近在探索提升博客访问量的方法，以下是 ChatGPT4 给出的答案： 要增加博客的访问量，你可以采取以下策略： 高质量内容：确保你的博客内容有趣、有价值、有深度</description>
+    </item>
+    
+    <item>
+      <title>一种 ChatGPT 充值的方法—— nobepay</title>
+      <link>https://www.frytea.com/archives/766/</link>
+      <pubDate>Sat, 01 Apr 2023 00:26:34 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/766/</guid>
+      <description>ChatGPT 是一种人工智能自然语言处理模型，为了获得更好的性能和效果，通常需要进行充值。在进行 ChatGPT 充值时，有很多数字货币支付服务可供选择，其中 Nobepay 可能是一</description>
+    </item>
+    
+    <item>
+      <title>一种 ChatGPT 充值的方法 —— Depay</title>
+      <link>https://www.frytea.com/archives/765/</link>
+      <pubDate>Sat, 01 Apr 2023 00:22:44 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/765/</guid>
+      <description>最近研究 OpenAI 旗下 ChatGPT 的付费方法。 ChatGPT 是一种基于人工智能的自然语言处理模型，目前已经被广泛应用于各种领域，如聊天机器人、智能客服、文本摘要等。 在使用</description>
+    </item>
+    
+    <item>
+      <title>管理情绪的秘诀：5 个实用技巧</title>
+      <link>https://www.frytea.com/archives/758/</link>
+      <pubDate>Sun, 19 Mar 2023 21:52:09 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/758/</guid>
+      <description>情绪是每个人都拥有的一种自然反应。有时候我们会因为情绪失控而做出一些后悔的决定，这不仅会影响到我们自己的生活，也会对周围的人产生负面影响。所</description>
+    </item>
+    
+    <item>
+      <title>最近使用 AI 的一点感受 —— 快速验证及落地方案</title>
+      <link>https://www.frytea.com/archives/756/</link>
+      <pubDate>Sun, 19 Mar 2023 18:15:14 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/756/</guid>
+      <description>近期，聊天机器人技术 GPT-3 火遍了整个互联网。GPT-3 在自然语言处理方面的出色表现，引起了大家对 AI 的关注和探索。作为一名从事相关领域的工程师，我</description>
+    </item>
+    
+    <item>
+      <title>从百度文心一言发布标志着海内外AI正面竞争的开始</title>
+      <link>https://www.frytea.com/archives/755/</link>
+      <pubDate>Sat, 18 Mar 2023 22:09:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/755/</guid>
+      <description>近年来，人工智能技术在全球范围内得到了快速发展，AI 技术的应用场景也在不断扩大。而近期，百度公司推出的文心一言产品发布，标志着海内外 AI 正面竞</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT VS Notion AI</title>
+      <link>https://www.frytea.com/archives/752/</link>
+      <pubDate>Sun, 12 Mar 2023 20:23:34 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/752/</guid>
+      <description>简介 在当今世界中，涌现了许多基于人工智能的工具和平台，旨在简化各种功能。聊天机器人和虚拟助手是近年来广受欢迎的两个例子。 ChatGPT 和 Notion AI 是提供基于人</description>
+    </item>
+    
+    <item>
+      <title>chatGPT 席卷全球后，我们的工作方式会发生什么变化</title>
+      <link>https://www.frytea.com/archives/751/</link>
+      <pubDate>Sun, 12 Mar 2023 20:22:08 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/751/</guid>
+      <description>介绍 在过去的几年中，人工智能技术的快速发展一直在推动着我们的生活和工作方式的变革。近来，一种新型的人工智能技术——GPT-3 已经引起了广泛的</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT 现象概述</title>
+      <link>https://www.frytea.com/archives/746/</link>
+      <pubDate>Wed, 08 Mar 2023 17:52:58 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/746/</guid>
+      <description>简介 近年来，聊天机器人越来越受欢迎，许多公司和个人使用它们与客户交互或进行对话。其中一种聊天机器人是 ChatGPT，因其生成类似人类响应的能</description>
+    </item>
+    
+  </channel>
+</rss>

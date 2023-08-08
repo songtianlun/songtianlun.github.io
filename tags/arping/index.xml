@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>arping on Frytea</title>
+    <link>https://www.frytea.com/tags/arping/</link>
+    <description>Recent content in arping on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Nov 2022 14:51:47 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/arping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 使用 arping 扫描 ip 冲突</title>
+      <link>https://www.frytea.com/archives/644/</link>
+      <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/644/</guid>
+      <description>最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。 一般检查 IP 是</description>
+    </item>
+    
+  </channel>
+</rss>

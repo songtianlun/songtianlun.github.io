@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LVM on Frytea</title>
+    <link>https://www.frytea.com/tags/lvm/</link>
+    <description>Recent content in LVM on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 29 Mar 2023 18:42:08 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟磁盘扩容后扩展 LVM vg</title>
+      <link>https://www.frytea.com/archives/763/</link>
+      <pubDate>Wed, 29 Mar 2023 18:42:08 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/763/</guid>
+      <description>新空间分区 在使用 fdisk 工具将新增的磁盘空间分配到 LVM PV 上时，您需要按照以下步骤操作： 运行 fdisk -l 命令查看系统中当前可用的磁盘和分区信息。 运行 fdisk /dev/sdX 命令（</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JAVA on Frytea</title>
+    <link>https://www.frytea.com/tags/java/</link>
+    <description>Recent content in JAVA on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Jun 2023 15:59:20 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 java 手动执行生成的类文件</title>
+      <link>https://www.frytea.com/technology/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Tue, 20 Jun 2023 15:59:20 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</guid>
+      <description>使用 java 手动执行生成的类文件 下面以执行使用 mvn compile 编译好的 cn.gson.oasys.OasysApplication Java 类为例。 你可以使用 java 命令直接运行编译后的 Java 类文件，但是你需要明确指定所需要的类路径 -cp</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>firefox on Frytea</title>
+    <link>https://www.frytea.com/tags/firefox/</link>
+    <description>Recent content in firefox on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Mar 2023 21:13:35 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>firefox 使用侧边标签栏替换顶部标签栏</title>
+      <link>https://www.frytea.com/archives/745/</link>
+      <pubDate>Wed, 01 Mar 2023 21:13:35 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/745/</guid>
+      <description>安装侧边插件 tab-tree 推荐安装使用 Tree Style Tab 插件实现侧边插件，其他插件也可自行探索。 配置自动隐藏顶栏 地址栏输入 about:config —&amp;gt; toolkit.legacyUserProfileCustomizations.stylesheets —&amp;gt; true 帮助—&amp;gt; 更</description>
+    </item>
+    
+  </channel>
+</rss>

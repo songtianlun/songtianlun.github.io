@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 30 Dec 2021 20:11:59 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>国内对象存储/CDN服务价格横评</title>
-      <link>https://www.frytea.com/technology/others/614/</link>
+      <link>https://www.frytea.com/archives/614/</link>
       <pubDate>Thu, 30 Dec 2021 20:11:59 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/614/</guid>
+      <guid>https://www.frytea.com/archives/614/</guid>
       <description>话不多说，直接上表格。 价格表(国内HTTPS价格) 名称 存储免费额度(GB) 存储费用(元 / GB / 日) 流量免费额度 流量费用(元/GB) CDN流量费</description>
     </item>
     
@@ -31,19 +31,19 @@
     
     <item>
       <title>CDN 中的 「回源HOST」与「源站」</title>
-      <link>https://www.frytea.com/technology/others/589/</link>
+      <link>https://www.frytea.com/archives/589/</link>
       <pubDate>Thu, 28 Oct 2021 00:11:48 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/589/</guid>
+      <guid>https://www.frytea.com/archives/589/</guid>
       <description>在配置网站 CDN 时总是搞不清其中「回源HOST」与「源站」的区别，因此在这里简单记录。 源站和回源HOST的区别： 源站：源站决定了回源时请求到的具</description>
     </item>
     
     <item>
       <title>这项技术解决了博客访问的大问题</title>
-      <link>https://www.frytea.com/technology/others/299/</link>
+      <link>https://www.frytea.com/archives/299/</link>
       <pubDate>Thu, 23 Jan 2020 11:35:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/299/</guid>
+      <guid>https://www.frytea.com/archives/299/</guid>
       <description>由于一些原因，我的博客暂时托管在香港某家服务提供商的云主机之上，虽然商家已经尽权力为线路做了优化，但是到达大陆一些地域的访问速度还是不太理想</description>
     </item>
     

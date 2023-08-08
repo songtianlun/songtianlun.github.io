@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kali on Frytea</title>
+    <link>https://www.frytea.com/tags/kali/</link>
+    <description>Recent content in kali on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 08 Nov 2022 14:53:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/kali/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kali linux 配置 xrdp 远程桌面服务</title>
+      <link>https://www.frytea.com/archives/645/</link>
+      <pubDate>Tue, 08 Nov 2022 14:53:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/645/</guid>
+      <description>xrdp 的配置让我充满疑惑，今天误打误撞完成了 kali 下的 xrdp 配置，能够顺利远程桌面进入 kali，这里记录一些可能必须的步骤，以备后用。 首先按照 kali 官网给出</description>
+    </item>
+    
+  </channel>
+</rss>

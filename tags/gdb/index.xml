@@ -31,19 +31,19 @@
     
     <item>
       <title>GDB 调试 QEMU 源码跟踪 QMP 协议执行</title>
-      <link>https://www.frytea.com/technology/others/566/</link>
+      <link>https://www.frytea.com/archives/566/</link>
       <pubDate>Fri, 03 Sep 2021 09:53:08 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/566/</guid>
+      <guid>https://www.frytea.com/archives/566/</guid>
       <description>接上文，通过跟踪 libvirt 的源码，找到 virsh domblkinfo 最终是使用 QMP 协议从 QEMU 获取到关键字为 query-block 的数据，其中带有 wr_highest_offset 字段，该字段被 libvirt 认定为 磁盘利用率中 Allocation 值的来源。 今天就</description>
     </item>
     
     <item>
       <title>GDB 调试 libvirt 源码之 domblkinfo 命令源码跟踪记</title>
-      <link>https://www.frytea.com/technology/others/565/</link>
+      <link>https://www.frytea.com/archives/565/</link>
       <pubDate>Thu, 02 Sep 2021 13:42:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/565/</guid>
+      <guid>https://www.frytea.com/archives/565/</guid>
       <description>最近发现环境中 KVM 虚拟机磁盘利用率查不准，使用 virsh 命令查看磁盘使用情况得到如下结果： # virsh domblkinfo 20 vda --human Capacity: 2.000 GiB Allocation: 2.000 GiB Physical: 2.000 GiB 显然是有问题的，正常的数值三个</description>
     </item>
     

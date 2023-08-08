@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Copilot on Frytea</title>
+    <link>https://www.frytea.com/tags/copilot/</link>
+    <description>Recent content in Copilot on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Feb 2023 22:21:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs 集成 Github Copilot</title>
+      <link>https://www.frytea.com/archives/738/</link>
+      <pubDate>Thu, 09 Feb 2023 22:21:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/738/</guid>
+      <description>copilot.el 是一个非官方实现的 Github Copilot 插件，实测在 x86/arm64 、macos/debian 下均可使用，下面介绍最关键的几个配置步骤。 准备 Emacs &amp;gt;= 27 安装 node.js emacs 安装好 e, editorconfig 插件 以</description>
+    </item>
+    
+  </channel>
+</rss>

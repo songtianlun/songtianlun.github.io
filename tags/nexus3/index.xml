@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nexus3 on Frytea</title>
+    <link>https://www.frytea.com/tags/nexus3/</link>
+    <description>Recent content in nexus3 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 Jul 2023 06:00:03 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/nexus3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nexus3 上传 docker 镜像</title>
+      <link>https://www.frytea.com/technology/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</link>
+      <pubDate>Wed, 19 Jul 2023 06:00:03 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</guid>
+      <description>nexus3 上传 docker 镜像 docker login 192.168.25.8:8082 docker tag xxxx 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 docker push 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 修改配置文件 首先需要在客户端配置，配置文件在： /etc/docker/daemon.json 内容形如： { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;加速地址&amp;#34; ], &amp;#34;insecure-registries&amp;#34;: [ &amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>debmirror 镜像 nexus3 apt 仓库</title>
+      <link>https://www.frytea.com/archives/790/</link>
+      <pubDate>Mon, 01 May 2023 00:06:21 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/790/</guid>
+      <description>nexus3 没有很好的目录重命名方法。 使用 apt-mirror 镜像会出错，实测 debmirror 没问题。下面记录方法： 首先导入公钥 导入 apt 公钥 如果你已经有了公钥文件（如 public.ke</description>
+    </item>
+    
+  </channel>
+</rss>

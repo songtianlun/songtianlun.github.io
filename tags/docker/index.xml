@@ -10,7 +10,106 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Mar 2022 14:43:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
+      <link>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
+    </item>
+    
+    <item>
+      <title>查看所有由 docker-compose 启动的 docker</title>
+      <link>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
+      <pubDate>Wed, 19 Jul 2023 02:51:10 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
+      <description>查看所有由 docker-compose 启动的 docker Docker Compose会为其创建的每个容器添加标签。如果您想获取由Compose创建的所有容器，可以执行container ls</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 安装指定版本 docker</title>
+      <link>https://www.frytea.com/archives/789/</link>
+      <pubDate>Mon, 01 May 2023 00:06:25 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/789/</guid>
+      <description>如果你过去安装过 docker，先删掉： sudo apt-get remove docker docker-engine docker.io containerd runc 首先安装依赖： sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common 信任 Docker 的 GPG 公钥并添加仓库： 发行版 sudo mkdir -m 0755 -p /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg</description>
+    </item>
+    
+    <item>
+      <title>检查当前终端是不是 Docker</title>
+      <link>https://www.frytea.com/archives/775/</link>
+      <pubDate>Thu, 27 Apr 2023 22:07:15 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/775/</guid>
+      <description>要确定当前运行的终端是否在 Docker 容器内，可以检查容器特定的文件和环境变量。以下是一种方法，通过查看 /proc/1/cgroup 文件来判断： cat /proc/1/cgroup 观察输出的内容。如果您看到与</description>
+    </item>
+    
+    <item>
+      <title>查看 Docker cp 进度</title>
+      <link>https://www.frytea.com/archives/762/</link>
+      <pubDate>Wed, 29 Mar 2023 09:18:12 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/762/</guid>
+      <description>docker cp 命令本身不提供进度查看功能。但是，您可以使用第三方工具，如 pv（Pipe Viewer）在执行 docker cp 时查看进度。以下是使用 pv 查看 docker cp 进度的步</description>
+    </item>
+    
+    <item>
+      <title>迁移 Docker volume 到本地挂载点</title>
+      <link>https://www.frytea.com/archives/760/</link>
+      <pubDate>Tue, 28 Mar 2023 18:22:02 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/760/</guid>
+      <description>要将 Docker volume 迁移到本地挂载点，您需要执行以下步骤： 首先，确保已停止正在使用此 volume 的所有容器。您可以使用以下命令停止容器（将 &amp;lt;container_name&amp;gt; 替换为您的容器名称）：</description>
+    </item>
+    
+    <item>
+      <title>Dockerfile 禁止弹出 apt 安装交互视图</title>
+      <link>https://www.frytea.com/archives/749/</link>
+      <pubDate>Mon, 13 Mar 2023 08:41:20 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/749/</guid>
+      <description>在 Dockerfile 中执行 apt 安装时，有些软件包可能会在安装过程中弹出交互式视图，例如询问用户是否接受软件包许可证或配置软件包参数等。在 Docker 构建过程中，由于无法</description>
+    </item>
+    
+    <item>
+      <title>部署 Prometheus 主机监控完全体</title>
+      <link>https://www.frytea.com/archives/664/</link>
+      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/664/</guid>
+      <description>监控完全体 = Prometheus + Node Exporter + cadvisor + grafana Prometheus 作为轮转数据库，从各个服务器采集数据； node-exporter 作为数据采集器，接受 prometheus 采集请求，上报主机各项参数； vadvisor 作为容器数据采集器</description>
+    </item>
+    
+    <item>
+      <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
+      <link>https://www.frytea.com/archives/660/</link>
+      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/660/</guid>
+      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+    </item>
+    
+    <item>
+      <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
+      <link>https://www.frytea.com/archives/658/</link>
+      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/658/</guid>
+      <description>很长一段时间中，我都在思考容器建站的可行性。 容器有诸多益处，各类好处就不一一列举了。 在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一</description>
+    </item>
+    
+    <item>
+      <title>群晖 Docker 配置镜像源和私有源</title>
+      <link>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</link>
+      <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</guid>
+      <description>记录群晖 Docker 配置和重启.</description>
+    </item>
+    
     <item>
       <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
       <link>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
@@ -58,10 +157,10 @@
     
     <item>
       <title>深挖 docker 默认网络 | 为什么 docker 默认网络能上外网</title>
-      <link>https://www.frytea.com/technology/others/612/</link>
+      <link>https://www.frytea.com/archives/612/</link>
       <pubDate>Tue, 28 Dec 2021 14:49:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/612/</guid>
+      <guid>https://www.frytea.com/archives/612/</guid>
       <description>为什么默认配置创建出来的 docker 容器可以访问外网，为什么监听对应端口就能对外暴露docker服务，一张图搞清楚。 首先 Docker 有四中网络模式， 分别是 Bri</description>
     </item>
     
@@ -103,10 +202,10 @@
     
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/technology/others/598/</link>
+      <link>https://www.frytea.com/archives/598/</link>
       <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/598/</guid>
+      <guid>https://www.frytea.com/archives/598/</guid>
       <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
     </item>
     
@@ -121,10 +220,10 @@
     
     <item>
       <title>Centos系统安装docker</title>
-      <link>https://www.frytea.com/technology/others/37/</link>
+      <link>https://www.frytea.com/archives/37/</link>
       <pubDate>Tue, 12 Mar 2019 11:13:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/37/</guid>
+      <guid>https://www.frytea.com/archives/37/</guid>
       <description>主要步骤 1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。 通过 uname -r 命令查看你当前的内核版</description>
     </item>
     

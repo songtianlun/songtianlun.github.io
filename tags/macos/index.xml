@@ -1,22 +1,166 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>macos on Frytea</title>
+    <title>macOS on Frytea</title>
     <link>https://www.frytea.com/tags/macos/</link>
-    <description>Recent content in macos on Frytea</description>
+    <description>Recent content in macOS on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jan 2022 15:10:58 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jul 2023 02:52:55 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 内存测试 memtest</title>
+      <link>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
+      <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
+      <description>macOS 内存测试 memtest 安装方法，命令行下执行： brew install memtester 关于homebrew安装brew.请访问： https://brew.sh/ 安装完成之后，也很简单。打开多个Termial. 然后每</description>
+    </item>
+    
+    <item>
+      <title>macOS 禁用 Safari 下载自动解压</title>
+      <link>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</link>
+      <pubDate>Thu, 25 May 2023 01:07:05 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</guid>
+      <description>macOS 禁用 Safari 下载自动解压 1.选择Safari 浏览器的「偏好设定」。 2.在「通用」下取消选取「下载后打开&amp;quot;安全的&amp;quot;档案」就可以</description>
+    </item>
+    
+    <item>
+      <title>Surge 从零开始配置</title>
+      <link>https://www.frytea.com/archives/782/</link>
+      <pubDate>Mon, 01 May 2023 00:06:42 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/782/</guid>
+      <description>Surge for macOS 基于 这份 修改。 # Surge 的规则配置手册: https://manual.nssurge.com/ [General] loglevel = notify # 从 Surge iOS 4 / Surge Mac 3.3.0 起，工具开始支持 DoH doh-server = https://doh.pub/dns-query, https://dns.alidns.com/dns-query # https://dns.alidns.com/dns-query, https://13800000000.rubyfish.cn/, https://doh.360.cn/dns-query, https://dns.google/dns-query dns-server = 223.5.5.5, 114.114.114.114 tun-excluded-routes = 0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.168.0.0/16, 192.88.99.0/24, 198.51.100.0/24, 203.0.113.0/24,</description>
+    </item>
+    
+    <item>
+      <title>在 Linux 和 M1 macOS 上自托管运行清华开源语言模型 ChatGLM-6B</title>
+      <link>https://www.frytea.com/74.html</link>
+      <pubDate>Sat, 15 Apr 2023 09:47:48 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/74.html</guid>
+      <description>ChatGLM-6B 是一个由清华 THUDM 开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（</description>
+    </item>
+    
+    <item>
+      <title>运行在 macOS 中的 Linux —— multipass 方案</title>
+      <link>https://www.frytea.com/archives/773/</link>
+      <pubDate>Sun, 09 Apr 2023 15:02:12 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/773/</guid>
+      <description>multipass 用于编排虚拟 Ubuntu 实例 下载 pkg 安装。 $ multipass find $ multipass launch ubuntu $ multipass list $ multipass info &amp;lt;VM Name&amp;gt; $ multipass shell &amp;lt;VM Name&amp;gt; $ multipass exec &amp;lt;VM Name&amp;gt; -- lsb_release -a $ multipass stop &amp;lt;VM Name&amp;gt; $ multipass delete &amp;lt;VM Name&amp;gt; $ multipass purge Reference 在 macOS 中使用 Podman</description>
+    </item>
+    
+    <item>
+      <title>运行在 macOS 中的 Linux —— OrbStack 方案</title>
+      <link>https://www.frytea.com/archives/772/</link>
+      <pubDate>Sun, 09 Apr 2023 15:02:08 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/772/</guid>
+      <description>OrbStack) 是在 macOS 上运行 Docker 容器和 Linux 机器的快速、轻量级和简单的方式。它是一个超级充电版 WSL 和 Docker 桌面替代品，所有这些都在一个易于使用的应用程序中实现。 Git</description>
+    </item>
+    
+    <item>
+      <title>macOS 使用 dd 制作 USB 启动盘</title>
+      <link>https://www.frytea.com/archives/764/</link>
+      <pubDate>Thu, 30 Mar 2023 22:39:40 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/764/</guid>
+      <description>安装操作系统时，当前常用的方式是获取操作系统对应的 ISO 文件，并制作 U 盘启动盘，使用 U 盘引导系统进行安装。 当使用 MacOS 时，可以很方便的利用系统自带工</description>
+    </item>
+    
+    <item>
+      <title>macOS 清理时间机器快照</title>
+      <link>https://www.frytea.com/archives/750/</link>
+      <pubDate>Tue, 14 Mar 2023 08:48:24 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/750/</guid>
+      <description>安装 Asahi Linux 发现磁盘可用空间为 0，查阅文档发现是时间机器的问题。 We&#39;re going to resize this partition: APFS [Macintosh HD] (245.11 GB, 6 volumes) Total size: 245.11 GB Free space: 132.23 GB Available space: 0 B Overhead: 94.23 GB Minimum total size: 245.11 GB (100.00%) 开启时间机器</description>
+    </item>
+    
+    <item>
+      <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
+      <link>https://www.frytea.com/archives/740/</link>
+      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/740/</guid>
+      <description>最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用</description>
+    </item>
+    
+    <item>
+      <title>macOS 安装 Emacs</title>
+      <link>https://www.frytea.com/archives/733/</link>
+      <pubDate>Fri, 27 Jan 2023 16:14:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/733/</guid>
+      <description>macOS 下可选择多种 Emacs GUI ，建议 Emacs Mac Port。 Emacs Mac Port Emacs For Mac OS X 安装 Emacs mac Port brew tap railwaycat/emacsmacport brew install --cask emacs-mac 相较于 Emacs For Mac OS X ，Emacs Mac Port 界面效果更好，裸 Emacs 的图标更加美</description>
+    </item>
+    
+    <item>
+      <title>Paralles Desktop 修改虚拟机用户密码</title>
+      <link>https://www.frytea.com/archives/726/</link>
+      <pubDate>Wed, 11 Jan 2023 10:42:51 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/726/</guid>
+      <description>最近在使用 Paralles Desktop 过程中，发现一旦忘记用户密码，是一件挺麻烦的事情。尝试各种方法打不开 grub 启动菜单。 后来发现可以使用其提供的命令工具修改用户密码，</description>
+    </item>
+    
+    <item>
+      <title>m1 MacBook 安装 asahi linux 磁盘调整失败解决</title>
+      <link>https://www.frytea.com/archives/725/</link>
+      <pubDate>Tue, 10 Jan 2023 21:05:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/725/</guid>
+      <description>尝试在 MacBook Air m1 安装 asahi linux ，在磁盘分区过程遭遇报错，具体过程没有留下来，是类似这样的报错： error: doc-id tree: record exists for doc-id 64, file-id 9665861 but no inode references this doc-id 大致解决是要进恢复模式，</description>
+    </item>
+    
+    <item>
+      <title>macOS 使用 arping 扫描 ip 冲突</title>
+      <link>https://www.frytea.com/archives/644/</link>
+      <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/644/</guid>
+      <description>最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。 一般检查 IP 是</description>
+    </item>
+    
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS 13 Ventura (多图预警)</title>
+      <link>https://www.frytea.com/archives/643/</link>
+      <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/643/</guid>
+      <description>UTM 是苹果 IOS、macOS 生态下的一款开源的虚拟机软件，底层基于 QEMU 或 Apple 虚拟化，能够在苹果操作系统上以半虚拟化（同 CPU 架构）或全虚拟化（异构 CPU 系</description>
+    </item>
+    
+    <item>
+      <title>macOS12 使用 UTM 体验 macOS13</title>
+      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
+    </item>
+    
+    <item>
+      <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
+      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <description>一行命令解决 Alacritty 不断请求权限问题.</description>
+    </item>
+    
     <item>
       <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
-      <link>https://www.frytea.com/technology/others/624/</link>
+      <link>https://www.frytea.com/archives/624/</link>
       <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/624/</guid>
+      <guid>https://www.frytea.com/archives/624/</guid>
       <description>最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。 MacOS 平台下没有很好的支</description>
     </item>
     

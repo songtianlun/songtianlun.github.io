@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>grafana on Frytea</title>
+    <link>https://www.frytea.com/tags/grafana/</link>
+    <description>Recent content in grafana on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Dec 2022 09:57:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>部署 Prometheus 主机监控完全体</title>
+      <link>https://www.frytea.com/archives/664/</link>
+      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/664/</guid>
+      <description>监控完全体 = Prometheus + Node Exporter + cadvisor + grafana Prometheus 作为轮转数据库，从各个服务器采集数据； node-exporter 作为数据采集器，接受 prometheus 采集请求，上报主机各项参数； vadvisor 作为容器数据采集器</description>
+    </item>
+    
+  </channel>
+</rss>

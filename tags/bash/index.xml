@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Sep 2021 17:35:23 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 17:49:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux grep 过滤多个单词</title>
+      <link>https://www.frytea.com/archives/636/</link>
+      <pubDate>Mon, 31 Oct 2022 17:49:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/636/</guid>
+      <description>有时会需要使用 grep 做多关键词匹配，这里给出集中方法，简单记录： grep &amp;#39;word1\|word2\|word3&amp;#39; /path/to/file ### Search all text files ### $ grep &amp;#39;word*&amp;#39; *.txt ### Search all python files for &amp;#39;wordA&amp;#39; or &amp;#39;wordB&amp;#39; ### $ grep &amp;#39;wordA*&amp;#39;\&amp;#39;&amp;#39;wordB&amp;#39; *.py $ grep -E &amp;#39;word1|word2&amp;#39; *.doc $ grep -e string1 -e string2 *.pl $</description>
+    </item>
+    
     <item>
       <title>自动递归下载依赖 deb 包 bash 脚本</title>
-      <link>https://www.frytea.com/technology/others/575/</link>
+      <link>https://www.frytea.com/archives/575/</link>
       <pubDate>Sat, 18 Sep 2021 17:35:23 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/575/</guid>
+      <guid>https://www.frytea.com/archives/575/</guid>
       <description>说明 脚本自动递归下载给定包列表deb包及其依赖包，深度3层； 若指定参数则下载给定的包及其依赖包（目前仅支持指定1个包，不支持多包）； 若无参数</description>
     </item>
     

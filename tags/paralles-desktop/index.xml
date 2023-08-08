@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Paralles Desktop on Frytea</title>
+    <link>https://www.frytea.com/tags/paralles-desktop/</link>
+    <description>Recent content in Paralles Desktop on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 11 Feb 2023 19:32:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/paralles-desktop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
+      <link>https://www.frytea.com/archives/740/</link>
+      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/740/</guid>
+      <description>最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用</description>
+    </item>
+    
+    <item>
+      <title>Paralles Desktop 修改虚拟机用户密码</title>
+      <link>https://www.frytea.com/archives/726/</link>
+      <pubDate>Wed, 11 Jan 2023 10:42:51 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/726/</guid>
+      <description>最近在使用 Paralles Desktop 过程中，发现一旦忘记用户密码，是一件挺麻烦的事情。尝试各种方法打不开 grub 启动菜单。 后来发现可以使用其提供的命令工具修改用户密码，</description>
+    </item>
+    
+  </channel>
+</rss>
