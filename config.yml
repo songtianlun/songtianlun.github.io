@@ -115,8 +115,8 @@ params:
           url: "https://telegram.me/songtianlun"
         - name: email
           url: "mailto:songtianlun@frytea.com"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/songtianlun/"
+        # - name: linkedin
+        #   url: "https://www.linkedin.com/in/songtianlun/"
         - name: rss
           url: "/index.xml"
 
