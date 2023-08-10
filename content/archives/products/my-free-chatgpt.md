@@ -3,8 +3,9 @@ title: "免费 ChatGPT 镜像站点"
 date: 2023-08-08T08:40:22Z
 description: "本站提供公益 ChatGPT 镜像站，推荐收藏本页."
 categories: ["网址收藏夹"]
-tags: ["ChatGPT", "GPT", "AI"]
+tags: ["MyProduct", "ChatGPT", "GPT", "AI"]
 draft: false
+weight: 1
 ---
 
 本站提供国内直连的 ChatGPT 镜像站：

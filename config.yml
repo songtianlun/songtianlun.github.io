@@ -6,6 +6,11 @@ title: Frytea
 paginate: 5
 theme: "PaperMod"
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
 googleAnalytics: UA-136094326-1
 
 minify:
@@ -63,7 +68,7 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: true # needs to be explicitly set
+        enabled: false # needs to be explicitly set
         title: 🌱 煎茶
         subtitle: "原创，优质、深度、有思想的优质内容分享。"
         #imageUrl: "<img location>"
@@ -73,6 +78,12 @@ params:
         buttons:
             - name: 🔍 索引
               url: /search
+            - name: 📎 资源
+              url: https://res.frytea.com
+              newTab: true
+            - name: 🤖️ Bots
+              url: https://ai.skybyte.me
+              newTab: true
             # - name: 🖋 随笔精选
             #   url: posts/
             # - name: 🛠 技术精选
@@ -81,12 +92,6 @@ params:
             #   url: shuoshuo/
             # - name: 📁 项目
             #   url: technology/projects/
-            - name: 📎 资源
-              url: https://res.frytea.com
-              newTab: true
-            - name: 🤖️ Bots
-              url: https://ai.skybyte.me
-              newTab: true
             # - name: 📜 技术博客
             #   url: https://blog.frytea.com
             # - name: 🤖 云与AI专题
@@ -98,9 +103,10 @@ params:
 
 
     # home-info mode
-#    homeInfoParams:
-#        Title: "Hi there \U0001F44B"
-#        Content: Welcome to my blog
+    homeInfoParams:
+        # Title: "Hi there \U0001F44B"
+        Title: "🌱 煎茶"
+        Content: 原创，优质、深度、有思想的优质内容分享
 
     socialIcons:
         - name: github
