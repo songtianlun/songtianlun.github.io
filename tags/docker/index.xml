@@ -13,19 +13,19 @@
     <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <link>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
       <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <guid>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
       <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
     </item>
     
     <item>
       <title>查看所有由 docker-compose 启动的 docker</title>
-      <link>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
+      <link>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
       <pubDate>Wed, 19 Jul 2023 02:51:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
+      <guid>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
       <description>查看所有由 docker-compose 启动的 docker Docker Compose会为其创建的每个容器添加标签。如果您想获取由Compose创建的所有容器，可以执行container ls</description>
     </item>
     
@@ -103,55 +103,55 @@
     
     <item>
       <title>群晖 Docker 配置镜像源和私有源</title>
-      <link>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</link>
+      <link>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</link>
       <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</guid>
+      <guid>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</guid>
       <description>记录群晖 Docker 配置和重启.</description>
     </item>
     
     <item>
       <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
-      <link>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
+      <link>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
       <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
+      <guid>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
       <description>k3s自动完成 ssl 证书签发和续签方法，并使用 https 协议暴露服务方法介绍。</description>
     </item>
     
     <item>
       <title>公网部署 k3s 集群方法总结</title>
-      <link>https://www.frytea.com/technology/k8s/k3s-deployment-on-public-network/</link>
+      <link>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</link>
       <pubDate>Tue, 08 Mar 2022 14:36:35 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/k3s-deployment-on-public-network/</guid>
+      <guid>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</guid>
       <description>基于公网完成跨云厂商服务器 k3s 集群部署</description>
     </item>
     
     <item>
       <title>Kubernetes Pod 配置文件(完整注释)</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</link>
       <pubDate>Fri, 04 Feb 2022 13:06:26 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</guid>
       <description>汇集几乎全部 k8s 配置项注释，方便查阅和学习</description>
     </item>
     
     <item>
       <title>kubernetes 核心技术概念</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-core-concept/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</link>
       <pubDate>Fri, 04 Feb 2022 13:04:34 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-core-concept/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</guid>
       <description>汇集 k8s 核心概念，帮助理解</description>
     </item>
     
     <item>
       <title>Kubernetes 系列文章概述</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-abstract/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-abstract/</link>
       <pubDate>Fri, 04 Feb 2022 13:02:37 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-abstract/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-abstract/</guid>
       <description>Kubernetes系列文章概述</description>
     </item>
     
@@ -166,37 +166,37 @@
     
     <item>
       <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
-      <link>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
+      <link>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
       <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
+      <guid>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
       <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
-      <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
+      <link>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</link>
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
       <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
-      <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
+      <link>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</link>
       <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</guid>
       <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
     </item>
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     
@@ -211,10 +211,10 @@
     
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
+      <link>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
       <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
+      <guid>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
       <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
     </item>
     

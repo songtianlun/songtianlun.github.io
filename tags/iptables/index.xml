@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 23 May 2023 02:07:50 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>debian bullseye iptables 配置持久化</title>
-      <link>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+      <link>https://www.frytea.com/archives/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
       <pubDate>Tue, 23 May 2023 02:07:50 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+      <guid>https://www.frytea.com/archives/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
       <description>debian bullseye iptables 配置持久化 在Debian 11中，iptables规则可以通过使用iptables-persistent包进行持久化。以下是一个如何安装</description>
     </item>
     

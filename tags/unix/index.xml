@@ -22,10 +22,10 @@
     
     <item>
       <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
-      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <link>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
       <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
       <description>一行命令解决 Alacritty 不断请求权限问题.</description>
     </item>
     

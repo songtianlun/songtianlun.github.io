@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 12 Dec 2021 22:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/paas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 LeanCloud 云引擎部署 React Web 应用</title>
-      <link>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</link>
+      <link>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</link>
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</guid>
+      <guid>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</guid>
       <description>使用 Leancloud 完成全栈应用托管，初期开发的好帮手.</description>
     </item>
     

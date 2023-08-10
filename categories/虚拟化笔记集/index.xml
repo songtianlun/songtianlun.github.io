@@ -13,64 +13,64 @@
     <lastBuildDate>Tue, 14 Dec 2021 16:04:43 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</link>
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</guid>
       <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
     </item>
     
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</link>
       <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
     </item>
     
     <item>
       <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
-      <link>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</link>
+      <link>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</guid>
       <description>使用 GDB 跟踪 QEMU 的具体执行细节.</description>
     </item>
     
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <link>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
       <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
       <description>一次搞懂 qemu、kvm、virsh 区别.</description>
     </item>
     
     <item>
       <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <link>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</link>
       <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
       <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
     </item>
     
     <item>
       <title>Libvirt domblkinfo 命令源码跟踪记 (GDB)</title>
-      <link>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</link>
+      <link>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:03:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</guid>
       <description>使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节.</description>
     </item>
     

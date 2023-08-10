@@ -13,10 +13,10 @@
     <lastBuildDate>Sun, 30 Apr 2023 03:17:46 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ufw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>debian/ubuntu 防火墙 ufw 简单使用</title>
-      <link>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
       <description>debian/ubuntu 防火墙 ufw 简单使用 什么是 UFW ？ UFW，即简单防火墙 Uncomplicated FireWall，是一个管理防火墙规则的前端，大部分 Linux 系统都可以使用。它的目的就是为了使防</description>
     </item>
     

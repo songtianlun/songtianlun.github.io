@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ssh on Frytea</title>
+    <title>SSH on Frytea</title>
     <link>https://www.frytea.com/tags/ssh/</link>
-    <description>Recent content in ssh on Frytea</description>
+    <description>Recent content in SSH on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,19 +13,19 @@
     <lastBuildDate>Mon, 26 Jun 2023 02:07:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH 密钥类型及格式</title>
-      <link>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
+      <link>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
       <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
     </item>
     
     <item>
       <title>sshd 拒绝连接错误 refused connected from</title>
-      <link>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
+      <link>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
       <pubDate>Fri, 19 May 2023 02:16:16 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
+      <guid>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
       <description>sshd 拒绝连接错误 refused connected from 最近发现一种会导致 sshd 拒绝登陆的方法： 登陆时 sshd 会报出日志： refused connected from 以下是集中可能的原因/方法： 检查主机的访问权限：你需要检查</description>
     </item>
     

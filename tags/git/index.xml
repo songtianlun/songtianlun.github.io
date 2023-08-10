@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>git on Frytea</title>
+    <title>Git on Frytea</title>
     <link>https://www.frytea.com/tags/git/</link>
-    <description>Recent content in git on Frytea</description>
+    <description>Recent content in Git on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -58,37 +58,37 @@
     
     <item>
       <title>无代理国内镜像加速 GitHub 资源拉取</title>
-      <link>https://www.frytea.com/technology/git/no-proxy-clone-github-with-mirror/</link>
+      <link>https://www.frytea.com/archives/git/no-proxy-clone-github-with-mirror/</link>
       <pubDate>Wed, 15 Dec 2021 15:32:54 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/no-proxy-clone-github-with-mirror/</guid>
+      <guid>https://www.frytea.com/archives/git/no-proxy-clone-github-with-mirror/</guid>
       <description>一种非代理加速拉取 github 资源的方法.</description>
     </item>
     
     <item>
       <title>解决拉取 github 仓库报错 “gnutls_handshake () failed” 问题</title>
-      <link>https://www.frytea.com/technology/git/fix-github-err-gnutls-handshake-failed/</link>
+      <link>https://www.frytea.com/archives/git/fix-github-err-gnutls-handshake-failed/</link>
       <pubDate>Wed, 15 Dec 2021 15:25:55 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/fix-github-err-gnutls-handshake-failed/</guid>
+      <guid>https://www.frytea.com/archives/git/fix-github-err-gnutls-handshake-failed/</guid>
       <description>由于代理导致 github 无法正常拉取的解决办法.</description>
     </item>
     
     <item>
       <title>Git 常用操作</title>
-      <link>https://www.frytea.com/technology/git/git-quick-cmd/</link>
+      <link>https://www.frytea.com/archives/git/git-quick-cmd/</link>
       <pubDate>Wed, 15 Dec 2021 15:21:48 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/git-quick-cmd/</guid>
+      <guid>https://www.frytea.com/archives/git/git-quick-cmd/</guid>
       <description>记录常用 git 操作命令，方便速查.</description>
     </item>
     
     <item>
       <title>Git 修改提交历史中的邮箱和用户名</title>
-      <link>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</link>
+      <link>https://www.frytea.com/archives/git/git-overwrites-mail-and-username-in-commit-history/</link>
       <pubDate>Wed, 15 Dec 2021 15:16:03 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</guid>
+      <guid>https://www.frytea.com/archives/git/git-overwrites-mail-and-username-in-commit-history/</guid>
       <description>重写 git commit 历史中的邮箱和用户名.</description>
     </item>
     

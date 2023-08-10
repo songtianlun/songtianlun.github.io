@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 17 May 2023 03:29:33 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/apt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>替换 apt-key 导入私有公钥</title>
-      <link>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</link>
+      <link>https://www.frytea.com/archives/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</link>
       <pubDate>Wed, 17 May 2023 03:29:33 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</guid>
+      <guid>https://www.frytea.com/archives/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</guid>
       <description>替换 apt-key 导入私有公钥 在使用 apt-key 导入私钥时会遇到以下警告： Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead 将密钥添加到 /etc/apt/trusted.gpg.d 是不安全的，因为它会为所有存储库添加密钥。这正是 apt-key 必须</description>
     </item>
     
@@ -31,10 +31,10 @@
     
     <item>
       <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
       <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
     </item>
     

@@ -49,10 +49,10 @@
     
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
+      <link>https://www.frytea.com/archives/python/resolve-python-loop-import/</link>
       <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/python/resolve-python-loop-import/</guid>
+      <guid>https://www.frytea.com/archives/python/resolve-python-loop-import/</guid>
       <description>记录一次定为解决 python 循环依赖问题。</description>
     </item>
     

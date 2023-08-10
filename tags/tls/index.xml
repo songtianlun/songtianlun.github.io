@@ -13,10 +13,10 @@
     <lastBuildDate>Fri, 26 May 2023 02:52:34 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/tls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>检查网站的TLS版本</title>
-      <link>https://www.frytea.com/technology/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</link>
+      <link>https://www.frytea.com/archives/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</link>
       <pubDate>Fri, 26 May 2023 02:52:34 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</guid>
+      <guid>https://www.frytea.com/archives/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</guid>
       <description>检查网站的TLS版本 有时候需要知道某个网站支持的TLS的版本。现在SSL 2.0和SSL 3.0都已经被淘汰了。其中TLS 1.0，TLS 1.1，</description>
     </item>
     

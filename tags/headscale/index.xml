@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 11 May 2023 09:42:54 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/headscale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群晖 nas 连接 Headscale</title>
-      <link>https://www.frytea.com/technology/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</link>
+      <link>https://www.frytea.com/archives/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</link>
       <pubDate>Thu, 11 May 2023 09:42:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</guid>
+      <guid>https://www.frytea.com/archives/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</guid>
       <description>群晖 nas 连接 Headscale tailscale up --reset --login-server https://headscale.mydomain.com --authkey ... --accept-routes References How to connect Synology NAS to Headscale</description>
     </item>
     

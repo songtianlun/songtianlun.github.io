@@ -22,10 +22,10 @@
     
     <item>
       <title>debian/ubuntu 防火墙 ufw 简单使用</title>
-      <link>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
       <description>debian/ubuntu 防火墙 ufw 简单使用 什么是 UFW ？ UFW，即简单防火墙 Uncomplicated FireWall，是一个管理防火墙规则的前端，大部分 Linux 系统都可以使用。它的目的就是为了使防</description>
     </item>
     
@@ -40,37 +40,37 @@
     
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
+      <link>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
       <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
       <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
     </item>
     
     <item>
       <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
       <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 20.04 修改网卡配置</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</guid>
       <description>Ubuntu 新版网络配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 16.04 网卡配置方法</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:30:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</guid>
       <description>Ubuntu 旧版网卡配置方法.</description>
     </item>
     

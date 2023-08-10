@@ -13,10 +13,10 @@
     <lastBuildDate>Fri, 12 May 2023 02:47:52 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PVE 迁入 Win xp/2003 解决蓝屏问题</title>
-      <link>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
+      <link>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
       <pubDate>Fri, 12 May 2023 02:47:52 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
       <description>PVE 迁入 Win xp/2003 解决蓝屏问题 Windows xp/2003 或是 Windows Server 2003 之类的老旧系统使用迁移工具迁入 PVE 集群后，即使配置了 IDE 总线磁盘，还是可能出现蓝屏问题。 该问题给出两种解决方</description>
     </item>
     
@@ -85,28 +85,28 @@
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</link>
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</guid>
       <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
     </item>
     
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</link>
       <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>lxc on Frytea</title>
+    <title>LXC on Frytea</title>
     <link>https://www.frytea.com/tags/lxc/</link>
-    <description>Recent content in lxc on Frytea</description>
+    <description>Recent content in LXC on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,28 +13,28 @@
     <lastBuildDate>Mon, 08 May 2023 11:56:54 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LXC 开机自启</title>
-      <link>https://www.frytea.com/technology/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</link>
+      <link>https://www.frytea.com/archives/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</link>
       <pubDate>Mon, 08 May 2023 11:56:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</guid>
+      <guid>https://www.frytea.com/archives/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</guid>
       <description>LXC 开机自启 旧版本的 LXC 和新版本的 LXC 操作命令略有不同，请注意，我这里使用的是 lxc 4.0.12/5.0.2 版本。 容器默认在系统启动时不会自动启动，但是提供了 lxc-autostart 命令来帮我们</description>
     </item>
     
     <item>
       <title>LXC 直通硬盘</title>
-      <link>https://www.frytea.com/technology/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</link>
+      <link>https://www.frytea.com/archives/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</link>
       <pubDate>Sat, 06 May 2023 10:29:03 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</guid>
+      <guid>https://www.frytea.com/archives/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</guid>
       <description>LXC 直通硬盘 lxc 直通磁盘大致需要以下步骤： 配置 cgroup 规则，赋予 lxc 容器对应硬件的权限； 如果使用 cgroup 2，需要将配置文件中的 lxc.cgroup 改为 lxc.cgroup2 ； 之后通过主副设备号将硬</description>
     </item>
     
     <item>
       <title>使用 distrobuilder 制作 LXC/LXD 镜像</title>
-      <link>https://www.frytea.com/technology/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</link>
+      <link>https://www.frytea.com/archives/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</link>
       <pubDate>Fri, 05 May 2023 08:55:44 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://www.frytea.com/archives/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</guid>
       <description>使用 distrobuilder 制作 LXC/LXD 镜像 distrobuilder 是 LXC 官方开源实现的一个 LXC/LXD 镜像制作工具，官方发布的各种发行版预制镜像均由该工具制作，在 这里 可以看到它正在工作。 安装方法 工具使</description>
     </item>
     
@@ -58,10 +58,10 @@
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     

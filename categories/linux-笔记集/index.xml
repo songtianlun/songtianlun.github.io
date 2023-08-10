@@ -13,145 +13,145 @@
     <lastBuildDate>Wed, 26 Oct 2022 10:18:19 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/linux-%E7%AC%94%E8%AE%B0%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>群晖 Docker 配置镜像源和私有源</title>
-      <link>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</link>
+      <link>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</link>
       <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</guid>
+      <guid>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</guid>
       <description>记录群晖 Docker 配置和重启.</description>
     </item>
     
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
-      <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <link>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</link>
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <guid>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</guid>
       <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
-      <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
+      <link>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</link>
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
       <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
-      <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
+      <link>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</link>
       <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</guid>
       <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
     </item>
     
     <item>
       <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
-      <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
+      <link>https://www.frytea.com/archives/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
       <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
       <description>故事开始的地方，深入 Linux 系统的启动流程，自己编译内核并制作根文件系统，并使用 QEMU 模拟启动.</description>
     </item>
     
     <item>
       <title>两种终端跑分方法介绍 | Linux 下如何跑分</title>
-      <link>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</link>
       <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</guid>
       <description>介绍两种 Linux 环境下测试硬件性能的方法.</description>
     </item>
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
+      <link>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
       <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
+      <guid>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
       <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
     </item>
     
     <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</link>
       <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</guid>
       <description>新硬盘从分区到挂载的全流程指南.</description>
     </item>
     
     <item>
       <title>Perl 编译安装 （Linux）</title>
-      <link>https://www.frytea.com/technology/perl/build-install-perl/</link>
+      <link>https://www.frytea.com/archives/perl/build-install-perl/</link>
       <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/perl/build-install-perl/</guid>
+      <guid>https://www.frytea.com/archives/perl/build-install-perl/</guid>
       <description>Centos 下演示编译安装 Perl 环境的方法.</description>
     </item>
     
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
+      <link>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
       <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
       <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
     </item>
     
     <item>
       <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
       <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 20.04 修改网卡配置</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</guid>
       <description>Ubuntu 新版网络配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 16.04 网卡配置方法</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:30:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</guid>
       <description>Ubuntu 旧版网卡配置方法.</description>
     </item>
     
     <item>
       <title>Linux 系统时间校对方法</title>
-      <link>https://www.frytea.com/technology/unix-like/linux-sync-time/</link>
+      <link>https://www.frytea.com/archives/unix-like/linux-sync-time/</link>
       <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/linux-sync-time/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/linux-sync-time/</guid>
       <description>使用 ntp 校对 Linux 系统时间的方法.</description>
     </item>
     
     <item>
       <title>Bash快捷指令</title>
-      <link>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</link>
+      <link>https://www.frytea.com/archives/unix-like/bash-quick-cmd/</link>
       <pubDate>Wed, 03 Nov 2021 14:39:21 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/bash-quick-cmd/</guid>
       <description>常用指令速查.</description>
     </item>
     

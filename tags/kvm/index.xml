@@ -22,10 +22,10 @@
     
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <link>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
       <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
       <description>一次搞懂 qemu、kvm、virsh 区别.</description>
     </item>
     

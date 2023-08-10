@@ -13,19 +13,19 @@
     <lastBuildDate>Wed, 19 Jul 2023 02:52:55 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS 内存测试 memtest</title>
-      <link>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
+      <link>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
       <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
+      <guid>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
       <description>macOS 内存测试 memtest 安装方法，命令行下执行： brew install memtester 关于homebrew安装brew.请访问： https://brew.sh/ 安装完成之后，也很简单。打开多个Termial. 然后每</description>
     </item>
     
     <item>
       <title>macOS 禁用 Safari 下载自动解压</title>
-      <link>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</link>
+      <link>https://www.frytea.com/archives/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</link>
       <pubDate>Thu, 25 May 2023 01:07:05 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</guid>
+      <guid>https://www.frytea.com/archives/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</guid>
       <description>macOS 禁用 Safari 下载自动解压 1.选择Safari 浏览器的「偏好设定」。 2.在「通用」下取消选取「下载后打开&amp;quot;安全的&amp;quot;档案」就可以</description>
     </item>
     
@@ -139,19 +139,19 @@
     
     <item>
       <title>macOS12 使用 UTM 体验 macOS13</title>
-      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <link>https://www.frytea.com/archives/unix-like/macos12-uses-utm-experience-macos13/</link>
       <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/macos12-uses-utm-experience-macos13/</guid>
       <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
     </item>
     
     <item>
       <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
-      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <link>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
       <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
       <description>一行命令解决 Alacritty 不断请求权限问题.</description>
     </item>
     
@@ -166,19 +166,19 @@
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
-      <link>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</link>
+      <link>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</link>
       <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</guid>
+      <guid>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</guid>
       <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
     </item>
     
     <item>
       <title>优质软件集</title>
-      <link>https://www.frytea.com/technology/app-list/</link>
+      <link>https://www.frytea.com/archives/app-list/</link>
       <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/app-list/</guid>
+      <guid>https://www.frytea.com/archives/app-list/</guid>
       <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 09 Nov 2021 07:49:13 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/lsblk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</link>
       <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</guid>
       <description>新硬盘从分区到挂载的全流程指南.</description>
     </item>
     

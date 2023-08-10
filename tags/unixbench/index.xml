@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 17 Nov 2021 01:20:21 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/unixbench/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>两种终端跑分方法介绍 | Linux 下如何跑分</title>
-      <link>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</link>
       <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</guid>
       <description>介绍两种 Linux 环境下测试硬件性能的方法.</description>
     </item>
     

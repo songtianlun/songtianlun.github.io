@@ -12,6 +12,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 08 Aug 2023 08:40:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>免费 ChatGPT 镜像站点</title>
+      <link>https://www.frytea.com/archives/products/my-free-chatgpt/</link>
+      <pubDate>Tue, 08 Aug 2023 08:40:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/products/my-free-chatgpt/</guid>
+      <description>本站提供公益 ChatGPT 镜像站，推荐收藏本页.</description>
+    </item>
+    
+    <item>
       <title>友链</title>
       <link>https://www.frytea.com/friends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -21,263 +30,254 @@
     </item>
     
     <item>
-      <title>免费 ChatGPT 镜像站点</title>
-      <link>https://www.frytea.com/list/my-free-chatgpt/</link>
-      <pubDate>Tue, 08 Aug 2023 08:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/list/my-free-chatgpt/</guid>
-      <description>本站提供公益 ChatGPT 镜像站，推荐收藏本页.</description>
-    </item>
-    
-    <item>
       <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <link>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
       <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <guid>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
       <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
     </item>
     
     <item>
       <title>vim 分割窗口打开内建 shell</title>
-      <link>https://www.frytea.com/technology/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
+      <link>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
       <pubDate>Tue, 25 Jul 2023 09:23:36 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
+      <guid>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
       <description>vim 分割窗口打开内建 shell Neovim 和 Vim &amp;gt;= 8.2 通过 :ter[minal] 命令原生支持此功能。 有关详细信息，请参阅文档中的 terminal-window。 对了，如果想要退出 terminal 模式</description>
     </item>
     
     <item>
       <title>go 闭包函数问题</title>
-      <link>https://www.frytea.com/technology/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
+      <link>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
       <pubDate>Tue, 25 Jul 2023 06:36:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
       <description>go 闭包函数问题 在 Go 里，闭包里的变量会被共享使用，这就意味着当你在运行闭包函数的时候，函数中使用的变量其实是循环的最后一次改变后的值。 为了理解</description>
     </item>
     
     <item>
       <title>debian 挂载 iso 为本地 apt 软件源</title>
-      <link>https://www.frytea.com/technology/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <link>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
       <pubDate>Sat, 22 Jul 2023 02:16:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <guid>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
       <description>debian 挂载 iso 为本地 apt 软件源 首先，下载debian 10.1.0 amd64架构的dvd iso 将四张dvd iso分别挂载到/media目录的挂载点: # mount /path/to/debian-10.1.0-amd64-DVD-1.iso /media/cdrom1/ # mount /path/to/debian-10.1.0-amd64-DVD-2.iso /media/cdrom2/</description>
     </item>
     
     <item>
       <title>Debian 开启 IOMMU 支持</title>
-      <link>https://www.frytea.com/technology/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</link>
+      <link>https://www.frytea.com/archives/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</link>
       <pubDate>Sat, 22 Jul 2023 02:11:50 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</guid>
+      <guid>https://www.frytea.com/archives/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</guid>
       <description>Debian 开启 IOMMU 支持 vi /etc/default/grub 找到 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet&amp;quot; 修改为 intel: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet intel_iommu=on&amp;quot; AMD: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet amd_iommu=on&amp;quot; 保存并退出，输入以下命令： update-grub 最后重启生效。 References 充分利用手头小机器，从Debian开始搭建aio(Deb</description>
     </item>
     
     <item>
       <title>nexus3 上传 docker 镜像</title>
-      <link>https://www.frytea.com/technology/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</link>
+      <link>https://www.frytea.com/archives/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</link>
       <pubDate>Wed, 19 Jul 2023 06:00:03 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://www.frytea.com/archives/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</guid>
       <description>nexus3 上传 docker 镜像 docker login 192.168.25.8:8082 docker tag xxxx 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 docker push 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 修改配置文件 首先需要在客户端配置，配置文件在： /etc/docker/daemon.json 内容形如： { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;加速地址&amp;#34; ], &amp;#34;insecure-registries&amp;#34;: [ &amp;#34;</description>
     </item>
     
     <item>
       <title>macOS 内存测试 memtest</title>
-      <link>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
+      <link>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
       <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
+      <guid>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
       <description>macOS 内存测试 memtest 安装方法，命令行下执行： brew install memtester 关于homebrew安装brew.请访问： https://brew.sh/ 安装完成之后，也很简单。打开多个Termial. 然后每</description>
     </item>
     
     <item>
       <title>查看所有由 docker-compose 启动的 docker</title>
-      <link>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
+      <link>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
       <pubDate>Wed, 19 Jul 2023 02:51:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
+      <guid>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
       <description>查看所有由 docker-compose 启动的 docker Docker Compose会为其创建的每个容器添加标签。如果您想获取由Compose创建的所有容器，可以执行container ls</description>
     </item>
     
     <item>
       <title>多 GPU CUDA 压力测试</title>
-      <link>https://www.frytea.com/technology/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 17 Jul 2023 09:12:53 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
       <description>多 GPU CUDA 压力测试 1.下载软件 wget https://codeload.github.com/wilicc/gpu-burn/zip/master 2.解压缩 unzip gpu-burn-master.zip 3.进入目录编译(确保cuda环境变量已经配置成功 nvcc -v能显示结果) cd gpu-burn-master make 4.编译成功后,会在当</description>
     </item>
     
     <item>
       <title>ipmitool 基本使用</title>
-      <link>https://www.frytea.com/technology/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
+      <link>https://www.frytea.com/archives/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Mon, 17 Jul 2023 03:47:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://www.frytea.com/archives/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
       <description>ipmitool 基本使用 # account ipmitool user list ipmitool user set password 2 password@123 # network # show network ipmitool lan print # set to static and show network ipmitool lan set 1 ipsrc static &amp;amp;&amp;amp; ipmitool lan set 1 ipaddr 192.168.24.6 &amp;amp;&amp;amp; ipmitool lan set 1 netmask 255.255.252.0 &amp;amp;&amp;amp; ipmitool lan set 1 defgw ipaddr 192.168.27.254 &amp;amp;&amp;amp; ipmitool lan print</description>
     </item>
     
     <item>
       <title>SSH 密钥类型及格式</title>
-      <link>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
+      <link>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
       <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
     </item>
     
     <item>
       <title>使用 java 手动执行生成的类文件</title>
-      <link>https://www.frytea.com/technology/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.frytea.com/archives/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 20 Jun 2023 15:59:20 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.frytea.com/archives/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</guid>
       <description>使用 java 手动执行生成的类文件 下面以执行使用 mvn compile 编译好的 cn.gson.oasys.OasysApplication Java 类为例。 你可以使用 java 命令直接运行编译后的 Java 类文件，但是你需要明确指定所需要的类路径 -cp</description>
     </item>
     
     <item>
       <title>检查网站的TLS版本</title>
-      <link>https://www.frytea.com/technology/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</link>
+      <link>https://www.frytea.com/archives/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</link>
       <pubDate>Fri, 26 May 2023 02:52:34 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</guid>
+      <guid>https://www.frytea.com/archives/others/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84tls%E7%89%88%E6%9C%AC/</guid>
       <description>检查网站的TLS版本 有时候需要知道某个网站支持的TLS的版本。现在SSL 2.0和SSL 3.0都已经被淘汰了。其中TLS 1.0，TLS 1.1，</description>
     </item>
     
     <item>
       <title>解决 target is busy 的一种方法</title>
-      <link>https://www.frytea.com/technology/others/%E8%A7%A3%E5%86%B3-target-is-busy-%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
+      <link>https://www.frytea.com/archives/others/%E8%A7%A3%E5%86%B3-target-is-busy-%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</link>
       <pubDate>Thu, 25 May 2023 09:26:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E8%A7%A3%E5%86%B3-target-is-busy-%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://www.frytea.com/archives/others/%E8%A7%A3%E5%86%B3-target-is-busy-%E7%9A%84%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</guid>
       <description>解决 target is busy 的一种方法 最近手头一台 PVE 集群的 ceph 地址变化，导致 cephfs 挂载出现问题，当我尝试修正这一错误时，发现无论如何无法重新挂载： $ ls /mnt/pve/cephfs ls: cannot access &amp;#39;/mnt/pve/cephfs&amp;#39;: Permission denied</description>
     </item>
     
     <item>
       <title>macOS 禁用 Safari 下载自动解压</title>
-      <link>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</link>
+      <link>https://www.frytea.com/archives/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</link>
       <pubDate>Thu, 25 May 2023 01:07:05 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</guid>
+      <guid>https://www.frytea.com/archives/others/macos-%E7%A6%81%E7%94%A8-safari-%E4%B8%8B%E8%BD%BD%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B/</guid>
       <description>macOS 禁用 Safari 下载自动解压 1.选择Safari 浏览器的「偏好设定」。 2.在「通用」下取消选取「下载后打开&amp;quot;安全的&amp;quot;档案」就可以</description>
     </item>
     
     <item>
       <title>debian bullseye iptables 配置持久化</title>
-      <link>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+      <link>https://www.frytea.com/archives/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</link>
       <pubDate>Tue, 23 May 2023 02:07:50 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+      <guid>https://www.frytea.com/archives/others/debian-bullseye-iptables-%E9%85%8D%E7%BD%AE%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
       <description>debian bullseye iptables 配置持久化 在Debian 11中，iptables规则可以通过使用iptables-persistent包进行持久化。以下是一个如何安装</description>
     </item>
     
     <item>
       <title>sshd 拒绝连接错误 refused connected from</title>
-      <link>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
+      <link>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
       <pubDate>Fri, 19 May 2023 02:16:16 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
+      <guid>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
       <description>sshd 拒绝连接错误 refused connected from 最近发现一种会导致 sshd 拒绝登陆的方法： 登陆时 sshd 会报出日志： refused connected from 以下是集中可能的原因/方法： 检查主机的访问权限：你需要检查</description>
     </item>
     
     <item>
       <title>Linux 常见主设备号设备清单</title>
-      <link>https://www.frytea.com/technology/others/linux-%E5%B8%B8%E8%A7%81%E4%B8%BB%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
+      <link>https://www.frytea.com/archives/others/linux-%E5%B8%B8%E8%A7%81%E4%B8%BB%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
       <pubDate>Thu, 18 May 2023 02:34:59 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/linux-%E5%B8%B8%E8%A7%81%E4%B8%BB%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://www.frytea.com/archives/others/linux-%E5%B8%B8%E8%A7%81%E4%B8%BB%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
       <description>Linux 常见主设备号设备清单 在Linux系统中，设备通常通过主设备号和次设备号来标识。主设备号用于区分设备的大类，例如硬盘、字符设备等；次设备号用</description>
     </item>
     
     <item>
       <title>Linux 常见固定主次设备号设备清单</title>
-      <link>https://www.frytea.com/technology/others/linux-%E5%B8%B8%E8%A7%81%E5%9B%BA%E5%AE%9A%E4%B8%BB%E6%AC%A1%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
+      <link>https://www.frytea.com/archives/others/linux-%E5%B8%B8%E8%A7%81%E5%9B%BA%E5%AE%9A%E4%B8%BB%E6%AC%A1%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
       <pubDate>Thu, 18 May 2023 02:06:09 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/linux-%E5%B8%B8%E8%A7%81%E5%9B%BA%E5%AE%9A%E4%B8%BB%E6%AC%A1%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://www.frytea.com/archives/others/linux-%E5%B8%B8%E8%A7%81%E5%9B%BA%E5%AE%9A%E4%B8%BB%E6%AC%A1%E8%AE%BE%E5%A4%87%E5%8F%B7%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
       <description>Linux 常见固定主次设备号设备清单 在 Unix 或 Linux 系统中，一些设备的主次设备号是固定的。下面是一些常见的设备及其固定的主次设备号： 设备前缀 设备路径 设备描述</description>
     </item>
     
     <item>
       <title>Unix/Linux 常见设备清单</title>
-      <link>https://www.frytea.com/technology/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
+      <link>https://www.frytea.com/archives/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</link>
       <pubDate>Thu, 18 May 2023 02:01:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://www.frytea.com/archives/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E6%B8%85%E5%8D%95/</guid>
       <description>Unix/Linux 常见设备清单 以下是在 Unix 或 Linux 系统的 /dev 目录下一些常见设备的示例，这些设备主要包括字符设备和块设备： 设备前缀 设备名称 设备描述 c null 空设备，读取它总</description>
     </item>
     
     <item>
       <title>Unix/Linux 常见设备类型前缀清单</title>
-      <link>https://www.frytea.com/technology/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E7%B1%BB%E5%9E%8B%E5%89%8D%E7%BC%80%E6%B8%85%E5%8D%95/</link>
+      <link>https://www.frytea.com/archives/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E7%B1%BB%E5%9E%8B%E5%89%8D%E7%BC%80%E6%B8%85%E5%8D%95/</link>
       <pubDate>Thu, 18 May 2023 01:58:28 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E7%B1%BB%E5%9E%8B%E5%89%8D%E7%BC%80%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://www.frytea.com/archives/others/unix_linux-%E5%B8%B8%E8%A7%81%E8%AE%BE%E5%A4%87%E7%B1%BB%E5%9E%8B%E5%89%8D%E7%BC%80%E6%B8%85%E5%8D%95/</guid>
       <description>Unix/Linux 常见设备类型前缀清单 在Unix和Linux系统中，/dev目录下的设备文件前缀代表了设备类型。以下是一些常见的设备前缀，以及相关的设备例子</description>
     </item>
     
     <item>
       <title>替换 apt-key 导入私有公钥</title>
-      <link>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</link>
+      <link>https://www.frytea.com/archives/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</link>
       <pubDate>Wed, 17 May 2023 03:29:33 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</guid>
+      <guid>https://www.frytea.com/archives/others/%E6%9B%BF%E6%8D%A2-apt-key-%E5%AF%BC%E5%85%A5%E7%A7%81%E6%9C%89%E5%85%AC%E9%92%A5/</guid>
       <description>替换 apt-key 导入私有公钥 在使用 apt-key 导入私钥时会遇到以下警告： Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead 将密钥添加到 /etc/apt/trusted.gpg.d 是不安全的，因为它会为所有存储库添加密钥。这正是 apt-key 必须</description>
     </item>
     
     <item>
       <title>PVE 迁入 Win xp/2003 解决蓝屏问题</title>
-      <link>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
+      <link>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
       <pubDate>Fri, 12 May 2023 02:47:52 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
       <description>PVE 迁入 Win xp/2003 解决蓝屏问题 Windows xp/2003 或是 Windows Server 2003 之类的老旧系统使用迁移工具迁入 PVE 集群后，即使配置了 IDE 总线磁盘，还是可能出现蓝屏问题。 该问题给出两种解决方</description>
     </item>
     
     <item>
       <title>群晖 nas 连接 Headscale</title>
-      <link>https://www.frytea.com/technology/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</link>
+      <link>https://www.frytea.com/archives/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</link>
       <pubDate>Thu, 11 May 2023 09:42:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</guid>
+      <guid>https://www.frytea.com/archives/others/%E7%BE%A4%E6%99%96-nas-%E8%BF%9E%E6%8E%A5-headscale/</guid>
       <description>群晖 nas 连接 Headscale tailscale up --reset --login-server https://headscale.mydomain.com --authkey ... --accept-routes References How to connect Synology NAS to Headscale</description>
     </item>
     
     <item>
       <title>LXC 开机自启</title>
-      <link>https://www.frytea.com/technology/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</link>
+      <link>https://www.frytea.com/archives/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</link>
       <pubDate>Mon, 08 May 2023 11:56:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</guid>
+      <guid>https://www.frytea.com/archives/others/lxc-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF/</guid>
       <description>LXC 开机自启 旧版本的 LXC 和新版本的 LXC 操作命令略有不同，请注意，我这里使用的是 lxc 4.0.12/5.0.2 版本。 容器默认在系统启动时不会自动启动，但是提供了 lxc-autostart 命令来帮我们</description>
     </item>
     
     <item>
       <title>LXC 直通硬盘</title>
-      <link>https://www.frytea.com/technology/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</link>
+      <link>https://www.frytea.com/archives/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</link>
       <pubDate>Sat, 06 May 2023 10:29:03 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</guid>
+      <guid>https://www.frytea.com/archives/others/lxc-%E7%9B%B4%E9%80%9A%E7%A1%AC%E7%9B%98/</guid>
       <description>LXC 直通硬盘 lxc 直通磁盘大致需要以下步骤： 配置 cgroup 规则，赋予 lxc 容器对应硬件的权限； 如果使用 cgroup 2，需要将配置文件中的 lxc.cgroup 改为 lxc.cgroup2 ； 之后通过主副设备号将硬</description>
     </item>
     
     <item>
       <title>使用 distrobuilder 制作 LXC/LXD 镜像</title>
-      <link>https://www.frytea.com/technology/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</link>
+      <link>https://www.frytea.com/archives/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</link>
       <pubDate>Fri, 05 May 2023 08:55:44 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://www.frytea.com/archives/others/%E4%BD%BF%E7%94%A8-distrobuilder-%E5%88%B6%E4%BD%9C-lxc_lxd-%E9%95%9C%E5%83%8F/</guid>
       <description>使用 distrobuilder 制作 LXC/LXD 镜像 distrobuilder 是 LXC 官方开源实现的一个 LXC/LXD 镜像制作工具，官方发布的各种发行版预制镜像均由该工具制作，在 这里 可以看到它正在工作。 安装方法 工具使</description>
     </item>
     
     <item>
       <title>story-list</title>
-      <link>https://www.frytea.com/list/story-list/</link>
+      <link>https://www.frytea.com/archives/list/story-list/</link>
       <pubDate>Wed, 03 May 2023 08:40:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/list/story-list/</guid>
+      <guid>https://www.frytea.com/archives/list/story-list/</guid>
       <description>搜集一些有意思的小店.</description>
     </item>
     
@@ -355,10 +355,10 @@
     
     <item>
       <title>debian/ubuntu 防火墙 ufw 简单使用</title>
-      <link>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
       <description>debian/ubuntu 防火墙 ufw 简单使用 什么是 UFW ？ UFW，即简单防火墙 Uncomplicated FireWall，是一个管理防火墙规则的前端，大部分 Linux 系统都可以使用。它的目的就是为了使防</description>
     </item>
     
@@ -1201,10 +1201,10 @@
     
     <item>
       <title>2022 年终总结 —— 欢呼</title>
-      <link>https://www.frytea.com/posts/retrospective/2022/</link>
+      <link>https://www.frytea.com/archives/retrospective/2022/</link>
       <pubDate>Sun, 01 Jan 2023 22:54:25 +0800</pubDate>
       
-      <guid>https://www.frytea.com/posts/retrospective/2022/</guid>
+      <guid>https://www.frytea.com/archives/retrospective/2022/</guid>
       <description>时间过的可真快，2022 马上结束，在这跨年之际，简单回顾一下这一年特别的事。前情提要 2022 年的末尾，还是没能逃过疫情的魔爪。在经历了数次红码、黄</description>
     </item>
     
@@ -1570,10 +1570,10 @@
     
     <item>
       <title>Go 语言命名规范整理</title>
-      <link>https://www.frytea.com/technology/go/go-naming-conventions/</link>
+      <link>https://www.frytea.com/archives/go/go-naming-conventions/</link>
       <pubDate>Tue, 08 Nov 2022 02:44:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/go/go-naming-conventions/</guid>
+      <guid>https://www.frytea.com/archives/go/go-naming-conventions/</guid>
       <description>GO 语言精简命名规范汇集.</description>
     </item>
     
@@ -1597,10 +1597,10 @@
     
     <item>
       <title>macOS12 使用 UTM 体验 macOS13</title>
-      <link>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</link>
+      <link>https://www.frytea.com/archives/unix-like/macos12-uses-utm-experience-macos13/</link>
       <pubDate>Thu, 03 Nov 2022 14:44:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/macos12-uses-utm-experience-macos13/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/macos12-uses-utm-experience-macos13/</guid>
       <description>使用 UTM 在 macOS 12 下体验最新 macOS 13系统，附多图.</description>
     </item>
     
@@ -1633,64 +1633,64 @@
     
     <item>
       <title>群晖 Docker 配置镜像源和私有源</title>
-      <link>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</link>
+      <link>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</link>
       <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/synology-config-insecure-registries/</guid>
+      <guid>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</guid>
       <description>记录群晖 Docker 配置和重启.</description>
     </item>
     
     <item>
       <title>解决 m1 macOS 下 Alacritty 解决不断请求权限问题</title>
-      <link>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
+      <link>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</link>
       <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/resolve-alacritty-keeps-asking-permissions.md/</guid>
       <description>一行命令解决 Alacritty 不断请求权限问题.</description>
     </item>
     
     <item>
       <title>BJ-PFD - PFD 使用指南</title>
-      <link>https://www.frytea.com/technology/bj-pfd2/pfd-tutor/</link>
+      <link>https://www.frytea.com/archives/bj-pfd2/pfd-tutor/</link>
       <pubDate>Sat, 10 Sep 2022 20:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd2/pfd-tutor/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd2/pfd-tutor/</guid>
       <description>BJ-PFD2 文档清单 BJ-PFD2 - 入口 BJ-PFD2 - 快速开始 BJ-PFD2 - BJ 使用方法 BJ-PFD2 - PFD 使用方法 本节介绍 BJ-PFD 中个人看板（PFD）的使用方法，使用前请确保您已将 Bullet Journel 克隆到您个人的 Notion 中</description>
     </item>
     
     <item>
       <title>BJ-PFD2 - BJ 使用指南</title>
-      <link>https://www.frytea.com/technology/bj-pfd2/bj-tutor/</link>
+      <link>https://www.frytea.com/archives/bj-pfd2/bj-tutor/</link>
       <pubDate>Sat, 10 Sep 2022 10:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd2/bj-tutor/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd2/bj-tutor/</guid>
       <description>BJ-PFD2 文档清单 BJ-PFD2 - 入口 BJ-PFD2 - 快速开始 BJ-PFD2 - BJ 使用方法 BJ-PFD2 - PFD 使用方法 模版链接：https://frytea-share.notion.site/Bul</description>
     </item>
     
     <item>
       <title>BJ-PFD2 - 快速预览</title>
-      <link>https://www.frytea.com/technology/bj-pfd2/overview/</link>
+      <link>https://www.frytea.com/archives/bj-pfd2/overview/</link>
       <pubDate>Sat, 10 Sep 2022 06:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd2/overview/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd2/overview/</guid>
       <description>BJ-PFD2 文档清单 BJ-PFD2 - 入口 BJ-PFD2 - 快速开始 BJ-PFD2 - BJ 使用方法 BJ-PFD2 - PFD 使用方法 在本页面，您可以快速的看到 BJ-PFD 项目的效果展示。 演示账户 在这里提供一个演示用的账户，您</description>
     </item>
     
     <item>
       <title>BJ-PFD2</title>
-      <link>https://www.frytea.com/technology/bj-pfd2/home/</link>
+      <link>https://www.frytea.com/archives/bj-pfd2/home/</link>
       <pubDate>Sat, 10 Sep 2022 04:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd2/home/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd2/home/</guid>
       <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。</description>
     </item>
     
     <item>
       <title>一次简单的http-get攻击</title>
-      <link>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</link>
+      <link>https://www.frytea.com/archives/attack-defense/a-simple-http-get-attack/</link>
       <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/attack-defense/a-simple-http-get-attack/</guid>
+      <guid>https://www.frytea.com/archives/attack-defense/a-simple-http-get-attack/</guid>
       <description>记录一次简单 Dos 攻击方法，提升网络安全意识.</description>
     </item>
     
@@ -1741,10 +1741,10 @@
     
     <item>
       <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
-      <link>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</link>
+      <link>https://www.frytea.com/archives/tips/openwrt-with-wireguard-networking/</link>
       <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/openwrt-with-wireguard-networking/</guid>
+      <guid>https://www.frytea.com/archives/tips/openwrt-with-wireguard-networking/</guid>
       <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
     </item>
     
@@ -1777,46 +1777,46 @@
     
     <item>
       <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
-      <link>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
+      <link>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
       <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
+      <guid>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
       <description>k3s自动完成 ssl 证书签发和续签方法，并使用 https 协议暴露服务方法介绍。</description>
     </item>
     
     <item>
       <title>公网部署 k3s 集群方法总结</title>
-      <link>https://www.frytea.com/technology/k8s/k3s-deployment-on-public-network/</link>
+      <link>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</link>
       <pubDate>Tue, 08 Mar 2022 14:36:35 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/k3s-deployment-on-public-network/</guid>
+      <guid>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</guid>
       <description>基于公网完成跨云厂商服务器 k3s 集群部署</description>
     </item>
     
     <item>
       <title>Kubernetes Pod 配置文件(完整注释)</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</link>
       <pubDate>Fri, 04 Feb 2022 13:06:26 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-all-yaml/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</guid>
       <description>汇集几乎全部 k8s 配置项注释，方便查阅和学习</description>
     </item>
     
     <item>
       <title>kubernetes 核心技术概念</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-core-concept/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</link>
       <pubDate>Fri, 04 Feb 2022 13:04:34 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-core-concept/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</guid>
       <description>汇集 k8s 核心概念，帮助理解</description>
     </item>
     
     <item>
       <title>Kubernetes 系列文章概述</title>
-      <link>https://www.frytea.com/technology/k8s/kubernetes-abstract/</link>
+      <link>https://www.frytea.com/archives/k8s/kubernetes-abstract/</link>
       <pubDate>Fri, 04 Feb 2022 13:02:37 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/kubernetes-abstract/</guid>
+      <guid>https://www.frytea.com/archives/k8s/kubernetes-abstract/</guid>
       <description>Kubernetes系列文章概述</description>
     </item>
     
@@ -1849,10 +1849,10 @@
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
-      <link>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</link>
+      <link>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</link>
       <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/spice-cloud-desktop-usage/</guid>
+      <guid>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</guid>
       <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
     </item>
     
@@ -1921,10 +1921,10 @@
     
     <item>
       <title>2021 下半年博客「经营」报告</title>
-      <link>https://www.frytea.com/posts/report/616/</link>
+      <link>https://www.frytea.com/archives/report/616/</link>
       <pubDate>Sat, 01 Jan 2022 15:36:58 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/report/616/</guid>
+      <guid>https://www.frytea.com/archives/report/616/</guid>
       <description>距离发布《2021 上半年博客「经营」报告》已经半年过去了，这半年里，我发布了 Notion BoJo模版及其配套的财务看板「BJ-PFD」，发布了随机壁纸</description>
     </item>
     
@@ -1957,10 +1957,10 @@
     
     <item>
       <title>国内对象存储/CDN服务价格汇总</title>
-      <link>https://www.frytea.com/technology/tips/cdn-price/</link>
+      <link>https://www.frytea.com/archives/tips/cdn-price/</link>
       <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/cdn-price/</guid>
+      <guid>https://www.frytea.com/archives/tips/cdn-price/</guid>
       <description>汇集国内主流对象存储、CDN服务价格</description>
     </item>
     
@@ -1975,10 +1975,10 @@
     
     <item>
       <title>2021年终总结 —— 平淡中蓄力 · 习惯中突破</title>
-      <link>https://www.frytea.com/posts/retrospective/2021/</link>
+      <link>https://www.frytea.com/archives/retrospective/2021/</link>
       <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
       
-      <guid>https://www.frytea.com/posts/retrospective/2021/</guid>
+      <guid>https://www.frytea.com/archives/retrospective/2021/</guid>
       <description>在年末，完成自己的 2021 年度总结。</description>
     </item>
     
@@ -2020,10 +2020,10 @@
     
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/technology/python/resolve-python-loop-import/</link>
+      <link>https://www.frytea.com/archives/python/resolve-python-loop-import/</link>
       <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/python/resolve-python-loop-import/</guid>
+      <guid>https://www.frytea.com/archives/python/resolve-python-loop-import/</guid>
       <description>记录一次定为解决 python 循环依赖问题。</description>
     </item>
     
@@ -2056,37 +2056,37 @@
     
     <item>
       <title>无代理国内镜像加速 GitHub 资源拉取</title>
-      <link>https://www.frytea.com/technology/git/no-proxy-clone-github-with-mirror/</link>
+      <link>https://www.frytea.com/archives/git/no-proxy-clone-github-with-mirror/</link>
       <pubDate>Wed, 15 Dec 2021 15:32:54 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/no-proxy-clone-github-with-mirror/</guid>
+      <guid>https://www.frytea.com/archives/git/no-proxy-clone-github-with-mirror/</guid>
       <description>一种非代理加速拉取 github 资源的方法.</description>
     </item>
     
     <item>
       <title>解决拉取 github 仓库报错 “gnutls_handshake () failed” 问题</title>
-      <link>https://www.frytea.com/technology/git/fix-github-err-gnutls-handshake-failed/</link>
+      <link>https://www.frytea.com/archives/git/fix-github-err-gnutls-handshake-failed/</link>
       <pubDate>Wed, 15 Dec 2021 15:25:55 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/fix-github-err-gnutls-handshake-failed/</guid>
+      <guid>https://www.frytea.com/archives/git/fix-github-err-gnutls-handshake-failed/</guid>
       <description>由于代理导致 github 无法正常拉取的解决办法.</description>
     </item>
     
     <item>
       <title>Git 常用操作</title>
-      <link>https://www.frytea.com/technology/git/git-quick-cmd/</link>
+      <link>https://www.frytea.com/archives/git/git-quick-cmd/</link>
       <pubDate>Wed, 15 Dec 2021 15:21:48 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/git-quick-cmd/</guid>
+      <guid>https://www.frytea.com/archives/git/git-quick-cmd/</guid>
       <description>记录常用 git 操作命令，方便速查.</description>
     </item>
     
     <item>
       <title>Git 修改提交历史中的邮箱和用户名</title>
-      <link>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</link>
+      <link>https://www.frytea.com/archives/git/git-overwrites-mail-and-username-in-commit-history/</link>
       <pubDate>Wed, 15 Dec 2021 15:16:03 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/git/git-overwrites-mail-and-username-in-commit-history/</guid>
+      <guid>https://www.frytea.com/archives/git/git-overwrites-mail-and-username-in-commit-history/</guid>
       <description>重写 git commit 历史中的邮箱和用户名.</description>
     </item>
     
@@ -2101,10 +2101,10 @@
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     
@@ -2128,109 +2128,109 @@
     
     <item>
       <title>使用 LeanCloud 云引擎部署 React Web 应用</title>
-      <link>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</link>
+      <link>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</link>
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/deploy-react-app-using-leancloud/</guid>
+      <guid>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</guid>
       <description>使用 Leancloud 完成全栈应用托管，初期开发的好帮手.</description>
     </item>
     
     <item>
       <title>个人项目</title>
-      <link>https://www.frytea.com/technology/projects/</link>
+      <link>https://www.frytea.com/archives/projects/</link>
       <pubDate>Sun, 12 Dec 2021 13:10:03 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/projects/</guid>
+      <guid>https://www.frytea.com/archives/projects/</guid>
       <description>汇集个人做过的项目清单.</description>
     </item>
     
     <item>
       <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
-      <link>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
+      <link>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
       <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
+      <guid>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
       <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
     </item>
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</link>
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-cloud-init-overv/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</guid>
       <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
     </item>
     
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</link>
+      <link>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</link>
       <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
     </item>
     
     <item>
       <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
-      <link>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</link>
+      <link>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-qemu-source/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</guid>
       <description>使用 GDB 跟踪 QEMU 的具体执行细节.</description>
     </item>
     
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <link>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
       <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
       <description>一次搞懂 qemu、kvm、virsh 区别.</description>
     </item>
     
     <item>
       <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <link>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</link>
       <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
       <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
     </item>
     
     <item>
       <title>Libvirt domblkinfo 命令源码跟踪记 (GDB)</title>
-      <link>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</link>
+      <link>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:03:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/virtualization/gdb-debug-libvirt-source/</guid>
+      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</guid>
       <description>使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节.</description>
     </item>
     
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
-      <link>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <link>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</link>
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <guid>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</guid>
       <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
-      <link>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</link>
+      <link>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</link>
       <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
       <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
     </item>
     
     <item>
       <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
-      <link>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</link>
+      <link>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</link>
       <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/build-a-docker-image-from-scratch/</guid>
+      <guid>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</guid>
       <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
     </item>
     
@@ -2254,28 +2254,28 @@
     
     <item>
       <title>深入理解 Linux 启动过程 | QEMU 启动 linux 内核和自制根文件系统</title>
-      <link>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
+      <link>https://www.frytea.com/archives/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</link>
       <pubDate>Wed, 17 Nov 2021 03:29:39 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/qemu-launch-linux-kernel-and-homemade-rootfs/</guid>
       <description>故事开始的地方，深入 Linux 系统的启动流程，自己编译内核并制作根文件系统，并使用 QEMU 模拟启动.</description>
     </item>
     
     <item>
       <title>两种终端跑分方法介绍 | Linux 下如何跑分</title>
-      <link>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</link>
       <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/how-to-run-points-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/how-to-run-points-in-linux/</guid>
       <description>介绍两种 Linux 环境下测试硬件性能的方法.</description>
     </item>
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     
@@ -2290,10 +2290,10 @@
     
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
+      <link>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
       <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
+      <guid>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
       <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
     </item>
     
@@ -2308,10 +2308,10 @@
     
     <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</link>
+      <link>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</link>
       <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/configure-new-disk-in-linux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/configure-new-disk-in-linux/</guid>
       <description>新硬盘从分区到挂载的全流程指南.</description>
     </item>
     
@@ -2335,154 +2335,154 @@
     
     <item>
       <title>Perl 编译安装 （Linux）</title>
-      <link>https://www.frytea.com/technology/perl/build-install-perl/</link>
+      <link>https://www.frytea.com/archives/perl/build-install-perl/</link>
       <pubDate>Fri, 05 Nov 2021 01:20:18 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/perl/build-install-perl/</guid>
+      <guid>https://www.frytea.com/archives/perl/build-install-perl/</guid>
       <description>Centos 下演示编译安装 Perl 环境的方法.</description>
     </item>
     
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
+      <link>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
       <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
       <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
     </item>
     
     <item>
       <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
       <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
       <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 20.04 修改网卡配置</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-20-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</guid>
       <description>Ubuntu 新版网络配置方法.</description>
     </item>
     
     <item>
       <title>Ubuntu 16.04 网卡配置方法</title>
-      <link>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</link>
+      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</link>
       <pubDate>Fri, 05 Nov 2021 00:30:54 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/ubuntu/ubuntu-16-04-network/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</guid>
       <description>Ubuntu 旧版网卡配置方法.</description>
     </item>
     
     <item>
       <title>C 实现零空间开销交换两个数的值</title>
-      <link>https://www.frytea.com/technology/c-cpp/c-switch-two-number-with-one-line/</link>
+      <link>https://www.frytea.com/archives/c-cpp/c-switch-two-number-with-one-line/</link>
       <pubDate>Wed, 03 Nov 2021 14:48:31 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/c-cpp/c-switch-two-number-with-one-line/</guid>
+      <guid>https://www.frytea.com/archives/c-cpp/c-switch-two-number-with-one-line/</guid>
       <description>C 实现的不引入新变量交换两数的方法.</description>
     </item>
     
     <item>
       <title>Linux 系统时间校对方法</title>
-      <link>https://www.frytea.com/technology/unix-like/linux-sync-time/</link>
+      <link>https://www.frytea.com/archives/unix-like/linux-sync-time/</link>
       <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/linux-sync-time/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/linux-sync-time/</guid>
       <description>使用 ntp 校对 Linux 系统时间的方法.</description>
     </item>
     
     <item>
       <title>Bash快捷指令</title>
-      <link>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</link>
+      <link>https://www.frytea.com/archives/unix-like/bash-quick-cmd/</link>
       <pubDate>Wed, 03 Nov 2021 14:39:21 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/bash-quick-cmd/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/bash-quick-cmd/</guid>
       <description>常用指令速查.</description>
     </item>
     
     <item>
       <title>Tcpdump</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/tcpdump/</link>
       <pubDate>Wed, 03 Nov 2021 14:37:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/tcpdump/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/tcpdump/</guid>
       <description>一个运行在命令行下的抓包工具.</description>
     </item>
     
     <item>
       <title>Vim 一键编译运行 C/C&#43;&#43;</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-one-run-and-build-c/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-one-run-and-build-c/</link>
       <pubDate>Wed, 03 Nov 2021 14:30:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-one-run-and-build-c/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-one-run-and-build-c/</guid>
       <description>一种按键映射自动编译运行 C/C&#43;&#43; 的方法</description>
     </item>
     
     <item>
       <title>Vim 多窗口、多文件之间切换</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-mult-windows-switch/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-mult-windows-switch/</link>
       <pubDate>Wed, 03 Nov 2021 14:24:33 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-mult-windows-switch/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-mult-windows-switch/</guid>
       <description>介绍 vim 多窗口以及多文件之间的切换方法</description>
     </item>
     
     <item>
       <title>vim 代码折叠之设置默认代码不折叠</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-set-no-foldmethod/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-set-no-foldmethod/</link>
       <pubDate>Wed, 03 Nov 2021 14:22:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-set-no-foldmethod/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-set-no-foldmethod/</guid>
       <description>简单介绍 vim 代码折叠及配置</description>
     </item>
     
     <item>
       <title>Vim 版本升级（Vim8）</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-update-release8/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-update-release8/</link>
       <pubDate>Wed, 03 Nov 2021 14:17:50 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-update-release8/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-update-release8/</guid>
       <description>源码编译安装新版 vim 的方法</description>
     </item>
     
     <item>
       <title>VIM 文件自动添加头部注释的方法</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/vim-auto-file-header/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-auto-file-header/</link>
       <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/vim-auto-file-header/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-auto-file-header/</guid>
       <description>一种 vim 创建文件时自动添加头部注释的方法</description>
     </item>
     
     <item>
       <title>Vim 安装插件管理器 Vundle</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/vim/instal-vim-vundle/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/vim/instal-vim-vundle/</link>
       <pubDate>Wed, 03 Nov 2021 14:04:30 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/vim/instal-vim-vundle/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/instal-vim-vundle/</guid>
       <description>Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器</description>
     </item>
     
     <item>
       <title>Uname</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/uname/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/uname/</link>
       <pubDate>Sun, 31 Oct 2021 11:47:24 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/uname/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/uname/</guid>
       <description>打印当前计算机和操作系统的名称、版本及其他细节.</description>
     </item>
     
     <item>
       <title>Tmux</title>
-      <link>https://www.frytea.com/technology/unix-like/cmd/tmux/</link>
+      <link>https://www.frytea.com/archives/unix-like/cmd/tmux/</link>
       <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/unix-like/cmd/tmux/</guid>
+      <guid>https://www.frytea.com/archives/unix-like/cmd/tmux/</guid>
       <description>一个终端复用器。</description>
     </item>
     
@@ -2497,10 +2497,10 @@
     
     <item>
       <title>优质软件集</title>
-      <link>https://www.frytea.com/technology/app-list/</link>
+      <link>https://www.frytea.com/archives/app-list/</link>
       <pubDate>Thu, 28 Oct 2021 07:08:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/technology/app-list/</guid>
+      <guid>https://www.frytea.com/archives/app-list/</guid>
       <description>汇总个人在用/用过的优质软件，开源为主，方便查阅并与大家分享.</description>
     </item>
     
@@ -2632,19 +2632,19 @@
     
     <item>
       <title>BJ-PFD - PFD 使用指南</title>
-      <link>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/pfd-tutor/</link>
       <pubDate>Fri, 10 Sep 2021 20:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/pfd-tutor/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/pfd-tutor/</guid>
       <description>BJ-PFD 文档清单 BJ-PFD - 简介 BJ-PFD - 快速预览 BJ-PFD - 快速使用 BJ-PFD - BJ 使用方法 BJ-PFD - PFD 使用方法 注册登陆 打开 BJ-PFD，点击 Get Started。 如果您有账号可以直接登</description>
     </item>
     
     <item>
       <title>BJ-PFD - BJ 使用指南</title>
-      <link>https://www.frytea.com/technology/bj-pfd/bj-tutor/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/bj-tutor/</link>
       <pubDate>Fri, 10 Sep 2021 10:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/bj-tutor/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/bj-tutor/</guid>
       <description>BJ-PFD 文档清单 BJ-PFD - 简介 BJ-PFD - 快速预览 BJ-PFD - 快速使用 BJ-PFD - BJ 使用方法 BJ-PFD - PFD 使用方法 模版灵感来源于比较喜欢的一些博主推荐的 Bullet Journal 模版，发现这真是一个日常复盘</description>
     </item>
     
@@ -2659,37 +2659,37 @@
     
     <item>
       <title>BJ-PFD - 快速开始</title>
-      <link>https://www.frytea.com/technology/bj-pfd/quick-start/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/quick-start/</link>
       <pubDate>Fri, 10 Sep 2021 07:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/quick-start/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/quick-start/</guid>
       <description>BJ-PFD 文档清单 BJ-PFD - 简介 BJ-PFD - 快速预览 BJ-PFD - 快速使用 BJ-PFD - BJ 使用方法 BJ-PFD - PFD 使用方法 前些日子我的 BJ for Notion 辅助看板工具 —— BJ-PFD，专注于个人财务看板的小</description>
     </item>
     
     <item>
       <title>BJ-PFD - 快速预览</title>
-      <link>https://www.frytea.com/technology/bj-pfd/overview/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/overview/</link>
       <pubDate>Fri, 10 Sep 2021 06:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/overview/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/overview/</guid>
       <description>BJ-PFD 文档清单 BJ-PFD - 简介 BJ-PFD - 快速预览 BJ-PFD - 快速使用 BJ-PFD - BJ 使用方法 BJ-PFD - PFD 使用方法 在本页面，您可以快速的看到 BJ-PFD 项目的效果展示。 演示账户 第一次进入需要注册</description>
     </item>
     
     <item>
       <title>BJ-PFD - 简介</title>
-      <link>https://www.frytea.com/technology/bj-pfd/intro/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/intro/</link>
       <pubDate>Fri, 10 Sep 2021 05:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/intro/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/intro/</guid>
       <description>BJ-PFD 文档清单 BJ-PFD - 简介 BJ-PFD - 快速预览 BJ-PFD - 快速使用 BJ-PFD - BJ 使用方法 BJ-PFD - PFD 使用方法 Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记辅助看板，由一套 Bullet journal 模版（BJ）和基于此模</description>
     </item>
     
     <item>
       <title>BJ-PFD(请升级)</title>
-      <link>https://www.frytea.com/technology/bj-pfd/home/</link>
+      <link>https://www.frytea.com/archives/bj-pfd/home/</link>
       <pubDate>Fri, 10 Sep 2021 04:40:02 +0800</pubDate>
       
-      <guid>https://www.frytea.com/technology/bj-pfd/home/</guid>
+      <guid>https://www.frytea.com/archives/bj-pfd/home/</guid>
       <description>Bullet Journal Personal Finance Dashboard (BJ-PFD) ，一个 Notion 子弹笔记（财务向）辅助看板。</description>
     </item>
     
@@ -2830,10 +2830,10 @@
     
     <item>
       <title>2021 上半年博客「经营」报告</title>
-      <link>https://www.frytea.com/posts/report/549/</link>
+      <link>https://www.frytea.com/archives/report/549/</link>
       <pubDate>Sat, 10 Jul 2021 00:05:38 +0000</pubDate>
       
-      <guid>https://www.frytea.com/posts/report/549/</guid>
+      <guid>https://www.frytea.com/archives/report/549/</guid>
       <description>2018.10.07 开始建站以来，我的个人博客已经上线运营快三年啦，一直没有做过所谓「经营报告」，这个词也是有点夸张了，只是来简单做一下流量统计分析罢了。 说来</description>
     </item>
     
@@ -3082,10 +3082,10 @@
     
     <item>
       <title>2020年度总结 —— 经历的都是财富</title>
-      <link>https://www.frytea.com/posts/retrospective/2020/</link>
+      <link>https://www.frytea.com/archives/retrospective/2020/</link>
       <pubDate>Fri, 01 Jan 2021 22:54:25 +0800</pubDate>
       
-      <guid>https://www.frytea.com/posts/retrospective/2020/</guid>
+      <guid>https://www.frytea.com/archives/retrospective/2020/</guid>
       <description>踩着2020的尾巴，骄傲地迎接2021，写下这篇跨年小文，并感叹我可真棒。 偶然翻到自己写的那篇《寻找使命，确立愿景》，突然有被当时的自己感动</description>
     </item>
     
