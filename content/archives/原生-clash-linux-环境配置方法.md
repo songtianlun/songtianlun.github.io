@@ -2,7 +2,7 @@
 title: "原生 clash linux 环境配置方法"
 categories: [ "技术" ]
 tags: [ "clash" ]
-draft: false
+draft: true
 slug: "577"
 date: "2021-09-24 10:53:26"
 ---

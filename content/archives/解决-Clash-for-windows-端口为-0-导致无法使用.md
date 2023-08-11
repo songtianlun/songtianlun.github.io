@@ -2,7 +2,7 @@
 title: "解决 Clash for windows 端口为 0 导致无法使用"
 categories: [ "技术" ]
 tags: [ "clash" ]
-draft: false
+draft: true
 slug: "564"
 date: "2021-08-30 09:58:33"
 ---

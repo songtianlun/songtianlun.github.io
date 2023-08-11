@@ -2,7 +2,7 @@
 title: "vps使用Shadowsocks搭建vpn"
 categories: [ "技术" ]
 tags: [ "shadowsocks","vps" ]
-draft: false
+draft: true
 slug: "30"
 date: "2019-01-12 11:52:00"
 ---
