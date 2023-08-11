@@ -489,15 +489,6 @@
     </item>
     
     <item>
-      <title>在 clash 客户端快速添加搬瓦工 Just my socks 机场节点</title>
-      <link>https://www.frytea.com/78.html</link>
-      <pubDate>Tue, 18 Apr 2023 15:38:18 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/78.html</guid>
-      <description>订阅转换方案 通过订阅转换器：https://bianyuan.xyz/ 手动配置文件范本链接：https://bit.ly/3ePV2kc 建议</description>
-    </item>
-    
-    <item>
       <title>一次 AutoGPT 试用体验</title>
       <link>https://www.frytea.com/77.html</link>
       <pubDate>Mon, 17 Apr 2023 12:37:11 +0000</pubDate>
@@ -711,15 +702,6 @@
       
       <guid>https://www.frytea.com/archives/765/</guid>
       <description>最近研究 OpenAI 旗下 ChatGPT 的付费方法。 ChatGPT 是一种基于人工智能的自然语言处理模型，目前已经被广泛应用于各种领域，如聊天机器人、智能客服、文本摘要等。 在使用</description>
-    </item>
-    
-    <item>
-      <title>V2Ray一键安装脚本</title>
-      <link>https://www.frytea.com/46.html</link>
-      <pubDate>Fri, 31 Mar 2023 16:35:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/46.html</guid>
-      <description>下列方案来自开源方案，本人验证可用，请根据自己实际情况尝试。 支持 V2Ray 绝大多数传输协议，WebSocket + TLS，HTTP/2，Shadows</description>
     </item>
     
     <item>
@@ -2568,15 +2550,6 @@
     </item>
     
     <item>
-      <title>原生 clash linux 环境配置方法</title>
-      <link>https://www.frytea.com/archives/577/</link>
-      <pubDate>Fri, 24 Sep 2021 10:53:26 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/577/</guid>
-      <description>环境 Ubuntu Desktop 20.04 理论适用大部分 Linux 发行版 Dreamacro / clash 方法 步骤一：配置 clash 执行程序 首先从 clash 的github仓拉取稳定版二进制可执行文件 wget https://github.com/Dreamacro/clash/releases/download/v1.7.1/clash-linux-amd64-v1.7.1.gz gzip -d clash-linux-amd64-v1.7.1.gz sudo mv clash-linux-amd64-v1.7.1 /usr/bin/clash sudo chmod +x /usr/bin/clash</description>
-    </item>
-    
-    <item>
       <title>Docker 内部安装 postfix</title>
       <link>https://www.frytea.com/archives/576/</link>
       <pubDate>Sat, 18 Sep 2021 17:42:36 +0000</pubDate>
@@ -2727,15 +2700,6 @@
       
       <guid>https://www.frytea.com/archives/565/</guid>
       <description>最近发现环境中 KVM 虚拟机磁盘利用率查不准，使用 virsh 命令查看磁盘使用情况得到如下结果： # virsh domblkinfo 20 vda --human Capacity: 2.000 GiB Allocation: 2.000 GiB Physical: 2.000 GiB 显然是有问题的，正常的数值三个</description>
-    </item>
-    
-    <item>
-      <title>解决 Clash for windows 端口为 0 导致无法使用</title>
-      <link>https://www.frytea.com/archives/564/</link>
-      <pubDate>Mon, 30 Aug 2021 09:58:33 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/564/</guid>
-      <description>今天更新完 Windows 重启后发现上不了网了，检查 clash for windows 发现监听端口为 0 。 这就不正常了，检查了一下 C:\Users\&amp;lt;username&amp;gt;\.config\clash\logs 的日志，发现这行报错： level=error msg=&amp;#34;Start Mixed(http and socks) server error: listen tcp 127.0.0.1:7890: bind: An attempt was made</description>
     </item>
     
     <item>
@@ -5210,15 +5174,6 @@
       
       <guid>https://www.frytea.com/archives/38/</guid>
       <description>Linux常用命令 端口占用查询 netstat -apn Centos查看端口占用情况命令 比如查看80端口占用情况使用如下命令： lsof -i tcp:80 列出所有端口 netstat -ntlp 程序归属（ma</description>
-    </item>
-    
-    <item>
-      <title>vps使用Shadowsocks搭建vpn</title>
-      <link>https://www.frytea.com/archives/30/</link>
-      <pubDate>Sat, 12 Jan 2019 11:52:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/30/</guid>
-      <description>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的 vpn 经历无一不遇奸商！于是下决心搭建自己的 vpn！就在今天，vpn 终于搭建成功，在</description>
     </item>
     
     <item>
