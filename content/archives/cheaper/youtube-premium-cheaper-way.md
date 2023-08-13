@@ -34,7 +34,7 @@ draft: false
 
 ## 总结
 
-本文给出本人 ¥20/月 订阅 Youtube Premium 的方法，仅供参考。除此之外，也可以找一些 [合租平台](https://www.frytea.com/archives/list/story-list/)来走家庭车，价格更加优惠，相应的服务已经很成熟了，可以考虑。
+本文给出本人 ¥20/月 订阅 Youtube Premium 的方法，仅供参考。除此之外，也可以找一些 [合租平台](https://www.frytea.com/archives/list/story-list/#合租平台)来走家庭车，价格更加优惠，相应的服务已经很成熟了，可以考虑。
 
 
 ## References
