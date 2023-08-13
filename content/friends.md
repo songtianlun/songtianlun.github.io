@@ -9,6 +9,8 @@ ShowShareButtons: false
 
 ## 友链区
 
+{{<friend name= "Noisky" url="https://www.noisky.cn/" logo="https://imagehost-cdn.frytea.com/images/2020/01/31/20190505211940cdf2ef54c83ece56.png" word="">}}
+
 {{<friend name= "辣椒の酱" url="https://removeif.github.io/" logo="https://removeif.github.io/images/tuzi.jpg" word="">}}
 
 {{<friend name= "Rat's Blog" url="https://www.moerats.com/" logo="https://www.moerats.com/usr/picture/rats.png" word="">}}
@@ -18,6 +20,8 @@ ShowShareButtons: false
 {{<friend name= "宇宙湾" url="https://yuzhouwan.com/" logo="https://yuzhouwan.com/yuzhouwan_logo_128x128.ico" word="大数据和人工智能的原创文章。">}}
 
 {{<friend name= "P3TERX ZONE" url="https://p3terx.com/" logo="https://s.gravatar.com/avatar/c42fdfa8aca47ec27a7c35dfa7d1dc51?s=200" word="">}}
+
+{{<friend name= "Hong's Blog" url="https://blog.mehoon.com" logo="https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg" word="">}}
 
 {{<friend name= "iMaeGoo’s Blog" url="https://www.imaegoo.com" logo="https://www.imaegoo.com/images/avatar.jpg" word="">}}
 
@@ -61,12 +65,6 @@ ShowShareButtons: false
 
 {{<friend name= "老猫博客" url="https://blog.lyh130.com/" logo="https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png" word="主机测评等">}}
 
-
-## 老友区
-
-{{<friend name= "Noisky" url="https://www.noisky.cn/" logo="https://imagehost-cdn.frytea.com/images/2020/01/31/20190505211940cdf2ef54c83ece56.png" word="">}}
-
-{{<friend name= "Hong's Blog" url="https://blog.mehoon.com" logo="https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg" word="">}}
 
 ## 观察区
 
