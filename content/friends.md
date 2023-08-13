@@ -59,6 +59,7 @@ ShowShareButtons: false
 
 {{<friend name= "Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="一个记录技术、阅读、生活的博客">}}
 
+{{<friend name= "老猫博客" url="https://blog.lyh130.com/" logo="https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png" word="主机测评等">}}
 
 
 ## 老友区
