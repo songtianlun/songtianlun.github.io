@@ -11,27 +11,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/archives/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/youtube-premium/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/archives/cheaper/youtube-premium-cheaper-way/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/tags/%E4%BC%98%E6%83%A0/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E7%9C%81%E9%92%B1%E6%94%BB%E7%95%A5/</loc>
+    <lastmod>2023-08-13T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/ai/</loc>
     <lastmod>2023-08-08T08:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.frytea.com/archives/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/tags/chatgpt/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/</loc>
     <lastmod>2023-08-08T08:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -42,11 +67,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/myproduct/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/</loc>
     <lastmod>2023-08-08T08:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

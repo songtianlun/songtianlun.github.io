@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Youtube Premium on Frytea</title>
+    <link>https://www.frytea.com/tags/youtube-premium/</link>
+    <description>Recent content in Youtube Premium on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 13 Aug 2023 08:40:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/youtube-premium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youtube Premium 优惠攻略</title>
+      <link>https://www.frytea.com/archives/cheaper/youtube-premium-cheaper-way/</link>
+      <pubDate>Sun, 13 Aug 2023 08:40:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/cheaper/youtube-premium-cheaper-way/</guid>
+      <description>分享优惠方法个人订购 Youtube Premium 的方法.</description>
+    </item>
+    
+  </channel>
+</rss>
