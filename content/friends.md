@@ -9,13 +9,9 @@ ShowShareButtons: false
 
 ## 友链区
 
-{{<friend name= "细语呢喃" url="https://www.hrwhisper.me/" logo="https://blog.frytea.com/usr/uploads/2019/11/1809897456.png" word="">}}
-
-{{<friend name= "wshunli’s Blog" url="https://www.wshunli.com/" logo="https://cdn.wshunli.com/logo.png" word="">}}
-
 {{<friend name= "辣椒の酱" url="https://removeif.github.io/" logo="https://removeif.github.io/images/tuzi.jpg" word="">}}
 
-{{<friend name= "Rat's Blog" url="https://www.moerats.com/" logo="https://blog.frytea.com/usr/uploads/2019/11/1456264401.jpeg" word="">}}
+{{<friend name= "Rat's Blog" url="https://www.moerats.com/" logo="https://www.moerats.com/usr/picture/rats.png" word="">}}
 
 {{<friend name= "LOGI" url="https://logi.im" logo="https://ae01.alicdn.com/kf/UTB8q2lYPFfFXKJk43Otxh4IPFXaQ.jpeg" word="">}}
 
@@ -47,23 +43,25 @@ ShowShareButtons: false
 
 {{<friend name= "晨鹤小站" url="https://chenhe.me/" logo="https://gravatar.loli.net/avatar/e343865a5581e33479a3d6791891101e?s=200" word="">}}
 
-{{<friend name= "Verne" url="https://blog.einverne.info/" logo="https://blog.frytea.com/usr/uploads/2019/11/1809897456.png" word="">}}
-
 {{<friend name= "二丫讲梵" url="https://wiki.eryajf.net/" logo="https://wiki.eryajf.net/img/logo.png" word="">}}
 
 {{<friend name= "马春杰杰博客" url="https://www.machunjie.com" logo="https://ypyssl.machunjie.com/logo.png" word="人工智能学习博客，助力机器学习领域发展。">}}
 
+{{<friend name= "细语呢喃" url="https://www.hrwhisper.me/" logo="https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png" word="">}}
+
+{{<friend name= "Verne" url="https://blog.einverne.info/" logo="https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png" word="">}}
+
 ## 收藏区
+
+{{<friend name= "康雨豪" url="http://www.kkyyhh96.site/" logo="https://imagehost-cdn.frytea.com/images/2022/01/21/imageb416210dda9a4e0e.png" word="">}}
 
 {{<friend name= "相位🚀" url="https:/shenyiming.life" logo="https://shenyiming.life/apple-touch-icon.png" word="Either outstanding or out.">}}
 
-{{<friend name= "Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif " word="一个记录技术、阅读、生活的博客">}}
+{{<friend name= "Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="一个记录技术、阅读、生活的博客">}}
 
 ## 老友区
 
 {{<friend name= "Noisky" url="https://www.noisky.cn/" logo="https://imagehost-cdn.frytea.com/images/2020/01/31/20190505211940cdf2ef54c83ece56.png" word="">}}
-
-{{<friend name= "康雨豪" url="http://www.kkyyhh96.site/" logo="https://imagehost-cdn.frytea.com/images/2022/01/21/imageb416210dda9a4e0e.png" word="">}}
 
 {{<friend name= "Hong's Blog" url="https://blog.mehoon.com" logo="https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg" word="">}}
 
@@ -78,6 +76,8 @@ ShowShareButtons: false
 {{<friend name= "胡萝虎的博客" url="https://www.huluohu.com" logo="https://img.huluohu.com/avator_new.png" word="">}}
 
 {{<friend name= "Michael翔" url="https://michael728.github.io/think/" logo="https://michael728.github.io/images/logo.jpg" word="">}}
+
+{{<friend name= "wshunli’s Blog" url="https://www.wshunli.com/" logo="https://cdn.wshunli.com/logo.png" word="">}}
 
 ## 成为网友
 
