@@ -50,3 +50,4 @@ draft: false
 - [搬瓦工加拿大温哥华机房 (CABC_1) 测评：延迟、速度、性能、回程等](https://www.bandwagonhost.net/2343.html)
 - [搬瓦工哪个机房最好？2023年搬瓦工机房推荐整理](https://bwg.wiki/bwg-best-datacenter.html)
 - [搬瓦工官网地址汇总：bandwagonhost.com / bwh1.net / bwh8.net / bwh88.net / bwh89.net / bwh81.net](https://www.vpsgo.com/bandwagonhost-official-website.html)
+- [搬瓦工方案库存监控页面](https://stock.bwg.net)
