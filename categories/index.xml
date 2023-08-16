@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Aug 2023 08:40:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术</title>
+      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 16 Aug 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>云服务</title>
       <link>https://www.frytea.com/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1/</link>
@@ -35,15 +44,6 @@
       <pubDate>Tue, 08 Aug 2023 08:40:22 +0000</pubDate>
       
       <guid>https://www.frytea.com/categories/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F%E5%A4%B9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>技术</title>
-      <link>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Mon, 01 May 2023 00:06:47 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     
