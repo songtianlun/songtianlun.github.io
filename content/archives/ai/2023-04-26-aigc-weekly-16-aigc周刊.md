@@ -4,6 +4,8 @@ author: songtianlun
 type: post
 date: 2023-04-26T01:07:19+00:00
 url: /93.html
+tags:
+  - AIGC
 baidu_submit_url_status:
   - 1
 views:
