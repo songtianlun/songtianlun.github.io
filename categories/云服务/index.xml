@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Aug 2023 08:40:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 12:40:22 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E4%BA%91%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>香港平价 VPS 汇总（2023）</title>
+      <link>https://www.frytea.com/archives/cloud/hk-vps-2023/</link>
+      <pubDate>Thu, 17 Aug 2023 12:40:22 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/cloud/hk-vps-2023/</guid>
+      <description>整理香港地区稳定、平价的vps供应商及最佳方案.</description>
+    </item>
+    
     <item>
       <title>搬瓦工所有机房信息及测试 IP 一览（2023）</title>
       <link>https://www.frytea.com/archives/cloud/all-bwh-dc/</link>
