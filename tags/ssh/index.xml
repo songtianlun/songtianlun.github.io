@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 26 Jun 2023 02:07:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH 密钥类型及格式</title>
-      <link>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
+      <link>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
       <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
     </item>
     

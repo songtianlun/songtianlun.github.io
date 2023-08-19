@@ -31,10 +31,10 @@
     
     <item>
       <title>Mac 下解决 zsh: no matches found: postcss@^7</title>
-      <link>https://www.frytea.com/archives/554/</link>
+      <link>https://www.frytea.com/archives/macos/554/</link>
       <pubDate>Sun, 08 Aug 2021 19:22:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/554/</guid>
+      <guid>https://www.frytea.com/archives/macos/554/</guid>
       <description>mac开发引入 tailwindcss 库时遇到如下错误： zsh: no matches found: postcss@^7 可以这样解决： # 官网给出的命令如下 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@\^7 autoprefixer@\^9 # mac的zsh中需要这样，因为错误的 ^ 解析 npm install -D</description>
     </item>
     

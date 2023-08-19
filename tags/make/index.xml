@@ -13,19 +13,19 @@
     <lastBuildDate>Mon, 06 Dec 2021 14:29:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/make/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</link>
+      <link>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</link>
       <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <guid>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
     </item>
     
     <item>
       <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <link>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</link>
       <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <guid>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</guid>
       <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
     </item>
     

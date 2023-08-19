@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>GO on Frytea</title>
+    <title>go on Frytea</title>
     <link>https://www.frytea.com/tags/go/</link>
-    <description>Recent content in GO on Frytea</description>
+    <description>Recent content in go on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Sat, 19 Aug 2023 04:16:49 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go 闭包函数问题</title>
-      <link>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
+      <link>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sat, 19 Aug 2023 04:16:49 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
       <description>go 闭包函数问题 在 Go 里，闭包里的变量会被共享使用，这就意味着当你在运行闭包函数的时候，函数中使用的变量其实是循环的最后一次改变后的值。 为了理解</description>
     </item>
     

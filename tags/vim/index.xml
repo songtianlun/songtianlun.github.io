@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 25 Jul 2023 09:23:36 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim 分割窗口打开内建 shell</title>
-      <link>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
+      <link>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
       <pubDate>Tue, 25 Jul 2023 09:23:36 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
+      <guid>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
       <description>vim 分割窗口打开内建 shell Neovim 和 Vim &amp;gt;= 8.2 通过 :ter[minal] 命令原生支持此功能。 有关详细信息，请参阅文档中的 terminal-window。 对了，如果想要退出 terminal 模式</description>
     </item>
     

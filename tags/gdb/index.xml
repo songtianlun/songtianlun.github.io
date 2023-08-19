@@ -13,19 +13,19 @@
     <lastBuildDate>Mon, 06 Dec 2021 14:13:17 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/gdb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
-      <link>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</link>
+      <link>https://www.frytea.com/archives/virt/gdb-debug-qemu-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</guid>
+      <guid>https://www.frytea.com/archives/virt/gdb-debug-qemu-source/</guid>
       <description>使用 GDB 跟踪 QEMU 的具体执行细节.</description>
     </item>
     
     <item>
       <title>Libvirt domblkinfo 命令源码跟踪记 (GDB)</title>
-      <link>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</link>
+      <link>https://www.frytea.com/archives/virt/gdb-debug-libvirt-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:03:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</guid>
+      <guid>https://www.frytea.com/archives/virt/gdb-debug-libvirt-source/</guid>
       <description>使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节.</description>
     </item>
     

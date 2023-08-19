@@ -22,10 +22,10 @@
     
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <link>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</link>
       <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <guid>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</guid>
       <description>一次搞懂 qemu、kvm、virsh 区别.</description>
     </item>
     
@@ -40,10 +40,10 @@
     
     <item>
       <title>virt-manager 启动提示 virt qemu-sock no such file or directory</title>
-      <link>https://www.frytea.com/archives/548/</link>
+      <link>https://www.frytea.com/archives/virt/548/</link>
       <pubDate>Fri, 09 Jul 2021 18:08:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/548/</guid>
+      <guid>https://www.frytea.com/archives/virt/548/</guid>
       <description>检查后应该是 virtqemud 服务没起来导致的，编译安装默认生成的服务路径在 /usr/local/* 下，而我们指定了安装在默认位置 /usr ，参考 systemd 无法启动的解决方法即可解决该问题。 首先</description>
     </item>
     

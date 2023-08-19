@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>VPS on Frytea</title>
+    <title>vps on Frytea</title>
     <link>https://www.frytea.com/tags/vps/</link>
-    <description>Recent content in VPS on Frytea</description>
+    <description>Recent content in vps on Frytea</description>
     <image>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <link>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
       <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
       <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
     </item>
     
@@ -94,10 +94,10 @@
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     

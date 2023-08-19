@@ -22,10 +22,10 @@
     
     <item>
       <title>macOS 安装 Emacs</title>
-      <link>https://www.frytea.com/archives/733/</link>
+      <link>https://www.frytea.com/archives/macos/733/</link>
       <pubDate>Fri, 27 Jan 2023 16:14:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/733/</guid>
+      <guid>https://www.frytea.com/archives/macos/733/</guid>
       <description>macOS 下可选择多种 Emacs GUI ，建议 Emacs Mac Port。 Emacs Mac Port Emacs For Mac OS X 安装 Emacs mac Port brew tap railwaycat/emacsmacport brew install --cask emacs-mac 相较于 Emacs For Mac OS X ，Emacs Mac Port 界面效果更好，裸 Emacs 的图标更加美</description>
     </item>
     

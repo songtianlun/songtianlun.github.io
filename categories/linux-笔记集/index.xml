@@ -22,10 +22,10 @@
     
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
-      <link>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <link>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</link>
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <guid>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</guid>
       <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
     </item>
     
@@ -67,10 +67,10 @@
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 31 Jul 2023 07:46:53 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/iperf3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iperf3 网络性能测试</title>
-      <link>https://www.frytea.com/archives/general/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.frytea.com/archives/wiki/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 31 Jul 2023 07:46:53 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.frytea.com/archives/wiki/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</guid>
       <description>iperf3 网络性能测试 快速测试 经典测试 # 服务端执行 $ iperf3 -s # 客户端执行 $ iperf3 -c 192.168.1.* # 默认单线程 tcp 测试，使用 5201 端口 进行上下行带宽测试（TCP双向传输） #iperf3 -c 192.168.0.120</description>
     </item>
     

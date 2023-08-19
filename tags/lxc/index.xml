@@ -58,10 +58,10 @@
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     

@@ -13,10 +13,10 @@
     <lastBuildDate>Fri, 04 Nov 2022 00:23:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/utm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS12 使用 UTM 体验 macOS 13 Ventura (多图预警)</title>
-      <link>https://www.frytea.com/archives/643/</link>
+      <link>https://www.frytea.com/archives/macos/643/</link>
       <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/643/</guid>
+      <guid>https://www.frytea.com/archives/macos/643/</guid>
       <description>UTM 是苹果 IOS、macOS 生态下的一款开源的虚拟机软件，底层基于 QEMU 或 Apple 虚拟化，能够在苹果操作系统上以半虚拟化（同 CPU 架构）或全虚拟化（异构 CPU 系</description>
     </item>
     

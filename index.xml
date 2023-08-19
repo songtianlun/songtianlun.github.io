@@ -31,55 +31,55 @@
     
     <item>
       <title>Harbor使用方法</title>
-      <link>https://www.frytea.com/archives/general/harbor%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link>
+      <link>https://www.frytea.com/archives/wiki/harbor%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sat, 19 Aug 2023 04:19:51 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/harbor%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://www.frytea.com/archives/wiki/harbor%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
       <description>Harbor使用方法 修改配置文件 首先需要在客户端配置号 Harbor 地址，配置文件在： /etc/docker/daemon.json 内容形如： { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;加速地址&amp;#34; ], &amp;#34;insecure-registries&amp;#34;: [ &amp;#34;私有</description>
     </item>
     
     <item>
       <title>debian 挂载官方 iso 为本地 apt 软件源</title>
-      <link>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <link>https://www.frytea.com/archives/wiki/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
       <pubDate>Sat, 19 Aug 2023 04:19:20 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <guid>https://www.frytea.com/archives/wiki/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
       <description>debian 挂载官方 iso 为本地 apt 软件源 首先，下载debian 10.1.0 amd64架构的dvd iso，一般来说第一张就包含了大部份需要用到的软件，官方提供共计四张</description>
     </item>
     
     <item>
       <title>go 闭包函数问题</title>
-      <link>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
+      <link>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sat, 19 Aug 2023 04:16:49 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
       <description>go 闭包函数问题 在 Go 里，闭包里的变量会被共享使用，这就意味着当你在运行闭包函数的时候，函数中使用的变量其实是循环的最后一次改变后的值。 为了理解</description>
     </item>
     
     <item>
       <title>多 GPU CUDA 压力测试</title>
-      <link>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.frytea.com/archives/wiki/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sat, 19 Aug 2023 04:15:25 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
       <description>多 GPU CUDA 压力测试 1.下载软件 $ wget https://codeload.github.com/wilicc/gpu-burn/zip/master 2.解压缩 $ unzip gpu-burn-master.zip 3.进入目录编译(确保cuda环境变量已经配置成功 nvcc -v能显示结果) $ cd gpu-burn-master make 4.编译成功后,</description>
     </item>
     
     <item>
       <title>开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别</title>
-      <link>https://www.frytea.com/archives/general/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81gplbsdmitmozillaapache%E5%92%8Clgpl%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://www.frytea.com/archives/wiki/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81gplbsdmitmozillaapache%E5%92%8Clgpl%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:01 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81gplbsdmitmozillaapache%E5%92%8Clgpl%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81gplbsdmitmozillaapache%E5%92%8Clgpl%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       <description>开源许可证GPL、BSD、MIT、Mozilla、Apache和LGPL的区别 借阮一峰大佬的图说明一下开源许可证GPL、BSD、MIT、Mo</description>
     </item>
     
     <item>
       <title>Linux 终端获取本机公网 IP 的方法</title>
-      <link>https://www.frytea.com/archives/general/linux-%E7%BB%88%E7%AB%AF%E8%8E%B7%E5%8F%96%E6%9C%AC%E6%9C%BA%E5%85%AC%E7%BD%91-ip-%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>https://www.frytea.com/archives/wiki/linux-%E7%BB%88%E7%AB%AF%E8%8E%B7%E5%8F%96%E6%9C%AC%E6%9C%BA%E5%85%AC%E7%BD%91-ip-%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sat, 19 Aug 2023 04:13:06 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/linux-%E7%BB%88%E7%AB%AF%E8%8E%B7%E5%8F%96%E6%9C%AC%E6%9C%BA%E5%85%AC%E7%BD%91-ip-%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://www.frytea.com/archives/wiki/linux-%E7%BB%88%E7%AB%AF%E8%8E%B7%E5%8F%96%E6%9C%AC%E6%9C%BA%E5%85%AC%E7%BD%91-ip-%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>Linux 终端获取本机公网 IP 的方法 下方任意命令均可： $ wget -qO- https://ipecho.net/plain ; echo $ curl https://ipecho.net/plain $ curl https://ipecho.net/plain ; echo $ curl https://ipinfo.io/ip $ curl icanhazip.com $ curl -s https://checkip.dyndns.org | sed -e &amp;#39;s/.*Current IP Address: //&amp;#39; -e &amp;#39;s/&amp;lt;.*$//&amp;#39; References Command for determining my public IP?</description>
     </item>
     
@@ -121,100 +121,100 @@
     
     <item>
       <title>iperf3 网络性能测试</title>
-      <link>https://www.frytea.com/archives/general/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</link>
+      <link>https://www.frytea.com/archives/wiki/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 31 Jul 2023 07:46:53 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://www.frytea.com/archives/wiki/iperf3-%E7%BD%91%E7%BB%9C%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/</guid>
       <description>iperf3 网络性能测试 快速测试 经典测试 # 服务端执行 $ iperf3 -s # 客户端执行 $ iperf3 -c 192.168.1.* # 默认单线程 tcp 测试，使用 5201 端口 进行上下行带宽测试（TCP双向传输） #iperf3 -c 192.168.0.120</description>
     </item>
     
     <item>
       <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
+      <link>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
       <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
       <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
     </item>
     
     <item>
       <title>vim 分割窗口打开内建 shell</title>
-      <link>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
+      <link>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
       <pubDate>Tue, 25 Jul 2023 09:23:36 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
+      <guid>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
       <description>vim 分割窗口打开内建 shell Neovim 和 Vim &amp;gt;= 8.2 通过 :ter[minal] 命令原生支持此功能。 有关详细信息，请参阅文档中的 terminal-window。 对了，如果想要退出 terminal 模式</description>
     </item>
     
     <item>
       <title>debian 挂载 iso 为本地 apt 软件源</title>
-      <link>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <link>https://www.frytea.com/archives/wiki/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
       <pubDate>Sat, 22 Jul 2023 02:16:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <guid>https://www.frytea.com/archives/wiki/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
       <description>debian 挂载 iso 为本地 apt 软件源 首先，下载debian 10.1.0 amd64架构的dvd iso 将四张dvd iso分别挂载到/media目录的挂载点: # mount /path/to/debian-10.1.0-amd64-DVD-1.iso /media/cdrom1/ # mount /path/to/debian-10.1.0-amd64-DVD-2.iso /media/cdrom2/</description>
     </item>
     
     <item>
       <title>Debian 开启 IOMMU 支持</title>
-      <link>https://www.frytea.com/archives/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</link>
+      <link>https://www.frytea.com/archives/wiki/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</link>
       <pubDate>Sat, 22 Jul 2023 02:11:50 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</guid>
+      <guid>https://www.frytea.com/archives/wiki/debian-%E5%BC%80%E5%90%AF-iommu-%E6%94%AF%E6%8C%81/</guid>
       <description>Debian 开启 IOMMU 支持 vi /etc/default/grub 找到 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet&amp;quot; 修改为 intel: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet intel_iommu=on&amp;quot; AMD: GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;quiet amd_iommu=on&amp;quot; 保存并退出，输入以下命令： update-grub 最后重启生效。 References 充分利用手头小机器，从Debian开始搭建aio(Deb</description>
     </item>
     
     <item>
       <title>nexus3 上传 docker 镜像</title>
-      <link>https://www.frytea.com/archives/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</link>
+      <link>https://www.frytea.com/archives/wiki/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</link>
       <pubDate>Wed, 19 Jul 2023 06:00:03 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://www.frytea.com/archives/wiki/nexus3-%E4%B8%8A%E4%BC%A0-docker-%E9%95%9C%E5%83%8F/</guid>
       <description>nexus3 上传 docker 镜像 docker login 192.168.25.8:8082 docker tag xxxx 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 docker push 192.168.25.8:8082/repository/cloud-docker/image-test:0.1 修改配置文件 首先需要在客户端配置，配置文件在： /etc/docker/daemon.json 内容形如： { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;加速地址&amp;#34; ], &amp;#34;insecure-registries&amp;#34;: [ &amp;#34;</description>
     </item>
     
     <item>
       <title>macOS 内存测试 memtest</title>
-      <link>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
+      <link>https://www.frytea.com/archives/wiki/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
       <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
+      <guid>https://www.frytea.com/archives/wiki/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
       <description>macOS 内存测试 memtest 安装方法，命令行下执行： brew install memtester 关于homebrew安装brew.请访问： https://brew.sh/ 安装完成之后，也很简单。打开多个Termial. 然后每</description>
     </item>
     
     <item>
       <title>查看所有由 docker-compose 启动的 docker</title>
-      <link>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
+      <link>https://www.frytea.com/archives/wiki/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
       <pubDate>Wed, 19 Jul 2023 02:51:10 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
       <description>查看所有由 docker-compose 启动的 docker Docker Compose会为其创建的每个容器添加标签。如果您想获取由Compose创建的所有容器，可以执行container ls</description>
     </item>
     
     <item>
       <title>ipmitool 基本使用</title>
-      <link>https://www.frytea.com/archives/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
+      <link>https://www.frytea.com/archives/wiki/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Mon, 17 Jul 2023 03:47:22 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://www.frytea.com/archives/wiki/ipmitool-%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
       <description>ipmitool 基本使用 # account ipmitool user list ipmitool user set password 2 password@123 # network # show network ipmitool lan print # set to static and show network ipmitool lan set 1 ipsrc static &amp;amp;&amp;amp; ipmitool lan set 1 ipaddr 192.168.24.6 &amp;amp;&amp;amp; ipmitool lan set 1 netmask 255.255.252.0 &amp;amp;&amp;amp; ipmitool lan set 1 defgw ipaddr 192.168.27.254 &amp;amp;&amp;amp; ipmitool lan print</description>
     </item>
     
     <item>
       <title>SSH 密钥类型及格式</title>
-      <link>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
+      <link>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
       <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
     </item>
     
     <item>
       <title>使用 java 手动执行生成的类文件</title>
-      <link>https://www.frytea.com/archives/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.frytea.com/archives/wiki/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 20 Jun 2023 15:59:20 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.frytea.com/archives/wiki/%E4%BD%BF%E7%94%A8-java-%E6%89%8B%E5%8A%A8%E6%89%A7%E8%A1%8C%E7%94%9F%E6%88%90%E7%9A%84%E7%B1%BB%E6%96%87%E4%BB%B6/</guid>
       <description>使用 java 手动执行生成的类文件 下面以执行使用 mvn compile 编译好的 cn.gson.oasys.OasysApplication Java 类为例。 你可以使用 java 命令直接运行编译后的 Java 类文件，但是你需要明确指定所需要的类路径 -cp</description>
     </item>
     
@@ -796,10 +796,10 @@
     
     <item>
       <title>macOS 使用 dd 制作 USB 启动盘</title>
-      <link>https://www.frytea.com/archives/764/</link>
+      <link>https://www.frytea.com/archives/macos/764/</link>
       <pubDate>Thu, 30 Mar 2023 22:39:40 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/764/</guid>
+      <guid>https://www.frytea.com/archives/macos/764/</guid>
       <description>安装操作系统时，当前常用的方式是获取操作系统对应的 ISO 文件，并制作 U 盘启动盘，使用 U 盘引导系统进行安装。 当使用 MacOS 时，可以很方便的利用系统自带工</description>
     </item>
     
@@ -967,10 +967,10 @@
     
     <item>
       <title>macOS 清理时间机器快照</title>
-      <link>https://www.frytea.com/archives/750/</link>
+      <link>https://www.frytea.com/archives/macos/750/</link>
       <pubDate>Tue, 14 Mar 2023 08:48:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/750/</guid>
+      <guid>https://www.frytea.com/archives/macos/750/</guid>
       <description>安装 Asahi Linux 发现磁盘可用空间为 0，查阅文档发现是时间机器的问题。 We&#39;re going to resize this partition: APFS [Macintosh HD] (245.11 GB, 6 volumes) Total size: 245.11 GB Free space: 132.23 GB Available space: 0 B Overhead: 94.23 GB Minimum total size: 245.11 GB (100.00%) 开启时间机器</description>
     </item>
     
@@ -1012,10 +1012,10 @@
     
     <item>
       <title>virsh 批量克隆虚拟机</title>
-      <link>https://www.frytea.com/archives/747/</link>
+      <link>https://www.frytea.com/archives/virt/747/</link>
       <pubDate>Sun, 12 Mar 2023 13:21:17 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/747/</guid>
+      <guid>https://www.frytea.com/archives/virt/747/</guid>
       <description># 快速克隆 virt-clone --auto-clone --original vm-euler --name vm-euler-2 批量克隆 for i in {1..64}; do virt-clone --auto-clone --original vm-euler --name vm-euler-$i ; done &amp;amp; Reference virt-clone(1) - Linux man page</description>
     </item>
     
@@ -1138,10 +1138,10 @@
     
     <item>
       <title>macOS 安装 Emacs</title>
-      <link>https://www.frytea.com/archives/733/</link>
+      <link>https://www.frytea.com/archives/macos/733/</link>
       <pubDate>Fri, 27 Jan 2023 16:14:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/733/</guid>
+      <guid>https://www.frytea.com/archives/macos/733/</guid>
       <description>macOS 下可选择多种 Emacs GUI ，建议 Emacs Mac Port。 Emacs Mac Port Emacs For Mac OS X 安装 Emacs mac Port brew tap railwaycat/emacsmacport brew install --cask emacs-mac 相较于 Emacs For Mac OS X ，Emacs Mac Port 界面效果更好，裸 Emacs 的图标更加美</description>
     </item>
     
@@ -1642,19 +1642,19 @@
     
     <item>
       <title>macOS 使用 arping 扫描 ip 冲突</title>
-      <link>https://www.frytea.com/archives/644/</link>
+      <link>https://www.frytea.com/archives/macos/644/</link>
       <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/644/</guid>
+      <guid>https://www.frytea.com/archives/macos/644/</guid>
       <description>最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。 一般检查 IP 是</description>
     </item>
     
     <item>
       <title>macOS12 使用 UTM 体验 macOS 13 Ventura (多图预警)</title>
-      <link>https://www.frytea.com/archives/643/</link>
+      <link>https://www.frytea.com/archives/macos/643/</link>
       <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/643/</guid>
+      <guid>https://www.frytea.com/archives/macos/643/</guid>
       <description>UTM 是苹果 IOS、macOS 生态下的一款开源的虚拟机软件，底层基于 QEMU 或 Apple 虚拟化，能够在苹果操作系统上以半虚拟化（同 CPU 架构）或全虚拟化（异构 CPU 系</description>
     </item>
     
@@ -1804,10 +1804,10 @@
     
     <item>
       <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
-      <link>https://www.frytea.com/archives/tips/openwrt-with-wireguard-networking/</link>
+      <link>https://www.frytea.com/archives/wiki/openwrt-with-wireguard-networking/</link>
       <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/openwrt-with-wireguard-networking/</guid>
+      <guid>https://www.frytea.com/archives/wiki/openwrt-with-wireguard-networking/</guid>
       <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
     </item>
     
@@ -1903,19 +1903,19 @@
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
-      <link>https://www.frytea.com/archives/624/</link>
+      <link>https://www.frytea.com/archives/macos/624/</link>
       <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/624/</guid>
+      <guid>https://www.frytea.com/archives/macos/624/</guid>
       <description>最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。 MacOS 平台下没有很好的支</description>
     </item>
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
-      <link>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</link>
+      <link>https://www.frytea.com/archives/wiki/spice-cloud-desktop-usage/</link>
       <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</guid>
+      <guid>https://www.frytea.com/archives/wiki/spice-cloud-desktop-usage/</guid>
       <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
     </item>
     
@@ -2020,10 +2020,10 @@
     
     <item>
       <title>国内对象存储/CDN服务价格汇总</title>
-      <link>https://www.frytea.com/archives/tips/cdn-price/</link>
+      <link>https://www.frytea.com/archives/wiki/cdn-price/</link>
       <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/cdn-price/</guid>
+      <guid>https://www.frytea.com/archives/wiki/cdn-price/</guid>
       <description>汇集国内主流对象存储、CDN服务价格</description>
     </item>
     
@@ -2164,10 +2164,10 @@
     
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</link>
+      <link>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</link>
       <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/pve-apt-and-ct-template-sources-with-chinese/</guid>
+      <guid>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</guid>
       <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
     </item>
     
@@ -2191,10 +2191,10 @@
     
     <item>
       <title>使用 LeanCloud 云引擎部署 React Web 应用</title>
-      <link>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</link>
+      <link>https://www.frytea.com/archives/wiki/deploy-react-app-using-leancloud/</link>
       <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/deploy-react-app-using-leancloud/</guid>
+      <guid>https://www.frytea.com/archives/wiki/deploy-react-app-using-leancloud/</guid>
       <description>使用 Leancloud 完成全栈应用托管，初期开发的好帮手.</description>
     </item>
     
@@ -2218,64 +2218,64 @@
     
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</link>
+      <link>https://www.frytea.com/archives/virt/pve-cloud-init-overv/</link>
       <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/pve-cloud-init-overv/</guid>
+      <guid>https://www.frytea.com/archives/virt/pve-cloud-init-overv/</guid>
       <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
     </item>
     
     <item>
       <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</link>
+      <link>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</link>
       <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/pve-compile-instal-pve-kernal/</guid>
+      <guid>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</guid>
       <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
     </item>
     
     <item>
       <title>GDB 调试 QEMU 源码（跟踪 QMP 协议执行细节）</title>
-      <link>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</link>
+      <link>https://www.frytea.com/archives/virt/gdb-debug-qemu-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-qemu-source/</guid>
+      <guid>https://www.frytea.com/archives/virt/gdb-debug-qemu-source/</guid>
       <description>使用 GDB 跟踪 QEMU 的具体执行细节.</description>
     </item>
     
     <item>
       <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</link>
+      <link>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</link>
       <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/qemu-kvm-and-virsh-concept-guide/</guid>
+      <guid>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</guid>
       <description>一次搞懂 qemu、kvm、virsh 区别.</description>
     </item>
     
     <item>
       <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</link>
+      <link>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</link>
       <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/compile-install-libvirt-7-5-in-centos/</guid>
+      <guid>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</guid>
       <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
     </item>
     
     <item>
       <title>Libvirt domblkinfo 命令源码跟踪记 (GDB)</title>
-      <link>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</link>
+      <link>https://www.frytea.com/archives/virt/gdb-debug-libvirt-source/</link>
       <pubDate>Mon, 06 Dec 2021 14:03:38 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/virtualization/gdb-debug-libvirt-source/</guid>
+      <guid>https://www.frytea.com/archives/virt/gdb-debug-libvirt-source/</guid>
       <description>使用 GDB 跟踪 libvirt 命令执行过程的具体执行细节.</description>
     </item>
     
     <item>
       <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
-      <link>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</link>
+      <link>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</link>
       <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/write-and-preview-hugo-using-cloud-studio/</guid>
+      <guid>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</guid>
       <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
     </item>
     
@@ -2335,10 +2335,10 @@
     
     <item>
       <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</link>
+      <link>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</link>
       <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/setting-up-cloud-browser-using-vps/</guid>
+      <guid>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</guid>
       <description>云端服务器安装远程浏览器。</description>
     </item>
     
@@ -2857,10 +2857,10 @@
     
     <item>
       <title>Mac 下解决 zsh: no matches found: postcss@^7</title>
-      <link>https://www.frytea.com/archives/554/</link>
+      <link>https://www.frytea.com/archives/macos/554/</link>
       <pubDate>Sun, 08 Aug 2021 19:22:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/554/</guid>
+      <guid>https://www.frytea.com/archives/macos/554/</guid>
       <description>mac开发引入 tailwindcss 库时遇到如下错误： zsh: no matches found: postcss@^7 可以这样解决： # 官网给出的命令如下 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@\^7 autoprefixer@\^9 # mac的zsh中需要这样，因为错误的 ^ 解析 npm install -D</description>
     </item>
     
@@ -2893,10 +2893,10 @@
     
     <item>
       <title>virt-manager 启动提示 virt qemu-sock no such file or directory</title>
-      <link>https://www.frytea.com/archives/548/</link>
+      <link>https://www.frytea.com/archives/virt/548/</link>
       <pubDate>Fri, 09 Jul 2021 18:08:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/548/</guid>
+      <guid>https://www.frytea.com/archives/virt/548/</guid>
       <description>检查后应该是 virtqemud 服务没起来导致的，编译安装默认生成的服务路径在 /usr/local/* 下，而我们指定了安装在默认位置 /usr ，参考 systemd 无法启动的解决方法即可解决该问题。 首先</description>
     </item>
     

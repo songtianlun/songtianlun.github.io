@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 19 Jul 2023 02:52:55 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS 内存测试 memtest</title>
-      <link>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
+      <link>https://www.frytea.com/archives/wiki/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</link>
       <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/general/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
+      <guid>https://www.frytea.com/archives/wiki/macos-%E5%86%85%E5%AD%98%E6%B5%8B%E8%AF%95-memtest/</guid>
       <description>macOS 内存测试 memtest 安装方法，命令行下执行： brew install memtester 关于homebrew安装brew.请访问： https://brew.sh/ 安装完成之后，也很简单。打开多个Termial. 然后每</description>
     </item>
     
@@ -67,19 +67,19 @@
     
     <item>
       <title>macOS 使用 dd 制作 USB 启动盘</title>
-      <link>https://www.frytea.com/archives/764/</link>
+      <link>https://www.frytea.com/archives/macos/764/</link>
       <pubDate>Thu, 30 Mar 2023 22:39:40 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/764/</guid>
+      <guid>https://www.frytea.com/archives/macos/764/</guid>
       <description>安装操作系统时，当前常用的方式是获取操作系统对应的 ISO 文件，并制作 U 盘启动盘，使用 U 盘引导系统进行安装。 当使用 MacOS 时，可以很方便的利用系统自带工</description>
     </item>
     
     <item>
       <title>macOS 清理时间机器快照</title>
-      <link>https://www.frytea.com/archives/750/</link>
+      <link>https://www.frytea.com/archives/macos/750/</link>
       <pubDate>Tue, 14 Mar 2023 08:48:24 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/750/</guid>
+      <guid>https://www.frytea.com/archives/macos/750/</guid>
       <description>安装 Asahi Linux 发现磁盘可用空间为 0，查阅文档发现是时间机器的问题。 We&#39;re going to resize this partition: APFS [Macintosh HD] (245.11 GB, 6 volumes) Total size: 245.11 GB Free space: 132.23 GB Available space: 0 B Overhead: 94.23 GB Minimum total size: 245.11 GB (100.00%) 开启时间机器</description>
     </item>
     
@@ -94,10 +94,10 @@
     
     <item>
       <title>macOS 安装 Emacs</title>
-      <link>https://www.frytea.com/archives/733/</link>
+      <link>https://www.frytea.com/archives/macos/733/</link>
       <pubDate>Fri, 27 Jan 2023 16:14:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/733/</guid>
+      <guid>https://www.frytea.com/archives/macos/733/</guid>
       <description>macOS 下可选择多种 Emacs GUI ，建议 Emacs Mac Port。 Emacs Mac Port Emacs For Mac OS X 安装 Emacs mac Port brew tap railwaycat/emacsmacport brew install --cask emacs-mac 相较于 Emacs For Mac OS X ，Emacs Mac Port 界面效果更好，裸 Emacs 的图标更加美</description>
     </item>
     
@@ -121,19 +121,19 @@
     
     <item>
       <title>macOS 使用 arping 扫描 ip 冲突</title>
-      <link>https://www.frytea.com/archives/644/</link>
+      <link>https://www.frytea.com/archives/macos/644/</link>
       <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/644/</guid>
+      <guid>https://www.frytea.com/archives/macos/644/</guid>
       <description>最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。 一般检查 IP 是</description>
     </item>
     
     <item>
       <title>macOS12 使用 UTM 体验 macOS 13 Ventura (多图预警)</title>
-      <link>https://www.frytea.com/archives/643/</link>
+      <link>https://www.frytea.com/archives/macos/643/</link>
       <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/643/</guid>
+      <guid>https://www.frytea.com/archives/macos/643/</guid>
       <description>UTM 是苹果 IOS、macOS 生态下的一款开源的虚拟机软件，底层基于 QEMU 或 Apple 虚拟化，能够在苹果操作系统上以半虚拟化（同 CPU 架构）或全虚拟化（异构 CPU 系</description>
     </item>
     
@@ -157,19 +157,19 @@
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
-      <link>https://www.frytea.com/archives/624/</link>
+      <link>https://www.frytea.com/archives/macos/624/</link>
       <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/624/</guid>
+      <guid>https://www.frytea.com/archives/macos/624/</guid>
       <description>最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。 MacOS 平台下没有很好的支</description>
     </item>
     
     <item>
       <title>macOS 使用 remote-viewer 连接 spice ｜ PC 连接 spice 云桌面</title>
-      <link>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</link>
+      <link>https://www.frytea.com/archives/wiki/spice-cloud-desktop-usage/</link>
       <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
       
-      <guid>https://www.frytea.com/archives/tips/spice-cloud-desktop-usage/</guid>
+      <guid>https://www.frytea.com/archives/wiki/spice-cloud-desktop-usage/</guid>
       <description>介绍三种桌面平台下连接 spice 云桌面的方法。</description>
     </item>
     

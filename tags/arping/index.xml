@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 07 Nov 2022 14:51:47 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/arping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS 使用 arping 扫描 ip 冲突</title>
-      <link>https://www.frytea.com/archives/644/</link>
+      <link>https://www.frytea.com/archives/macos/644/</link>
       <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
       
-      <guid>https://www.frytea.com/archives/644/</guid>
+      <guid>https://www.frytea.com/archives/macos/644/</guid>
       <description>最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。 一般检查 IP 是</description>
     </item>
     
