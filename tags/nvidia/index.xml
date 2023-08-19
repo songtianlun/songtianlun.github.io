@@ -10,14 +10,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Jul 2023 09:12:53 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 04:15:25 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>多 GPU CUDA 压力测试</title>
       <link>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</link>
-      <pubDate>Mon, 17 Jul 2023 09:12:53 +0000</pubDate>
+      <pubDate>Sat, 19 Aug 2023 04:15:25 +0000</pubDate>
       
       <guid>https://www.frytea.com/archives/general/%E5%A4%9A-gpu-cuda-%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/</guid>
-      <description>多 GPU CUDA 压力测试 1.下载软件 wget https://codeload.github.com/wilicc/gpu-burn/zip/master 2.解压缩 unzip gpu-burn-master.zip 3.进入目录编译(确保cuda环境变量已经配置成功 nvcc -v能显示结果) cd gpu-burn-master make 4.编译成功后,会在当</description>
+      <description>多 GPU CUDA 压力测试 1.下载软件 $ wget https://codeload.github.com/wilicc/gpu-burn/zip/master 2.解压缩 $ unzip gpu-burn-master.zip 3.进入目录编译(确保cuda环境变量已经配置成功 nvcc -v能显示结果) $ cd gpu-burn-master make 4.编译成功后,</description>
     </item>
     
   </channel>

@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 22 Jul 2023 02:16:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 04:19:20 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian 挂载官方 iso 为本地 apt 软件源</title>
+      <link>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <pubDate>Sat, 19 Aug 2023 04:19:20 +0000</pubDate>
+      
+      <guid>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD%E5%AE%98%E6%96%B9-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <description>debian 挂载官方 iso 为本地 apt 软件源 首先，下载debian 10.1.0 amd64架构的dvd iso，一般来说第一张就包含了大部份需要用到的软件，官方提供共计四张</description>
+    </item>
+    
     <item>
       <title>debian 挂载 iso 为本地 apt 软件源</title>
       <link>https://www.frytea.com/archives/general/debian-%E6%8C%82%E8%BD%BD-iso-%E4%B8%BA%E6%9C%AC%E5%9C%B0-apt-%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
