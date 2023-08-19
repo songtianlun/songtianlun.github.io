@@ -5,7 +5,6 @@ tags: ['GO']
 created: '2023-07-25T06:34:49.825Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 bag: 'default'
 revision: '1'
 ---

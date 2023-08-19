@@ -5,7 +5,6 @@ tags: ['CUDA', 'NVIDIA']
 created: '2023-07-17T09:09:35.202Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 bag: 'default'
 revision: '3'
 ---

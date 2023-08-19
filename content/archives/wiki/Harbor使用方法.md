@@ -3,11 +3,9 @@ title: 'Harbor使用方法'
 date: '2023-08-19T04:19:51.110Z'
 created: '2023-07-19T05:51:37.763Z'
 creator: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 bag: 'default'
 modifier: 'songtianlun'
 tmap.id: '1b2d132d-b32a-495f-9962-3bd1ca4b13ab'
-revision: '1'
 ---
 
 <!-- Exported from TiddlyWiki at 12:20, 19th 八月 2023 -->

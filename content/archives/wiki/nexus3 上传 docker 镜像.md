@@ -5,7 +5,6 @@ tags: ['Nexus3']
 created: '2023-07-19T05:41:25.214Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '5'
 bag: 'default'
 ---

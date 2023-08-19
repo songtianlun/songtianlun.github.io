@@ -5,7 +5,6 @@ tags: ['Debian', 'Ubuntu', 'UFW']
 created: '2023-04-30T03:12:57.593Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---

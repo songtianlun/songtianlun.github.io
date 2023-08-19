@@ -5,7 +5,6 @@ tags: ['iperf3']
 created: '2023-07-31T07:42:33.062Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '3'
 bag: 'default'
 ---

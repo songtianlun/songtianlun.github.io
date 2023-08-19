@@ -5,7 +5,6 @@ tags: ['Debian', 'iptables']
 created: '2023-05-23T02:05:49.364Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---

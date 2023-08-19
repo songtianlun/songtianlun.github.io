@@ -5,7 +5,6 @@ tags: ['LXC']
 created: '2023-05-05T08:23:20.762Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---

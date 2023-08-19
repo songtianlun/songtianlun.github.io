@@ -5,7 +5,6 @@ tags: ['Debian']
 created: '2023-07-17T07:27:11.838Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '1'
 bag: 'default'
 ---

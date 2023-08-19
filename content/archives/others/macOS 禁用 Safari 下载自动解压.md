@@ -5,7 +5,6 @@ tags: ['macOS']
 created: '2023-05-25T01:05:06.972Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '1'
 bag: 'default'
 ---

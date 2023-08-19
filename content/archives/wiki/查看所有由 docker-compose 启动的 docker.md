@@ -5,7 +5,6 @@ tags: ['Docker']
 created: '2023-07-19T02:03:42.562Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '1'
 bag: 'default'
 ---

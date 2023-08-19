@@ -5,7 +5,6 @@ tags: ['Linux', 'BMC']
 created: '2023-07-06T07:18:43.201Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 bag: 'default'
 revision: '2'
 ---

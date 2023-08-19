@@ -5,7 +5,6 @@ tags: ['vim']
 created: '2023-07-25T09:16:24.383Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 bag: 'default'
 revision: '5'
 ---

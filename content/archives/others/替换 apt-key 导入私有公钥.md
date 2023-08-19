@@ -5,7 +5,6 @@ tags: ['apt', 'Debian']
 created: '2023-05-17T03:26:36.200Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---

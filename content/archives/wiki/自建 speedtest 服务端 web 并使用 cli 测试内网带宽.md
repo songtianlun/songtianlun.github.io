@@ -5,7 +5,6 @@ tags: ['VPS', 'Docker']
 created: '2023-07-25T09:23:49.760Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '3'
 bag: 'default'
 ---

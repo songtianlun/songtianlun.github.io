@@ -5,7 +5,6 @@ tags: ['Linux']
 created: '2023-05-18T01:56:44.912Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---

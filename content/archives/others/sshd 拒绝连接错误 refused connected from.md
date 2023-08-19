@@ -5,7 +5,6 @@ tags: ['SSH']
 created: '2023-05-19T02:13:36.630Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
-type: 'text/vnd.tiddlywiki'
 revision: '0'
 bag: 'default'
 ---
