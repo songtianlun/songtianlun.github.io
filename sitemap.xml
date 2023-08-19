@@ -166,6 +166,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.frytea.com/archives/products/</loc>
+    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.frytea.com/tags/iperf3/</loc>
     <lastmod>2023-07-31T07:46:53+00:00</lastmod>
     <changefreq>monthly</changefreq>
