@@ -6,11 +6,11 @@ created: '2023-07-17T08:27:01.653Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
 type: 'text/vnd.tiddlywiki'
-revision: '1'
 bag: 'default'
+revision: '2'
 ---
 
-<!-- Exported from TiddlyWiki at 10:11, 22nd 七月 2023 -->
+<!-- Exported from TiddlyWiki at 12:19, 19th 八月 2023 -->
 
 # Debian 开启 IOMMU 支持
 

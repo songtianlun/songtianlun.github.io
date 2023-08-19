@@ -10,7 +10,7 @@ bag: 'default'
 revision: '5'
 ---
 
-<!-- Exported from TiddlyWiki at 08:55, 26th 七月 2023 -->
+<!-- Exported from TiddlyWiki at 12:16, 19th 八月 2023 -->
 
 # vim 分割窗口打开内建 shell
 

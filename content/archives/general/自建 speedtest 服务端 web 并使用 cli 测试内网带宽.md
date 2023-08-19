@@ -10,7 +10,7 @@ revision: '3'
 bag: 'default'
 ---
 
-<!-- Exported from TiddlyWiki at 08:55, 26th 七月 2023 -->
+<!-- Exported from TiddlyWiki at 12:16, 19th 八月 2023 -->
 
 # 自建 speedtest 服务端 web 并使用 cli 测试内网带宽
 

@@ -1,6 +1,6 @@
 ---
 title: 'go 闭包函数问题'
-date: '2023-07-25T06:36:42.212Z'
+date: '2023-08-19T04:16:49.275Z'
 tags: ['GO']
 created: '2023-07-25T06:34:49.825Z'
 creator: 'songtianlun'
@@ -10,7 +10,7 @@ bag: 'default'
 revision: '1'
 ---
 
-<!-- Exported from TiddlyWiki at 08:56, 26th 七月 2023 -->
+<!-- Exported from TiddlyWiki at 12:16, 19th 八月 2023 -->
 
 # go 闭包函数问题
 

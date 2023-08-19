@@ -1,55 +1,54 @@
 ---
 title: '多 GPU CUDA 压力测试'
-date: '2023-07-17T09:12:53.973Z'
+date: '2023-08-19T04:15:25.841Z'
 tags: ['CUDA', 'NVIDIA']
 created: '2023-07-17T09:09:35.202Z'
 creator: 'songtianlun'
 modifier: 'songtianlun'
 type: 'text/vnd.tiddlywiki'
-revision: '2'
 bag: 'default'
+revision: '3'
 ---
 
-<!-- Exported from TiddlyWiki at 10:11, 22nd 七月 2023 -->
+<!-- Exported from TiddlyWiki at 12:15, 19th 八月 2023 -->
 
 # 多 GPU CUDA 压力测试
 
 1.下载软件
 
 ```bash
-wget https://codeload.github.com/wilicc/gpu-burn/zip/master
+$ wget https://codeload.github.com/wilicc/gpu-burn/zip/master
 ```
 
 2.解压缩
 
 ```bash
-unzip gpu-burn-master.zip
+$ unzip gpu-burn-master.zip
 ```
 
 3.进入目录编译(确保cuda环境变量已经配置成功 nvcc -v能显示结果)
 
 ```bash
-cd gpu-burn-master
+$ cd gpu-burn-master
 make
 ```
 
 4.编译成功后,会在当前目录生成 gpu_burn 这个文件
 
-```
-gpu_burn
+```bash
+$ gpu_burn
 ```
 
 5.默认执行,跑全部GPU卡,空格后面参数为时间,一般快速测试设置100,稳定性测试为500
 
-```
-[root@localhost gpu-burn-master]# ./gpu_burn 100
+```bash
+$ ./gpu_burn 100
 ```
 
 6.可以指定某几张卡跑,比如指定0和1号卡
 
-```
-export CUDA_VISIBLE_DEVICES=0,1
-./gpu_burn 100
+```bash
+$ CUDA_VISIBLE_DEVICES=0,1 ./gpu_burn 100
 ```
 
 ## References
