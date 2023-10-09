@@ -9,7 +9,7 @@ weight: 1
 ---
 
 本站提供国内直连的 ChatGPT 镜像站：
-- 地址发布页：<https://ai.skybyte.me>
+- 地址发布页：<https://cgs.skybyte.me>
 
 > 镜像站地址随时更新，请收藏发布页或本页。
 
