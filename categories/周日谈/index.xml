@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>周日谈 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/</link>
+    <description>Recent content in 周日谈 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 15 Jan 2022 21:40:32 +0800</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E5%91%A8%E6%97%A5%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「周日谈-202202」持久的内容</title>
+      <link>https://www.frytea.com/archives/retrospective/2022-01-09/</link>
+      <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2022-01-09/</guid>
+      <description>人最原始的欲望，只是温饱而已。</description>
+    </item>
+    
+    <item>
+      <title>「周日谈-202205」神奇动物在哪里</title>
+      <link>https://www.frytea.com/archives/retrospective/2022-01-30/</link>
+      <pubDate>Sat, 15 Jan 2022 21:40:32 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2022-01-30/</guid>
+      <description>没有剧透，一场巫师人群的盛宴，我只想安静的看个电影，满足了。</description>
+    </item>
+    
+    <item>
+      <title>周日谈/50 ｜ 做减法与激励机制</title>
+      <link>https://www.frytea.com/archives/retrospective/2021-12-18/</link>
+      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2021-12-18/</guid>
+      <description>2021年第50周，谈谈个人管理和激励反馈</description>
+    </item>
+    
+    <item>
+      <title>周日谈/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
+      <link>https://www.frytea.com/archives/retrospective/2021-12-10/</link>
+      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2021-12-10/</guid>
+      <description>2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙</description>
+    </item>
+    
+    <item>
+      <title>周日谈｜「2021总第47周」记账与做事</title>
+      <link>https://www.frytea.com/archives/retrospective/2021-11-27/</link>
+      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2021-11-27/</guid>
+      <description>第一次周日谈</description>
+    </item>
+    
+  </channel>
+</rss>

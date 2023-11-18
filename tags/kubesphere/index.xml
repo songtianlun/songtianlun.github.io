@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Dec 2021 23:49:51 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/kubesphere/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 23:29:15 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/kubesphere/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周日谈/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
+      <link>https://www.frytea.com/archives/retrospective/2021-12-10/</link>
+      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2021-12-10/</guid>
+      <description>2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙</description>
+    </item>
+    
     <item>
       <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
       <link>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
