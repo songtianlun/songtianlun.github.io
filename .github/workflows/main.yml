@@ -33,7 +33,8 @@ jobs:
             accessKeySecret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
             bucket: frytea-homepage
             # use your own endpoint
-            endpoint: oss-cn-beijing.aliyuncs.com
+            endpoint: oss-accelerate.aliyuncs.com
+            #endpoint: oss-cn-beijing.aliyuncs.com
             folder: ./public
 
       - name: Deploy to github pages
