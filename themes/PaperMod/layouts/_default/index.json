@@ -1,0 +1,9 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.RegularPages -}}
+    {{- if and (not .Params.searchHidden) (ne .Layout `archives`) (ne .Layout `search`) }}
+    {{/*- $.Scratch.Add "index" (dict "title" .Title "content" .Plain "permalink" .Permalink "summary" .Summary) -*/}}
+	{{/* add some field to algolio */}}
+	{{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "url" .Permalink "permalink" .Permalink "title" .Title "summary" .Summary "description" .Description "content" (.Summary | plainify) "tags" .Params.Tags "lvl0" .Title "lvl1" .Params.Categories "lvl2" "摘要") -}}
+    {{- end }}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

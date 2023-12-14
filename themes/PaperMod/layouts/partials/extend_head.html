@@ -1,0 +1,29 @@
+{{- /* Head custom content area start */ -}}
+{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
+<!-- Mermaid -->
+{{- if not .Site.Params.disableMermaid }}
+<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js" crossorigin="anonymous"></script>
+
+<script>
+    // 自定义mermaid配置
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    // 由于paperMod的代码块背景是黑色的，这里将线条设置为白色
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    // 需要注意的是，要将初始化代码放到 window.onload 回调函数里面才有用
+    // 否则会因为在html元素加载前进行初始化，找不到元素而失效
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script>
+{{- end -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* Head custom content area end */ -}}

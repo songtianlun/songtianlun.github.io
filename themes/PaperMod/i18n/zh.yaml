@@ -1,0 +1,42 @@
+- id: prev_page
+  translation: "上一页"
+
+- id: next_page
+  translation: "下一页"
+
+- id: read_time
+  translation:
+    one : "1 分钟"
+    other: "{{ .Count }} 分钟"
+
+- id: word_number
+  translation:
+    one: "1 字"
+    other: "{{ .Count }} 字"
+
+- id: toc
+  translation: "目录"
+
+- id: translations
+  translation: "语言"
+
+- id: home
+  translation: "主页"
+
+- id: code_copy
+  translation: "复制"
+
+- id: code_copied
+  translation: "已复制！"
+
+- id: page_about
+  translation: "关于"
+
+- id: page_disclaimer
+  translation: "免责声明"
+
+- id: page_site_map
+  translation: "站点地图"
+
+- id: wormhole
+  translation: "虫洞"

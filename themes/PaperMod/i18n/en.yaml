@@ -1,0 +1,42 @@
+- id: prev_page
+  translation: "Prev Page"
+
+- id: next_page
+  translation: "Next Page"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: word_number
+  translation:
+    one: "1 word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"
+
+- id: page_about
+  translation: "About"
+
+- id: page_disclaimer
+  translation: "Disclaimer"
+
+- id: page_site_map
+  translation: "SiteMap"
+
+- id: wormhole
+  translation: "Wormhole"

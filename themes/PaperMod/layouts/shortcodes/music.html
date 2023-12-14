@@ -1,0 +1,15 @@
+<meting-js
+        autoplay="true"
+        {{ if .Get "auto" }}
+        auto="{{ .Get "auto" }}"
+        {{ end }}
+        {{ if .Get "server" }}
+        server="{{ .Get "server" }}"
+        {{ end }}
+        {{ if .Get "type" }}
+        type="{{ .Get "type" }}"
+        {{ end }}
+        {{ if .Get "id" }}
+        id="{{ .Get "id" }}"
+        {{- end }}>
+</meting-js>

@@ -1,0 +1,79 @@
+{{- define "main" }}
+<header class="page-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg> -->
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+{{/*    <div class="post-meta">*/}}
+{{/*        {{- if .Site.Params.waline.enable -}}*/}}
+{{/*        <span> | <span class="waline-pageview-count" data-path="{{ .Permalink | relURL }}"*/}}
+{{/*        ><i class="fa fa-spinner fa-spin"></i></span> Hits</span>*/}}
+{{/*        {{- else if .Site.Params.valine.enable -}}*/}}
+{{/*        <span id="{{ .Permalink | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">*/}}
+{{/*        &nbsp;<span class="leancloud-visitors-count"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits*/}}
+{{/*        </span>*/}}
+{{/*        {{- else if (not .Site.Params.disableBuSuanZi) }}*/}}
+{{/*        &nbsp;| &nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits*/}}
+{{/*        {{- end}}*/}}
+{{/*    </div>*/}}
+    {{- end }}
+</header>
+
+{{- if .Content }}
+  <div class="post-content shuoshuo">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+    <p></p>
+  </div>
+  {{- end }}
+
+<!-- 存放说说的容器 -->
+<div id="artitalk_main" style="padding: 20px;"></div>
+<script>
+new Artitalk({
+    appId: '{{ .Param "appId" }}',
+    appKey: '{{ .Param "appKey" }}',
+    serverURL: '{{ .Param "serverURL" }}',
+    motion: 1,
+    color1: 'rgba(17, 101, 154, 0.75)',
+    color2: 'rgba(130, 17, 31, 0.75)',
+    color3: 'white',
+})
+</script>
+
+<!-- 显示浏览量 -->
+<script type="text/javascript">
+  new Valine({
+      appId: '{{ .Site.Params.valine.appId }}',
+      appKey: '{{ .Site.Params.valine.appKey }}',
+      avatar:'{{ .Site.Params.valine.avatar }}', 
+      placeholder: '{{ .Site.Params.valine.placeholder }}',
+      visitor: {{ .Site.Params.valine.visitor }},
+      recordIP: {{ .Site.Params.valine.recordIP }}
+  });
+</script>
+
+<style>
+    #operare_artitalk #shanchur {
+        padding: 10px;
+    }
+    #operare_artitalk #userinfo {
+        padding: 10px;
+    }
+    #artitalk_main #uploadSource {
+        display: none;
+    }
+</style>
+
+{{- end }}{{/* end main */}}

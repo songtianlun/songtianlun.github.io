@@ -1,0 +1,97 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- if .Site.Params.waline.pageviewCount -}}
+      <span> | <span class="waline-pageview-count" data-path="{{ .Permalink | relURL }}">
+        <i class="fa fa-spinner fa-spin"></i></span> Hits</span>
+      {{- else if .Site.Params.valine.enable -}}
+      <span id="{{ .Permalink | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+      &nbsp;| &nbsp;<span class="leancloud-visitors-count"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits
+      </span>
+      {{- else if (not .Site.Params.disableBuSuanZi) }}
+      &nbsp;| &nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>&nbsp;Hits
+      {{- end}}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+<!--  {{- if .Site.Params.googleAdSense }}-->
+<!--  &lt;!&ndash; header-ad &ndash;&gt;-->
+<!--  <ins class="adsbygoogle"-->
+<!--       style="display:block"-->
+<!--       data-ad-client="{{ .Site.Params.googleAdSense }}"-->
+<!--       data-ad-slot="9161921641"-->
+<!--       data-ad-format="auto"-->
+<!--       data-full-width-responsive="true"></ins>-->
+<!--  <script>-->
+<!--    (adsbygoogle = window.adsbygoogle || []).push({});-->
+<!--  </script>-->
+<!--  {{ end -}}-->
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if and (.Site.Params.ShowReprinted) (not .Params.DisableReprinted) }}
+    <blockquote style="margin-top: 8px">
+      <p style="text-align:center;text-indent:0rem">
+        <a href="{{ .Permalink }}">本文</a>
+        首发于
+        <a href="{{ $.Site.BaseURL }}">{{ $.Site.Params.ProfileMode.Title }}</a>，
+        <a href="/disclaimer/">转载</a> 请注明
+        <a href="{{ .Permalink }}">来源</a>。
+      </p>
+    </blockquote>
+    {{ end -}}
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+    <div class="post-meta">
+    </hr>
+      注：本作品采用<a rel="license" target="view_window" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。
+    </div>
+
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}"> 🏷 {{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+{{- end }}{{/* end main */}}
