@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>年终总结 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 年终总结 on Frytea</description>
+    <image>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 01 Jan 2023 22:54:25 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 年终总结 —— 欢呼</title>
+      <link>https://www.frytea.com/archives/retrospective/2022/</link>
+      <pubDate>Sun, 01 Jan 2023 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2022/</guid>
+      <description>时间过的可真快，2022 马上结束，在这跨年之际，简单回顾一下这一年特别的事。前情提要 2022 年的末尾，还是没能逃过疫情的魔爪。在经历了数次红码、黄</description>
+    </item>
+    
+    <item>
+      <title>2021年终总结 —— 平淡中蓄力 · 习惯中突破</title>
+      <link>https://www.frytea.com/archives/retrospective/2021/</link>
+      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2021/</guid>
+      <description>在年末，完成自己的 2021 年度总结。</description>
+    </item>
+    
+    <item>
+      <title>2020年度总结 —— 经历的都是财富</title>
+      <link>https://www.frytea.com/archives/retrospective/2020/</link>
+      <pubDate>Fri, 01 Jan 2021 22:54:25 +0800</pubDate>
+      
+      <guid>https://www.frytea.com/archives/retrospective/2020/</guid>
+      <description>踩着2020的尾巴，骄傲地迎接2021，写下这篇跨年小文，并感叹我可真棒。 偶然翻到自己写的那篇《寻找使命，确立愿景》，突然有被当时的自己感动</description>
+    </item>
+    
+  </channel>
+</rss>
