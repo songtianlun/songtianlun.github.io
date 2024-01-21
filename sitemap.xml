@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.frytea.com/archives/products/my-free-chatgpt/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.frytea.com/friends/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -148,26 +143,6 @@
   </url><url>
     <loc>https://www.frytea.com/categories/%E7%9C%81%E9%92%B1%E6%94%BB%E7%95%A5/</loc>
     <lastmod>2023-08-13T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/ai/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/tags/myproduct/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/categories/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F%E5%A4%B9/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.frytea.com/archives/products/</loc>
-    <lastmod>2023-08-08T08:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -387,6 +362,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/tags/%E5%B0%8F%E5%BA%97/</loc>
+    <lastmod>2023-05-03T08:40:22+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/categories/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F%E5%A4%B9/</loc>
     <lastmod>2023-05-03T08:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -4238,6 +4218,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.frytea.com/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.frytea.com/archives/products/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
