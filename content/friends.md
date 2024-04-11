@@ -29,7 +29,7 @@ ShowShareButtons: false
 
 {{<friend name= "Kitcham 的归墟" url="https://blog.uiharu.top/" logo="https://cdn.uiharu.top/blog/home/img/avatar-link.png" word="">}}
 
-{{<friend name= "云帆沧海" url="https://yf-ch.com" logo="https://yf-ch.com/img/favicon.png" word="">}}
+{{<friend name= "乙未博客" url="https://yvii.cn" logo="https://yvii.cn/img/favicon.png" word="">}}
 
 {{<friend name= "摩尔の镇 | モル·町" url="https://www.mole9630.top" logo="https://img.mole9630.top/blog-logo.png" word="一座奇妙的小孤岛.">}}
 
