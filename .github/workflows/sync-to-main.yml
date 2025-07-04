@@ -28,23 +28,41 @@ jobs:
     - name: Generate README from projects.json
       run: |
         make readme
+        echo "Generated README file:"
+        ls -la README.new.md
+        head -5 README.new.md
         
     - name: Switch to main branch and update
       run: |
         git config user.name 'GitHub Action'
         git config user.email 'action@github.com'
         
+        # Copy generated file to temp location before switching branches
+        echo "Copying generated README to temp location..."
+        cp README.new.md /tmp/README_generated.md
+        
         echo "Switching to main branch..."
         git checkout main
+        
+        echo "Copying back the generated README..."
+        cp /tmp/README_generated.md README_new.md
+        
+        echo "Checking files exist..."
         if [ ! -f README_new.md ] || [ ! -f README.md ]; then
           echo "README_new.md or README.md not found"
+          ls -la README*
           exit 1
         fi
-        if diff README.md README_new.md 2>/dev/null; then
+        
+        echo "Comparing files..."
+        if diff README.md README_new.md >/dev/null 2>&1; then
           echo "README.md and README_new.md are the same"
           rm README_new.md
         else
           echo "README.md and README_new.md are different, updating README.md"
+          echo "First 5 lines of differences:"
+          diff README.md README_new.md | head -5 || true
+          
           mv README_new.md README.md
           
           echo "Checking git status after replacement..."
@@ -60,3 +78,6 @@ jobs:
             echo "✅ Updated successfully"
           fi
         fi
+        
+        # Cleanup
+        rm -f /tmp/README_generated.md
