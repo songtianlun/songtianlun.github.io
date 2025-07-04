@@ -1,4 +1,4 @@
-name: Simple Sync Projects
+name: Sync Projects to Main
 
 on:
   push:
