@@ -39,15 +39,25 @@ jobs:
         echo "Copying generated README from project branch..."
         git show project:README.md > README_new.md
         
-        echo "Comparing with current README..."
-        if cmp -s README.md README_new.md; then
+        echo "Checking if files differ..."
+        if cmp -s README.md README_new.md 2>/dev/null; then
           echo "No changes detected"
           rm README_new.md
         else
           echo "Changes detected, updating README..."
           mv README_new.md README.md
-          git add README.md
-          git commit -m "🤖 更新项目清单 自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-          git push origin main
-          echo "✅ Updated successfully"
+          
+          echo "Checking git status..."
+          git status
+          git diff --name-only
+          
+          if git diff --quiet HEAD; then
+            echo "Git reports no changes after file replacement"
+          else
+            echo "Git confirms changes, committing..."
+            git add README.md
+            git commit -m "🤖 更新项目清单 自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+            git push origin main
+            echo "✅ Updated successfully"
+          fi
         fi
