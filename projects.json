@@ -5,7 +5,7 @@
         "year": "2019",
         "tags": ["Android", "Java"],
         "links": {
-            "demo": "https://songtianlun.github.io/PlanAssistant/",
+            "main": "https://songtianlun.github.io/PlanAssistant/",
             "github": "https://github.com/songtianlun/PlanAssistant",
             "docs": "https://songtianlun.github.io/PlanAssistant/"
         }
@@ -16,7 +16,7 @@
         "year": "2022",
         "tags": ["Go", "Finance", "Dashboard"],
         "links": {
-            "demo": "https://bjpfd2.skybyte.me",
+            "main": "https://bjpfd2.skybyte.me",
             "github": "https://github.com/songtianlun/bj-pfd2",
             "article": "https://frytea.com/archives/1132/"
         }
@@ -36,7 +36,7 @@
         "year": "2025",
         "tags": ["Ruby", "AI", "Art", "Weather"],
         "links": {
-            "demo": "https://todayaiweather.com/",
+            "main": "https://todayaiweather.com/",
             "article": "https://frytea.com/archives/1430/"
         }
     },
@@ -55,7 +55,7 @@
         "year": "2025",
         "tags": ["NextJS", "React", "Selfhost"],
         "links": {
-            "demo": "https://selfhost-hub.com/",
+            "main": "https://selfhost-hub.com/",
             "github": "https://github.com/songtianlun/selfhost-hub"
         }
     },
@@ -65,7 +65,7 @@
         "year": "2025",
         "tags": ["NextJS", "Finance", "Calculator"],
         "links": {
-            "demo": "https://fc.frytea.com/",
+            "main": "https://fc.frytea.com/",
             "article": "https://frytea.com/archives/1490/"
         }
     },
@@ -75,7 +75,7 @@
         "year": "2025",
         "tags": ["JavaScript", "Games", "Emulator"],
         "links": {
-            "demo": "https://playunb.com/",
+            "main": "https://playunb.com/",
             "github": "https://github.com/songtianlun/PlayUnb-Assets",
             "article": "https://frytea.com/archives/1492/"
         }
@@ -86,7 +86,7 @@
         "year": "2025",
         "tags": ["NextJS", "AI", "Design"],
         "links": {
-            "demo": "https://liquidglass.icu/",
+            "main": "https://liquidglass.icu/",
             "article": "https://frytea.com/archives/1489/"
         }
     },
@@ -96,7 +96,7 @@
         "year": "2025",
         "tags": ["NextJS", "Analytics", "Dashboard"],
         "links": {
-            "demo": "https://ud.frytea.com/",
+            "main": "https://ud.frytea.com/",
             "github": "https://github.com/songtianlun/umami-dashboard"
         }
     },
@@ -106,7 +106,7 @@
         "year": "2025",
         "tags": ["NextJS", "Calendar", "Utility"],
         "links": {
-            "demo": "https://weekcount.com/"
+            "main": "https://weekcount.com/"
         }
     },
     {
@@ -115,7 +115,7 @@
         "year": "2025",
         "tags": ["NextJS", "Health", "Calculator"],
         "links": {
-            "demo": "https://calc9.com/"
+            "main": "https://calc9.com/"
         }
     },
     {
@@ -124,7 +124,7 @@
         "year": "2025",
         "tags": ["NextJS", "AI", "Comparison"],
         "links": {
-            "demo": "https://ava.skybyte.me/"
+            "main": "https://ava.skybyte.me/"
         }
     }
 ]

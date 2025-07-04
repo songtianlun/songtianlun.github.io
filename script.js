@@ -37,9 +37,14 @@ function createProjectCard(project, index) {
     const linksHtml = createLinksHtml(project.links);
     const tagsHtml = project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('');
     
+    // Create title with main link if available
+    const titleHtml = project.links.main 
+        ? `<h3 class="project-title"><a href="${project.links.main}" target="_blank" rel="noopener noreferrer" class="project-title-link">${project.name}</a></h3>`
+        : `<h3 class="project-title">${project.name}</h3>`;
+    
     card.innerHTML = `
         <div class="project-header">
-            <h3 class="project-title">${project.name}</h3>
+            ${titleHtml}
             <span class="project-year">${project.year}</span>
         </div>
         <p class="project-description">${project.description}</p>
@@ -56,24 +61,26 @@ function createProjectCard(project, index) {
 
 function createLinksHtml(links) {
     const linkLabels = {
-        demo: { label: '演示', icon: '🚀' },
+        main: { label: '访问', icon: '🔗' },
         github: { label: 'GitHub', icon: '💻' },
         docs: { label: '文档', icon: '📚' },
         article: { label: '文章', icon: '📝' }
     };
     
-    return Object.entries(links).map(([key, url]) => {
-        const linkInfo = linkLabels[key] || { label: key, icon: '🔗' };
-        return `
-            <a href="${url}" target="_blank" rel="noopener noreferrer" class="project-link">
-                <span>${linkInfo.icon}</span>
-                <span>${linkInfo.label}</span>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6m4-3h6v6m-11 5L21 3"/>
-                </svg>
-            </a>
-        `;
-    }).join('');
+    return Object.entries(links)
+        .filter(([key]) => key !== 'main') // Exclude main link as it's now in title
+        .map(([key, url]) => {
+            const linkInfo = linkLabels[key] || { label: key, icon: '🔗' };
+            return `
+                <a href="${url}" target="_blank" rel="noopener noreferrer" class="project-link">
+                    <span>${linkInfo.icon}</span>
+                    <span>${linkInfo.label}</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6m4-3h6v6m-11 5L21 3"/>
+                    </svg>
+                </a>
+            `;
+        }).join('');
 }
 
 function showErrorMessage() {
