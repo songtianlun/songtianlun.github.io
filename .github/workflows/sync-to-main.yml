@@ -42,9 +42,7 @@ jobs:
         else
           echo "Changes detected, committing..."
           git add README.md
-          git commit -m "🤖 更新项目清单
-
-自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "🤖 更新项目清单 自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           git push origin main
           echo "✅ Updated successfully"
         fi
