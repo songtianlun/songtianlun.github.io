@@ -6,7 +6,7 @@ try {
 
     // Generate README content
     const readmeContent = `
-这是一份自动生成的个人业余开发项目清单，原始数据维护在 \`project\` 分支下的 \`projects.json\` 文件中。
+这是一份自动生成的个人业余开发项目清单，原始数据维护在 [\`project\`](https://github.com/songtianlun/songtianlun.github.io/tree/project) 分支下的 [\`projects.json\`](https://github.com/songtianlun/songtianlun.github.io/blob/project/projects.json) 文件中。
 
 # 个人主页
 - 个人博客：<https://frytea.com>
