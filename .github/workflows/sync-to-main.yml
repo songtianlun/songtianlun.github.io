@@ -36,9 +36,15 @@ jobs:
         
         echo "Switching to main branch..."
         git checkout main
+        if [ ! -f README_new.md ] || [ ! -f README.md ]; then
+          echo "README_new.md or README.md not found"
+          exit 1
+        fi
         if diff README.md README_new.md 2>/dev/null; then
+          echo "README.md and README_new.md are the same"
           rm README_new.md
         else
+          echo "README.md and README_new.md are different, updating README.md"
           mv README_new.md README.md
           
           echo "Checking git status after replacement..."
