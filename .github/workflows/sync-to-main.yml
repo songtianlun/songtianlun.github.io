@@ -33,14 +33,19 @@ jobs:
         git config user.name 'GitHub Action'
         git config user.email 'action@github.com'
         
+        echo "Switching to main branch..."
         git checkout main
-        git checkout project -- README.md
         
-        if git diff --quiet HEAD -- README.md; then
+        echo "Copying generated README from project branch..."
+        git show project:README.md > README_new.md
+        
+        echo "Comparing with current README..."
+        if cmp -s README.md README_new.md; then
           echo "No changes detected"
-          git checkout HEAD -- README.md
+          rm README_new.md
         else
-          echo "Changes detected, committing..."
+          echo "Changes detected, updating README..."
+          mv README_new.md README.md
           git add README.md
           git commit -m "🤖 更新项目清单 自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           git push origin main
