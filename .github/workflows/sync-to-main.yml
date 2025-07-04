@@ -28,7 +28,6 @@ jobs:
     - name: Generate README from projects.json
       run: |
         make readme
-        cp README.md README_new.md
         
     - name: Switch to main branch and update
       run: |

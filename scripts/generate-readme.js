@@ -46,8 +46,8 @@ ${projectsData.map(project => {
 `;
 
     // Write to file
-    fs.writeFileSync('README.md', readmeContent);
-    console.log('✅ README.md generated successfully');
+    fs.writeFileSync('README.new.md', readmeContent);
+    console.log('✅ README.new.md generated successfully');
     console.log(`📊 Generated ${projectsData.length} projects`);
 
 } catch (error) {
