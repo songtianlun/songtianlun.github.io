@@ -1,0 +1,68 @@
+name: Sync Projects to Main Branch
+
+on:
+  push:
+    branches: [ project ]
+    paths: [ 'projects.json' ]
+  workflow_dispatch:
+
+jobs:
+  sync-projects:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout project branch
+      uses: actions/checkout@v4
+      with:
+        ref: project
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Validate projects.json
+      run: |
+        echo "📋 Validating projects.json..."
+        node -e "JSON.parse(require('fs').readFileSync('projects.json', 'utf8')); console.log('✅ Valid JSON')"
+        echo "📊 Projects count: $(node -e "console.log(JSON.parse(require('fs').readFileSync('projects.json', 'utf8')).length)")"
+        
+    - name: Generate README content
+      run: |
+        echo "🔄 Generating README content..."
+        node scripts/generate-readme.js
+        
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Copy generated README
+      run: |
+        echo "📝 Copying README to main branch..."
+        git checkout project -- README.md
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Check if there are changes
+        if git diff --quiet HEAD -- README.md; then
+          echo "ℹ️  No changes to README.md"
+        else
+          echo "🚀 Updating README.md with latest project data"
+          git add README.md
+          git commit -m "🤖 自动同步项目清单到 README.md
+
+由 GitHub Action 自动生成，基于 project 分支的 projects.json 文件
+
+🔄 Generated with GitHub Actions
+📅 $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          
+          git push origin main
+          echo "✅ README.md updated successfully"
+        fi

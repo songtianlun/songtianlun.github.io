@@ -11,6 +11,8 @@ help:
 	@echo "  clean     - Clean temporary files"
 	@echo "  deploy    - Deploy to GitHub Pages"
 	@echo "  watch     - Watch for file changes and reload browser"
+	@echo "  readme    - Generate README.md from projects.json"
+	@echo "  test      - Run website tests"
 
 # Development server using Python's built-in HTTP server
 .PHONY: serve
@@ -169,6 +171,14 @@ test:
 	curl -s http://localhost:9999 >/dev/null && \
 	echo "✅ HTTP server test passed" || echo "❌ HTTP server test failed"
 	@pkill -f "python3 -m http.server 9999" 2>/dev/null || true
+
+# Generate README from projects.json
+.PHONY: readme
+readme:
+	@echo "📝 Generating README.md from projects.json..."
+	@if [ ! -f "projects.json" ]; then echo "❌ projects.json not found"; exit 1; fi
+	@node scripts/generate-readme.js
+	@echo "✅ README.md generated successfully"
 
 # Default development command
 .PHONY: default
