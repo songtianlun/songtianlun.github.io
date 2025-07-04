@@ -33,7 +33,6 @@ jobs:
         echo "Checking for projects.json:"
         if [ -f "projects.json" ]; then
           echo "✅ projects.json found"
-          echo "Projects count: $(node -e "try { console.log(JSON.parse(require('fs').readFileSync('projects.json', 'utf8')).length) } catch(e) { console.log('Invalid JSON') }")"
         else
           echo "❌ projects.json not found"
           exit 1
@@ -42,12 +41,10 @@ jobs:
     - name: Generate README content
       run: |
         echo "🔄 Generating README content..."
-        cat > generate-readme.js << 'EOF'
+        cat > generate-readme.js << 'SCRIPT_END'
         const fs = require('fs');
-
         try {
             const projectsData = JSON.parse(fs.readFileSync('projects.json', 'utf8'));
-            
             const readmeContent = `个人业余开发项目清单
 
 |                              名称                               | 简介                                         | 链接                                                                                                                        | 备注                     |
@@ -57,7 +54,6 @@ ${projectsData.map(project => {
     const description = project.description || '';
     const year = project.year || '';
     const tags = project.tags ? project.tags.join('` `') : '';
-    
     const links = [];
     if (project.links.github) {
         links.push(`[Git](${project.links.github})`);
@@ -71,32 +67,25 @@ ${projectsData.map(project => {
     if (project.links.article) {
         links.push(`[介绍文章](${project.links.article})`);
     }
-    
     const linkStr = links.join(' ');
-    const tagStr = tags ? \`\\\`SINCE \${year}\\\` \\\`\${tags}\\\`\` : \`\\\`SINCE \${year}\\\`\`;
-    
-    return \`| \${project.links.main ? \`[\${name}](\${project.links.main})\` : name} | \${description} | \${linkStr} | \${tagStr} |\`;
+    const tagStr = tags ? `\`SINCE ${year}\` \`${tags}\`` : `\`SINCE ${year}\``;
+    return `| ${project.links.main ? `[${name}](${project.links.main})` : name} | ${description} | ${linkStr} | ${tagStr} |`;
 }).join('\n')}
 
 `;
-            
             fs.writeFileSync('README_new.md', readmeContent);
             console.log('✅ README generated successfully');
-            console.log(\`📊 Generated \${projectsData.length} projects\`);
-            
         } catch (error) {
             console.error('❌ Error generating README:', error);
             process.exit(1);
         }
-        EOF
-        
+        SCRIPT_END
         node generate-readme.js
         
     - name: Switch to main branch and update README
       run: |
         echo "🔄 Switching to main branch..."
         git checkout main
-        
         echo "📝 Copying new README..."
         cp README_new.md README.md
         rm README_new.md generate-readme.js
@@ -105,7 +94,6 @@ ${projectsData.map(project => {
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
         if git diff --quiet HEAD -- README.md; then
           echo "ℹ️  No changes to README.md"
         else
@@ -116,7 +104,6 @@ ${projectsData.map(project => {
 由 GitHub Action 自动生成，基于 project 分支的 projects.json 文件
 
 Generated at: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-          
           git push origin main
           echo "✅ README.md updated successfully"
         fi
