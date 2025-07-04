@@ -8,9 +8,9 @@ try {
     const readmeContent = `
     这是一份自动生成的个人业余开发项目清单，原始数据维护在 \`project\` 分支下的 \`projects.json\` 文件中。
 
-    可以通过以下地址访问网站：
-
-    - <https://songtianlun.github.io>
+    # 个人主页
+    - 个人博客：<https://frytea.com>
+    - 作品清单: <https://songtianlun.github.io>
 
     # 业余开发项目清单
 
