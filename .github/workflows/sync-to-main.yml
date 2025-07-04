@@ -20,71 +20,31 @@ jobs:
         ref: project
         fetch-depth: 0
         
-    - name: Verify files exist
-      run: |
-        echo "Current branch: $(git branch --show-current)"
-        echo "Checking for projects.json..."
-        ls -la projects.json || exit 1
-        echo "✅ projects.json found"
-        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
         
-    - name: Generate README
-      run: |
-        echo "Generating README..."
-        cat > gen.js << 'END_SCRIPT'
-        const fs = require('fs');
-        const projects = JSON.parse(fs.readFileSync('projects.json', 'utf8'));
+    - name: Generate README from projects.json
+      run: make readme
         
-        let content = '个人业余开发项目清单\n\n';
-        content += '|                              名称                               | 简介                                         | 链接                                                                                                                        | 备注                     |\n';
-        content += '| :-----------------------------------------------------------: | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ---------------------- |\n';
-        
-        projects.forEach(p => {
-          const links = [];
-          if (p.links.github) links.push(`[Git](${p.links.github})`);
-          if (p.links.main) links.push(`[入口](${p.links.main})`);
-          if (p.links.docs) links.push(`[Docs](${p.links.docs})`);
-          if (p.links.article) links.push(`[介绍文章](${p.links.article})`);
-          
-          const linkStr = links.join(' ');
-          const tags = p.tags ? p.tags.join('` `') : '';
-          const tagStr = tags ? `\`SINCE ${p.year}\` \`${tags}\`` : `\`SINCE ${p.year}\``;
-          const nameWithLink = p.links.main ? `[${p.name}](${p.links.main})` : p.name;
-          
-          content += `| ${nameWithLink} | ${p.description || ''} | ${linkStr} | ${tagStr} |\n`;
-        });
-        
-        content += '\n';
-        fs.writeFileSync('README_temp.md', content);
-        console.log('README generated successfully');
-        END_SCRIPT
-        
-        node gen.js
-        
-    - name: Switch to main and update
+    - name: Switch to main branch and update
       run: |
         git config user.name 'GitHub Action'
         git config user.email 'action@github.com'
         
-        echo "Switching to main branch..."
         git checkout main
+        cp README.md README_backup.md
+        git checkout project -- README.md
         
-        echo "Copying README..."
-        cp README_temp.md README.md
-        
-        echo "Checking for changes..."
         if git diff --quiet HEAD -- README.md; then
           echo "No changes detected"
+          git checkout README_backup.md
         else
           echo "Changes detected, committing..."
           git add README.md
-          git commit -m "🤖 更新项目清单
-
-自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "🤖 更新项目清单 自动生成于: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           git push origin main
           echo "✅ Updated successfully"
         fi
+        rm -f README_backup.md
