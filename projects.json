@@ -1,0 +1,130 @@
+[
+    {
+        "name": "PlanAssistant",
+        "description": "For people who like to record their lives.",
+        "year": "2019",
+        "tags": ["Android", "Java"],
+        "links": {
+            "demo": "https://songtianlun.github.io/PlanAssistant/",
+            "github": "https://github.com/songtianlun/PlanAssistant",
+            "docs": "https://songtianlun.github.io/PlanAssistant/"
+        }
+    },
+    {
+        "name": "BJ-PFD2",
+        "description": "个人财务管理方案及监控看板",
+        "year": "2022",
+        "tags": ["Go", "Finance", "Dashboard"],
+        "links": {
+            "demo": "https://bjpfd2.skybyte.me",
+            "github": "https://github.com/songtianlun/bj-pfd2",
+            "article": "https://frytea.com/archives/1132/"
+        }
+    },
+    {
+        "name": "MinePin",
+        "description": "个人地理位置收藏夹",
+        "year": "2022",
+        "tags": ["Go", "Maps", "Location"],
+        "links": {
+            "github": "https://github.com/songtianlun/minepin"
+        }
+    },
+    {
+        "name": "全球艺术天气",
+        "description": "生成全球城市天气艺术图像，15w+城市，5k+AIArt",
+        "year": "2025",
+        "tags": ["Ruby", "AI", "Art", "Weather"],
+        "links": {
+            "demo": "https://todayaiweather.com/",
+            "article": "https://frytea.com/archives/1430/"
+        }
+    },
+    {
+        "name": "mirrorGit",
+        "description": "将 GitHub 仓库镜像到 Gitea 的 Shell 脚本",
+        "year": "2025",
+        "tags": ["Shell", "Git", "Mirror"],
+        "links": {
+            "github": "https://github.com/songtianlun/mirrorGit"
+        }
+    },
+    {
+        "name": "Selfhost Hub",
+        "description": "自托管服务和工具目录",
+        "year": "2025",
+        "tags": ["NextJS", "React", "Selfhost"],
+        "links": {
+            "demo": "https://selfhost-hub.com/",
+            "github": "https://github.com/songtianlun/selfhost-hub"
+        }
+    },
+    {
+        "name": "FinanceCalculator",
+        "description": "快速选出收益最高的理财产品",
+        "year": "2025",
+        "tags": ["NextJS", "Finance", "Calculator"],
+        "links": {
+            "demo": "https://fc.frytea.com/",
+            "article": "https://frytea.com/archives/1490/"
+        }
+    },
+    {
+        "name": "PlayUnb",
+        "description": "小游戏站，打开即玩超级玛丽、魂斗罗等经典游戏",
+        "year": "2025",
+        "tags": ["JavaScript", "Games", "Emulator"],
+        "links": {
+            "demo": "https://playunb.com/",
+            "github": "https://github.com/songtianlun/PlayUnb-Assets",
+            "article": "https://frytea.com/archives/1492/"
+        }
+    },
+    {
+        "name": "LiquedGlass",
+        "description": "液态玻璃风格图像生成和模拟",
+        "year": "2025",
+        "tags": ["NextJS", "AI", "Design"],
+        "links": {
+            "demo": "https://liquidglass.icu/",
+            "article": "https://frytea.com/archives/1489/"
+        }
+    },
+    {
+        "name": "Umami Dashboard",
+        "description": "更直观的展示 Umami 所有网站统计数据",
+        "year": "2025",
+        "tags": ["NextJS", "Analytics", "Dashboard"],
+        "links": {
+            "demo": "https://ud.frytea.com/",
+            "github": "https://github.com/songtianlun/umami-dashboard"
+        }
+    },
+    {
+        "name": "Week Count",
+        "description": "每年有多少周，当前是第几周，任意日期的周计算",
+        "year": "2025",
+        "tags": ["NextJS", "Calendar", "Utility"],
+        "links": {
+            "demo": "https://weekcount.com/"
+        }
+    },
+    {
+        "name": "Calc9",
+        "description": "用于健康、健身和日常计算的专业计算器工具集合",
+        "year": "2025",
+        "tags": ["NextJS", "Health", "Calculator"],
+        "links": {
+            "demo": "https://calc9.com/"
+        }
+    },
+    {
+        "name": "Anything vs Anything",
+        "description": "万物皆可比，使用AI智能分析比较任何两个事物",
+        "year": "2025",
+        "tags": ["NextJS", "AI", "Comparison"],
+        "links": {
+            "demo": "https://ava.skybyte.me/"
+        }
+    }
+]
