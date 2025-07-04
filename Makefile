@@ -175,10 +175,10 @@ test:
 # Generate README from projects.json
 .PHONY: readme
 readme:
-	@echo "📝 Generating README.md from projects.json..."
+	@echo "📝 Generating README.new.md from projects.json..."
 	@if [ ! -f "projects.json" ]; then echo "❌ projects.json not found"; exit 1; fi
 	@node scripts/generate-readme.js
-	@echo "✅ README.md generated successfully"
+	@echo "✅ README.new.md generated successfully"
 
 # Default development command
 .PHONY: default
