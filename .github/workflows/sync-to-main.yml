@@ -37,16 +37,9 @@ jobs:
         
         echo "Switching to main branch..."
         git checkout main
-        echo "Checking if files differ..."
-        if cmp -s README.md README_new.md 2>/dev/null; then
-          echo "Files are identical - no changes detected"
+        if diff README.md README_new.md 2>/dev/null; then
           rm README_new.md
         else
-          echo "Files differ - updating README..."
-          echo "Differences:"
-          diff README.md README_new.md | head -20 || true
-          echo ""
-          
           mv README_new.md README.md
           
           echo "Checking git status after replacement..."
