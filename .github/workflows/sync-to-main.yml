@@ -3,7 +3,7 @@ name: Sync Projects to Main
 on:
   push:
     branches: [ project ]
-    paths: [ 'projects.json', 'scripts/generate-readme.js' ]
+    paths: [ 'projects.json', 'scripts/generate-readme.js', '.github/workflows/sync-to-main.yml' ]
   workflow_dispatch:
 
 permissions:
