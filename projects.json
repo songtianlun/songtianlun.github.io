@@ -33,7 +33,7 @@
     {
         "name": "全球艺术天气",
         "description": "生成全球城市天气艺术图像，15w+城市，5k+AIArt",
-        "year": "2025",
+        "year": "2024-12-27",
         "tags": ["Ruby", "AI", "Art", "Weather"],
         "links": {
             "main": "https://todayaiweather.com/",
@@ -72,7 +72,7 @@
     {
         "name": "PlayUnb",
         "description": "小游戏站，打开即玩超级玛丽、魂斗罗等经典游戏",
-        "year": "2025",
+        "year": "2025-05-17",
         "tags": ["JavaScript", "Games", "Emulator"],
         "links": {
             "main": "https://playunb.com/",
@@ -83,7 +83,7 @@
     {
         "name": "LiquedGlass",
         "description": "液态玻璃风格图像生成和模拟",
-        "year": "2025",
+        "year": "2025-06-10",
         "tags": ["NextJS", "AI", "Design"],
         "links": {
             "main": "https://liquidglass.icu/",
@@ -103,7 +103,7 @@
     {
         "name": "Week Count",
         "description": "每年有多少周，当前是第几周，任意日期的周计算",
-        "year": "2025",
+        "year": "2025-06-24",
         "tags": ["NextJS", "Calendar", "Utility"],
         "links": {
             "main": "https://weekcount.com/"
@@ -112,7 +112,7 @@
     {
         "name": "Calc9",
         "description": "用于健康、健身和日常计算的专业计算器工具集合",
-        "year": "2025",
+        "year": "2025-06-30",
         "tags": ["NextJS", "Health", "Calculator"],
         "links": {
             "main": "https://calc9.com/"
