@@ -126,5 +126,14 @@
         "links": {
             "main": "https://ava.skybyte.me/"
         }
+    },
+    {
+        "name": "2md.run",
+        "description": "极速发布与分享 Markdown 文档的在线工具",
+        "year": "2025-09-22",
+        "tags": ["Markdown", "Tool", "Web"],
+        "links": {
+            "main": "https://2md.run/"
+        }
     }
 ]
