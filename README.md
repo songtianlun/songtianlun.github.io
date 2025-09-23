@@ -22,4 +22,5 @@
 | [Week Count](https://weekcount.com/) | 每年有多少周，当前是第几周，任意日期的周计算 | [入口](https://weekcount.com/) | `SINCE 2025-06-24` `NextJS` `Calendar` `Utility` |
 | [Calc9](https://calc9.com/) | 用于健康、健身和日常计算的专业计算器工具集合 | [入口](https://calc9.com/) | `SINCE 2025-06-30` `NextJS` `Health` `Calculator` |
 | [Anything vs Anything](https://ava.skybyte.me/) | 万物皆可比，使用AI智能分析比较任何两个事物 | [入口](https://ava.skybyte.me/) | `SINCE 2025` `NextJS` `AI` `Comparison` |
+| [2md.run](https://2md.run/) | 极速发布与分享 Markdown 文档的在线工具 | [入口](https://2md.run/) | `SINCE 2025-09-22` `Markdown` `Tool` `Web` |
 
