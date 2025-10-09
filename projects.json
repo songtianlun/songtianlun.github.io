@@ -135,5 +135,14 @@
         "links": {
             "main": "https://2md.run/"
         }
+    },
+    {
+        "name": "Flashcard Maker",
+        "description": "在线制作和管理学习闪卡的工具",
+        "year": "2025-10-03",
+        "tags": ["Flashcards", "Education", "Web"],
+        "links": {
+            "main": "https://flashcard-maker.net/"
+        }
     }
 ]
