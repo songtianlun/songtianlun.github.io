@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>根技术 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E6%A0%B9%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 根技术 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 19 Dec 2024 10:20:07 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/%E6%A0%B9%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深度解析根技术、根产业及发展格局</title>
+      <link>https://www.frytea.com/archives/1404/</link>
+      <pubDate>Thu, 19 Dec 2024 10:20:07 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1404/</guid>
+      <description>&lt;p&gt;根技术是指那些能够催生和支撑一系列衍生技术的基础性技术,它们在科技发展中起着关键的作用。了解根技术的基本概念对于把握技术发展趋势和方向具有重要意义。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CPP on Frytea</title>
+    <link>https://www.frytea.com/tags/cpp/</link>
+    <description>Recent content in CPP on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Apr 2025 02:21:24 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一个 CUDA 程序之矩阵运算计算效能对比</title>
+      <link>https://www.frytea.com/archives/1472/</link>
+      <pubDate>Sat, 19 Apr 2025 02:21:24 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1472/</guid>
+      <description>&lt;p&gt;这是一个使用 CUDA 进行编程的实际例子，对比 CPU 和 GPU 在执行矩阵乘法时的性能差异。&lt;/p&gt;
+&lt;h1 id=&#34;运行效果&#34;&gt;运行效果&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(base) root@gpu-1095cf160ec353b4e35a9-1-zqa76jnvthlx:~/data/CUDA/first# ./gpu_matrix_mult
+GPU 执行时间: 0.000475046 秒
+(base) root@gpu-1095cf160ec353b4e35a9-1-zqa76jnvthlx:~/data/CUDA/first# ./cpu_matrix_mult 
+CPU 执行时间: 14.3784 秒
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;程序实例&#34;&gt;程序实例&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;示例：矩阵乘法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;矩阵乘法是一个非常适合用 GPU 加速的计算密集型任务。我们将实现一个简单的矩阵乘法，分别在 CPU 和 GPU 上运行，并比较它们的执行时间。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

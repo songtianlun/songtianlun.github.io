@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SSH on Frytea</title>
+    <title>Ssh on Frytea</title>
     <link>https://www.frytea.com/tags/ssh/</link>
-    <description>Recent content in SSH on Frytea</description>
+    <description>Recent content in Ssh on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 26 Jun 2023 02:07:27 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 04:05:08 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SSH 密钥类型及格式</title>
-      <link>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</link>
-      <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/ssh-%E5%AF%86%E9%92%A5%E7%B1%BB%E5%9E%8B%E5%8F%8A%E6%A0%BC%E5%BC%8F/</guid>
-      <description>SSH 密钥类型及格式 在使用 ssh-keygen 命令生成密钥对时，有这几个参数需要被注意： # 对密钥对的注释，会追加在公钥最后 -C comment Provides a new comment. # 密钥长度，详细请看描述 -b bits</description>
+      <title>SSH 通过跳板机连接</title>
+      <link>https://www.frytea.com/archives/1535/</link>
+      <pubDate>Tue, 14 Oct 2025 04:05:08 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1535/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;有两种方式可以实现通过跳板机直接连接目标服务器 SSH.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ProxyJump（推荐方式）OpenSSH &amp;gt;= 7.3
+ssh -J user@jump-server.dealiaxy.com:10023 user@target.dealiaxy.com
+# 在这条命令中，-J 后面指定了跳板机的地址（user@jump-server.dealiaxy.com）和端口（10023）。SSH 会先与跳板机建立连接，然后通过跳板机转发流量到目标服务器 target.dealiaxy.com。整个过程只需要一次登录操作，极大简化了访问流程。
+# ProxyCommand
+ssh -o &amp;#34;ProxyCommand ssh -W %h:%p user@jump-server.dealiaxy.com -p 10023&amp;#34; user@target.dealiaxy.com
+# 在这个命令中，-o &amp;#34;ProxyCommand&amp;#34; 选项指定了一个自定义的命令来通过跳板机进行连接。具体地，ssh -W %h:%p 会将目标主机（%h）和端口（%p）转发给跳板机，然后通过跳板机建立与目标主机的连接。
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;refs&#34;&gt;Refs&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/deali/p/18678315&#34;&gt;SSH 跳板机原理与配置：实现无缝跳板连接，一步直达目标主机&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
-    <item>
-      <title>sshd 拒绝连接错误 refused connected from</title>
-      <link>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</link>
-      <pubDate>Fri, 19 May 2023 02:16:16 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/others/sshd-%E6%8B%92%E7%BB%9D%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF-refused-connected-from/</guid>
-      <description>sshd 拒绝连接错误 refused connected from 最近发现一种会导致 sshd 拒绝登陆的方法： 登陆时 sshd 会报出日志： refused connected from 以下是集中可能的原因/方法： 检查主机的访问权限：你需要检查</description>
-    </item>
-    
     <item>
       <title>解决 SSH 无操作自动断开 | pychram 超时无响应</title>
       <link>https://www.frytea.com/archives/623/</link>
-      <pubDate>Wed, 19 Jan 2022 09:49:24 +0000</pubDate>
-      
+      <pubDate>Wed, 19 Jan 2022 01:49:24 +0000</pubDate>
       <guid>https://www.frytea.com/archives/623/</guid>
-      <description>工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。 这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的</description>
+      <description>&lt;p&gt;工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。&lt;/p&gt;
+&lt;p&gt;这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的服务也会因此受到影响，比如 &lt;code&gt;Pychram&lt;/code&gt; 远程开发，会在一段时间后无响应，只能重启 Pychram 解决，很影响效率。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

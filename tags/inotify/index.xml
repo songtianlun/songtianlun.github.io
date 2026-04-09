@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>inotify on Frytea</title>
+    <title>Inotify on Frytea</title>
     <link>https://www.frytea.com/tags/inotify/</link>
-    <description>Recent content in inotify on Frytea</description>
+    <description>Recent content in Inotify on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Jan 2022 09:35:37 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/inotify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 01:35:37 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/inotify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>INOTIFY - 监听事件</title>
       <link>https://www.frytea.com/archives/626/</link>
-      <pubDate>Thu, 27 Jan 2022 09:35:37 +0000</pubDate>
-      
+      <pubDate>Thu, 27 Jan 2022 01:35:37 +0000</pubDate>
       <guid>https://www.frytea.com/archives/626/</guid>
-      <description>Linux 2.6.13 内核中引入了新的文件系统变化通知机制 inotify ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。 各种语言基本都提供了对该接口的调用方法</description>
+      <description>&lt;p&gt;Linux 2.6.13 内核中引入了新的文件系统变化通知机制 &lt;code&gt;inotify&lt;/code&gt; ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。&lt;/p&gt;
+&lt;p&gt;各种语言基本都提供了对该接口的调用方法： &lt;code&gt;C&lt;/code&gt; 不必多说， &lt;code&gt;Perl&lt;/code&gt; 使用 &lt;code&gt;[Linux::Inotify2](https://metacpan.org/pod/Linux::Inotify2)&lt;/code&gt; ， &lt;code&gt;Golang&lt;/code&gt; 使用 &lt;code&gt;golang.org/x/sys/unix&lt;/code&gt; ， &lt;code&gt;Python&lt;/code&gt; 则使用 &lt;code&gt;[pyinotify](https://github.com/seb-m/pyinotify)&lt;/code&gt; 即可完成调用。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

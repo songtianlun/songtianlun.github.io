@@ -1,33 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hugo on Frytea</title>
+    <title>Hugo on Frytea</title>
     <link>https://www.frytea.com/tags/hugo/</link>
-    <description>Recent content in hugo on Frytea</description>
+    <description>Recent content in Hugo on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Dec 2021 14:32:08 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Nov 2024 11:40:10 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用 Cloud Studio 撰写、预览 Hugo 的配置方法</title>
-      <link>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</link>
-      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/write-and-preview-hugo-using-cloud-studio/</guid>
-      <description>使用 Cloud Studio 在云端编辑、预览、发布博客。</description>
+      <title>限制线程数避免Hugo资源耗尽被杀</title>
+      <link>https://www.frytea.com/archives/1333/</link>
+      <pubDate>Sun, 10 Nov 2024 11:40:10 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1333/</guid>
+      <description>&lt;p&gt;如果项目很大，hugo默认启动物理核心数个线程并发，但如果已有程序占用，就可能导致 hugo 进程杀死。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo --gc --minify
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此时可以尝试使用下面这个命令：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HUGO_NUMWORKERMULTIPLIER=2 hugo --gc --minify --cacheDir /root/archive/cacge
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;主要是这两个参数：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>新 Hugo 博客相关记录笔记</title>
       <link>https://www.frytea.com/archives/588/</link>
-      <pubDate>Thu, 28 Oct 2021 00:10:00 +0000</pubDate>
-      
+      <pubDate>Wed, 27 Oct 2021 16:10:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/588/</guid>
-      <description>2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名： blog.frytea.com 内容太过庞杂，不成体系，很难重新做规整； blog.frytea.com 目前采用的付费</description>
+      <description>&lt;p&gt;2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.frytea.com&#34;&gt;blog.frytea.com&lt;/a&gt; 内容太过庞杂，不成体系，很难重新做规整；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.frytea.com&#34;&gt;blog.frytea.com&lt;/a&gt; 目前采用的付费主题虽然各方面做的都比较均衡，但是在google网站扫描过程中还是发现许多加载缓慢的因素，无法优化；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.frytae.com&#34;&gt;blog.frytae.com&lt;/a&gt; 作为我的主站申请 google adsense 多次没有通过，原因未知；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.frytea.com&#34;&gt;blog.frytea.com&lt;/a&gt; 目前主题由于其定位，无法作为一个个人网站的索引，目前是分成两套体系分别进行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;新网站目标&#34;&gt;新网站目标&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;内容成体系、有结构、有深度&lt;/li&gt;
+&lt;li&gt;可作为个人引导页，引导到我的各种其他站点&lt;/li&gt;
+&lt;li&gt;SEO 友好&lt;/li&gt;
+&lt;li&gt;包含各种宣传自己的页面：产品集、个人简历等；&lt;/li&gt;
+&lt;li&gt;分专题来撰写文章：技术探索、奇思妙想、人生复盘；最终希望每一部分都能作为一本书进行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;新网站参考&#34;&gt;新网站参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;静态网站生成引擎使用：&lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;网站博客主题基于 &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34;&gt;PaperMod&lt;/a&gt; 进行定制；&lt;/li&gt;
+&lt;li&gt;网站评论系统使用 &lt;a href=&#34;https://valine.js.org/&#34;&gt;Valine&lt;/a&gt; 并采用其拓展用用 &lt;a href=&#34;https://github.com/zhaojun1998/Valine-Admin&#34;&gt;Valine-Admin&lt;/a&gt; 强化功能；&lt;/li&gt;
+&lt;li&gt;网站背景使用 &lt;a href=&#34;https://www.svgbackgrounds.com&#34;&gt;SVG Background&lt;/a&gt; 生成；&lt;/li&gt;
+&lt;li&gt;内容协议采用 &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;字体参考 《&lt;strong&gt;&lt;a href=&#34;https://ridiqulous.com/chinese-webfont-guide/&#34;&gt;中文网页字体设置方案：从 font-family 到 font-display&lt;/a&gt;&lt;/strong&gt;》进行配置；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;网站定制开发参考&#34;&gt;网站定制开发参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki&#34;&gt;PaperMod Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/clairecodes/how-to-create-a-polka-dot-background-with-css-23m0&#34;&gt;How to Create a Polka Dot Background with CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://huangzhongde.cn/post/2020-02-20-hugo-comments-plugin-valine/&#34;&gt;Hugo评论插件集成之Valine&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.affde.com/zh-CN/how-to-get-adsense-approval.html&#34;&gt;如何在2020年快速获得Adsense批准（提示和技巧）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom&#34;&gt;Best practices for XML sitemaps &amp;amp; RSS/Atom feeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/rss/&#34;&gt;Hugo RSS Templates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/sitemap-template/&#34;&gt;Hugo Sitemap Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ridiqulous.com/chinese-webfont-guide/&#34;&gt;中文网页字体设置方案：从 font-family 到 font-display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;参考博客
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://creative.clox.nu&#34;&gt;I&amp;rsquo;m cloxnu&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://huangzhongde.cn&#34;&gt;黄忠德的博客&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;免责声明参考
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://plumwine.me/terms/&#34;&gt;Plum Wine Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.runoob.com/disclaimer&#34;&gt;菜鸟教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ldqk.xyz/disclaimer&#34;&gt;网站免责声明与法律条文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://www.oldding.net/mianzeshengming&#34;&gt;老丁的技术博客免责声明&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

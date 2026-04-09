@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DogYun on Frytea</title>
+    <link>https://www.frytea.com/tags/dogyun/</link>
+    <description>Recent content in DogYun on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 Nov 2024 15:59:44 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/dogyun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DogYun-HK-EQ</title>
+      <link>https://www.frytea.com/archives/1369/</link>
+      <pubDate>Thu, 21 Nov 2024 11:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1369/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：DogYun&lt;/li&gt;
+&lt;li&gt;型号：hk.eq.s&lt;/li&gt;
+&lt;li&gt;规格：1C/1G&lt;/li&gt;
+&lt;li&gt;磁盘：20G&lt;/li&gt;
+&lt;li&gt;流量：500G&lt;/li&gt;
+&lt;li&gt;带宽：50Mbps&lt;/li&gt;
+&lt;li&gt;位置：中国/香港&lt;/li&gt;
+&lt;li&gt;价格：35RMB/年 / 24.5RMB/Y 折扣码 &lt;code&gt;HK.EQ&lt;/code&gt; 七折首发￥24.50起&lt;/li&gt;
+&lt;li&gt;年付：245 RMB&lt;/li&gt;
+&lt;li&gt;购买链接：https://vm.dogyun.com/server/create/132&lt;/li&gt;
+&lt;li&gt;测试IP：43.247.133.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Harbor on Frytea</title>
+    <link>https://www.frytea.com/tags/harbor/</link>
+    <description>Recent content in Harbor on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 29 Aug 2025 02:08:39 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/harbor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>harbor Chartmuseum helm 图表缓存刷新</title>
+      <link>https://www.frytea.com/archives/1515/</link>
+      <pubDate>Thu, 28 Aug 2025 14:33:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1515/</guid>
+      <description>&lt;p&gt;harbor 集成 Chartmuseum 实现 helm 图表的存储。&lt;/p&gt;
+&lt;p&gt;Chartmuseum 对于图表索引缓存的处理有问题，删除、重传 chart 不会刷新索引，需要手动刷新。&lt;/p&gt;
+&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;操作步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;停止 harbor，例如： &lt;code&gt;docker compose stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除 &lt;code&gt;/data/chart_storage/{project}/index-cache.yaml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除 &lt;code&gt;/data/redis/*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;启动 harbor，例如： &lt;code&gt;docker compose up -d&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;记得备份。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>harbor 替换 ssl 证书</title>
+      <link>https://www.frytea.com/archives/1504/</link>
+      <pubDate>Thu, 07 Aug 2025 14:31:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1504/</guid>
+      <description>&lt;p&gt;最近内网 harbor 经常迁移，迁移到新地址后 ssl 证书需针对新的地址签发。（当然如果你直接使用 http 就不会有这个烦恼，至于为什么i不直接使用 http 就不多说了）。&lt;/p&gt;
+&lt;p&gt;这里记录一下签发新的 ssl 证书并迁移的命令，方便后面使用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>支持 helm 的 harbor 版本</title>
+      <link>https://www.frytea.com/archives/1409/</link>
+      <pubDate>Mon, 30 Dec 2024 15:54:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1409/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Harbor在v1.6版本开始支持Helm Chart仓库功能，- 从v2.6.0 开始弃用Chartmuseum，并在v2.8.0中开始删除。更多详情，请参阅讨论：https://github.com/goharbor/harbor/discussions/15057 从 v2.6.0 开始弃用 Notary（签名者和服务器），并在 v2.8.0 中开始删除。更多详情，请参阅讨论：https://github.com/goharbor/harbor/discussions/16612&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

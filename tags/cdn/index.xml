@@ -5,47 +5,106 @@
     <link>https://www.frytea.com/tags/cdn/</link>
     <description>Recent content in CDN on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Dec 2021 20:11:59 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 12:11:59 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>国内对象存储/CDN服务价格横评</title>
       <link>https://www.frytea.com/archives/614/</link>
-      <pubDate>Thu, 30 Dec 2021 20:11:59 +0000</pubDate>
-      
+      <pubDate>Thu, 30 Dec 2021 12:11:59 +0000</pubDate>
       <guid>https://www.frytea.com/archives/614/</guid>
-      <description>话不多说，直接上表格。 价格表(国内HTTPS价格) 名称 存储免费额度(GB) 存储费用(元 / GB / 日) 流量免费额度 流量费用(元/GB) CDN流量费</description>
+      <description>&lt;p&gt;话不多说，直接上表格。&lt;/p&gt;
+&lt;h2 id=&#34;价格表国内https价格&#34;&gt;价格表(国内HTTPS价格)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;存储免费额度(GB)&lt;/th&gt;
+          &lt;th&gt;存储费用(元 / GB / 日)&lt;/th&gt;
+          &lt;th&gt;流量免费额度&lt;/th&gt;
+          &lt;th&gt;流量费用(元/GB)&lt;/th&gt;
+          &lt;th&gt;CDN流量费用&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;多吉云&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;0.003&lt;/td&gt;
+          &lt;td&gt;20&lt;/td&gt;
+          &lt;td&gt;0.11&lt;/td&gt;
+          &lt;td&gt;0.11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;七牛云&lt;/td&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;0.098-0.145&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.29&lt;/td&gt;
+          &lt;td&gt;0.28&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;腾讯云&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.099-0.118&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.5&lt;/td&gt;
+          &lt;td&gt;0.21&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;阿里云&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.12&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.25-0.5&lt;/td&gt;
+          &lt;td&gt;0.24&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;又拍云&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.0043&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.5&lt;/td&gt;
+          &lt;td&gt;0.29&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;百度智能云&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.119-0.15&lt;/td&gt;
+          &lt;td&gt;\&lt;/td&gt;
+          &lt;td&gt;0.25-0.49&lt;/td&gt;
+          &lt;td&gt;0.20&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：价格整理于2021年12月30日；存储指对象存储，流量指对象存储公网流出流量。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>国内对象存储/CDN服务价格汇总</title>
-      <link>https://www.frytea.com/archives/wiki/cdn-price/</link>
-      <pubDate>Thu, 30 Dec 2021 20:14:00 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/cdn-price/</guid>
-      <description>汇集国内主流对象存储、CDN服务价格</description>
-    </item>
-    
     <item>
       <title>CDN 中的 「回源HOST」与「源站」</title>
       <link>https://www.frytea.com/archives/589/</link>
-      <pubDate>Thu, 28 Oct 2021 00:11:48 +0000</pubDate>
-      
+      <pubDate>Wed, 27 Oct 2021 16:11:48 +0000</pubDate>
       <guid>https://www.frytea.com/archives/589/</guid>
-      <description>在配置网站 CDN 时总是搞不清其中「回源HOST」与「源站」的区别，因此在这里简单记录。 源站和回源HOST的区别： 源站：源站决定了回源时请求到的具</description>
+      <description>&lt;p&gt;在配置网站 CDN 时总是搞不清其中「回源HOST」与「源站」的区别，因此在这里简单记录。&lt;/p&gt;
+&lt;p&gt;源站和回源HOST的区别：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;源站：源站决定了回源时请求到的&lt;strong&gt;具体IP地址&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;回源HOST：回源HOST决定了回源请求访问到该IP地址上的&lt;strong&gt;具体站点&lt;/strong&gt;。回源HOST即&lt;strong&gt;回源域名&lt;/strong&gt;，当源站服务器上提供多个域名服务时，CDN节点回源时在源站访问的具体站点域名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;例子一源站是域名&#34;&gt;&lt;strong&gt;例子一：源站是域名&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;如果源站为**&lt;code&gt;www.a.com&lt;/code&gt;&lt;strong&gt;，回源HOST为&lt;/strong&gt;&lt;code&gt;www.b.com&lt;/code&gt;&lt;strong&gt;。那么实际回源是请求到&lt;/strong&gt;&lt;code&gt;www.a.com&lt;/code&gt;&lt;strong&gt;解析到的IP地址其对应主机上的&lt;/strong&gt;&lt;code&gt;www.b.com&lt;/code&gt;**站点。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>这项技术解决了博客访问的大问题</title>
       <link>https://www.frytea.com/archives/299/</link>
-      <pubDate>Thu, 23 Jan 2020 11:35:00 +0000</pubDate>
-      
+      <pubDate>Thu, 23 Jan 2020 03:35:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/299/</guid>
-      <description>由于一些原因，我的博客暂时托管在香港某家服务提供商的云主机之上，虽然商家已经尽权力为线路做了优化，但是到达大陆一些地域的访问速度还是不太理想</description>
+      <description>&lt;p&gt;由于一些原因，我的博客暂时托管在香港某家服务提供商的云主机之上，虽然商家已经尽权力为线路做了优化，但是到达大陆一些地域的访问速度还是不太理想，特别是在一些本人长期驻留的地域。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

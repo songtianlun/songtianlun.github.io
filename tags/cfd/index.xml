@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CFD on Frytea</title>
+    <link>https://www.frytea.com/tags/cfd/</link>
+    <description>Recent content in CFD on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Apr 2025 03:05:26 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/cfd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFOAM 两大分支的详细比较</title>
+      <link>https://www.frytea.com/archives/1473/</link>
+      <pubDate>Mon, 21 Apr 2025 03:05:26 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1473/</guid>
+      <description>&lt;p&gt;OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。&lt;/p&gt;
+&lt;h2 id=&#34;历史背景&#34;&gt;历史背景&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;分叉原因&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发&lt;/li&gt;
+&lt;li&gt;2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM&lt;/li&gt;
+&lt;li&gt;2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd&lt;/li&gt;
+&lt;li&gt;2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd&lt;/li&gt;
+&lt;li&gt;这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;版本发布历史&#34;&gt;版本发布历史&lt;/h2&gt;
+&lt;h3 id=&#34;openfoam-foundation-版本&#34;&gt;OpenFOAM Foundation 版本&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;命名规则&lt;/strong&gt;：使用版本号（如 v2106, v2212）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发布频率&lt;/strong&gt;：通常每年 1-2 次大版本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本轨迹&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;v2.0.0（2011 年，首个独立版本）&lt;/li&gt;
+&lt;li&gt;v2.3.0（2014 年）&lt;/li&gt;
+&lt;li&gt;v4.0（2016 年）&lt;/li&gt;
+&lt;li&gt;v7（2019 年）&lt;/li&gt;
+&lt;li&gt;v9（2021 年）&lt;/li&gt;
+&lt;li&gt;v10（2022 年）&lt;/li&gt;
+&lt;li&gt;v11（2023 年）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;openfoam-plus-版本&#34;&gt;OpenFOAM+ (plus) 版本&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;命名规则&lt;/strong&gt;：使用年份+月份（如 v1906, v2206）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发布频率&lt;/strong&gt;：每年 2 次，通常在 6 月和 12 月&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;版本轨迹&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;v3.0+（2015 年）&lt;/li&gt;
+&lt;li&gt;v1606+（2016 年）&lt;/li&gt;
+&lt;li&gt;v1806+（2018 年）&lt;/li&gt;
+&lt;li&gt;v2006（2020 年）&lt;/li&gt;
+&lt;li&gt;v2206（2022 年）&lt;/li&gt;
+&lt;li&gt;v2312（2023 年）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技术差异&#34;&gt;技术差异&lt;/h2&gt;
+&lt;h3 id=&#34;1-代码结构与架构&#34;&gt;1. 代码结构与架构&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Foundation 版本&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

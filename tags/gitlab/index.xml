@@ -5,56 +5,98 @@
     <link>https://www.frytea.com/tags/gitlab/</link>
     <description>Recent content in GitLab on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 07 Feb 2020 02:12:01 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Aug 2025 14:33:56 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自建 gitlab 徽标问题导致项目 500 问题解决</title>
+      <link>https://www.frytea.com/archives/1516/</link>
+      <pubDate>Thu, 28 Aug 2025 14:33:56 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1516/</guid>
+      <description>&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
+&lt;p&gt;最近内部 gitlab 某些项目打开就 500 了， 看 gitlab 报错日志如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gitlab  | {&amp;#34;method&amp;#34;:&amp;#34;GET&amp;#34;,&amp;#34;path&amp;#34;:&amp;#34;/xxx/xxx&amp;#34;,&amp;#34;format&amp;#34;:&amp;#34;html&amp;#34;,&amp;#34;controller&amp;#34;:&amp;#34;ProjectsController&amp;#34;,&amp;#34;action&amp;#34;:&amp;#34;show&amp;#34;,&amp;#34;status&amp;#34;:500,&amp;#34;time&amp;#34;:&amp;#34;2025-08-28T00:51:41.511Z&amp;#34;,&amp;#34;params&amp;#34;:[{&amp;#34;key&amp;#34;:&amp;#34;namespace_id&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;xxx&amp;#34;},{&amp;#34;key&amp;#34;:&amp;#34;id&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;xxx&amp;#34;}],&amp;#34;remote_ip&amp;#34;:&amp;#34;10.17.7.63&amp;#34;,&amp;#34;user_id&amp;#34;:74,&amp;#34;username&amp;#34;:&amp;#34;xxxgitlab | {&amp;#34;method&amp;#34;:&amp;#34;GET&amp;#34;,&amp;#34;path&amp;#34;:&amp;#34;/xxx/xxx&amp;#34;,&amp;#34;format&amp;#34;:&amp;#34;html&amp;#34;,&amp;#34;controller&amp;#34;:&amp;#34;ProjectsController&amp;#34;,&amp;#34;action&amp;#34;:&amp;#34;show&amp;#34;,&amp;#34;status&amp;#34;:500,&amp;#34;time&amp;#34;:&amp;#34;2025-08-28T00:51:41.511Z&amp;#34;,&amp;#34;params&amp;#34;:[{&amp;#34;key&amp;#34;:&amp;#34;namespace_id&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;xxx&amp;#34;},{&amp;#34;key&amp;#34;:&amp;#34;id&amp;#34;,&amp;#34;value&amp;#34;:&amp;#34;xxx&amp;#34;}],&amp;#34;remote_ip&amp;#34;:&amp;#34;10.17.7.63&amp;#34;,&amp;#34;user_id&amp;#34;:74,&amp;#34;username&amp;#34;:&amp;#34;xxx&amp;#34;,&amp;#34;ua&amp;#34;:&amp;#34;Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0&amp;#34;,&amp;#34;correlation_id&amp;#34;:&amp;#34;01K3Q2F5DXP8Y33B25TW9SSMYM&amp;#34;,&amp;#34;meta.user&amp;#34;:&amp;#34;xxx&amp;#34;,&amp;#34;meta.project&amp;#34;:&amp;#34;xxx/xxx&amp;#34;,&amp;#34;meta.root_namespace&amp;#34;:&amp;#34;storage&amp;#34;,&amp;#34;meta.caller_id&amp;#34;:&amp;#34;ProjectsController#show&amp;#34;,&amp;#34;meta.remote_ip&amp;#34;:&amp;#34;10.17.7.63&amp;#34;,&amp;#34;meta.feature_category&amp;#34;:&amp;#34;projects&amp;#34;,&amp;#34;meta.client_id&amp;#34;:&amp;#34;user/74&amp;#34;,&amp;#34;redis_calls&amp;#34;:21,&amp;#34;redis_duration_s&amp;#34;:0.007123,&amp;#34;redis_read_bytes&amp;#34;:2997,&amp;#34;redis_write_bytes&amp;#34;:2370,&amp;#34;redis_cache_calls&amp;#34;:20,&amp;#34;redis_cache_duration_s&amp;#34;:0.006591,&amp;#34;redis_cache_read_bytes&amp;#34;:2816,&amp;#34;redis_cache_write_bytes&amp;#34;:1035,&amp;#34;redis_shared_state_calls&amp;#34;:1,&amp;#34;redis_shared_state_duration_s&amp;#34;:0.000532,&amp;#34;redis_shared_state_read_bytes&amp;#34;:181,&amp;#34;redis_shared_state_write_bytes&amp;#34;:1335,&amp;#34;db_count&amp;#34;:41,&amp;#34;db_write_count&amp;#34;:0,&amp;#34;db_cached_count&amp;#34;:10,&amp;#34;cpu_s&amp;#34;:2.291446,&amp;#34;mem_objects&amp;#34;:394125,&amp;#34;mem_bytes&amp;#34;:52397272,&amp;#34;mem_mallocs&amp;#34;:198648,&amp;#34;mem_total_bytes&amp;#34;:68162272,&amp;#34;queue_duration_s&amp;#34;:0.009214,&amp;#34;exception.class&amp;#34;:&amp;#34;Rack::Timeout::RequestTimeoutException&amp;#34;,&amp;#34;exception.message&amp;#34;:&amp;#34;Request ran for longer than 60000ms&amp;#34;,&amp;#34;exception.backtrace&amp;#34;:[&amp;#34;lib/gitlab/url_blocker.rb:113:in `getaddrinfo&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/url_blocker.rb:113:in `get_address_info&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/url_blocker.rb:48:in `validate!&amp;#39;&amp;#34;,&amp;#34;app/validators/addressable_url_validator.rb:83:in `validate_each&amp;#39;&amp;#34;,&amp;#34;app/models/badge.rb:43:in `build_rendered_url&amp;#39;&amp;#34;,&amp;#34;app/models/badge.rb:36:in `rendered_image_url&amp;#39;&amp;#34;,&amp;#34;app/models/badges/project_badge.rb:15:in `rendered_image_url&amp;#39;&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:93&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:89&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:87&amp;#34;,&amp;#34;app/views/projects/show.html.haml:14&amp;#34;,&amp;#34;app/controllers/application_controller.rb:128:in `render&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:538:in `block in allow_gitaly_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/gitaly_client.rb:341:in `allow_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:537:in `allow_gitaly_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:487:in `set_current_admin&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/session.rb:11:in `with_session&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:478:in `set_session_storage&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/i18n.rb:99:in `with_locale&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/i18n.rb:105:in `with_user_locale&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:472:in `set_locale&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:466:in `set_current_context&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/rails_queue_duration.rb:33:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/rack_middleware.rb:16:in `block in call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/web_transaction.rb:21:in `run&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/rack_middleware.rb:16:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/speedscope.rb:13:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/request_profiler/middleware.rb:17:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/jira/middleware.rb:19:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/go.rb:20:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/etag_caching/middleware.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/multipart.rb:172:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/read_only/controller.rb:50:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/read_only.rb:18:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/same_site_cookies.rb:27:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/basic_health_check.rb:25:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/request_context.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;config/initializers/fix_local_cache_middleware.rb:11:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/requests_rack_middleware.rb:74:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/release_env.rb:12:in `call&amp;#39;&amp;#34;],&amp;#34;db_duration_s&amp;#34;:0.23847,&amp;#34;view_duration_s&amp;#34;:0.0,&amp;#34;duration_s&amp;#34;:73.05203}&amp;#34;,&amp;#34;ua&amp;#34;:&amp;#34;Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0&amp;#34;,&amp;#34;correlation_id&amp;#34;:&amp;#34;01K3Q2F5DXP8Y33B25TW9SSMYM&amp;#34;,&amp;#34;meta.user&amp;#34;:&amp;#34;xxx&amp;#34;,&amp;#34;meta.project&amp;#34;:&amp;#34;xxx/xxx&amp;#34;,&amp;#34;meta.root_namespace&amp;#34;:&amp;#34;storage&amp;#34;,&amp;#34;meta.caller_id&amp;#34;:&amp;#34;ProjectsController#show&amp;#34;,&amp;#34;meta.remote_ip&amp;#34;:&amp;#34;10.17.7.63&amp;#34;,&amp;#34;meta.feature_category&amp;#34;:&amp;#34;projects&amp;#34;,&amp;#34;meta.client_id&amp;#34;:&amp;#34;user/74&amp;#34;,&amp;#34;redis_calls&amp;#34;:21,&amp;#34;redis_duration_s&amp;#34;:0.007123,&amp;#34;redis_read_bytes&amp;#34;:2997,&amp;#34;redis_write_bytes&amp;#34;:2370,&amp;#34;redis_cache_calls&amp;#34;:20,&amp;#34;redis_cache_duration_s&amp;#34;:0.006591,&amp;#34;redis_cache_read_bytes&amp;#34;:2816,&amp;#34;redis_cache_write_bytes&amp;#34;:1035,&amp;#34;redis_shared_state_calls&amp;#34;:1,&amp;#34;redis_shared_state_duration_s&amp;#34;:0.000532,&amp;#34;redis_shared_state_read_bytes&amp;#34;:181,&amp;#34;redis_shared_state_write_bytes&amp;#34;:1335,&amp;#34;db_count&amp;#34;:41,&amp;#34;db_write_count&amp;#34;:0,&amp;#34;db_cached_count&amp;#34;:10,&amp;#34;cpu_s&amp;#34;:2.291446,&amp;#34;mem_objects&amp;#34;:394125,&amp;#34;mem_bytes&amp;#34;:52397272,&amp;#34;mem_mallocs&amp;#34;:198648,&amp;#34;mem_total_bytes&amp;#34;:68162272,&amp;#34;queue_duration_s&amp;#34;:0.009214,&amp;#34;exception.class&amp;#34;:&amp;#34;Rack::Timeout::RequestTimeoutException&amp;#34;,&amp;#34;exception.message&amp;#34;:&amp;#34;Request ran for longer than 60000ms&amp;#34;,&amp;#34;exception.backtrace&amp;#34;:[&amp;#34;lib/gitlab/url_blocker.rb:113:in `getaddrinfo&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/url_blocker.rb:113:in `get_address_info&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/url_blocker.rb:48:in `validate!&amp;#39;&amp;#34;,&amp;#34;app/validators/addressable_url_validator.rb:83:in `validate_each&amp;#39;&amp;#34;,&amp;#34;app/models/badge.rb:43:in `build_rendered_url&amp;#39;&amp;#34;,&amp;#34;app/models/badge.rb:36:in `rendered_image_url&amp;#39;&amp;#34;,&amp;#34;app/models/badges/project_badge.rb:15:in `rendered_image_url&amp;#39;&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:93&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:89&amp;#34;,&amp;#34;app/views/projects/_home_panel.html.haml:87&amp;#34;,&amp;#34;app/views/projects/show.html.haml:14&amp;#34;,&amp;#34;app/controllers/application_controller.rb:128:in `render&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:538:in `block in allow_gitaly_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/gitaly_client.rb:341:in `allow_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:537:in `allow_gitaly_ref_name_caching&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:487:in `set_current_admin&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/session.rb:11:in `with_session&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:478:in `set_session_storage&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/i18n.rb:99:in `with_locale&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/i18n.rb:105:in `with_user_locale&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:472:in `set_locale&amp;#39;&amp;#34;,&amp;#34;app/controllers/application_controller.rb:466:in `set_current_context&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/elasticsearch_rack_middleware.rb:16:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/rails_queue_duration.rb:33:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/rack_middleware.rb:16:in `block in call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/web_transaction.rb:21:in `run&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/rack_middleware.rb:16:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/speedscope.rb:13:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/request_profiler/middleware.rb:17:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/jira/middleware.rb:19:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/go.rb:20:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/etag_caching/middleware.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/multipart.rb:172:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/read_only/controller.rb:50:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/read_only.rb:18:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/same_site_cookies.rb:27:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/handle_malformed_strings.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/basic_health_check.rb:25:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/handle_ip_spoof_attack_error.rb:25:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/request_context.rb:21:in `call&amp;#39;&amp;#34;,&amp;#34;config/initializers/fix_local_cache_middleware.rb:11:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/rack_multipart_tempfile_factory.rb:19:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/metrics/requests_rack_middleware.rb:74:in `call&amp;#39;&amp;#34;,&amp;#34;lib/gitlab/middleware/release_env.rb:12:in `call&amp;#39;&amp;#34;],&amp;#34;db_duration_s&amp;#34;:0.23847,&amp;#34;view_duration_s&amp;#34;:0.0,&amp;#34;duration_s&amp;#34;:73.05203}
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;问题分析&#34;&gt;问题分析&lt;/h1&gt;
+&lt;p&gt;经过 claude 的分析，发现是 badge 加载失败导致的&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>解决 gitlab-runner 移除残留文件  permission denied</title>
+      <link>https://www.frytea.com/archives/1470/</link>
+      <pubDate>Tue, 15 Apr 2025 06:54:45 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1470/</guid>
+      <description>&lt;p&gt;最近使用遇到一些问题：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Running with gitlab-runner 17.10.0 (67b2b2db)
+  on wz-arm64-host-runner8 Q3NRHTCy, system ID: s_a7d2f872e9b4
+Preparing the &amp;#34;shell&amp;#34; executor 00:00
+Using Shell (bash) executor...
+Preparing environment 00:00
+Running on xxx-runner8...
+Getting source from Git repository 00:01
+Fetching changes with git depth set to 50...
+重新初始化已存在的 Git 仓库于 /home/gitlab-runner/builds/Q3NRHTCy/0/cloud/xxx-top/.git/
+Checking out 2356a4c2 as detached HEAD (ref is release/2.6)...
+warning: 删除 xxx/xxx/xxx/xxx/xxx-1.0/Makefile 失败: 权限不够
+Cleaning up project directory and file based variables 00:00
+ERROR: Job failed: exit status 1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最后发现是某一级路径的所有者被改变为 &lt;code&gt;root&lt;/code&gt; 导致无法删除，造成该现象的原因未知。通过查阅资料和文档，在 gitlab-runner 的配置文件增加一行 &lt;code&gt;pre_get_sources_script&lt;/code&gt; 解决：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitLab 神奇问题之ssl</title>
       <link>https://www.frytea.com/archives/311/</link>
-      <pubDate>Fri, 07 Feb 2020 02:12:01 +0000</pubDate>
-      
+      <pubDate>Thu, 06 Feb 2020 18:12:01 +0000</pubDate>
       <guid>https://www.frytea.com/archives/311/</guid>
-      <description>今天配置 GitLab 时为 GitLab Pages 配置 SSL 总是有问题，大概表现为： 不开启 ssl 就无法让 gitlab pages 实现 https 访问 开启 ssl 后可能无法访问 对设置变更后可能需要重新部署 pages 经过长时间的</description>
+      <description>&lt;p&gt;今天配置 GitLab 时为 GitLab Pages 配置 SSL 总是有问题，大概表现为：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不开启 ssl 就无法让 gitlab pages 实现 https 访问&lt;/li&gt;
+&lt;li&gt;开启 ssl 后可能无法访问&lt;/li&gt;
+&lt;li&gt;对设置变更后可能需要重新部署 pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;经过长时间的摸索，发现 gitlab pages 的配置有三级：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>迁移 GitLab 小记</title>
       <link>https://www.frytea.com/archives/310/</link>
-      <pubDate>Thu, 06 Feb 2020 19:30:00 +0000</pubDate>
-      
+      <pubDate>Thu, 06 Feb 2020 11:30:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/310/</guid>
-      <description>由于服务器到期等因素，需要对 GitLab 进行迁移，在此记下一段历程。 首先要保证迁入和迁出 GitLab 的版本是一致的，使用这一条指令： cat /opt/gitlab/embedded/service/gitlab-rails/VERSION 我的两个服务器输出分别是</description>
+      <description>&lt;p&gt;由于服务器到期等因素，需要对 GitLab 进行迁移，在此记下一段历程。&lt;/p&gt;
+&lt;p&gt;首先要保证迁入和迁出 GitLab 的版本是一致的，使用这一条指令：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我的两个服务器输出分别是：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 迁入服务器
+$ cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
+12.7.5-ee
+# 迁出服务器
+$ cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
+12.5.2-ee
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;升级-gitlab&#34;&gt;升级 GitLab&lt;/h2&gt;
+&lt;p&gt;因此需要对服务器进行升级。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>版本控制及代码托管平台综述</title>
       <link>https://www.frytea.com/archives/297/</link>
-      <pubDate>Mon, 20 Jan 2020 00:50:00 +0000</pubDate>
-      
+      <pubDate>Sun, 19 Jan 2020 16:50:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/297/</guid>
-      <description>版本控制是协助软件开发的重要工具之一，根据维基百科中“版本控制”词条的描述，版本控制（英语：Version control）是维护工程蓝图的标</description>
+      <description>&lt;p&gt;版本控制是协助软件开发的重要工具之一，根据维基百科中“版本控制”词条的描述，版本控制（英语：Version control）是维护工程蓝图的标准作法，能追踪工程蓝图从诞生一直到定案的过程。此外，版本控制也是一种软件工程技巧，借此能在软件开发的过程中，确保由不同人所编辑的同一程序文件都得到同步。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【GitLab CI/CD】记一个脑残问题  `too large archive`</title>
       <link>https://www.frytea.com/archives/271/</link>
-      <pubDate>Sun, 01 Dec 2019 00:01:00 +0000</pubDate>
-      
+      <pubDate>Sat, 30 Nov 2019 16:01:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/271/</guid>
-      <description>昨天到今天，我终于解决了一个脑残的问题！！ 事情是这样子的，我自己搭建了 GitLab ，并导入了我在 GitHub 所有的仓库，并打算未来就在这里提交我的代码了。一方面</description>
+      <description>&lt;p&gt;昨天到今天，我终于解决了一个脑残的问题！！&lt;/p&gt;
+&lt;p&gt;事情是这样子的，我自己搭建了 GitLab ，并导入了我在 GitHub 所有的仓库，并打算未来就在这里提交我的代码了。一方面是因为 GitHub 实在是太慢了，目前使用 iPad 代理切换不智能；另一方面是我想要搭建自己的一套 Git Hosting + CI/CD 系统。搭建过程很顺利、导入过程也十分顺利，但是到了 CI/CD 这里就出了问题，我想要通过 GitLab Runner 编译我的 MKDocs 页面并自动部署到 GitLab Pages，但我被一个错误坑了整整两天：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
       <link>https://www.frytea.com/archives/266/</link>
-      <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Nov 2019 08:20:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/266/</guid>
-      <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
+      <description>&lt;p&gt;GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 WikiPedia）。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

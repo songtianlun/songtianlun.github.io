@@ -5,20 +5,403 @@
     <link>https://www.frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/</link>
     <description>Recent content in 好文转载 on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 08 Dec 2022 18:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 05:55:33 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>优秀的 SubReddit 清单</title>
+      <link>https://www.frytea.com/archives/1523/</link>
+      <pubDate>Sun, 28 Sep 2025 15:43:43 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1523/</guid>
+      <description>&lt;h1 id=&#34;subreddit-清单&#34;&gt;SubReddit 清单&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SaaS 类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/B2BSaaS（B2B SaaS 人群集中，~8k 成员）&lt;/li&gt;
+&lt;li&gt;r/NoCodeSaaS（无代码 SaaS，~22k 成员）&lt;/li&gt;
+&lt;li&gt;r/micro_saas（微型 SaaS，~10k 成员）&lt;/li&gt;
+&lt;li&gt;r/indiebiz（小体量&amp;amp;个人生意，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/SaaS（讨论/反馈/支持，~95k 成员）&lt;/li&gt;
+&lt;li&gt;r/startup_resources（工具/模版/手册，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/LaunchMyStartup（早期发布与反馈，~2k 成员）&lt;/li&gt;
+&lt;li&gt;r/ProductHunters（PH 发现与讨论，~23k 成员）&lt;/li&gt;
+&lt;li&gt;r/saasapps（平台/生态应用，成员数小）&lt;/li&gt;
+&lt;li&gt;r/BootstrappedSaaS（自筹/自启动，~935 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;创业类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/startups（最大创业社区，~1.2M 成员）&lt;/li&gt;
+&lt;li&gt;r/SideProject（副业/项目展示，~478k 成员）&lt;/li&gt;
+&lt;li&gt;r/indiehackers（独立开发者，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/EntrepreneurRideAlong（创业旅程分享，~517k 成员）&lt;/li&gt;
+&lt;li&gt;r/thesidehustle（点子与建议，~79k 成员）&lt;/li&gt;
+&lt;li&gt;r/growmybusiness（增长与扩张，~51k 成员）&lt;/li&gt;
+&lt;li&gt;r/startup（创业创建与增长，~300k 成员）&lt;/li&gt;
+&lt;li&gt;r/startups_promotion（集中自荐区，~3.1k 成员）&lt;/li&gt;
+&lt;li&gt;r/roastmystartup（犀利真反馈，成员数小）&lt;/li&gt;
+&lt;li&gt;r/sweatystartup（轻松创业讨论，成员数小）&lt;/li&gt;
+&lt;li&gt;r/SmallBusiness（日常经营与建议，成员数大）&lt;/li&gt;
+&lt;li&gt;r/Entrepreneur（泛创业与商业，成员数大）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;营销类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/SaaSMarketing（从策略到落地，~11k 成员）&lt;/li&gt;
+&lt;li&gt;r/ProductMarketing（定位/叙事/布，~18k 成员）&lt;/li&gt;
+&lt;li&gt;r/MarketingHelp（众包建议与诊断，~16k 成员）&lt;/li&gt;
+&lt;li&gt;r/ecommerce_growth（电商增长（可迁移），~9k 成员）&lt;/li&gt;
+&lt;li&gt;r/email（送达率/MarTech，~11k 成员）&lt;/li&gt;
+&lt;li&gt;r/EmailOutreach（冷邮件技巧，~1k 成员）&lt;/li&gt;
+&lt;li&gt;r/AskGrowth（增长问答，数百成员）&lt;/li&gt;
+&lt;li&gt;r/Marketing（综合营销，成员数大）&lt;/li&gt;
+&lt;li&gt;r/AskMarketing（营销问答，成员数中）&lt;/li&gt;
+&lt;li&gt;r/SocialMedia（社媒策略，成员数大）&lt;/li&gt;
+&lt;li&gt;r/CopyWriting（文案/转化，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Advertising（投放策略，成员数中）&lt;/li&gt;
+&lt;li&gt;r/WebMarketing（SEO/内容，成员数大）&lt;/li&gt;
+&lt;li&gt;r/EmailMarketing（邮件营销，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Sales（销售与漏斗，成员数大）&lt;/li&gt;
+&lt;li&gt;r/PlugYourProduct（直推（先看规则），成员数小）&lt;/li&gt;
+&lt;li&gt;r/GrowthHacking（增长与病毒，成员数中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/NextGenAITool（AI 工具展示，~4k 成员）&lt;/li&gt;
+&lt;li&gt;r/webdev（Web 开发，~1.4M 成员）&lt;/li&gt;
+&lt;li&gt;r/JAMstack_dev（落地页与性能，~2k 成员）&lt;/li&gt;
+&lt;li&gt;r/pocketbase（快速后端，~3k 成员）&lt;/li&gt;
+&lt;li&gt;r/SQLServer（多租户/性能，~58k 成员）&lt;/li&gt;
+&lt;li&gt;r/lowcode（流程自动化，~3k 成员）&lt;/li&gt;
+&lt;li&gt;r/DesignCritiques（设计求评，~85k 成员）&lt;/li&gt;
+&lt;li&gt;r/InternetIsBeautiful（创意展示，~16.2M 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/TestMyApp（早期用户与反馈，~6k 成员）&lt;/li&gt;
+&lt;li&gt;r/AlphaandBetausers（寻找测试者，~10k 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支付类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/stripe（订阅/计费，~19k 成员）&lt;/li&gt;
+&lt;li&gt;r/PaymentProcessing（网关/拒付，~5k 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运营类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/FPandA（预算/收入模型，~53k 成员）&lt;/li&gt;
+&lt;li&gt;r/CustomerService（流程与工具，~39k 成员）&lt;/li&gt;
+&lt;li&gt;r/CustomerValue（价值定价/CS 对齐，成员数小）&lt;/li&gt;
+&lt;li&gt;r/CustomerSuccessHub（CS 社区，成员数小）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;融资类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/VentureCapital（基金/募资洞见，成员数大）&lt;/li&gt;
+&lt;li&gt;r/Crowdfunding（众筹策略，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Kickstarter（众筹项目，成员数大）&lt;/li&gt;
+&lt;li&gt;r/startupinvesting（早期投资，~1k 成员）&lt;/li&gt;
+&lt;li&gt;r/SaaSidea（点子分享，成员数小）&lt;/li&gt;
+&lt;li&gt;r/AISaaSHunter（AI SaaS 展示，成员数小）&lt;/li&gt;
+&lt;li&gt;r/LLMO_SaaS（LLM SEO 分发，数百成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Reddit增长地图&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/09/28/12pi66d.webp&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>云部署平台全面对比：Railway vs Render vs 其他主流方案（2025年版）</title>
+      <link>https://www.frytea.com/archives/1522/</link>
+      <pubDate>Fri, 19 Sep 2025 17:08:57 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1522/</guid>
+      <description>&lt;p&gt;随着 Heroku 免费套餐的终止，开发者们纷纷寻找新的云部署解决方案。本文将深入对比 Railway、Render 以及其他主流平台，帮你选择最适合项目需求的部署方案。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>地图标记和兴趣点分享软件合集</title>
+      <link>https://www.frytea.com/archives/1517/</link>
+      <pubDate>Mon, 01 Sep 2025 03:19:33 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1517/</guid>
+      <description>&lt;p&gt;从学 GIS 开始，就一直想做/找一个地图兴趣点标记、分享软件。之前也做过，但是苦于时间、运维成本太高，就只能放在那里了。直到最近发现自己总是会碰到这种，需要标记和分享兴趣点的需求。特别是多点规划、形成规划的时候，有一个这样的软件比直接看地图要方便太多。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>快速感受编程乐趣的编程语言推荐</title>
+      <link>https://www.frytea.com/archives/1513/</link>
+      <pubDate>Mon, 18 Aug 2025 14:16:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1513/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;快速看到效果对于感受编程乐趣非常重要，最近看完《计算机是怎样运行的》，推荐想要快速看到效果可以使用 VB。我认为这非常重要，现在编程语言非常多，但是能够稳定复现可以看到效果的，VB这样的方案是很少见的。如果没有可以运行 VB 的环境，可以尝试 &lt;code&gt;PyQt&lt;/code&gt; 来查看效果。下面用 Claude4 生成了一篇文章，给大家做参考。如果想要快速体验到编程的乐趣，可以看一看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rclone WebUI 选择指南：全面对比各种图形界面方案</title>
+      <link>https://www.frytea.com/archives/1511/</link>
+      <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1511/</guid>
+      <description>&lt;p&gt;Rclone 作为强大的云存储同步工具，虽然命令行功能丰富，但对于普通用户来说学习曲线较陡。为了解决这个问题，社区开发了多种图形界面方案。本文将详细对比各种 Rclone WebUI 选择，帮助您找到最适合的解决方案。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>开源自托管数据备份解决方案全面对比</title>
+      <link>https://www.frytea.com/archives/1510/</link>
+      <pubDate>Fri, 08 Aug 2025 06:42:43 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1510/</guid>
+      <description>&lt;p&gt;在数据日益重要的今天，选择一个合适的备份解决方案至关重要。本文将对比介绍六个优秀的开源自托管数据备份方案，帮助您根据实际需求做出最佳选择。&lt;/p&gt;
+&lt;h2 id=&#34;方案概述&#34;&gt;方案概述&lt;/h2&gt;
+&lt;h3 id=&#34;1-duplicati---全能型备份工具&#34;&gt;1. Duplicati - 全能型备份工具&lt;/h3&gt;
+&lt;p&gt;Duplicati 是一个功能完善的备份解决方案，以其友好的用户界面和广泛的存储支持而闻名。它采用客户端-服务器架构，提供了直观的 Web 管理界面，特别适合需要定期备份到多种云存储的用户。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>独立开发者云平台技术选型深度对比：Vercel vs Cloudflare vs Supabase</title>
+      <link>https://www.frytea.com/archives/1503/</link>
+      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1503/</guid>
+      <description>&lt;p&gt;在 2024-2025 年的云原生时代，独立开发者面临着前所未有的平台选择挑战。&lt;strong&gt;Vercel + Supabase 组合可降低 60% 开发时间，Cloudflare Workers 方案能节省 70% 运营成本，而技术选型错误可能导致月度支出增加 10 倍&lt;/strong&gt;。本文基于最新官方文档和实际测试数据，为构建 SaaS 应用和工具类应用的独立开发者提供全面的技术选型指南。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>边缘计算平台对比：Vercel vs Cloudflare Workers</title>
+      <link>https://www.frytea.com/archives/1500/</link>
+      <pubDate>Mon, 28 Jul 2025 15:10:47 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1500/</guid>
+      <description>&lt;h1 id=&#34;边缘计算平台对比vercel-vs-cloudflare-workers-及其他选择&#34;&gt;边缘计算平台对比：Vercel vs Cloudflare Workers 及其他选择&lt;/h1&gt;
+&lt;p&gt;在现代 Web 开发中，边缘计算平台已经成为提升应用性能和用户体验的关键技术。本文将深入对比几个主流的边缘计算和部署平台，特别关注它们对 Next.js SSR 的支持以及价格结构。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>媒体服务器对比：Emby vs Plex vs Jellyfin</title>
+      <link>https://www.frytea.com/archives/1499/</link>
+      <pubDate>Sun, 27 Jul 2025 14:45:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1499/</guid>
+      <description>&lt;p&gt;在数字化时代，拥有一个强大的媒体服务器来管理和流式传输您的个人媒体收藏变得越来越重要。本文将深入对比三个主流的媒体服务器解决方案：Emby、Plex 和 Jellyfin，帮助您选择最适合需求的方案。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kiro or Cursor? AI IDE工具全面对比：选择最适合的智能编程助手</title>
+      <link>https://www.frytea.com/archives/1497/</link>
+      <pubDate>Sun, 20 Jul 2025 10:17:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1497/</guid>
+      <description>&lt;p&gt;随着人工智能技术的快速发展，AI驱动的集成开发环境（IDE）正在重塑软件开发的格局。开发者现在面临众多选择，每个工具都有其独特的优势和特色。本文将深入对比四个主流的AI IDE工具：Cursor、Amazon Kiro、Claude Code和Augment Code，帮助开发者做出明智的选择。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转] 编程十年的感悟</title>
+      <link>https://www.frytea.com/archives/1415/</link>
+      <pubDate>Fri, 27 Dec 2024 10:29:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1415/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;马尔科姆·格拉德威尔的“一万小时定律”指出，持续投入一万小时的努力，足以使人在某个领域达到专家水平。
+按照每周20小时的练习量计算，每天大约需要投入3小时，十年左右才能达成这一目标。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025年Gartner十大战略性技术趋势</title>
+      <link>https://www.frytea.com/archives/1414/</link>
+      <pubDate>Mon, 23 Dec 2024 16:17:44 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1414/</guid>
+      <description>&lt;p&gt;Gartner研究副总裁&lt;a href=&#34;https://www.gartner.com/cn/experts/arnold-gao&#34;&gt;高挺（Arnold Gao）&lt;/a&gt;表示：“今年的重要战略技术趋势涵盖了AI的必要事项和风险，以及计算技术和人机协同等前沿趋势。追踪这些趋势将帮助IT领导者以负责任、和合乎道德的创新方式塑造企业机构的未来。”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024年Gartner十大战略性技术趋势</title>
+      <link>https://www.frytea.com/archives/1413/</link>
+      <pubDate>Mon, 23 Dec 2024 16:02:46 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1413/</guid>
+      <description>&lt;h2 id=&#34;这些战略性技术趋势将在未来三年深刻影响企业的商业和技术决策&#34;&gt;这些战略性技术趋势将在未来三年深刻影响企业的商业和技术决策&lt;/h2&gt;
+&lt;p&gt;Gartner建议企业评估每个技术趋势的影响和收益,明确哪些创新技术或组合将对企业的成功产生最显著影响。&lt;/p&gt;
+&lt;h2 id=&#34;十大技术&#34;&gt;十大技术&lt;/h2&gt;
+&lt;h3 id=&#34;1-ai信任风险和安全管理ai-trismai-trust-risk-and-security-management&#34;&gt;1. AI信任、风险和安全管理(AI TRiSM)(AI Trust, Risk and Security Management)&lt;/h3&gt;
+&lt;p&gt;AI Trism 指“AI Trust，Risk，Security Management”，是一组关于AI信任、风险、安全管理的架构性趋势，比较简单的说法是“AI治理”。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>深度解析根技术、根产业及发展格局</title>
+      <link>https://www.frytea.com/archives/1404/</link>
+      <pubDate>Thu, 19 Dec 2024 10:20:07 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1404/</guid>
+      <description>&lt;p&gt;根技术是指那些能够催生和支撑一系列衍生技术的基础性技术,它们在科技发展中起着关键的作用。了解根技术的基本概念对于把握技术发展趋势和方向具有重要意义。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Z-Library 官方地址入口</title>
+      <link>https://www.frytea.com/archives/1384/</link>
+      <pubDate>Sun, 01 Dec 2024 06:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1384/</guid>
+      <description>&lt;p&gt;官方路径：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Z-Library&#34;&gt;https://en.wikipedia.org/wiki/Z-Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最新入口（2024-12-01更新）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://z-library.sk&#34;&gt;z-library.sk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-to-library.sk&#34;&gt;go-to-library.sk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;References: t.me/Zlibraryorg&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>煮雪 - 林清玄</title>
+      <link>https://www.frytea.com/archives/1328/</link>
+      <pubDate>Thu, 31 Oct 2024 12:46:28 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1328/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;内容转自百度词条 &lt;a href=&#34;https://baike.baidu.com/item/%E7%85%AE%E9%9B%AA/20382942&#34;&gt;煮雪&lt;/a&gt;，侵删，以下为原文。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;煮雪&#34;&gt;煮雪&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;林清玄&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;传说在北极的人因为天寒地冻，一开口说话就结成冰雪，对方听不见，只好回家慢慢地烤来听&amp;hellip; &amp;hellip;&lt;/p&gt;
+&lt;p&gt;这是个极度浪漫的传说，想是多情的南方人编出来的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转]名侦探柯南TV主线集数整理（截止1165集）</title>
+      <link>https://www.frytea.com/archives/1329/</link>
+      <pubDate>Thu, 31 Oct 2024 12:46:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1329/</guid>
+      <description>&lt;p&gt;名侦探柯南四条主线可大致分为 ：工藤新一的名侦探之路，世良姐妹一家9口人的搬迁之旅，警校五人组的牺牲故事，黑衣组织的秘密计划及红方的卧底行动&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/09/klz04d.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;主线&#34;&gt;主线&lt;/h2&gt;
+&lt;p&gt;第1集（或剧场版变小的名侦探），琴酒和伏特加在游乐园给工藤新一灌下药物变小。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转译] 深思熟虑的编程练习</title>
+      <link>https://www.frytea.com/archives/1300/</link>
+      <pubDate>Tue, 01 Oct 2024 10:04:59 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1300/</guid>
+      <description>&lt;p&gt;马尔科姆·格拉德威尔曾著名地宣称，掌握一门技艺需要 10,000 小时的深思熟虑的练习，彼得·诺维格在他的文章 &lt;a href=&#34;http://norvig.com/21-days.html&#34;&gt;Teach Yourself Programming In Ten Years&lt;/a&gt; 中引用了这一发现。程序员在工作 5.2 年，每天 8 小时，每年 48 周后将获得 10,000 小时的办公室时间。这并不意味着程序员在 5 或 6 年后就会成为专家，因为这 10,000 小时的办公室时间并不全是深思熟虑的练习。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转译] CheatGPT</title>
+      <link>https://www.frytea.com/archives/1301/</link>
+      <pubDate>Tue, 01 Oct 2024 10:04:49 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1301/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文为计算机科学教授大卫·汉弗莱 （David Humphrey） 撰写的关于 ChatGPT 及其对核心学习的潜在负面影响的文章。这是一本关于在教育环境中使用生成式 AI 的陷阱的好书。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转译] 别相信任何告诉你编程很简单的人</title>
+      <link>https://www.frytea.com/archives/1299/</link>
+      <pubDate>Fri, 27 Sep 2024 16:38:03 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1299/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/&#34;&gt;原文发布于&lt;/a&gt; 太平洋夏令时间下午 6:00 • 2014年5月24日&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;告诉刚开始学习编程的人编程很简单，这是我见过最危险的事情之一。&lt;/p&gt;
+&lt;p&gt;这是你的大脑做的反应：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;rage-programming2&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/09/25/jwh7qx.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我的画作。（我编程比画画好。）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转译] 如何增加休息时间来提升你的工作效率</title>
+      <link>https://www.frytea.com/archives/1302/</link>
+      <pubDate>Thu, 26 Sep 2024 14:57:59 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1302/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;原文作者：&lt;a href=&#34;https://simpleprogrammer.com/author/sgaston/&#34; title=&#34;Saeed Gatson&#34;&gt;Saeed Gatson&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;软件开发者生活在一个有趣的悖论中。一方面，我们很懒。这就是为什么我们喜欢自动化那些无聊的重复任务，比如运行单元测试或部署新环境。与此同时，开发者常常因记录大量工作时间而受到赞扬。典型的咖啡因驱动的通宵达旦工作场景屡见不鲜。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转译] 如何成为一个好的开发者？</title>
+      <link>https://www.frytea.com/archives/1298/</link>
+      <pubDate>Thu, 26 Sep 2024 14:57:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1298/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/&#34;&gt;原文&lt;/a&gt; 发表于2013年5月10日星期五&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这应该是一个能吸引注意力的好标题。我最近一直在思考这个问题。在 &lt;a href=&#34;http://www.hmbnet.com/&#34;&gt;HMB&lt;/a&gt; 参与招聘过程的一部分是思考人们是谁，他们在我们为他们考虑的角色中表现如何，以及他们是否会对此感到快乐。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从 Windows 迭代看为什么要用 Linux </title>
+      <link>https://www.frytea.com/archives/714/</link>
+      <pubDate>Sat, 24 Dec 2022 02:59:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/714/</guid>
+      <description>&lt;p&gt;Windows 的待机问题、兼容问题，已经总是被人诟病的“监控”问题，促使我不断探索除 Windows 的操作系统，最近已经将 Linux Mint 作为自己工作的主要系统。&lt;/p&gt;
+&lt;p&gt;至于 Windows 的问题，下面这张图个人认为总结的很好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[转] 疫情开放后的一次医患对话</title>
+      <link>https://www.frytea.com/archives/707/</link>
+      <pubDate>Sun, 18 Dec 2022 01:30:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/707/</guid>
+      <description>&lt;p&gt;患者：医生，我想做抗原
+医生：你哪不舒服？
+患者：没有不舒服
+医生：那为什么要做抗原呢？
+患者：我想知道我得没得新冠
+医生：抗原有假阳性、假阴性，做了也确定不了呀！也就是说两道杠也不一定100％就是阳性，一道杠也不一定100％就是阴性。
+患者：那怎么办呢？
+医生：做核酸
+患者：多少钱
+医生：16元
+患者：做了要是阳了，我该怎么办呢？
+医生：没症状就不用吃药，多喝白开水；轻微症状也可不吃药，多喝白开水，注意休息，出门戴好口罩就行;症状明显的对症治疗，和治疗感冒一样。
+患者：做了如果是阴，我得怎么办？
+医生：阴性，出门戴好口罩，做好个人防护就行。
+患者：医生我没任何症状，那我需要做核酸不需要？
+医生：如果阳了，你害怕不害怕？
+患者：当然害怕了，我会吃不下饭的，想想晚上睡觉也睡不好
+医生：那你做什么？花16元买了害怕，买个睡不着觉吗？
+患者：那不做行不？
+医生：没人非得让你做，坐飞机、高铁，去景区等等都不需要核酸证明了，去国外更没人要了，那你做啥？
+患者：那我不做了，天天带好口罩就行。
+医生：是的，阳也好，阴也好，都是对症治疗，无症状就不用服药，不用治疗。你为何非得弄清自己是阴是阳呢？
+患者：医生，那我买点什么药放家里备着呢？
+医生：到处都是药店、诊所，不用备药，有症状可以随时买！90％都是无症状，不用吃药。即使你得住了，你不吃药的概率是90％，你又何必花钱买药呢？药也有保质期，用不上再放过期，何况是药三分毒，能不吃药最好不吃。
+患者：这下我算彻底明白了，做核酸、查抗原我是花钱找不自在，没病买药囤药是有钱没处花了，谢谢您医生！
+医生：唉！现在的很多人也不知道是精明，也不知道是愚味！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[今日一梗] 体验一下用语言让人窒息的感觉</title>
+      <link>https://www.frytea.com/archives/691/</link>
+      <pubDate>Fri, 16 Dec 2022 05:04:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/691/</guid>
+      <description>&lt;h2 id=&#34;一个听不懂基础对话逻辑的酒店前台&#34;&gt;一个听不懂基础对话逻辑的酒店前台&lt;/h2&gt;
+&lt;p&gt;她告诉我们：酒店前台不负责收快递，你们的快递别丢在这里，外边就有菜鸟驿站。不然快递丢了我们负不起责任。
+我们：好的，我们知道了。
+快递：我给你们放到酒店前台了，记得去拿一下。
+我：酒店前台不是不收快递吗？你别放那里，放驿站吧。
+快递：可我已经放了，都走远了，你们去拿一下吧，谢谢啊。
+（挂）
+我去拿快递。
+酒店前台：跟你们说了很多次了，前台不收快递！怎么还放在这？
+我：我知道，不是我放的，是快递员硬要放在这的，他人已经走远了，对不住啊。
+（一般事情到这就结束了对吧？）
+酒店前台：可是我们前台不收快递，你放在这是不合规矩的。
+我：？？？是快递员放在这的，我说了他不听。
+前台：再跟你说一遍，我们酒店前台不收快递。
+（周围人看过来了）
+我：我再说一遍，是快递员自己放在这的，不是我要求他放的。
+前台：可我们酒店前台没有收快递这个责任，要是东西丢了，我们不负责任。
+我：？？？？？？？？？我知道啊，不是我放的啊。
+前台：知道你还把快递放在这？丢了我们不管。
+我（彻底被惹毛了）：我他妈问你一遍，‘是快递员放的不是我放的’这几个字是有什么超出你母亲给予的畸形小脑所不能理解的词汇量吗？
+前台：麻烦你态度好一点，我们酒店前台本来就不能放快递，这是规定。
+我：还在快递&amp;hellip;&amp;hellip;——大堂经理的电话是多少？忍不了了。
+前台：经理不在。
+我：购物小程序有他的电话，还有总经理的电话。
+前台：？？？
+不知道是哪个经理过来的，反正是个穿西装，经典酒店盘头带工牌的，一来就给我们道歉，说对员工的培训不到位。
+我就当场给前台写了一张逻辑思维导图————从对话逻辑开始，来梳理到底是谁没听懂。
+结果前台看完思维导图，直接开启阿巴阿巴模式（不是我恶意玩梗，是那个前台真的开始阿巴阿巴了。）
+然后前台委屈地说：本来我们这里就不收快递，我只是提醒他们别忘了。
+结果大堂经理比我更会看盲点：“既然你这么严格执行规定，那怎么会客人的快递会出现在前台呢？”
+前台：？？？？？？？（阿巴阿巴模式又开启了）
+她同事赶紧解释：是那个快递员擅自放进来的，应该去问保安啊！
+大堂经理：“既然你亲眼看到了是快递员放的，为什么却要一而再再而三地逼迫客人不要把快递放在这？是客人放的吗？不是对吧？”
+然后还是那个前台：“那保安他怎么放人&amp;hellip;.。”
+大堂经理一下就怒了（本来该我发火的，但我没想到经理冒火了）：“是自己的问题就说自己的问题，不要扯到别人身上去！保安？你怎么不去怪酒店大门？如果是客人不知道，或者客人自己硬要放东西在我们这，我们就说清楚，丢失概不负责！但客人没有这样做，我们的重点是：客人并没有这样做，你却说他做了，明白吗？”
+最后我们得了赔偿的免费饮料跟水。
+——————至今我都不能理解那前台的杠精逻辑是怎样的，由于当时的经理已经在骂人了，我也没好意思问下去。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>转载一篇知乎上的文章：抖音是如何毁掉我们的？</title>
       <link>https://www.frytea.com/archives/675/</link>
-      <pubDate>Thu, 08 Dec 2022 18:36:00 +0000</pubDate>
-      
+      <pubDate>Thu, 08 Dec 2022 10:36:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/675/</guid>
-      <description>写在前面： 这篇文中，抖音只是一个具象化代表， 我想讲的是以抖音为代表的一众以算法为内核的娱乐化 APP。 每个时代都会有一些淘汰机制，而现在的时代</description>
+      <description>&lt;p&gt;写在前面：&lt;/p&gt;
+&lt;p&gt;这篇文中，抖音只是一个具象化代表，&lt;/p&gt;
+&lt;p&gt;我想讲的是以抖音为代表的一众以算法为内核的娱乐化 APP。&lt;/p&gt;
+&lt;p&gt;每个时代都会有一些淘汰机制，而现在的时代，会根据自制力和信息筛选能力对人进行淘汰。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

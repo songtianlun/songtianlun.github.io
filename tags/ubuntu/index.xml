@@ -5,110 +5,95 @@
     <link>https://www.frytea.com/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 May 2023 00:06:25 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 09:55:40 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 自签名 CA 证书安装方法</title>
+      <link>https://www.frytea.com/archives/1495/</link>
+      <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1495/</guid>
+      <description>&lt;p&gt;在 Linux 中运行 docker, containerd, helm 等应用时需要信任自签署证书保护的内部仓库服务，此时需要注入自签名 CA 证书，以 Ubunut 为例。在 Ubuntu 系统中，CA 证书信任主要存储在以下目录：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 22.04设置DNS</title>
+      <link>https://www.frytea.com/archives/1365/</link>
+      <pubDate>Thu, 28 Nov 2024 10:11:14 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1365/</guid>
+      <description>&lt;p&gt;DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。&lt;/p&gt;
+&lt;p&gt;您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu 安装指定版本 docker</title>
       <link>https://www.frytea.com/archives/789/</link>
-      <pubDate>Mon, 01 May 2023 00:06:25 +0000</pubDate>
-      
+      <pubDate>Sun, 30 Apr 2023 16:06:25 +0000</pubDate>
       <guid>https://www.frytea.com/archives/789/</guid>
-      <description>如果你过去安装过 docker，先删掉： sudo apt-get remove docker docker-engine docker.io containerd runc 首先安装依赖： sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common 信任 Docker 的 GPG 公钥并添加仓库： 发行版 sudo mkdir -m 0755 -p /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg</description>
+      <description>&lt;p&gt;如果你过去安装过 docker，先删掉：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get remove docker docker-engine docker.io containerd runc
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;首先安装依赖：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;信任 Docker 的 GPG 公钥并添加仓库：
+发行版&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo mkdir -m 0755 -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://mirror.nju.edu.cn/docker-ce/linux/ubuntu \
+  $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装最新&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>debian/ubuntu 防火墙 ufw 简单使用</title>
-      <link>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
-      <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/others/debian_ubuntu-%E9%98%B2%E7%81%AB%E5%A2%99-ufw-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
-      <description>debian/ubuntu 防火墙 ufw 简单使用 什么是 UFW ？ UFW，即简单防火墙 Uncomplicated FireWall，是一个管理防火墙规则的前端，大部分 Linux 系统都可以使用。它的目的就是为了使防</description>
-    </item>
-    
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
       <link>https://www.frytea.com/archives/613/</link>
-      <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
-      
+      <pubDate>Thu, 30 Dec 2021 01:31:05 +0000</pubDate>
       <guid>https://www.frytea.com/archives/613/</guid>
-      <description>GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。 安装及汉化 首先在 GitKraken 官网下载安装包： GitKraken 官</description>
+      <description>&lt;p&gt;GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。&lt;/p&gt;
+&lt;h2 id=&#34;安装及汉化&#34;&gt;安装及汉化&lt;/h2&gt;
+&lt;p&gt;首先在 GitKraken 官网下载安装包：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitKraken 官网： &lt;a href=&#34;https://www.gitkraken.com/&#34;&gt;https://www.gitkraken.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果是 debian 系操系统可下载其中的 deb 版本，之后安装即可。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</link>
-      <pubDate>Fri, 05 Nov 2021 01:11:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/solve-error-of-gtk-warning-cannot-open-display/</guid>
-      <description>解决无法打开远程服务器 virt-manager 等图形窗口软件的方法.</description>
-    </item>
-    
-    <item>
-      <title>配置 Ubuntu 软件包管理 apt 的国内镜像源（Debian 系通用）</title>
-      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</link>
-      <pubDate>Fri, 05 Nov 2021 00:46:42 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-apt-china-mirror/</guid>
-      <description>Ubuntu 软件包管理采用国内镜像源的配置方法.</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 20.04 修改网卡配置</title>
-      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</link>
-      <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-20-04-network/</guid>
-      <description>Ubuntu 新版网络配置方法.</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu 16.04 网卡配置方法</title>
-      <link>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</link>
-      <pubDate>Fri, 05 Nov 2021 00:30:54 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/ubuntu/ubuntu-16-04-network/</guid>
-      <description>Ubuntu 旧版网卡配置方法.</description>
-    </item>
-    
     <item>
       <title>deb 软件包里都有什么</title>
       <link>https://www.frytea.com/archives/591/</link>
-      <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Oct 2021 03:32:28 +0000</pubDate>
       <guid>https://www.frytea.com/archives/591/</guid>
-      <description>日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb</description>
+      <description>&lt;p&gt;日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb 软件包中究竟有那些内容呢？&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
       <link>https://www.frytea.com/archives/267/</link>
-      <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Nov 2019 08:35:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/267/</guid>
-      <description>DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。 在内网中又</description>
+      <description>&lt;p&gt;DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。&lt;/p&gt;
+&lt;p&gt;在内网中又一台服务器提供服务，为了使用使其可以在公共网络中访问到需要为它分配 ip 或者使用端口转发、内网穿透等，但绑定域名后域名解析到公网ip，如果在内网访问的话就写多此一举。因此在内网自建一台 DNS 服务器，使其优先级高于公网域名解析服务器，进而实现内网访问解析为内网 ip 且不影响外网访问的目的。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
       <link>https://www.frytea.com/archives/266/</link>
-      <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Nov 2019 08:20:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/266/</guid>
-      <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
+      <description>&lt;p&gt;GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 WikiPedia）。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
       <link>https://www.frytea.com/archives/265/</link>
-      <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
-      
+      <pubDate>Wed, 27 Nov 2019 02:34:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/265/</guid>
-      <description>自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我： 完整、好用的客户端，</description>
+      <description>&lt;p&gt;自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完整、好用的客户端，包括 windows、mac、android、ios &amp;hellip;&lt;/li&gt;
+&lt;li&gt;强大的插件扩展，如 Talk, Contacts, notes, Maps &amp;hellip;&lt;/li&gt;
+&lt;li&gt;完整的第三方扩展，支持 Amazie S3, OneDrive, DropBox, Google Drive, Ftp, WebDav &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上种种吸引了我进行了无数次的配置、尝试、探索。我在 &lt;code&gt;Centos, Debian, Ubuntu, Docker, Cpanel Virtual Hosting&lt;/code&gt; 上都尝试过配置 &lt;code&gt;Nextcloud&lt;/code&gt; , 但最终发现，还是官方首推的 &lt;code&gt;sudo snap install nextcloud&lt;/code&gt; 方式是最稳定的，此外的自建环境 (Linux + Nginx + Php + MySQL) 总是会出各种各样的兼容性、异常报错，而这些异常报错会在一些莫名其妙、意想不到的地方出现让人在一个莫名其妙的地方掉坑。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

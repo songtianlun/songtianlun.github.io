@@ -1,7 +1,201 @@
-<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>kubernetes | Frytea</title><meta name=keywords content><meta name=description content="原创，优质、有深度、有思考的文章分享。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/tags/kubernetes/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.c5e9b9a30a68c57670e00490fcbe42331248183e26454c2aabee667e9e16f616.css integrity="sha256-xem5owpoxXZw4ASQ/L5CMxJIGD4mRUwqq+5mfp4W9hY=" rel="preload stylesheet" as=style><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.85.0"><link rel=alternate type=application/rss+xml href=https://www.frytea.com/tags/kubernetes/index.xml><link rel=manifest href=/manifest.json><script type=text/javascript>function downloadJSAtOnload(){var a=document.createElement("script");a.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358",document.body.appendChild(a)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>var _paq=window._paq=window._paq||[];_paq.push(['trackPageView']),_paq.push(['enableLinkTracking']),function(){var b="//analytics.skybyte.me/",c,a,d;_paq.push(['setTrackerUrl',b+'matomo.php']),_paq.push(['setSiteId','4']),c=document,a=c.createElement('script'),d=c.getElementsByTagName('script')[0],a.async=!0,a.src=b+'matomo.js',d.parentNode.insertBefore(a,d)}()</script><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>const config={startOnLoad:!0,theme:'forest',themeVariables:{lineColor:"#fafafa"},flowchart:{useMaxWidth:!1,htmlLabels:!0}};mermaid.initialize(config),window.onload=()=>{window.mermaid.init(void 0,document.querySelectorAll('.language-mermaid'))}</script><script>var _hmt=_hmt||[];(function(){var a=document.createElement("script"),b;a.src="https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-XZM7RBGQSG',{anonymize_ip:!1})}</script><meta property="og:title" content="kubernetes"><meta property="og:description" content="原创，优质、有深度、有思考的文章分享。"><meta property="og:type" content="website"><meta property="og:url" content="https://www.frytea.com/tags/kubernetes/"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="Frytea"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="kubernetes"><meta name=twitter:description content="原创，优质、有深度、有思考的文章分享。"></head><body class="list list" id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
-<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/tags/>Tags</a></div><h1>kubernetes</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</h2></header><section class=entry-content><p>k3s自动完成 ssl 证书签发和续签方法，并使用 https 协议暴露服务方法介绍。...</p></section><footer class=entry-footer>March 8, 2022&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1060 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署" href=https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>公网部署 k3s 集群方法总结</h2></header><section class=entry-content><p>基于公网完成跨云厂商服务器 k3s 集群部署...</p></section><footer class=entry-footer>March 8, 2022&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1736 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to 公网部署 k3s 集群方法总结" href=https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Kubernetes Pod 配置文件(完整注释)</h2></header><section class=entry-content><p>汇集几乎全部 k8s 配置项注释，方便查阅和学习...</p></section><footer class=entry-footer>February 4, 2022&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1440 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Kubernetes Pod 配置文件(完整注释)" href=https://www.frytea.com/archives/k8s/kubernetes-all-yaml/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>kubernetes 核心技术概念</h2></header><section class=entry-content><p>汇集 k8s 核心概念，帮助理解...</p></section><footer class=entry-footer>February 4, 2022&nbsp;·&nbsp;8 分钟&nbsp;·&nbsp;3736 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to kubernetes 核心技术概念" href=https://www.frytea.com/archives/k8s/kubernetes-core-concept/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Kubernetes 系列文章概述</h2></header><section class=entry-content><p>Kubernetes系列文章概述...</p></section><footer class=entry-footer>February 4, 2022&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;322 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Kubernetes 系列文章概述" href=https://www.frytea.com/archives/k8s/kubernetes-abstract/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://www.frytea.com/tags/kubernetes/page/2/>下一页 »</a></nav></footer></main><footer class=footer><span>Copyright &copy; 2024 • <a href=https://www.frytea.com/>Frytea</a></span>
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Kubernetes | Frytea</title><meta name=keywords content><meta name=description content="原创，优质、有深度、有思考的文章分享。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/tags/kubernetes/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.05277dea5ecda4677c1c80258481c0391e879b5ac93ff418e8777b5b0c2cd4d5.css integrity="sha256-BSd96l7NpGd8HIAlhIHAOR6Hm1rJP/QY6Hd7Wwws1NU=" rel="preload stylesheet" as=style><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate type=application/rss+xml href=https://www.frytea.com/tags/kubernetes/index.xml><link rel=alternate hreflang=zh href=https://www.frytea.com/tags/kubernetes/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://www.frytea.com/tags/kubernetes/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="Kubernetes"><meta property="og:description" content="原创，优质、有深度、有思考的文章分享。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="website"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Kubernetes"><meta name=twitter:description content="原创，优质、有深度、有思考的文章分享。"></head><body class="list list" id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/tags/>Tags</a></div><h1>Kubernetes</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>Kubernetes kubectl --raw 使用指南</h2></header><section class=entry-content><p><p>什么是 kubectl –raw? kubectl --raw 是一个强大的底层工具,允许你直接访问 Kubernetes API Server 的 REST API,绕过 kubectl 的客户端逻辑、准入控制器(Admission Controllers)和 Webhook。
+...</p></p></section><footer class=entry-footer>November 10, 2025&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1982 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Kubernetes kubectl --raw 使用指南" href=https://www.frytea.com/archives/1546/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>kubernetes 的挂载传播(mount propagation)机制</h2></header><section class=entry-content><p><p>以下内容转载自：kubernetes 的挂载传播(mount propagation)机制
+概述 今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。
+...</p></p></section><footer class=entry-footer>August 7, 2025&nbsp;·&nbsp;5 分钟&nbsp;·&nbsp;2075 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to kubernetes 的挂载传播(mount propagation)机制" href=https://www.frytea.com/archives/1506/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>AI提效之使用 cherry-studio + k8sgpt 实现 AI 巡检 k8s</h2></header><section class=entry-content><p><p>k8sgpt 能够赋予每个人的 Kubernetes 超能力，能够用简单的语言扫描 Kubernetes 集群、诊断和分类问题。利用 k8sgpt 的 mcp 服务，可以为 LLM 赋予访问 k8s 集群的可能性。
+工作原理图：
+sequenceDiagram
+actor U as User
+participant CS as Cherry Studio
+participant KG as k8sgpt
+participant K as K8s API Server
+U->>+CS: Add k8sgpt MCP server
+CS->>+KG: Check k8sgpt
+KG-->>-CS: k8sgpt is work
+CS-->>-U: Success to Add MCP
+U->>+CS: Ask some Question about K8s cluster
+CS->>+KG: Get someinfo throuth MCP
+KG->>+K: Get Cluster Info By API
+K-->>-KG: Return Cluster info
+KG-->>-CS: Return Info About K8s
+CS-->>CS: Handle Info
+CS-->>-U: Return Answer about K8s cluster 安装 k8sgpt 首先安装 k8sgpt 工具：
+...</p></p></section><footer class=entry-footer>July 29, 2025&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;818 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to AI提效之使用 cherry-studio + k8sgpt 实现 AI 巡检 k8s" href=https://www.frytea.com/archives/1502/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Octant - 以开发人员为中心的开源 Kubernetes Web 界面</h2></header><section class=entry-content><p><p>TL;DR Octant 是一个以开发人员为中心的开源 Kubernetes Web 界面，可让您检查 Kubernetes 集群及其应用程序，能够帮助开发人员更好理解 Kubernetes 集群复杂性的平台。在这里发现的。
+虽然 VMware 已结束该项目的积极开发 ，但看起来确实很好用，收藏备用。
+...</p></p></section><footer class=entry-footer>April 28, 2025&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;117 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Octant - 以开发人员为中心的开源 Kubernetes Web 界面" href=https://www.frytea.com/archives/1480/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>解决 Nginx Ingress returns 413 Entity Too Large</h2></header><section class=entry-content><p><p>TL;DR 配置 ingress 服务时调整一下大小即可：
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+name: cafe-ingress-with-annotations
+annotations:
+nginx.org/proxy-connect-timeout: "30s"
+nginx.org/proxy-read-timeout: "20s"
+nginx.org/client-max-body-size: "4m"
+nginx.org/server-snippets: |
+location / {
+return 302 /coffee;
+} spec:
+rules:
+- host: cafe.example.com
+http:
+paths:
+- path: /tea
+pathType: Prefix
+backend:
+service:
+name: tea-svc
+port:
+number: 80
+- path: /coffee
+pathType: Prefix
+backend:
+service:
+name: coffee-svc
+port:
+number: 80 References Nginx Ingress returns 413 Entity Too Large Advanced configuration with Annotations</p></p></section><footer class=entry-footer>April 21, 2025&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;82 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to 解决 Nginx Ingress returns 413 Entity Too Large" href=https://www.frytea.com/archives/1475/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>【转】k8s 认知路线</h2></header><section class=entry-content><p><p>From V 以下内容转载自 https://www.v2ex.com/t/968514#r_13557021
+k8s 这个东西真的内容太多了，没有啥系统性的资料，里面各种知识点真的没法说，太多了，最好的就是看官方文档，并且结合工作当中的实践慢慢积累，才能由浅入深，只是看文档想掌握深点，个人感觉很困难。
+...</p></p></section><footer class=entry-footer>April 21, 2025&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1041 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to 【转】k8s 认知路线" href=https://www.frytea.com/archives/1474/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>nginx-ingress 配置路由 302</h2></header><section class=entry-content><p><p>demo ingress 这个实例中，实现将 访问 https://image.frytea.com/Avatar.jpg 请求302到 https://image.frytea.com/i/Avatar.jpg
+apiVersion: networking.k8s.io/v1 kind: Ingress metadata: name: app namespace: imagehost annotations: cert-manager.io/cluster-issuer: "dnspod-cluster-issuer" nginx.ingress.kubernetes.io/configuration-snippet: | location = /Avatar.jpg { return 301 https://image.frytea.com/i/Avatar.jpg$is_args$args; } spec: ingressClassName: nginx tls: - hosts: - image.frytea.com - imagehost-cdn.frytea.com - cdn-imagehost.frytea.com secretName: image-frytea-com-tls rules: - host: image.frytea.com http: paths: - path: / pathType: Prefix backend: service: name: app port: name: web 直接配置会提示报错：
+...</p></p></section><footer class=entry-footer>April 15, 2025&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;522 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to nginx-ingress 配置路由 302" href=https://www.frytea.com/archives/1469/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>k8s 触发 pod 重新拉取镜像平滑升级的方法</h2></header><section class=entry-content><p><p>下面介绍更新 Deployment 以重新拉取相同标签镜像的方法，不要只会杀 pod 触发了，个人最喜欢方法二。
+当镜像名称和标签都没有变化，但需要重新拉取镜像时（比如镜像内容已更新但标签保持不变），可以采用以下方法：
+...</p></p></section><footer class=entry-footer>April 10, 2025&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;517 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to k8s 触发 pod 重新拉取镜像平滑升级的方法" href=https://www.frytea.com/archives/1466/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>k8s csi-driver-nfs的一个坑</h2></header><section class=entry-content><p><p>TL;DR 发现 k8s csi 组的社区项目 csi-driver-nfs v4.10 到 v4.11 至少这两个版本存在删除 pv 时会连带将整个根删除的问题。
+声明 StorageClass 时虽然支持 subDir ，类似这样：
+apiVersion: storage.k8s.io/v1 kind: StorageClass metadata: name: nfs-aliyun-gz provisioner: nfs.csi.k8s.io parameters: share: "/csi" server: "28364f4a1fa-eok75.cn-guangzhou.nas.aliyuncs.com" #server: "172.26.12.20" #subDir: "${pvc.metadata.namespace}/${pvc.metadata.name}" reclaimPolicy: Delete #volumeBindingMode: WaitForFirstConsumer volumeBindingMode: Immediate allowVolumeExpansion: true mountOptions: # - nolock,tcp,noresvport - vers=3,nolock,proto=tcp,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport 但如果类似这样使用 subDir 声明路径，同命名空间下的其他 pvc 删除，会导致整个 subDir 根目录都被删除。目前官方 pr 已经修复，但实测还是有问题，有空再研究一下代码，不知道是不是刻意为之。
+...</p></p></section><footer class=entry-footer>March 31, 2025&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;334 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to k8s csi-driver-nfs的一个坑" href=https://www.frytea.com/archives/1458/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>k3s 容器 mirror 配置方法</h2></header><section class=entry-content><p><p>TL; DR root@tencent-sh1:~# cat /etc/rancher/k3s/registries.yaml mirrors: "docker.io": endpoint: - "https://harbor.xxx.me" rewrite: "^(.*)": "mirror-dockerhub/$1" "registry.k8s.io": endpoint: - "https://harbor.xxx.me" rewrite: "^(.*)": "mirror-registry-k8s-io/$1" "ghcr.io": endpoint: - "https://harbor.xxx.me" rewrite: "^(.*)": "mirror-registry-ghcr-io/$1" "quay.io": endpoint: - "https://harbor.xxx.me" rewrite: "^(.*)": "mirror-registry-quay-io/$1" 以上是我的配置，在 harbor 中镜像以上镜像源，之后这样 配置即可。
+如果没有路径，比如使用 registry 镜像，忽略 rewrite 部分即可。
+...</p></p></section><footer class=entry-footer>March 31, 2025&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;98 字&nbsp;·&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to k3s 容器 mirror 配置方法" href=https://www.frytea.com/archives/1456/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://www.frytea.com/tags/kubernetes/page/2/>下一页 »</a></nav></footer></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
 <span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span><a href=/about/>关于</a>
 • <a href=/disclaimer/>免责声明</a>
 • <a href=/sitemap.xml target=view_window>站点地图</a>
-• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
-• PV <span id=busuanzi_value_site_pv><i class="fa fa-spinner fa-spin"></i></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script><meta name=”apple-mobile-web-app-capable” content="”yes”"><script>'serviceWorker'in navigator&&window.addEventListener('load',()=>{navigator.serviceWorker.register('/service-worker.js')})</script></body></html>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+  
+  if ('serviceWorker' in navigator) {
+    
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script></body></html>

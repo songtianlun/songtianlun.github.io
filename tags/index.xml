@@ -5,1712 +5,1602 @@
     <link>https://www.frytea.com/tags/</link>
     <description>Recent content in Tags on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 19 Aug 2023 04:19:20 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Apr 2026 05:55:30 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>debian</title>
-      <link>https://www.frytea.com/tags/debian/</link>
-      <pubDate>Sat, 19 Aug 2023 04:19:20 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/debian/</guid>
+      <title>KDE</title>
+      <link>https://www.frytea.com/tags/kde/</link>
+      <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/kde/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://www.frytea.com/tags/go/</link>
-      <pubDate>Sat, 19 Aug 2023 04:16:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CUDA</title>
-      <link>https://www.frytea.com/tags/cuda/</link>
-      <pubDate>Sat, 19 Aug 2023 04:15:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/cuda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NVIDIA</title>
-      <link>https://www.frytea.com/tags/nvidia/</link>
-      <pubDate>Sat, 19 Aug 2023 04:15:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/nvidia/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Linux</title>
       <link>https://www.frytea.com/tags/linux/</link>
-      <pubDate>Sat, 19 Aug 2023 04:13:06 +0000</pubDate>
-      
+      <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
       <guid>https://www.frytea.com/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>HK云主机</title>
-      <link>https://www.frytea.com/tags/hk%E4%BA%91%E4%B8%BB%E6%9C%BA/</link>
-      <pubDate>Thu, 17 Aug 2023 12:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/hk%E4%BA%91%E4%B8%BB%E6%9C%BA/</guid>
+      <title>AI</title>
+      <link>https://www.frytea.com/tags/ai/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>云主机</title>
-      <link>https://www.frytea.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/</link>
-      <pubDate>Thu, 17 Aug 2023 12:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/</guid>
+      <title>Clawdbot</title>
+      <link>https://www.frytea.com/tags/clawdbot/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/clawdbot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>chatGPT</title>
-      <link>https://www.frytea.com/tags/chatgpt/</link>
-      <pubDate>Wed, 16 Aug 2023 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/chatgpt/</guid>
+      <title>Moltbot</title>
+      <link>https://www.frytea.com/tags/moltbot/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/moltbot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>GPT</title>
-      <link>https://www.frytea.com/tags/gpt/</link>
-      <pubDate>Wed, 16 Aug 2023 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/gpt/</guid>
+      <title>Claude Code</title>
+      <link>https://www.frytea.com/tags/claude-code/</link>
+      <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/claude-code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Youtube Premium</title>
-      <link>https://www.frytea.com/tags/youtube-premium/</link>
-      <pubDate>Sun, 13 Aug 2023 08:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/youtube-premium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>优惠</title>
-      <link>https://www.frytea.com/tags/%E4%BC%98%E6%83%A0/</link>
-      <pubDate>Sun, 13 Aug 2023 08:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E4%BC%98%E6%83%A0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iperf3</title>
-      <link>https://www.frytea.com/tags/iperf3/</link>
-      <pubDate>Mon, 31 Jul 2023 07:46:53 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/iperf3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://www.frytea.com/tags/docker/</link>
-      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vps</title>
-      <link>https://www.frytea.com/tags/vps/</link>
-      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://www.frytea.com/tags/vim/</link>
-      <pubDate>Tue, 25 Jul 2023 09:23:36 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nexus3</title>
-      <link>https://www.frytea.com/tags/nexus3/</link>
-      <pubDate>Wed, 19 Jul 2023 06:00:03 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/nexus3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macOS</title>
-      <link>https://www.frytea.com/tags/macos/</link>
-      <pubDate>Wed, 19 Jul 2023 02:52:55 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BMC</title>
-      <link>https://www.frytea.com/tags/bmc/</link>
-      <pubDate>Mon, 17 Jul 2023 03:47:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bmc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SSH</title>
-      <link>https://www.frytea.com/tags/ssh/</link>
-      <pubDate>Mon, 26 Jun 2023 02:07:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JAVA</title>
-      <link>https://www.frytea.com/tags/java/</link>
-      <pubDate>Tue, 20 Jun 2023 15:59:20 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TLS</title>
-      <link>https://www.frytea.com/tags/tls/</link>
-      <pubDate>Fri, 26 May 2023 02:52:34 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/tls/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iptables</title>
-      <link>https://www.frytea.com/tags/iptables/</link>
-      <pubDate>Tue, 23 May 2023 02:07:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/iptables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>apt</title>
-      <link>https://www.frytea.com/tags/apt/</link>
-      <pubDate>Wed, 17 May 2023 03:29:33 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/apt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PVE</title>
-      <link>https://www.frytea.com/tags/pve/</link>
-      <pubDate>Fri, 12 May 2023 02:47:52 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/pve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Headscale</title>
-      <link>https://www.frytea.com/tags/headscale/</link>
-      <pubDate>Thu, 11 May 2023 09:42:54 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/headscale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>synology</title>
-      <link>https://www.frytea.com/tags/synology/</link>
-      <pubDate>Thu, 11 May 2023 09:42:54 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/synology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LXC</title>
-      <link>https://www.frytea.com/tags/lxc/</link>
-      <pubDate>Mon, 08 May 2023 11:56:54 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/lxc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>小店</title>
-      <link>https://www.frytea.com/tags/%E5%B0%8F%E5%BA%97/</link>
-      <pubDate>Wed, 03 May 2023 08:40:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%B0%8F%E5%BA%97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>KVM</title>
-      <link>https://www.frytea.com/tags/kvm/</link>
-      <pubDate>Mon, 01 May 2023 00:06:47 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/kvm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Surge</title>
-      <link>https://www.frytea.com/tags/surge/</link>
-      <pubDate>Mon, 01 May 2023 00:06:42 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/surge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://www.frytea.com/tags/ubuntu/</link>
-      <pubDate>Mon, 01 May 2023 00:06:25 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UFW</title>
-      <link>https://www.frytea.com/tags/ufw/</link>
-      <pubDate>Sun, 30 Apr 2023 03:17:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/ufw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://www.frytea.com/tags/git/</link>
-      <pubDate>Thu, 27 Apr 2023 22:07:01 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AIGC</title>
-      <link>https://www.frytea.com/tags/aigc/</link>
-      <pubDate>Thu, 27 Apr 2023 14:17:40 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/aigc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tiddlywiki5</title>
-      <link>https://www.frytea.com/tags/tiddlywiki5/</link>
-      <pubDate>Sat, 22 Apr 2023 15:40:07 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/tiddlywiki5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LLM</title>
-      <link>https://www.frytea.com/tags/llm/</link>
-      <pubDate>Thu, 20 Apr 2023 13:56:04 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AutoAI</title>
-      <link>https://www.frytea.com/tags/autoai/</link>
-      <pubDate>Mon, 17 Apr 2023 12:37:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/autoai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AutoGPT</title>
-      <link>https://www.frytea.com/tags/autogpt/</link>
-      <pubDate>Mon, 17 Apr 2023 12:37:11 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/autogpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ChatGLM</title>
-      <link>https://www.frytea.com/tags/chatglm/</link>
-      <pubDate>Sat, 15 Apr 2023 09:47:48 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/chatglm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mochi Diffusion</title>
-      <link>https://www.frytea.com/tags/mochi-diffusion/</link>
-      <pubDate>Sun, 09 Apr 2023 15:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/mochi-diffusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stable Diffusion</title>
-      <link>https://www.frytea.com/tags/stable-diffusion/</link>
-      <pubDate>Sun, 09 Apr 2023 15:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/stable-diffusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apple</title>
-      <link>https://www.frytea.com/tags/apple/</link>
-      <pubDate>Mon, 03 Apr 2023 15:20:39 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/apple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gpt4all</title>
-      <link>https://www.frytea.com/tags/gpt4all/</link>
-      <pubDate>Sun, 02 Apr 2023 07:17:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/gpt4all/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LVM</title>
-      <link>https://www.frytea.com/tags/lvm/</link>
-      <pubDate>Wed, 29 Mar 2023 18:42:08 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/lvm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notion</title>
-      <link>https://www.frytea.com/tags/notion/</link>
-      <pubDate>Sun, 12 Mar 2023 20:23:34 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/notion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>libvirt</title>
-      <link>https://www.frytea.com/tags/libvirt/</link>
-      <pubDate>Sun, 12 Mar 2023 13:21:17 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/libvirt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arch linux</title>
-      <link>https://www.frytea.com/tags/arch-linux/</link>
-      <pubDate>Thu, 02 Mar 2023 23:09:06 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>firefox</title>
-      <link>https://www.frytea.com/tags/firefox/</link>
-      <pubDate>Wed, 01 Mar 2023 21:13:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Perl</title>
-      <link>https://www.frytea.com/tags/perl/</link>
-      <pubDate>Tue, 28 Feb 2023 19:40:56 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/perl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>m1</title>
-      <link>https://www.frytea.com/tags/m1/</link>
-      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/m1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MacBook</title>
-      <link>https://www.frytea.com/tags/macbook/</link>
-      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/macbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paralles Desktop</title>
-      <link>https://www.frytea.com/tags/paralles-desktop/</link>
-      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/paralles-desktop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>picgo</title>
-      <link>https://www.frytea.com/tags/picgo/</link>
-      <pubDate>Thu, 09 Feb 2023 22:31:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/picgo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copilot</title>
-      <link>https://www.frytea.com/tags/copilot/</link>
-      <pubDate>Thu, 09 Feb 2023 22:21:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/copilot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://www.frytea.com/tags/emacs/</link>
-      <pubDate>Thu, 09 Feb 2023 22:21:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://www.frytea.com/tags/github/</link>
-      <pubDate>Thu, 09 Feb 2023 22:21:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dos2unix</title>
-      <link>https://www.frytea.com/tags/dos2unix/</link>
-      <pubDate>Mon, 16 Jan 2023 08:29:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/dos2unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unix</title>
-      <link>https://www.frytea.com/tags/unix/</link>
-      <pubDate>Mon, 16 Jan 2023 08:29:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/unix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>https://www.frytea.com/tags/windows/</link>
-      <pubDate>Mon, 16 Jan 2023 08:29:00 +0000</pubDate>
-      
+      <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
       <guid>https://www.frytea.com/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>icmp</title>
-      <link>https://www.frytea.com/tags/icmp/</link>
-      <pubDate>Sun, 15 Jan 2023 08:27:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/icmp/</guid>
+      <title>AI Prompt</title>
+      <link>https://www.frytea.com/tags/ai-prompt/</link>
+      <pubDate>Sat, 13 Dec 2025 07:04:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ai-prompt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prometheus</title>
-      <link>https://www.frytea.com/tags/prometheus/</link>
-      <pubDate>Sun, 15 Jan 2023 08:27:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/prometheus/</guid>
+      <title>Prompt</title>
+      <link>https://www.frytea.com/tags/prompt/</link>
+      <pubDate>Sat, 13 Dec 2025 07:04:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/prompt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>asahi linux</title>
-      <link>https://www.frytea.com/tags/asahi-linux/</link>
-      <pubDate>Tue, 10 Jan 2023 21:05:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/asahi-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>swap</title>
-      <link>https://www.frytea.com/tags/swap/</link>
-      <pubDate>Fri, 06 Jan 2023 08:37:44 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/swap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://www.frytea.com/tags/c/</link>
-      <pubDate>Thu, 05 Jan 2023 08:43:52 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>年终总结</title>
-      <link>https://www.frytea.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Sun, 01 Jan 2023 22:54:25 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>https://www.frytea.com/tags/google/</link>
-      <pubDate>Fri, 16 Dec 2022 08:35:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>微信</title>
-      <link>https://www.frytea.com/tags/%E5%BE%AE%E4%BF%A1/</link>
-      <pubDate>Fri, 09 Dec 2022 22:00:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%BE%AE%E4%BF%A1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenAI</title>
-      <link>https://www.frytea.com/tags/openai/</link>
-      <pubDate>Tue, 06 Dec 2022 23:25:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/openai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cadvisor</title>
-      <link>https://www.frytea.com/tags/cadvisor/</link>
-      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/cadvisor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>grafana</title>
-      <link>https://www.frytea.com/tags/grafana/</link>
-      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/grafana/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>node-exporter</title>
-      <link>https://www.frytea.com/tags/node-exporter/</link>
-      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/node-exporter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2022</title>
-      <link>https://www.frytea.com/tags/2022/</link>
-      <pubDate>Thu, 01 Dec 2022 04:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retrospective</title>
-      <link>https://www.frytea.com/tags/retrospective/</link>
-      <pubDate>Thu, 01 Dec 2022 04:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/retrospective/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mermaid</title>
-      <link>https://www.frytea.com/tags/mermaid/</link>
-      <pubDate>Thu, 24 Nov 2022 14:38:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/mermaid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>obsidian</title>
-      <link>https://www.frytea.com/tags/obsidian/</link>
-      <pubDate>Thu, 24 Nov 2022 14:38:35 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/obsidian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JuicsFS</title>
-      <link>https://www.frytea.com/tags/juicsfs/</link>
-      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/juicsfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>s3</title>
-      <link>https://www.frytea.com/tags/s3/</link>
-      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/s3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nginx</title>
-      <link>https://www.frytea.com/tags/nginx/</link>
-      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>portainer</title>
-      <link>https://www.frytea.com/tags/portainer/</link>
-      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/portainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kali</title>
-      <link>https://www.frytea.com/tags/kali/</link>
-      <pubDate>Tue, 08 Nov 2022 14:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/kali/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RDP</title>
-      <link>https://www.frytea.com/tags/rdp/</link>
-      <pubDate>Tue, 08 Nov 2022 14:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/rdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xrdp</title>
-      <link>https://www.frytea.com/tags/xrdp/</link>
-      <pubDate>Tue, 08 Nov 2022 14:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/xrdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>arping</title>
-      <link>https://www.frytea.com/tags/arping/</link>
-      <pubDate>Mon, 07 Nov 2022 14:51:47 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/arping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UTM</title>
-      <link>https://www.frytea.com/tags/utm/</link>
-      <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/utm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ventura</title>
-      <link>https://www.frytea.com/tags/ventura/</link>
-      <pubDate>Fri, 04 Nov 2022 00:23:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/ventura/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diff</title>
-      <link>https://www.frytea.com/tags/diff/</link>
-      <pubDate>Wed, 02 Nov 2022 10:19:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/diff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash</title>
-      <link>https://www.frytea.com/tags/bash/</link>
-      <pubDate>Mon, 31 Oct 2022 17:49:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>alacritty</title>
-      <link>https://www.frytea.com/tags/alacritty/</link>
-      <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/alacritty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>darwin</title>
-      <link>https://www.frytea.com/tags/darwin/</link>
-      <pubDate>Mon, 17 Oct 2022 11:29:39 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/darwin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BJ-PFD2</title>
-      <link>https://www.frytea.com/tags/bj-pfd2/</link>
-      <pubDate>Sat, 10 Sep 2022 20:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bj-pfd2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dos</title>
-      <link>https://www.frytea.com/tags/dos/</link>
-      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/dos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>http-get</title>
-      <link>https://www.frytea.com/tags/http-get/</link>
-      <pubDate>Wed, 31 Aug 2022 07:08:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/http-get/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ovftool</title>
-      <link>https://www.frytea.com/tags/ovftool/</link>
-      <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/ovftool/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vmware</title>
-      <link>https://www.frytea.com/tags/vmware/</link>
-      <pubDate>Thu, 25 Aug 2022 11:59:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>USB</title>
-      <link>https://www.frytea.com/tags/usb/</link>
-      <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/usb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Win11</title>
-      <link>https://www.frytea.com/tags/win11/</link>
-      <pubDate>Mon, 15 Aug 2022 11:14:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/win11/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenWrt</title>
-      <link>https://www.frytea.com/tags/openwrt/</link>
-      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/openwrt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WireGuard</title>
-      <link>https://www.frytea.com/tags/wireguard/</link>
-      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/wireguard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>json</title>
-      <link>https://www.frytea.com/tags/json/</link>
-      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://www.frytea.com/tags/python/</link>
-      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shell</title>
-      <link>https://www.frytea.com/tags/shell/</link>
-      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISO</title>
-      <link>https://www.frytea.com/tags/iso/</link>
-      <pubDate>Wed, 06 Apr 2022 14:22:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/iso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k3s</title>
-      <link>https://www.frytea.com/tags/k3s/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/k3s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s</title>
+      <title>K8s</title>
       <link>https://www.frytea.com/tags/k8s/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
+      <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
       <guid>https://www.frytea.com/tags/k8s/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://www.frytea.com/tags/kubernetes/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
+      <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
       <guid>https://www.frytea.com/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>云原生</title>
-      <link>https://www.frytea.com/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</guid>
+      <title>Vps</title>
+      <link>https://www.frytea.com/tags/vps/</link>
+      <pubDate>Mon, 03 Nov 2025 15:14:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vps/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>inotify</title>
-      <link>https://www.frytea.com/tags/inotify/</link>
-      <pubDate>Thu, 27 Jan 2022 09:35:37 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/inotify/</guid>
+      <title>Aliyun</title>
+      <link>https://www.frytea.com/tags/aliyun/</link>
+      <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/aliyun/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wiki</title>
-      <link>https://www.frytea.com/tags/wiki/</link>
-      <pubDate>Thu, 27 Jan 2022 09:25:31 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/wiki/</guid>
+      <title>Iptables</title>
+      <link>https://www.frytea.com/tags/iptables/</link>
+      <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/iptables/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>remote-viewer</title>
-      <link>https://www.frytea.com/tags/remote-viewer/</link>
-      <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/remote-viewer/</guid>
+      <title>Tailscale</title>
+      <link>https://www.frytea.com/tags/tailscale/</link>
+      <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/tailscale/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spice</title>
-      <link>https://www.frytea.com/tags/spice/</link>
-      <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/spice/</guid>
+      <title>MacOS</title>
+      <link>https://www.frytea.com/tags/macos/</link>
+      <pubDate>Sat, 18 Oct 2025 16:31:21 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/macos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vier-manager</title>
-      <link>https://www.frytea.com/tags/vier-manager/</link>
-      <pubDate>Tue, 25 Jan 2022 15:10:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vier-manager/</guid>
+      <title>Go</title>
+      <link>https://www.frytea.com/tags/go/</link>
+      <pubDate>Tue, 14 Oct 2025 11:51:14 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>virt-manager</title>
-      <link>https://www.frytea.com/tags/virt-manager/</link>
-      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/virt-manager/</guid>
+      <title>Git</title>
+      <link>https://www.frytea.com/tags/git/</link>
+      <pubDate>Tue, 14 Oct 2025 04:05:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>virt-viewer</title>
-      <link>https://www.frytea.com/tags/virt-viewer/</link>
-      <pubDate>Tue, 25 Jan 2022 15:12:46 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/virt-viewer/</guid>
+      <title>Ssh</title>
+      <link>https://www.frytea.com/tags/ssh/</link>
+      <pubDate>Tue, 14 Oct 2025 04:05:08 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ssh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>WEB3</title>
-      <link>https://www.frytea.com/tags/web3/</link>
-      <pubDate>Fri, 31 Dec 2021 17:17:07 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/web3/</guid>
+      <title>Chrony</title>
+      <link>https://www.frytea.com/tags/chrony/</link>
+      <pubDate>Tue, 14 Oct 2025 04:04:52 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/chrony/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>区块链</title>
-      <link>https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
-      <pubDate>Fri, 31 Dec 2021 17:17:07 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
+      <title>Lxc</title>
+      <link>https://www.frytea.com/tags/lxc/</link>
+      <pubDate>Tue, 14 Oct 2025 04:04:52 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/lxc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>CDN</title>
-      <link>https://www.frytea.com/tags/cdn/</link>
-      <pubDate>Thu, 30 Dec 2021 20:11:59 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/cdn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gitkraken</title>
-      <link>https://www.frytea.com/tags/gitkraken/</link>
-      <pubDate>Thu, 30 Dec 2021 09:31:05 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/gitkraken/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2021</title>
-      <link>https://www.frytea.com/tags/2021/</link>
-      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HASH</title>
-      <link>https://www.frytea.com/tags/hash/</link>
-      <pubDate>Thu, 23 Dec 2021 14:14:27 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/hash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LeanCloud</title>
-      <link>https://www.frytea.com/tags/leancloud/</link>
-      <pubDate>Sun, 12 Dec 2021 22:48:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/leancloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://www.frytea.com/tags/react/</link>
-      <pubDate>Sun, 12 Dec 2021 22:48:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://www.frytea.com/tags/web/</link>
-      <pubDate>Sun, 12 Dec 2021 22:48:58 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BaaS</title>
-      <link>https://www.frytea.com/tags/baas/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/baas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PaaS</title>
-      <link>https://www.frytea.com/tags/paas/</link>
-      <pubDate>Sun, 12 Dec 2021 22:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/paas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>KubeSphere</title>
-      <link>https://www.frytea.com/tags/kubesphere/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/kubesphere/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>互联网</title>
-      <link>https://www.frytea.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>元宇宙</title>
-      <link>https://www.frytea.com/tags/%E5%85%83%E5%AE%87%E5%AE%99/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%85%83%E5%AE%87%E5%AE%99/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud-init</title>
-      <link>https://www.frytea.com/tags/cloud-init/</link>
-      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/cloud-init/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>make</title>
-      <link>https://www.frytea.com/tags/make/</link>
-      <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/make/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GDB</title>
-      <link>https://www.frytea.com/tags/gdb/</link>
-      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/gdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>QEMU</title>
-      <link>https://www.frytea.com/tags/qemu/</link>
-      <pubDate>Mon, 06 Dec 2021 14:13:17 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/qemu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>virsh</title>
-      <link>https://www.frytea.com/tags/virsh/</link>
-      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/virsh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>centos</title>
-      <link>https://www.frytea.com/tags/centos/</link>
-      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/centos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://www.frytea.com/tags/hugo/</link>
-      <pubDate>Thu, 02 Dec 2021 14:32:08 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>debootstrap</title>
-      <link>https://www.frytea.com/tags/debootstrap/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/debootstrap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rootfs</title>
-      <link>https://www.frytea.com/tags/rootfs/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/rootfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SW</title>
-      <link>https://www.frytea.com/tags/sw/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/sw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uos</title>
-      <link>https://www.frytea.com/tags/uos/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/uos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>busybox</title>
-      <link>https://www.frytea.com/tags/busybox/</link>
-      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/busybox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>geekbach</title>
-      <link>https://www.frytea.com/tags/geekbach/</link>
-      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/geekbach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unixbench</title>
-      <link>https://www.frytea.com/tags/unixbench/</link>
-      <pubDate>Wed, 17 Nov 2021 01:20:21 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/unixbench/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>申威</title>
-      <link>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</link>
-      <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fdisk</title>
-      <link>https://www.frytea.com/tags/fdisk/</link>
-      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/fdisk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lsblk</title>
-      <link>https://www.frytea.com/tags/lsblk/</link>
-      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/lsblk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mount</title>
-      <link>https://www.frytea.com/tags/mount/</link>
-      <pubDate>Tue, 09 Nov 2021 07:49:13 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/mount/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network</title>
-      <link>https://www.frytea.com/tags/network/</link>
-      <pubDate>Fri, 05 Nov 2021 00:32:22 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tcpdump</title>
-      <link>https://www.frytea.com/tags/tcpdump/</link>
-      <pubDate>Wed, 03 Nov 2021 14:48:31 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/tcpdump/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ntp</title>
+      <title>Ntp</title>
       <link>https://www.frytea.com/tags/ntp/</link>
-      <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
-      
+      <pubDate>Tue, 14 Oct 2025 04:04:52 +0000</pubDate>
       <guid>https://www.frytea.com/tags/ntp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>uname</title>
-      <link>https://www.frytea.com/tags/uname/</link>
-      <pubDate>Sun, 31 Oct 2021 11:47:24 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/uname/</guid>
+      <title>Reddit</title>
+      <link>https://www.frytea.com/tags/reddit/</link>
+      <pubDate>Sun, 28 Sep 2025 15:43:43 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/reddit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tmux</title>
-      <link>https://www.frytea.com/tags/tmux/</link>
-      <pubDate>Sun, 31 Oct 2021 00:26:08 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/tmux/</guid>
+      <title>ByAIGC</title>
+      <link>https://www.frytea.com/tags/byaigc/</link>
+      <pubDate>Fri, 19 Sep 2025 17:08:57 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/byaigc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deb</title>
-      <link>https://www.frytea.com/tags/deb/</link>
-      <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/deb/</guid>
+      <title>Syncthing</title>
+      <link>https://www.frytea.com/tags/syncthing/</link>
+      <pubDate>Sat, 13 Sep 2025 17:07:13 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/syncthing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deepin</title>
-      <link>https://www.frytea.com/tags/deepin/</link>
-      <pubDate>Thu, 28 Oct 2021 11:32:28 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/deepin/</guid>
+      <title>Synology</title>
+      <link>https://www.frytea.com/tags/synology/</link>
+      <pubDate>Sat, 13 Sep 2025 17:07:13 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/synology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Adsense</title>
-      <link>https://www.frytea.com/tags/adsense/</link>
-      <pubDate>Thu, 28 Oct 2021 00:21:06 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/adsense/</guid>
+      <title>AIGC</title>
+      <link>https://www.frytea.com/tags/aigc/</link>
+      <pubDate>Sun, 07 Sep 2025 14:22:41 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/aigc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blog</title>
-      <link>https://www.frytea.com/tags/blog/</link>
-      <pubDate>Thu, 28 Oct 2021 00:10:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/blog/</guid>
+      <title>MCP</title>
+      <link>https://www.frytea.com/tags/mcp/</link>
+      <pubDate>Sun, 07 Sep 2025 14:22:41 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/mcp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>homebrew</title>
-      <link>https://www.frytea.com/tags/homebrew/</link>
-      <pubDate>Thu, 28 Oct 2021 00:08:29 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/homebrew/</guid>
+      <title>GIS</title>
+      <link>https://www.frytea.com/tags/gis/</link>
+      <pubDate>Mon, 01 Sep 2025 03:19:33 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/gis/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Bullet Journa</title>
-      <link>https://www.frytea.com/tags/bullet-journa/</link>
-      <pubDate>Sat, 25 Sep 2021 23:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bullet-journa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bullet Journal</title>
-      <link>https://www.frytea.com/tags/bullet-journal/</link>
-      <pubDate>Mon, 13 Sep 2021 22:41:50 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bullet-journal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BJ-PFD</title>
-      <link>https://www.frytea.com/tags/bj-pfd/</link>
-      <pubDate>Fri, 10 Sep 2021 20:40:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/tags/bj-pfd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>libpcap</title>
-      <link>https://www.frytea.com/tags/libpcap/</link>
-      <pubDate>Tue, 07 Sep 2021 15:34:30 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/libpcap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tailwindcss</title>
-      <link>https://www.frytea.com/tags/tailwindcss/</link>
-      <pubDate>Sun, 08 Aug 2021 19:22:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/tailwindcss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NAS</title>
-      <link>https://www.frytea.com/tags/nas/</link>
-      <pubDate>Sun, 01 Aug 2021 23:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/nas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>StarUML</title>
-      <link>https://www.frytea.com/tags/staruml/</link>
-      <pubDate>Wed, 07 Apr 2021 21:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/staruml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UML</title>
-      <link>https://www.frytea.com/tags/uml/</link>
-      <pubDate>Wed, 07 Apr 2021 21:05:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/uml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Esxi</title>
-      <link>https://www.frytea.com/tags/esxi/</link>
-      <pubDate>Fri, 04 Sep 2020 11:43:05 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/esxi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>破解</title>
-      <link>https://www.frytea.com/tags/%E7%A0%B4%E8%A7%A3/</link>
-      <pubDate>Fri, 14 Aug 2020 08:40:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E7%A0%B4%E8%A7%A3/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>GitLab</title>
       <link>https://www.frytea.com/tags/gitlab/</link>
-      <pubDate>Fri, 07 Feb 2020 02:12:01 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Aug 2025 14:33:56 +0000</pubDate>
       <guid>https://www.frytea.com/tags/gitlab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>android</title>
-      <link>https://www.frytea.com/tags/android/</link>
-      <pubDate>Sat, 01 Feb 2020 15:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/android/</guid>
+      <title>Harbor</title>
+      <link>https://www.frytea.com/tags/harbor/</link>
+      <pubDate>Thu, 28 Aug 2025 14:33:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/harbor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>DNS</title>
-      <link>https://www.frytea.com/tags/dns/</link>
-      <pubDate>Thu, 28 Nov 2019 16:35:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/dns/</guid>
+      <title>Debian</title>
+      <link>https://www.frytea.com/tags/debian/</link>
+      <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/debian/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nextcloud</title>
-      <link>https://www.frytea.com/tags/nextcloud/</link>
-      <pubDate>Wed, 27 Nov 2019 10:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/nextcloud/</guid>
+      <title>ProxmoxVE</title>
+      <link>https://www.frytea.com/tags/proxmoxve/</link>
+      <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/proxmoxve/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>哈利 · 波特</title>
-      <link>https://www.frytea.com/tags/%E5%93%88%E5%88%A9-%E6%B3%A2%E7%89%B9/</link>
-      <pubDate>Sun, 03 Nov 2019 16:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E5%93%88%E5%88%A9-%E6%B3%A2%E7%89%B9/</guid>
+      <title>Systemd</title>
+      <link>https://www.frytea.com/tags/systemd/</link>
+      <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/systemd/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>英语语法</title>
-      <link>https://www.frytea.com/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</link>
-      <pubDate>Sat, 20 Jul 2019 16:12:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>onedrive</title>
-      <link>https://www.frytea.com/tags/onedrive/</link>
-      <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/onedrive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rclone</title>
+      <title>Rclone</title>
       <link>https://www.frytea.com/tags/rclone/</link>
-      <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
-      
+      <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
       <guid>https://www.frytea.com/tags/rclone/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Rational_Rose</title>
-      <link>https://www.frytea.com/tags/rational_rose/</link>
-      <pubDate>Thu, 11 Apr 2019 22:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/rational_rose/</guid>
+      <title>Centos</title>
+      <link>https://www.frytea.com/tags/centos/</link>
+      <pubDate>Thu, 07 Aug 2025 14:34:31 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/centos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>win10</title>
-      <link>https://www.frytea.com/tags/win10/</link>
-      <pubDate>Thu, 11 Apr 2019 22:34:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/win10/</guid>
+      <title>Telnet</title>
+      <link>https://www.frytea.com/tags/telnet/</link>
+      <pubDate>Thu, 07 Aug 2025 14:33:53 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/telnet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>api</title>
-      <link>https://www.frytea.com/tags/api/</link>
-      <pubDate>Sun, 17 Mar 2019 17:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/api/</guid>
+      <title>Vim</title>
+      <link>https://www.frytea.com/tags/vim/</link>
+      <pubDate>Thu, 07 Aug 2025 14:31:18 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vim/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>axios</title>
-      <link>https://www.frytea.com/tags/axios/</link>
-      <pubDate>Sun, 17 Mar 2019 17:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/axios/</guid>
+      <title>Cloudflare</title>
+      <link>https://www.frytea.com/tags/cloudflare/</link>
+      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cloudflare/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vue</title>
-      <link>https://www.frytea.com/tags/vue/</link>
-      <pubDate>Sun, 17 Mar 2019 17:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/vue/</guid>
+      <title>Dev</title>
+      <link>https://www.frytea.com/tags/dev/</link>
+      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dev/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloudreve</title>
-      <link>https://www.frytea.com/tags/cloudreve/</link>
-      <pubDate>Fri, 15 Mar 2019 13:10:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/cloudreve/</guid>
+      <title>Supabase</title>
+      <link>https://www.frytea.com/tags/supabase/</link>
+      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/supabase/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>unsplash</title>
-      <link>https://www.frytea.com/tags/unsplash/</link>
-      <pubDate>Sat, 09 Mar 2019 11:53:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/unsplash/</guid>
+      <title>Vercel</title>
+      <link>https://www.frytea.com/tags/vercel/</link>
+      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vercel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>leaflet</title>
-      <link>https://www.frytea.com/tags/leaflet/</link>
-      <pubDate>Sat, 09 Mar 2019 00:29:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/leaflet/</guid>
+      <title>AI Agent</title>
+      <link>https://www.frytea.com/tags/ai-agent/</link>
+      <pubDate>Tue, 29 Jul 2025 01:43:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ai-agent/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webstorm</title>
-      <link>https://www.frytea.com/tags/webstorm/</link>
-      <pubDate>Wed, 27 Feb 2019 10:01:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/webstorm/</guid>
+      <title>Claude</title>
+      <link>https://www.frytea.com/tags/claude/</link>
+      <pubDate>Tue, 29 Jul 2025 01:26:08 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/claude/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hexo</title>
-      <link>https://www.frytea.com/tags/hexo/</link>
-      <pubDate>Fri, 22 Feb 2019 15:51:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/hexo/</guid>
+      <title>CA</title>
+      <link>https://www.frytea.com/tags/ca/</link>
+      <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ca/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webssh2</title>
-      <link>https://www.frytea.com/tags/webssh2/</link>
-      <pubDate>Thu, 21 Feb 2019 18:17:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/webssh2/</guid>
+      <title>Ubuntu</title>
+      <link>https://www.frytea.com/tags/ubuntu/</link>
+      <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>markdown</title>
-      <link>https://www.frytea.com/tags/markdown/</link>
-      <pubDate>Thu, 21 Feb 2019 15:46:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/markdown/</guid>
+      <title>Ahrefs</title>
+      <link>https://www.frytea.com/tags/ahrefs/</link>
+      <pubDate>Wed, 02 Jul 2025 10:19:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ahrefs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>记录</title>
-      <link>https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Thu, 21 Feb 2019 15:46:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/</guid>
+      <title>SEMrush</title>
+      <link>https://www.frytea.com/tags/semrush/</link>
+      <pubDate>Wed, 02 Jul 2025 10:19:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/semrush/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wordpress</title>
+      <title>SimilarWeb</title>
+      <link>https://www.frytea.com/tags/similarweb/</link>
+      <pubDate>Wed, 02 Jul 2025 10:19:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/similarweb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LiquedGlass</title>
+      <link>https://www.frytea.com/tags/liquedglass/</link>
+      <pubDate>Sat, 14 Jun 2025 15:44:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/liquedglass/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HarmonyOS</title>
+      <link>https://www.frytea.com/tags/harmonyos/</link>
+      <pubDate>Wed, 28 May 2025 15:08:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/harmonyos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>名侦探柯南</title>
+      <link>https://www.frytea.com/tags/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97/</link>
+      <pubDate>Sun, 11 May 2025 05:00:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E5%90%8D%E4%BE%A6%E6%8E%A2%E6%9F%AF%E5%8D%97/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K3s</title>
+      <link>https://www.frytea.com/tags/k3s/</link>
+      <pubDate>Thu, 08 May 2025 13:21:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/k3s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://www.frytea.com/tags/devops/</link>
+      <pubDate>Wed, 07 May 2025 10:03:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Goaccess</title>
+      <link>https://www.frytea.com/tags/goaccess/</link>
+      <pubDate>Tue, 29 Apr 2025 03:59:14 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/goaccess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plausible</title>
+      <link>https://www.frytea.com/tags/plausible/</link>
+      <pubDate>Mon, 21 Apr 2025 08:35:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/plausible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CFD</title>
+      <link>https://www.frytea.com/tags/cfd/</link>
+      <pubDate>Mon, 21 Apr 2025 03:05:26 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cfd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenFOAM</title>
+      <link>https://www.frytea.com/tags/openfoam/</link>
+      <pubDate>Mon, 21 Apr 2025 03:05:26 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/openfoam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CPP</title>
+      <link>https://www.frytea.com/tags/cpp/</link>
+      <pubDate>Sat, 19 Apr 2025 02:21:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CUDA</title>
+      <link>https://www.frytea.com/tags/cuda/</link>
+      <pubDate>Sat, 19 Apr 2025 02:21:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cuda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ArchLinux</title>
+      <link>https://www.frytea.com/tags/archlinux/</link>
+      <pubDate>Thu, 17 Apr 2025 06:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>S3</title>
+      <link>https://www.frytea.com/tags/s3/</link>
+      <pubDate>Sat, 12 Apr 2025 16:18:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/s3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clickhouse</title>
+      <link>https://www.frytea.com/tags/clickhouse/</link>
+      <pubDate>Thu, 10 Apr 2025 09:28:48 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/clickhouse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails</title>
+      <link>https://www.frytea.com/tags/rails/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:44 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rails on Ruby</title>
+      <link>https://www.frytea.com/tags/rails-on-ruby/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:44 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rails-on-ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://www.frytea.com/tags/ruby/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:44 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DB</title>
+      <link>https://www.frytea.com/tags/db/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:31 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/db/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ceph</title>
+      <link>https://www.frytea.com/tags/ceph/</link>
+      <pubDate>Mon, 07 Apr 2025 09:19:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ceph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rancher</title>
+      <link>https://www.frytea.com/tags/rancher/</link>
+      <pubDate>Mon, 31 Mar 2025 10:00:40 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rancher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://www.frytea.com/tags/docker/</link>
+      <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
       <link>https://www.frytea.com/tags/wordpress/</link>
-      <pubDate>Thu, 17 Jan 2019 15:39:00 +0000</pubDate>
-      
+      <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
       <guid>https://www.frytea.com/tags/wordpress/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>arcgis</title>
+      <title>LLM</title>
+      <link>https://www.frytea.com/tags/llm/</link>
+      <pubDate>Fri, 14 Mar 2025 17:26:01 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cert-Manager</title>
+      <link>https://www.frytea.com/tags/cert-manager/</link>
+      <pubDate>Thu, 06 Mar 2025 03:59:28 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cert-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PVE</title>
+      <link>https://www.frytea.com/tags/pve/</link>
+      <pubDate>Tue, 04 Mar 2025 01:32:45 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/pve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepSeek</title>
+      <link>https://www.frytea.com/tags/deepseek/</link>
+      <pubDate>Tue, 18 Feb 2025 07:19:37 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/deepseek/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://www.frytea.com/tags/ollama/</link>
+      <pubDate>Tue, 18 Feb 2025 07:19:37 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ollama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AIArt</title>
+      <link>https://www.frytea.com/tags/aiart/</link>
+      <pubDate>Sun, 02 Feb 2025 15:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/aiart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>S3cmd</title>
+      <link>https://www.frytea.com/tags/s3cmd/</link>
+      <pubDate>Mon, 20 Jan 2025 15:30:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/s3cmd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VirtualBox</title>
+      <link>https://www.frytea.com/tags/virtualbox/</link>
+      <pubDate>Sat, 04 Jan 2025 01:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitea</title>
+      <link>https://www.frytea.com/tags/gitea/</link>
+      <pubDate>Fri, 03 Jan 2025 10:12:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/gitea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://www.frytea.com/tags/github/</link>
+      <pubDate>Fri, 03 Jan 2025 10:12:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Helm</title>
+      <link>https://www.frytea.com/tags/helm/</link>
+      <pubDate>Mon, 30 Dec 2024 15:54:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/helm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssl</title>
+      <link>https://www.frytea.com/tags/ssl/</link>
+      <pubDate>Mon, 30 Dec 2024 15:53:59 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Buildah</title>
+      <link>https://www.frytea.com/tags/buildah/</link>
+      <pubDate>Tue, 24 Dec 2024 11:23:04 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/buildah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gartner</title>
+      <link>https://www.frytea.com/tags/gartner/</link>
+      <pubDate>Mon, 23 Dec 2024 16:02:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/gartner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tmux</title>
+      <link>https://www.frytea.com/tags/tmux/</link>
+      <pubDate>Sat, 21 Dec 2024 06:53:29 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/tmux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Word</title>
+      <link>https://www.frytea.com/tags/word/</link>
+      <pubDate>Sat, 21 Dec 2024 06:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/word/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>根技术</title>
+      <link>https://www.frytea.com/tags/%E6%A0%B9%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Thu, 19 Dec 2024 10:20:07 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E6%A0%B9%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charts</title>
+      <link>https://www.frytea.com/tags/charts/</link>
+      <pubDate>Wed, 18 Dec 2024 10:19:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/charts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delve</title>
+      <link>https://www.frytea.com/tags/delve/</link>
+      <pubDate>Wed, 18 Dec 2024 10:17:17 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/delve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://www.frytea.com/tags/golang/</link>
+      <pubDate>Wed, 18 Dec 2024 10:17:17 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerd</title>
+      <link>https://www.frytea.com/tags/containerd/</link>
+      <pubDate>Wed, 18 Dec 2024 10:17:08 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/containerd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HA</title>
+      <link>https://www.frytea.com/tags/ha/</link>
+      <pubDate>Sat, 14 Dec 2024 14:59:30 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swap</title>
+      <link>https://www.frytea.com/tags/swap/</link>
+      <pubDate>Fri, 13 Dec 2024 10:52:08 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/swap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time</title>
+      <link>https://www.frytea.com/tags/time/</link>
+      <pubDate>Fri, 13 Dec 2024 10:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dig</title>
+      <link>https://www.frytea.com/tags/dig/</link>
+      <pubDate>Thu, 12 Dec 2024 10:50:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dig/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNS</title>
+      <link>https://www.frytea.com/tags/dns/</link>
+      <pubDate>Thu, 12 Dec 2024 10:50:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dnf</title>
+      <link>https://www.frytea.com/tags/dnf/</link>
+      <pubDate>Wed, 11 Dec 2024 23:20:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dnf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rpm</title>
+      <link>https://www.frytea.com/tags/rpm/</link>
+      <pubDate>Wed, 11 Dec 2024 23:20:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rpm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yum</title>
+      <link>https://www.frytea.com/tags/yum/</link>
+      <pubDate>Wed, 11 Dec 2024 23:20:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/yum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ethtool</title>
+      <link>https://www.frytea.com/tags/ethtool/</link>
+      <pubDate>Tue, 10 Dec 2024 10:03:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ethtool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GDB</title>
+      <link>https://www.frytea.com/tags/gdb/</link>
+      <pubDate>Tue, 10 Dec 2024 10:03:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/gdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Listmonk</title>
+      <link>https://www.frytea.com/tags/listmonk/</link>
+      <pubDate>Fri, 06 Dec 2024 10:06:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/listmonk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Z-Library</title>
+      <link>https://www.frytea.com/tags/z-library/</link>
+      <pubDate>Sun, 01 Dec 2024 06:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/z-library/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BandwagonHost</title>
+      <link>https://www.frytea.com/tags/bandwagonhost/</link>
+      <pubDate>Sat, 30 Nov 2024 17:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/bandwagonhost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ping</title>
+      <link>https://www.frytea.com/tags/ping/</link>
+      <pubDate>Sat, 30 Nov 2024 16:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kuboard</title>
+      <link>https://www.frytea.com/tags/kuboard/</link>
+      <pubDate>Thu, 28 Nov 2024 10:11:29 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/kuboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Obsidian</title>
+      <link>https://www.frytea.com/tags/obsidian/</link>
+      <pubDate>Tue, 26 Nov 2024 11:21:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/obsidian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenWrt</title>
+      <link>https://www.frytea.com/tags/openwrt/</link>
+      <pubDate>Sat, 23 Nov 2024 02:59:38 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/openwrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://www.frytea.com/tags/mysql/</link>
+      <pubDate>Sat, 23 Nov 2024 02:59:01 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SugarHosts</title>
+      <link>https://www.frytea.com/tags/sugarhosts/</link>
+      <pubDate>Thu, 21 Nov 2024 11:07:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/sugarhosts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DogYun</title>
+      <link>https://www.frytea.com/tags/dogyun/</link>
+      <pubDate>Thu, 21 Nov 2024 11:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dogyun/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>黑五</title>
+      <link>https://www.frytea.com/tags/%E9%BB%91%E4%BA%94/</link>
+      <pubDate>Wed, 20 Nov 2024 10:09:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E9%BB%91%E4%BA%94/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multus</title>
+      <link>https://www.frytea.com/tags/multus/</link>
+      <pubDate>Tue, 19 Nov 2024 16:17:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/multus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://www.frytea.com/tags/hugo/</link>
+      <pubDate>Sun, 10 Nov 2024 11:40:10 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>系统架构设计</title>
+      <link>https://www.frytea.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Fri, 08 Nov 2024 10:07:21 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024</title>
+      <link>https://www.frytea.com/tags/2024/</link>
+      <pubDate>Sun, 30 Jun 2024 04:51:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2023</title>
+      <link>https://www.frytea.com/tags/2023/</link>
+      <pubDate>Sun, 24 Dec 2023 06:04:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KVM</title>
+      <link>https://www.frytea.com/tags/kvm/</link>
+      <pubDate>Sun, 30 Apr 2023 16:06:47 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/kvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surge</title>
+      <link>https://www.frytea.com/tags/surge/</link>
+      <pubDate>Sun, 30 Apr 2023 16:06:42 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/surge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apt</title>
+      <link>https://www.frytea.com/tags/apt/</link>
+      <pubDate>Sun, 30 Apr 2023 16:06:32 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/apt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nexus3</title>
+      <link>https://www.frytea.com/tags/nexus3/</link>
+      <pubDate>Sun, 30 Apr 2023 16:06:21 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/nexus3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tiddlywiki5</title>
+      <link>https://www.frytea.com/tags/tiddlywiki5/</link>
+      <pubDate>Sat, 22 Apr 2023 07:40:07 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/tiddlywiki5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mochi Diffusion</title>
+      <link>https://www.frytea.com/tags/mochi-diffusion/</link>
+      <pubDate>Sun, 09 Apr 2023 07:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/mochi-diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stable Diffusion</title>
+      <link>https://www.frytea.com/tags/stable-diffusion/</link>
+      <pubDate>Sun, 09 Apr 2023 07:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/stable-diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LVM</title>
+      <link>https://www.frytea.com/tags/lvm/</link>
+      <pubDate>Wed, 29 Mar 2023 10:42:08 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/lvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT</title>
+      <link>https://www.frytea.com/tags/chatgpt/</link>
+      <pubDate>Sun, 12 Mar 2023 12:23:34 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notion</title>
+      <link>https://www.frytea.com/tags/notion/</link>
+      <pubDate>Sun, 12 Mar 2023 12:23:34 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/notion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libvirt</title>
+      <link>https://www.frytea.com/tags/libvirt/</link>
+      <pubDate>Sun, 12 Mar 2023 05:21:17 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/libvirt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch Linux</title>
+      <link>https://www.frytea.com/tags/arch-linux/</link>
+      <pubDate>Thu, 02 Mar 2023 15:09:06 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>https://www.frytea.com/tags/firefox/</link>
+      <pubDate>Wed, 01 Mar 2023 13:13:35 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perl</title>
+      <link>https://www.frytea.com/tags/perl/</link>
+      <pubDate>Tue, 28 Feb 2023 11:40:56 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/perl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>M1</title>
+      <link>https://www.frytea.com/tags/m1/</link>
+      <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/m1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacBook</title>
+      <link>https://www.frytea.com/tags/macbook/</link>
+      <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/macbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paralles Desktop</title>
+      <link>https://www.frytea.com/tags/paralles-desktop/</link>
+      <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/paralles-desktop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Picgo</title>
+      <link>https://www.frytea.com/tags/picgo/</link>
+      <pubDate>Thu, 09 Feb 2023 14:31:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/picgo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Copilot</title>
+      <link>https://www.frytea.com/tags/copilot/</link>
+      <pubDate>Thu, 09 Feb 2023 14:21:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>https://www.frytea.com/tags/emacs/</link>
+      <pubDate>Thu, 09 Feb 2023 14:21:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dos2unix</title>
+      <link>https://www.frytea.com/tags/dos2unix/</link>
+      <pubDate>Mon, 16 Jan 2023 00:29:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/dos2unix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unix</title>
+      <link>https://www.frytea.com/tags/unix/</link>
+      <pubDate>Mon, 16 Jan 2023 00:29:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/unix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Icmp</title>
+      <link>https://www.frytea.com/tags/icmp/</link>
+      <pubDate>Sun, 15 Jan 2023 00:27:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/icmp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prometheus</title>
+      <link>https://www.frytea.com/tags/prometheus/</link>
+      <pubDate>Sun, 15 Jan 2023 00:27:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/prometheus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asahi Linux</title>
+      <link>https://www.frytea.com/tags/asahi-linux/</link>
+      <pubDate>Tue, 10 Jan 2023 13:05:22 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/asahi-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>https://www.frytea.com/tags/c/</link>
+      <pubDate>Thu, 05 Jan 2023 00:43:52 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2022</title>
+      <link>https://www.frytea.com/tags/2022/</link>
+      <pubDate>Mon, 02 Jan 2023 06:07:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2022/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://www.frytea.com/tags/google/</link>
+      <pubDate>Fri, 16 Dec 2022 00:35:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>微信</title>
+      <link>https://www.frytea.com/tags/%E5%BE%AE%E4%BF%A1/</link>
+      <pubDate>Fri, 09 Dec 2022 14:00:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E5%BE%AE%E4%BF%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>https://www.frytea.com/tags/openai/</link>
+      <pubDate>Tue, 06 Dec 2022 15:25:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cadvisor</title>
+      <link>https://www.frytea.com/tags/cadvisor/</link>
+      <pubDate>Fri, 02 Dec 2022 01:57:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cadvisor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grafana</title>
+      <link>https://www.frytea.com/tags/grafana/</link>
+      <pubDate>Fri, 02 Dec 2022 01:57:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node-Exporter</title>
+      <link>https://www.frytea.com/tags/node-exporter/</link>
+      <pubDate>Fri, 02 Dec 2022 01:57:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/node-exporter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>https://www.frytea.com/tags/mermaid/</link>
+      <pubDate>Thu, 24 Nov 2022 06:38:35 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JuicsFS</title>
+      <link>https://www.frytea.com/tags/juicsfs/</link>
+      <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/juicsfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nginx</title>
+      <link>https://www.frytea.com/tags/nginx/</link>
+      <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portainer</title>
+      <link>https://www.frytea.com/tags/portainer/</link>
+      <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/portainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kali</title>
+      <link>https://www.frytea.com/tags/kali/</link>
+      <pubDate>Tue, 08 Nov 2022 06:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/kali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RDP</title>
+      <link>https://www.frytea.com/tags/rdp/</link>
+      <pubDate>Tue, 08 Nov 2022 06:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rdp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xrdp</title>
+      <link>https://www.frytea.com/tags/xrdp/</link>
+      <pubDate>Tue, 08 Nov 2022 06:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/xrdp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arping</title>
+      <link>https://www.frytea.com/tags/arping/</link>
+      <pubDate>Mon, 07 Nov 2022 06:51:47 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/arping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UTM</title>
+      <link>https://www.frytea.com/tags/utm/</link>
+      <pubDate>Thu, 03 Nov 2022 16:23:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/utm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ventura</title>
+      <link>https://www.frytea.com/tags/ventura/</link>
+      <pubDate>Thu, 03 Nov 2022 16:23:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ventura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diff</title>
+      <link>https://www.frytea.com/tags/diff/</link>
+      <pubDate>Wed, 02 Nov 2022 02:19:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/diff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>https://www.frytea.com/tags/bash/</link>
+      <pubDate>Mon, 31 Oct 2022 09:49:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ovftool</title>
+      <link>https://www.frytea.com/tags/ovftool/</link>
+      <pubDate>Thu, 25 Aug 2022 03:59:10 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/ovftool/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vmware</title>
+      <link>https://www.frytea.com/tags/vmware/</link>
+      <pubDate>Thu, 25 Aug 2022 03:59:10 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>USB</title>
+      <link>https://www.frytea.com/tags/usb/</link>
+      <pubDate>Wed, 24 Aug 2022 10:04:46 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/usb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Win11</title>
+      <link>https://www.frytea.com/tags/win11/</link>
+      <pubDate>Mon, 15 Aug 2022 03:14:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/win11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Json</title>
+      <link>https://www.frytea.com/tags/json/</link>
+      <pubDate>Wed, 20 Apr 2022 02:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://www.frytea.com/tags/python/</link>
+      <pubDate>Wed, 20 Apr 2022 02:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://www.frytea.com/tags/shell/</link>
+      <pubDate>Wed, 20 Apr 2022 02:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ISO</title>
+      <link>https://www.frytea.com/tags/iso/</link>
+      <pubDate>Wed, 06 Apr 2022 06:22:49 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/iso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inotify</title>
+      <link>https://www.frytea.com/tags/inotify/</link>
+      <pubDate>Thu, 27 Jan 2022 01:35:37 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/inotify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiki</title>
+      <link>https://www.frytea.com/tags/wiki/</link>
+      <pubDate>Thu, 27 Jan 2022 01:25:31 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/wiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote-Viewer</title>
+      <link>https://www.frytea.com/tags/remote-viewer/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/remote-viewer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spice</title>
+      <link>https://www.frytea.com/tags/spice/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/spice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vier-Manager</title>
+      <link>https://www.frytea.com/tags/vier-manager/</link>
+      <pubDate>Tue, 25 Jan 2022 07:10:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vier-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2021</title>
+      <link>https://www.frytea.com/tags/2021/</link>
+      <pubDate>Sat, 01 Jan 2022 07:36:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2021/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WEB3</title>
+      <link>https://www.frytea.com/tags/web3/</link>
+      <pubDate>Fri, 31 Dec 2021 09:17:07 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/web3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>区块链</title>
+      <link>https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
+      <pubDate>Fri, 31 Dec 2021 09:17:07 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CDN</title>
+      <link>https://www.frytea.com/tags/cdn/</link>
+      <pubDate>Thu, 30 Dec 2021 12:11:59 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cdn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gitkraken</title>
+      <link>https://www.frytea.com/tags/gitkraken/</link>
+      <pubDate>Thu, 30 Dec 2021 01:31:05 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/gitkraken/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HASH</title>
+      <link>https://www.frytea.com/tags/hash/</link>
+      <pubDate>Thu, 23 Dec 2021 06:14:27 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/hash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeanCloud</title>
+      <link>https://www.frytea.com/tags/leancloud/</link>
+      <pubDate>Sun, 12 Dec 2021 14:48:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/leancloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>https://www.frytea.com/tags/react/</link>
+      <pubDate>Sun, 12 Dec 2021 14:48:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://www.frytea.com/tags/web/</link>
+      <pubDate>Sun, 12 Dec 2021 14:48:58 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>申威</title>
+      <link>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</link>
+      <pubDate>Wed, 10 Nov 2021 10:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deb</title>
+      <link>https://www.frytea.com/tags/deb/</link>
+      <pubDate>Thu, 28 Oct 2021 03:32:28 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/deb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deepin</title>
+      <link>https://www.frytea.com/tags/deepin/</link>
+      <pubDate>Thu, 28 Oct 2021 03:32:28 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/deepin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adsense</title>
+      <link>https://www.frytea.com/tags/adsense/</link>
+      <pubDate>Wed, 27 Oct 2021 16:21:06 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/adsense/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://www.frytea.com/tags/blog/</link>
+      <pubDate>Wed, 27 Oct 2021 16:10:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homebrew</title>
+      <link>https://www.frytea.com/tags/homebrew/</link>
+      <pubDate>Wed, 27 Oct 2021 16:08:29 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Init</title>
+      <link>https://www.frytea.com/tags/cloud-init/</link>
+      <pubDate>Tue, 12 Oct 2021 03:45:28 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cloud-init/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bullet Journa</title>
+      <link>https://www.frytea.com/tags/bullet-journa/</link>
+      <pubDate>Sat, 25 Sep 2021 15:40:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/bullet-journa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clash</title>
+      <link>https://www.frytea.com/tags/clash/</link>
+      <pubDate>Fri, 24 Sep 2021 02:53:26 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/clash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bullet Journal</title>
+      <link>https://www.frytea.com/tags/bullet-journal/</link>
+      <pubDate>Mon, 13 Sep 2021 14:41:50 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/bullet-journal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BJ-PFD</title>
+      <link>https://www.frytea.com/tags/bj-pfd/</link>
+      <pubDate>Thu, 09 Sep 2021 16:31:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/bj-pfd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libpcap</title>
+      <link>https://www.frytea.com/tags/libpcap/</link>
+      <pubDate>Tue, 07 Sep 2021 07:34:30 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/libpcap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>QEMU</title>
+      <link>https://www.frytea.com/tags/qemu/</link>
+      <pubDate>Fri, 03 Sep 2021 07:29:19 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/qemu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailwindcss</title>
+      <link>https://www.frytea.com/tags/tailwindcss/</link>
+      <pubDate>Sun, 08 Aug 2021 11:22:24 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/tailwindcss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NAS</title>
+      <link>https://www.frytea.com/tags/nas/</link>
+      <pubDate>Sun, 01 Aug 2021 15:36:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/nas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>StarUML</title>
+      <link>https://www.frytea.com/tags/staruml/</link>
+      <pubDate>Wed, 07 Apr 2021 13:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/staruml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UML</title>
+      <link>https://www.frytea.com/tags/uml/</link>
+      <pubDate>Wed, 07 Apr 2021 13:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/uml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2020</title>
+      <link>https://www.frytea.com/tags/2020/</link>
+      <pubDate>Fri, 01 Jan 2021 14:54:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2020/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esxi</title>
+      <link>https://www.frytea.com/tags/esxi/</link>
+      <pubDate>Fri, 04 Sep 2020 03:43:05 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/esxi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>破解</title>
+      <link>https://www.frytea.com/tags/%E7%A0%B4%E8%A7%A3/</link>
+      <pubDate>Fri, 14 Aug 2020 00:40:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E7%A0%B4%E8%A7%A3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://www.frytea.com/tags/android/</link>
+      <pubDate>Sat, 01 Feb 2020 07:34:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nextcloud</title>
+      <link>https://www.frytea.com/tags/nextcloud/</link>
+      <pubDate>Wed, 27 Nov 2019 02:34:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/nextcloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>哈利 · 波特</title>
+      <link>https://www.frytea.com/tags/%E5%93%88%E5%88%A9--%E6%B3%A2%E7%89%B9/</link>
+      <pubDate>Sun, 03 Nov 2019 08:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E5%93%88%E5%88%A9--%E6%B3%A2%E7%89%B9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>英语语法</title>
+      <link>https://www.frytea.com/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sat, 20 Jul 2019 08:12:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Onedrive</title>
+      <link>https://www.frytea.com/tags/onedrive/</link>
+      <pubDate>Mon, 06 May 2019 15:58:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/onedrive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vpn</title>
+      <link>https://www.frytea.com/tags/vpn/</link>
+      <pubDate>Fri, 12 Apr 2019 12:04:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rational_Rose</title>
+      <link>https://www.frytea.com/tags/rational_rose/</link>
+      <pubDate>Thu, 11 Apr 2019 14:34:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/rational_rose/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Win10</title>
+      <link>https://www.frytea.com/tags/win10/</link>
+      <pubDate>Thu, 11 Apr 2019 14:34:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/win10/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Api</title>
+      <link>https://www.frytea.com/tags/api/</link>
+      <pubDate>Sun, 17 Mar 2019 09:51:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Axios</title>
+      <link>https://www.frytea.com/tags/axios/</link>
+      <pubDate>Sun, 17 Mar 2019 09:51:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/axios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vue</title>
+      <link>https://www.frytea.com/tags/vue/</link>
+      <pubDate>Sun, 17 Mar 2019 09:51:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/vue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloudreve</title>
+      <link>https://www.frytea.com/tags/cloudreve/</link>
+      <pubDate>Fri, 15 Mar 2019 05:10:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/cloudreve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unsplash</title>
+      <link>https://www.frytea.com/tags/unsplash/</link>
+      <pubDate>Sat, 09 Mar 2019 03:53:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/unsplash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leaflet</title>
+      <link>https://www.frytea.com/tags/leaflet/</link>
+      <pubDate>Fri, 08 Mar 2019 16:29:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/leaflet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webstorm</title>
+      <link>https://www.frytea.com/tags/webstorm/</link>
+      <pubDate>Wed, 27 Feb 2019 02:01:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/webstorm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hexo</title>
+      <link>https://www.frytea.com/tags/hexo/</link>
+      <pubDate>Fri, 22 Feb 2019 07:51:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/hexo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webssh2</title>
+      <link>https://www.frytea.com/tags/webssh2/</link>
+      <pubDate>Thu, 21 Feb 2019 10:17:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/webssh2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://www.frytea.com/tags/markdown/</link>
+      <pubDate>Thu, 21 Feb 2019 07:46:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>记录</title>
+      <link>https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Thu, 21 Feb 2019 07:46:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/%E8%AE%B0%E5%BD%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arcgis</title>
       <link>https://www.frytea.com/tags/arcgis/</link>
-      <pubDate>Tue, 15 Jan 2019 17:46:00 +0000</pubDate>
-      
+      <pubDate>Tue, 15 Jan 2019 09:46:00 +0000</pubDate>
       <guid>https://www.frytea.com/tags/arcgis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>c/c&#43;&#43;</title>
-      <link>https://www.frytea.com/tags/c/c&#43;&#43;/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/tags/c/c&#43;&#43;/</guid>
+      <title>Shadowsocks</title>
+      <link>https://www.frytea.com/tags/shadowsocks/</link>
+      <pubDate>Sat, 12 Jan 2019 03:52:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/shadowsocks/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>2018</title>
+      <link>https://www.frytea.com/tags/2018/</link>
+      <pubDate>Tue, 04 Dec 2018 02:30:00 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/2018/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

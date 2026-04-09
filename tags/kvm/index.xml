@@ -5,128 +5,446 @@
     <link>https://www.frytea.com/tags/kvm/</link>
     <description>Recent content in KVM on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 01 May 2023 00:06:47 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 16:06:47 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>检查当前机器是不是虚拟机并确认底层虚拟化技术</title>
       <link>https://www.frytea.com/archives/776/</link>
-      <pubDate>Mon, 01 May 2023 00:06:47 +0000</pubDate>
-      
+      <pubDate>Sun, 30 Apr 2023 16:06:47 +0000</pubDate>
       <guid>https://www.frytea.com/archives/776/</guid>
-      <description>要确定当前运行的系统是否在虚拟机（VM）中，并了解底层虚拟化技术，可以使用一些命令和工具进行检查。以下是几种方法： 使用 dmidecode 命令： dmidecode 是一个用于获</description>
+      <description>&lt;p&gt;要确定当前运行的系统是否在虚拟机（VM）中，并了解底层虚拟化技术，可以使用一些命令和工具进行检查。以下是几种方法：&lt;/p&gt;
+&lt;p&gt;使用 dmidecode 命令：
+dmidecode 是一个用于获取 BIOS、系统、主板和处理器信息的工具。要使用 dmidecode，请确保您已安装它。然后，可以运行以下命令：&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</link>
-      <pubDate>Mon, 06 Dec 2021 14:10:11 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/qemu-kvm-and-virsh-concept-guide/</guid>
-      <description>一次搞懂 qemu、kvm、virsh 区别.</description>
-    </item>
-    
     <item>
       <title>QEMU 编译报错 undefined reference to g_app_info_launch_default_for_uri_finish 解决过程</title>
       <link>https://www.frytea.com/archives/560/</link>
-      <pubDate>Fri, 20 Aug 2021 11:56:31 +0000</pubDate>
-      
+      <pubDate>Fri, 20 Aug 2021 03:56:31 +0000</pubDate>
       <guid>https://www.frytea.com/archives/560/</guid>
-      <description>编译 QEMU 时报如下错误： /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_finish&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_check_instance_is_fundamentally_a&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_app_info_launch_default_for_uri_async&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_strv_contains&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_type&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_drive_is_removable&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_application_get_resource_base_path&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_log_structured_standard&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_get_instance_count&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_n_items&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_file_enumerator_iterate&amp;#39; /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_param_spec_get_name_quark&amp;#39;</description>
+      <description>&lt;p&gt;编译 QEMU 时报如下错误：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_app_info_launch_default_for_uri_finish&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_type_check_instance_is_fundamentally_a&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_app_info_launch_default_for_uri_async&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_strv_contains&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_list_model_get_type&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_drive_is_removable&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_application_get_resource_base_path&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_log_structured_standard&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_type_get_instance_count&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_list_model_get_n_items&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_file_enumerator_iterate&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libgtk-3.so: undefined reference to `g_param_spec_get_name_quark&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/lib/gcc/x86_64-redhat-linux/&lt;span style=&#34;color:#ae81ff&#34;&gt;4.8&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;/../../../../lib64/libgtk-&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;.so&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; undefined reference to `g_list_model_get_item&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;collect2&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; error&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; ld returned &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; exit status
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; *** [qemu-system-x86_64] Error &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; *** [subdir-x86_64-softmmu] Error &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;先看一下报错的动态链接库依赖了哪些库：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>virt-manager 启动提示 virt qemu-sock no such file or directory</title>
-      <link>https://www.frytea.com/archives/virt/548/</link>
-      <pubDate>Fri, 09 Jul 2021 18:08:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/548/</guid>
-      <description>检查后应该是 virtqemud 服务没起来导致的，编译安装默认生成的服务路径在 /usr/local/* 下，而我们指定了安装在默认位置 /usr ，参考 systemd 无法启动的解决方法即可解决该问题。 首先</description>
+      <link>https://www.frytea.com/archives/548/</link>
+      <pubDate>Fri, 09 Jul 2021 10:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/548/</guid>
+      <description>&lt;p&gt;检查后应该是 &lt;code&gt;virtqemud&lt;/code&gt; 服务没起来导致的，编译安装默认生成的服务路径在 &lt;code&gt;/usr/local/*&lt;/code&gt; 下，而我们指定了安装在默认位置 &lt;code&gt;/usr&lt;/code&gt; ，参考 systemd 无法启动的解决方法即可解决该问题。&lt;/p&gt;
+&lt;p&gt;首先看一下 &lt;code&gt;/usr/sbin/virtqemud&lt;/code&gt; 这个文件是存在的，下面继续操作，首先使能该服务。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux虚拟化入门（五）KVM 管理命令指南</title>
       <link>https://www.frytea.com/archives/543/</link>
-      <pubDate>Mon, 05 Jul 2021 15:04:46 +0000</pubDate>
-      
+      <pubDate>Mon, 05 Jul 2021 07:04:46 +0000</pubDate>
       <guid>https://www.frytea.com/archives/543/</guid>
-      <description>qemu-img是QEMU的磁盘管理工具 格式: qemu-img command [command options] command： check 对磁盘镜像文件进行一致性检查，查找镜像文件中的错误 create 创建一个可以指定</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;qemu-img&lt;/code&gt;是QEMU的磁盘管理工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;格式: qemu-img command &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;command options&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command：
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		check 						   对磁盘镜像文件进行一致性检查，查找镜像文件中的错误
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		create 						   创建一个可以指定格式、大小、名称的镜像文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		convert 					   镜像文件格式转换
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		info 						   展示镜像文件的信息
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;virsh&lt;/code&gt; kvm虚拟机管理工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;root@node1 ~&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# virsh help&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;command：
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Domain Management &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;domain&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    attach-device                  从一个XML文件附加装置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    attach-disk                    附加磁盘设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    attach-interface               获得网络界面
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    autostart                      自动开始一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blkdeviotune                   设定或者查询块设备 I/O 调节参数。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blkiotune                      获取或者数值 blkio 参数
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blockcommit                    启动块提交操作。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blockcopy                      启动块复制操作。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blockjob                       管理活跃块操作
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blockpull                      使用其后端映像填充磁盘。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    blockresize                    创新定义域块设备大小
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    change-media                   更改 CD 介质或者软盘驱动器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    console                        连接到客户会话
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cpu-stats                      显示域 cpu 统计数据
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    create                         从一个 XML 文件创建一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    define                         从一个 XML 文件定义（但不开始）一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    desc                           显示或者设定域描述或者标题
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    destroy                        销毁（停止）域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    detach-device                  从一个 XML 文件分离设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    detach-device-alias            detach device from an alias
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    detach-disk                    分离磁盘设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    detach-interface               分离网络界面
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domdisplay                     域显示连接 URI
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domfsfreeze                    Freeze domain&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s mounted filesystems.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domfsthaw                      Thaw domain&amp;#39;&lt;/span&gt;s mounted filesystems.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domfsinfo                      Get information of domain&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s mounted filesystems.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domfstrim                      在域挂载的文件系统中调用 fstrim。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domhostname                    输出域主机名
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domid                          把一个域名或 UUID 转换为域 id
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domif-setlink                  设定虚拟接口的链接状态
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domiftune                      获取/设定虚拟接口参数
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domjobabort                    忽略活跃域任务
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domjobinfo                     域任务信息
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domname                        将域 id 或 UUID 转换为域名
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domrename                      rename a domain
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    dompmsuspend                   使用电源管理功能挂起域
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    dompmwakeup                    从 pmsuspended 状态唤醒域
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domuuid                        把一个域名或 id 转换为域 UUID
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domxml-from-native             将原始配置转换为域 XML
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domxml-to-native               将域 XML 转换为原始配置
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    dump                           把一个域的内核 dump 到一个文件中以方便分析
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    dumpxml                        XML 中的域信息
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    edit                           编辑某个域的 XML 配置
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    event                          Domain Events
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    inject-nmi                     在虚拟机中输入 NMI
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    iothreadinfo                   view domain IOThreads
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    iothreadpin                    control domain IOThread affinity
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    iothreadadd                    add an IOThread to the guest domain
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    iothreaddel                    delete an IOThread from the guest domain
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    send-key                       向虚拟机发送序列号
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    send-process-signal            向进程发送信号
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    lxc-enter-namespace            LXC 虚拟机进入名称空间
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    managedsave                    管理域状态的保存
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    managedsave-remove             删除域的管理保存
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    managedsave-edit               edit XML for a domain&amp;#39;&lt;/span&gt;s managed save state file
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    managedsave-dumpxml            Domain information of managed save state file in XML
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    managedsave-define             redefine the XML &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; a domain&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s managed save state file
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    memtune                        获取或者数值内存参数
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    perf                           Get or set perf event
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    metadata                       show or set domain&amp;#39;&lt;/span&gt;s custom XML metadata
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate                        将域迁移到另一个主机中
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-setmaxdowntime         设定最大可耐受故障时间
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-getmaxdowntime         get maximum tolerable downtime
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-compcache              获取/设定压缩缓存大小
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-setspeed               设定迁移带宽的最大值
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-getspeed               获取最长迁移带宽
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    migrate-postcopy               Switch running migration from pre-copy to post-copy
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    numatune                       获取或者数值 numa 参数
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    qemu-attach                    QEMU 附加
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    qemu-monitor-command           QEMU 监控程序命令
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    qemu-monitor-event             QEMU Monitor Events
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    qemu-agent-command             QEMU 虚拟机代理命令
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    reboot                         重新启动一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    reset                          重新设定域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    restore                        从一个存在一个文件中的状态恢复一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    resume                         重新恢复一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    save                           把一个域的状态保存到一个文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    save-image-define              为域的保存状态文件重新定义 XML
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    save-image-dumpxml             在 XML 中保存状态域信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    save-image-edit                为域保存状态文件编辑 XML
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    schedinfo                      显示/设置日程安排变量
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    screenshot                     提取当前域控制台快照并保存到文件中
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    set-lifecycle-action           change lifecycle actions
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    set-user-password              set the user password inside the domain
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    setmaxmem                      改变最大内存限制值
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    setmem                         改变内存的分配
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    setvcpus                       改变虚拟 CPU 的号
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    shutdown                       关闭一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    start                          开始一个（以前定义的）非活跃的域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    suspend                        挂起一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ttyconsole                     tty 控制台
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    undefine                       取消定义一个域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    update-device                  从 XML 文件中关系设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vcpucount                      域 vcpu 计数
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vcpuinfo                       详细的域 vcpu 信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vcpupin                        控制或者查询域 vcpu 亲和性
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    emulatorpin                    控制火车查询域模拟器亲和性
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vncdisplay                     vnc 显示
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    guestvcpus                     query or modify state of vcpu in the guest &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;via agent&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    setvcpu                        attach/detach vcpu or groups of threads
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domblkthreshold                set the threshold &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; block-threshold event &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; a given block device or it&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s backing chain element
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; Domain Monitoring (help keyword &amp;#39;&lt;/span&gt;monitor&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;):
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domblkerror                    在块设备中显示错误
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domblkinfo                     域块设备大小信息
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domblklist                     列出所有域块
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domblkstat                     获得域设备块状态
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domcontrol                     域控制接口状态
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domif-getlink                  获取虚拟接口链接状态
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    domifaddr                      Get network interfaces&amp;#39;&lt;/span&gt; addresses &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; a running domain
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domiflist                      列出所有域虚拟接口
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domifstat                      获得域网络接口状态
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dominfo                        域信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dommemstat                     获取域的内存统计
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domstate                       域状态
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domstats                       get statistics about one or multiple domains
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domtime                        domain time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    list                           列出域
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Host and Hypervisor &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    allocpages                     Manipulate pages pool size
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    capabilities                   性能
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cpu-baseline                   计算基线 CPU
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cpu-compare                    使用 XML 文件中描述的 CPU 与主机 CPU 进行对比
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cpu-models                     CPU models
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    domcapabilities                domain capabilities
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    freecell                       NUMA可用内存
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    freepages                      NUMA free pages
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    hostname                       打印管理程序主机名
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    hypervisor-cpu-baseline        compute baseline CPU usable by a specific hypervisor
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    hypervisor-cpu-compare         compare a CPU with the CPU created by a hypervisor on the host
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    maxvcpus                       连接 vcpu 最大值
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    node-memory-tune               获取或者设定节点内存参数
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodecpumap                     节点 cpu 映射
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodecpustats                   输出节点的 cpu 状统计数据。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodeinfo                       节点信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodememstats                   输出节点的内存状统计数据。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodesuspend                    在给定时间段挂起主机节点
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sysinfo                        输出 hypervisor sysinfo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    uri                            打印管理程序典型的URI
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    version                        显示版本
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Interface &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;interface&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-begin                    生成当前接口设置快照，可在今后用于提交 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;iface-commit&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; 或者恢复 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;iface-rollback&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-bridge                   生成桥接设备并为其附加一个现有网络设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-commit                   提交 iface-begin 后的更改并释放恢复点
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-define                   define an inactive persistent physical host interface or modify an existing persistent one from an XML file
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-destroy                  删除物理主机接口（启用它请执行 &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;if-down&amp;#34;&lt;/span&gt;）
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-dumpxml                  XML 中的接口信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-edit                     为物理主机界面编辑 XML 配置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-list                     物理主机接口列表
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-mac                      将接口名称转换为接口 MAC 地址
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-name                     将接口 MAC 地址转换为接口名称
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-rollback                 恢复到之前保存的使用 iface-begin 生成的更改
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-start                    启动物理主机接口（启用它请执行 &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;if-up&amp;#34;&lt;/span&gt;）
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-unbridge                 分离其辅助设备后取消定义桥接设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    iface-undefine                 取消定义物理主机接口（从配置中删除）
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Network Filter &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;filter&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-define                使用 XML 文件定义或者更新网络过滤器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-dumpxml               XML 中的网络过滤器信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-edit                  为网络过滤器编辑 XML 配置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-list                  列出网络过滤器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-undefine              取消定义网络过滤器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-binding-create        create a network filter binding from an XML file
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-binding-delete        delete a network filter binding
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-binding-dumpxml       XML 中的网络过滤器信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nwfilter-binding-list          list network filter bindings
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Networking &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;network&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-autostart                  自动开始网络
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-create                     从一个 XML 文件创建一个网络
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-define                     define an inactive persistent virtual network or modify an existing persistent one from an XML file
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-destroy                    销毁（停止）网络
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-dhcp-leases                print lease info &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; a given network
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-dumpxml                    XML 中的网络信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-edit                       为网络编辑 XML 配置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-event                      Network Events
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-info                       网络信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-list                       列出网络
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-name                       把一个网络UUID 转换为网络名
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-start                      开始一个&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;以前定义的&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;不活跃的网络
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-undefine                   undefine a persistent network
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-update                     更新现有网络配置的部分
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    net-uuid                       把一个网络名转换为网络UUID
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Node Device &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;nodedev&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-create                 根据节点中的 XML 文件定义生成设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-destroy                销毁（停止）节点中的设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-detach                 将节点设备与其设备驱动程序分离
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-dumpxml                XML 中的节点设备详情
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-list                   这台主机中中的枚举设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-reattach               重新将节点设备附加到他的设备驱动程序中
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-reset                  重置节点设备
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    nodedev-event                  Node Device Events
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Secret &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;secret&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-define                  定义或者修改 XML 中的 secret
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-dumpxml                 XML 中的 secret 属性
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-event                   Secret Events
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-get-value               secret 值输出
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-list                    列出 secret
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-set-value               设定 secret 值
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    secret-undefine                取消定义 secret
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Snapshot &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;snapshot&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-create                使用 XML 生成快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-create-as             使用一组参数生成快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-current               获取或者设定当前快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-delete                删除域快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-dumpxml               为域快照转储 XML
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-edit                  编辑快照 XML
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-info                  快照信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-list                  为域列出快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-parent                获取快照的上级快照名称
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    snapshot-revert                将域转换为快照
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Storage Pool &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;pool&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    find-storage-pool-sources-as   找到潜在存储池源
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    find-storage-pool-sources      发现潜在存储池源
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-autostart                 自动启动某个池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-build                     建立池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-create-as                 从一组变量中创建一个池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-create                    从一个 XML 文件中创建一个池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-define-as                 在一组变量中定义池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-define                    define an inactive persistent storage pool or modify an existing persistent one from an XML file
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-delete                    删除池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-destroy                   销毁（删除）池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-dumpxml                   XML 中的池信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-edit                      为存储池编辑 XML 配置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-info                      存储池信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-list                      列出池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-name                      将池 UUID 转换为池名称
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-refresh                   刷新池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-start                     启动一个（以前定义的）非活跃的池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-undefine                  取消定义一个不活跃的池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-uuid                      把一个池名称转换为池 UUID
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pool-event                     Storage Pool Events
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Storage Volume &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;volume&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-clone                      克隆卷。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-create-as                  从一组变量中创建卷
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-create                     从一个 XML 文件创建一个卷
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-create-from                生成卷，使用另一个卷作为输入。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-delete                     删除卷
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-download                   将卷内容下载到文件中
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-dumpxml                    XML 中的卷信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-info                       存储卷信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-key                        为给定密钥或者路径返回卷密钥
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-list                       列出卷
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-name                       为给定密钥或者路径返回卷名
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-path                       为给定密钥或者路径返回卷路径
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-pool                       为给定密钥或者路径返回存储池
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-resize                     创新定义卷大小
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-upload                     将文件内容上传到卷中
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vol-wipe                       擦除卷
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; Virsh itself &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;help keyword &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;virsh&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cd                             更改当前目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo                           echo 参数
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    exit                           退出这个非交互式终端
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    help                           打印帮助
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pwd                            输出当前目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    quit                           退出这个非交互式终端
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    connect                        连接（重新连接）到 hypervisor
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/csdnlb/article/details/105080300&#34;&gt;KVM-virsh学习(虚拟机磁盘管理)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/qiuhom-1874/p/13508231.html&#34;&gt;虚拟化技术之kvm管理工具virsh常用基础命令（一）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Linux虚拟化入门（四）KVM 创建一个 Centos 实例</title>
       <link>https://www.frytea.com/archives/542/</link>
-      <pubDate>Mon, 05 Jul 2021 15:04:00 +0000</pubDate>
-      
+      <pubDate>Mon, 05 Jul 2021 07:04:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/542/</guid>
-      <description>前提条件 完整 KVM 环境 Centos 镜像 步骤 第一步、创建磁盘 qemu-img create -f qcow2 centos_kvm1.qcow2 16G 第二步、安装虚拟机 virt-install \ --virt-type=kvm \ --name=centos-kvm \ --hvm \ --vcpus=1 \ --memory=1024 \ --cdrom=/srv/kvm/CentOS-7-x86_64-Minimal-1810.iso \ --disk path=/srv/kvm/centos_kvm1.qcow2,size=16,format=qcow2 \ --graphics vnc,password=kvm,listen=::,port=5911 \ --network bridge=virbr0 \ --autostart \ --force 安装成功后使用</description>
+      <description>&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;完整 KVM 环境&lt;/li&gt;
+&lt;li&gt;Centos 镜像&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;第一步、创建磁盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-img create -f qcow2 centos_kvm1.qcow2 16G
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;第二步、安装虚拟机&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;virt-install &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--virt-type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;kvm &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;centos-kvm &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--hvm &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--vcpus&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--memory&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1024&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--cdrom&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/srv/kvm/CentOS-7-x86_64-Minimal-1810.iso &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--disk path&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/srv/kvm/centos_kvm1.qcow2,size&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;16,format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;qcow2 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--graphics vnc,password&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;kvm,listen&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;::,port&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;5911&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--network bridge&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;virbr0 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--autostart &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装成功后使用任意一个可以访问KVM宿主机的带有桌面的设备上的 VNC viewer 进入 &lt;code&gt;YourIp:5911&lt;/code&gt; 输入密码 &lt;code&gt;kvm&lt;/code&gt; 就可以进入虚拟机，然后继续安装了。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Linux虚拟化入门（三）Fedora 安装 KVM 管理环境</title>
       <link>https://www.frytea.com/archives/541/</link>
-      <pubDate>Mon, 05 Jul 2021 15:03:00 +0000</pubDate>
-      
+      <pubDate>Mon, 05 Jul 2021 07:03:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/541/</guid>
-      <description>部署步骤 第一步、检查环境要求 使用如下命令检查您的 CPU 是否支持虚拟化： $ egrep &#39;^flags.*(vmx|svm)&#39; /proc/cpuinfo 如果没有任何输出，则说明您的系统不支持相关扩展功能。您仍然可以使用</description>
+      <description>&lt;h2 id=&#34;部署步骤&#34;&gt;部署步骤&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;第一步、&lt;strong&gt;检查环境要求&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用如下命令检查您的 CPU 是否支持虚拟化：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ egrep &amp;#39;^flags.*(vmx|svm)&amp;#39; /proc/cpuinfo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果没有&lt;strong&gt;任何&lt;/strong&gt;输出，则说明您的系统不支持相关扩展功能。您仍然可以使用 QEMU/KVM ，但是虚拟将只能使用软件虚拟化（想当慢）。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Linux虚拟化入门（一）Qemu，KVM，Virsh 概念指南</title>
-      <link>https://www.frytea.com/archives/539/</link>
-      <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/539/</guid>
-      <description>当你安装了一台Linux，想启动一个KVM虚拟机的时候，你会发现需要安装不同的软件，启动虚拟机的时候，有多种方法： virsh start kvm命令 qemu命令</description>
-    </item>
-    
     <item>
       <title>Linux虚拟化入门（二）Hyper-V 开启 KVM 嵌套虚拟化</title>
       <link>https://www.frytea.com/archives/540/</link>
-      <pubDate>Mon, 05 Jul 2021 15:02:00 +0000</pubDate>
-      
+      <pubDate>Mon, 05 Jul 2021 07:02:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/540/</guid>
-      <description>日常办公使用 Windows 平台，需要研究 KVM 的使用，此时就需要在 Windows 提供的 Hyper-V 工具运行 Linux 虚拟机来测试 KVM 相关的使用，但是在 Hyper-V 虚拟机中再次运行 KVM 虚拟化属于嵌套虚拟</description>
+      <description>&lt;p&gt;日常办公使用 Windows 平台，需要研究 KVM 的使用，此时就需要在 Windows 提供的 Hyper-V 工具运行 Linux 虚拟机来测试 KVM 相关的使用，但是在 Hyper-V 虚拟机中再次运行 KVM 虚拟化属于嵌套虚拟化，需要开启相关功能。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Linux虚拟化入门（一）Qemu，KVM，Virsh 概念指南</title>
+      <link>https://www.frytea.com/archives/539/</link>
+      <pubDate>Mon, 05 Jul 2021 07:02:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/539/</guid>
+      <description>&lt;p&gt;当你安装了一台Linux，想启动一个KVM虚拟机的时候，你会发现需要安装不同的软件，启动虚拟机的时候，有多种方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;virsh start&lt;/li&gt;
+&lt;li&gt;kvm命令&lt;/li&gt;
+&lt;li&gt;qemu命令&lt;/li&gt;
+&lt;li&gt;qemu-kvm命令&lt;/li&gt;
+&lt;li&gt;qemu-system-x86_64命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;qemu&#34;&gt;QEMU&lt;/h2&gt;
+&lt;p&gt;首先看qemu，其中关键字emu，全称emulator，模拟器，所以单纯使用qemu是采用的&lt;strong&gt;完全虚拟化&lt;/strong&gt;的模式。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kvm 虚拟机安装 OnlyOffice</title>
       <link>https://www.frytea.com/archives/272/</link>
-      <pubDate>Sun, 01 Dec 2019 19:22:00 +0000</pubDate>
-      
+      <pubDate>Sun, 01 Dec 2019 11:22:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/272/</guid>
-      <description>OnlyOffice OnlyOffice 是一个开源的办公套件，由 Ascensio System SIA 公司开发，提供了在线文档编辑、文档管理、文档协作、邮件和项目管理等功能。(WikiPedia) 打开官网可以</description>
+      <description>&lt;h2 id=&#34;onlyoffice&#34;&gt;OnlyOffice&lt;/h2&gt;
+&lt;p&gt;OnlyOffice 是一个开源的办公套件，由 Ascensio System SIA 公司开发，提供了在线文档编辑、文档管理、文档协作、邮件和项目管理等功能。(WikiPedia)&lt;/p&gt;
+&lt;p&gt;打开官网可以看到 OnlyOffice 提供企业版、高校版等多个收费版本，在这里我们安装开源免费的 &lt;a href=&#34;https://www.onlyoffice.com/zh/download.aspx&#34;&gt;社区版&lt;/a&gt;。社区版提供多种安装方式，在这里我们选择&lt;code&gt;使用官方ONLYOFFICE Docker容器安装ONLYOFFICE社区版及其正常运行所需的全部依赖项&lt;/code&gt;。旨在最大程度的重现官方建议的环境节约时间。请注意，官方建议安装环境为 &lt;code&gt;2C/6G/40GB&lt;/code&gt; 。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
       <link>https://www.frytea.com/archives/266/</link>
-      <pubDate>Thu, 28 Nov 2019 16:20:00 +0000</pubDate>
-      
+      <pubDate>Thu, 28 Nov 2019 08:20:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/266/</guid>
-      <description>GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 Wi</description>
+      <description>&lt;p&gt;GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 WikiPedia）。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title> kvm 虚拟化安装 Ubuntu 18.04 server</title>
       <link>https://www.frytea.com/archives/262/</link>
-      <pubDate>Sat, 23 Nov 2019 10:37:00 +0000</pubDate>
-      
+      <pubDate>Sat, 23 Nov 2019 02:37:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/262/</guid>
-      <description>本文续上篇 《裸金属服务器 kvm 虚拟化安装 win10》继续记录使用 KVM 在 Centos 7.5 裸金属服务器上安装 Ubuntu 18.04 Server的过程及遇到的问题。 资源准备 首先要配置</description>
+      <description>&lt;p&gt;本文续上篇 &lt;a href=&#34;https://blog.frytea.com/archives/261/&#34;&gt;《裸金属服务器 kvm 虚拟化安装 win10》&lt;/a&gt;继续记录使用 &lt;code&gt;KVM&lt;/code&gt; 在 &lt;code&gt;Centos 7.5&lt;/code&gt; 裸金属服务器上安装 &lt;code&gt;Ubuntu 18.04 Server&lt;/code&gt;的过程及遇到的问题。&lt;/p&gt;
+&lt;h2 id=&#34;资源准备&#34;&gt;资源准备&lt;/h2&gt;
+&lt;p&gt;首先要配置好 &lt;code&gt;KVM&lt;/code&gt; 环境，上文已经详细说明，磁盘配置类似的使用 &lt;code&gt;qemu-img create -f qcow2 ubuntu.qcow2 100G &lt;/code&gt; 命令创建虚拟磁盘，系统镜像可以去官网下载:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>裸金属服务器kvm虚拟化安装win10</title>
       <link>https://www.frytea.com/archives/261/</link>
-      <pubDate>Thu, 21 Nov 2019 16:39:00 +0000</pubDate>
-      
+      <pubDate>Thu, 21 Nov 2019 08:39:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/261/</guid>
-      <description>受够了小鸡的各种卡顿以及各种套路，就想要一只&amp;quot;大鸡&amp;quot;，趁着双十一的余热购入达州创梦网络的江苏宿迁高防裸金属服务器（一种集</description>
+      <description>&lt;p&gt;受够了小鸡的各种卡顿以及各种套路，就想要一只&amp;quot;大鸡&amp;quot;，趁着双十一的余热购入&lt;a href=&#34;https://www.dzisp.cn&#34;&gt;达州创梦网络&lt;/a&gt;的&lt;a href=&#34;https://www.dzisp.cn/baremetal/&#34;&gt;江苏宿迁高防裸金属服务器&lt;/a&gt;（一种集合了虚拟机和物理机优点的产物），本人没有使用或配置过独立服务器，不过多评价。但和普通的 VPS 相比，裸金属服务器属于物理服务器，我的数据和其他用户数据做到了物理隔离，同时服务器本身是支持二次虚拟化的。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

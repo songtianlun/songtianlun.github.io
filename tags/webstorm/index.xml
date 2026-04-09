@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>webstorm on Frytea</title>
+    <title>Webstorm on Frytea</title>
     <link>https://www.frytea.com/tags/webstorm/</link>
-    <description>Recent content in webstorm on Frytea</description>
+    <description>Recent content in Webstorm on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 27 Feb 2019 10:01:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/webstorm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jul 2019 12:06:21 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/webstorm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebStorm中使用Git同步代码到Github</title>
       <link>https://www.frytea.com/archives/47/</link>
-      <pubDate>Wed, 27 Feb 2019 10:01:00 +0000</pubDate>
-      
+      <pubDate>Wed, 27 Feb 2019 02:01:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/47/</guid>
-      <description>WebStorm下配置GitHub实现代码同步 项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现</description>
+      <description>&lt;h1 id=&#34;webstorm下配置github实现代码同步&#34;&gt;WebStorm下配置GitHub实现代码同步&lt;/h1&gt;
+&lt;p&gt;项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现代码云端存储等，方便自己也方便大家！下面记录一下自己配置webstorm同步github的过程，仅供参考。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

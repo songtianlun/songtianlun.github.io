@@ -5,20 +5,21 @@
     <link>https://www.frytea.com/tags/win11/</link>
     <description>Recent content in Win11 on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Aug 2022 11:14:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/win11/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 03:15:05 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/win11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win11 手动调整任务栏大小 ｜ 定制任务栏 2022</title>
       <link>https://www.frytea.com/archives/631/</link>
-      <pubDate>Mon, 15 Aug 2022 11:14:00 +0000</pubDate>
-      
+      <pubDate>Mon, 15 Aug 2022 03:14:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/631/</guid>
-      <description>最近自己的 MacBook Air M1 资源吃紧，干起活来常常被内存拖累。 虽然平时都是远程开发，但终端一多，网页一多，很容易达到性能瓶颈导致工作效率下降。于是心生一</description>
+      <description>&lt;p&gt;最近自己的 MacBook Air M1 资源吃紧，干起活来常常被内存拖累。&lt;/p&gt;
+&lt;p&gt;虽然平时都是远程开发，但终端一多，网页一多，很容易达到性能瓶颈导致工作效率下降。于是心生一计，在计算资源较充足的开发服务器上开一台高性能的桌面虚拟机，恰好此前一直没有使用过 Win11，趁此机会体验一下。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

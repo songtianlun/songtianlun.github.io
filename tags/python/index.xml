@@ -1,69 +1,85 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on Frytea</title>
+    <title>Python on Frytea</title>
     <link>https://www.frytea.com/tags/python/</link>
-    <description>Recent content in python on Frytea</description>
+    <description>Recent content in Python on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 20 Apr 2022 10:11:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 02:15:26 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shell 中格式化显示 json 字符串</title>
       <link>https://www.frytea.com/archives/629/</link>
-      <pubDate>Wed, 20 Apr 2022 10:11:00 +0000</pubDate>
-      
+      <pubDate>Wed, 20 Apr 2022 02:11:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/629/</guid>
-      <description>有时需要在终端环境中查看 json 数据，比如使用 curl 调试接口时。直接看到的 json 数据是类似这样的： $ echo &amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39; {&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;} 如果想要以更直观的方式格式化显示 json 数</description>
+      <description>&lt;p&gt;有时需要在终端环境中查看 json 数据，比如使用 &lt;code&gt;curl&lt;/code&gt;  调试接口时。直接看到的 json 数据是类似这样的：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lorem&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bar&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ipsum&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果想要以更直观的方式格式化显示 json 数据，可以利用 &lt;code&gt;python3&lt;/code&gt; 提供的标准库 &lt;code&gt;json&lt;/code&gt; 来实现：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Python 传值 or 传引用</title>
       <link>https://www.frytea.com/archives/622/</link>
-      <pubDate>Wed, 19 Jan 2022 09:11:11 +0000</pubDate>
-      
+      <pubDate>Wed, 19 Jan 2022 01:11:11 +0000</pubDate>
       <guid>https://www.frytea.com/archives/622/</guid>
-      <description>先说结论：python不允许程序员选择采用传值还是传引用。 如果函数收到的是一个 可变对象 （比如 字典 或者 列表 ）的引用，就能修改对象的原始值－－相</description>
+      <description>&lt;p&gt;先说结论：python不允许程序员选择采用传值还是传引用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果函数收到的是一个 &lt;strong&gt;可变对象&lt;/strong&gt; （比如 &lt;strong&gt;字典&lt;/strong&gt; 或者 &lt;strong&gt;列表&lt;/strong&gt; ）的引用，就能修改对象的原始值－－相当于通过“&lt;strong&gt;传引用&lt;/strong&gt;”来传递对象。&lt;/li&gt;
+&lt;li&gt;如果函数收到的是一个 &lt;strong&gt;不可变对象&lt;/strong&gt; （比如 &lt;strong&gt;数字&lt;/strong&gt; 、 &lt;strong&gt;字符&lt;/strong&gt; 或者 &lt;strong&gt;元组&lt;/strong&gt; ）的引用，就不能直接修改原始对象－－相当于通过“&lt;strong&gt;传值&lt;/strong&gt;&amp;lsquo;来传递对象。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在函数传值，或函数内部函数引用外部变量时，基本符合这个逻辑，比如：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Python 二进制结构化数据处理和封装</title>
       <link>https://www.frytea.com/archives/621/</link>
-      <pubDate>Mon, 17 Jan 2022 16:04:48 +0000</pubDate>
-      
+      <pubDate>Mon, 17 Jan 2022 08:04:48 +0000</pubDate>
       <guid>https://www.frytea.com/archives/621/</guid>
-      <description>当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 struct 这个模块提供的方法。 详细方法可以查看 官方教程</description>
+      <description>&lt;p&gt;当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 &lt;code&gt;struct&lt;/code&gt; 这个模块提供的方法。&lt;/p&gt;
+&lt;p&gt;详细方法可以查看 &lt;a href=&#34;https://docs.python.org/zh-cn/3/library/struct.html&#34;&gt;官方教程&lt;/a&gt;，这里以 &lt;code&gt;perl&lt;/code&gt; 的 &lt;code&gt;pack&lt;/code&gt; 作为对比，使用 python 实现类似 perl 数据打包的效果。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
       <link>https://www.frytea.com/archives/610/</link>
-      <pubDate>Mon, 27 Dec 2021 14:15:49 +0000</pubDate>
-      
+      <pubDate>Mon, 27 Dec 2021 06:15:49 +0000</pubDate>
       <guid>https://www.frytea.com/archives/610/</guid>
-      <description>问题重现 在一次简单的代码合并后，发现 Python 项目跑不起来了，报错如下： ssh://root@192.168.226.76:22/usr/bin/python3 -B -u /tmp/pycharm_project_882/mimic_daemon_server/helper_main.py Traceback (most recent call last): File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/helper_main.py&amp;#34;, line 1, in &amp;lt;module&amp;gt; from mimic_daemon_server import create_app File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/__init__.py&amp;#34;, line 14, in &amp;lt;module&amp;gt; from mimic_daemon_server.nodes import nodes File &amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/nodes/__init__.py&amp;#34;, line 2, in &amp;lt;module&amp;gt; from . import</description>
+      <description>&lt;h2 id=&#34;问题重现&#34;&gt;问题重现&lt;/h2&gt;
+&lt;p&gt;在一次简单的代码合并后，发现 Python 项目跑不起来了，报错如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh://root@192.168.226.76:22/usr/bin/python3 -B -u /tmp/pycharm_project_882/mimic_daemon_server/helper_main.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Traceback &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;most recent call last&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/helper_main.py&amp;#34;&lt;/span&gt;, line 1, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from mimic_daemon_server import create_app
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/__init__.py&amp;#34;&lt;/span&gt;, line 14, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from mimic_daemon_server.nodes import nodes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/nodes/__init__.py&amp;#34;&lt;/span&gt;, line 2, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from . import route
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/nodes/route.py&amp;#34;&lt;/span&gt;, line 5, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from mimic_daemon_server.guest_common import ReplicationConfig
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/guest_common/__init__.py&amp;#34;&lt;/span&gt;, line 3, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from .abstract_config import AbstractConfig
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/guest_common/abstract_config.py&amp;#34;&lt;/span&gt;, line 16, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    import mimic_daemon_server.qemu_server.Drive
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/qemu_server/__init__.py&amp;#34;&lt;/span&gt;, line 25, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from .QemuConfig import QemuConfig
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/tmp/pycharm_project_882/mimic_daemon_server/qemu_server/QemuConfig.py&amp;#34;&lt;/span&gt;, line 12, in &amp;lt;module&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    from mimic_daemon_server.guest_common import AbstractConfig
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ImportError: cannot import name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;AbstractConfig&amp;#39;&lt;/span&gt; from &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mimic_daemon_server.guest_common&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/tmp/pycharm_project_882/mimic_daemon_server/guest_common/__init__.py&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;进程已结束,退出代码1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;由于我在 Python 领域还是个初学者，没有遇到类似问题，但是根据分析，问题应该是出在了 &lt;strong&gt;循环依赖&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/archives/python/resolve-python-loop-import/</link>
-      <pubDate>Mon, 27 Dec 2021 14:13:26 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/python/resolve-python-loop-import/</guid>
-      <description>记录一次定为解决 python 循环依赖问题。</description>
-    </item>
-    
     <item>
       <title>Python3下基于Scapy库完成网卡抓包解析</title>
       <link>https://www.frytea.com/archives/451/</link>
-      <pubDate>Mon, 07 Sep 2020 14:55:08 +0000</pubDate>
-      
+      <pubDate>Mon, 07 Sep 2020 06:55:08 +0000</pubDate>
       <guid>https://www.frytea.com/archives/451/</guid>
-      <description>Scapy是一个可以让用户发送、侦听和解析并伪装网络报文的Python程序。这些功能可以用于制作侦测、扫描和攻击网络的工具。 在 Python 代码中可以通</description>
+      <description>&lt;p&gt;Scapy是一个可以让用户发送、侦听和解析并伪装网络报文的Python程序。这些功能可以用于制作侦测、扫描和攻击网络的工具。&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;Python&lt;/code&gt; 代码中可以通过 &lt;code&gt;sniff&lt;/code&gt; 函数调用抓包分析，并对抓到的包进行回调操作。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>diff on Frytea</title>
+    <title>Diff on Frytea</title>
     <link>https://www.frytea.com/tags/diff/</link>
-    <description>Recent content in diff on Frytea</description>
+    <description>Recent content in Diff on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Nov 2022 10:19:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/diff/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2022 02:20:34 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/diff/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 使用 diff 分栏对比文本差异</title>
       <link>https://www.frytea.com/archives/640/</link>
-      <pubDate>Wed, 02 Nov 2022 10:19:00 +0000</pubDate>
-      
+      <pubDate>Wed, 02 Nov 2022 02:19:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/640/</guid>
-      <description>首先看一下帮助文档： $ diff --help 用法：diff [选项]... 文件列表 逐行比较&amp;lt;各文件&amp;gt;。 长选项的必需参数也是相应短选项的必需参数。 --normal 以</description>
+      <description>&lt;p&gt;首先看一下帮助文档：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ diff --help  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;用法：diff &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;选项&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;... 文件列表  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;逐行比较&amp;lt;各文件&amp;gt;。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;长选项的必需参数也是相应短选项的必需参数。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --normal                  以正常的 diff 方式输出 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;默认&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -q, --brief                   只有在文件不同时报告  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -s, --report-identical-files  当两个一样时仍然显示结果  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -c, -C NUM, --context&lt;span style=&#34;color:#f92672&#34;&gt;[=&lt;/span&gt;NUM&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;   同时输出 NUM 行（默认为 &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; 行）的复制上下文内容  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -u, -U 数量, --unified&lt;span style=&#34;color:#f92672&#34;&gt;[=&lt;/span&gt;数量&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; 输出 &amp;lt;数量&amp;gt;（默认为 3）行一致化上下文  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -e, --ed                      以 ed script 方式输出  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -n, --rcs                     以 RCS diff 格式输出  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -y, --side-by-side            以两栏的格式输出  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -W, --width&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;数量              每行显示最多 &amp;lt;数量&amp;gt;（默认 130）个字符  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --left-column             当有两行相同时只显示左边栏的一行  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --suppress-common-lines   当有两行相同时不显示  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -p, --show-c-function         显示每个变更位于哪个 C 函数中  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -F, --show-function-line&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;正则 显示匹配给定&amp;lt;正则&amp;gt;表达式的最近一行  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --label 标签              使用给定&amp;lt;标签&amp;gt;替代文件名和时间戳  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                 （可以重复）  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -t, --expand-tabs             将输出中的 tab 转换成空格  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -T, --initial-tab             每行先加上 tab 字符，使 tab 字符可以对齐  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --tabsize&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;数字           TAB 格的宽度，默认为 &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt; 个打印列宽  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --suppress-blank-empty    在空的输出行之前去除空白或制表符  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -l, --paginate                将输出送至 “pr” 指令来分页  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -r, --recursive                 连同所有子目录一起比较  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --no-dereference            不要跟随符号链接  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -N, --new-file                  不存在的文件以空文件方式处理  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --unidirectional-new-file   若第一文件不存在，以空文件处理  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --ignore-file-name-case     忽略文件名大小写的区别  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --no-ignore-file-name-case  不忽略文件名大小写的区别  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -x, --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;模式              排除匹配 &amp;lt;模式&amp;gt; 的文件  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -X, --exclude-from&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;文件         排除所有匹配在&amp;lt;文件&amp;gt;中列出的模式的文件  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -S, --starting-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;文件        当比较目录時，由&amp;lt;文件&amp;gt;开始比较  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --from-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;文件1           将&amp;lt;文件1&amp;gt;和操作数中的所有文件/目录作比较；  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                   &amp;lt;文件1&amp;gt;可以是目录  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --to-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;文件2             将操作数中的所有文件/目录和&amp;lt;文件2&amp;gt;作比较；  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                                   &amp;lt;文件2&amp;gt;可以是目录  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -i, --ignore-case               忽略文件内容大小写的区别  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -E, --ignore-tab-expansion      忽略由制表符宽度造成的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -Z, --ignore-trailing-space     忽略每行末端的空格  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -b, --ignore-space-change       忽略由空格数不同造成的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -w, --ignore-all-space          忽略所有空格  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -B, --ignore-blank-lines        忽略任何因空行而造成的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -I, --ignore-matching-lines&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;正则 若某行完全匹配 &amp;lt;正则&amp;gt;，则忽略由该行造成的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -a, --text                      所有文件都以文本方式处理  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --strip-trailing-cr         去除输入内容每行末端的回车（CR）字符  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -D, --ifdef&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;名称                输出的内容以 ‘#ifdef &amp;lt;名称&amp;gt;’ 方式标明差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --GTYPE-group-format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;GFMT   以 GFMT 格式处理 GTYPE 输入行组  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --line-format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;LFMT          以 LFMT 格式处理每一行资料  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --LTYPE-line-format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;LFMT    以 LFMT 格式处理 LTYPE 输入的行  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   这些格式化选项提供对 diff 输出的精细控制，从而泛化 -D/--ifdef。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   LTYPE 可以是 “old”、“new” 或 “unchanged”。GTYPE 可以是 LTYPE 的选择  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   或是 “changed”。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   （仅）GFMT 可包括：  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&amp;lt;  该组中每行属于&amp;lt;文件1&amp;gt;的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&amp;gt;  该组中每行属于&amp;lt;文件2&amp;gt;的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;  该组中同时在&amp;lt;文件1&amp;gt;和&amp;lt;文件2&amp;gt;出现的每一行  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;-&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;宽度&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;.&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;精确度&lt;span style=&#34;color:#f92672&#34;&gt;]]{&lt;/span&gt;doxX&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;字符  以 printf 格式表示该&amp;lt;字符&amp;gt;代表的内容  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       大写&amp;lt;字符&amp;gt;表示属于新的文件，小写表示属于旧的文件。&amp;lt;字符&amp;gt;的意义如下：  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         F  行组中第一行的行号  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         L  行组中最后一行的行号  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         N  行数 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;L-F+1 &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         E  F-1  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         M  L+1  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;A&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;B?T:E&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;  如果 A 等于 B 那么 T 否则 E  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   （仅）LFMT 可包括：  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %L  该行的内容  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %l  该行的内容，但不包括结束的换行符  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;-&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;宽度&lt;span style=&#34;color:#f92672&#34;&gt;][&lt;/span&gt;.&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;精确度&lt;span style=&#34;color:#f92672&#34;&gt;]]{&lt;/span&gt;doxX&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;n  以 printf 格式表示的输入行号  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   GFMT 或 LFMT 都可包括：  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %%        %  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %c&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;C&amp;#39;&lt;/span&gt;     单个字符 C  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     %c&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\OOO&amp;#39;&lt;/span&gt;  八进制码 OOO 所代表的字符  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     C         字符 C（处上述转义外的其他字符代表它们自身）  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -d, --minimal            尽可能找出最小的差异集  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --horizon-lines&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;数量 保持指定行数的一致前后缀  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --speed-large-files  假设文件十分大而且文件中含有许多微小的差异  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --color&lt;span style=&#34;color:#f92672&#34;&gt;[=&lt;/span&gt;何时&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;       给输出上色；“何时”可以是“never”（从不）、  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            “always”（总是）或“auto”（自动，默认）；  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            仅指定 --color 与 --color&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt; 效果相同  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --palette&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;调色板     在 --color 选项启用时使用的颜色；&amp;lt;调色板&amp;gt;参数应当是  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                            一个冒号分隔的列表以提供 terminfo capabilities 信息  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     --help               显示此帮助信息并退出  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; -v, --version            输出版本信息并退出  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &amp;lt;文件列表&amp;gt; 的格式可以是“文件1 文件2”、“目录1 目录2”、“目录 文件”或  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     “文件 目录”。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;如果使用 --from-file 或 --to-file 选项，&amp;lt;文件名&amp;gt; 的格式则不受限制。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;如果 FILE 是 “-”，则由标准输入读取内容。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;如果输入相同，则退出状态为 0；1 表示输入不同；2 表示有错误产生。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;报告程序错误到: bug-diffutils@gnu.org  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;报告翻译错误到: https://translationproject.org/teams/zh_CN.html  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GNU diffutils 主页: &amp;lt;https://www.gnu.org/software/diffutils/&amp;gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;使用 GNU 软件的通用帮助：&amp;lt;https://www.gnu.org/gethelp/&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;用的时候可以横排查看不同的地方：&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

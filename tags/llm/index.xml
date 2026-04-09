@@ -5,20 +5,97 @@
     <link>https://www.frytea.com/tags/llm/</link>
     <description>Recent content in LLM on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Apr 2023 13:56:04 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Mar 2025 17:26:01 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>在浏览器里运行 ChatGPT 和 Stable Diffusion</title>
-      <link>https://www.frytea.com/79.html</link>
-      <pubDate>Thu, 20 Apr 2023 13:56:04 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/79.html</guid>
-      <description>直接在浏览器里面运行的大语言模型，不需要部署直接调用 webGPU 进行运算，已经把模型部署成本拉到最低了。 目前只有 M1 或者 M2 芯片的 Mac 可以运行，需要下载谷歌</description>
+      <title>LLM 聚合 API 价格对比</title>
+      <link>https://www.frytea.com/archives/1453/</link>
+      <pubDate>Fri, 14 Mar 2025 17:26:01 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1453/</guid>
+      <description>&lt;p&gt;List&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;gpt-4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gpt-4o&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;claude-3-7-sonnet-20250219&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;`claude-3-7-sonn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单位：Inout/Output /M&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Model&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;gpt-4o&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;gpt-4o-mini&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;deepseek-r1&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;deepseek-v3&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;claude-3-7-sonnet&lt;/code&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;code&gt;claude-3-5-sonnet&lt;/code&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://uniapi.ai/&#34;&gt;UniAPI&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$0.2871/$1.1484&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$2.376/$11.88&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$2.376/$11.88&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://www.gptapi.us/&#34;&gt;GPTAPI&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;¥0.07/¥0.14&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;¥5.25/¥26.25&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;¥5.25/¥26.25&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://openrouter.ai/&#34;&gt;OpenRouter&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$5/$7&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$3/$15&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$3/$15&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://aihubmix.com/&#34;&gt;AiHubMix&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$0.62/$2.48&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$3.3/$16.5&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://api.v3.cm/&#34;&gt;V3 API&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$1.8/$7.2&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;$7.4/$37&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;refereneces&#34;&gt;Refereneces&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openrouter.ai/&#34;&gt;https://openrouter.ai/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aihubmix.com&#34;&gt;https://aihubmix.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://api.v3.cm/&#34;&gt;https://api.v3.cm/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ohmygpt.com/&#34;&gt;https://www.ohmygpt.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uniapi.ai&#34;&gt;https://uniapi.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,42 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>centos on Frytea</title>
+    <title>Centos on Frytea</title>
     <link>https://www.frytea.com/tags/centos/</link>
-    <description>Recent content in centos on Frytea</description>
+    <description>Recent content in Centos on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Dec 2021 14:06:56 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Aug 2025 14:34:31 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Centos7.6 下编译安装 Libvirt 7.5</title>
-      <link>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</link>
-      <pubDate>Mon, 06 Dec 2021 14:06:56 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/compile-install-libvirt-7-5-in-centos/</guid>
-      <description>介绍 centos 下编译安装 libvirt7.5的方法，类比于 debian系，同时包含 libvirt 经典安装方式.</description>
+      <title>CentOS 7 重置 root 密码</title>
+      <link>https://www.frytea.com/archives/1508/</link>
+      <pubDate>Thu, 07 Aug 2025 14:34:31 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1508/</guid>
+      <description>&lt;h1 id=&#34;引言&#34;&gt;引言&lt;/h1&gt;
+&lt;p&gt;很多遗留系统都采用 CentOS 系统，经常出现忘记密码，故在此记录方法。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以下内容转自  &lt;a href=&#34;https://jaminzhang.github.io/linux/CentOS-7-Reset-root-Password/&#34;&gt;CentOS 7 重置 root 密码&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;centos-7-重置-root-密码&#34;&gt;CentOS 7 重置 root 密码&lt;/h1&gt;
+&lt;p&gt;与之前的 CentOS 5、 CentOS 6 不同的是，当忘记 CentOS 7 root 密码，并采用 GRUB2 为启动器时，&lt;br&gt;
+将无法通过单用户模式重置 root 密码，下面介绍 CentOS 7 如何重置 root 密码。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>私人网盘搭建之centos下安装cloudreve</title>
       <link>https://www.frytea.com/archives/29/</link>
-      <pubDate>Fri, 15 Mar 2019 13:10:00 +0000</pubDate>
-      
+      <pubDate>Fri, 15 Mar 2019 05:10:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/29/</guid>
-      <description>简介 cloudreve是基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。 主页 | 论坛 | 演示站 | QQ群 支持的存储</description>
+      <description>&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
+&lt;p&gt;cloudreve是基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。
+&lt;a href=&#34;https://cloudreve.org/&#34;&gt;主页&lt;/a&gt; | &lt;a href=&#34;https://forum.cloudreve.org/&#34;&gt;论坛&lt;/a&gt; | &lt;a href=&#34;https://drive.aoaoao.me/&#34;&gt;演示站&lt;/a&gt; | &lt;a href=&#34;https://jq.qq.com/?_wv=1027&amp;amp;k=5TX6sJY&#34;&gt;QQ群&lt;/a&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190315140056.png&#34;&gt;
+支持的存储介质
+&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190315140113.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;安装步骤&#34;&gt;安装步骤&lt;/h1&gt;
+&lt;h2 id=&#34;第一步官网下载安装包&#34;&gt;第一步：官网下载安装包&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloudreve.org/download.php&#34;&gt;官网地址下载地址&lt;/a&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190315135200.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第二步解压到网页根目录&#34;&gt;第二步：解压到网页根目录&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190315135258.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第三步配置伪静态&#34;&gt;第三步：配置伪静态&lt;/h2&gt;
+&lt;p&gt;以下为针对nginx的代码&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Centos系统安装docker</title>
       <link>https://www.frytea.com/archives/37/</link>
-      <pubDate>Tue, 12 Mar 2019 11:13:00 +0000</pubDate>
-      
+      <pubDate>Tue, 12 Mar 2019 03:13:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/37/</guid>
-      <description>主要步骤 1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。 通过 uname -r 命令查看你当前的内核版</description>
+      <description>&lt;h2 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h2&gt;
+&lt;p&gt;1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。&lt;/p&gt;
+&lt;p&gt;通过 uname -r 命令查看你当前的内核版本&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ uname -r
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190312111724.png&#34;&gt;
+2、使用 root 权限登录 Centos。确保 yum 包更新到最新。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

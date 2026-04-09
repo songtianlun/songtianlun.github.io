@@ -1,132 +1,309 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vim on Frytea</title>
+    <title>Vim on Frytea</title>
     <link>https://www.frytea.com/tags/vim/</link>
-    <description>Recent content in vim on Frytea</description>
+    <description>Recent content in Vim on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jul 2023 09:23:36 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Aug 2025 14:31:18 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>vim 分割窗口打开内建 shell</title>
-      <link>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</link>
-      <pubDate>Tue, 25 Jul 2023 09:23:36 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/vim-%E5%88%86%E5%89%B2%E7%AA%97%E5%8F%A3%E6%89%93%E5%BC%80%E5%86%85%E5%BB%BA-shell/</guid>
-      <description>vim 分割窗口打开内建 shell Neovim 和 Vim &amp;gt;= 8.2 通过 :ter[minal] 命令原生支持此功能。 有关详细信息，请参阅文档中的 terminal-window。 对了，如果想要退出 terminal 模式</description>
+      <title>vim 将命令输出到当前位置</title>
+      <link>https://www.frytea.com/archives/1505/</link>
+      <pubDate>Thu, 07 Aug 2025 14:31:18 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1505/</guid>
+      <description>&lt;p&gt;在Vim 中，可以使用 &lt;code&gt;:read !command&lt;/code&gt; 命令将外部命令 &lt;code&gt;command&lt;/code&gt; 的输出插入到当前光标所在位置的下一行。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Linux vim vi 翻页跳转命令快捷键</title>
+      <link>https://www.frytea.com/archives/1463/</link>
+      <pubDate>Mon, 07 Apr 2025 09:24:05 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1463/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;以下组合若没有特殊说明，基本都是键位组合。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;vim翻页&#34;&gt;vim翻页&lt;/h1&gt;
+&lt;h2 id=&#34;vim翻半页&#34;&gt;vim翻半页&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctr-d&lt;/code&gt;：向后翻半页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctr-u&lt;/code&gt;：向前翻半页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vim整整页&#34;&gt;vim整整页&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctr+f&lt;/code&gt;：向后翻整页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctr+b&lt;/code&gt;：向前翻整页&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;vim跳转&#34;&gt;vim跳转&lt;/h1&gt;
+&lt;h2 id=&#34;vim跳首行&#34;&gt;vim跳首行&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;g+g&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:1&lt;/code&gt;&lt;br&gt;
+第二种方式需要输入：&lt;br&gt;
+先按&lt;code&gt;shift+:&lt;/code&gt;&lt;br&gt;
+再输入&lt;code&gt;1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vim跳尾行&#34;&gt;vim跳尾行&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;shift+g&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:$&lt;/code&gt;&lt;br&gt;
+第二种方式需要输入：&lt;br&gt;
+先按&lt;code&gt;shift+:&lt;/code&gt;&lt;br&gt;
+再输入&lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/Andya/p/12983159.html&#34;&gt;Linux—vim/vi 翻页跳转命令快捷键&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>如何调试 Vim 脚本</title>
+      <link>https://www.frytea.com/archives/1437/</link>
+      <pubDate>Mon, 07 Apr 2025 09:20:57 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1437/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2018/12/05/vim-debug.html&#34;&gt;如何调试 Vim 脚本&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;使用 &lt;code&gt;-D&lt;/code&gt; 参数可以开启 Debug 模式， 在 Debug 模式中可以使用 &lt;code&gt;cont&lt;/code&gt;, &lt;code&gt;next&lt;/code&gt;, &lt;code&gt;interrupt&lt;/code&gt;, &lt;code&gt;step&lt;/code&gt;, &lt;code&gt;quit&lt;/code&gt; 等调试命令， 以及 &lt;code&gt;breakadd&lt;/code&gt;, &lt;code&gt;breakdel&lt;/code&gt; 来添加和移除断点。 使用 &lt;code&gt;-u&lt;/code&gt; 来禁止加载任何配置文件，使用 &lt;code&gt;:source&lt;/code&gt; 命令逐个加载。 使用 &lt;code&gt;:set verbose&lt;/code&gt; 和 &lt;code&gt;:set verbosefile&lt;/code&gt; 等 &lt;a href=&#34;https://harttle.land/2017/01/30/variables-in-vim.html&#34;&gt;配置变量&lt;/a&gt; 可以设置日志级别和输出文件， &lt;code&gt;-V&lt;/code&gt; 启动参数也可以起到同样的作用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 下大小写敏感的搜索-替换</title>
+      <link>https://www.frytea.com/archives/1435/</link>
+      <pubDate>Thu, 27 Feb 2025 15:35:46 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1435/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2019/12/12/vim-case-sensitive.html&#34;&gt;Vim 下大小写敏感的搜索/替换&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vim 中的搜索默认是大小写敏感的，即搜索 &lt;code&gt;vim&lt;/code&gt; 不会匹配到 &lt;code&gt;Vim&lt;/code&gt;。 这一点跟多数编辑器/IDE 都不同，因此 Vim 的默认设置其实很不顺手。 本文来分享一些个性化的配置方法，让 Vim 下的大小写敏感/不敏感用起来更加顺手。 比如当搜索词包含大写时应用大小写敏感搜索；其他情况应用大小写不敏感搜索。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 使用系统剪切板</title>
+      <link>https://www.frytea.com/archives/1433/</link>
+      <pubDate>Sun, 23 Feb 2025 06:04:53 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1433/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源：&lt;a href=&#34;https://harttle.land/2020/09/04/vim-clipboard.html&#34;&gt;Vim 使用系统剪切板&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vim 是运行在 Terminal 里的 Shell 程序，所以要把内容拷贝出来可以通过 Terminal，也可以通过 Vim 自己。不配置 Vim 剪切板时只能通过 Shell 来拷贝粘贴：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 寄存器完全手册</title>
+      <link>https://www.frytea.com/archives/1432/</link>
+      <pubDate>Sun, 23 Feb 2025 06:04:43 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1432/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;转载自 &lt;a href=&#34;https://harttle.land/2016/07/25/vim-registers.html&#34;&gt;Vim 寄存器完全手册&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;常见文本编辑器都会提供剪切板来支持复制粘贴，Vim 也不例外。 不同的是 Vim 提供了 10 类共 48 个寄存器，提供无与伦比的寄存功能。 最常用的 &lt;code&gt;y&lt;/code&gt; 操作将会拷贝到默认的匿名寄存器中，我们也可以指定具体拷贝到哪个寄存器中。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 宏录制和重放</title>
+      <link>https://www.frytea.com/archives/1431/</link>
+      <pubDate>Sun, 23 Feb 2025 06:04:35 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1431/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;qa&lt;/code&gt;: 录制到寄存器 &lt;code&gt;a&lt;/code&gt; 中，可使用 &lt;code&gt;a-z&lt;/code&gt; 26 个命名寄存器&lt;/li&gt;
+&lt;li&gt;开始操作，做的所有操作都会录制下来，重放时自动操作；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q&lt;/code&gt;: 结束录制&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@a&lt;/code&gt; 重放一次；&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;100@a&lt;/code&gt; 重放100次；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;例子&#34;&gt;例子&lt;/h1&gt;
+&lt;p&gt;在编辑某个文件的时候，可能会出现需要对某种特定的操作进行许多次的情况，以编辑下面的文件为例：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 替换文本</title>
+      <link>https://www.frytea.com/archives/1334/</link>
+      <pubDate>Sun, 10 Nov 2024 11:40:21 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1334/</guid>
+      <description>&lt;p&gt;在vim中&lt;strong&gt;查找和替换命令&lt;/strong&gt;需要在&lt;strong&gt;末行模式&lt;/strong&gt;下执行。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;命令&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;功能&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;:%s/旧文本/新文本/g&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;全局替换。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;:s/旧文本/新闻本/g&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;可视区域替换。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;:%s/旧文本/新文本/gc&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;确认替换。(推荐使用)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;全局替换&#34;&gt; 全局替换&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;:%s/旧文本/新文本/g&lt;/code&gt;命令：用新文本一次性替换文件中所有出现的旧文本。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vim 对比文件差异 | Linux 下同屏查看文件差异并修改</title>
       <link>https://www.frytea.com/archives/594/</link>
-      <pubDate>Mon, 08 Nov 2021 12:31:37 +0000</pubDate>
-      
+      <pubDate>Mon, 08 Nov 2021 04:31:37 +0000</pubDate>
       <guid>https://www.frytea.com/archives/594/</guid>
-      <description>在 windows 下有如 Beyond Compare 这样的文本对比工具，而在 Linux 其实预装了很好用的文本对比工具 → vimdiff 使用方法很简单： vimdiff [options] file1 file2 [file3 [file4]] 比如这样： vimdiff Release Release.new 效果是这样的： 可以使用</description>
+      <description>&lt;p&gt;在 windows 下有如 Beyond Compare 这样的文本对比工具，而在 Linux 其实预装了很好用的文本对比工具 → &lt;code&gt;vimdiff&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用方法很简单：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vimdiff &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;options&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; file1 file2 &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;file3 &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;file4&lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;比如这样：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vimdiff Release Release.new
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;效果是这样的：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;https://imagehost-cdn.frytea.com/images/2021/11/08/2021-11-08-12-28-16e0dfc839621b06b8.png&#34; loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2021/11/08/2021-11-08-12-28-16e0dfc839621b06b8.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以使用 &lt;code&gt;Ctrl + w + 方向键 # 切换到前／下／上／后一个窗格&lt;/code&gt; 切换窗格，使用 &lt;code&gt;i&lt;/code&gt; 进行编辑，操作同多窗口 &lt;code&gt;Vim&lt;/code&gt; ，使用起来很方便，效果很惊艳，效率很高。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Vim 一键编译运行 C/C&#43;&#43;</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-one-run-and-build-c/</link>
-      <pubDate>Wed, 03 Nov 2021 14:30:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-one-run-and-build-c/</guid>
-      <description>一种按键映射自动编译运行 C/C&#43;&#43; 的方法</description>
-    </item>
-    
-    <item>
-      <title>Vim 多窗口、多文件之间切换</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-mult-windows-switch/</link>
-      <pubDate>Wed, 03 Nov 2021 14:24:33 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-mult-windows-switch/</guid>
-      <description>介绍 vim 多窗口以及多文件之间的切换方法</description>
-    </item>
-    
-    <item>
-      <title>vim 代码折叠之设置默认代码不折叠</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-set-no-foldmethod/</link>
-      <pubDate>Wed, 03 Nov 2021 14:22:02 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-set-no-foldmethod/</guid>
-      <description>简单介绍 vim 代码折叠及配置</description>
-    </item>
-    
-    <item>
-      <title>Vim 版本升级（Vim8）</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-update-release8/</link>
-      <pubDate>Wed, 03 Nov 2021 14:17:50 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-update-release8/</guid>
-      <description>源码编译安装新版 vim 的方法</description>
-    </item>
-    
-    <item>
-      <title>VIM 文件自动添加头部注释的方法</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/vim-auto-file-header/</link>
-      <pubDate>Wed, 03 Nov 2021 14:13:38 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/vim-auto-file-header/</guid>
-      <description>一种 vim 创建文件时自动添加头部注释的方法</description>
-    </item>
-    
-    <item>
-      <title>Vim 安装插件管理器 Vundle</title>
-      <link>https://www.frytea.com/archives/unix-like/cmd/vim/instal-vim-vundle/</link>
-      <pubDate>Wed, 03 Nov 2021 14:04:30 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/cmd/vim/instal-vim-vundle/</guid>
-      <description>Vundle 是 Vim bundle 的简称,是一个 Vim 插件管理器</description>
-    </item>
-    
     <item>
       <title>Vim安装插件管理器Vundle</title>
       <link>https://www.frytea.com/archives/418/</link>
-      <pubDate>Sun, 26 Jul 2020 19:17:16 +0000</pubDate>
-      
+      <pubDate>Sun, 26 Jul 2020 11:17:16 +0000</pubDate>
       <guid>https://www.frytea.com/archives/418/</guid>
-      <description>安装vundle $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 默认安装在/.vim/bundle/vundle下； 配置说明： 插件有三种类型: Github上vim-scripts</description>
+      <description>&lt;h2 id=&#34;安装vundle&#34;&gt;安装vundle&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;默认安装在/.vim/bundle/vundle下；&lt;/p&gt;
+&lt;h2 id=&#34;配置说明&#34;&gt;配置说明：&lt;/h2&gt;
+&lt;p&gt;插件有三种类型:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Github上vim-scripts仓库的插件&lt;/li&gt;
+&lt;li&gt;Github上非vim-scripts仓库的插件&lt;/li&gt;
+&lt;li&gt;不在Github上的插件
+对于不同的插件，vundle自动管理和下载插件的时候，有不同的地址填写方法，有如下三类：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;在Github上vim-scripts用户下的仓库,只需要写出repos（仓库）名称&lt;/li&gt;
+&lt;li&gt;在Github其他用户下的repos, 需要写出&amp;quot;用户名/repos名&amp;quot;&lt;/li&gt;
+&lt;li&gt;不在Github上的插件，需要写出git全路径&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;配置vundle插件&#34;&gt;&lt;strong&gt;配置vundle插件：&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;可以在终端通过vim打开~/.vimrc文件，&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu下为vim安装YouCompleteMe插件</title>
       <link>https://www.frytea.com/archives/419/</link>
-      <pubDate>Sun, 26 Jul 2020 19:17:00 +0000</pubDate>
-      
+      <pubDate>Sun, 26 Jul 2020 11:17:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/419/</guid>
-      <description>前提条件 已安装 Vundle (参考 Vim安装插件管理器Vundle） Vim 版本 ≥ Vim 7.4.1578+ （查看 vim --version） 安装 第一步，使用Vundle安装YouCom</description>
+      <description>&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;已安装 Vundle  (参考 &lt;a href=&#34;https://blog.frytea.com/archives/419/&#34;&gt;Vim安装插件管理器Vundle&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;Vim 版本 ≥ Vim 7.4.1578+ （查看 &lt;code&gt;vim --version&lt;/code&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;第一步，使用Vundle安装YouCompleteM&lt;/p&gt;
+&lt;p&gt;在.vimrc中添加以下内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Plugin&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Valloric/YouCompleteMe&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后拉取源码（或是 &lt;code&gt;:PluginInstall&lt;/code&gt; 也可）&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VIM 创建程序文件自动添加头部注释</title>
       <link>https://www.frytea.com/archives/416/</link>
-      <pubDate>Sun, 26 Jul 2020 19:16:37 +0000</pubDate>
-      
+      <pubDate>Sun, 26 Jul 2020 11:16:37 +0000</pubDate>
       <guid>https://www.frytea.com/archives/416/</guid>
-      <description>修改 /etc/vimrc 或 ~/.vimrc，在文件最后添加以下内容： &amp;#34; 当新建 .h .c .hpp .cpp .mk .sh等文件时自动调用SetTitle 函数 autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh exec &amp;#34;:call SetTitle()&amp;#34; &amp;#34; 加入注释 func SetComment() call setline(1,&amp;#34;/*================================================================&amp;#34;)</description>
+      <description>&lt;p&gt;修改 &lt;code&gt;/etc/vimrc&lt;/code&gt; 或 &lt;code&gt;~/.vimrc&lt;/code&gt;，在文件最后添加以下内容：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; 当新建 .h .c .hpp .cpp .mk .sh等文件时自动调用SetTitle 函数
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh exec &amp;#34;&lt;/span&gt;:call SetTitle&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; 加入注释 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;func SetComment&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;1,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/*================================================================&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;,   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   Copyright (C) &amp;#34;&lt;/span&gt;.strftime&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; IEucd Inc. All rights reserved.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+1, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+2, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   文件名称：&amp;#34;&lt;/span&gt;.expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+3, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   创 建 者：SongTL, songtianlun@comleader.com.cn&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+4, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   创建日期：&amp;#34;&lt;/span&gt;.strftime&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y年%m月%d日&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+5, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*   描    述：&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+6, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+7, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;================================================================*/&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+8, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+9, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;endfunc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; 加入shell,Makefile注释
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;func SetComment_sh()
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        call setline(3, &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#================================================================&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;4, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   Copyright (C) &amp;#34;&lt;/span&gt;.strftime&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; IEucd Inc. All rights reserved.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;5, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;6, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   文件名称：&amp;#34;&lt;/span&gt;.expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;7, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   创 建 者：SongTL, songtianlun@comleader.com.cn&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   创建日期：&amp;#34;&lt;/span&gt;.strftime&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%Y年%m月%d日&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;9, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#   描    述：&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;10, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;11, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#================================================================&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;12, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;13, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;endfunc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; 定义函数SetTitle，自动插入文件头 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;func SetTitle()
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        if &amp;amp;filetype == &amp;#39;make&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                call setline(1,&amp;#34;&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                call setline(2,&amp;#34;&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                call SetComment_sh()
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;        elseif &amp;amp;filetype == &amp;#39;sh&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;                call setline(1,&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/system/bin/sh&amp;#34;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                call setline&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;2,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                call SetComment_sh&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             call SetComment&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:e&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hpp&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+10, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ifndef _&amp;#34;&lt;/span&gt;.toupper&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t:r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;_H&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+11, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#define _&amp;#34;&lt;/span&gt;.toupper&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t:r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;_H&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+12, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ifdef __cplusplus&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+13, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;extern \&amp;#34;C\&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+14, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+15, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#endif&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+16, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+17, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ifdef __cplusplus&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+18, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+19, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#endif&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                  call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+20, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#endif //&amp;#34;&lt;/span&gt;.toupper&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t:r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;_H&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             elseif expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:e&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;h&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+10, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#pragma once&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             elseif &amp;amp;filetype &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;c&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+10,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#include \&amp;#34;&amp;#34;&lt;/span&gt;.expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t:r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.h\&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             elseif &amp;amp;filetype &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cpp&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                call append&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;+10, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#include \&amp;#34;&amp;#34;&lt;/span&gt;.expand&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%:t:r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.h\&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;             endif
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        endif
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;endfun
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;使用效果：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VIM个性化配置（一）</title>
       <link>https://www.frytea.com/archives/417/</link>
-      <pubDate>Sun, 26 Jul 2020 19:16:00 +0000</pubDate>
-      
+      <pubDate>Sun, 26 Jul 2020 11:16:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/417/</guid>
-      <description>配置 只需在Home目录创建一个 ~/.vimrc ****文件即可以配置 vim 了，如需安装插件，在 ~/.vim 目录下创建一个bundle文件夹，插件装在里面。（需安装 Vundle 插件</description>
+      <description>&lt;h2 id=&#34;配置&#34;&gt;&lt;strong&gt;配置&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;只需在Home目录创建一个 &lt;code&gt;~/.vimrc&lt;/code&gt; ****文件即可以配置 &lt;code&gt;vim&lt;/code&gt; 了，如需安装插件，在 &lt;code&gt;~/.vim&lt;/code&gt; 目录下创建一个bundle文件夹，插件装在里面。（需安装 &lt;code&gt;Vundle&lt;/code&gt; 插件管理器），将以下内容拷入&lt;code&gt;~/.vimrc&lt;/code&gt; ****文件中即可。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Vim 版本升级（Vim8）</title>
       <link>https://www.frytea.com/archives/415/</link>
-      <pubDate>Sun, 26 Jul 2020 19:15:57 +0000</pubDate>
-      
+      <pubDate>Sun, 26 Jul 2020 11:15:57 +0000</pubDate>
       <guid>https://www.frytea.com/archives/415/</guid>
-      <description>安装步骤 第一步，下载源码 到Vim官方Github仓库下载目前最新的Vim Release版本 wget https://codeload.github.com/vim/vim/tar.gz/v8.2.1258 第二步，解压 $ mv v8.2.1258 vim-v8.2.1258.tar.gz $ tar -xvzf vim-v8.2.1258.tar.gz 第三步，编译安装 $</description>
+      <description>&lt;h2 id=&#34;安装步骤&#34;&gt;安装步骤&lt;/h2&gt;
+&lt;h3 id=&#34;第一步下载源码&#34;&gt;第一步，下载源码&lt;/h3&gt;
+&lt;p&gt;到&lt;a href=&#34;https://github.com/vim/vim/releases&#34;&gt;Vim官方Github仓库&lt;/a&gt;下载目前最新的Vim Release版本&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget https://codeload.github.com/vim/vim/tar.gz/v8.2.1258
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;第二步解压&#34;&gt;第二步，解压&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ mv v8.2.1258  vim-v8.2.1258.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ tar -xvzf vim-v8.2.1258.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;第三步编译安装&#34;&gt;第三步，编译安装&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd vim-8.2.1258/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ./configure --prefix&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$HOME/.local --enable-python3interp&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;yes &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;这里注意一下我们需要用configure配置一下安装的路径，将Vim8安装到自己账户的目录下，避免干扰到系统上的其他用户&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--enable-python3interp=yes&lt;/code&gt; 添加 python3 支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在这里可能会遇到 &lt;code&gt;no terminal library found&lt;/code&gt; 错误：&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ntp on Frytea</title>
+    <title>Ntp on Frytea</title>
     <link>https://www.frytea.com/tags/ntp/</link>
-    <description>Recent content in ntp on Frytea</description>
+    <description>Recent content in Ntp on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 03 Nov 2021 14:44:16 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/ntp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 04:04:52 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ntp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux 系统时间校对方法</title>
-      <link>https://www.frytea.com/archives/unix-like/linux-sync-time/</link>
-      <pubDate>Wed, 03 Nov 2021 14:44:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/unix-like/linux-sync-time/</guid>
-      <description>使用 ntp 校对 Linux 系统时间的方法.</description>
+      <title>lxc 使用 chronyc 构建 ntp 服务</title>
+      <link>https://www.frytea.com/archives/1534/</link>
+      <pubDate>Tue, 14 Oct 2025 04:04:52 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1534/</guid>
+      <description>&lt;p&gt;lxc 启动 chronyd 是无法直接启动的，因为用到了很多未授权的权限。&lt;/p&gt;
+&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;lxc与宿主机共用内核，因此时间也是共用的，无需同步。如果你想构建一个 ntp 服务，不需要同步时间，可以像下面这样做：&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

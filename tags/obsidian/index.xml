@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>obsidian on Frytea</title>
+    <title>Obsidian on Frytea</title>
     <link>https://www.frytea.com/tags/obsidian/</link>
-    <description>Recent content in obsidian on Frytea</description>
+    <description>Recent content in Obsidian on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Nov 2022 14:38:35 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Nov 2024 06:15:25 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian 多设备同步方案整理</title>
+      <link>https://www.frytea.com/archives/1377/</link>
+      <pubDate>Tue, 26 Nov 2024 11:21:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1377/</guid>
+      <description>&lt;p&gt;同步方案大致有下面这几种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vrtmrz/obsidian-livesync&#34;&gt;&lt;code&gt;obsidian-livesync&lt;/code&gt;(插件)&lt;/a&gt;：自托管在线同步，支持实时同步，社区活跃，使用自建 &lt;code&gt;CouchDB&lt;/code&gt; 数据库存放数据；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/remotely-save/remotely-save&#34;&gt;&lt;code&gt;remotely-save&lt;/code&gt;(插件)&lt;/a&gt;：支持S3 (Amazon S3/Cloudflare R2/Backblaze B2/&amp;hellip;)、Dropbox、webdav (NextCloud/InfiniCLOUD/Synology/&amp;hellip;)、OneDrive 等数据源。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Vinzent03/obsidian-git&#34;&gt;&lt;code&gt;obsidian git&lt;/code&gt;(插件)&lt;/a&gt;：集成 git，主要是 git 做版本管理的，用起来不是很方便。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;obsidian-sync&lt;/code&gt;(官方同步)：官方方案，无需多言，每月4$。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;对比表格&#34;&gt;对比表格&lt;/h2&gt;
+&lt;p&gt;claude 对以上方案的对比如下表：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>mermaid.js 效果相册</title>
       <link>https://www.frytea.com/archives/663/</link>
-      <pubDate>Thu, 24 Nov 2022 14:38:35 +0000</pubDate>
-      
+      <pubDate>Thu, 24 Nov 2022 06:38:35 +0000</pubDate>
       <guid>https://www.frytea.com/archives/663/</guid>
-      <description>mermaid 是一款 javascript 库，能够轻而易举地通过文本代码绘图。 作为普通用户，将其理解为一种绘图的语言即可，集成它之后就可以在 markdown 的轻松插入特定语法编写的各类图</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;&gt;mermaid&lt;/a&gt; 是一款 javascript 库，能够轻而易举地通过文本代码绘图。&lt;/p&gt;
+&lt;p&gt;作为普通用户，将其理解为一种绘图的语言即可，集成它之后就可以在 markdown 的轻松插入特定语法编写的各类图示了，而且不需要像 plantuml 一样需要外部服务器，目前 &lt;a href=&#34;https://www.notion.so/&#34;&gt;notion&lt;/a&gt; 、 &lt;a href=&#34;https://obsidian.md/&#34;&gt;obsidian&lt;/a&gt; 等都已原生支持该特性，许多博客主题也支持该语法。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

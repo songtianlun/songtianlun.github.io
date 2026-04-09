@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CA on Frytea</title>
+    <link>https://www.frytea.com/tags/ca/</link>
+    <description>Recent content in CA on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 11 Jul 2025 09:55:40 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 自签名 CA 证书安装方法</title>
+      <link>https://www.frytea.com/archives/1495/</link>
+      <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1495/</guid>
+      <description>&lt;p&gt;在 Linux 中运行 docker, containerd, helm 等应用时需要信任自签署证书保护的内部仓库服务，此时需要注入自签名 CA 证书，以 Ubunut 为例。在 Ubuntu 系统中，CA 证书信任主要存储在以下目录：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

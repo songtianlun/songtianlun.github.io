@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevOps on Frytea</title>
+    <link>https://www.frytea.com/tags/devops/</link>
+    <description>Recent content in DevOps on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 07 May 2025 10:05:28 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k3s-k8s 实现 DevOps 方案横向对比</title>
+      <link>https://www.frytea.com/archives/1483/</link>
+      <pubDate>Wed, 07 May 2025 10:03:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1483/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;目前在用 Keel，感觉良好。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;主流方案对比&#34;&gt;主流方案对比&lt;/h1&gt;
+&lt;p&gt;以下是几种可以在 K3s 中实现轻量级 DevOps 解决方案对比：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;方案&lt;/th&gt;
+          &lt;th&gt;资源占用&lt;/th&gt;
+          &lt;th&gt;易用性&lt;/th&gt;
+          &lt;th&gt;Web UI&lt;/th&gt;
+          &lt;th&gt;集成能力&lt;/th&gt;
+          &lt;th&gt;配置复杂度&lt;/th&gt;
+          &lt;th&gt;特点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ArgoCD&lt;/td&gt;
+          &lt;td&gt;中等&lt;/td&gt;
+          &lt;td&gt;★★★★☆&lt;/td&gt;
+          &lt;td&gt;优秀&lt;/td&gt;
+          &lt;td&gt;原生支持 Git/镜像更新&lt;/td&gt;
+          &lt;td&gt;中等&lt;/td&gt;
+          &lt;td&gt;GitOps 专注，声明式部署&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;FluxCD&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;★★★☆☆&lt;/td&gt;
+          &lt;td&gt;基础(最新版改进)&lt;/td&gt;
+          &lt;td&gt;原生支持 Git/镜像更新&lt;/td&gt;
+          &lt;td&gt;中等&lt;/td&gt;
+          &lt;td&gt;GitOps 专注，自动化程度高&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Drone&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;★★★★☆&lt;/td&gt;
+          &lt;td&gt;优秀&lt;/td&gt;
+          &lt;td&gt;需配置触发器&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;轻量级，无需 CRD&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Jenkins X&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;★★☆☆☆&lt;/td&gt;
+          &lt;td&gt;良好&lt;/td&gt;
+          &lt;td&gt;丰富&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;功能全面但较重&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tekton&lt;/td&gt;
+          &lt;td&gt;中等&lt;/td&gt;
+          &lt;td&gt;★★★☆☆&lt;/td&gt;
+          &lt;td&gt;需安装Dashboard&lt;/td&gt;
+          &lt;td&gt;高度可定制&lt;/td&gt;
+          &lt;td&gt;中高&lt;/td&gt;
+          &lt;td&gt;云原生管道&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Keel&lt;/td&gt;
+          &lt;td&gt;极低&lt;/td&gt;
+          &lt;td&gt;★★★★★&lt;/td&gt;
+          &lt;td&gt;简单&lt;/td&gt;
+          &lt;td&gt;专注镜像更新&lt;/td&gt;
+          &lt;td&gt;极低&lt;/td&gt;
+          &lt;td&gt;超轻量，专注自动部署&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;方案详细分析&#34;&gt;方案详细分析&lt;/h1&gt;
+&lt;h2 id=&#34;1-argocd&#34;&gt;1. ArgoCD&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;优势：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

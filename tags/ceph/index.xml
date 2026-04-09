@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ceph on Frytea</title>
+    <link>https://www.frytea.com/tags/ceph/</link>
+    <description>Recent content in Ceph on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Apr 2025 09:19:22 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ceph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceph 检查 rbd io 排名</title>
+      <link>https://www.frytea.com/archives/1459/</link>
+      <pubDate>Mon, 07 Apr 2025 09:19:22 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1459/</guid>
+      <description>&lt;p&gt;好的，在 Ceph 中查看哪个 RBD (RADOS Block Device) 镜像的 I/O 读写最高，最常用的方法是使用 &lt;code&gt;rbd perf image iotop&lt;/code&gt; 或 &lt;code&gt;rbd perf image iostat&lt;/code&gt; 命令。&lt;/p&gt;
+&lt;p&gt;这两个命令都需要指定 &lt;strong&gt;存储池 (pool)&lt;/strong&gt; 的名称，因为 RBD 镜像是存在于特定的存储池中的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ceph RBD 查看实际占用top</title>
+      <link>https://www.frytea.com/archives/1375/</link>
+      <pubDate>Mon, 02 Dec 2024 10:12:37 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1375/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rbd du -p ssd | awk &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;NR&amp;gt;1 {  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   size=$4  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   unit=$5  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   if (unit==&amp;#34;MiB&amp;#34;) size=size  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   else if (unit==&amp;#34;GiB&amp;#34;) size=size*1024  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   else if (unit==&amp;#34;TiB&amp;#34;) size=size*1024*1024  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   print size &amp;#34; &amp;#34; unit &amp;#34; &amp;#34; $0  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&amp;#39;&lt;/span&gt; | sort -nr | head -n &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt; | cut -d&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; -f3-
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;by claude 3.5&lt;/p&gt;
+&lt;p&gt;效果：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;root@pve1:~# rbd du -p ssd | awk &amp;#39;  
+NR&amp;gt;1 {  
+   size=$4  
+   unit=$5  
+   if (unit==&amp;#34;MiB&amp;#34;) size=size  
+   else if (unit==&amp;#34;GiB&amp;#34;) size=size*1024  
+   else if (unit==&amp;#34;TiB&amp;#34;) size=size*1024*1024  
+   print size &amp;#34; &amp;#34; unit &amp;#34; &amp;#34; $0  
+}&amp;#39; | sort -nr | head -n 50 | cut -d&amp;#34; &amp;#34; -f3-  
+&amp;lt;TOTAL&amp;gt;                                              111 TiB    47 TiB  
+vm-1033-disk-0                                        20 TiB    20 TiB  
+vm-1054-disk-1@bak20240731                          1000 GiB   677 GiB  
+vm-503-disk-3                                        500 GiB   500 GiB  
+vm-502-disk-3                                        500 GiB   500 GiB  
+vm-501-disk-3                                        500 GiB   500 GiB  
+vm-1054-disk-1@bak20231106                          1000 GiB   475 GiB  
+vm-497-disk-0@backup0530                             500 GiB   340 GiB  
+vm-1279-disk-1                                       320 GiB   320 GiB  
+vm-1090-disk-0                                       300 GiB   300 GiB
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>系统架构设计 on Frytea</title>
+    <link>https://www.frytea.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 系统架构设计 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 13 May 2025 06:35:41 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件架构开发模型特征总结</title>
+      <link>https://www.frytea.com/archives/1338/</link>
+      <pubDate>Fri, 08 Nov 2024 10:07:21 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1338/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;瀑布模型：结构化方法。开发阶段性、需求明确、文档齐全、风险控制弱；&lt;/li&gt;
+&lt;li&gt;原型模型：迭代方法，分为原先开发与目标软件开发，需求不太明确；&lt;/li&gt;
+&lt;li&gt;螺旋模型：迭代方法。瀑布与原型（演化）模型i结合体。适用于大型、复杂、风险项目。&lt;/li&gt;
+&lt;li&gt;喷泉模型：面向对象方法。复用好、开发过程无间隙、节省时间；&lt;/li&gt;
+&lt;li&gt;V模型：开发与测试结合；&lt;/li&gt;
+&lt;li&gt;变换模型：适用于形式开发；&lt;/li&gt;
+&lt;li&gt;智能模型：适用于i基于规则的专家系统；&lt;/li&gt;
+&lt;li&gt;快速应用开发RAD：基于构件的开发方法。用户参与、开发或复用构件、模块化要求高，不适用新技术；&lt;/li&gt;
+&lt;li&gt;RUP/UP：用例驱动、架构为中心、迭代、增量&lt;/li&gt;
+&lt;li&gt;可重用构建模型：基于构件的开发方法。开发或复用构件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#系统架构设计&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>架构风格总结</title>
+      <link>https://www.frytea.com/archives/1319/</link>
+      <pubDate>Sat, 26 Oct 2024 09:18:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1319/</guid>
+      <description>&lt;h1 id=&#34;架构风格总结&#34;&gt;架构风格总结&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;mindmap
+  root((软件架构风格))
+    数据流
+      批处理
+        (一个接一个，以整体为单位)
+      管道/过滤器
+        (前一个输出是后一个输入)
+        (实例: 传统编译器)
+    调用/返回
+      主程序/子程序
+        (显式调用，主程序直接调用子程序)
+      面向对象
+        (对象是构件，通过对象调用封装的方法和属性)
+      层次结构
+        (分层，每层最多影响其上下两层，有调用关系)
+    独立构件
+      进程通信
+        (进程间独立的消息传递，同步异步)
+      事件驱动
+        (不直接调用，通过事件驱动)
+        (实例: 语法高亮、错误提示)
+    虚拟机
+      解释器
+        (解释自定义规则，解释引擎、存储区、数据结构)
+      规则系统
+        (规则集、规则解释器、选择器和工作内存)
+        (用于DSS和人工智能、专家系统)
+      (实例: 自定义流程，按流程执行，规则随时改变)
+    仓库/数据共享风格
+      数据库
+        (中央共享数据源，独立处理单元)
+      超文本
+        (网状连接，多用于互联网)
+      黑板
+        (用于问题复杂、解空间大的软件系统)
+        (实例: 语音识别、知识推理)
+    闭环-过程控制
+      (发出控制命令并接受反馈，循环往复达到平衡)
+      (实例: 汽车定速巡航、空调温度调节)
+    C2风格
+      (通过连接件绑定的并行构件网络)
+      (构件和连接件、顶部和底部)
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;背诵版&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>软件架构设计必备概念</title>
+      <link>https://www.frytea.com/archives/1318/</link>
+      <pubDate>Sat, 26 Oct 2024 09:18:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1318/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;背诵版。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;软件架构风格&#34;&gt;软件架构风格&lt;/h2&gt;
+&lt;p&gt;描述特定软件系统组织方式的惯用模式，组织方式描述了系统的组成构件和这些构件的组织方式，惯用模式则反映众多系统共有的结构和语义。&lt;/p&gt;
+&lt;h2 id=&#34;架构风险&#34;&gt;架构风险&lt;/h2&gt;
+&lt;p&gt;架构设计中潜在的、存在问题的架构决策所带来的隐患。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

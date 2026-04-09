@@ -5,20 +5,34 @@
     <link>https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/</link>
     <description>Recent content in 申威 on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Nov 2021 18:08:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 01:49:38 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/%E7%94%B3%E5%A8%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
       <link>https://www.frytea.com/archives/598/</link>
-      <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
-      
+      <pubDate>Wed, 10 Nov 2021 10:08:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/598/</guid>
-      <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
+      <description>&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OS: &lt;code&gt;UOS 20 1021 12011.101&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU: &lt;code&gt;SW_64&lt;/code&gt; &lt;code&gt;SW1621&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+&lt;h3 id=&#34;本地编译-runc&#34;&gt;本地编译 runc&lt;/h3&gt;
+&lt;p&gt;1.解压 runc 源码至 &lt;code&gt;~/go/src/github.com/opencontainers&lt;/code&gt; 目录；&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~/go/                                                                                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src                                                                                              
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    └── github.com                                                                                       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        └── opencontainers                                                                           
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            └── runc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2.进入 &lt;code&gt;runc&lt;/code&gt; 主目录，替换 &lt;code&gt;vendor/golang.org/x/sys/unix&lt;/code&gt; 目录为申威平台 &lt;code&gt;golang1.14.1&lt;/code&gt; 源码 &lt;code&gt;go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix&lt;/code&gt; 目录。&lt;/p&gt;
+&lt;p&gt;3.修改 &lt;code&gt;libcontainer/system/syscall_linux_64.go&lt;/code&gt; 文件，在文件头添加 sw64 架构定义 &lt;code&gt;//+build sw64&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

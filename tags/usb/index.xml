@@ -5,20 +5,51 @@
     <link>https://www.frytea.com/tags/usb/</link>
     <description>Recent content in USB on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Aug 2022 18:04:46 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 10:04:46 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/usb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux USB 设备基础理论</title>
       <link>https://www.frytea.com/archives/633/</link>
-      <pubDate>Wed, 24 Aug 2022 18:04:46 +0000</pubDate>
-      
+      <pubDate>Wed, 24 Aug 2022 10:04:46 +0000</pubDate>
       <guid>https://www.frytea.com/archives/633/</guid>
-      <description>通过扫描以下目录获取物理节点所有 USB 设备： /sys/bus/usb/devices/usb* /sys/bus/usb/devices/usb*/$busnum-* 从该文件系统收集某一个设备的主要信息如下： { &amp;#34;busnum&amp;#34;: 1, &amp;#34;class&amp;#34;: 0, &amp;#34;devnum&amp;#34;: 2, &amp;#34;level&amp;#34;: 1, &amp;#34;manufacturer&amp;#34;: &amp;#34;QEMU&amp;#34;, &amp;#34;port&amp;#34;: 0, &amp;#34;prodid&amp;#34;: &amp;#34;0001&amp;#34;, &amp;#34;product&amp;#34;: &amp;#34;QEMU USB Tablet&amp;#34;, &amp;#34;speed&amp;#34;: &amp;#34;12&amp;#34;, &amp;#34;usbpath&amp;#34;: &amp;#34;1&amp;#34;, &amp;#34;vendid&amp;#34;: &amp;#34;0627&amp;#34; } 文</description>
+      <description>&lt;p&gt;通过扫描以下目录获取物理节点所有 USB 设备：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/sys/bus/usb/devices/usb*
+/sys/bus/usb/devices/usb*/$busnum-*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;从该文件系统收集某一个设备的主要信息如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;busnum&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;class&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;devnum&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;level&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;manufacturer&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;QEMU&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;port&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;prodid&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0001&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;product&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;QEMU USB Tablet&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;speed&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;12&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;usbpath&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;vendid&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0627&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;文件含义&#34;&gt;文件含义&lt;/h2&gt;
+&lt;p&gt;目录下部分文件含义如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;busnum&lt;/code&gt;: 总线号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;devnum&lt;/code&gt;: 设备号（该总线的第几台设备）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;speed&lt;/code&gt;: 速率&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bDeviceClass&lt;/code&gt;: 设备类型&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;idVendor&lt;/code&gt;: 设备的生产商ID,由USB设备生产商向USB-IF官方来统一管理和申请&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;idProduct&lt;/code&gt;: 该生产商生产的产品编号，同一厂商下的不同idProduct代表着该公司不同的产品系列&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;product&lt;/code&gt;: 制造商&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;manufacturer&lt;/code&gt;: 产品&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;serial&lt;/code&gt;： USB 硬件设备序列号 ，例如 &lt;code&gt;0000:00:01.2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;定位方法&#34;&gt;定位方法&lt;/h2&gt;
+&lt;p&gt;定位某一个 USB 设备的方法有两种：&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

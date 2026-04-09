@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Claude Code on Frytea</title>
+    <link>https://www.frytea.com/tags/claude-code/</link>
+    <description>Recent content in Claude Code on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 14 Jan 2026 01:47:24 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 配置 Claude Code 解决  settings.json 不生效</title>
+      <link>https://www.frytea.com/archives/1616/</link>
+      <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1616/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;默认情况下 Windows 安装的 &lt;code&gt;Claude Code&lt;/code&gt; 会从这个位置读取配置：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Users\&amp;lt;YOUR_NAME&amp;gt;\.claude
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其他系统则类似的找到 &lt;code&gt;~/.claude&lt;/code&gt; 路径。&lt;/p&gt;
+&lt;p&gt;官方流程在安装结束后就完成了，可以直接登录使用。如果需要修改配置将 &lt;code&gt;Claude Code&lt;/code&gt; 接入第三方 API，就需要修改这里的 &lt;code&gt;settings.json&lt;/code&gt; 配置文件，可以使用 &lt;code&gt;CC-Switch&lt;/code&gt; 或是手动编写，但是修改后会发现不生效。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 配置 Claude Code 全流程</title>
+      <link>https://www.frytea.com/archives/1615/</link>
+      <pubDate>Fri, 09 Jan 2026 08:22:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1615/</guid>
+      <description>&lt;p&gt;今天终于跑通了 Windows 下运行 Claoude Code 的全流程，不借助 WSL ，原生运行。起因是自己需要一个可以长期运行任务的云桌面，这方面还是 Windows 最好用。不得不说相比于 &lt;code&gt;Linux/macOS&lt;/code&gt; ，&lt;code&gt;Windows&lt;/code&gt; 下运行 &lt;code&gt;Claude Code&lt;/code&gt; 实在太多坑了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Code 实用技巧</title>
+      <link>https://www.frytea.com/archives/1509/</link>
+      <pubDate>Thu, 07 Aug 2025 14:43:03 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1509/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CLAUDE.md（规则文件）＝ 冰箱家规
+先把“进门换鞋、10点关灯、刀具归位”写清楚，Claude 做任何事之前都要看一遍并遵守。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Task（多任务并行）＝ 多台家电同时干活
+扫地机器人+洗碗机+空调一起开工，Claude 同时跑多个任务，效率翻倍。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Code Subagents 快速开始</title>
+      <link>https://www.frytea.com/archives/1501/</link>
+      <pubDate>Tue, 29 Jul 2025 01:26:08 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1501/</guid>
+      <description>&lt;p&gt;在Claude Code中的AI子代理，可用于特定任务的工作流程和改进的上下文管理。&lt;/p&gt;
+&lt;p&gt;Claude Code中的自定义子代理是专门的AI助手，可以被调用来处理特定类型的任务。它们通过提供具有自定义系统提示、工具和独立上下文窗口的特定任务配置，实现更高效的问题解决。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,283 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>kubernetes 的挂载传播(mount propagation)机制 | Frytea</title><meta name=keywords content="Kubernetes"><meta name=description content="
+以下内容转载自：kubernetes 的挂载传播(mount propagation)机制
+
+概述
+今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/archives/1506/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.05277dea5ecda4677c1c80258481c0391e879b5ac93ff418e8777b5b0c2cd4d5.css integrity="sha256-BSd96l7NpGd8HIAlhIHAOR6Hm1rJP/QY6Hd7Wwws1NU=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://www.frytea.com/archives/1506/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://www.frytea.com/archives/1506/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="kubernetes 的挂载传播(mount propagation)机制"><meta property="og:description" content="以下内容转载自：kubernetes 的挂载传播(mount propagation)机制
+概述 今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2025-08-07T14:31:47+00:00"><meta property="article:modified_time" content="2025-08-07T14:31:47+00:00"><meta property="article:tag" content="Kubernetes"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="kubernetes 的挂载传播(mount propagation)机制"><meta name=twitter:description content="以下内容转载自：kubernetes 的挂载传播(mount propagation)机制
+概述 今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://www.frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"kubernetes 的挂载传播(mount propagation)机制","item":"https://www.frytea.com/archives/1506/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"kubernetes 的挂载传播(mount propagation)机制","name":"kubernetes 的挂载传播(mount propagation)机制","description":" 以下内容转载自：kubernetes 的挂载传播(mount propagation)机制\n概述 今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。\n","keywords":["Kubernetes"],"articleBody":" 以下内容转载自：kubernetes 的挂载传播(mount propagation)机制\n概述 今天在看 kubectl-debug 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。\nkubernetes 的 mount propagation 翻译成中文就是挂载传播。挂载传播提供了共享卷挂载的能力，它允许在同一个 Pod，甚至同一个节点内，在多个容器之间共享卷的挂载。\nkubernetes 的挂载传播 卷的挂载传播由 Container.volumeMounts 的 mountPropagation 字段控制。它的值有：\nNone: 这种卷挂载将不会收到任何后续由 host 创建的在这个卷上或其子目录上的挂载。同样的，由容器创建的挂载在 host 上也是不可见的。这是默认的模式。这个其实很好理解，就是容器内和 host 的后续挂载完全隔离。 HostToContainer: 这种卷挂载将会收到之后所有的由 host 创建在该卷上或其子目录上的挂载。换句话说，如果 host 在卷挂载内挂载的任何内容，在容器中都是可见的。同样，如果任何具有 Bidirectional 的 Pod 挂载传播到该卷挂载上，具有 HostToContainer 的挂载传播都可以看见。整个挂载传播的流程如下： Bidirectional: 这种挂载机制和 HostToContainer 类似。此外，任何在容器中创建的挂载都会传播到 host，然后传播到使用相同卷的所有 Pod 的所有容器。注意：Bidirectional 挂载传播是很危险的。可能会危害到 host 的操作系统。因此只有特权容器在允许使用它。 在了解了这几种挂载传播之后，我们可以做一些实验来验证一下，首先验证的是 None 的挂载传播类型，我们创建一个 nginx 的Pod:\napiVersion: v1 kind: Pod metadata: name: mount-a namespace: default label: app: mount spec: containers: - name: main image: nginx:latest volumeMounts: - name: testmount mountPath: /home mountPropagation: None volumes: - name: testmount hostPath: path: /mnt/ YAML\n然后我们分别向 host 的 /mnt 和容器的 /home 下挂载目录并查看容器和 host 的情况：\n容器中：\n$ kubectl exec -it mount-a sh $ cd /home $ ls sda1 Bash\nhost 上：\n$ cd /mnt $ ls sda1 Bash\n然后在 host 上创建挂载：\n$ mkdir /mnt/none $ sudo mount --bind /var /mnt/none $ ls none cache empty lib lock log run spool tmp Bash\n这个时候，我们再看容器中的文件：\n$ ls none # 无输出 Bash\n这说明 host 上在该卷下的挂载并不会改变容器中的文件。接下来我们可以在容器中按照上面的方案来验证容器中的挂载也不会影响 host 中的目录视图。这里就不展示了。接下来看一下 HostToContainer 的挂载传播，我们将上面的 Pod 的 mountPropagation 字段改成 HostToContainer，然后先取消 host 上的挂载：\nsudo umoint /mnt/none 然后重新创建 Pod，和上面一样，在 host 上创建挂载，查看容器中的挂载情况：\n$ ls none cache empty lib lock log run spool tmp Bash\nhost 上的挂载因为 HostToContainer 机制传播到了容器中。我们继续看最后一种 Bidirectional 机制。这次我们要创建两个 Pod: mount-a, mount-b，并把 mountPropagation 字段改成 Bidirectional。注意，因为 Bidirectional 是危险的，所以只有特权容器才可以使用。因此这里还需要把容器改成特权模式，最后在 mount-a 中的容器执行挂载，验证挂载是否传播到 host 和 mount-b 的容器中。\napiVersion: v1 kind: Pod metadata: name: mount-a namespace: default labels: app: mount spec: containers: - name: main image: nginx:latest securityContext: privileged: true volumeMounts: - name: testmount mountPath: /home mountPropagation: Bidirectional volumes: - name: testmount hostPath: path: /mnt/ --- apiVersion: v1 kind: Pod metadata: name: mount-b namespace: default labels: app: mount spec: containers: - name: main image: nginx:latest securityContext: privileged: true volumeMounts: - name: testmount mountPath: /home mountPropagation: Bidirectional volumes: - name: testmount hostPath: path: /mnt/ YAML\n然后进入 mount-a，创建挂载：\n$ kubectl exec -it mount-a sh $ su $ mount --bind /var /home/none $ ls /home/none backups lib lock mail run tmp cache local log opt spool Bash\n这时候查看 host 下的 /mnt/none:\n$ ls /mnt/none backups lib lock mail run tmp cache local log opt spool Bash\n可以发现，容器中的挂载传播到了 host 上。这时候再查看 mount-b 中的容器。\n$ ls /home/none backups lib lock mail run tmp cache local log opt spool Bash\n挂载也传播到了 mount-b 的容器中。\nlinux mount 的几种类型 上面分析了 kubernetes 的挂载传播机制，在 linux mount 中，也有类似的概念。mount 分为下面几种：\nshared mount： 相当于上面所说的 Bidirectional 的挂载传播 slave mount： 每个 slave mount 都有一个 shared master mount，挂载传播只能从 master -\u003e slave，等同于上面的 HostToContainer， host 是 master，container 是 slave。 private mount： 很明显，private 就是相当于 None，挂载不会向任何一方传播。 unbindable mount：unbindable mount 其实就是 unbindable private mount，也就是不允许使用 --bind 的挂载。 mount namespace 的机制 kubernetes 的挂载传播不是其本身实现的，也不是 docker 之类的容器运行时提供的。这是由容器化技术的基础：linux namespace 提供的，linux namespace 当前共有 6 种:\ncgroup namespace: 隔离 cgroup 根目录 pid namespace: 隔离进程 id ipc namespace: 隔离 System V IPC, POSIX message queues uts namespace: 隔离 Hostname 和 NIS domain name user namespace: 隔离用户和用户组 ID mount namespace: 隔离挂载点 network namespace: 隔离网络设备，网络栈，端口等 其中，mount namespace 是这篇文章的重点。我们可以通过 clone 调用来看看 mount namespace 的使用：\n#define _GNU_SOURCE #include #include #include #include #include #include #include #define STACK_SIZE (1024*1024) static char container_stack[STACK_SIZE]; char* const container_args[] = { \"/bin/bash\", NULL }; int container_main(void* arg) { printf(\"Container [%5d] - inside the container!\\n\", getpid()); mount(\"none\", \"/\", NULL, MS_REC|MS_PRIVATE, NULL); execv(container_args[0], container_args); printf(\"Something's wrong!\\n\"); return 1; } int main() { printf(\"Parent [%5d] - start a container!\\n\", getpid()); /* 启用Mount Namespace - 增加CLONE_NEWNS参数 */ int container_pid = clone(container_main, container_stack+STACK_SIZE, CLONE_NEWNS | SIGCHLD, NULL); waitpid(container_pid, NULL, 0); printf(\"Parent - container stopped!\\n\"); return 0; } C\n编译运行:\n$ gcc main.c -o mount $ sudo ./mount Bash\n然后尝试挂载，来验证挂载 MS_PRIVATE 的挂载传播问题。MS_PRIVATE 下 namespace 内和 host 应该是隔离的。MS_PRIVATE 还可以替换成 MS_UNBINDABLE， MS_SLAVE，MS_SHARED。\n关于更多的 namespace 的资料，建议看这两篇文章：\nDOCKER基础技术：LINUX NAMESPACE（上） DOCKER基础技术：LINUX NAMESPACE（下） 参考资料 MOUNT_NAMESPACES NAMESPACES Shared Subtrees DOCKER基础技术：LINUX NAMESPACE（上） DOCKER基础技术：LINUX NAMESPACE（下） Namespace 在 Kernel 里是怎么实现的？以 mount namespace 为例 Mount propagation References kubernetes 的挂载传播(mount propagation)机制 ","wordCount":"2075","inLanguage":"zh","image":"https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2025-08-07T14:31:47Z","dateModified":"2025-08-07T14:31:47Z","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.frytea.com/archives/1506/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://www.frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/archives/>Archives</a></div><h1 class=post-title><a href=https://www.frytea.com/archives/1506/>kubernetes 的挂载传播(mount propagation)机制</a></h1><div class=post-meta>August 7, 2025&nbsp;·&nbsp;5 分钟&nbsp;·&nbsp;2075 字&nbsp;·&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2025-08-07-1506.md rel="noopener noreferrer edit" target=_blank>PR</a></span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e6%a6%82%e8%bf%b0 aria-label=概述>概述</a></li><li><a href=#kubernetes-%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad aria-label="kubernetes 的挂载传播">kubernetes 的挂载传播</a></li><li><a href=#linux-mount-%e7%9a%84%e5%87%a0%e7%a7%8d%e7%b1%bb%e5%9e%8b aria-label="linux mount 的几种类型">linux mount 的几种类型</a></li><li><a href=#mount-namespace-%e7%9a%84%e6%9c%ba%e5%88%b6 aria-label="mount namespace 的机制">mount namespace 的机制</a></li><li><a href=#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99 aria-label=参考资料>参考资料</a></li><li><a href=#references aria-label=References>References</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://www.frytea.com/archives/1506/>本文</a>
+首发于
+<a href=https://www.frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://www.frytea.com/archives/1506/>来源</a>。</p></blockquote><blockquote><p>以下内容转载自：<a href=https://www.myway5.com/index.php/2020/04/05/kubernetes-mount-propagation/>kubernetes 的挂载传播(mount propagation)机制</a></p></blockquote><h2 id=概述>概述<a hidden class=anchor aria-hidden=true href=#概述>#</a></h2><p>今天在看 <a href=https://github.com/aylei/kubectl-debug>kubectl-debug</a> 这个项目的时候，看到其部署文件的 volumeMounuts 中使用了一个 mountPropagation 字段，因为不清楚这个字段的作用，就做了一下了解。mount propagation 背后的东西还是很多的，因此整理了这篇文章，顺便梳理一下知识点。</p><p>kubernetes 的 mount propagation 翻译成中文就是挂载传播。挂载传播提供了共享卷挂载的能力，它允许在同一个 Pod，甚至同一个节点内，在多个容器之间共享卷的挂载。</p><h2 id=kubernetes-的挂载传播>kubernetes 的挂载传播<a hidden class=anchor aria-hidden=true href=#kubernetes-的挂载传播>#</a></h2><p>卷的挂载传播由 Container.volumeMounts 的 mountPropagation 字段控制。它的值有：</p><ul><li><code>None</code>: 这种卷挂载将不会收到任何后续由 host 创建的在这个卷上或其子目录上的挂载。同样的，由容器创建的挂载在 host 上也是不可见的。这是默认的模式。这个其实很好理解，就是容器内和 host 的后续挂载完全隔离。</li><li><code>HostToContainer</code>: 这种卷挂载将会收到之后所有的由 host 创建在该卷上或其子目录上的挂载。换句话说，如果 host 在卷挂载内挂载的任何内容，在容器中都是可见的。同样，如果任何具有 <code>Bidirectional</code> 的 Pod 挂载传播到该卷挂载上，具有 <code>HostToContainer</code> 的挂载传播都可以看见。整个挂载传播的流程如下：</li></ul><p><img loading=lazy src=https://cdn-imagehost.frytea.com/images/2025/08/04/njkea2.webp></p><ul><li><code>Bidirectional</code>: 这种挂载机制和 <code>HostToContainer</code> 类似。此外，任何在容器中创建的挂载都会传播到 host，然后传播到使用相同卷的所有 Pod 的所有容器。注意：Bidirectional 挂载传播是很危险的。可能会危害到 host 的操作系统。因此只有特权容器在允许使用它。</li></ul><p>在了解了这几种挂载传播之后，我们可以做一些实验来验证一下，首先验证的是 <code>None</code> 的挂载传播类型，我们创建一个 nginx 的Pod:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>metadata</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>mount-a</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>namespace</span>: <span style=color:#ae81ff>default</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>label</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>app</span>: <span style=color:#ae81ff>mount</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>spec</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>containers</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>main</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>image</span>: <span style=color:#ae81ff>nginx:latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>volumeMounts</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPath</span>: <span style=color:#ae81ff>/home</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPropagation</span>: <span style=color:#ae81ff>None</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>hostPath</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>path</span>: <span style=color:#ae81ff>/mnt/</span>
+</span></span></code></pre></div><p>YAML</p><p>然后我们分别向 host 的 <code>/mnt</code> 和容器的 <code>/home</code> 下挂载目录并查看容器和 host 的情况：</p><p>容器中：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ kubectl exec -it mount-a sh
+</span></span><span style=display:flex><span>$ cd /home
+</span></span><span style=display:flex><span>$ ls 
+</span></span><span style=display:flex><span>sda1
+</span></span></code></pre></div><p>Bash</p><p>host 上：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ cd /mnt
+</span></span><span style=display:flex><span>$ ls 
+</span></span><span style=display:flex><span>sda1
+</span></span></code></pre></div><p>Bash</p><p>然后在 host 上创建挂载：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ mkdir /mnt/none
+</span></span><span style=display:flex><span>$ sudo mount --bind /var /mnt/none
+</span></span><span style=display:flex><span>$ ls none
+</span></span><span style=display:flex><span>cache  empty  lib  lock  log  run  spool  tmp
+</span></span></code></pre></div><p>Bash</p><p>这个时候，我们再看容器中的文件：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ ls none
+</span></span><span style=display:flex><span><span style=color:#75715e># 无输出</span>
+</span></span></code></pre></div><p>Bash</p><p>这说明 host 上在该卷下的挂载并不会改变容器中的文件。接下来我们可以在容器中按照上面的方案来验证容器中的挂载也不会影响 host 中的目录视图。这里就不展示了。接下来看一下 <code>HostToContainer</code> 的挂载传播，我们将上面的 Pod 的 <code>mountPropagation</code> 字段改成 <code>HostToContainer</code>，然后先取消 host 上的挂载：</p><pre tabindex=0><code>sudo umoint /mnt/none
+</code></pre><p>然后重新创建 Pod，和上面一样，在 host 上创建挂载，查看容器中的挂载情况：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ ls none
+</span></span><span style=display:flex><span>cache  empty  lib  lock  log  run  spool  tmp
+</span></span></code></pre></div><p>Bash</p><p>host 上的挂载因为 <code>HostToContainer</code> 机制传播到了容器中。我们继续看最后一种 <code>Bidirectional</code> 机制。这次我们要创建两个 Pod: mount-a, mount-b，并把 <code>mountPropagation</code> 字段改成 <code>Bidirectional</code>。注意，因为 <code>Bidirectional</code> 是危险的，所以只有特权容器才可以使用。因此这里还需要把容器改成特权模式，最后在 mount-a 中的容器执行挂载，验证挂载是否传播到 host 和 mount-b 的容器中。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>metadata</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>mount-a</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>namespace</span>: <span style=color:#ae81ff>default</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>labels</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>app</span>: <span style=color:#ae81ff>mount</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>spec</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>containers</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>main</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>image</span>: <span style=color:#ae81ff>nginx:latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>securityContext</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>privileged</span>: <span style=color:#66d9ef>true</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>volumeMounts</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPath</span>: <span style=color:#ae81ff>/home</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPropagation</span>: <span style=color:#ae81ff>Bidirectional</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>hostPath</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>path</span>: <span style=color:#ae81ff>/mnt/</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>metadata</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>mount-b</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>namespace</span>: <span style=color:#ae81ff>default</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>labels</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>app</span>: <span style=color:#ae81ff>mount</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>spec</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>containers</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>main</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>image</span>: <span style=color:#ae81ff>nginx:latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>securityContext</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>privileged</span>: <span style=color:#66d9ef>true</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>volumeMounts</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPath</span>: <span style=color:#ae81ff>/home</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>mountPropagation</span>: <span style=color:#ae81ff>Bidirectional</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>    - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>testmount</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>hostPath</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>path</span>: <span style=color:#ae81ff>/mnt/</span>
+</span></span></code></pre></div><p>YAML</p><p>然后进入 mount-a，创建挂载：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ kubectl exec -it mount-a sh
+</span></span><span style=display:flex><span>$ su
+</span></span><span style=display:flex><span>$ mount --bind /var /home/none
+</span></span><span style=display:flex><span>$ ls /home/none
+</span></span><span style=display:flex><span>backups  lib    lock  mail  run    tmp
+</span></span><span style=display:flex><span>cache    local  log   opt   spool
+</span></span></code></pre></div><p>Bash</p><p>这时候查看 host 下的 /mnt/none:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ ls /mnt/none
+</span></span><span style=display:flex><span>backups  lib    lock  mail  run    tmp
+</span></span><span style=display:flex><span>cache    local  log   opt   spool
+</span></span></code></pre></div><p>Bash</p><p>可以发现，容器中的挂载传播到了 host 上。这时候再查看 mount-b 中的容器。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ ls /home/none
+</span></span><span style=display:flex><span>backups  lib    lock  mail  run    tmp
+</span></span><span style=display:flex><span>cache    local  log   opt   spool
+</span></span></code></pre></div><p>Bash</p><p>挂载也传播到了 mount-b 的容器中。</p><h2 id=linux-mount-的几种类型>linux mount 的几种类型<a hidden class=anchor aria-hidden=true href=#linux-mount-的几种类型>#</a></h2><p>上面分析了 kubernetes 的挂载传播机制，在 linux mount 中，也有类似的概念。mount 分为下面几种：</p><ul><li>shared mount： 相当于上面所说的 <code>Bidirectional</code> 的挂载传播</li><li>slave mount： 每个 slave mount 都有一个 shared master mount，挂载传播只能从 master -> slave，等同于上面的 <code>HostToContainer</code>， host 是 master，container 是 slave。</li><li>private mount： 很明显，private 就是相当于 <code>None</code>，挂载不会向任何一方传播。</li><li>unbindable mount：unbindable mount 其实就是 unbindable private mount，也就是不允许使用 <code>--bind</code> 的挂载。</li></ul><h2 id=mount-namespace-的机制>mount namespace 的机制<a hidden class=anchor aria-hidden=true href=#mount-namespace-的机制>#</a></h2><p>kubernetes 的挂载传播不是其本身实现的，也不是 docker 之类的容器运行时提供的。这是由容器化技术的基础：linux namespace 提供的，linux namespace 当前共有 6 种:</p><ul><li>cgroup namespace: 隔离 cgroup 根目录</li><li>pid namespace: 隔离进程 id</li><li>ipc namespace: 隔离 System V IPC, POSIX message queues</li><li>uts namespace: 隔离 Hostname 和 NIS domain name</li><li>user namespace: 隔离用户和用户组 ID</li><li>mount namespace: 隔离挂载点</li><li>network namespace: 隔离网络设备，网络栈，端口等</li></ul><p>其中，mount namespace 是这篇文章的重点。我们可以通过 <code>clone</code> 调用来看看 mount namespace 的使用：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-c data-lang=c><span style=display:flex><span><span style=color:#75715e>#define _GNU_SOURCE
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;stdio.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;sys/types.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;sys/wait.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;sys/mount.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;sched.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;signal.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;unistd.h&gt;</span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#define STACK_SIZE (1024*1024)
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>static</span> <span style=color:#66d9ef>char</span> container_stack[STACK_SIZE];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>char</span><span style=color:#f92672>*</span> <span style=color:#66d9ef>const</span> container_args[] <span style=color:#f92672>=</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;/bin/bash&#34;</span>,
+</span></span><span style=display:flex><span>    NULL
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>container_main</span>(<span style=color:#66d9ef>void</span><span style=color:#f92672>*</span> arg)
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Container [%5d] - inside the container!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, <span style=color:#a6e22e>getpid</span>());
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>mount</span>(<span style=color:#e6db74>&#34;none&#34;</span>, <span style=color:#e6db74>&#34;/&#34;</span>, NULL, MS_REC<span style=color:#f92672>|</span>MS_PRIVATE, NULL);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>execv</span>(container_args[<span style=color:#ae81ff>0</span>], container_args);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Something&#39;s wrong!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Parent [%5d] - start a container!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>, <span style=color:#a6e22e>getpid</span>());
+</span></span><span style=display:flex><span>    <span style=color:#75715e>/* 启用Mount Namespace - 增加CLONE_NEWNS参数 */</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>int</span> container_pid <span style=color:#f92672>=</span> <span style=color:#a6e22e>clone</span>(container_main, container_stack<span style=color:#f92672>+</span>STACK_SIZE, CLONE_NEWNS <span style=color:#f92672>|</span> SIGCHLD, NULL);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>waitpid</span>(container_pid, NULL, <span style=color:#ae81ff>0</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>printf</span>(<span style=color:#e6db74>&#34;Parent - container stopped!</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>C</p><p>编译运行:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>$ gcc main.c -o mount
+</span></span><span style=display:flex><span>$ sudo ./mount
+</span></span></code></pre></div><p>Bash</p><p>然后尝试挂载，来验证挂载 <code>MS_PRIVATE</code> 的挂载传播问题。<code>MS_PRIVATE</code> 下 namespace 内和 host 应该是隔离的。<code>MS_PRIVATE</code> 还可以替换成 <code>MS_UNBINDABLE</code>， <code>MS_SLAVE</code>，<code>MS_SHARED</code>。</p><p>关于更多的 namespace 的资料，建议看这两篇文章：</p><ul><li><a href=https://coolshell.cn/articles/17010.html>DOCKER基础技术：LINUX NAMESPACE（上）</a></li><li><a href=https://coolshell.cn/articles/17029.html>DOCKER基础技术：LINUX NAMESPACE（下）</a></li></ul><h2 id=参考资料>参考资料<a hidden class=anchor aria-hidden=true href=#参考资料>#</a></h2><ul><li><a href=http://man7.org/linux/man-pages/man7/mount_namespaces.7.html>MOUNT_NAMESPACES</a></li><li><a href=http://man7.org/linux/man-pages/man7/namespaces.7.html>NAMESPACES</a></li><li><a href=https://www.kernel.org/doc/Documentation/filesystems/sharedsubtree.txt>Shared Subtrees</a></li><li><a href=https://coolshell.cn/articles/17010.html>DOCKER基础技术：LINUX NAMESPACE（上）</a></li><li><a href=https://coolshell.cn/articles/17029.html>DOCKER基础技术：LINUX NAMESPACE（下）</a></li><li><a href=https://feichashao.com/kernel-namespace-implementation/>Namespace 在 Kernel 里是怎么实现的？以 mount namespace 为例</a></li><li><a href=https://kubernetes.io/docs/concepts/storage/volumes/#mount-propagation>Mount propagation</a></li></ul><h2 id=references>References<a hidden class=anchor aria-hidden=true href=#references>#</a></h2><ul><li><a href=https://www.myway5.com/index.php/2020/04/05/kubernetes-mount-propagation/>kubernetes 的挂载传播(mount propagation)机制</a></li></ul><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://www.frytea.com/tags/kubernetes/>🏷 Kubernetes</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on twitter" href="https://twitter.com/intent/tweet/?text=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f&amp;hashtags=Kubernetes"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f&amp;title=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6&amp;summary=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6&amp;source=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f&title=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on whatsapp" href="https://api.whatsapp.com/send?text=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6%20-%20https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share kubernetes 的挂载传播(mount propagation)机制 on telegram" href="https://telegram.me/share/url?text=kubernetes%20%e7%9a%84%e6%8c%82%e8%bd%bd%e4%bc%a0%e6%92%ad%28mount%20propagation%29%e6%9c%ba%e5%88%b6&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1506%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://www.frytea.com/archives/1507/><span class=title>« 上一页</span><br><span>telnet 如何退出</span>
+</a><a class=next href=https://www.frytea.com/archives/1505/><span class=title>下一页 »</span><br><span>vim 将命令输出到当前位置</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span><a href=/about/>关于</a>
+• <a href=/disclaimer/>免责声明</a>
+• <a href=/sitemap.xml target=view_window>站点地图</a>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+  
+  if ('serviceWorker' in navigator) {
+    
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script></body></html>

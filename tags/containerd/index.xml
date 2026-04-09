@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Containerd on Frytea</title>
+    <link>https://www.frytea.com/tags/containerd/</link>
+    <description>Recent content in Containerd on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Dec 2024 10:17:08 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/containerd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>以沙箱的方式运行容器-安全容器Kata Containers</title>
+      <link>https://www.frytea.com/archives/1393/</link>
+      <pubDate>Wed, 18 Dec 2024 10:17:08 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1393/</guid>
+      <description>&lt;h1 id=&#34;一系统环境&#34;&gt;一.系统环境&lt;/h1&gt;
+&lt;p&gt;本文主要基于Kubernetes1.22.2和Linux操作系统Ubuntu 18.04。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;服务器版本&lt;/th&gt;
+          &lt;th&gt;docker软件版本&lt;/th&gt;
+          &lt;th&gt;Kubernetes(k8s)集群版本&lt;/th&gt;
+          &lt;th&gt;Kata软件版本&lt;/th&gt;
+          &lt;th&gt;containerd软件版本&lt;/th&gt;
+          &lt;th&gt;CPU架构&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ubuntu 18.04.5 LTS&lt;/td&gt;
+          &lt;td&gt;Docker version 20.10.14&lt;/td&gt;
+          &lt;td&gt;v1.22.2&lt;/td&gt;
+          &lt;td&gt;1.11.5&lt;/td&gt;
+          &lt;td&gt;1.6.4&lt;/td&gt;
+          &lt;td&gt;x86_64&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Kubernetes集群架构：k8scludes1作为master节点，k8scludes2，k8scludes3作为worker节点。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>镜像操作神器 skopeo 用法总结</title>
+      <link>https://www.frytea.com/archives/1353/</link>
+      <pubDate>Sat, 23 Nov 2024 02:59:30 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1353/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/containers/skopeo&#34;&gt;skopeo&lt;/a&gt;&lt;/strong&gt; 是一个命令行工具，可对容器镜像和容器存储进行操作。 在没有dockerd的环境下，使用 &lt;strong&gt;skopeo&lt;/strong&gt; 操作镜像是非常方便的。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;h3 id=&#34;包管理器&#34;&gt;包管理器&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# RHEL / CentOS Stream ≥ 8
+sudo dnf install skopeo
+
+# RHEL/CentOS ≤ 7.x
+yum install skopeo
+
+# openSUSE:
+sudo zypper install skopeo
+
+# alpine:
+sudo apk add skopeo
+
+# macOS:
+brew install skopeo
+
+# ArchLinux
+sudo pacman -S skopeo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其他系统见 &lt;a href=&#34;https://github.com/containers/skopeo/blob/master/install.md&#34;&gt;安装文档&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

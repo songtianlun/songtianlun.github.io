@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>S3cmd on Frytea</title>
+    <link>https://www.frytea.com/tags/s3cmd/</link>
+    <description>Recent content in S3cmd on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 20 Jan 2025 15:30:24 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/s3cmd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>s3cmd  常见用法</title>
+      <link>https://www.frytea.com/archives/1419/</link>
+      <pubDate>Mon, 20 Jan 2025 15:30:24 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1419/</guid>
+      <description>&lt;h2 id=&#34;常见用法&#34;&gt;常见用法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;列举所有 Buckets&lt;br&gt;
+&lt;code&gt;$ s3cmd ls&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;创建 bucket，且 bucket 名称是唯一的，不能重复。&lt;br&gt;
+&lt;code&gt;s3cmd mb s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除空 bucket&lt;br&gt;
+&lt;code&gt;s3cmd rb s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;列举 Bucket 中的内容&lt;br&gt;
+&lt;code&gt;s3cmd ls s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传 file.txt 到某个 bucket，&lt;br&gt;
+&lt;code&gt;s3cmd put file.txt s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传并将权限设置为所有人可读&lt;br&gt;
+&lt;code&gt;s3cmd put --acl-public file.txt s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;批量上传文件&lt;br&gt;
+&lt;code&gt;s3cmd put ./* s3://my-bucket-name/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;下载文件&lt;br&gt;
+&lt;code&gt;s3cmd get s3://my-bucket-name/file.txt file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;批量下载&lt;br&gt;
+&lt;code&gt;s3cmd get s3://my-bucket-name/* ./&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除文件&lt;br&gt;
+&lt;code&gt;s3cmd del s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;来获得对应的bucket所占用的空间大小&lt;br&gt;
+&lt;code&gt;s3cmd du -H s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;设置S3 bucket的Public权限&lt;br&gt;
+&lt;code&gt;s3cmd setacl s3://myexamplebucket.calvium.com/ --acl-public --recursive&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;临时链接&#34;&gt;临时链接&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;s3cmd signurl s3://example-bucket/image.jpg 1657457538
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;example-bucket&lt;/em&gt; — the name of the bucket that hosts the file,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;image.jpg&lt;/em&gt; — the file you want to share,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;1657457538&lt;/em&gt; — link expiry time in the Timestamp format, use the &lt;a href=&#34;https://epochconverter.com&#34;&gt;converter&lt;/a&gt; to convert time formats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcore.com/docs/storage/manage-object-storage/configure-aws-sli-s3cmd-and-aws-javascript-sdk/generate-temporary-links-to-files-with-aws-cli-and-s3cmd#generate-links-in-s3cmd&#34;&gt;Generate temporary links to files with AWS CLI and S3cmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/sunhongleibibi/p/11661123.html&#34;&gt;s3cmd的使用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

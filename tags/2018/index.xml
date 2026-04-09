@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2018 on Frytea</title>
+    <link>https://www.frytea.com/tags/2018/</link>
+    <description>Recent content in 2018 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Nov 2024 08:44:32 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/2018/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>智能生活管家项目之一-系统简介</title>
+      <link>https://www.frytea.com/archives/1087/</link>
+      <pubDate>Tue, 04 Dec 2018 02:30:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1087/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;用“智能”决策生活，篆刻生活印记&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;随着技术的发展和人类的进步，人们的生活节奏越来越快，每一&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

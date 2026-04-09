@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AIArt on Frytea</title>
+    <link>https://www.frytea.com/tags/aiart/</link>
+    <description>Recent content in AIArt on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 23 Feb 2025 06:06:56 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/aiart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>全球艺术天气网站</title>
+      <link>https://www.frytea.com/archives/1430/</link>
+      <pubDate>Sun, 02 Feb 2025 15:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1430/</guid>
+      <description>&lt;p&gt;介绍一个 每日 AI 艺术天气 网站，能够通过人工智能生成的艺术作品，以独特的视角展现日常气象现象。&lt;/p&gt;
+&lt;h2 id=&#34;入口&#34;&gt;入口&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://todayaiweather.com/&#34;&gt;TodayAiWeather&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;TodayAiWeather&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/02/02/123bzw6.webp&#34;&gt;​&lt;/p&gt;
+&lt;p&gt;部分城市入口：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/guangzhou&#34;&gt;Guangzhou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/beijing&#34;&gt;Beijing&lt;/a&gt;​&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/chicago&#34;&gt;Chicago&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/chengdu&#34;&gt;Chengdu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/shanghai&#34;&gt;Shanghai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/paris&#34;&gt;Paris&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/new-taipei-city&#34;&gt;New Taipei City&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/yerevan&#34;&gt;Yerevan&lt;/a&gt;​&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;收录情况&#34;&gt;收录情况&lt;/h2&gt;
+&lt;p&gt;目前收录了 78 个城市，未来还会根据需要添加更多，有需要可以在本文留言。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

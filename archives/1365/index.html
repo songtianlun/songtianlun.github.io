@@ -1,0 +1,203 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Ubuntu 22.04设置DNS | Frytea</title><meta name=keywords content="Ubuntu"><meta name=description content="DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。
+您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/archives/1365/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.05277dea5ecda4677c1c80258481c0391e879b5ac93ff418e8777b5b0c2cd4d5.css integrity="sha256-BSd96l7NpGd8HIAlhIHAOR6Hm1rJP/QY6Hd7Wwws1NU=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://www.frytea.com/archives/1365/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://www.frytea.com/archives/1365/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="Ubuntu 22.04设置DNS"><meta property="og:description" content="DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。
+您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2024-11-28T10:11:14+00:00"><meta property="article:modified_time" content="2024-11-28T10:11:14+00:00"><meta property="article:tag" content="Ubuntu"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Ubuntu 22.04设置DNS"><meta name=twitter:description content="DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。
+您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://www.frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"Ubuntu 22.04设置DNS","item":"https://www.frytea.com/archives/1365/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Ubuntu 22.04设置DNS","name":"Ubuntu 22.04设置DNS","description":"DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。\n您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。\n","keywords":["Ubuntu"],"articleBody":"DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。\n您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。\n连接到Internet的每个设备均由其IP地址作为唯一标识。当您在浏览器中键入要访问的网站时，其域名必须转换为相应的IP地址。\n什么是 DNS与DNS工作方式 操作系统首先检查其hosts文w件中是否存在相应的域，如果域名中不存在hosts文件，它将查询配置的DNS域名服务器以解析指定的域名。\n域名解析后，系统将缓存请求并保留域名和相应IP地址的记录。DNS域名服务器为其他设备执行DNS解释的服务器。\n通常，DNS服务器地址由您的ISP分配。但是，这些DNS服务器可能运行缓慢或未定期更新，这可能会导致在查询域名时解析为错误的IP地址。\n或者出现延迟，有时您可能根本无法解析所需的域名的IP地址。有很多免费的公共DNS服务器。\n这些DNS域名服务器快速，并定期更新。这是一些最受欢迎的公共DNS服务器。Google（8.8.8.8，8.8.4.4），Cloudflare（1.1.1.1，1.0.0.1）。\nOpenDNS（208.67.222.222，208.67.220.220），Level3（209.244.0.3，209.244.0.4）。\n如果要为连接到本地网络的所有设备设置DNS域名服务器，那么最简单和建议的方法是在家庭路由器进行更改。\nUbuntu 22.04 查看 DNS 在Linux 查看正在使用DNS服务器IP地址方法有很多，可以使用dig命令或者查看systemd-resolve服务的状态。\nsystemd-resolve -status命令打印很多信息。但我们可以使用grep命令来过滤DNS Servers字符串。\n对于dig命令，如果只需要查看当前使用DNS地址，请运行命令dig myfreax.com | grep SERVER。\ndig myfreax.com | grep SERVER sudo systemd-resolve --status | grep 'DNS Servers' -A2 dig myfreax.com | grep SERVER ;; SERVER: 8.8.8.8#53(8.8.8.8) sudo systemd-resolve --status | grep 'DNS Servers' -A2 DNS Servers: 1.1.1.1 1.0.0.1 sudo systemd-resolve –status | grep ‘DNS Servers’ -A2\nUbuntu 22.04 桌面设置DNS 在Ubuntu 22.04桌面环境设置DNS地址非常简单，不需要任何技术知识。首先打开设置窗口。\n如果您连接到WiFi网络，请单击Wi-FI标签。否则，如果您有有线连接，请单击网络选项卡。\n选择要为其设置DNS的连接，然后单击齿轮图标以打开网络管理器。选择IPv4设置选项卡。\n禁用自动切换开关，然后输入DNS服务器的IP地址，以逗号分隔。我们将使用Google DNS服务器。\n点击应用按钮以保存更改。更改立即生效，除非您的系统或应用程序缓存了DNS记录。\n如果要切换回原来的设置，请打开网络管理器，转到IPv4设置并启用自动切换开关。\nUbuntu 22.04 服务器设置DNS 过去，每当您想在Linux中配置DNS地址时，只需打开/etc/resolv.conf文件，编辑记录，保存文件就可以。\n现在/etc/resolv.conf文件仍然存在，但它是由systemd-resolved服务控制的符号链接，不应手动对其进行编辑。\nsystemd-resolved是为本地服务和应用程序提供DNS名称解析的服务，可以使用Netplan进行配置，Netplan是Ubuntu 22.04的默认网络管理工具。\nNetplan配置文件存储在/etc/netplan目录。您可能会在此目录中找到一个或两个YAML文件。\n各个安装程序的文件名可能不同。通常，该文件名为01-netcfg.yaml或50-cloud-init.yaml，但在您的系统中，可能会有所不同。\n这些文件使您可以配置网络接口，我们通常称为网卡，包括IP地址，网关，DNS域名服务器等。\n要设置DNS，请使用你喜欢的文本编辑器编辑文件，在本教程中我们将使用vim编辑文件。\nsudo vim /etc/netplan/01-network-manager-all.yaml network: version: 2 renderer: NetworkManager ethernets: ens3: dhcp4: true nameservers: addresses: [8.8.8.8, 8.8.4.4] 注意，你必须修改本教程中接口名称ens3为你的计算机接口名称。然后使用您的首选DNS更改nameservers的IP地址。\n例如如果您想使用Cloudflare的DNS服务器，则可以将nameservers的addresses行更改为。\nDNS服务器IP地址必须用逗号分隔，如果该nameservers字段不存在，请将nameservers添加到接口名称字段下。\nnameservers:\raddresses: [1.1.1.1, 1.0.0.1] 编辑Yaml文件时，请确保您遵循YAML代码缩进标准。如果配置中存在语法错误，Netplan将无法解析该文件。完成后，保存文件并退出vim。\n然后运行命令sudo netplan apply应用更改。Netplan将为systemd-resolved的服务生成配置文件/run/systemd/resolve/resolv.conf。\n此外，还有一些应用程序依然使用/etc/resolv.conf的配置文件的DNS地址进行域名的解释，因此你还需要修改/etc/resolv.conf文件。\n要修改此文件我们只需要将/run/systemd/resolve/resolv.conf软链接到/etc/resolv.con即可。\n运行命令sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf。\nsudo netplan apply sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf Ubuntu 22.04 验证DNS设置 要验证是否正确设置DNS地址，请运行命令systemd-resolve --status | grep 'DNS Servers' -A2或者命令dig www.myfreax.com。\nsystemd-resolve -status命令打印很多信息。我们使用grep命令来过滤DNS Servers字符串。\nsudo systemd-resolve --status | grep 'DNS Servers' -A2 DNS Servers: 1.1.1.1\r1.0.0.1 这里需要注意的是，如果你的Ubuntu 22.04带有桌面环境，请一定使用桌面环境的网络设置来修改DNS的IP地址。\n如果你想使用命令的方式修改DNS地址，可能会不如你所愿。当你在终端运行命令dig www.myfreax.com的时候。\n你将会在dig命令的结果看到应答的服务器永远是;; SERVER: 127.0.0.1#53(127.0.0.1)或者是你的网关地址;; SERVER: 192.168.1.1#53(192.168.1.1)。\ndig www.myfreax.com ; \u003c\u003c\u003e\u003e DiG 9.16.1-Ubuntu \u003c\u003c\u003e\u003e www.myfreax.com\r;; global options: +cmd\r;; Got answer:\r;; -\u003e\u003eHEADER\u003c\u003c- opcode: QUERY, status: NOERROR, id: 451\r;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\r;; OPT PSEUDOSECTION:\r; EDNS: version: 0, flags:; udp: 512\r;; QUESTION SECTION:\r;www.myfreax.com.\tIN\tA\r;; ANSWER SECTION:\rwww.myfreax.com.\t300\tIN\tA\t43.457.68.101\r;; Query time: 119 msec\r;; SERVER: 8.8.8.8#53(8.8.8.8)\r;; WHEN: Thu Dec 01 19:14:33 HKT 2022\r;; MSG SIZE rcvd: 60 结论 Netplan是Ubuntu 22.04的默认网络管理工具，替代之前的Ubuntu版本中用于配置网络的/etc/resolv.conf和/etc/network/interfaces配置文件。\n#GNU_Linux #Ubunt #Dig #DNS\nReferences 如何在Ubuntu 22.04设置DNS ","wordCount":"2598","inLanguage":"zh","image":"https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2024-11-28T10:11:14Z","dateModified":"2024-11-28T10:11:14Z","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.frytea.com/archives/1365/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://www.frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/archives/>Archives</a></div><h1 class=post-title><a href=https://www.frytea.com/archives/1365/>Ubuntu 22.04设置DNS</a></h1><div class=post-meta>November 28, 2024&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2598 字&nbsp;·&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2024-11-28-1365.md rel="noopener noreferrer edit" target=_blank>PR</a></span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e4%bb%80%e4%b9%88%e6%98%af-dns%e4%b8%8edns%e5%b7%a5%e4%bd%9c%e6%96%b9%e5%bc%8f aria-label="什么是 DNS与DNS工作方式">什么是 DNS与DNS工作方式</a></li><li><a href=#ubuntu-2204-%e6%9f%a5%e7%9c%8b-dns aria-label="Ubuntu 22.04 查看 DNS">Ubuntu 22.04 查看 DNS</a></li><li><a href=#ubuntu-2204-%e6%a1%8c%e9%9d%a2%e8%ae%be%e7%bd%aedns aria-label="Ubuntu 22.04 桌面设置DNS">Ubuntu 22.04 桌面设置DNS</a></li><li><a href=#ubuntu-2204-%e6%9c%8d%e5%8a%a1%e5%99%a8%e8%ae%be%e7%bd%aedns aria-label="Ubuntu 22.04 服务器设置DNS">Ubuntu 22.04 服务器设置DNS</a></li><li><a href=#ubuntu-2204-%e9%aa%8c%e8%af%81dns%e8%ae%be%e7%bd%ae aria-label="Ubuntu 22.04 验证DNS设置">Ubuntu 22.04 验证DNS设置</a></li><li><a href=#%e7%bb%93%e8%ae%ba aria-label=结论>结论</a></li><li><a href=#references aria-label=References>References</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://www.frytea.com/archives/1365/>本文</a>
+首发于
+<a href=https://www.frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://www.frytea.com/archives/1365/>来源</a>。</p></blockquote><p>DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。</p><p>您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。</p><p>连接到Internet的每个设备均由其IP地址作为唯一标识。当您在浏览器中键入要访问的网站时，其域名必须转换为相应的IP地址。</p><h2 id=什么是-dns与dns工作方式>什么是 DNS与DNS工作方式<a hidden class=anchor aria-hidden=true href=#什么是-dns与dns工作方式>#</a></h2><p>操作系统首先检查其<a href=https://www.myfreax.com/how-to-edit-your-hosts-file/>hosts文w件</a>中是否存在相应的域，如果域名中不存在<a href=https://www.myfreax.com/how-to-edit-your-hosts-file/>hosts文件</a>，它将查询配置的DNS域名服务器以解析指定的域名。</p><p>域名解析后，系统将缓存请求并保留域名和相应IP地址的记录。DNS域名服务器为其他设备执行DNS解释的服务器。</p><p>通常，DNS服务器地址由您的ISP分配。但是，这些DNS服务器可能运行缓慢或未定期更新，这可能会导致在查询域名时解析为错误的IP地址。</p><p>或者出现延迟，有时您可能<a href=https://www.myfreax.com/how-to-solve-github-cannot-access-127-0-0-1/>根本无法解析所需的域名的IP地址</a>。有很多免费的公共DNS服务器。</p><p>这些DNS域名服务器快速，并定期更新。这是一些最受欢迎的公共DNS服务器。Google（<code>8.8.8.8</code>，<code>8.8.4.4</code>），Cloudflare（<code>1.1.1.1</code>，<code>1.0.0.1</code>）。</p><p>OpenDNS（<code>208.67.222.222</code>，<code>208.67.220.220</code>），Level3（<code>209.244.0.3</code>，<code>209.244.0.4</code>）。</p><p>如果要为连接到本地网络的所有设备设置DNS域名服务器，那么最简单和建议的方法是在家庭路由器进行更改。</p><h2 id=ubuntu-2204-查看-dns>Ubuntu 22.04 查看 DNS<a hidden class=anchor aria-hidden=true href=#ubuntu-2204-查看-dns>#</a></h2><p>在Linux 查看正在使用DNS服务器IP地址方法有很多，可以使用<a href=https://www.myfreax.com/ru-he-zai-linuxshi-yong-dnscha-xun-gong-ju-dig><code>dig</code>命令</a>或者查看<code>systemd-resolve</code>服务的状态。</p><p><code>systemd-resolve -status</code>命令打印很多信息。但我们可以使用<a href=https://www.myfreax.com/how-to-use-grep-command-to-search-files-in-linux/><code>grep</code>命令</a>来过滤<code>DNS Servers</code>字符串。</p><p>对于dig命令，如果只需要查看当前使用DNS地址，请运行命令<code>dig myfreax.com | grep SERVER</code>。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>dig myfreax.com | grep SERVER 
+</span></span><span style=display:flex><span>sudo systemd-resolve --status | grep <span style=color:#e6db74>&#39;DNS Servers&#39;</span> -A2
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>dig myfreax.com | grep SERVER
+</span></span><span style=display:flex><span>;; SERVER: 8.8.8.8#53<span style=color:#f92672>(</span>8.8.8.8<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>sudo systemd-resolve --status | grep <span style=color:#e6db74>&#39;DNS Servers&#39;</span> -A2
+</span></span><span style=display:flex><span>         DNS Servers: 1.1.1.1
+</span></span><span style=display:flex><span>                      1.0.0.1
+</span></span></code></pre></div><p>sudo systemd-resolve &ndash;status | grep &lsquo;DNS Servers&rsquo; -A2</p><h2 id=ubuntu-2204-桌面设置dns>Ubuntu 22.04 桌面设置DNS<a hidden class=anchor aria-hidden=true href=#ubuntu-2204-桌面设置dns>#</a></h2><p>在Ubuntu 22.04桌面环境设置DNS地址非常简单，不需要任何技术知识。首先打开<code>设置</code>窗口。</p><p>如果您连接到WiFi网络，请单击<code>Wi-FI</code>标签。否则，如果您有有线连接，请单击<code>网络</code>选项卡。</p><p>选择要为其设置DNS的连接，然后单击齿轮图标以打开网络管理器。选择<code>IPv4设置</code>选项卡。</p><p>禁用<code>自动</code>切换开关，然后输入DNS服务器的IP地址，以逗号分隔。我们将使用Google DNS服务器。</p><p><img alt="Ubunut 22.04 设置 DNS地址" loading=lazy src=https://cdn-imagehost.frytea.com/images/2024/11/21/hexy3a.png></p><p>点击<code>应用</code>按钮以保存更改。更改立即生效，除非您的系统或应用程序缓存了<a href=https://www.myfreax.com/how-to-clear-the-dns-cache/>DNS</a>记录。</p><p>如果要切换回原来的设置，请打开网络管理器，转到<code>IPv4设置</code>并启用<code>自动</code>切换开关。</p><h2 id=ubuntu-2204-服务器设置dns>Ubuntu 22.04 服务器设置DNS<a hidden class=anchor aria-hidden=true href=#ubuntu-2204-服务器设置dns>#</a></h2><p>过去，每当您想在Linux中配置DNS地址时，只需打开<code>/etc/resolv.conf</code>文件，编辑记录，保存文件就可以。</p><p>现在<code>/etc/resolv.conf</code>文件仍然存在，但它是由systemd-resolved服务控制的<a href=https://www.myfreax.com/how-to-create-symbolic-links-in-linux-using-the-ln-command/>符号链接</a>，不应手动对其进行编辑。</p><p>systemd-resolved是为本地服务和应用程序提供DNS名称解析的服务，可以使用<a href=https://netplan.io/>Netplan</a>进行配置，<a href=https://netplan.io/>Netplan</a>是Ubuntu 22.04的默认网络管理工具。</p><p>Netplan配置文件存储在<code>/etc/netplan</code>目录。您可能会在此目录中找到一个或两个YAML文件。</p><p>各个安装程序的文件名可能不同。通常，该文件名为<code>01-netcfg.yaml</code>或<code>50-cloud-init.yaml</code>，但在您的系统中，可能会有所不同。</p><p>这些文件使您可以配置网络接口，我们通常称为网卡，包括IP地址，网关，DNS域名服务器等。</p><p>要设置DNS，请使用你喜欢的<a href=https://www.myfreax.com/tag/vim/>文本编辑器</a>编辑文件，在本教程中我们将使用<a href=https://www.myfreax.com/the-basis-of-the-linux-vim-command/>vim编辑文件</a>。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>sudo vim /etc/netplan/01-network-manager-all.yaml
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>network:
+</span></span><span style=display:flex><span>  version: <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>  renderer: NetworkManager
+</span></span><span style=display:flex><span>  ethernets:
+</span></span><span style=display:flex><span>    ens3:
+</span></span><span style=display:flex><span>      dhcp4: true
+</span></span><span style=display:flex><span>      nameservers:
+</span></span><span style=display:flex><span>        addresses: <span style=color:#f92672>[</span>8.8.8.8, 8.8.4.4<span style=color:#f92672>]</span>
+</span></span></code></pre></div><p>注意，你必须修改本教程中接口名称<code>ens3</code>为你的计算机接口名称。然后使用您的首选DNS更改nameservers的IP地址。</p><p>例如如果您想使用Cloudflare的DNS服务器，则可以将nameservers的<code>addresses</code>行更改为。</p><p>DNS服务器IP地址必须用逗号分隔，如果该nameservers字段不存在，请将nameservers添加到接口名称字段下。</p><pre tabindex=0><code>      nameservers:
+          addresses: [1.1.1.1, 1.0.0.1]
+</code></pre><p>编辑Yaml文件时，请确保您遵循<a href=https://yaml.org/start.html>YAML代码缩进标准</a>。如果配置中存在语法错误，Netplan将无法解析该文件。完成后，<a href=https://www.myfreax.com/how-to-save-file-in-vim-quit-editor/>保存文件并退出vim</a>。</p><p>然后运行命令<code>sudo netplan apply</code>应用更改。Netplan将为systemd-resolved的服务生成配置文件/run/systemd/resolve/resolv.conf。</p><p>此外，还有一些应用程序依然使用/etc/resolv.conf的配置文件的DNS地址进行域名的解释，因此你还需要修改/etc/resolv.conf文件。</p><p>要修改此文件我们只需要将/run/systemd/resolve/resolv.conf软链接到/etc/resolv.con即可。</p><p>运行命令<code>sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf</code>。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-bash data-lang=bash><span style=display:flex><span>sudo netplan apply
+</span></span><span style=display:flex><span>sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+</span></span></code></pre></div><h2 id=ubuntu-2204-验证dns设置>Ubuntu 22.04 验证DNS设置<a hidden class=anchor aria-hidden=true href=#ubuntu-2204-验证dns设置>#</a></h2><p>要验证是否正确设置DNS地址，请运行命令<code>systemd-resolve --status | grep 'DNS Servers' -A2</code>或者命令<code>dig www.myfreax.com</code>。</p><p><code>systemd-resolve -status</code>命令打印很多信息。我们使用<a href=https://www.myfreax.com/how-to-use-grep-command-to-search-files-in-linux/><code>grep</code>命令</a>来过滤<code>DNS Servers</code>字符串。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>sudo systemd-resolve --status | grep <span style=color:#e6db74>&#39;DNS Servers&#39;</span> -A2
+</span></span></code></pre></div><pre tabindex=0><code>         DNS Servers: 1.1.1.1
+                      1.0.0.1
+</code></pre><p>这里需要注意的是，如果你的Ubuntu 22.04带有桌面环境，请一定使用桌面环境的网络设置来修改DNS的IP地址。</p><p>如果你想使用命令的方式修改DNS地址，可能会不如你所愿。当你在终端运行命令<code>dig www.myfreax.com</code>的时候。</p><p>你将会在dig命令的结果看到应答的服务器永远是;; SERVER: 127.0.0.1#53(127.0.0.1)或者是你的网关地址;; SERVER: 192.168.1.1#53(192.168.1.1)。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>dig www.myfreax.com
+</span></span></code></pre></div><pre tabindex=0><code>; &lt;&lt;&gt;&gt; DiG 9.16.1-Ubuntu &lt;&lt;&gt;&gt; www.myfreax.com
+;; global options: +cmd
+;; Got answer:
+;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 451
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.myfreax.com.		IN	A
+
+;; ANSWER SECTION:
+www.myfreax.com.	300	IN	A	43.457.68.101
+
+;; Query time: 119 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Dec 01 19:14:33 HKT 2022
+;; MSG SIZE  rcvd: 60
+</code></pre><h2 id=结论>结论<a hidden class=anchor aria-hidden=true href=#结论>#</a></h2><p>Netplan是Ubuntu 22.04的默认网络管理工具，替代之前的Ubuntu版本中用于配置网络的<code>/etc/resolv.conf</code>和<code>/etc/network/interfaces</code>配置文件。</p><p>#GNU_Linux
+#Ubunt
+#Dig
+#DNS</p><h2 id=references>References<a hidden class=anchor aria-hidden=true href=#references>#</a></h2><ul><li><a href=https://www.myfreax.com/how-to-set-up-dns-on-ubuntu-22-04/#ubuntu-2204-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AE%BE%E7%BD%AEdns>如何在Ubuntu 22.04设置DNS</a></li></ul><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://www.frytea.com/tags/ubuntu/>🏷 Ubuntu</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on twitter" href="https://twitter.com/intent/tweet/?text=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f&amp;hashtags=Ubuntu"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f&amp;title=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS&amp;summary=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS&amp;source=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f&title=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on whatsapp" href="https://api.whatsapp.com/send?text=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS%20-%20https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share Ubuntu 22.04设置DNS on telegram" href="https://telegram.me/share/url?text=Ubuntu%2022.04%e8%ae%be%e7%bd%aeDNS&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1365%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://www.frytea.com/archives/1366/><span class=title>« 上一页</span><br><span>kuboard v3 快速部署</span>
+</a><a class=next href=https://www.frytea.com/archives/1378/><span class=title>下一页 »</span><br><span>claw hk 网络监控稳定晚上出现小幅波动</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span><a href=/about/>关于</a>
+• <a href=/disclaimer/>免责声明</a>
+• <a href=/sitemap.xml target=view_window>站点地图</a>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+  
+  if ('serviceWorker' in navigator) {
+    
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script></body></html>

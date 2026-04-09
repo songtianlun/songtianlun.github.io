@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Z-Library on Frytea</title>
+    <link>https://www.frytea.com/tags/z-library/</link>
+    <description>Recent content in Z-Library on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 01 Dec 2024 06:35:25 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/z-library/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Z-Library 官方地址入口</title>
+      <link>https://www.frytea.com/archives/1384/</link>
+      <pubDate>Sun, 01 Dec 2024 06:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1384/</guid>
+      <description>&lt;p&gt;官方路径：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Z-Library&#34;&gt;https://en.wikipedia.org/wiki/Z-Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最新入口（2024-12-01更新）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://z-library.sk&#34;&gt;z-library.sk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-to-library.sk&#34;&gt;go-to-library.sk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;References: t.me/Zlibraryorg&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

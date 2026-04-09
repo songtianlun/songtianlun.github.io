@@ -5,38 +5,57 @@
     <link>https://www.frytea.com/tags/macbook/</link>
     <description>Recent content in MacBook on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Feb 2023 19:32:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 02:59:37 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
       <link>https://www.frytea.com/archives/740/</link>
-      <pubDate>Sat, 11 Feb 2023 19:32:00 +0000</pubDate>
-      
+      <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/740/</guid>
-      <description>最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用</description>
+      <description>&lt;p&gt;最近在探索 m1 MacBook 下运行 linux 虚拟机的可能性，计划未来在 linux 虚拟机下完成所有开发工作，parallels desktop 天然提供了 debian/ubuntu/fedora 等 linux 发行版支持，但是在我个人使用场景中还是多少有些问题。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Homebrew 安装策略（M1芯片 Macbook）</title>
       <link>https://www.frytea.com/archives/587/</link>
-      <pubDate>Thu, 28 Oct 2021 00:08:29 +0000</pubDate>
-      
+      <pubDate>Wed, 27 Oct 2021 16:08:29 +0000</pubDate>
       <guid>https://www.frytea.com/archives/587/</guid>
-      <description>换了 m1 芯片的 Macbook 之后第一个感受到的就是使用 homebrew 的不一样，由于不同的芯片架构，其安装方法也有不同，在这简单记录。 Arm Mac 安装步骤 # arm homebrew 同时设为国内源 /bin/zsh</description>
+      <description>&lt;p&gt;换了 m1 芯片的 Macbook 之后第一个感受到的就是使用 homebrew 的不一样，由于不同的芯片架构，其安装方法也有不同，在这简单记录。&lt;/p&gt;
+&lt;h2 id=&#34;arm-mac-安装步骤&#34;&gt;Arm Mac 安装步骤&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# arm homebrew 同时设为国内源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/zsh -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;curl -fsSL https://gitee.com/huwei1024/HomebrewCN/raw/master/Homebrew.sh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 可在 .bashrc 追加下列内容实现 intel 和 arm 共存&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;alias abrew&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;arch -arm64 /opt/homebrew/bin/brew&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;alias ibrew&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;arch -x86_64 /usr/local/bin/brew&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安装更新国内-homebrew-镜像源&#34;&gt;安装更新国内 homebrew 镜像源&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;/bin/zsh -c &amp;#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;p&gt;根据官方规划，ARM 版 Homebrew 必须安装在 &lt;code&gt;/opt/homebrew&lt;/code&gt; 路径下，而非此前的 &lt;code&gt;/usr/local/Homebrew&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac 下解决 zsh: no matches found: postcss@^7</title>
-      <link>https://www.frytea.com/archives/macos/554/</link>
-      <pubDate>Sun, 08 Aug 2021 19:22:24 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/macos/554/</guid>
-      <description>mac开发引入 tailwindcss 库时遇到如下错误： zsh: no matches found: postcss@^7 可以这样解决： # 官网给出的命令如下 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@\^7 autoprefixer@\^9 # mac的zsh中需要这样，因为错误的 ^ 解析 npm install -D</description>
+      <link>https://www.frytea.com/archives/554/</link>
+      <pubDate>Sun, 08 Aug 2021 11:22:24 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/554/</guid>
+      <description>&lt;p&gt;mac开发引入 tailwindcss 库时遇到如下错误：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zsh: no matches found: postcss@^7
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以这样解决：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 官网给出的命令如下&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@&lt;span style=&#34;color:#ae81ff&#34;&gt;\^&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt; autoprefixer@&lt;span style=&#34;color:#ae81ff&#34;&gt;\^&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# mac的zsh中需要这样，因为错误的 ^ 解析&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ohmyzsh/ohmyzsh/issues/449&#34;&gt;zsh: no matches found: HEAD^ #449&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tailwindlabs/tailwindcss/discussions/3575&#34;&gt;zsh: no matches found: postcss@^7 #3575&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

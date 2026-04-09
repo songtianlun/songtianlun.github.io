@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Clawdbot on Frytea</title>
+    <link>https://www.frytea.com/tags/clawdbot/</link>
+    <description>Recent content in Clawdbot on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:15 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/clawdbot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>终极指南：在 Linux 裸机服务器上快速部署 Moltbot (原 Clawbot) 并集成飞书</title>
+      <link>https://www.frytea.com/archives/1617/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1617/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;2026 年初，一个名为 Moltbot（前身为 Clawbot）的开源 AI 代理（Agent）框架席卷了开发者社区。该框架允许用户将强大的 AI 模型（例如 OpenAI 的 GPT 系列、Anthropic 的 Claude 等）与 WhatsApp、Telegram、Discord 等日常通讯工具集成，从而通过聊天即可操控电脑、执行任务、获取信息。特斯拉前 AI 主管 Andrej Karpathy 的推荐更是使其迅速走红，其 GitHub 项目在短时间内获得了超过 60,000 个星标。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

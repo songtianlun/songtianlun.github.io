@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HA on Frytea</title>
+    <link>https://www.frytea.com/tags/ha/</link>
+    <description>Recent content in HA on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 14 Dec 2024 14:59:30 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HA 可用性表格</title>
+      <link>https://www.frytea.com/archives/1401/</link>
+      <pubDate>Sat, 14 Dec 2024 14:59:30 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1401/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Availability %&lt;/th&gt;
+          &lt;th&gt;Downtime per year&lt;/th&gt;
+          &lt;th&gt;Downtime per quarter&lt;/th&gt;
+          &lt;th&gt;Downtime per month&lt;/th&gt;
+          &lt;th&gt;Downtime per week&lt;/th&gt;
+          &lt;th&gt;Downtime per day (24 hours)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;90% (&amp;ldquo;one nine&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;36.53 days&lt;/td&gt;
+          &lt;td&gt;9.13 days&lt;/td&gt;
+          &lt;td&gt;73.05 hours&lt;/td&gt;
+          &lt;td&gt;16.80 hours&lt;/td&gt;
+          &lt;td&gt;2.40 hours&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;95% (&amp;ldquo;one nine five&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;18.26 days&lt;/td&gt;
+          &lt;td&gt;4.56 days&lt;/td&gt;
+          &lt;td&gt;36.53 hours&lt;/td&gt;
+          &lt;td&gt;8.40 hours&lt;/td&gt;
+          &lt;td&gt;1.20 hours&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;97% (&amp;ldquo;one nine seven&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;10.96 days&lt;/td&gt;
+          &lt;td&gt;2.74 days&lt;/td&gt;
+          &lt;td&gt;21.92 hours&lt;/td&gt;
+          &lt;td&gt;5.04 hours&lt;/td&gt;
+          &lt;td&gt;43.20 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;98% (&amp;ldquo;one nine eight&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;7.31 days&lt;/td&gt;
+          &lt;td&gt;43.86 hours&lt;/td&gt;
+          &lt;td&gt;14.61 hours&lt;/td&gt;
+          &lt;td&gt;3.36 hours&lt;/td&gt;
+          &lt;td&gt;28.80 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99% (&amp;ldquo;two nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;3.65 days&lt;/td&gt;
+          &lt;td&gt;21.9 hours&lt;/td&gt;
+          &lt;td&gt;7.31 hours&lt;/td&gt;
+          &lt;td&gt;1.68 hours&lt;/td&gt;
+          &lt;td&gt;14.40 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.5% (&amp;ldquo;two nines five&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;1.83 days&lt;/td&gt;
+          &lt;td&gt;10.98 hours&lt;/td&gt;
+          &lt;td&gt;3.65 hours&lt;/td&gt;
+          &lt;td&gt;50.40 minutes&lt;/td&gt;
+          &lt;td&gt;7.20 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.8% (&amp;ldquo;two nines eight&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;17.53 hours&lt;/td&gt;
+          &lt;td&gt;4.38 hours&lt;/td&gt;
+          &lt;td&gt;87.66 minutes&lt;/td&gt;
+          &lt;td&gt;20.16 minutes&lt;/td&gt;
+          &lt;td&gt;2.88 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.9% (&amp;ldquo;three nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;8.77 hours&lt;/td&gt;
+          &lt;td&gt;2.19 hours&lt;/td&gt;
+          &lt;td&gt;43.83 minutes&lt;/td&gt;
+          &lt;td&gt;10.08 minutes&lt;/td&gt;
+          &lt;td&gt;1.44 minutes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.95% (&amp;ldquo;three nines five&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;4.38 hours&lt;/td&gt;
+          &lt;td&gt;65.7 minutes&lt;/td&gt;
+          &lt;td&gt;21.92 minutes&lt;/td&gt;
+          &lt;td&gt;5.04 minutes&lt;/td&gt;
+          &lt;td&gt;43.20 seconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.99% (&amp;ldquo;four nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;52.60 minutes&lt;/td&gt;
+          &lt;td&gt;13.15 minutes&lt;/td&gt;
+          &lt;td&gt;4.38 minutes&lt;/td&gt;
+          &lt;td&gt;1.01 minutes&lt;/td&gt;
+          &lt;td&gt;8.64 seconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.995% (&amp;ldquo;four nines five&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;26.30 minutes&lt;/td&gt;
+          &lt;td&gt;6.57 minutes&lt;/td&gt;
+          &lt;td&gt;2.19 minutes&lt;/td&gt;
+          &lt;td&gt;30.24 seconds&lt;/td&gt;
+          &lt;td&gt;4.32 seconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.999% (&amp;ldquo;five nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;5.26 minutes&lt;/td&gt;
+          &lt;td&gt;1.31 minutes&lt;/td&gt;
+          &lt;td&gt;26.30 seconds&lt;/td&gt;
+          &lt;td&gt;6.05 seconds&lt;/td&gt;
+          &lt;td&gt;864.00 milliseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.9999% (&amp;ldquo;six nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;31.56 seconds&lt;/td&gt;
+          &lt;td&gt;7.89 seconds&lt;/td&gt;
+          &lt;td&gt;2.63 seconds&lt;/td&gt;
+          &lt;td&gt;604.80 milliseconds&lt;/td&gt;
+          &lt;td&gt;86.40 milliseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.99999% (&amp;ldquo;seven nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;3.16 seconds&lt;/td&gt;
+          &lt;td&gt;0.79 seconds&lt;/td&gt;
+          &lt;td&gt;262.98 milliseconds&lt;/td&gt;
+          &lt;td&gt;60.48 milliseconds&lt;/td&gt;
+          &lt;td&gt;8.64 milliseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.999999% (&amp;ldquo;eight nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;315.58 milliseconds&lt;/td&gt;
+          &lt;td&gt;78.89 milliseconds&lt;/td&gt;
+          &lt;td&gt;26.30 milliseconds&lt;/td&gt;
+          &lt;td&gt;6.05 milliseconds&lt;/td&gt;
+          &lt;td&gt;864.00 microseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.9999999% (&amp;ldquo;nine nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;31.56 milliseconds&lt;/td&gt;
+          &lt;td&gt;7.89 milliseconds&lt;/td&gt;
+          &lt;td&gt;2.63 milliseconds&lt;/td&gt;
+          &lt;td&gt;604.80 microseconds&lt;/td&gt;
+          &lt;td&gt;86.40 microseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.99999999% (&amp;ldquo;ten nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;3.16 milliseconds&lt;/td&gt;
+          &lt;td&gt;788.40 microseconds&lt;/td&gt;
+          &lt;td&gt;262.80 microseconds&lt;/td&gt;
+          &lt;td&gt;60.48 microseconds&lt;/td&gt;
+          &lt;td&gt;8.64 microseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.999999999% (&amp;ldquo;eleven nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;315.58 microseconds&lt;/td&gt;
+          &lt;td&gt;78.84 microseconds&lt;/td&gt;
+          &lt;td&gt;26.28 microseconds&lt;/td&gt;
+          &lt;td&gt;6.05 microseconds&lt;/td&gt;
+          &lt;td&gt;864.00 nanoseconds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;99.9999999999% (&amp;ldquo;twelve nines&amp;rdquo;)&lt;/td&gt;
+          &lt;td&gt;31.56 microseconds&lt;/td&gt;
+          &lt;td&gt;7.88 microseconds&lt;/td&gt;
+          &lt;td&gt;2.63 microseconds&lt;/td&gt;
+          &lt;td&gt;604.81 nanoseconds&lt;/td&gt;
+          &lt;td&gt;86.40 nanoseconds&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/High_availability&#34;&gt;High availability - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

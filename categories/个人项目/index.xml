@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>个人项目 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/</link>
+    <description>Recent content in 个人项目 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 03 Apr 2026 03:25:31 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ceph mon Operation not permitted 问题解决</title>
+      <link>https://www.frytea.com/archives/1652/</link>
+      <pubDate>Fri, 03 Apr 2026 03:25:31 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1652/</guid>
+      <description>&lt;p&gt;自己构建的 ceph 发现 mon 起不来，报错如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Apr 03 11:14:30 debian systemd[1]: Started Ceph cluster monitor daemon.
+░░ Subject: A start job for unit ceph-mon@debian.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ A start job for unit ceph-mon@debian.service has finished successfully.
+░░ 
+░░ The job identifier is 6997.
+Apr 03 11:14:31 debian ceph-mon[374601]: 2026-04-03T11:14:31.084+0800 ffffaf907040 -1 load: jerasure load: lrc load dlopen(/usr/lib/ceph/erasure-code/libec_isa.so): /usr/lib/ceph/erasure-code/libec_isa.so: cannot make segment writable for relocation: Operation not permitted
+Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Main process exited, code=exited, status=1/FAILURE
+░░ Subject: Unit process exited
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ An ExecStart= process belonging to unit ceph-mon@debian.service has exited.
+░░ 
+░░ The process&amp;#39; exit code is &amp;#39;exited&amp;#39; and its exit status is 1.
+Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &amp;#39;exit-code&amp;#39;.
+░░ Subject: Unit failed
+░░ Defined-By: systemd
+░░ Support: https://www.debian.org/support
+░░ 
+░░ The unit ceph-mon@debian.service has entered the &amp;#39;failed&amp;#39; state with result &amp;#39;exit-code&amp;#39;.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;临时解决方案&#34;&gt;临时解决方案&lt;/h2&gt;
+&lt;p&gt;根据 claude-sonnet 4.6 的说法：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>整理了一个 AI 提示词库</title>
+      <link>https://www.frytea.com/archives/1520/</link>
+      <pubDate>Sun, 07 Sep 2025 17:00:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1520/</guid>
+      <description>&lt;p&gt;大模型的能力越来越强，但是如何发挥大模型真正的实力？&lt;/p&gt;
+&lt;p&gt;这是我一直在思考的问题，在平常的使用过程中很容易发现，提示词的使用技巧对于生成结果的质量至关重要。多看看优秀的提示词，还能启发我们利用大模型的更多用法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title> Lyra - AI Prompt Optimization Specialist</title>
+      <link>https://www.frytea.com/archives/1496/</link>
+      <pubDate>Sun, 20 Jul 2025 10:09:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1496/</guid>
+      <description>&lt;p&gt;AI 提示优化专家 - Lyra, 一个很好的提示词。&lt;/p&gt;
+&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;precision-crafted prompts that unlock Al&amp;#39;s full potential across all platforms.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## THE 4-D METHODOLOGY
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### 1. DECONSTRUCT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Extract core intent, key entities, and context
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Identify output requirements and constraints
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Map what&amp;#39;s provided vs. what&amp;#39;s missing
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### 2. DIAGNOSE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Audit for clarity gaps and ambiguity
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Check specificity and completeness
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Assess structure and complexity needs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### 3. DEVELOP
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Select optimal techniques based on request type:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Creative** → Multi-perspective + tone emphasis
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Technical** → Constraint-based + precision focus
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Educational** → Few-shot examples + clear structure
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Complex** → Chain-of-thought + systematic frameworks
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Assign appropriate Al role/expertise
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Enhance context and implement logical structure
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### 4. DELIVER
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Construct optimized prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Format based on complexity
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Provide implementation guidance
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## OPTIMIZATION TECHNIQUES
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Foundation:** Role assignment, context layering, output specs, task decomposition
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Advanced:** Chain-of-thought, few-shot learning, multi-perspective analysis, constraint optimization
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Platform Notes:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **ChatGPT/GPT-4:** Structured sections, conversation starters
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Claude:** Longer context, reasoning frameworks
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Gemini:** Creative tasks, comparative analysis
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Others:** Apply universal best practices
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## OPERATING MODES
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**DETAIL MODE:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Gather context with smart defaults
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Ask 2-3 targeted clarifying questions
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Provide comprehensive optimization
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**BASIC MODE:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Quick fix primary issues
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Apply core techniques only
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Deliver ready-to-use prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## RESPONSE FORMATS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Simple Requests:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Your Optimized Prompt:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Improved prompt]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**What Changed:** [Key improvements]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Complex Requests:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Your Optimized Prompt:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Improved prompt]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Key Improvements:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;• [Primary changes and benefits]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Techniques Applied:** [Brief mention]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Pro Tip:** [Usage guidance]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## WELCOME MESSAGE (REQUIRED)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;When activated, display EXACTLY:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;#34;Hello! I&amp;#39;m Lyra, your Al prompt optimizer. I transform vague requests into precise, effective prompts that
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deliver better results.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**What I need to know:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Target AI:** ChatGPT, Claude, Gemini, or Other
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- **Prompt Style:** DETAIL (I&amp;#39;ll ask clarifying questions first) or BASIC (quick optimization)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Examples:**
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &amp;#34;DETAIL using ChatGPT - Write me a marketing email&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &amp;#34;BASIC using Claude - Help with my resume&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Just share your rough prompt and I&amp;#39;ll handle the optimization!&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## PROCESSING FLOW
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1. Auto-detect complexity:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - Simple tasks → BASIC mode
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   - Complex/professional → DETAIL mode
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2. Inform user with override option
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3. Execute chosen mode protocol (see below)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4. Deliver optimized prompt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;**Memory Note:** Do not save any information from optimization sessions to memory.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/xthezealot/c873effd9e74225ef3fcfbb9c3a341da&#34;&gt;https://gist.github.com/xthezealot/c873effd9e74225ef3fcfbb9c3a341da&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>智能理财计算器更新了，一站对比各家理财收益率，避免踩坑！</title>
+      <link>https://www.frytea.com/archives/1494/</link>
+      <pubDate>Sat, 05 Jul 2025 06:29:24 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1494/</guid>
+      <description>&lt;p&gt;一直非常困扰各家理财平台的算法不一致，实际收益和标称差异大，很难各平台之间决策。于是做了这样一个简单的工具，可以在一个地方直观的对比各家理财产品，根据收益率、收益、预期收益等快速决策。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>超级玛丽、魂斗罗等经典小游戏聚合站 | PlayUnb</title>
+      <link>https://www.frytea.com/archives/1492/</link>
+      <pubDate>Sat, 14 Jun 2025 16:40:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1492/</guid>
+      <description>&lt;p&gt;在线小游戏网站，界面简洁清爽无广告，各种 GBA/NES/HTML/UNITY 游戏&lt;/p&gt;
+&lt;p&gt;打开即玩超级玛丽、魂斗罗等经典游戏&lt;/p&gt;
+&lt;p&gt;收录 173+ 游戏&lt;/p&gt;
+&lt;p&gt;入口：https://playunb.com/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>个人业余开发项目清单</title>
+      <link>https://www.frytea.com/archives/1491/</link>
+      <pubDate>Sat, 14 Jun 2025 16:34:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1491/</guid>
+      <description>&lt;p&gt;后续更新在这里：https://songtianlun.github.io/&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;名称&lt;/th&gt;
+          &lt;th&gt;简介&lt;/th&gt;
+          &lt;th&gt;链接&lt;/th&gt;
+          &lt;th&gt;备注&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PlanAssistant&lt;/td&gt;
+          &lt;td&gt;For people who like to record their lives.&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/songtianlun/PlanAssistant&#34;&gt;Git&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2019&lt;/code&gt; &lt;code&gt;Android&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;BJ-PFD2&lt;/td&gt;
+          &lt;td&gt;个人财务管理方案及监控看板&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/songtianlun/bj-pfd2&#34;&gt;Git&lt;/a&gt; &lt;a href=&#34;https://frytea.com/archives/1132/&#34;&gt;介绍文章&lt;/a&gt; &lt;a href=&#34;https://bjpfd2.skybyte.me&#34;&gt;入口&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2022&lt;/code&gt; &lt;code&gt;go&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MinePin&lt;/td&gt;
+          &lt;td&gt;个人地理位置收藏夹&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/songtianlun/minepin&#34;&gt;Git&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2022&lt;/code&gt; &lt;code&gt;go&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;全球艺术天气&lt;/td&gt;
+          &lt;td&gt;生成全球城市天气艺术图像，15w+城市，5k+AIArt&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://frytea.com/archives/1430/&#34;&gt;介绍文章&lt;/a&gt; &lt;a href=&#34;https://todayaiweather.com/&#34;&gt;入口&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;ruby&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;LiquedGlass&lt;/td&gt;
+          &lt;td&gt;液态玻璃风格图像生成和模拟&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://frytea.com/archives/1489/&#34;&gt;介绍文章&lt;/a&gt; &lt;a href=&#34;https://liquidglass.icu/&#34;&gt;入口&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;NextJS&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;mirrorGit&lt;/td&gt;
+          &lt;td&gt;将 GitHub 仓库镜像到 Gitea 的 Shell 脚本&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/songtianlun/mirrorGit&#34;&gt;Git&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;Shell&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;Selfhost Hub&lt;/td&gt;
+          &lt;td&gt;自托管服务和工具目录&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://github.com/songtianlun/selfhost-hub&#34;&gt;Git&lt;/a&gt; &lt;a href=&#34;https://selfhost-hub.com/&#34;&gt;入口&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;NextJS&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;FinanceCalculator&lt;/td&gt;
+          &lt;td&gt;快速选出收益最高的理财产品&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://frytea.com/archives/1490/&#34;&gt;介绍文章&lt;/a&gt; &lt;a href=&#34;https://fc.frytea.com/&#34;&gt;入口&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;NextJS&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;PlayUnb&lt;/td&gt;
+          &lt;td&gt;小游戏站，打开即玩超级玛丽、魂斗罗等经典游戏&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://playunb.com/&#34;&gt;入口&lt;/a&gt; &lt;a href=&#34;https://github.com/songtianlun/PlayUnb-Assets&#34;&gt;Git&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;SINCE 2025&lt;/code&gt; &lt;code&gt;JS&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;后续更新在这里：https://songtianlun.github.io/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>快速选出收益最高的理财产品 ｜ finance-calculator</title>
+      <link>https://www.frytea.com/archives/1490/</link>
+      <pubDate>Sat, 14 Jun 2025 16:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1490/</guid>
+      <description>&lt;p&gt;每次对比各种理财产品的时候，都会遇到一些问题：&lt;/p&gt;
+&lt;p&gt;一是都很难有一个统一的指标来比对；&lt;/p&gt;
+&lt;p&gt;二是各家算法不一致，很容易被各平台标记的收益率“欺骗”。&lt;/p&gt;
+&lt;p&gt;期望在一个地方能够快速看到各种看中理财产品的年化利率，快速计算收益情况，辅助决策。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>苹果液态玻璃风格图像生成和模拟器 ｜ LiquedGlass.icu</title>
+      <link>https://www.frytea.com/archives/1489/</link>
+      <pubDate>Sat, 14 Jun 2025 15:44:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1489/</guid>
+      <description>&lt;p&gt;一个 LiquedGlass 风格图像生成器;
+一个 LiquedGlass 风格模拟器。&lt;/p&gt;
+&lt;p&gt;快速生成 Apple 液态玻璃风格图像。快速体验液态玻璃设计风格。&lt;/p&gt;
+&lt;p&gt;入口：https://liquidglass.icu/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Plausible 缺失 location 信息的研究</title>
+      <link>https://www.frytea.com/archives/1477/</link>
+      <pubDate>Mon, 21 Apr 2025 08:35:22 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1477/</guid>
+      <description>&lt;h1 id=&#34;plausible-调试方案&#34;&gt;Plausible 调试方案&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cd hosting
+$ docker compose exec plausible bin/plausible remote
+$ kubectl -n plausible exec -it statefulsets/app -- bin/plausible remote
+
+iex&amp;gt; headers = fn {:trace, _pid, :call, {_mod, _fun, [%Plug.Conn{req_headers: headers}]}} -&amp;gt; inspect(headers) end
+iex&amp;gt; mod_fun_args = {PlausibleWeb.RemoteIP, :get, 1}
+iex&amp;gt; how_many_times = 5
+iex&amp;gt; :recon_trace.calls(mod_fun_args, how_many_times, formatter: headers)
+
+# Request it
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;最后把 &lt;code&gt;nginx-ingress&lt;/code&gt; 运行模式改为 &lt;code&gt;hostPort&lt;/code&gt; 解决。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>k8s 使用 OpenEBS 存储</title>
+      <link>https://www.frytea.com/archives/1451/</link>
+      <pubDate>Fri, 14 Mar 2025 17:25:14 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1451/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo add openebs https://openebs.github.io/openebs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 以默认值安装&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm install openebs --namespace openebs openebs/openebs --create-namespace
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 禁用副本存储类型、lvm 本地存储、zfs本地存储，仅保留本地路径存储&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm install openebs --namespace openebs openebs/openebs --set engines.replicated.mayastor.enabled&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false --set engines.local.lvm.enabled&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false --set engines.local.zfs.enabled&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;fa
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lse --create-namespace
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;E0311 06:22:00.794754  &lt;span style=&#34;color:#ae81ff&#34;&gt;111105&lt;/span&gt; round_tripper.go:63&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; CancelRequest not implemented by *kube.RetryingRoundTripper
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NAME: openebs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LAST DEPLOYED: Tue Mar &lt;span style=&#34;color:#ae81ff&#34;&gt;11&lt;/span&gt; 06:21:28 &lt;span style=&#34;color:#ae81ff&#34;&gt;2025&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NAMESPACE: openebs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;STATUS: deployed
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REVISION: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TEST SUITE: None
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NOTES:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Successfully installed OpenEBS.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Check the status by running: kubectl get pods -n openebs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The default values will install both Local PV and Replicated PV. However,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;the Replicated PV will require additional configuration to be fuctional.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The Local PV offers non-replicated local storage using &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; different storage
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;backends i.e Hostpath, LVM and ZFS, &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; the Replicated PV provides one replicated highly-available
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;storage backend i.e Mayastor.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;For more information, 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- view the online documentation at https://openebs.io/docs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- connect with an active community on our Kubernetes slack channel.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - Sign up to Kubernetes slack: https://slack.k8s.io
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        - &lt;span style=&#34;color:#75715e&#34;&gt;#openebs channel: https://kubernetes.slack.com/messages/openebs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;实际使用需充分阅读官方文档。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim 使用系统剪切板</title>
+      <link>https://www.frytea.com/archives/1433/</link>
+      <pubDate>Sun, 23 Feb 2025 06:04:53 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1433/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源：&lt;a href=&#34;https://harttle.land/2020/09/04/vim-clipboard.html&#34;&gt;Vim 使用系统剪切板&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vim 是运行在 Terminal 里的 Shell 程序，所以要把内容拷贝出来可以通过 Terminal，也可以通过 Vim 自己。不配置 Vim 剪切板时只能通过 Shell 来拷贝粘贴：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>全球艺术天气网站</title>
+      <link>https://www.frytea.com/archives/1430/</link>
+      <pubDate>Sun, 02 Feb 2025 15:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1430/</guid>
+      <description>&lt;p&gt;介绍一个 每日 AI 艺术天气 网站，能够通过人工智能生成的艺术作品，以独特的视角展现日常气象现象。&lt;/p&gt;
+&lt;h2 id=&#34;入口&#34;&gt;入口&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://todayaiweather.com/&#34;&gt;TodayAiWeather&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;TodayAiWeather&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/02/02/123bzw6.webp&#34;&gt;​&lt;/p&gt;
+&lt;p&gt;部分城市入口：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/guangzhou&#34;&gt;Guangzhou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/beijing&#34;&gt;Beijing&lt;/a&gt;​&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/chicago&#34;&gt;Chicago&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/chengdu&#34;&gt;Chengdu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/shanghai&#34;&gt;Shanghai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/paris&#34;&gt;Paris&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/new-taipei-city&#34;&gt;New Taipei City&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://todayaiweather.com/cities/yerevan&#34;&gt;Yerevan&lt;/a&gt;​&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;收录情况&#34;&gt;收录情况&lt;/h2&gt;
+&lt;p&gt;目前收录了 78 个城市，未来还会根据需要添加更多，有需要可以在本文留言。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

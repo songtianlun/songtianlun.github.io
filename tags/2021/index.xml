@@ -5,146 +5,178 @@
     <link>https://www.frytea.com/tags/2021/</link>
     <description>Recent content in 2021 on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Dec 2021 22:54:25 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 08:59:54 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021年终总结 —— 平淡中蓄力 · 习惯中突破</title>
-      <link>https://www.frytea.com/archives/retrospective/2021/</link>
-      <pubDate>Wed, 29 Dec 2021 22:54:25 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021/</guid>
-      <description>在年末，完成自己的 2021 年度总结。</description>
+      <title>2021 下半年博客「经营」报告</title>
+      <link>https://www.frytea.com/archives/616/</link>
+      <pubDate>Sat, 01 Jan 2022 07:36:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/616/</guid>
+      <description>&lt;p&gt;距离发布《&lt;strong&gt;&lt;a href=&#34;https://blog.frytea.com/archives/549/&#34;&gt;2021 上半年博客「经营」报告&lt;/a&gt;&lt;/strong&gt;》已经半年过去了，这半年里，我发布了 Notion BoJo模版及其配套的财务看板「&lt;a href=&#34;https://bjpfd.frytea.com&#34;&gt;BJ-PFD&lt;/a&gt;」，发布了随机壁纸生成器「&lt;a href=&#34;https://wallpaper.frytea.com&#34;&gt;Get Random Wallpaper&lt;/a&gt;」，新作了个人主页「&lt;a href=&#34;https://www.frytea.com&#34;&gt;煎茶&lt;/a&gt;」，自此我的博客「&lt;a href=&#34;https://blog.frytea.com&#34;&gt;Frytea&amp;rsquo;s Blog&lt;/a&gt;」专门分享一些碎片化的信息，主页用来汇集个人信息并分享成体系的内容。&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>周日谈/50 ｜ 做减法与激励机制</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-12-18/</link>
-      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-12-18/</guid>
-      <description>2021年第50周，谈谈个人管理和激励反馈</description>
+      <title>2021年终 - 平淡中蓄力 · 习惯中突破</title>
+      <link>https://www.frytea.com/archives/1117/</link>
+      <pubDate>Wed, 29 Dec 2021 14:54:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1117/</guid>
+      <description>&lt;p&gt;在年末，完成自己的 2021 年度总结。&lt;/p&gt;
+&lt;h2 id=&#34;-一段总结&#34;&gt;👀 一段总结&lt;/h2&gt;
+&lt;p&gt;翻了翻 2020年的年终总结《[「&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>周日谈/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-12-10/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-12-10/</guid>
-      <description>2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙</description>
+      <title>周录/50 ｜ 做减法与激励机制</title>
+      <link>https://www.frytea.com/archives/1112/</link>
+      <pubDate>Sat, 18 Dec 2021 15:35:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1112/</guid>
+      <description>&lt;p&gt;2021年第50周，谈谈个人管理和激励反馈&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021年第50周 - 激励/管理&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最近几天没有&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>个人项目</title>
+      <link>https://www.frytea.com/archives/1110/</link>
+      <pubDate>Sun, 12 Dec 2021 05:10:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1110/</guid>
+      <description>&lt;p&gt;汇集个人做过的项目清单.&lt;/p&gt;
+&lt;p&gt;项目名称&lt;/p&gt;
+&lt;p&gt;简介&lt;/p&gt;
+&lt;p&gt;链接&lt;/p&gt;
+&lt;p&gt;BJ-PFD&lt;/p&gt;
+&lt;p&gt;基于 Notion 的个人复&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>周录/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
+      <link>https://www.frytea.com/archives/1114/</link>
+      <pubDate>Fri, 10 Dec 2021 15:29:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1114/</guid>
+      <description>&lt;p&gt;2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021 年 第&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>「2021年11月复盘」买了个小太阳很暖和</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-11/</link>
-      <pubDate>Thu, 02 Dec 2021 22:25:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-11/</guid>
-      <description>逐渐感觉自己的头脑和精力不够用，之前有些事情都是自己在做，现在必须开始想办法提效保质适当取舍</description>
+      <link>https://www.frytea.com/archives/1101/</link>
+      <pubDate>Thu, 02 Dec 2021 14:25:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1101/</guid>
+      <description>&lt;p&gt;逐渐感觉自己的头脑和精力不够用，之前有些事情都是自己在做，现在必须开始想办法提效保质适当取舍&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
-      <title>周日谈｜「2021总第47周」记账与做事</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-11-27/</link>
-      <pubDate>Sat, 27 Nov 2021 20:32:45 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-11-27/</guid>
-      <description>第一次周日谈</description>
+      <title>周录｜「2021总第47周」记账与做事</title>
+      <link>https://www.frytea.com/archives/1102/</link>
+      <pubDate>Sat, 27 Nov 2021 12:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1102/</guid>
+      <description>&lt;p&gt;第一次周日谈(录)&lt;/p&gt;
+&lt;p&gt;前几日在逛 「[十年之约](&lt;a href=&#34;https://www.foreverblog.c&#34;&gt;https://www.foreverblog.c&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年10月复盘 ｜ 正秋时</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-10/</link>
-      <pubDate>Mon, 01 Nov 2021 00:14:14 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-10/</guid>
-      <description>祝生日快乐。</description>
+      <link>https://www.frytea.com/archives/1107/</link>
+      <pubDate>Sun, 31 Oct 2021 16:14:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1107/</guid>
+      <description>&lt;p&gt;祝生日快乐。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;忽然之间 &lt;strong&gt;叶子黄了&lt;/strong&gt;，时节提醒人们别忘感知&lt;strong&gt;时光的更替&lt;/strong&gt;。直到月末也没&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>「2021年9月复盘」国庆快乐！</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-09/</link>
-      <pubDate>Mon, 04 Oct 2021 23:25:46 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-09/</guid>
-      <description>生活需要来点不一样。</description>
+      <link>https://www.frytea.com/archives/1111/</link>
+      <pubDate>Mon, 04 Oct 2021 15:25:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1111/</guid>
+      <description>&lt;p&gt;生活需要来点不一样。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天上午一件事情终于尘埃落定，感觉到踏实不少，总结下来就是 **一个正确&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>「2021年8月复盘」秋意浓</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-08/</link>
-      <pubDate>Sat, 04 Sep 2021 23:32:12 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-08/</guid>
-      <description>日积月累中慢慢改变。</description>
+      <link>https://www.frytea.com/archives/1113/</link>
+      <pubDate>Sat, 04 Sep 2021 15:32:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1113/</guid>
+      <description>&lt;p&gt;日积月累中慢慢改变。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;解封、搬迁、破壳，要开始寻找更大的世界了。又是一个不眠夜，今夜继续开始下&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>「2021年7月复盘」灾前大爱!</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-07/</link>
-      <pubDate>Sun, 01 Aug 2021 23:35:07 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-07/</guid>
-      <description>本不想熬夜的，但是每每想到身边正在经历的这一切自然灾害，就难以入眠。也好，七月结束，迎来八月，在这个时间点上记下新的一次月末复盘吧。 👀 一段总</description>
+      <link>https://www.frytea.com/archives/1105/</link>
+      <pubDate>Sun, 01 Aug 2021 15:35:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1105/</guid>
+      <description>&lt;p&gt;本不想熬夜的，但是每每想到身边正在经历的这一切自然灾害，就难以入眠。也好，七月结束，迎来八月，在这个&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>2021 上半年博客「经营」报告</title>
+      <link>https://www.frytea.com/archives/549/</link>
+      <pubDate>Fri, 09 Jul 2021 16:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/549/</guid>
+      <description>&lt;p&gt;2018.10.07 开始建站以来，我的个人博客已经上线运营快三年啦，一直没有做过所谓「经营报告」，这个词也是有点夸张了，只是来简单做一下流量统计分析罢了。&lt;/p&gt;
+&lt;p&gt;说来也是偶然，也是看到 &lt;a href=&#34;https://get233.com/archives/2016-blog-analytics-report.html&#34;&gt;这篇文章&lt;/a&gt; 的突发奇想，发现自己从来没有写文章好好分析过自己的网站流量，甚至于前一阵子我都为网站流量带来的资费问题发愁了，都没有想起来做一个这样的报告，就趁这个年中的机会，做一个上半年博客「简单经营」报告吧。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>「2021年6月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-06/</link>
-      <pubDate>Sun, 04 Jul 2021 23:37:38 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-06/</guid>
-      <description>比大多数人多“做”一点点。</description>
+      <link>https://www.frytea.com/archives/1104/</link>
+      <pubDate>Sun, 04 Jul 2021 15:37:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1104/</guid>
+      <description>&lt;p&gt;比大多数人多“做”一点点。&lt;/p&gt;
+&lt;h2 id=&#34;-一段总结&#34;&gt;👀 一段总结&lt;/h2&gt;
+&lt;p&gt;本月30天，几乎每天都进行了复盘，大部分时间都进&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年5月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-05/</link>
-      <pubDate>Sun, 06 Jun 2021 23:39:26 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-05/</guid>
-      <description>拒绝从“零”开始。</description>
+      <link>https://www.frytea.com/archives/1109/</link>
+      <pubDate>Sun, 06 Jun 2021 15:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1109/</guid>
+      <description>&lt;p&gt;拒绝从“零”开始。&lt;/p&gt;
+&lt;h2 id=&#34;-一段总结&#34;&gt;👀 一段总结&lt;/h2&gt;
+&lt;p&gt;在这个月里，复盘天数良好，学习和输出天数良好，codin&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年4月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-04/</link>
-      <pubDate>Fri, 07 May 2021 23:39:27 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-04/</guid>
-      <description>深入学习的价值。</description>
+      <link>https://www.frytea.com/archives/1106/</link>
+      <pubDate>Fri, 07 May 2021 15:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1106/</guid>
+      <description>&lt;p&gt;深入学习的价值。&lt;/p&gt;
+&lt;p&gt;本月月初收获到难得的成就感，可紧接着就是一段时间的空虚感，于是我又规划了一个新的&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年3月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-03/</link>
-      <pubDate>Tue, 06 Apr 2021 23:39:29 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-03/</guid>
-      <description>浓浓的春意。</description>
+      <link>https://www.frytea.com/archives/1115/</link>
+      <pubDate>Tue, 06 Apr 2021 15:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1115/</guid>
+      <description>&lt;p&gt;浓浓的春意。&lt;/p&gt;
+&lt;p&gt;仿佛春风吹过的 3 月结束了，这是我个人度过最有春意的一个月份，不知道是不是总是束缚&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年2月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-02/</link>
-      <pubDate>Mon, 01 Mar 2021 23:39:31 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-02/</guid>
-      <description>时间的车轮滚滚向前。</description>
+      <link>https://www.frytea.com/archives/1103/</link>
+      <pubDate>Mon, 01 Mar 2021 15:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1103/</guid>
+      <description>&lt;p&gt;时间的车轮滚滚向前。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有人说，二月过的好慢； 有人说，这么快就过了年。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;![https://&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>「2021年1月复盘」</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-01/</link>
-      <pubDate>Mon, 01 Feb 2021 23:39:33 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-01/</guid>
-      <description>从0到1的第一个月。</description>
+      <link>https://www.frytea.com/archives/1108/</link>
+      <pubDate>Mon, 01 Feb 2021 15:39:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1108/</guid>
+      <description>&lt;p&gt;从0到1的第一个月。&lt;/p&gt;
+&lt;p&gt;一段话量化这个月：&lt;/p&gt;
+&lt;p&gt;这个月进行了31次每日复盘，每一天都在学习和阅读，结束&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

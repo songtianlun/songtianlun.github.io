@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DeepSeek on Frytea</title>
+    <link>https://www.frytea.com/tags/deepseek/</link>
+    <description>Recent content in DeepSeek on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Feb 2025 07:19:37 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/deepseek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArchLinux 快速本地部署 DeepSeek</title>
+      <link>https://www.frytea.com/archives/1444/</link>
+      <pubDate>Tue, 18 Feb 2025 07:19:37 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1444/</guid>
+      <description>&lt;p&gt;在 ArchLinux 下借助 Ollama 可以快速运行一个小参数体量的 DeepSeek 本地模型，在我的环境上 纯 CPU 推理也可以获得很快的体验。&lt;/p&gt;
+&lt;h1 id=&#34;安装环境&#34;&gt;安装环境&lt;/h1&gt;
+&lt;p&gt;一行命令即可装好 ollama&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo pacman -S ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;模型&#34;&gt;模型&lt;/h1&gt;
+&lt;p&gt;从 &lt;a href=&#34;https://ollama.com/library/deepseek-r1&#34;&gt;ollama 的 DeepSeek-R1模型页面&lt;/a&gt; 可以看到可拉取的模型，包括全量的 &lt;code&gt;671b&lt;/code&gt; 模型，以及精炼的小模型表现同样出色。：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

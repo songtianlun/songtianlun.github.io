@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Goaccess on Frytea</title>
+    <link>https://www.frytea.com/tags/goaccess/</link>
+    <description>Recent content in Goaccess on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Apr 2025 03:59:14 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/goaccess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoAccess 分析多网站日志方法</title>
+      <link>https://www.frytea.com/archives/1481/</link>
+      <pubDate>Tue, 29 Apr 2025 03:59:14 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1481/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;GoAccess&lt;/strong&gt; 是一个开源的&lt;strong&gt;实时&lt;/strong&gt; &lt;strong&gt;网络日志分析器&lt;/strong&gt;和交互式查看器，可以在 &lt;code&gt;*nix&lt;/code&gt; 系统的&lt;strong&gt;终端&lt;/strong&gt;中或通过&lt;strong&gt;浏览器&lt;/strong&gt;运行。
+&lt;img alt=&#34;cli&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/04/29/j5g5tq.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;browser&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/04/29/j5ks1p.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;默认情况下，&lt;code&gt;goacccess&lt;/code&gt; 分析 &lt;code&gt;COMBINED&lt;/code&gt; 类型的日志，也是 nginx/apache 默认的形式。&lt;code&gt;goaccess&lt;/code&gt; 是支持多站点分析的，根据官网说法，只要日志格式中带有 &lt;code&gt;%v&lt;/code&gt; 就会开启，其实比较简单的做法是使用 &lt;code&gt;VCOMBINED&lt;/code&gt; 类型的日志分析即可。想要分析 &lt;code&gt;VCOMBINED&lt;/code&gt; 类型的日志，需要在 &lt;code&gt;nginx&lt;/code&gt; 等日志中做一点点细微的调整。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

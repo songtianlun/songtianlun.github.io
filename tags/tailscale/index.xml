@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tailscale on Frytea</title>
+    <link>https://www.frytea.com/tags/tailscale/</link>
+    <description>Recent content in Tailscale on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 27 Oct 2025 15:20:01 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>彻底解决阿里云和 tailscale 冲突</title>
+      <link>https://www.frytea.com/archives/1543/</link>
+      <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1543/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;如果你在一台阿里云服务器安装并启动了 tailscale，大概率会出现&lt;strong&gt;阿里云服务器无法上网的问题&lt;/strong&gt;，根本原因为阿里云服务器默认DNS与tailscale网段产生冲突。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tailscale 自建 DERP 并配置 SSL 完整教程</title>
+      <link>https://www.frytea.com/archives/1479/</link>
+      <pubDate>Tue, 22 Apr 2025 13:38:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1479/</guid>
+      <description>&lt;p&gt;Tailscale 在很多场景有着广泛应用，&lt;code&gt;k3s&lt;/code&gt; 天然有针对它的支持，最近在基于这个方案构建遍布全球的分布式私有网络。官方的 &lt;code&gt;DERP&lt;/code&gt; 服务质量并不稳定， 自建后稳定很多，本文记录详细的过程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tailscale 自建 Derp</title>
+      <link>https://www.frytea.com/archives/1460/</link>
+      <pubDate>Mon, 07 Apr 2025 09:20:20 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1460/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;必需：将 env &lt;code&gt;DERP_DOMAIN&lt;/code&gt; 设置为您的域&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -e DERP_DOMAIN=derper.your-domain.com -p 80:80 -p 443:443 -p 3478:3478/udp fredliang/derper
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;也有其他不使用域名的方法，参考文献自行探索&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tailscale.com/kb/1118/custom-derp-servers&#34;&gt;Custom DERP Servers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fredliang44/derper-docker&#34;&gt;fredliang44/derper-docker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xiaoiluo.com/article/tailscale-derp&#34;&gt;🗒️逃离网络限制：使用Tailscale+自建DERP组建私有局域网的终极指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://icloudnative.io/posts/custom-derp-servers/#%E4%BD%BF%E7%94%A8%E7%BA%AF-ip&#34;&gt;Tailscale 基础教程：部署私有 DERP 中继服务器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

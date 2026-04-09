@@ -5,20 +5,102 @@
     <link>https://www.frytea.com/tags/openwrt/</link>
     <description>Recent content in OpenWrt on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 23 Apr 2022 15:42:39 +0800</lastBuildDate><atom:link href="https://www.frytea.com/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2024 02:59:38 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/openwrt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Openwrt 使用 Wireguard 异地组网（远程家庭网所有设备）</title>
-      <link>https://www.frytea.com/archives/wiki/openwrt-with-wireguard-networking/</link>
-      <pubDate>Sat, 23 Apr 2022 15:42:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/openwrt-with-wireguard-networking/</guid>
-      <description>使用 Wireguard 、OpenWrt、VPS 完成异地组网.</description>
+      <title>OpenWRT 软件源整理</title>
+      <link>https://www.frytea.com/archives/1354/</link>
+      <pubDate>Sat, 23 Nov 2024 02:59:38 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1354/</guid>
+      <description>&lt;h2 id=&#34;软件源整理&#34;&gt;软件源整理&lt;/h2&gt;
+&lt;h3 id=&#34;官方镜像站&#34;&gt;官方镜像站&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;OpenWRT官方下载站点&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://downloads.openwrt.org/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;这是 OpenWRT的主站点，提供所有官方版本的固件和软件包。该站点是获取最新稳定版、开发版（snapshot）和历史版本的主要来源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;OpenWRT官方GitHub仓库&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://github.com/openwrt/openwrt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;虽然主要用于代码存储和开发，但也提供了一些资源和文档链接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;国内镜像站&#34;&gt;国内镜像站&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;清华大学开源软件镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirrors.tuna.tsinghua.edu.cn/openwrt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供了OpenWRT各个版本的镜像，非常稳定和快速。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;中科大开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirrors.ustc.edu.cn/openwrt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;也是一个非常可靠的镜像源，提供OpenWRT的各个版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;阿里云开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirrors.aliyun.com/openwrt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供稳定的OpenWRT镜像下载服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;重庆大学开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirrors.cqu.edu.cn/openwrt/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;同样是一个可以选择的国内镜像源。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;南京大学开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirror.nju.edu.cn/openwrt/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供了OpenWRT的多版本支持。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;上海交通大学开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirror.sjtu.edu.cn/openwrt/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供稳定的开源软件镜像服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;&lt;strong&gt;兰州大学开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirror.lzu.edu.cn/openwrt/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供多个开源项目的镜像下载。界面有点意思。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;&lt;strong&gt;浙江大学开源镜像站&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://mirrors.zju.edu.cn/openwrt/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;提供多种开源软件项目的镜像。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;个人镜像站&#34;&gt;个人镜像站&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;OpenWRT.AI软件仓库：&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;URL: &lt;code&gt;https://dl.openwrt.ai/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kiddin9&#34;&gt;Kiddin9&lt;/a&gt;的自建软件仓库，目前只支持OpenWRT 23.05版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;如何选择和使用镜像站&#34;&gt;如何选择和使用镜像站&lt;/h2&gt;
+&lt;p&gt;在OpenWRT路由器上配置官方软件源通常不需要额外操作，因为默认情况下，OpenWRT已经配置了官方软件源。只需运行&lt;code&gt;opkg update&lt;/code&gt;命令以确保软件包列表是最新的。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

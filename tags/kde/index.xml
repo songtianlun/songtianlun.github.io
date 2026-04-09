@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KDE on Frytea</title>
+    <link>https://www.frytea.com/tags/kde/</link>
+    <description>Recent content in KDE on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Apr 2026 05:55:30 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/kde/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KDE Plasma6 禁用全局菜单，恢复正常应用菜单</title>
+      <link>https://www.frytea.com/archives/1650/</link>
+      <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1650/</guid>
+      <description>&lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;
+&lt;p&gt;不知道从什么时候开始，KDE Plasma 默认启用类似 macOS 的全局应用菜单。&lt;/p&gt;
+&lt;p&gt;即应用窗口标题栏下方不显示菜单，而是移动到顶部菜单栏中“全局菜单”小组件中。&lt;/p&gt;
+&lt;p&gt;但问题是，Linux 桌面生态生态复杂，X11 Wayland Qt GTK 等等技术太过复杂，很难保证常用软件都能够正常显示全局菜单。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archlinux KDE Apache JMeter 配置高分屏缩放</title>
+      <link>https://www.frytea.com/archives/1471/</link>
+      <pubDate>Thu, 17 Apr 2025 06:11:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1471/</guid>
+      <description>&lt;p&gt;ArchLinux 下安装 &lt;code&gt;jmeter&lt;/code&gt; 很简单：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yay -S jmeter
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是在现代高分辨率显示器下 GUI 的字体和图标都很小 ：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;JMeter 缩放前&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/04/17/n8u28t.webp&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;查阅文档后发现只需带有一个参数运行即可：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;JVM_ARGS=&amp;#34;-Dsun.java2d.uiScale=200%&amp;#34; jmeter
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;也可以把这个参数写入启动脚本中：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

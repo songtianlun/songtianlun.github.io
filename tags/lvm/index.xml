@@ -5,20 +5,31 @@
     <link>https://www.frytea.com/tags/lvm/</link>
     <description>Recent content in LVM on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Mar 2023 18:42:08 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 10:42:08 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虚拟磁盘扩容后扩展 LVM vg</title>
       <link>https://www.frytea.com/archives/763/</link>
-      <pubDate>Wed, 29 Mar 2023 18:42:08 +0000</pubDate>
-      
+      <pubDate>Wed, 29 Mar 2023 10:42:08 +0000</pubDate>
       <guid>https://www.frytea.com/archives/763/</guid>
-      <description>新空间分区 在使用 fdisk 工具将新增的磁盘空间分配到 LVM PV 上时，您需要按照以下步骤操作： 运行 fdisk -l 命令查看系统中当前可用的磁盘和分区信息。 运行 fdisk /dev/sdX 命令（</description>
+      <description>&lt;h2 id=&#34;新空间分区&#34;&gt;新空间分区&lt;/h2&gt;
+&lt;p&gt;在使用 fdisk 工具将新增的磁盘空间分配到 LVM PV 上时，您需要按照以下步骤操作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;运行 &lt;code&gt;fdisk -l&lt;/code&gt; 命令查看系统中当前可用的磁盘和分区信息。&lt;/li&gt;
+&lt;li&gt;运行 &lt;code&gt;fdisk /dev/sdX&lt;/code&gt; 命令（其中 sdX 表示要调整大小的磁盘），以编辑该磁盘的分区表。&lt;/li&gt;
+&lt;li&gt;使用命令 &lt;code&gt;p&lt;/code&gt; 查看磁盘分区表，确定要修改的分区号码。&lt;/li&gt;
+&lt;li&gt;使用命令 &lt;code&gt;n&lt;/code&gt; 创建一个新的分区。按照提示输入分区类型、起始和结束位置等信息即可。请注意，新分区的起始位置必须与现有的 LVM PV 的终止位置相同。&lt;/li&gt;
+&lt;li&gt;使用命令 &lt;code&gt;t&lt;/code&gt; 更改新分区的类型。选择类型 8e，以便将其设置为 LVM 分区类型。&lt;/li&gt;
+&lt;li&gt;使用命令 &lt;code&gt;w&lt;/code&gt; 将新的分区表写入磁盘，并退出 fdisk 工具。&lt;/li&gt;
+&lt;li&gt;运行 &lt;code&gt;pvresize /dev/sdXn&lt;/code&gt; 命令（其中 sdXn 表示新创建的 LVM PV 分区设备文件名）以将新分区添加到现有的 LVM 物理卷中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;完成以上步骤后，您可以使用 lvextend 命令扩展逻辑卷的大小，并使用 resize2fs 命令调整文件系统大小以反映新的逻辑卷大小。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

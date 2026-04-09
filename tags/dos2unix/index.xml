@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>dos2unix on Frytea</title>
+    <title>Dos2unix on Frytea</title>
     <link>https://www.frytea.com/tags/dos2unix/</link>
-    <description>Recent content in dos2unix on Frytea</description>
+    <description>Recent content in Dos2unix on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 16 Jan 2023 08:29:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/dos2unix/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 00:30:23 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/dos2unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 dos2unix 解决跨操作系统换行符问题</title>
       <link>https://www.frytea.com/archives/728/</link>
-      <pubDate>Mon, 16 Jan 2023 08:29:00 +0000</pubDate>
-      
+      <pubDate>Mon, 16 Jan 2023 00:29:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/728/</guid>
-      <description>dos2unix 是将 Windows 格式文件转换为 Unix/Linux 格式的实用命令。 unix2dos 则是和 dos2unix 互为孪生的一个命令，将 Linux&amp;amp;Unix 格式文件转换为 Windows 格式文件的命令。 各个操作系统安装方法如下： OS X brew install</description>
+      <description>&lt;p&gt;&lt;code&gt;dos2unix&lt;/code&gt; 是将 &lt;code&gt;Windows&lt;/code&gt; 格式文件转换为 &lt;code&gt;Unix/Linux&lt;/code&gt; 格式的实用命令。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;unix2dos&lt;/code&gt; 则是和 &lt;code&gt;dos2unix&lt;/code&gt; 互为孪生的一个命令，将 &lt;code&gt;Linux&amp;amp;Unix&lt;/code&gt; 格式文件转换为 &lt;code&gt;Windows&lt;/code&gt; 格式文件的命令。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;各个操作系统安装方法如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OS X
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    brew install dos2unix
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Debian
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    apt-get install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ubuntu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    apt-get install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Alpine
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    apk add dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Arch Linux
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    pacman -S dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Kali Linux
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    apt-get install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CentOS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    yum install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Fedora
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dnf install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Windows &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;WSL2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get update sudo apt-get install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Raspbian
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    apt-get install dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Dockerfile
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    dockerfile.run/dos2unix 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Docker
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    docker run cmd.cat/dos2unix dos2unix
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;下面以 &lt;a href=&#34;https://learnxinyminutes.com/docs/zh-cn/elisp-cn/&#34;&gt;15分钟学会Emacs Lisp&lt;/a&gt; 教学源文件为例展示效果。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

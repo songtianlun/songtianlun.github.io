@@ -1,24 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>s3 on Frytea</title>
+    <title>S3 on Frytea</title>
     <link>https://www.frytea.com/tags/s3/</link>
-    <description>Recent content in s3 on Frytea</description>
+    <description>Recent content in S3 on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Nov 2022 21:56:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Apr 2025 16:33:24 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常见 S3 存储服务多维度横评（附1TB存储传输成本）</title>
+      <link>https://www.frytea.com/archives/1467/</link>
+      <pubDate>Sat, 12 Apr 2025 16:18:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1467/</guid>
+      <description>&lt;p&gt;之前看到猫猫大佬的 &lt;a href=&#34;https://catcat.blog/object-storage-pricing-comparison-1tb-storage-transfer-benchmark.html&#34;&gt;对象存储服务商价格对比：1TB存储与1TB流量基准分析&lt;/a&gt; 这篇文章很有启发。正好最近在探索物美价廉、稳定可靠的 S3 数据存储方案，将自己熟悉的、网上常见的一些提供 S3 的厂商服务做个整理，按照 &lt;code&gt;1TB&lt;/code&gt; 数据存储和传输成本为指标做一个横评表格。希望给选购 S3 服务需求的人们有一些启发。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>s3cmd  常见用法</title>
+      <link>https://www.frytea.com/archives/1419/</link>
+      <pubDate>Mon, 20 Jan 2025 15:30:24 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1419/</guid>
+      <description>&lt;h2 id=&#34;常见用法&#34;&gt;常见用法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;列举所有 Buckets&lt;br&gt;
+&lt;code&gt;$ s3cmd ls&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;创建 bucket，且 bucket 名称是唯一的，不能重复。&lt;br&gt;
+&lt;code&gt;s3cmd mb s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除空 bucket&lt;br&gt;
+&lt;code&gt;s3cmd rb s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;列举 Bucket 中的内容&lt;br&gt;
+&lt;code&gt;s3cmd ls s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传 file.txt 到某个 bucket，&lt;br&gt;
+&lt;code&gt;s3cmd put file.txt s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传并将权限设置为所有人可读&lt;br&gt;
+&lt;code&gt;s3cmd put --acl-public file.txt s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;批量上传文件&lt;br&gt;
+&lt;code&gt;s3cmd put ./* s3://my-bucket-name/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;下载文件&lt;br&gt;
+&lt;code&gt;s3cmd get s3://my-bucket-name/file.txt file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;批量下载&lt;br&gt;
+&lt;code&gt;s3cmd get s3://my-bucket-name/* ./&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;删除文件&lt;br&gt;
+&lt;code&gt;s3cmd del s3://my-bucket-name/file.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;来获得对应的bucket所占用的空间大小&lt;br&gt;
+&lt;code&gt;s3cmd du -H s3://my-bucket-name&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;设置S3 bucket的Public权限&lt;br&gt;
+&lt;code&gt;s3cmd setacl s3://myexamplebucket.calvium.com/ --acl-public --recursive&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;临时链接&#34;&gt;临时链接&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;s3cmd signurl s3://example-bucket/image.jpg 1657457538
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;example-bucket&lt;/em&gt; — the name of the bucket that hosts the file,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;image.jpg&lt;/em&gt; — the file you want to share,&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;1657457538&lt;/em&gt; — link expiry time in the Timestamp format, use the &lt;a href=&#34;https://epochconverter.com&#34;&gt;converter&lt;/a&gt; to convert time formats.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcore.com/docs/storage/manage-object-storage/configure-aws-sli-s3cmd-and-aws-javascript-sdk/generate-temporary-links-to-files-with-aws-cli-and-s3cmd#generate-links-in-s3cmd&#34;&gt;Generate temporary links to files with AWS CLI and S3cmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/sunhongleibibi/p/11661123.html&#34;&gt;s3cmd的使用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
       <link>https://www.frytea.com/archives/660/</link>
-      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
-      
+      <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/660/</guid>
-      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

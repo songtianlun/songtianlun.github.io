@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>主机资讯 on Frytea</title>
+    <link>https://www.frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/</link>
+    <description>Recent content in 主机资讯 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 24 Nov 2025 00:14:49 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 年黑五云主机活动汇总(含双十一)</title>
+      <link>https://www.frytea.com/archives/1544/</link>
+      <pubDate>Mon, 03 Nov 2025 15:14:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1544/</guid>
+      <description>&lt;p&gt;2025 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
+&lt;p&gt;2025 年黑色星期五为 &lt;strong&gt;11月28日&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;内容收集自 Telegram、NodeSeek、LowEndTalk 等途径，仅做信息汇集，不做购买建议。
+链接默认无 aff&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BWH DC99 掉线事件记录</title>
+      <link>https://www.frytea.com/archives/1383/</link>
+      <pubDate>Sat, 30 Nov 2024 17:08:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1383/</guid>
+      <description>&lt;p&gt;出去一天，回来发现各个群都在说瓦工 DC99 掉线事件，看了一下监控确实掉线了一段时间。好在现在已经恢复，树大招风，可以看出瓦工的用户规模还是很大的，希望后面不要再发生类似事件。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>claw hk 网络监控稳定晚上出现小幅波动</title>
+      <link>https://www.frytea.com/archives/1378/</link>
+      <pubDate>Wed, 27 Nov 2024 15:56:46 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1378/</guid>
+      <description>&lt;p&gt;貌似每到晚高峰就会稳定出现一些波动，很神奇。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;3h&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/27/12xl5zn.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;30h&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/27/12xp9pm.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;10d&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/27/12xtlsb.webp&#34;&gt;&lt;/p&gt;
+&lt;p&gt;数据源于自建 smokeping，从腾讯云广州监测。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>各大云服务主机商测试 IP 整理</title>
+      <link>https://www.frytea.com/archives/1376/</link>
+      <pubDate>Sat, 23 Nov 2024 16:12:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1376/</guid>
+      <description>&lt;p&gt;整理了互联网上能找到的各大云服务主机商的官方/民间测试 IP ，按照首字母排序，按需取用，欢迎补充。&lt;/p&gt;
+&lt;h2 id=&#34;厂商&#34;&gt;厂商&lt;/h2&gt;
+&lt;h3 id=&#34;aliyun&#34;&gt;Aliyun&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;地域节点&lt;/th&gt;
+          &lt;th&gt;所在城市&lt;/th&gt;
+          &lt;th&gt;测速IP地址&lt;/th&gt;
+          &lt;th&gt;动态OSS地址&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华北 1&lt;/td&gt;
+          &lt;td&gt;青岛&lt;/td&gt;
+          &lt;td&gt;47.104.38.82&lt;/td&gt;
+          &lt;td&gt;oss-cn-qingdao.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华北 2&lt;/td&gt;
+          &lt;td&gt;北京&lt;/td&gt;
+          &lt;td&gt;59.110.190.69&lt;/td&gt;
+          &lt;td&gt;oss-cn-beijing.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华北 3&lt;/td&gt;
+          &lt;td&gt;张家口&lt;/td&gt;
+          &lt;td&gt;47.92.17.61&lt;/td&gt;
+          &lt;td&gt;oss-cn-zhangjiakou.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华北 5&lt;/td&gt;
+          &lt;td&gt;呼和浩特&lt;/td&gt;
+          &lt;td&gt;39.104.9.1&lt;/td&gt;
+          &lt;td&gt;oss-cn-huhehaote.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华北 6&lt;/td&gt;
+          &lt;td&gt;乌兰察布&lt;/td&gt;
+          &lt;td&gt;39.101.35.62&lt;/td&gt;
+          &lt;td&gt;oss-cn-wulanchabu.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华东 1&lt;/td&gt;
+          &lt;td&gt;杭州&lt;/td&gt;
+          &lt;td&gt;118.31.219.171&lt;/td&gt;
+          &lt;td&gt;oss-cn-hangzhou.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华东 2&lt;/td&gt;
+          &lt;td&gt;上海&lt;/td&gt;
+          &lt;td&gt;106.14.228.194&lt;/td&gt;
+          &lt;td&gt;oss-cn-shanghai.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华南 1&lt;/td&gt;
+          &lt;td&gt;深圳&lt;/td&gt;
+          &lt;td&gt;120.77.166.226&lt;/td&gt;
+          &lt;td&gt;oss-cn-shenzhen.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华南 2&lt;/td&gt;
+          &lt;td&gt;河源&lt;/td&gt;
+          &lt;td&gt;47.113.155.0&lt;/td&gt;
+          &lt;td&gt;oss-cn-heyuan.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华南 3&lt;/td&gt;
+          &lt;td&gt;广州&lt;/td&gt;
+          &lt;td&gt;8.134.16.0&lt;/td&gt;
+          &lt;td&gt;oss-cn-guangzhou.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;西南 1&lt;/td&gt;
+          &lt;td&gt;成都&lt;/td&gt;
+          &lt;td&gt;47.108.5.136&lt;/td&gt;
+          &lt;td&gt;oss-cn-chengdu.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;华东 5&lt;/td&gt;
+          &lt;td&gt;南京&lt;/td&gt;
+          &lt;td&gt;47.122.12.0&lt;/td&gt;
+          &lt;td&gt;oss-cn-nanjing.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中国香港&lt;/td&gt;
+          &lt;td&gt;香港&lt;/td&gt;
+          &lt;td&gt;47.75.18.13&lt;/td&gt;
+          &lt;td&gt;oss-cn-hongkong.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;美国西部 1 （硅谷）&lt;/td&gt;
+          &lt;td&gt;硅谷&lt;/td&gt;
+          &lt;td&gt;47.88.73.1&lt;/td&gt;
+          &lt;td&gt;oss-us-west-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;美国东部 1 （弗吉尼亚）&lt;/td&gt;
+          &lt;td&gt;弗吉尼亚&lt;/td&gt;
+          &lt;td&gt;47.252.95.42&lt;/td&gt;
+          &lt;td&gt;oss-us-east-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太东南 1 （新加坡）&lt;/td&gt;
+          &lt;td&gt;新加坡&lt;/td&gt;
+          &lt;td&gt;47.74.196.40&lt;/td&gt;
+          &lt;td&gt;oss-ap-southeast-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太东南 2 （悉尼）&lt;/td&gt;
+          &lt;td&gt;悉尼&lt;/td&gt;
+          &lt;td&gt;47.91.39.21&lt;/td&gt;
+          &lt;td&gt;oss-ap-southeast-2.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太东南 3 （吉隆坡）&lt;/td&gt;
+          &lt;td&gt;吉隆坡&lt;/td&gt;
+          &lt;td&gt;47.254.218.88&lt;/td&gt;
+          &lt;td&gt;oss-ap-southeast-3.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太东南 5 （雅加达）&lt;/td&gt;
+          &lt;td&gt;雅加达&lt;/td&gt;
+          &lt;td&gt;149.129.200.96&lt;/td&gt;
+          &lt;td&gt;oss-ap-southeast-5.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太南部 1 （孟买）&lt;/td&gt;
+          &lt;td&gt;孟买&lt;/td&gt;
+          &lt;td&gt;149.129.143.101&lt;/td&gt;
+          &lt;td&gt;oss-ap-south-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;亚太东北 1 （日本）&lt;/td&gt;
+          &lt;td&gt;东京&lt;/td&gt;
+          &lt;td&gt;47.91.8.42&lt;/td&gt;
+          &lt;td&gt;oss-ap-northeast-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;欧洲中部 1 （法兰克福）&lt;/td&gt;
+          &lt;td&gt;法兰克福&lt;/td&gt;
+          &lt;td&gt;47.254.186.9&lt;/td&gt;
+          &lt;td&gt;oss-eu-central-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;英国（伦敦）&lt;/td&gt;
+          &lt;td&gt;伦敦&lt;/td&gt;
+          &lt;td&gt;8.208.40.20&lt;/td&gt;
+          &lt;td&gt;oss-eu-west-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中东东部 1 （迪拜）&lt;/td&gt;
+          &lt;td&gt;迪拜&lt;/td&gt;
+          &lt;td&gt;47.91.99.127&lt;/td&gt;
+          &lt;td&gt;oss-me-east-1.aliyuncs.com&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;References: &lt;a href=&#34;https://developer.aliyun.com/article/1052381&#34;&gt;阿里云服务器测试IP地址不同地域节点Ping值测速延迟&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BWH-DC99</title>
+      <link>https://www.frytea.com/archives/1359/</link>
+      <pubDate>Thu, 21 Nov 2024 16:12:48 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1359/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：BandwagonHost&lt;/li&gt;
+&lt;li&gt;型号：DC99-MINIBOX-10-512&lt;/li&gt;
+&lt;li&gt;规格：1C/512G&lt;/li&gt;
+&lt;li&gt;磁盘：10G&lt;/li&gt;
+&lt;li&gt;流量：500G&lt;/li&gt;
+&lt;li&gt;位置：美国/洛杉矶&lt;/li&gt;
+&lt;li&gt;价格：29USD/年&lt;/li&gt;
+&lt;li&gt;年付人民币：209.69 RMB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hetzner-CX22</title>
+      <link>https://www.frytea.com/archives/1360/</link>
+      <pubDate>Thu, 21 Nov 2024 16:12:32 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1360/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：Hetzner&lt;/li&gt;
+&lt;li&gt;型号：CX22&lt;/li&gt;
+&lt;li&gt;规格：2C/4G&lt;/li&gt;
+&lt;li&gt;磁盘：40G&lt;/li&gt;
+&lt;li&gt;流量：20T&lt;/li&gt;
+&lt;li&gt;位置：德国/纽伦堡&lt;/li&gt;
+&lt;li&gt;价格：3.29欧元/月&lt;/li&gt;
+&lt;li&gt;年付人民币：302.96&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aliyun-ecs.e-c1m1.large</title>
+      <link>https://www.frytea.com/archives/1361/</link>
+      <pubDate>Thu, 21 Nov 2024 16:12:16 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1361/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：Aliyun&lt;/li&gt;
+&lt;li&gt;型号：ecs.e-c1m1.large&lt;/li&gt;
+&lt;li&gt;规格：2C/2G&lt;/li&gt;
+&lt;li&gt;磁盘：40G&lt;/li&gt;
+&lt;li&gt;流量：~T&lt;/li&gt;
+&lt;li&gt;带宽：3 Mbps&lt;/li&gt;
+&lt;li&gt;位置：&lt;/li&gt;
+&lt;li&gt;价格：99 RMB/年&lt;/li&gt;
+&lt;li&gt;年付人民币：99&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tencent-轻量-2C4G</title>
+      <link>https://www.frytea.com/archives/1362/</link>
+      <pubDate>Thu, 21 Nov 2024 16:12:09 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1362/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：Tencent&lt;/li&gt;
+&lt;li&gt;型号：轻量-新客专享型-2C4G&lt;/li&gt;
+&lt;li&gt;规格：2C/4G&lt;/li&gt;
+&lt;li&gt;磁盘：70G&lt;/li&gt;
+&lt;li&gt;流量：600T&lt;/li&gt;
+&lt;li&gt;带宽：6 Mbps&lt;/li&gt;
+&lt;li&gt;位置：中国/广州&lt;/li&gt;
+&lt;li&gt;价格：159 RMB/年&lt;/li&gt;
+&lt;li&gt;年付人民币：159&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DogYun-HK-EQ</title>
+      <link>https://www.frytea.com/archives/1369/</link>
+      <pubDate>Thu, 21 Nov 2024 11:05:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1369/</guid>
+      <description>&lt;p&gt;相关信息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;厂商：DogYun&lt;/li&gt;
+&lt;li&gt;型号：hk.eq.s&lt;/li&gt;
+&lt;li&gt;规格：1C/1G&lt;/li&gt;
+&lt;li&gt;磁盘：20G&lt;/li&gt;
+&lt;li&gt;流量：500G&lt;/li&gt;
+&lt;li&gt;带宽：50Mbps&lt;/li&gt;
+&lt;li&gt;位置：中国/香港&lt;/li&gt;
+&lt;li&gt;价格：35RMB/年 / 24.5RMB/Y 折扣码 &lt;code&gt;HK.EQ&lt;/code&gt; 七折首发￥24.50起&lt;/li&gt;
+&lt;li&gt;年付：245 RMB&lt;/li&gt;
+&lt;li&gt;购买链接：https://vm.dogyun.com/server/create/132&lt;/li&gt;
+&lt;li&gt;测试IP：43.247.133.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;测试脚本：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -5,137 +5,220 @@
     <link>https://www.frytea.com/tags/pve/</link>
     <description>Recent content in PVE on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 May 2023 02:47:52 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Mar 2025 01:32:45 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PVE 迁入 Win xp/2003 解决蓝屏问题</title>
-      <link>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</link>
-      <pubDate>Fri, 12 May 2023 02:47:52 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/others/pve-%E8%BF%81%E5%85%A5-win-xp_2003-%E8%A7%A3%E5%86%B3%E8%93%9D%E5%B1%8F%E9%97%AE%E9%A2%98/</guid>
-      <description>PVE 迁入 Win xp/2003 解决蓝屏问题 Windows xp/2003 或是 Windows Server 2003 之类的老旧系统使用迁移工具迁入 PVE 集群后，即使配置了 IDE 总线磁盘，还是可能出现蓝屏问题。 该问题给出两种解决方</description>
+      <title>ProxmoxVE (PVE) NAT 网络配置方法</title>
+      <link>https://www.frytea.com/archives/1445/</link>
+      <pubDate>Tue, 04 Mar 2025 01:32:45 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1445/</guid>
+      <description>&lt;p&gt;伪装允许只有私有 IP 地址的访客使用主机 IP 地址来访问网络，以处理传出流量。每个传出数据包都会被重写 iptables ，使其看起来来自主机，响应也会相应地被重写以路由到原始发件人。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>解决 PVE 报错 rbd error list images</title>
+      <link>https://www.frytea.com/archives/1345/</link>
+      <pubDate>Thu, 14 Nov 2024 11:47:06 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1345/</guid>
+      <description>&lt;p&gt;针对下列报错：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    2021-05-26 11:06:11 ERROR: Failed to sync data - rbd error: rbd: listing images failed: &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; No such file or directory
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;解决方法&#34;&gt;解决方法&lt;/h2&gt;
+&lt;p&gt;进入命令行，执行&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 查看 rbd 清单
+rbd ls -l &amp;lt;cephpool-name&amp;gt;
+# 例如：
+rbd ls -l data
+
+# 使用命令删除错误磁盘镜像
+rbd rm &amp;lt;img-name&amp;gt; -p &amp;lt;cephpool-name&amp;gt;
+
+# 例如
+rbd rm vm-111-disk-0 -p data
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://foxi.buduanwang.vip/virtualization/1077.html/&#34;&gt; PVE迁移报错rbd error: rbd: listing images failed: (2) No such file or directory (500) &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#ProxmoxVE #Ceph&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PVE 批量销毁虚拟机</title>
       <link>https://www.frytea.com/archives/771/</link>
-      <pubDate>Sat, 08 Apr 2023 14:56:44 +0000</pubDate>
-      
+      <pubDate>Sat, 08 Apr 2023 06:56:44 +0000</pubDate>
       <guid>https://www.frytea.com/archives/771/</guid>
-      <description>可以使用以下命令一次性删除所有 QEMU 虚拟机： 串行 qm list | awk &#39;NR&amp;gt;1 {print $1}&#39; | xargs -I {} qm destroy {} 解释： qm list 命令获取所有虚拟机的列表。 awk &#39;NR&amp;gt;1 {print $1}&#39; 命令跳过第一行（表头）并</description>
+      <description>&lt;p&gt;可以使用以下命令一次性删除所有 QEMU 虚拟机：&lt;/p&gt;
+&lt;h2 id=&#34;串行&#34;&gt;串行&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;qm list | awk &amp;#39;NR&amp;gt;1 {print $1}&amp;#39; | xargs -I {} qm destroy {}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;解释：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;qm list&lt;/code&gt; 命令获取所有虚拟机的列表。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;awk &#39;NR&amp;gt;1 {print $1}&#39;&lt;/code&gt; 命令跳过第一行（表头）并提取 VMID 列。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;xargs -I {} qm destroy {}&lt;/code&gt; 命令将每个 VMID 作为参数传递给 &lt;code&gt;qm destroy&lt;/code&gt; 命令，从而删除每个虚拟机。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：此命令会删除所有虚拟机，请确保在执行前已进行适当备份和确认。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PVE 删除/离开集群</title>
       <link>https://www.frytea.com/archives/753/</link>
-      <pubDate>Thu, 16 Mar 2023 19:34:59 +0000</pubDate>
-      
+      <pubDate>Thu, 16 Mar 2023 11:34:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/753/</guid>
-      <description>删除节点 cd /etc/pve/nodes rm -rf *** pvecm delnode *** 离开集群 # 离线的节点操作 systemctl stop pve-cluster.service systemctl stop corosync.service pmxcfs -l rm /etc/pve/corosync.conf rm -rf /etc/corosync/* killall pmxcfs systemctl start pve-cluster.service cd /etc/pve/nodes ls rm -rf /etc/pve/nodes/*** pvecm delnode *** # 正常的节点操作： cd /etc/pve/nodes rm -rf *** pvecm delnode *** Reference PVE</description>
+      <description>&lt;h2 id=&#34;删除节点&#34;&gt;删除节点&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用于从集群中删除无效节点。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd /etc/pve/nodes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf &amp;lt;YOUR DELETE NODE NAME&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;离开集群&#34;&gt;离开集群&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用户节点离开集群。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 离线的节点操作
+systemctl stop pve-cluster.service
+systemctl stop corosync.service
+pmxcfs -l
+rm /etc/pve/corosync.conf
+rm -rf /etc/corosync/*
+killall pmxcfs
+systemctl start pve-cluster.service
+cd /etc/pve/nodes
+ls
+rm -rf /etc/pve/nodes/&amp;lt;YOUR DELETE NODE NAME&amp;gt;
+pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
+
+ 
+# 正常的节点操作：
+cd /etc/pve/nodes
+rm -rf &amp;lt;YOUR DELETE NODE NAME&amp;gt;
+pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/jackadam/p/15763362.html&#34;&gt;PVE Proxmox Virtual Environment 学习笔记（五）集群节点故障&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>PVE 手动创建 lvm-thin-pool 加入多磁盘</title>
       <link>https://www.frytea.com/archives/748/</link>
-      <pubDate>Sun, 12 Mar 2023 13:21:21 +0000</pubDate>
-      
+      <pubDate>Sun, 12 Mar 2023 05:21:21 +0000</pubDate>
       <guid>https://www.frytea.com/archives/748/</guid>
-      <description>新建存储池，包括多块硬盘 lsblk pvcreate /dev/sdb /dev/sdc /dev/sdd vgcreate thin-pool /dev/sdb /dev/sdc /dev/sdd lvcreate -T thin-pool/data -l +99%FREE pvesm add lvmthin thin-pool-data --content rootdir,images --thinpool data --vgname thin-pool Reference adding a disk and set it as lvm-thin: help needed, please</description>
+      <description>&lt;p&gt;新建存储池，包括多块硬盘&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lsblk
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pvcreate /dev/sdb /dev/sdc /dev/sdd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vgcreate thin-pool /dev/sdb /dev/sdc /dev/sdd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvcreate -T thin-pool/data -l +99%FREE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pvesm add lvmthin thin-pool-data --content rootdir,images --thinpool data --vgname thin-pool
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.proxmox.com/threads/adding-a-disk-and-set-it-as-lvm-thin-help-needed-please.111724/&#34;&gt;adding a disk and set it as lvm-thin: help needed, please&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>PVE 批量创建、配置虚拟机 IP、网卡、启停及销毁</title>
       <link>https://www.frytea.com/archives/737/</link>
-      <pubDate>Wed, 08 Feb 2023 08:46:10 +0000</pubDate>
-      
+      <pubDate>Wed, 08 Feb 2023 00:46:10 +0000</pubDate>
       <guid>https://www.frytea.com/archives/737/</guid>
-      <description># 从模版批量派生，100 虚拟机仅需2 min for i in {001..128}; do qm clone 336 11$i --name stl-ceph-bare-node$i --pool stl-ceph-cluster2; done # 使用 cloud-init 批量配置 ip，需在模版提前装好 cloud-init 软件包并添加设备 for i in {1..128}; do num=`echo $i | awk</description>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 从模版批量派生，100 虚拟机仅需2 min&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;001..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm clone &lt;span style=&#34;color:#ae81ff&#34;&gt;336&lt;/span&gt; 11$i --name stl-ceph-bare-node$i --pool stl-ceph-cluster2; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 使用 cloud-init 批量配置 ip，需在模版提前装好 cloud-init 软件包并添加设备&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;1..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; num&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;echo $i | awk &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{printf(&amp;#34;%03d&amp;#34;,$0)}&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;; qm set 10&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;num&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;  --ipconfig1 ip&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;10.24.88.$i/24,gw&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;10.24.88.254; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 批量断开网络接口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;002..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm set 10$i --net0 virtio,link_down&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;1; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 批量开机&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;001..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm start 10$i; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 批量销毁&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;001..111&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm destroy 10$i; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>PVE 虚拟机导入 vmdk 磁盘</title>
       <link>https://www.frytea.com/archives/736/</link>
-      <pubDate>Wed, 01 Feb 2023 09:45:31 +0000</pubDate>
-      
+      <pubDate>Wed, 01 Feb 2023 01:45:31 +0000</pubDate>
       <guid>https://www.frytea.com/archives/736/</guid>
-      <description>先把磁盘镜像上传到 pve 服务器中，若空间不足可挂载本地存储； 把 vmdk 转为 qcow2 qemu-img convert -O qcow2 test.vmdk test.qcow2 注：-O 是大写的字母 O 使用 qm importdisk 命令导入 $ qm importdisk &amp;lt;vmid&amp;gt; &amp;lt;images-name&amp;gt; &amp;lt;storage pool&amp;gt; --format=&amp;lt;disk-fs&amp;gt; # vmi</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;先把磁盘镜像上传到 pve 服务器中，若空间不足可挂载本地存储；&lt;/li&gt;
+&lt;li&gt;把 &lt;code&gt;vmdk&lt;/code&gt; 转为 &lt;code&gt;qcow2&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qemu-img convert -O qcow2 test.vmdk test.qcow2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;注：&lt;code&gt;-O&lt;/code&gt; 是大写的字母 &lt;code&gt;O&lt;/code&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;使用 &lt;code&gt;qm importdisk&lt;/code&gt; 命令导入&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ qm importdisk  &amp;lt;vmid&amp;gt; &amp;lt;images-name&amp;gt; &amp;lt;storage pool&amp;gt;  --format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&amp;lt;disk-fs&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# vmid：vm的id 例如102&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# images-name：磁盘镜像的名字&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# storage poll: 存储磁盘镜像的位置，一般写存储的名称，如pve01data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# disk-fs: 磁盘镜像格式  raw/vmdk/qcow2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;参考文献&#34;&gt;参考文献&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/467105568&#34;&gt;vmware vmdk虚拟机导入到proxmox ve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://forum.proxmox.com/threads/import-vm-from-esxi-6-0.107151/&#34;&gt;import VM from ESXi 6.0 - Proxmox Forums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pve.proxmox.com/wiki/Migration_of_servers_to_Proxmox_VE#Physical-to-Virtual_.28P2V.29&#34;&gt;Migration of servers to Proxmox VE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Proxmox VE (PVE) 销毁集群</title>
       <link>https://www.frytea.com/archives/628/</link>
-      <pubDate>Thu, 14 Apr 2022 10:43:42 +0000</pubDate>
-      
+      <pubDate>Thu, 14 Apr 2022 02:43:42 +0000</pubDate>
       <guid>https://www.frytea.com/archives/628/</guid>
-      <description>当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍</description>
+      <description>&lt;p&gt;当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍在线节点可用：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
       <link>https://www.frytea.com/archives/605/</link>
-      <pubDate>Tue, 14 Dec 2021 09:05:00 +0000</pubDate>
-      
+      <pubDate>Tue, 14 Dec 2021 01:05:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/605/</guid>
-      <description>PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提</description>
+      <description>&lt;p&gt;PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提升。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</link>
-      <pubDate>Tue, 14 Dec 2021 16:04:43 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/pve-apt-and-ct-template-sources-with-chinese/</guid>
-      <description>介绍 pve 7 镜像安装后配置中国软件源及 CT模板(LXC容器) 中国镜像.</description>
-    </item>
-    
-    <item>
-      <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/archives/virt/pve-cloud-init-overv/</link>
-      <pubDate>Mon, 06 Dec 2021 14:31:23 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/pve-cloud-init-overv/</guid>
-      <description>介绍 pve 虚拟化系统对于 cloud-init 的支持和使用方法.</description>
-    </item>
-    
-    <item>
-      <title>PVE 内核模块 pve-kernal 编译安装方法</title>
-      <link>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</link>
-      <pubDate>Mon, 06 Dec 2021 14:29:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/virt/pve-compile-instal-pve-kernal/</guid>
-      <description>介绍 pve 虚拟化系统内核的编译安装方法.</description>
-    </item>
-    
     <item>
       <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
       <link>https://www.frytea.com/archives/600/</link>
-      <pubDate>Wed, 24 Nov 2021 17:38:00 +0000</pubDate>
-      
+      <pubDate>Wed, 24 Nov 2021 09:38:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/600/</guid>
-      <description>最近在看 PVE 源码时看到这样一段： # old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数 # new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法 sub get { return PVE::RESTEnvironment-&amp;gt;get(); } 好奇两种调用方式是什么区别，经过研</description>
+      <description>&lt;p&gt;最近在看 PVE 源码时看到这样一段：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;get&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; PVE::RESTEnvironment&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;get();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;好奇两种调用方式是什么区别，经过研究，我在这篇文章&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;找到答案，两者差异在于：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pve-kernal 编译安装步骤</title>
       <link>https://www.frytea.com/archives/586/</link>
-      <pubDate>Wed, 20 Oct 2021 09:55:57 +0000</pubDate>
-      
+      <pubDate>Wed, 20 Oct 2021 01:55:57 +0000</pubDate>
       <guid>https://www.frytea.com/archives/586/</guid>
-      <description>以 pve-release-6.x ，基于 debian buster 为例： Step1: 配置国内 PVE 镜像源 # 配置 pve 软件包国内镜像源 $ echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian buster pve-no-subscription&amp;#34; &amp;gt; /etc/apt/sources.list.d/pve-no-subscription.list $ wget https://enterprise.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-6.x.gpg Setp2：安装依赖包 Install build dependencies (i got these from the pve-kernel/debian/control file): apt install asciidoc-base automake bc</description>
+      <description>&lt;p&gt;以 pve-release-6.x ，基于 debian buster 为例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step1: 配置国内 PVE 镜像源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 配置 pve 软件包国内镜像源&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/proxmox/debian buster pve-no-subscription&amp;#34;&lt;/span&gt; &amp;gt; /etc/apt/sources.list.d/pve-no-subscription.list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ wget https://enterprise.proxmox.com/debian/proxmox-ve-release-6.x.gpg -O /etc/apt/trusted.gpg.d/proxmox-release-6.x.gpg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Setp2：安装依赖包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Install build dependencies (i got these from the pve-kernel/debian/control file):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt install asciidoc-base automake bc bison cpio debhelper dh-python file flex gcc git kmod libdw-dev libelf-dev libiberty-dev libnuma-dev libpve-common-perl libslang2-dev libssl-dev libtool lintian lz4 perl-modules python-minimal rsync sed sphinx-common tar xmlto zlib1g-dev
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Step3：获取 pve-kernel 源码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clone proxmox-kernel&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
       <link>https://www.frytea.com/archives/583/</link>
-      <pubDate>Tue, 12 Oct 2021 11:45:28 +0000</pubDate>
-      
+      <pubDate>Tue, 12 Oct 2021 03:45:28 +0000</pubDate>
       <guid>https://www.frytea.com/archives/583/</guid>
-      <description>Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 跨平台云实例初始化 的行业标准多分发方法。它支持所有主要的 公共云提供商、私有云基础设施的供应系统</description>
+      <description>&lt;p&gt;Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 &lt;strong&gt;跨平台云实例初始化&lt;/strong&gt; 的行业标准多分发方法。它支持所有主要的 &lt;strong&gt;公共云提供商、私有云基础设施的供应系统和裸机安装&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

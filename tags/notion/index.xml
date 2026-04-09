@@ -1,60 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>notion on Frytea</title>
+    <title>Notion on Frytea</title>
     <link>https://www.frytea.com/tags/notion/</link>
-    <description>Recent content in notion on Frytea</description>
+    <description>Recent content in Notion on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Mar 2023 20:23:34 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/notion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 12:23:34 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/notion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT VS Notion AI</title>
       <link>https://www.frytea.com/archives/752/</link>
-      <pubDate>Sun, 12 Mar 2023 20:23:34 +0000</pubDate>
-      
+      <pubDate>Sun, 12 Mar 2023 12:23:34 +0000</pubDate>
       <guid>https://www.frytea.com/archives/752/</guid>
-      <description>简介 在当今世界中，涌现了许多基于人工智能的工具和平台，旨在简化各种功能。聊天机器人和虚拟助手是近年来广受欢迎的两个例子。 ChatGPT 和 Notion AI 是提供基于人</description>
+      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;在当今世界中，涌现了许多基于人工智能的工具和平台，旨在简化各种功能。聊天机器人和虚拟助手是近年来广受欢迎的两个例子。 ChatGPT 和 Notion AI 是提供基于人工智能的解决方案的两个平台。在本篇博客文章中，我们将比较 ChatGPT 和 Notion AI，以了解它们的优点和缺点，并最终帮助您决定哪一个更适合您的业务。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>整理 Notion 导出文档名称</title>
       <link>https://www.frytea.com/archives/743/</link>
-      <pubDate>Tue, 28 Feb 2023 19:40:56 +0000</pubDate>
-      
+      <pubDate>Tue, 28 Feb 2023 11:40:56 +0000</pubDate>
       <guid>https://www.frytea.com/archives/743/</guid>
-      <description>从 Notion 导出 md 格式的文档，默认会对文件名做一些处理， 大概是这样，会讲过长的文档名称压缩，在首行使用 md 一级标签标记文件名，再将文档截断为图示的样子</description>
+      <description>&lt;p&gt;从 Notion 导出 md 格式的文档，默认会对文件名做一些处理，&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2023/02/28/202302281809111b4ea3d003517a7d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;大概是这样，会讲过长的文档名称压缩，在首行使用 md 一级标签标记文件名，再将文档截断为图示的样子。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>mermaid.js 效果相册</title>
       <link>https://www.frytea.com/archives/663/</link>
-      <pubDate>Thu, 24 Nov 2022 14:38:35 +0000</pubDate>
-      
+      <pubDate>Thu, 24 Nov 2022 06:38:35 +0000</pubDate>
       <guid>https://www.frytea.com/archives/663/</guid>
-      <description>mermaid 是一款 javascript 库，能够轻而易举地通过文本代码绘图。 作为普通用户，将其理解为一种绘图的语言即可，集成它之后就可以在 markdown 的轻松插入特定语法编写的各类图</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;&gt;mermaid&lt;/a&gt; 是一款 javascript 库，能够轻而易举地通过文本代码绘图。&lt;/p&gt;
+&lt;p&gt;作为普通用户，将其理解为一种绘图的语言即可，集成它之后就可以在 markdown 的轻松插入特定语法编写的各类图示了，而且不需要像 plantuml 一样需要外部服务器，目前 &lt;a href=&#34;https://www.notion.so/&#34;&gt;notion&lt;/a&gt; 、 &lt;a href=&#34;https://obsidian.md/&#34;&gt;obsidian&lt;/a&gt; 等都已原生支持该特性，许多博客主题也支持该语法。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>周日谈/50 ｜ 做减法与激励机制</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-12-18/</link>
-      <pubDate>Sat, 18 Dec 2021 23:35:22 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-12-18/</guid>
-      <description>2021年第50周，谈谈个人管理和激励反馈</description>
-    </item>
-    
-    <item>
-      <title>周日谈/49 ｜ 内容为王的时代 ｜ 云原生的时代</title>
-      <link>https://www.frytea.com/archives/retrospective/2021-12-10/</link>
-      <pubDate>Fri, 10 Dec 2021 23:29:15 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/retrospective/2021-12-10/</guid>
-      <description>2021年第49周，谈谈元原生、互联网以及未来产品以及我们的未来，还有元宇宙</description>
-    </item>
-    
   </channel>
 </rss>

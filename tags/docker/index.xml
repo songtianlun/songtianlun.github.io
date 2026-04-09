@@ -1,231 +1,362 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>docker on Frytea</title>
+    <title>Docker on Frytea</title>
     <link>https://www.frytea.com/tags/docker/</link>
-    <description>Recent content in docker on Frytea</description>
+    <description>Recent content in Docker on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Mar 2025 09:59:51 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
-      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
-      <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
+      <title>wordpress 使用 k8s 部署并使用 nginx ingress 代理无限 302 到 ssl 问题解决</title>
+      <link>https://www.frytea.com/archives/1455/</link>
+      <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1455/</guid>
+      <description>&lt;p&gt;发现容器化之后，wp 网站打开一直尝试 302 到 https 的页面，即使我当前已经是 https 了，经过排查是由于代理提供了 ssl 但 wordpress 不知道，默认会再重定向一次，出现无限 302 。&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>查看所有由 docker-compose 启动的 docker</title>
-      <link>https://www.frytea.com/archives/wiki/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</link>
-      <pubDate>Wed, 19 Jul 2023 02:51:10 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%94%B1-docker-compose-%E5%90%AF%E5%8A%A8%E7%9A%84-docker/</guid>
-      <description>查看所有由 docker-compose 启动的 docker Docker Compose会为其创建的每个容器添加标签。如果您想获取由Compose创建的所有容器，可以执行container ls</description>
+      <title>将当前系统做成 docker 镜像</title>
+      <link>https://www.frytea.com/archives/1447/</link>
+      <pubDate>Wed, 12 Mar 2025 01:45:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1447/</guid>
+      <description>&lt;h1 id=&#34;tl-dr&#34;&gt;TL; DR&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Step1: 将当前系统打包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;系统进行格式转化并压缩，执行如下命令，生成一个镜像的centos7-base.tar的文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 示例打包命令&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ tar --numeric-owner --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/proc --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/sys -zcvpf /data/centos7-svr.tar.gz /
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ tar --numeric-owner &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/proc --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/sys &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/var/lib/vz &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/root &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/media &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~ &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-zcvpf ~/hci6-ci-base.tar.gz /
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ tar -cvpf /home/buildrpm.tar --directory&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/ --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;proc --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;sys --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;dev --exclude&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;run /
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# --numeric-owner:执行所属&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# --exclude：排除那些文件或者目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# -zcvf ：打包压缩 p保持文件的绝对路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Step2: 导入镜像并运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;把镜像文件centos7-svr.tar.gz放到装有docker的系统上&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Linux 备份和恢复 docker volume 脚本分享</title>
+      <link>https://www.frytea.com/archives/1443/</link>
+      <pubDate>Thu, 27 Feb 2025 15:36:16 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1443/</guid>
+      <description>&lt;h1 id=&#34;脚本&#34;&gt;脚本&lt;/h1&gt;
+&lt;h2 id=&#34;dump&#34;&gt;Dump&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;docker-volume-dump.sh &lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dump_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~/docker-volume-dump
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; ! -d $dump_dir &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  mkdir -p $dump_dir
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; volume in &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;docker volume ls -q&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  dump_file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$dump_dir/$volume.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; -f $dump_file &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt; set -x; echo rm $dump_file; &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Dump docker volume \&amp;#34;&lt;/span&gt;$volume&lt;span style=&#34;color:#e6db74&#34;&gt;\&amp;#34; to \&amp;#34;&lt;/span&gt;$dump_file&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  docker run --rm -v $volume:/from alpine sh -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cd /from; tar -cf - .&amp;#34;&lt;/span&gt; | gzip &amp;gt; $dump_dir/$volume.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;restore&#34;&gt;Restore&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;docker-volume-restore.sh&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dump_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~/docker-volume-dump
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; file in ~/docker-volume-dump/* ; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;basename $file&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;volume%%.*&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$volume&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  docker volume inspect $volume &amp;amp;&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; $? -eq &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt; set -x; docker volume rm $volume 1&amp;gt;/dev/null &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt; set -x; docker volume create $volume 1&amp;gt;/dev/null &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  cat $file | docker run --rm -i -v $volume:/to alpine sh -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;tar zxvf - -C /to&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/bborysenko/f48b3b75e7bb7af0534e94377db14c51&#34;&gt;bborysenko/docker-volume-dump.sh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Docker 官方脚本一键安装</title>
+      <link>https://www.frytea.com/archives/1429/</link>
+      <pubDate>Wed, 22 Jan 2025 06:47:51 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1429/</guid>
+      <description>&lt;p&gt;使用官方脚本安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://res.frytea.com/d/Dev/Docker/get_docker.sh | bash -s docker --mirror Aliyun
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://res.frytea.com/d/Dev/Docker/get_docker.sh | DOWNLOAD_URL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;http://192.168.25.10/docker  bash -s docker
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ustc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com -o get-docker.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo DOWNLOAD_URL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;https://mirrors.ustc.edu.cn/docker-ce sh get-docker.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 也可以自己在内网做一个镜像，将脚本和 docker 软件源全部镜像，可以实现全内网高速安装&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL http://192.168.25.9/raw/general/docker/install-docker.sh -o get-docker.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo DOWNLOAD_URL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;http://192.168.25.10/docker sh get-docker.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL http://192.168.25.9/raw/general/docker/install-docker.sh |  DOWNLOAD_URL&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;http://192.168.25.10/docker bash -s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装完成后使能 docker 服务：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>配置 harbor 及 docker 等使用 https</title>
+      <link>https://www.frytea.com/archives/1408/</link>
+      <pubDate>Mon, 30 Dec 2024 15:53:59 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1408/</guid>
+      <description>&lt;p&gt;默认情况下，Harbor不提供证书。可以在没有安全性的情况下部署Harbor，这样您就可以通过HTTP连接到它。但是，只有在没有连接到外部internet的空间隙测试或开发环境中才可以使用HTTP。在没有空间隙的环境中使用HTTP会暴露给中间人攻击。在生产环境中，始终使用HTTPS。如果启用带公证人的内容信任对所有images进行正确签名，则必须使用HTTPS。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖</title>
+      <link>https://www.frytea.com/archives/1403/</link>
+      <pubDate>Tue, 24 Dec 2024 11:23:04 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1403/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源：&lt;a href=&#34;https://www.lixueduan.com/posts/cloudnative/03-buildah/&#34;&gt;Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Buildah 是一个专注于构建 OCI 镜像的工具，Buildah CLI 工具使用底层 OCI 技术实现（例如 containers/image&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; 和 containers/storage&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;)。&lt;/p&gt;
+&lt;p&gt;OCI 三剑客包括：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>快速清理 docker 容器和镜像等资源</title>
+      <link>https://www.frytea.com/archives/1392/</link>
+      <pubDate>Sat, 14 Dec 2024 14:59:47 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1392/</guid>
+      <description>&lt;p&gt;这些命令总是记不住，或者说不用心去记，所以记录在本文中，以便将来查询。&lt;/p&gt;
+&lt;h2 id=&#34;列出所有的容器-id&#34;&gt;列出所有的容器 ID&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker ps -aq
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;停止所有的容器&#34;&gt;停止所有的容器&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker stop $(docker ps -aq)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;删除所有的容器&#34;&gt;删除所有的容器&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker rm $(docker ps -aq)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;删除所有的镜像&#34;&gt;删除所有的镜像&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker rmi $(docker images -q)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;复制文件&#34;&gt;复制文件&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker cp mycontainer:/opt/file.txt /opt/local/
+docker cp /opt/local/file.txt mycontainer:/opt/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;删除所有不使用的镜像&#34;&gt;删除所有不使用的镜像&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker image prune --force --all
+docker image prune -f -a
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;删除所有停止的容器&#34;&gt;删除所有停止的容器&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker container prune -f
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;清理资源&#34;&gt;清理资源&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 删除未使用的数据&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker system prune
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 清理所有未使用的镜像&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker system prune -a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://colobu.com/2018/05/15/Stop-and-remove-all-docker-containers-and-images/&#34;&gt;停止、删除所有的docker容器和镜像&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Docker 部署 mautic 并增加插件和翻译包等</title>
+      <link>https://www.frytea.com/archives/1381/</link>
+      <pubDate>Tue, 03 Dec 2024 11:49:59 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1381/</guid>
+      <description>&lt;h2 id=&#34;docker-部署方法&#34;&gt;Docker 部署方法&lt;/h2&gt;
+&lt;p&gt;参考：&lt;a href=&#34;https://github.com/mautic/docker-mautic/tree/mautic5/examples&#34;&gt;https://github.com/mautic/docker-mautic/tree/mautic5/examples&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;增加插件&#34;&gt;增加插件&lt;/h2&gt;
+&lt;p&gt;使用如下 &lt;code&gt;Dockerfile&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;FROM mautic/mautic:5-apache&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;COPY ./plugins/ /var/www/html/docroot/plugins/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;结合以下 &lt;code&gt;Makefile&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;all&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        docker build -t mautic/mautic:5-apache-my .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;整个目录架构是这样：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@tencent-gz1:/data/docker/mautic/add-something# tree -L &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── Dockerfile
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── Makefile
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── plugins
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│   └── MauticRssToEmailBundle
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── translations
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    └── zh_CN.zip
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;执行&lt;/p&gt;
+&lt;h2 id=&#34;增加语言包&#34;&gt;增加语言包&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;Dockerfile&lt;/code&gt; 增加一个目录：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RockLinux 安装 Docker</title>
+      <link>https://www.frytea.com/archives/1371/</link>
+      <pubDate>Fri, 29 Nov 2024 10:40:01 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1371/</guid>
+      <description>&lt;p&gt;Docker Engine 可以在 Rocky Linux 服务器上运行原生 Docker 风格的容器工作负载。在运行完整的 Docker Desktop 环境时，有时会首选这种方式。&lt;/p&gt;
+&lt;h2 id=&#34;添加-docker-仓库&#34;&gt;添加 Docker 仓库&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;dnf&lt;/code&gt; 工具将 Docker 仓库添加到你的 Rocky Linux 服务器。输入：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>镜像操作神器 skopeo 用法总结</title>
+      <link>https://www.frytea.com/archives/1353/</link>
+      <pubDate>Sat, 23 Nov 2024 02:59:30 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1353/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/containers/skopeo&#34;&gt;skopeo&lt;/a&gt;&lt;/strong&gt; 是一个命令行工具，可对容器镜像和容器存储进行操作。 在没有dockerd的环境下，使用 &lt;strong&gt;skopeo&lt;/strong&gt; 操作镜像是非常方便的。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;h3 id=&#34;包管理器&#34;&gt;包管理器&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# RHEL / CentOS Stream ≥ 8
+sudo dnf install skopeo
+
+# RHEL/CentOS ≤ 7.x
+yum install skopeo
+
+# openSUSE:
+sudo zypper install skopeo
+
+# alpine:
+sudo apk add skopeo
+
+# macOS:
+brew install skopeo
+
+# ArchLinux
+sudo pacman -S skopeo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其他系统见 &lt;a href=&#34;https://github.com/containers/skopeo/blob/master/install.md&#34;&gt;安装文档&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu 安装指定版本 docker</title>
       <link>https://www.frytea.com/archives/789/</link>
-      <pubDate>Mon, 01 May 2023 00:06:25 +0000</pubDate>
-      
+      <pubDate>Sun, 30 Apr 2023 16:06:25 +0000</pubDate>
       <guid>https://www.frytea.com/archives/789/</guid>
-      <description>如果你过去安装过 docker，先删掉： sudo apt-get remove docker docker-engine docker.io containerd runc 首先安装依赖： sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common 信任 Docker 的 GPG 公钥并添加仓库： 发行版 sudo mkdir -m 0755 -p /etc/apt/keyrings curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg</description>
+      <description>&lt;p&gt;如果你过去安装过 docker，先删掉：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get remove docker docker-engine docker.io containerd runc
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;首先安装依赖：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;信任 Docker 的 GPG 公钥并添加仓库：
+发行版&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo mkdir -m 0755 -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://mirror.nju.edu.cn/docker-ce/linux/ubuntu \
+  $(lsb_release -cs) stable&amp;#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装最新&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>检查当前终端是不是 Docker</title>
       <link>https://www.frytea.com/archives/775/</link>
-      <pubDate>Thu, 27 Apr 2023 22:07:15 +0000</pubDate>
-      
+      <pubDate>Thu, 27 Apr 2023 14:07:15 +0000</pubDate>
       <guid>https://www.frytea.com/archives/775/</guid>
-      <description>要确定当前运行的终端是否在 Docker 容器内，可以检查容器特定的文件和环境变量。以下是一种方法，通过查看 /proc/1/cgroup 文件来判断： cat /proc/1/cgroup 观察输出的内容。如果您看到与</description>
+      <description>&lt;p&gt;要确定当前运行的终端是否在 Docker 容器内，可以检查容器特定的文件和环境变量。以下是一种方法，通过查看 /proc/1/cgroup 文件来判断：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat /proc/1/cgroup
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;观察输出的内容。如果您看到与 Docker 相关的内容（如 docker 或 containerd），则表示您当前正在 Docker 容器内运行。例如：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>查看 Docker cp 进度</title>
       <link>https://www.frytea.com/archives/762/</link>
-      <pubDate>Wed, 29 Mar 2023 09:18:12 +0000</pubDate>
-      
+      <pubDate>Wed, 29 Mar 2023 01:18:12 +0000</pubDate>
       <guid>https://www.frytea.com/archives/762/</guid>
-      <description>docker cp 命令本身不提供进度查看功能。但是，您可以使用第三方工具，如 pv（Pipe Viewer）在执行 docker cp 时查看进度。以下是使用 pv 查看 docker cp 进度的步</description>
+      <description>&lt;p&gt;docker cp 命令本身不提供进度查看功能。但是，您可以使用第三方工具，如 pv（Pipe Viewer）在执行 docker cp 时查看进度。以下是使用 pv 查看 docker cp 进度的步骤：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>迁移 Docker volume 到本地挂载点</title>
       <link>https://www.frytea.com/archives/760/</link>
-      <pubDate>Tue, 28 Mar 2023 18:22:02 +0000</pubDate>
-      
+      <pubDate>Tue, 28 Mar 2023 10:22:02 +0000</pubDate>
       <guid>https://www.frytea.com/archives/760/</guid>
-      <description>要将 Docker volume 迁移到本地挂载点，您需要执行以下步骤： 首先，确保已停止正在使用此 volume 的所有容器。您可以使用以下命令停止容器（将 &amp;lt;container_name&amp;gt; 替换为您的容器名称）：</description>
+      <description>&lt;p&gt;要将 Docker volume 迁移到本地挂载点，您需要执行以下步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先，确保已停止正在使用此 volume 的所有容器。您可以使用以下命令停止容器（将 &amp;lt;container_name&amp;gt; 替换为您的容器名称）：    ```
+docker stop &amp;lt;container_name&amp;gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 使用 docker cp 命令将 volume 的内容复制到本地文件系统。首先，创建一个临时容器，将要迁移的 volume 挂载到该容器：    ```
+docker run -d --name temp_container -v &amp;lt;volume_name&amp;gt;:/volume_data busybox tail -f /dev/null
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将 &amp;lt;volume_name&amp;gt; 替换为要迁移的 volume 的名称。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dockerfile 禁止弹出 apt 安装交互视图</title>
       <link>https://www.frytea.com/archives/749/</link>
-      <pubDate>Mon, 13 Mar 2023 08:41:20 +0000</pubDate>
-      
+      <pubDate>Mon, 13 Mar 2023 00:41:20 +0000</pubDate>
       <guid>https://www.frytea.com/archives/749/</guid>
-      <description>在 Dockerfile 中执行 apt 安装时，有些软件包可能会在安装过程中弹出交互式视图，例如询问用户是否接受软件包许可证或配置软件包参数等。在 Docker 构建过程中，由于无法</description>
+      <description>&lt;p&gt;在 Dockerfile 中执行 apt 安装时，有些软件包可能会在安装过程中弹出交互式视图，例如询问用户是否接受软件包许可证或配置软件包参数等。在 Docker 构建过程中，由于无法进行交互式操作，这些视图可能会导致构建失败或出现不可预期的结果。为避免这些问题，可以通过以下方法避免在 Docker 构建过程中弹出交互式视图：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>部署 Prometheus 主机监控完全体</title>
       <link>https://www.frytea.com/archives/664/</link>
-      <pubDate>Fri, 02 Dec 2022 09:57:00 +0000</pubDate>
-      
+      <pubDate>Fri, 02 Dec 2022 01:57:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/664/</guid>
-      <description>监控完全体 = Prometheus + Node Exporter + cadvisor + grafana Prometheus 作为轮转数据库，从各个服务器采集数据； node-exporter 作为数据采集器，接受 prometheus 采集请求，上报主机各项参数； vadvisor 作为容器数据采集器</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/02/202212020957362a5ac543b2ec7f2be.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;监控完全体 = Prometheus + Node Exporter + cadvisor + grafana&lt;/p&gt;
+&lt;p&gt;Prometheus 作为轮转数据库，从各个服务器采集数据；
+node-exporter 作为数据采集器，接受 prometheus 采集请求，上报主机各项参数；
+vadvisor 作为容器数据采集器，接受 prometheus 采集请求，上报主机 docker 各项参数；
+grafana 作为看板，从 prometheus 查询数据做数据可视化。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
       <link>https://www.frytea.com/archives/660/</link>
-      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
-      
+      <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/660/</guid>
-      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
       <link>https://www.frytea.com/archives/658/</link>
-      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
-      
+      <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/658/</guid>
-      <description>很长一段时间中，我都在思考容器建站的可行性。 容器有诸多益处，各类好处就不一一列举了。 在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一</description>
+      <description>&lt;p&gt;很长一段时间中，我都在思考容器建站的可行性。&lt;/p&gt;
+&lt;p&gt;容器有诸多益处，各类好处就不一一列举了。&lt;/p&gt;
+&lt;p&gt;在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一管理，完成几乎所有 Web 资源的自动调度。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>群晖 Docker 配置镜像源和私有源</title>
-      <link>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</link>
-      <pubDate>Wed, 26 Oct 2022 10:18:19 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/docker/synology-config-insecure-registries/</guid>
-      <description>记录群晖 Docker 配置和重启.</description>
-    </item>
-    
-    <item>
-      <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
-      <link>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
-      <description>k3s自动完成 ssl 证书签发和续签方法，并使用 https 协议暴露服务方法介绍。</description>
-    </item>
-    
-    <item>
-      <title>公网部署 k3s 集群方法总结</title>
-      <link>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</link>
-      <pubDate>Tue, 08 Mar 2022 14:36:35 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</guid>
-      <description>基于公网完成跨云厂商服务器 k3s 集群部署</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes Pod 配置文件(完整注释)</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</link>
-      <pubDate>Fri, 04 Feb 2022 13:06:26 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</guid>
-      <description>汇集几乎全部 k8s 配置项注释，方便查阅和学习</description>
-    </item>
-    
-    <item>
-      <title>kubernetes 核心技术概念</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</link>
-      <pubDate>Fri, 04 Feb 2022 13:04:34 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</guid>
-      <description>汇集 k8s 核心概念，帮助理解</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes 系列文章概述</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-abstract/</link>
-      <pubDate>Fri, 04 Feb 2022 13:02:37 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-abstract/</guid>
-      <description>Kubernetes系列文章概述</description>
-    </item>
-    
     <item>
       <title>深挖 docker 默认网络 | 为什么 docker 默认网络能上外网</title>
       <link>https://www.frytea.com/archives/612/</link>
-      <pubDate>Tue, 28 Dec 2021 14:49:46 +0000</pubDate>
-      
+      <pubDate>Tue, 28 Dec 2021 06:49:46 +0000</pubDate>
       <guid>https://www.frytea.com/archives/612/</guid>
-      <description>为什么默认配置创建出来的 docker 容器可以访问外网，为什么监听对应端口就能对外暴露docker服务，一张图搞清楚。 首先 Docker 有四中网络模式， 分别是 Bri</description>
+      <description>&lt;p&gt;为什么默认配置创建出来的 docker 容器可以访问外网，为什么监听对应端口就能对外暴露docker服务，一张图搞清楚。&lt;/p&gt;
+&lt;p&gt;首先 Docker 有四中网络模式， 分别是 Bridge、Host、Container、None，默认使用 Bridge，今天就来讲讲 Bridge。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
-      <link>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
-      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
-      <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
-    </item>
-    
-    <item>
-      <title>从零构建 Docker 镜像 | 申威下从零构建 debian 并打包为 docker</title>
-      <link>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</link>
-      <pubDate>Thu, 02 Dec 2021 10:24:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/docker/build-docker-from-scratch-based-on-deboostrap/</guid>
-      <description>基于 debootstrap 从零生成最小 debian 并制作 docker 镜像.</description>
-    </item>
-    
-    <item>
-      <title>从零构建 Docker 镜像 | 基于 busybox 制作 | 深入理解 Docker 镜像构建</title>
-      <link>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</link>
-      <pubDate>Fri, 26 Nov 2021 16:16:40 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/docker/build-a-docker-image-from-scratch/</guid>
-      <description>基于 busybox 无依赖的构建带有基础 unix 工具集的 docker 镜像.</description>
-    </item>
-    
-    <item>
-      <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</guid>
-      <description>云端服务器安装远程浏览器。</description>
-    </item>
-    
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
       <link>https://www.frytea.com/archives/598/</link>
-      <pubDate>Wed, 10 Nov 2021 18:08:00 +0000</pubDate>
-      
+      <pubDate>Wed, 10 Nov 2021 10:08:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/598/</guid>
-      <description>环境 OS: UOS 20 1021 12011.101 CPU: SW_64 SW1621 步骤 本地编译 runc 1.解压 runc 源码至 ~/go/src/github.com/opencontainers 目录； ~/go/ └── src └── github.com └── opencontainers └── runc 2.进入 runc 主目录，替换 vendor/golang.org/x/sys/unix 目录为申威平台 golang1.14.1 源码 go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix 目</description>
+      <description>&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OS: &lt;code&gt;UOS 20 1021 12011.101&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CPU: &lt;code&gt;SW_64&lt;/code&gt; &lt;code&gt;SW1621&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
+&lt;h3 id=&#34;本地编译-runc&#34;&gt;本地编译 runc&lt;/h3&gt;
+&lt;p&gt;1.解压 runc 源码至 &lt;code&gt;~/go/src/github.com/opencontainers&lt;/code&gt; 目录；&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~/go/                                                                                
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── src                                                                                              
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    └── github.com                                                                                       
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        └── opencontainers                                                                           
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            └── runc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2.进入 &lt;code&gt;runc&lt;/code&gt; 主目录，替换 &lt;code&gt;vendor/golang.org/x/sys/unix&lt;/code&gt; 目录为申威平台 &lt;code&gt;golang1.14.1&lt;/code&gt; 源码 &lt;code&gt;go-sw64-1.14.1/src/cmd/vendor/golang.org/x/sys/unix&lt;/code&gt; 目录。&lt;/p&gt;
+&lt;p&gt;3.修改 &lt;code&gt;libcontainer/system/syscall_linux_64.go&lt;/code&gt; 文件，在文件头添加 sw64 架构定义 &lt;code&gt;//+build sw64&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</link>
-      <pubDate>Wed, 10 Nov 2021 10:18:19 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/docker/sw-1621-with-uos20-compiler-installed-docke/</guid>
-      <description>申威处理器&#43;UOS操作系统下编译安装Docker服务.</description>
-    </item>
-    
     <item>
       <title>Centos系统安装docker</title>
       <link>https://www.frytea.com/archives/37/</link>
-      <pubDate>Tue, 12 Mar 2019 11:13:00 +0000</pubDate>
-      
+      <pubDate>Tue, 12 Mar 2019 03:13:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/37/</guid>
-      <description>主要步骤 1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。 通过 uname -r 命令查看你当前的内核版</description>
+      <description>&lt;h2 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h2&gt;
+&lt;p&gt;1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。&lt;/p&gt;
+&lt;p&gt;通过 uname -r 命令查看你当前的内核版本&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ uname -r
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://pnabaentf.bkt.clouddn.com//20190312111724.png&#34;&gt;
+2、使用 root 权限登录 Centos。确保 yum 包更新到最新。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ruby on Frytea</title>
+    <link>https://www.frytea.com/tags/ruby/</link>
+    <description>Recent content in Ruby on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Apr 2025 09:21:44 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rails 性能分析工具 rack-mini-profiler 和 bullet</title>
+      <link>https://www.frytea.com/archives/1441/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:44 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1441/</guid>
+      <description>&lt;p&gt;rack-mini-profiler 和 bullet 是ruby 开发中两个广受欢迎的性能分析工具。&lt;/p&gt;
+&lt;p&gt;Bullet 更加实用，提得建议更加直接有效，rack-mini-profiler 信息丰富，需要更细致的排查时使用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rails Active Record 常用命令</title>
+      <link>https://www.frytea.com/archives/1439/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:19 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1439/</guid>
+      <description>&lt;p&gt;主要命令&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rake db:migrate
+rake db:rollback
+
+rake db:migrate:up
+rake db:migrate:down
+
+rake db:migrate:redo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;指定版本号的回滚&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rake db:migrate:down VERSION=20141119130134
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;回滚最近几个迁移&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rake db:rollback STEP=n
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;n 代表个数。注意：是最近几个，它们会被一起移除。&lt;/p&gt;
+&lt;p&gt;其它类似命令：&lt;/p&gt;
+&lt;p&gt;只执行指定版本号的迁移&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rake db:migrate VERSION=20141119130134
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;只执行最近几次迁移&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rails Rake 简介与编写</title>
+      <link>https://www.frytea.com/archives/1438/</link>
+      <pubDate>Mon, 07 Apr 2025 09:21:09 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1438/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;来源：&lt;a href=&#34;https://ruby-china.org/topics/27846&#34;&gt;Rake 简介与编写&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;rake-用法简介&#34;&gt;Rake 用法简介&lt;/h1&gt;
+&lt;h2 id=&#34;rake-简介&#34;&gt;rake 简介&lt;/h2&gt;
+&lt;p&gt;Rake 的意思是 Ruby Make，一个用 ruby 开发的代码构建工具。&lt;/p&gt;
+&lt;p&gt;1.以任务的方式创建和运行脚本 当然，你可以用脚本来创建每一个你希望自动运行的任务。但是，对于大型的应用来说，你几乎总是需要为数据库迁移 (比如 Rails 中 db:migrate 任务)、清空缓存、或者代码维护等等编写脚本。对于每一项任务，你可能都需要写若干脚本，这会让你的管理变得复杂。那么，把它们用任务的方式整理到一起，会让管理变得轻松很多。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rails 7  已有项目引入 Bootstrap 3</title>
+      <link>https://www.frytea.com/archives/1418/</link>
+      <pubDate>Sat, 18 Jan 2025 15:42:59 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1418/</guid>
+      <description>&lt;p&gt;若是新项目，在 Rails 7 之后直接使用 &lt;code&gt;rails new test -j esbuild --css bootstrap&lt;/code&gt; 即可，若是已有项目，使用下面步骤引入：&lt;/p&gt;
+&lt;h1 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h1&gt;
+&lt;h2 id=&#34;安装-cssbundling-rails-管理-css&#34;&gt;安装 &lt;code&gt;cssbundling-rails&lt;/code&gt; 管理 CSS&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bundle add cssbundling-rails
+./bin/rails css:install:bootstrap
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;做了以下几件事情：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;它会创建 &lt;code&gt;builds&lt;/code&gt; 文件夹，并在清单文件中链接它&lt;/li&gt;
+&lt;li&gt;它会删除 &lt;code&gt;application.css&lt;/code&gt; 文件，因为它会生成自己的文件。&lt;/li&gt;
+&lt;li&gt;它添加了一个 &lt;code&gt;package.json&lt;/code&gt; 文件来存储 Javascript 依赖项。&lt;/li&gt;
+&lt;li&gt;它会安装 &lt;code&gt;foreman&lt;/code&gt; gem，并为其生成一个配置文件。&lt;/li&gt;
+&lt;li&gt;它添加了一个 &lt;code&gt;bin/dev&lt;/code&gt; 脚本来启动 rails 服务器，并监视 CSS 文件的任何更改。&lt;/li&gt;
+&lt;li&gt;它会创建特定于 Bootstrap 的 &lt;code&gt;scss&lt;/code&gt; 文件，该文件将被捆绑到一个 &lt;code&gt;application.css&lt;/code&gt; 文件中。&lt;/li&gt;
+&lt;li&gt;它将安装 &lt;code&gt;package.json&lt;/code&gt; 文件中列出的所有 Javascript 依赖项。&lt;/li&gt;
+&lt;li&gt;它将 Bootstrap 字体路径附加到 assets 路径。&lt;/li&gt;
+&lt;li&gt;它将 Bootstrap Javascript 导入添加到 &lt;code&gt;application.js&lt;/code&gt; 文件中。&lt;/li&gt;
+&lt;li&gt;最后，它配置 &lt;code&gt;build：css&lt;/code&gt; 命令并运行它来构建 &lt;code&gt;application.css&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装-jsbundling-rails-处理-js-绑定&#34;&gt;安装 &lt;code&gt;jsbundling-rails&lt;/code&gt; 处理 JS 绑定&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bundle add jsbundling-rails
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./bin/rails javascript:install:esbuild
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;上述脚本做了这些事情：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruby 多版本管理工具 rbenv</title>
+      <link>https://www.frytea.com/archives/1420/</link>
+      <pubDate>Thu, 09 Jan 2025 09:55:44 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1420/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rbenv/rbenv&#34;&gt;rbenv&lt;/a&gt; （Simple Ruby Version Management） 允许您在 Ruby 的多个版本之间轻松切换。它简单、不引人注目，并遵循 UNIX 的传统，即只做一件事的单一用途工具。&lt;/p&gt;
+&lt;h2 id=&#34;安装方法&#34;&gt;安装方法&lt;/h2&gt;
+&lt;h2 id=&#34;安装-rbenv&#34;&gt;安装 &lt;code&gt;rbenv&lt;/code&gt;&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Archlinux
+sudo pacman -S rbenv
+# macOS
+brew install rbenv
+# Debian/Ubuntu
+sudo apt install rbenv
+# Fedora/RHEL
+sudo dnf install rbenv
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;安装--ruby-build&#34;&gt;安装  &lt;code&gt;ruby-build&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;使用 rbenv 安装 ruby 版本需要用到 &lt;code&gt;install&lt;/code&gt; 命令，但是该 &lt;code&gt;rbenv install&lt;/code&gt; 命令不是开箱即用的 rbenv 提供的，而是由 ruby-build 插件提供的，下面一同安装：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

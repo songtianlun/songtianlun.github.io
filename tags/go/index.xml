@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>go on Frytea</title>
+    <title>Go on Frytea</title>
     <link>https://www.frytea.com/tags/go/</link>
-    <description>Recent content in go on Frytea</description>
+    <description>Recent content in Go on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 19 Aug 2023 04:16:49 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Oct 2025 11:51:14 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>go 闭包函数问题</title>
-      <link>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</link>
-      <pubDate>Sat, 19 Aug 2023 04:16:49 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/go-%E9%97%AD%E5%8C%85%E5%87%BD%E6%95%B0%E9%97%AE%E9%A2%98/</guid>
-      <description>go 闭包函数问题 在 Go 里，闭包里的变量会被共享使用，这就意味着当你在运行闭包函数的时候，函数中使用的变量其实是循环的最后一次改变后的值。 为了理解</description>
+      <title>go 拉取 gitcode.com 私有 mod</title>
+      <link>https://www.frytea.com/archives/1537/</link>
+      <pubDate>Tue, 14 Oct 2025 11:51:14 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1537/</guid>
+      <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;某个项目 mod 托管在 &lt;code&gt;gitcode&lt;/code&gt;，无法拉取。&lt;code&gt;git&lt;/code&gt; 登陆也不行，需要配置 &lt;code&gt;git&lt;/code&gt; 针对 &lt;code&gt;gitcode&lt;/code&gt; 默认走 &lt;code&gt;ssh&lt;/code&gt; 协议：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global url.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ssh://git@gitcode.com&amp;#34;&lt;/span&gt;.insteadOf &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://gitcode.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在网上查到比较多的是针对 &lt;code&gt;gitlab&lt;/code&gt; 或 &lt;code&gt;github&lt;/code&gt; 的：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# gitlab&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global url.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ssh://git@gitlab-company&amp;#34;&lt;/span&gt;.insteadOf &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://gitlab.xxx.cn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# github的同理&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global url.&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ssh://git@github-company&amp;#34;&lt;/span&gt;.insteadOf &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配置后就可以正常 &lt;code&gt;go mod tidy&lt;/code&gt; 了。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Go 语言命名规范整理</title>
-      <link>https://www.frytea.com/archives/go/go-naming-conventions/</link>
-      <pubDate>Tue, 08 Nov 2022 02:44:16 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/go/go-naming-conventions/</guid>
-      <description>GO 语言精简命名规范汇集.</description>
-    </item>
-    
     <item>
       <title>分享一个快捷内网、漏洞扫描工具 fscan</title>
       <link>https://www.frytea.com/archives/607/</link>
-      <pubDate>Tue, 21 Dec 2021 09:10:30 +0000</pubDate>
-      
+      <pubDate>Tue, 21 Dec 2021 01:10:30 +0000</pubDate>
       <guid>https://www.frytea.com/archives/607/</guid>
-      <description>fscan 是一款 go 语言写成 “一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描”。是我在刷 kon9chunkit 发起的 GitHub中文排行榜 时发现的。 该工具支持主机存</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/shadow1ng/fscan&#34;&gt;fscan&lt;/a&gt; 是一款 go 语言写成 “一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描”。是我在刷 &lt;a href=&#34;https://github.com/kon9chunkit&#34;&gt;kon9chunkit&lt;/a&gt; 发起的 &lt;strong&gt;&lt;a href=&#34;https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts&#34;&gt;GitHub中文排行榜&lt;/a&gt;&lt;/strong&gt; 时发现的。&lt;/p&gt;
+&lt;p&gt;该工具&lt;strong&gt;支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别&lt;/strong&gt;等功能。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

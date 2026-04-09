@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ethtool on Frytea</title>
+    <link>https://www.frytea.com/tags/ethtool/</link>
+    <description>Recent content in Ethtool on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 13 Dec 2024 11:08:43 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/ethtool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 网卡多队列配置方法</title>
+      <link>https://www.frytea.com/archives/1395/</link>
+      <pubDate>Tue, 10 Dec 2024 10:03:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1395/</guid>
+      <description>&lt;p&gt;多队列是指网络接口卡具有在多个发送和接收队列上并行处理网络数据包的能力。在使用网卡多队列时，通常需要配置网络中断亲和性（IRQ Affinity），将不同的队列中断分配给特定的CPU处理，而不是由任意的CPU处理，这有助于减少CPU之间的争用并提高网络性能。本文介绍如何配置Linux系统的网卡多队列的网络中断亲和性和修改网卡多队列数。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,199 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>OpenFOAM 两大分支的详细比较 | Frytea</title><meta name=keywords content="OpenFOAM,CFD"><meta name=description content="OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。
+历史背景
+分叉原因：
+
+OpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发
+2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM
+2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd
+2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd
+这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库
+
+版本发布历史
+OpenFOAM Foundation 版本
+
+命名规则：使用版本号（如 v2106, v2212）
+发布频率：通常每年 1-2 次大版本
+版本轨迹：
+
+v2.0.0（2011 年，首个独立版本）
+v2.3.0（2014 年）
+v4.0（2016 年）
+v7（2019 年）
+v9（2021 年）
+v10（2022 年）
+v11（2023 年）
+
+
+
+OpenFOAM+ (plus) 版本
+
+命名规则：使用年份+月份（如 v1906, v2206）
+发布频率：每年 2 次，通常在 6 月和 12 月
+版本轨迹：
+
+v3.0+（2015 年）
+v1606+（2016 年）
+v1806+（2018 年）
+v2006（2020 年）
+v2206（2022 年）
+v2312（2023 年）
+
+
+
+技术差异
+1. 代码结构与架构
+Foundation 版本:"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/archives/1473/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.05277dea5ecda4677c1c80258481c0391e879b5ac93ff418e8777b5b0c2cd4d5.css integrity="sha256-BSd96l7NpGd8HIAlhIHAOR6Hm1rJP/QY6Hd7Wwws1NU=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://www.frytea.com/archives/1473/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://www.frytea.com/archives/1473/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="OpenFOAM 两大分支的详细比较"><meta property="og:description" content="OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。
+历史背景 分叉原因：
+OpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发 2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM 2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd 2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd 这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库 版本发布历史 OpenFOAM Foundation 版本 命名规则：使用版本号（如 v2106, v2212） 发布频率：通常每年 1-2 次大版本 版本轨迹： v2.0.0（2011 年，首个独立版本） v2.3.0（2014 年） v4.0（2016 年） v7（2019 年） v9（2021 年） v10（2022 年） v11（2023 年） OpenFOAM+ (plus) 版本 命名规则：使用年份+月份（如 v1906, v2206） 发布频率：每年 2 次，通常在 6 月和 12 月 版本轨迹： v3.0+（2015 年） v1606+（2016 年） v1806+（2018 年） v2006（2020 年） v2206（2022 年） v2312（2023 年） 技术差异 1. 代码结构与架构 Foundation 版本:"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2025-04-21T03:05:26+00:00"><meta property="article:modified_time" content="2025-04-21T03:05:26+00:00"><meta property="article:tag" content="OpenFOAM"><meta property="article:tag" content="CFD"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="OpenFOAM 两大分支的详细比较"><meta name=twitter:description content="OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。
+历史背景 分叉原因：
+OpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发 2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM 2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd 2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd 这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库 版本发布历史 OpenFOAM Foundation 版本 命名规则：使用版本号（如 v2106, v2212） 发布频率：通常每年 1-2 次大版本 版本轨迹： v2.0.0（2011 年，首个独立版本） v2.3.0（2014 年） v4.0（2016 年） v7（2019 年） v9（2021 年） v10（2022 年） v11（2023 年） OpenFOAM+ (plus) 版本 命名规则：使用年份+月份（如 v1906, v2206） 发布频率：每年 2 次，通常在 6 月和 12 月 版本轨迹： v3.0+（2015 年） v1606+（2016 年） v1806+（2018 年） v2006（2020 年） v2206（2022 年） v2312（2023 年） 技术差异 1. 代码结构与架构 Foundation 版本:"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://www.frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"OpenFOAM 两大分支的详细比较","item":"https://www.frytea.com/archives/1473/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"OpenFOAM 两大分支的详细比较","name":"OpenFOAM 两大分支的详细比较","description":"OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。\n历史背景 分叉原因：\nOpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发 2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM 2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd 2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd 这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库 版本发布历史 OpenFOAM Foundation 版本 命名规则：使用版本号（如 v2106, v2212） 发布频率：通常每年 1-2 次大版本 版本轨迹： v2.0.0（2011 年，首个独立版本） v2.3.0（2014 年） v4.0（2016 年） v7（2019 年） v9（2021 年） v10（2022 年） v11（2023 年） OpenFOAM+ (plus) 版本 命名规则：使用年份+月份（如 v1906, v2206） 发布频率：每年 2 次，通常在 6 月和 12 月 版本轨迹： v3.0+（2015 年） v1606+（2016 年） v1806+（2018 年） v2006（2020 年） v2206（2022 年） v2312（2023 年） 技术差异 1. 代码结构与架构 Foundation 版本:\n","keywords":["OpenFOAM","CFD"],"articleBody":"OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。\n历史背景 分叉原因：\nOpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发 2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM 2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd 2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd 这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库 版本发布历史 OpenFOAM Foundation 版本 命名规则：使用版本号（如 v2106, v2212） 发布频率：通常每年 1-2 次大版本 版本轨迹： v2.0.0（2011 年，首个独立版本） v2.3.0（2014 年） v4.0（2016 年） v7（2019 年） v9（2021 年） v10（2022 年） v11（2023 年） OpenFOAM+ (plus) 版本 命名规则：使用年份+月份（如 v1906, v2206） 发布频率：每年 2 次，通常在 6 月和 12 月 版本轨迹： v3.0+（2015 年） v1606+（2016 年） v1806+（2018 年） v2006（2020 年） v2206（2022 年） v2312（2023 年） 技术差异 1. 代码结构与架构 Foundation 版本:\n更倾向于学术风格的代码组织 更保守的代码重构，保持架构稳定性 强调基础功能和核心求解器的可靠性 OpenFOAM+:\n更多工业应用导向的架构调整 积极重构代码以提高性能 增加了更多用户友好的界面和工具 2. 功能差异 功能领域 Foundation 版本 OpenFOAM+ 网格生成 基础 snappyHexMesh 增强版 snappyHexMesh 和额外的网格工具 并行化 基础 MPI 支持 更好的负载平衡和分区技术 湍流模型 全面但更侧重基础模型 更多工业验证的高级模型 动态网格 基础功能 增强的动态网格功能和FSI（流固耦合）能力 多相流 VOF 等基本方法 增强的多相流模型和界面捕捉方法 预处理 基础工具 扩展的预处理工具和导入选项 后处理 基础 ParaView 集成 增强的可视化和数据分析工具 GPU 支持 有限 一些商业版本中有更好的支持 3. 具体技术特点差异 Foundation 版本独有或更强的特点:\n更纯粹的开源哲学 更严格的代码审查流程 更面向基础研究的算法实现 OpenFOAM+ 独有或更强的特点:\n扩展的几何处理功能 商业CAD系统接口 更广泛的物理建模能力 “Catalyst” 实时可视化 针对云计算的一些优化 开发社区与发行形式 OpenFOAM Foundation 版本 维护方式：由 OpenFOAM Foundation 维护，是一个非营利组织 社区特点：更多学术和研究人员参与 许可证：GPL v3 发行形式：完全开源 文档：开源文档，社区支持 OpenFOAM+ 维护方式：由 ESI Group 拥有的 OpenCFD Ltd 维护 社区特点：更多工业用户和开发者 许可证：GPL v3（核心代码），某些工具可能有不同许可 发行形式：开源核心，加上一些专有扩展 文档：更全面的官方文档，一些商业培训和支持 适用场景对比 OpenFOAM Foundation 版本适合 学术研究和基础科学应用 需要彻底理解和可能修改核心算法的用户 教育环境和学习 CFD 的学生 预算有限的小型组织和个人用户 OpenFOAM+ 更适合 工业应用和生产环境 需要现成解决方案的工程师 有商业支持需求的用户 处理复杂几何和多物理场问题 安装和使用差异 OpenFOAM Foundation 版本 Linux 为主要平台 通过源代码构建或官方打包的二进制包安装 较少的依赖项，更简单的安装流程 更灵活的构建选项 OpenFOAM+ 更广泛的平台支持（Linux, Windows, macOS） 提供更多预编译二进制包 Docker 镜像和虚拟机模板 一些接口需要额外许可的商业软件 互操作性 两个版本之间的案例通常可以互相运行，但可能需要一些调整：\n某些字典文件的语法可能略有不同 有些高级功能在另一个版本中可能不可用 编译的自定义代码可能需要修改才能在另一版本上运行 总结建议 选择 OpenFOAM Foundation 版本的理由:\n追求纯粹开源体验 主要用于学术研究 希望更深入理解 CFD 原理和实现 有能力自己扩展功能 选择 OpenFOAM+ 的理由:\n需要更多工业优化的功能 重视用户友好性和易用工具 需要商业级支持选项 处理复杂工程应用 两个版本都在继续积极开发，并且相互借鉴一些想法。很多用户根据具体项目需求在两个版本间切换，或者同时安装两个版本以获取各自的优势。\n","wordCount":"1475","inLanguage":"zh","image":"https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2025-04-21T03:05:26Z","dateModified":"2025-04-21T03:05:26Z","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.frytea.com/archives/1473/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://www.frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://www.frytea.com/>主页</a>&nbsp;»&nbsp;<a href=https://www.frytea.com/archives/>Archives</a></div><h1 class=post-title><a href=https://www.frytea.com/archives/1473/>OpenFOAM 两大分支的详细比较</a></h1><div class=post-meta>April 21, 2025&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1475 字&nbsp;·&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2025-04-21-1473.md rel="noopener noreferrer edit" target=_blank>PR</a></span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e5%8e%86%e5%8f%b2%e8%83%8c%e6%99%af aria-label=历史背景>历史背景</a></li><li><a href=#%e7%89%88%e6%9c%ac%e5%8f%91%e5%b8%83%e5%8e%86%e5%8f%b2 aria-label=版本发布历史>版本发布历史</a><ul><li><a href=#openfoam-foundation-%e7%89%88%e6%9c%ac aria-label="OpenFOAM Foundation 版本">OpenFOAM Foundation 版本</a></li><li><a href=#openfoam-plus-%e7%89%88%e6%9c%ac aria-label="OpenFOAM+ (plus) 版本">OpenFOAM+ (plus) 版本</a></li></ul></li><li><a href=#%e6%8a%80%e6%9c%af%e5%b7%ae%e5%bc%82 aria-label=技术差异>技术差异</a><ul><li><a href=#1-%e4%bb%a3%e7%a0%81%e7%bb%93%e6%9e%84%e4%b8%8e%e6%9e%b6%e6%9e%84 aria-label="1. 代码结构与架构">1. 代码结构与架构</a></li><li><a href=#2-%e5%8a%9f%e8%83%bd%e5%b7%ae%e5%bc%82 aria-label="2. 功能差异">2. 功能差异</a></li><li><a href=#3-%e5%85%b7%e4%bd%93%e6%8a%80%e6%9c%af%e7%89%b9%e7%82%b9%e5%b7%ae%e5%bc%82 aria-label="3. 具体技术特点差异">3. 具体技术特点差异</a></li></ul></li><li><a href=#%e5%bc%80%e5%8f%91%e7%a4%be%e5%8c%ba%e4%b8%8e%e5%8f%91%e8%a1%8c%e5%bd%a2%e5%bc%8f aria-label=开发社区与发行形式>开发社区与发行形式</a><ul><li><a href=#openfoam-foundation-%e7%89%88%e6%9c%ac-1 aria-label="OpenFOAM Foundation 版本">OpenFOAM Foundation 版本</a></li><li><a href=#openfoam aria-label=OpenFOAM+>OpenFOAM+</a></li></ul></li><li><a href=#%e9%80%82%e7%94%a8%e5%9c%ba%e6%99%af%e5%af%b9%e6%af%94 aria-label=适用场景对比>适用场景对比</a><ul><li><a href=#openfoam-foundation-%e7%89%88%e6%9c%ac%e9%80%82%e5%90%88 aria-label="OpenFOAM Foundation 版本适合">OpenFOAM Foundation 版本适合</a></li><li><a href=#openfoam-%e6%9b%b4%e9%80%82%e5%90%88 aria-label="OpenFOAM+ 更适合">OpenFOAM+ 更适合</a></li></ul></li><li><a href=#%e5%ae%89%e8%a3%85%e5%92%8c%e4%bd%bf%e7%94%a8%e5%b7%ae%e5%bc%82 aria-label=安装和使用差异>安装和使用差异</a><ul><li><a href=#openfoam-foundation-%e7%89%88%e6%9c%ac-2 aria-label="OpenFOAM Foundation 版本">OpenFOAM Foundation 版本</a></li><li><a href=#openfoam-1 aria-label=OpenFOAM+>OpenFOAM+</a></li></ul></li><li><a href=#%e4%ba%92%e6%93%8d%e4%bd%9c%e6%80%a7 aria-label=互操作性>互操作性</a></li><li><a href=#%e6%80%bb%e7%bb%93%e5%bb%ba%e8%ae%ae aria-label=总结建议>总结建议</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://www.frytea.com/archives/1473/>本文</a>
+首发于
+<a href=https://www.frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://www.frytea.com/archives/1473/>来源</a>。</p></blockquote><p>OpenFOAM 的两个主要分支源自同一项目，但在 2011 年后走上了不同的发展道路。下面详细比较这两个版本的历史、版本发布情况、技术差异和适用场景。</p><h2 id=历史背景>历史背景<a hidden class=anchor aria-hidden=true href=#历史背景>#</a></h2><p><strong>分叉原因</strong>：</p><ul><li>OpenFOAM 最初由 Henry Weller 和他的团队在 20 世纪 90 年代开发</li><li>2004 年成立了 OpenCFD Ltd 公司商业化 OpenFOAM</li><li>2011 年，SGI (Silicon Graphics International) 收购了 OpenCFD Ltd</li><li>2012 年，ESI Group 从 SGI 购买了 OpenCFD Ltd</li><li>这一系列收购后，原开发团队的一部分成立了 OpenFOAM Foundation，分叉了代码库</li></ul><h2 id=版本发布历史>版本发布历史<a hidden class=anchor aria-hidden=true href=#版本发布历史>#</a></h2><h3 id=openfoam-foundation-版本>OpenFOAM Foundation 版本<a hidden class=anchor aria-hidden=true href=#openfoam-foundation-版本>#</a></h3><ul><li><strong>命名规则</strong>：使用版本号（如 v2106, v2212）</li><li><strong>发布频率</strong>：通常每年 1-2 次大版本</li><li><strong>版本轨迹</strong>：<ul><li>v2.0.0（2011 年，首个独立版本）</li><li>v2.3.0（2014 年）</li><li>v4.0（2016 年）</li><li>v7（2019 年）</li><li>v9（2021 年）</li><li>v10（2022 年）</li><li>v11（2023 年）</li></ul></li></ul><h3 id=openfoam-plus-版本>OpenFOAM+ (plus) 版本<a hidden class=anchor aria-hidden=true href=#openfoam-plus-版本>#</a></h3><ul><li><strong>命名规则</strong>：使用年份+月份（如 v1906, v2206）</li><li><strong>发布频率</strong>：每年 2 次，通常在 6 月和 12 月</li><li><strong>版本轨迹</strong>：<ul><li>v3.0+（2015 年）</li><li>v1606+（2016 年）</li><li>v1806+（2018 年）</li><li>v2006（2020 年）</li><li>v2206（2022 年）</li><li>v2312（2023 年）</li></ul></li></ul><h2 id=技术差异>技术差异<a hidden class=anchor aria-hidden=true href=#技术差异>#</a></h2><h3 id=1-代码结构与架构>1. 代码结构与架构<a hidden class=anchor aria-hidden=true href=#1-代码结构与架构>#</a></h3><p><strong>Foundation 版本</strong>:</p><ul><li>更倾向于学术风格的代码组织</li><li>更保守的代码重构，保持架构稳定性</li><li>强调基础功能和核心求解器的可靠性</li></ul><p><strong>OpenFOAM+</strong>:</p><ul><li>更多工业应用导向的架构调整</li><li>积极重构代码以提高性能</li><li>增加了更多用户友好的界面和工具</li></ul><h3 id=2-功能差异>2. 功能差异<a hidden class=anchor aria-hidden=true href=#2-功能差异>#</a></h3><table><thead><tr><th>功能领域</th><th>Foundation 版本</th><th>OpenFOAM+</th></tr></thead><tbody><tr><td><strong>网格生成</strong></td><td>基础 snappyHexMesh</td><td>增强版 snappyHexMesh 和额外的网格工具</td></tr><tr><td><strong>并行化</strong></td><td>基础 MPI 支持</td><td>更好的负载平衡和分区技术</td></tr><tr><td><strong>湍流模型</strong></td><td>全面但更侧重基础模型</td><td>更多工业验证的高级模型</td></tr><tr><td><strong>动态网格</strong></td><td>基础功能</td><td>增强的动态网格功能和FSI（流固耦合）能力</td></tr><tr><td><strong>多相流</strong></td><td>VOF 等基本方法</td><td>增强的多相流模型和界面捕捉方法</td></tr><tr><td><strong>预处理</strong></td><td>基础工具</td><td>扩展的预处理工具和导入选项</td></tr><tr><td><strong>后处理</strong></td><td>基础 ParaView 集成</td><td>增强的可视化和数据分析工具</td></tr><tr><td><strong>GPU 支持</strong></td><td>有限</td><td>一些商业版本中有更好的支持</td></tr></tbody></table><h3 id=3-具体技术特点差异>3. 具体技术特点差异<a hidden class=anchor aria-hidden=true href=#3-具体技术特点差异>#</a></h3><p><strong>Foundation 版本独有或更强的特点</strong>:</p><ul><li>更纯粹的开源哲学</li><li>更严格的代码审查流程</li><li>更面向基础研究的算法实现</li></ul><p><strong>OpenFOAM+ 独有或更强的特点</strong>:</p><ul><li>扩展的几何处理功能</li><li>商业CAD系统接口</li><li>更广泛的物理建模能力</li><li>&ldquo;Catalyst&rdquo; 实时可视化</li><li>针对云计算的一些优化</li></ul><h2 id=开发社区与发行形式>开发社区与发行形式<a hidden class=anchor aria-hidden=true href=#开发社区与发行形式>#</a></h2><h3 id=openfoam-foundation-版本-1>OpenFOAM Foundation 版本<a hidden class=anchor aria-hidden=true href=#openfoam-foundation-版本-1>#</a></h3><ul><li><strong>维护方式</strong>：由 OpenFOAM Foundation 维护，是一个非营利组织</li><li><strong>社区特点</strong>：更多学术和研究人员参与</li><li><strong>许可证</strong>：GPL v3</li><li><strong>发行形式</strong>：完全开源</li><li><strong>文档</strong>：开源文档，社区支持</li></ul><h3 id=openfoam>OpenFOAM+<a hidden class=anchor aria-hidden=true href=#openfoam>#</a></h3><ul><li><strong>维护方式</strong>：由 ESI Group 拥有的 OpenCFD Ltd 维护</li><li><strong>社区特点</strong>：更多工业用户和开发者</li><li><strong>许可证</strong>：GPL v3（核心代码），某些工具可能有不同许可</li><li><strong>发行形式</strong>：开源核心，加上一些专有扩展</li><li><strong>文档</strong>：更全面的官方文档，一些商业培训和支持</li></ul><h2 id=适用场景对比>适用场景对比<a hidden class=anchor aria-hidden=true href=#适用场景对比>#</a></h2><h3 id=openfoam-foundation-版本适合>OpenFOAM Foundation 版本适合<a hidden class=anchor aria-hidden=true href=#openfoam-foundation-版本适合>#</a></h3><ul><li>学术研究和基础科学应用</li><li>需要彻底理解和可能修改核心算法的用户</li><li>教育环境和学习 CFD 的学生</li><li>预算有限的小型组织和个人用户</li></ul><h3 id=openfoam-更适合>OpenFOAM+ 更适合<a hidden class=anchor aria-hidden=true href=#openfoam-更适合>#</a></h3><ul><li>工业应用和生产环境</li><li>需要现成解决方案的工程师</li><li>有商业支持需求的用户</li><li>处理复杂几何和多物理场问题</li></ul><h2 id=安装和使用差异>安装和使用差异<a hidden class=anchor aria-hidden=true href=#安装和使用差异>#</a></h2><h3 id=openfoam-foundation-版本-2>OpenFOAM Foundation 版本<a hidden class=anchor aria-hidden=true href=#openfoam-foundation-版本-2>#</a></h3><ul><li>Linux 为主要平台</li><li>通过源代码构建或官方打包的二进制包安装</li><li>较少的依赖项，更简单的安装流程</li><li>更灵活的构建选项</li></ul><h3 id=openfoam-1>OpenFOAM+<a hidden class=anchor aria-hidden=true href=#openfoam-1>#</a></h3><ul><li>更广泛的平台支持（Linux, Windows, macOS）</li><li>提供更多预编译二进制包</li><li>Docker 镜像和虚拟机模板</li><li>一些接口需要额外许可的商业软件</li></ul><h2 id=互操作性>互操作性<a hidden class=anchor aria-hidden=true href=#互操作性>#</a></h2><p>两个版本之间的案例通常可以互相运行，但可能需要一些调整：</p><ul><li>某些字典文件的语法可能略有不同</li><li>有些高级功能在另一个版本中可能不可用</li><li>编译的自定义代码可能需要修改才能在另一版本上运行</li></ul><h2 id=总结建议>总结建议<a hidden class=anchor aria-hidden=true href=#总结建议>#</a></h2><p><strong>选择 OpenFOAM Foundation 版本的理由</strong>:</p><ul><li>追求纯粹开源体验</li><li>主要用于学术研究</li><li>希望更深入理解 CFD 原理和实现</li><li>有能力自己扩展功能</li></ul><p><strong>选择 OpenFOAM+ 的理由</strong>:</p><ul><li>需要更多工业优化的功能</li><li>重视用户友好性和易用工具</li><li>需要商业级支持选项</li><li>处理复杂工程应用</li></ul><p>两个版本都在继续积极开发，并且相互借鉴一些想法。很多用户根据具体项目需求在两个版本间切换，或者同时安装两个版本以获取各自的优势。</p><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://www.frytea.com/tags/openfoam/>🏷 OpenFOAM</a></li><li><a href=https://www.frytea.com/tags/cfd/>🏷 CFD</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on twitter" href="https://twitter.com/intent/tweet/?text=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f&amp;hashtags=OpenFOAM%2cCFD"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f&amp;title=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83&amp;summary=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83&amp;source=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f&title=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on whatsapp" href="https://api.whatsapp.com/send?text=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83%20-%20https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share OpenFOAM 两大分支的详细比较 on telegram" href="https://telegram.me/share/url?text=OpenFOAM%20%e4%b8%a4%e5%a4%a7%e5%88%86%e6%94%af%e7%9a%84%e8%af%a6%e7%bb%86%e6%af%94%e8%be%83&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1473%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://www.frytea.com/archives/1474/><span class=title>« 上一页</span><br><span>【转】k8s 认知路线</span>
+</a><a class=next href=https://www.frytea.com/archives/1472/><span class=title>下一页 »</span><br><span>第一个 CUDA 程序之矩阵运算计算效能对比</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span><a href=/about/>关于</a>
+• <a href=/disclaimer/>免责声明</a>
+• <a href=/sitemap.xml target=view_window>站点地图</a>
+• <a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+  
+  if ('serviceWorker' in navigator) {
+    
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    });
+  }
+</script></body></html>

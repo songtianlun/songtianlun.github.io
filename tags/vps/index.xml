@@ -1,125 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vps on Frytea</title>
+    <title>Vps on Frytea</title>
     <link>https://www.frytea.com/tags/vps/</link>
-    <description>Recent content in vps on Frytea</description>
+    <description>Recent content in Vps on Frytea</description>
     <image>
+      <title>Frytea</title>
       <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jul 2023 09:36:00 +0000</lastBuildDate><atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Nov 2025 00:14:49 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>自建 speedtest 服务端 web 并使用 cli 测试内网带宽</title>
-      <link>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</link>
-      <pubDate>Tue, 25 Jul 2023 09:36:00 +0000</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/%E8%87%AA%E5%BB%BA-speedtest-%E6%9C%8D%E5%8A%A1%E7%AB%AF-web-%E5%B9%B6%E4%BD%BF%E7%94%A8-cli-%E6%B5%8B%E8%AF%95%E5%86%85%E7%BD%91%E5%B8%A6%E5%AE%BD/</guid>
-      <description>自建 speedtest 服务端 web 并使用 cli 测试内网带宽 LibreSpeed 是一个自托管的HTML5速度测试和更多功能。易于设置，提供示例，可配置，适用于移动设备。支持PHP、No</description>
+      <title>2025 年黑五云主机活动汇总(含双十一)</title>
+      <link>https://www.frytea.com/archives/1544/</link>
+      <pubDate>Mon, 03 Nov 2025 15:14:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1544/</guid>
+      <description>&lt;p&gt;2025 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
+&lt;p&gt;2025 年黑色星期五为 &lt;strong&gt;11月28日&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;内容收集自 Telegram、NodeSeek、LowEndTalk 等途径，仅做信息汇集，不做购买建议。
+链接默认无 aff&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>2024 年黑五云服务活动汇总</title>
+      <link>https://www.frytea.com/archives/1358/</link>
+      <pubDate>Wed, 20 Nov 2024 10:09:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1358/</guid>
+      <description>&lt;p&gt;2024 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
+&lt;p&gt;2024年黑色星期五为&lt;strong&gt;11月29日&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;仅做信息汇集，不做购买建议。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;云主机厂商&#34;&gt;云主机厂商&lt;/h2&gt;
+&lt;h3 id=&#34;racknerd&#34;&gt;Racknerd&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;官方网站：&lt;a href=&#34;https://my.racknerd.com/aff.php?aff=12859&#34;&gt;https://www.racknerd.com/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;官方促销电报群：&lt;/strong&gt;&lt;a href=&#34;https://t.me/racknerd_promo&#34;&gt;@racknerd_promo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Racknerd 黑五宣传海报&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/20/r3dffe.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
       <link>https://www.frytea.com/archives/660/</link>
-      <pubDate>Sun, 20 Nov 2022 21:56:00 +0000</pubDate>
-      
+      <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/660/</guid>
-      <description>JuiceFS 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 POSIX 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
       <link>https://www.frytea.com/archives/658/</link>
-      <pubDate>Sun, 20 Nov 2022 10:28:00 +0000</pubDate>
-      
+      <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/658/</guid>
-      <description>很长一段时间中，我都在思考容器建站的可行性。 容器有诸多益处，各类好处就不一一列举了。 在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一</description>
+      <description>&lt;p&gt;很长一段时间中，我都在思考容器建站的可行性。&lt;/p&gt;
+&lt;p&gt;容器有诸多益处，各类好处就不一一列举了。&lt;/p&gt;
+&lt;p&gt;在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一管理，完成几乎所有 Web 资源的自动调度。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>k3s 使用 Letsencrypt 和 Traefik 完成 https 入口部署</title>
-      <link>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</link>
-      <pubDate>Tue, 08 Mar 2022 14:43:39 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/k3s-uses-letsencrypt-and-traefik-to-deploy-the-https/</guid>
-      <description>k3s自动完成 ssl 证书签发和续签方法，并使用 https 协议暴露服务方法介绍。</description>
-    </item>
-    
-    <item>
-      <title>公网部署 k3s 集群方法总结</title>
-      <link>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</link>
-      <pubDate>Tue, 08 Mar 2022 14:36:35 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/k3s-deployment-on-public-network/</guid>
-      <description>基于公网完成跨云厂商服务器 k3s 集群部署</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes Pod 配置文件(完整注释)</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</link>
-      <pubDate>Fri, 04 Feb 2022 13:06:26 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-all-yaml/</guid>
-      <description>汇集几乎全部 k8s 配置项注释，方便查阅和学习</description>
-    </item>
-    
-    <item>
-      <title>kubernetes 核心技术概念</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</link>
-      <pubDate>Fri, 04 Feb 2022 13:04:34 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-core-concept/</guid>
-      <description>汇集 k8s 核心概念，帮助理解</description>
-    </item>
-    
-    <item>
-      <title>Kubernetes 系列文章概述</title>
-      <link>https://www.frytea.com/archives/k8s/kubernetes-abstract/</link>
-      <pubDate>Fri, 04 Feb 2022 13:02:37 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/kubernetes-abstract/</guid>
-      <description>Kubernetes系列文章概述</description>
-    </item>
-    
-    <item>
-      <title>云原生初体验 ｜ 使用 3C 活动服务器体验 KubeSphere</title>
-      <link>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</link>
-      <pubDate>Tue, 07 Dec 2021 23:49:51 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/k8s/initial-cloud-native-experience-kubesphere-with-3c-server/</guid>
-      <description>记录对云原生的初体验，顺带测评 3C云活动价服务器.</description>
-    </item>
-    
-    <item>
-      <title>把 FireFox 装进 Docker ｜ VPS/群晖 搭建『云端/内网 浏览器』</title>
-      <link>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</link>
-      <pubDate>Fri, 12 Nov 2021 23:54:19 +0800</pubDate>
-      
-      <guid>https://www.frytea.com/archives/wiki/setting-up-cloud-browser-using-vps/</guid>
-      <description>云端服务器安装远程浏览器。</description>
-    </item>
-    
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
       <link>https://www.frytea.com/archives/31/</link>
-      <pubDate>Mon, 06 May 2019 23:58:00 +0000</pubDate>
-      
+      <pubDate>Mon, 06 May 2019 15:58:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/31/</guid>
       <description>&lt;p&gt;Rclone 是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;目前 Rclone 支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone 还支持 SFTP 、FTP 、HTTP 挂载。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>vps使用Shadowsocks搭建vpn</title>
+      <link>https://www.frytea.com/archives/30/</link>
+      <pubDate>Sat, 12 Jan 2019 03:52:00 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/30/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Create a SOCKS5 Proxy Server with Shadowsocks on Ubuntu and CentOS 7&#34; loading=&#34;lazy&#34; src=&#34;https://www.linode.com/docs/networking/vpn/create-a-socks5-proxy-server-with-shadowsocks-on-ubuntu-and-centos7/shadowsocks.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的 vpn 经历无一不遇奸商！于是下决心搭建自己的 vpn！就在今天，vpn 终于搭建成功，在这里分享一下成功的喜悦同时贴出自己搭建的过程仅供参考！&lt;/p&gt;</description>
+    </item>
     <item>
       <title>私人网盘nextcloud配置问题解决</title>
       <link>https://www.frytea.com/archives/32/</link>
-      <pubDate>Thu, 10 Jan 2019 11:29:00 +0000</pubDate>
-      
+      <pubDate>Thu, 10 Jan 2019 03:29:00 +0000</pubDate>
       <guid>https://www.frytea.com/archives/32/</guid>
-      <description>安装流程 配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。 博文跳转:https://www.vp</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-7.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安装流程&#34;&gt;安装流程&lt;/h2&gt;
+&lt;p&gt;配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。&lt;/p&gt;
+&lt;p&gt;博文跳转:&lt;a href=&#34;https://www.vpsss.net/5780.html&#34;&gt;https://www.vpsss.net/5780.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;大概总结以下步骤：&lt;/p&gt;
+&lt;p&gt;第一步：官网下载安装包：&lt;a href=&#34;https://nextcloud.com/&#34;&gt;https://nextcloud.com/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

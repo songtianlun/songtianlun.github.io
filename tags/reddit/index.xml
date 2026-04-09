@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reddit on Frytea</title>
+    <link>https://www.frytea.com/tags/reddit/</link>
+    <description>Recent content in Reddit on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 28 Sep 2025 15:43:43 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>优秀的 SubReddit 清单</title>
+      <link>https://www.frytea.com/archives/1523/</link>
+      <pubDate>Sun, 28 Sep 2025 15:43:43 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1523/</guid>
+      <description>&lt;h1 id=&#34;subreddit-清单&#34;&gt;SubReddit 清单&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SaaS 类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/B2BSaaS（B2B SaaS 人群集中，~8k 成员）&lt;/li&gt;
+&lt;li&gt;r/NoCodeSaaS（无代码 SaaS，~22k 成员）&lt;/li&gt;
+&lt;li&gt;r/micro_saas（微型 SaaS，~10k 成员）&lt;/li&gt;
+&lt;li&gt;r/indiebiz（小体量&amp;amp;个人生意，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/SaaS（讨论/反馈/支持，~95k 成员）&lt;/li&gt;
+&lt;li&gt;r/startup_resources（工具/模版/手册，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/LaunchMyStartup（早期发布与反馈，~2k 成员）&lt;/li&gt;
+&lt;li&gt;r/ProductHunters（PH 发现与讨论，~23k 成员）&lt;/li&gt;
+&lt;li&gt;r/saasapps（平台/生态应用，成员数小）&lt;/li&gt;
+&lt;li&gt;r/BootstrappedSaaS（自筹/自启动，~935 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;创业类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/startups（最大创业社区，~1.2M 成员）&lt;/li&gt;
+&lt;li&gt;r/SideProject（副业/项目展示，~478k 成员）&lt;/li&gt;
+&lt;li&gt;r/indiehackers（独立开发者，~24k 成员）&lt;/li&gt;
+&lt;li&gt;r/EntrepreneurRideAlong（创业旅程分享，~517k 成员）&lt;/li&gt;
+&lt;li&gt;r/thesidehustle（点子与建议，~79k 成员）&lt;/li&gt;
+&lt;li&gt;r/growmybusiness（增长与扩张，~51k 成员）&lt;/li&gt;
+&lt;li&gt;r/startup（创业创建与增长，~300k 成员）&lt;/li&gt;
+&lt;li&gt;r/startups_promotion（集中自荐区，~3.1k 成员）&lt;/li&gt;
+&lt;li&gt;r/roastmystartup（犀利真反馈，成员数小）&lt;/li&gt;
+&lt;li&gt;r/sweatystartup（轻松创业讨论，成员数小）&lt;/li&gt;
+&lt;li&gt;r/SmallBusiness（日常经营与建议，成员数大）&lt;/li&gt;
+&lt;li&gt;r/Entrepreneur（泛创业与商业，成员数大）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;营销类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/SaaSMarketing（从策略到落地，~11k 成员）&lt;/li&gt;
+&lt;li&gt;r/ProductMarketing（定位/叙事/布，~18k 成员）&lt;/li&gt;
+&lt;li&gt;r/MarketingHelp（众包建议与诊断，~16k 成员）&lt;/li&gt;
+&lt;li&gt;r/ecommerce_growth（电商增长（可迁移），~9k 成员）&lt;/li&gt;
+&lt;li&gt;r/email（送达率/MarTech，~11k 成员）&lt;/li&gt;
+&lt;li&gt;r/EmailOutreach（冷邮件技巧，~1k 成员）&lt;/li&gt;
+&lt;li&gt;r/AskGrowth（增长问答，数百成员）&lt;/li&gt;
+&lt;li&gt;r/Marketing（综合营销，成员数大）&lt;/li&gt;
+&lt;li&gt;r/AskMarketing（营销问答，成员数中）&lt;/li&gt;
+&lt;li&gt;r/SocialMedia（社媒策略，成员数大）&lt;/li&gt;
+&lt;li&gt;r/CopyWriting（文案/转化，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Advertising（投放策略，成员数中）&lt;/li&gt;
+&lt;li&gt;r/WebMarketing（SEO/内容，成员数大）&lt;/li&gt;
+&lt;li&gt;r/EmailMarketing（邮件营销，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Sales（销售与漏斗，成员数大）&lt;/li&gt;
+&lt;li&gt;r/PlugYourProduct（直推（先看规则），成员数小）&lt;/li&gt;
+&lt;li&gt;r/GrowthHacking（增长与病毒，成员数中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/NextGenAITool（AI 工具展示，~4k 成员）&lt;/li&gt;
+&lt;li&gt;r/webdev（Web 开发，~1.4M 成员）&lt;/li&gt;
+&lt;li&gt;r/JAMstack_dev（落地页与性能，~2k 成员）&lt;/li&gt;
+&lt;li&gt;r/pocketbase（快速后端，~3k 成员）&lt;/li&gt;
+&lt;li&gt;r/SQLServer（多租户/性能，~58k 成员）&lt;/li&gt;
+&lt;li&gt;r/lowcode（流程自动化，~3k 成员）&lt;/li&gt;
+&lt;li&gt;r/DesignCritiques（设计求评，~85k 成员）&lt;/li&gt;
+&lt;li&gt;r/InternetIsBeautiful（创意展示，~16.2M 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/TestMyApp（早期用户与反馈，~6k 成员）&lt;/li&gt;
+&lt;li&gt;r/AlphaandBetausers（寻找测试者，~10k 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支付类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/stripe（订阅/计费，~19k 成员）&lt;/li&gt;
+&lt;li&gt;r/PaymentProcessing（网关/拒付，~5k 成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运营类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/FPandA（预算/收入模型，~53k 成员）&lt;/li&gt;
+&lt;li&gt;r/CustomerService（流程与工具，~39k 成员）&lt;/li&gt;
+&lt;li&gt;r/CustomerValue（价值定价/CS 对齐，成员数小）&lt;/li&gt;
+&lt;li&gt;r/CustomerSuccessHub（CS 社区，成员数小）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;融资类&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;r/VentureCapital（基金/募资洞见，成员数大）&lt;/li&gt;
+&lt;li&gt;r/Crowdfunding（众筹策略，成员数中）&lt;/li&gt;
+&lt;li&gt;r/Kickstarter（众筹项目，成员数大）&lt;/li&gt;
+&lt;li&gt;r/startupinvesting（早期投资，~1k 成员）&lt;/li&gt;
+&lt;li&gt;r/SaaSidea（点子分享，成员数小）&lt;/li&gt;
+&lt;li&gt;r/AISaaSHunter（AI SaaS 展示，成员数小）&lt;/li&gt;
+&lt;li&gt;r/LLMO_SaaS（LLM SEO 分发，数百成员）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;Reddit增长地图&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/09/28/12pi66d.webp&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
