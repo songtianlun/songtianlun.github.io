@@ -17790,5 +17790,12 @@ scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir
       <guid>https://www.frytea.com/disclaimer/</guid>
       <description>disclaimer</description>
     </item>
+    <item>
+      <title>项目</title>
+      <link>https://www.frytea.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.frytea.com/projects/</guid>
+      <description>我的开源项目与作品</description>
+    </item>
   </channel>
 </rss>
