@@ -74,141 +74,141 @@
 <svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
 <svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/projects/ title="📁 项目"><span class=active>📁 项目</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><div class=projects-page><header class=page-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://www.frytea.com/>主页</a></nav><h1>项目</h1><div class=post-description>我的开源项目与作品</div></header><div id=projects-loading class=projects-loading><div class=projects-spinner></div><p>加载项目中...</p></div><div id=projects-error class=projects-error style=display:none><div class=projects-error-icon>📂</div><p>暂无项目数据，请稍后再来。</p></div><div id=projects-wrap style=display:none><div class=projects-toolbar><div class=projects-filter id=projects-filter><button class="filter-btn active" data-tag=all>全部</button></div><div class=projects-view-toggle id=projects-view-toggle role=tablist aria-label=项目展示模式><button class="view-btn active" data-view=card role=tab aria-selected=true>卡片</button>
 <button class=view-btn data-view=table role=tab aria-selected=false>表格</button></div></div><div class=projects-stats id=projects-stats></div><div class=projects-grid id=projects-grid></div><div class=projects-table-wrap id=projects-table-wrap style=display:none><table class=projects-table id=projects-table><col class=col-project><col class=col-year><col class=col-language><col class=col-status><col class=col-note><col class=col-tags><col class=col-links><thead><tr><th class=sortable data-sort-key=name>项目</th><th class=sortable data-sort-key=year>年份</th><th class=sortable data-sort-key=language>语言</th><th class=sortable data-sort-key=status>状态</th><th class=sortable data-sort-key=note>Note</th><th class=sortable data-sort-key=tags>标签</th><th class=sortable data-sort-key=linkCount>链接</th></tr></thead><tbody id=projects-table-body></tbody></table></div></div></div><style>.projects-page{max-width:var(--main-width);margin:0 auto;padding:0 var(--gap)}.projects-loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 0;color:var(--secondary);gap:16px}.projects-spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.projects-error{text-align:center;padding:60px 0;color:var(--secondary)}.projects-error-icon{font-size:48px;margin-bottom:12px}.projects-toolbar{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border)}.projects-filter{display:flex;flex-wrap:wrap;gap:8px;flex:1}.filter-btn{display:inline-flex;align-items:center;gap:4px;padding:5px 14px;font-size:13px;font-family:inherit;border-radius:20px;border:1px solid var(--border);background:var(--theme);color:var(--secondary);cursor:pointer;transition:all .2s ease;white-space:nowrap}.filter-btn:hover{border-color:var(--primary);color:var(--primary)}.filter-btn.active{background:var(--primary);border-color:var(--primary);color:var(--theme);font-weight:500}.filter-btn .tag-count{font-size:11px;opacity:.7}.projects-view-toggle{display:inline-flex;align-items:center;padding:2px;border-radius:999px;border:1px solid var(--border);background:var(--entry);flex-shrink:0}.view-btn{border:none;background:0 0;color:var(--secondary);font-size:12px;line-height:1;padding:7px 12px;border-radius:999px;cursor:pointer;transition:all .2s ease}.view-btn:hover{color:var(--primary)}.view-btn.active{background:var(--primary);color:var(--theme);font-weight:600}.projects-stats{font-size:13px;color:var(--secondary);margin-bottom:20px}.projects-stats strong{color:var(--primary)}.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}@media(max-width:900px){.projects-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.projects-grid{grid-template-columns:1fr}.projects-filter{gap:6px}.projects-toolbar{align-items:stretch;gap:8px}.projects-view-toggle{align-self:flex-start}}.project-card{position:relative;display:flex;flex-direction:column;background:var(--theme);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:0 1px 6px rgba(0,0,0,6%);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;overflow:hidden}.project-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.1);border-color:var(--tertiary)}.project-card:active{transform:scale(.96)}.project-card.hidden{display:none}.project-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--card-accent,#6c8ebf),transparent);opacity:0;transition:opacity .2s}.project-card:hover::before{opacity:1}.card-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}.card-icon{font-size:28px;line-height:1;flex-shrink:0;width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--entry);border-radius:8px}.card-title-wrap{flex:1;min-width:0}.card-name{font-size:15px;font-weight:600;color:var(--primary);line-height:1.3;margin:0 0 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-status{display:inline-block;font-size:10px;padding:1px 7px;border-radius:10px;font-weight:500;letter-spacing:.3px}.status-active{background:#d4f8e8;color:#1a7a4a}.status-archived{background:#f0f0f0;color:#888}.status-wip{background:#fff3cd;color:#856404}.dark .status-active{background:#1a3d2d;color:#5dd99e}.dark .status-archived{background:#2a2a2a;color:#888}.dark .status-wip{background:#3d2d00;color:#ffd060}.card-desc{font-size:13px;color:var(--secondary);line-height:1.6;margin-bottom:14px;flex:1;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}.card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px}.card-tag{font-size:11px;padding:2px 8px;border-radius:4px;background:var(--entry);color:var(--secondary);border:1px solid var(--border);cursor:pointer;transition:background .15s,color .15s}.card-tag:hover{background:var(--primary);color:var(--theme);border-color:var(--primary)}.card-meta{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--secondary);margin-bottom:14px;flex-wrap:wrap}.card-meta-item{display:flex;align-items:center;gap:4px}.lang-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}.card-footer{display:flex;gap:8px;margin-top:auto;padding-top:4px}.card-link{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;font-size:12px;font-weight:500;border-radius:6px;border:1px solid var(--border);color:var(--secondary);text-decoration:none;transition:all .15s ease;white-space:nowrap}.card-link:hover{color:var(--primary);border-color:var(--primary);background:var(--entry)}.card-link.primary{background:var(--primary);color:var(--theme);border-color:var(--primary)}.card-link.primary:hover{opacity:.85}.card-link svg{width:13px;height:13px;flex-shrink:0}.projects-table-wrap{width:100%;border:1px solid var(--border);border-radius:var(--radius);overflow:auto;background:var(--theme)}.projects-table{width:100%;border-collapse:collapse;font-size:13px;table-layout:auto;min-width:940px}.projects-table col.col-project{width:33%}.projects-table col.col-year{width:10%}.projects-table col.col-language{width:10%}.projects-table col.col-status{width:10%}.projects-table col.col-note{width:16%}.projects-table col.col-tags{width:13%}.projects-table col.col-links{width:8%}.projects-table th,.projects-table td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;word-break:keep-all;overflow-wrap:normal}.projects-table tbody{display:table-row-group;overflow:visible}.projects-table tbody tr{display:table-row;width:auto;table-layout:auto}.projects-table th:nth-child(2),.projects-table td:nth-child(2),.projects-table th:nth-child(3),.projects-table td:nth-child(3),.projects-table th:nth-child(4),.projects-table td:nth-child(4),.projects-table th:nth-child(7),.projects-table td:nth-child(7){white-space:nowrap}.projects-table thead th{position:sticky;top:0;z-index:1;background:var(--entry);color:var(--primary);font-weight:600;white-space:nowrap}.projects-table th.sortable{cursor:pointer;user-select:none}.projects-table th.sortable::after{content:'↕';font-size:11px;opacity:.4;margin-left:6px}.projects-table th.sorted-asc::after{content:'↑';opacity:.9}.projects-table th.sorted-desc::after{content:'↓';opacity:.9}.projects-table tbody tr:hover{background:var(--entry)}.projects-table td.num,.projects-table th.num{text-align:right}.table-name{display:flex;align-items:flex-start;gap:8px;min-width:0}.table-icon{width:24px;flex-shrink:0;text-align:center}.table-title-wrap{min-width:0}.table-title{display:block;color:var(--primary);font-weight:600;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.table-title:hover{text-decoration:underline}.table-desc{margin-top:2px;color:var(--secondary);font-size:12px;line-height:1.45;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}.table-note{color:var(--secondary);font-size:12px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}.table-tags{display:flex;flex-wrap:wrap;gap:4px}.table-tag{font-size:11px;line-height:1;padding:4px 6px;border-radius:999px;border:1px solid var(--border);background:var(--entry);color:var(--secondary);white-space:nowrap}.table-links{display:flex;flex-wrap:wrap;gap:4px}.table-link{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:var(--secondary);text-decoration:none;border:1px solid var(--border);border-radius:999px;padding:2px 8px}.table-link:hover{color:var(--primary);border-color:var(--primary)}.table-empty{text-align:center;color:var(--secondary);padding:24px 0}</style><script>
-(function () {
-    const VIEW_STORAGE_KEY = 'projects_view_mode';
+    (function () {
+        const VIEW_STORAGE_KEY = 'projects_view_mode';
 
-    const LANG_COLORS = {
-        JavaScript: '#f1e05a', TypeScript: '#3178c6', Python: '#3572A5',
-        Go: '#00ADD8', Rust: '#dea584', Java: '#b07219', 'C++': '#f34b7d',
-        C: '#555555', 'C#': '#178600', Ruby: '#701516', Swift: '#F05138',
-        Kotlin: '#A97BFF', PHP: '#4F5D95', Shell: '#89e051', HTML: '#e34c26',
-        CSS: '#563d7c', Vue: '#41b883', Dart: '#00B4AB', Lua: '#000080',
-        Haskell: '#5e5086', Scala: '#c22d40', R: '#198CE7', MATLAB: '#e16737',
-    };
-
-    function langColor(lang) {
-        return LANG_COLORS[lang] || '#8b949e';
-    }
-
-    function inferLanguageFromTags(tags) {
-        if (!Array.isArray(tags) || tags.length === 0) return '';
-        const lookup = {};
-        Object.keys(LANG_COLORS).forEach(function (key) {
-            lookup[key.toLowerCase()] = key;
-        });
-        for (const t of tags) {
-            const hit = lookup[String(t || '').toLowerCase()];
-            if (hit) return hit;
-        }
-        return '';
-    }
-
-    function statusLabel(s) {
-        const map = { active: '维护中', archived: '已归档', wip: '开发中', maintenance: '维护中', stable: '稳定', paused: '暂停' };
-        return map[(s||'').toLowerCase()] || s || '';
-    }
-    function statusClass(s) {
-        const m = { active: 'active', maintenance: 'active', stable: 'active', archived: 'archived', paused: 'archived', wip: 'wip' };
-        return 'status-' + (m[(s||'').toLowerCase()] || 'active');
-    }
-
-    function githubIcon() {
-        return `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>`;
-    }
-    function linkIcon() {
-        return `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-3M10 2h4m0 0v4m0-4L6 10"/></svg>`;
-    }
-
-    function escapeHtml(v) {
-        return String(v || '').replace(/[&<>"']/g, function (s) {
-            return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[s];
-        });
-    }
-
-    function normalizeTag(tag) {
-        return String(tag || '').trim().toLowerCase();
-    }
-
-    function sortProjects(list) {
-        return (Array.isArray(list) ? list.slice() : []).sort(function (a, b) {
-            const ay = parseYearLike(a.year || a.date || '');
-            const by = parseYearLike(b.year || b.date || '');
-            if (ay !== by) return by - ay;
-            const an = String(a.name || a.title || '').toLowerCase();
-            const bn = String(b.name || b.title || '').toLowerCase();
-            return an.localeCompare(bn, 'zh-Hans-CN');
-        });
-    }
-
-    function normalizeProject(p, index) {
-        const tags = Array.isArray(p.tags) ? p.tags
-            : Array.isArray(p.topics) ? p.topics
-            : Array.isArray(p.categories) ? p.categories
-            : [];
-
-        const github = p.github || p.repo || p.repository || p.source || (p.links && p.links.github) || '';
-        const url = p.url || p.homepage || p.website || p.demo || (p.links && (p.links.main || p.links.demo || p.links.website)) || '';
-        const article = p.article || (p.links && (p.links.article || p.links.docs || p.links.doc)) || '';
-
-        return {
-            id: index,
-            name: p.name || p.title || '未命名项目',
-            description: p.description || p.desc || '',
-            note: p.note || p.notes || '',
-            year: p.year || p.date || '',
-            icon: p.icon || p.emoji || '📦',
-            tags,
-            filterTags: tags.map(normalizeTag),
-            language: p.language || p.lang || inferLanguageFromTags(tags),
-            status: p.status || p.state || p.phase || 'active',
-            stars: p.stars !== undefined ? p.stars : p.stargazers_count,
-            forks: p.forks !== undefined ? p.forks : p.forks_count,
-            github,
-            url,
-            article,
-            accent: cardAccentColor(tags),
+        const LANG_COLORS = {
+            JavaScript: '#f1e05a', TypeScript: '#3178c6', Python: '#3572A5',
+            Go: '#00ADD8', Rust: '#dea584', Java: '#b07219', 'C++': '#f34b7d',
+            C: '#555555', 'C#': '#178600', Ruby: '#701516', Swift: '#F05138',
+            Kotlin: '#A97BFF', PHP: '#4F5D95', Shell: '#89e051', HTML: '#e34c26',
+            CSS: '#563d7c', Vue: '#41b883', Dart: '#00B4AB', Lua: '#000080',
+            Haskell: '#5e5086', Scala: '#c22d40', R: '#198CE7', MATLAB: '#e16737',
         };
-    }
 
-    function statusForSort(s) {
-        return statusLabel(s || '').toLowerCase();
-    }
-
-    function parseYearLike(v) {
-        if (!v) return Number.NEGATIVE_INFINITY;
-        const asDate = Date.parse(v);
-        if (!Number.isNaN(asDate)) return asDate;
-        const m = String(v).match(/\d{4}/);
-        if (m) return Number(m[0]);
-        return Number.NEGATIVE_INFINITY;
-    }
-
-    function compareValues(a, b, key, dir) {
-        let va = a[key];
-        let vb = b[key];
-
-        if (key === 'year') {
-            va = parseYearLike(va);
-            vb = parseYearLike(vb);
-        } else if (key === 'linkCount') {
-            va = Number(va || 0);
-            vb = Number(vb || 0);
-        } else if (key === 'status') {
-            va = statusForSort(va);
-            vb = statusForSort(vb);
-        } else {
-            va = String(va || '').toLowerCase();
-            vb = String(vb || '').toLowerCase();
+        function langColor(lang) {
+            return LANG_COLORS[lang] || '#8b949e';
         }
 
-        let result = 0;
-        if (typeof va === 'number' && typeof vb === 'number') {
-            result = va - vb;
-        } else {
-            result = String(va).localeCompare(String(vb), 'zh-Hans-CN');
+        function inferLanguageFromTags(tags) {
+            if (!Array.isArray(tags) || tags.length === 0) return '';
+            const lookup = {};
+            Object.keys(LANG_COLORS).forEach(function (key) {
+                lookup[key.toLowerCase()] = key;
+            });
+            for (const t of tags) {
+                const hit = lookup[String(t || '').toLowerCase()];
+                if (hit) return hit;
+            }
+            return '';
         }
-        return dir === 'asc' ? result : -result;
-    }
+
+        function statusLabel(s) {
+            const map = { active: '维护中', archived: '已归档', wip: '开发中', maintenance: '维护中', stable: '稳定', paused: '暂停' };
+            return map[(s || '').toLowerCase()] || s || '';
+        }
+        function statusClass(s) {
+            const m = { active: 'active', maintenance: 'active', stable: 'active', archived: 'archived', paused: 'archived', wip: 'wip' };
+            return 'status-' + (m[(s || '').toLowerCase()] || 'active');
+        }
+
+        function githubIcon() {
+            return `<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>`;
+        }
+        function linkIcon() {
+            return `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-3M10 2h4m0 0v4m0-4L6 10"/></svg>`;
+        }
+
+        function escapeHtml(v) {
+            return String(v || '').replace(/[&<>"']/g, function (s) {
+                return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[s];
+            });
+        }
+
+        function normalizeTag(tag) {
+            return String(tag || '').trim().toLowerCase();
+        }
+
+        function sortProjects(list) {
+            return (Array.isArray(list) ? list.slice() : []).sort(function (a, b) {
+                const ay = parseYearLike(a.year || a.date || '');
+                const by = parseYearLike(b.year || b.date || '');
+                if (ay !== by) return by - ay;
+                const an = String(a.name || a.title || '').toLowerCase();
+                const bn = String(b.name || b.title || '').toLowerCase();
+                return an.localeCompare(bn, 'zh-Hans-CN');
+            });
+        }
+
+        function normalizeProject(p, index) {
+            const tags = Array.isArray(p.tags) ? p.tags
+                : Array.isArray(p.topics) ? p.topics
+                    : Array.isArray(p.categories) ? p.categories
+                        : [];
+
+            const github = p.github || p.repo || p.repository || p.source || (p.links && p.links.github) || '';
+            const url = p.url || p.homepage || p.website || p.demo || (p.links && (p.links.main || p.links.demo || p.links.website)) || '';
+            const article = p.article || (p.links && (p.links.article || p.links.docs || p.links.doc)) || '';
+
+            return {
+                id: index,
+                name: p.name || p.title || '未命名项目',
+                description: p.description || p.desc || '',
+                note: p.note || p.notes || '',
+                year: p.year || p.date || '',
+                icon: p.icon || p.emoji || '📦',
+                tags,
+                filterTags: tags.map(normalizeTag),
+                language: p.language || p.lang || inferLanguageFromTags(tags),
+                status: p.status || p.state || p.phase || 'active',
+                stars: p.stars !== undefined ? p.stars : p.stargazers_count,
+                forks: p.forks !== undefined ? p.forks : p.forks_count,
+                github,
+                url,
+                article,
+                accent: cardAccentColor(tags),
+            };
+        }
+
+        function statusForSort(s) {
+            return statusLabel(s || '').toLowerCase();
+        }
+
+        function parseYearLike(v) {
+            if (!v) return Number.NEGATIVE_INFINITY;
+            const asDate = Date.parse(v);
+            if (!Number.isNaN(asDate)) return asDate;
+            const m = String(v).match(/\d{4}/);
+            if (m) return Number(m[0]);
+            return Number.NEGATIVE_INFINITY;
+        }
+
+        function compareValues(a, b, key, dir) {
+            let va = a[key];
+            let vb = b[key];
+
+            if (key === 'year') {
+                va = parseYearLike(va);
+                vb = parseYearLike(vb);
+            } else if (key === 'linkCount') {
+                va = Number(va || 0);
+                vb = Number(vb || 0);
+            } else if (key === 'status') {
+                va = statusForSort(va);
+                vb = statusForSort(vb);
+            } else {
+                va = String(va || '').toLowerCase();
+                vb = String(vb || '').toLowerCase();
+            }
+
+            let result = 0;
+            if (typeof va === 'number' && typeof vb === 'number') {
+                result = va - vb;
+            } else {
+                result = String(va).localeCompare(String(vb), 'zh-Hans-CN');
+            }
+            return dir === 'asc' ? result : -result;
+        }
 
         function cardAccentColor(tags) {
             const colorMap = {
@@ -225,36 +225,36 @@
             return defaults[Math.abs((tags || []).join('').split('').reduce((a, c) => a + c.charCodeAt(0), 0)) % defaults.length];
         }
 
-    function renderCard(p) {
-        const name   = p.name;
-        const desc   = p.description;
-        const note   = p.note;
-        const tags   = p.tags;
-        const url    = p.url;
-        const github = p.github;
-        const article = p.article;
-        const icon   = p.icon;
-        const lang   = p.language;
-        const status = p.status;
-        const accent = p.accent;
+        function renderCard(p) {
+            const name = p.name;
+            const desc = p.description;
+            const note = p.note;
+            const tags = p.tags;
+            const url = p.url;
+            const github = p.github;
+            const article = p.article;
+            const icon = p.icon;
+            const lang = p.language;
+            const status = p.status;
+            const accent = p.accent;
 
-        let metaHtml = '';
-        if (lang) {
-            metaHtml += `<span class="card-meta-item"><span class="lang-dot" style="background:${langColor(lang)}"></span>${lang}</span>`;
-        }
+            let metaHtml = '';
+            if (lang) {
+                metaHtml += `<span class="card-meta-item"><span class="lang-dot" style="background:${langColor(lang)}"></span>${lang}</span>`;
+            }
 
             let tagsHtml = tags.map(t =>
                 `<span class="card-tag" data-tag="${normalizeTag(t)}">${t}</span>`
             ).join('');
 
-        let linksHtml = '';
-        if (github) linksHtml += `<a class="card-link" href="${escapeHtml(github)}" target="_blank" rel="noopener">${githubIcon()} 源码</a>`;
-        if (url)    linksHtml += `<a class="card-link primary" href="${escapeHtml(url)}" target="_blank" rel="noopener">${linkIcon()} 访问</a>`;
-        if (article) linksHtml += `<a class="card-link" href="${escapeHtml(article)}" target="_blank" rel="noopener">📄 文章</a>`;
+            let linksHtml = '';
+            if (github) linksHtml += `<a class="card-link" href="${escapeHtml(github)}" target="_blank" rel="noopener">${githubIcon()} 源码</a>`;
+            if (url) linksHtml += `<a class="card-link primary" href="${escapeHtml(url)}" target="_blank" rel="noopener">${linkIcon()} 访问</a>`;
+            if (article) linksHtml += `<a class="card-link" href="${escapeHtml(article)}" target="_blank" rel="noopener">📄 文章</a>`;
 
-        let statusHtml = status
-            ? `<span class="card-status ${statusClass(status)}">${escapeHtml(statusLabel(status))}</span>`
-            : '';
+            let statusHtml = status
+                ? `<span class="card-status ${statusClass(status)}">${escapeHtml(statusLabel(status))}</span>`
+                : '';
 
             const tagData = tags.map(normalizeTag).join('|');
 
@@ -268,28 +268,28 @@
         </div>
     </div>
     ${desc ? `<div class="card-desc">${escapeHtml(desc)}</div>` : ''}
-    ${note ? `<div class="table-note">Note: ${escapeHtml(note)}</div>` : ''}
+    ${note ? `<div class="card-note"><strong>备注：</strong>${escapeHtml(note)}</div>` : ''}
     ${metaHtml ? `<div class="card-meta">${metaHtml}</div>` : ''}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ''}
     ${linksHtml ? `<div class="card-footer">${linksHtml}</div>` : ''}
 </div>`;
-    }
+        }
 
-    function renderTableRow(p) {
-        const links = [];
-        if (p.url) links.push(`<a class="table-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">访问</a>`);
-        if (p.github) links.push(`<a class="table-link" href="${escapeHtml(p.github)}" target="_blank" rel="noopener">源码</a>`);
-        if (p.article) links.push(`<a class="table-link" href="${escapeHtml(p.article)}" target="_blank" rel="noopener">文章</a>`);
+        function renderTableRow(p) {
+            const links = [];
+            if (p.url) links.push(`<a class="table-link" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">访问</a>`);
+            if (p.github) links.push(`<a class="table-link" href="${escapeHtml(p.github)}" target="_blank" rel="noopener">源码</a>`);
+            if (p.article) links.push(`<a class="table-link" href="${escapeHtml(p.article)}" target="_blank" rel="noopener">文章</a>`);
 
-        const titleHtml = p.url
-            ? `<a class="table-title" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>`
-            : `<span class="table-title">${escapeHtml(p.name)}</span>`;
+            const titleHtml = p.url
+                ? `<a class="table-title" href="${escapeHtml(p.url)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>`
+                : `<span class="table-title">${escapeHtml(p.name)}</span>`;
 
-        const tagsHtml = p.tags.length
-            ? `<div class="table-tags">${p.tags.map(function (t) { return `<span class="table-tag">${escapeHtml(t)}</span>`; }).join('')}</div>`
-            : '<span class="table-empty-field">-</span>';
+            const tagsHtml = p.tags.length
+                ? `<div class="table-tags">${p.tags.map(function (t) { return `<span class="table-tag">${escapeHtml(t)}</span>`; }).join('')}</div>`
+                : '<span class="table-empty-field">-</span>';
 
-        return `
+            return `
 <tr>
     <td>
         <div class="table-name">
@@ -307,174 +307,174 @@
     <td>${tagsHtml}</td>
     <td>${links.length ? `<div class="table-links">${links.join('')}</div>` : '-'}</td>
 </tr>`;
-    }
+        }
 
-    function buildFilters(projects) {
-        const counts = {};
-        const labels = {};
-        projects.forEach(p => {
-            const tags = p.tags || [];
-            tags.forEach(t => {
-                const key = normalizeTag(t);
-                if (!key) return;
-                counts[key] = (counts[key] || 0) + 1;
-                if (!labels[key]) labels[key] = t;
+        function buildFilters(projects) {
+            const counts = {};
+            const labels = {};
+            projects.forEach(p => {
+                const tags = p.tags || [];
+                tags.forEach(t => {
+                    const key = normalizeTag(t);
+                    if (!key) return;
+                    counts[key] = (counts[key] || 0) + 1;
+                    if (!labels[key]) labels[key] = t;
+                });
             });
-        });
-        
-        const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
-        const bar = document.getElementById('projects-filter');
-        sorted.forEach(([tagKey, cnt]) => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-btn';
-            btn.dataset.tag = tagKey;
-            btn.innerHTML = `${escapeHtml(labels[tagKey] || tagKey)} <span class="tag-count">${cnt}</span>`;
-            bar.appendChild(btn);
-        });
-    }
-
-    function persistView(view) {
-        try {
-            window.localStorage.setItem(VIEW_STORAGE_KEY, view);
-        } catch (_) {}
-    }
-
-    function readPersistedView() {
-        try {
-            const val = window.localStorage.getItem(VIEW_STORAGE_KEY);
-            return val === 'table' ? 'table' : 'card';
-        } catch (_) {
-            return 'card';
+            
+            const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+            const bar = document.getElementById('projects-filter');
+            sorted.forEach(([tagKey, cnt]) => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.dataset.tag = tagKey;
+                btn.innerHTML = `${escapeHtml(labels[tagKey] || tagKey)} <span class="tag-count">${cnt}</span>`;
+                bar.appendChild(btn);
+            });
         }
-    }
 
-    function applyView(state) {
-        const toggle = document.getElementById('projects-view-toggle');
-        const grid = document.getElementById('projects-grid');
-        const tableWrap = document.getElementById('projects-table-wrap');
-
-        toggle.querySelectorAll('.view-btn').forEach(function (b) {
-            const active = b.dataset.view === state.view;
-            b.classList.toggle('active', active);
-            b.setAttribute('aria-selected', String(active));
-        });
-
-        if (state.view === 'table') {
-            grid.style.display = 'none';
-            tableWrap.style.display = 'block';
-        } else {
-            tableWrap.style.display = 'none';
-            grid.style.display = 'grid';
+        function persistView(view) {
+            try {
+                window.localStorage.setItem(VIEW_STORAGE_KEY, view);
+            } catch (_) { }
         }
-    }
 
-    function attachViewToggle(state) {
-        const toggle = document.getElementById('projects-view-toggle');
+        function readPersistedView() {
+            try {
+                const val = window.localStorage.getItem(VIEW_STORAGE_KEY);
+                return val === 'table' ? 'table' : 'card';
+            } catch (_) {
+                return 'card';
+            }
+        }
 
-        applyView(state);
+        function applyView(state) {
+            const toggle = document.getElementById('projects-view-toggle');
+            const grid = document.getElementById('projects-grid');
+            const tableWrap = document.getElementById('projects-table-wrap');
 
-        toggle.addEventListener('click', function (e) {
-            const btn = e.target.closest('.view-btn');
-            if (!btn) return;
-            const nextView = btn.dataset.view;
-            if (!nextView || nextView === state.view) return;
+            toggle.querySelectorAll('.view-btn').forEach(function (b) {
+                const active = b.dataset.view === state.view;
+                b.classList.toggle('active', active);
+                b.setAttribute('aria-selected', String(active));
+            });
 
-            state.view = nextView;
-            persistView(nextView);
+            if (state.view === 'table') {
+                grid.style.display = 'none';
+                tableWrap.style.display = 'block';
+            } else {
+                tableWrap.style.display = 'none';
+                grid.style.display = 'grid';
+            }
+        }
+
+        function attachViewToggle(state) {
+            const toggle = document.getElementById('projects-view-toggle');
+
             applyView(state);
-        });
-    }
 
-    function applySort(list, state) {
-        const sorted = list.slice();
-        sorted.sort(function (a, b) {
-            const r = compareValues(a, b, state.sort.key, state.sort.dir);
-            if (r !== 0) return r;
-            return a.id - b.id;
-        });
-        return sorted;
-    }
+            toggle.addEventListener('click', function (e) {
+                const btn = e.target.closest('.view-btn');
+                if (!btn) return;
+                const nextView = btn.dataset.view;
+                if (!nextView || nextView === state.view) return;
 
-    function updateSortHeaders(state) {
-        const table = document.getElementById('projects-table');
-        table.querySelectorAll('th.sortable').forEach(function (th) {
-            th.classList.remove('sorted-asc', 'sorted-desc');
-            if (th.dataset.sortKey === state.sort.key) {
-                th.classList.add(state.sort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
-            }
-        });
-    }
-
-    function attachFilterEvents(state) {
-        const bar   = document.getElementById('projects-filter');
-        const stats = document.getElementById('projects-stats');
-        const grid  = document.getElementById('projects-grid');
-        const tableBody = document.getElementById('projects-table-body');
-        const table = document.getElementById('projects-table');
-
-        function filteredList() {
-            if (state.activeTag === 'all') return state.projects;
-            return state.projects.filter(function (p) {
-                return (p.filterTags || []).includes(state.activeTag);
+                state.view = nextView;
+                persistView(nextView);
+                applyView(state);
             });
         }
 
-        function updateStats(visible) {
-            stats.innerHTML = `共 <strong>${visible}</strong> / ${state.total} 个项目`;
+        function applySort(list, state) {
+            const sorted = list.slice();
+            sorted.sort(function (a, b) {
+                const r = compareValues(a, b, state.sort.key, state.sort.dir);
+                if (r !== 0) return r;
+                return a.id - b.id;
+            });
+            return sorted;
         }
 
-        function renderByState() {
-            const list = filteredList();
-            updateStats(list.length);
-            grid.innerHTML = list.map(renderCard).join('');
-
-            const tableSorted = applySort(list.map(function (p) {
-                return Object.assign({}, p, { linkCount: [p.url, p.github, p.article].filter(Boolean).length });
-            }), state);
-
-            if (!tableSorted.length) {
-                tableBody.innerHTML = '<tr><td class="table-empty" colspan="7">当前筛选条件下没有项目</td></tr>';
-            } else {
-                tableBody.innerHTML = tableSorted.map(renderTableRow).join('');
-            }
-            updateSortHeaders(state);
+        function updateSortHeaders(state) {
+            const table = document.getElementById('projects-table');
+            table.querySelectorAll('th.sortable').forEach(function (th) {
+                th.classList.remove('sorted-asc', 'sorted-desc');
+                if (th.dataset.sortKey === state.sort.key) {
+                    th.classList.add(state.sort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
+                }
+            });
         }
 
-        renderByState();
+        function attachFilterEvents(state) {
+            const bar = document.getElementById('projects-filter');
+            const stats = document.getElementById('projects-stats');
+            const grid = document.getElementById('projects-grid');
+            const tableBody = document.getElementById('projects-table-body');
+            const table = document.getElementById('projects-table');
 
-        bar.addEventListener('click', e => {
-            const btn = e.target.closest('.filter-btn');
-            if (!btn) return;
-            state.activeTag = btn.dataset.tag;
-            bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            renderByState();
-        });
-
-        
-        grid.addEventListener('click', e => {
-            const chip = e.target.closest('.card-tag');
-            if (!chip) return;
-            const tag = chip.dataset.tag;
-            const target = bar.querySelector(`.filter-btn[data-tag="${tag}"]`);
-            if (target) target.click();
-        });
-
-        table.addEventListener('click', function (e) {
-            const th = e.target.closest('th.sortable');
-            if (!th) return;
-            const key = th.dataset.sortKey;
-            if (!key) return;
-
-            if (state.sort.key === key) {
-                state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc';
-            } else {
-                state.sort.key = key;
-                state.sort.dir = key === 'year' || key === 'linkCount' ? 'desc' : 'asc';
+            function filteredList() {
+                if (state.activeTag === 'all') return state.projects;
+                return state.projects.filter(function (p) {
+                    return (p.filterTags || []).includes(state.activeTag);
+                });
             }
+
+            function updateStats(visible) {
+                stats.innerHTML = `共 <strong>${visible}</strong> / ${state.total} 个项目`;
+            }
+
+            function renderByState() {
+                const list = filteredList();
+                updateStats(list.length);
+                grid.innerHTML = list.map(renderCard).join('');
+
+                const tableSorted = applySort(list.map(function (p) {
+                    return Object.assign({}, p, { linkCount: [p.url, p.github, p.article].filter(Boolean).length });
+                }), state);
+
+                if (!tableSorted.length) {
+                    tableBody.innerHTML = '<tr><td class="table-empty" colspan="7">当前筛选条件下没有项目</td></tr>';
+                } else {
+                    tableBody.innerHTML = tableSorted.map(renderTableRow).join('');
+                }
+                updateSortHeaders(state);
+            }
+
             renderByState();
-        });
-    }
+
+            bar.addEventListener('click', e => {
+                const btn = e.target.closest('.filter-btn');
+                if (!btn) return;
+                state.activeTag = btn.dataset.tag;
+                bar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderByState();
+            });
+
+            
+            grid.addEventListener('click', e => {
+                const chip = e.target.closest('.card-tag');
+                if (!chip) return;
+                const tag = chip.dataset.tag;
+                const target = bar.querySelector(`.filter-btn[data-tag="${tag}"]`);
+                if (target) target.click();
+            });
+
+            table.addEventListener('click', function (e) {
+                const th = e.target.closest('th.sortable');
+                if (!th) return;
+                const key = th.dataset.sortKey;
+                if (!key) return;
+
+                if (state.sort.key === key) {
+                    state.sort.dir = state.sort.dir === 'asc' ? 'desc' : 'asc';
+                } else {
+                    state.sort.key = key;
+                    state.sort.dir = key === 'year' || key === 'linkCount' ? 'desc' : 'asc';
+                }
+                renderByState();
+            });
+        }
 
         function init(projects) {
             const grid = document.getElementById('projects-grid');
@@ -491,28 +491,28 @@
             if (!Array.isArray(projects) && projects.projects) list = projects.projects;
             list = sortProjects(list);
 
-        const normalized = list.map(normalizeProject);
-        const state = {
-            projects: normalized,
-            total: normalized.length,
-            activeTag: 'all',
-            view: readPersistedView(),
-            sort: {
-                key: 'year',
-                dir: 'desc',
-            },
-        };
+            const normalized = list.map(normalizeProject);
+            const state = {
+                projects: normalized,
+                total: normalized.length,
+                activeTag: 'all',
+                view: readPersistedView(),
+                sort: {
+                    key: 'year',
+                    dir: 'desc',
+                },
+            };
 
-        buildFilters(normalized);
-        attachViewToggle(state);
-        attachFilterEvents(state);
-        applyView(state);
+            buildFilters(normalized);
+            attachViewToggle(state);
+            attachFilterEvents(state);
+            applyView(state);
 
             document.getElementById('projects-loading').style.display = 'none';
             wrap.style.display = 'block';
         }
 
-        fetch('/projects.json')
+        fetch('/projects.json', { cache: 'no-store' })
             .then(r => {
                 if (!r.ok) throw new Error('not found');
                 return r.json();
