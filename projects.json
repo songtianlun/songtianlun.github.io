@@ -1,233 +1,241 @@
-[
-    {
-        "name": "PlanAssistant",
-        "description": "For people who like to record their lives and plan their goals.",
-        "icon": "🗂️",
-        "year": "2019",
-        "tags": ["Android", "Java"],
-        "url": "https://songtianlun.github.io/PlanAssistant/",
-        "github": "https://github.com/songtianlun/PlanAssistant",
-        "status": "archived"
-    },
-    {
-        "name": "BJ-PFD2",
-        "description": "个人财务管理方案及监控看板。",
-        "icon": "💰",
-        "github": "https://github.com/songtianlun/bj-pfd2",
-        "url": "https://bjpfd2.skybyte.me",
-        "tags": [
-            "Go",
-            "Finance",
-            "Dashboard"
-        ],
-        "language": "Go",
-        "year": "2022-01-01",
-        "status": "active"
-    },
-    {
-        "name": "MinePin",
-        "description": "个人地理位置收藏夹",
-        "icon": "📍",
-        "year": "2022",
-        "tags": ["Go", "Maps", "Location"],
-        "github": "https://github.com/songtianlun/minepin"
-    },
-    {
-        "name": "全球艺术天气",
-        "description": "生成全球城市天气艺术图像，覆盖 15w+ 城市与 5k+ AI Art 作品。",
-        "icon": "🎨",
-        "github": "",
-        "url": "https://todayaiweather.com/",
-        "tags": [
-            "Ruby",
-            "AI",
-            "Art",
-            "Weather"
-        ],
-        "language": "Ruby",
-        "year": "2024-12-27",
-        "status": "active"
-    },
-    {
-        "name": "mirrorGit",
-        "description": "将 GitHub 仓库镜像到 Gitea 的 Shell 脚本。",
-        "note": "已停止维护，推荐使用 github.com/RayLabsHQ/gitea-mirror 替代",
-        "icon": "🪞",
-        "github": "https://github.com/songtianlun/mirrorGit",
-        "url": "",
-        "tags": [
-            "Shell",
-            "Git",
-            "Mirror"
-        ],
-        "language": "Shell",
-        "year": "2025-01-01",
-        "status": "archived"
-    },
-    {
-        "name": "Selfhost Hub",
-        "description": "自托管服务和工具目录。",
-        "icon": "🏠",
-        "github": "https://github.com/songtianlun/selfhost-hub",
-        "url": "https://selfhost-hub.com/",
-        "tags": [
-            "NextJS",
-            "React",
-            "Selfhost"
-        ],
-        "language": "TypeScript",
-        "year": "2025-01-15",
-        "status": "active"
-    },
-    {
-        "name": "FinanceCalculator",
-        "description": "帮助快速选出收益更优理财产品的在线工具。",
-        "icon": "🧮",
-        "github": "",
-        "url": "https://fc.frytea.com/",
-        "tags": [
-            "NextJS",
-            "Finance",
-            "Calculator"
-        ],
-        "language": "TypeScript",
-        "year": "2025-02-01",
-        "status": "active"
-    },
-    {
-        "name": "PlayUnb",
-        "description": "小游戏站，打开即玩超级玛丽、魂斗罗等经典游戏。",
-        "icon": "🎮",
-        "github": "https://github.com/songtianlun/PlayUnb-Assets",
-        "url": "https://playunb.com/",
-        "tags": [
-            "JavaScript",
-            "Games",
-            "Emulator"
-        ],
-        "language": "JavaScript",
-        "year": "2025-05-17",
-        "status": "active"
-    },
-    {
-        "name": "LiquidGlass",
-        "description": "液态玻璃风格图像生成和模拟工具。",
-        "icon": "💎",
-        "github": "",
-        "url": "https://liquidglass.icu/",
-        "docs": "https://frytea.com/archives/1489/",
-        "tags": [
-            "NextJS",
-            "AI",
-            "Design"
-        ],
-        "language": "TypeScript",
-        "year": "2025-06-10",
-        "status": "active"
-    },
-    {
-        "name": "Umami Dashboard",
-        "description": "更直观地展示 Umami 多站点统计数据。",
-        "icon": "📊",
-        "github": "https://github.com/songtianlun/umami-dashboard",
-        "url": "https://ud.frytea.com/",
-        "tags": [
-            "NextJS",
-            "Analytics",
-            "Dashboard"
-        ],
-        "language": "TypeScript",
-        "year": "2025-03-01",
-        "status": "active"
-    },
-    {
-        "name": "Week Count",
-        "description": "计算每年总周数、当前周数与任意日期所属周次。",
-        "icon": "📅",
-        "github": "",
-        "url": "https://weekcount.com/",
-        "tags": [
-            "NextJS",
-            "Calendar",
-            "Utility"
-        ],
-        "language": "TypeScript",
-        "year": "2025-06-24",
-        "status": "active"
-    },
-    {
-        "name": "Calc9",
-        "description": "用于健康、健身和日常场景的专业计算器集合。",
-        "icon": "❤️",
-        "github": "",
-        "url": "https://calc9.com/",
-        "tags": [
-            "NextJS",
-            "Health",
-            "Calculator"
-        ],
-        "language": "TypeScript",
-        "year": "2025-06-30",
-        "status": "active"
-    },
-    {
-        "name": "Anything vs Anything",
-        "description": "用 AI 智能分析并比较任意两个事物。",
-        "icon": "⚖️",
-        "github": "",
-        "url": "https://ava.skybyte.me/",
-        "tags": [
-            "NextJS",
-            "AI",
-            "Comparison"
-        ],
-        "language": "TypeScript",
-        "year": "2025-04-01",
-        "status": "active"
-    },
-    {
-        "name": "2md.run",
-        "description": "MarkItDown 的 web 封装， Markdown 文档的在线工具",
-        "icon": "✍️",
-        "github": "",
-        "url": "https://2md.run/",
-        "tags": [
-            "Markdown",
-            "Tool",
-            "Web"
-        ],
-        "language": "TypeScript",
-        "year": "2025-09-22",
-        "status": "archived"
-    },
-    {
-        "name": "Flashcard Maker",
-        "description": "在线制作和管理学习闪卡的工具。",
-        "icon": "🗂️",
-        "github": "",
-        "url": "https://flashcard-maker.net/",
-        "tags": [
-            "Flashcards",
-            "Education",
-            "Web"
-        ],
-        "language": "TypeScript",
-        "year": "2025-10-03",
-        "status": "archived"
-    },
-    {
-        "name": "frytea.com",
-        "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
-        "icon": "🍵",
-        "github": "https://github.com/songtianlun/songtianlun.github.io",
-        "url": "https://www.frytea.com",
-        "tags": [
-            "Hugo",
-            "blog",
-            "web"
-        ],
-        "language": "HTML",
-
-        "status": "active"
-    }
-]
+{
+    "projects": [
+        {
+            "name": "PlanAssistant",
+            "description": "For people who like to record their lives and plan their goals.",
+            "icon": "🗂️",
+            "year": "2019",
+            "tags": [
+                "Android",
+                "Java"
+            ],
+            "url": "https://songtianlun.github.io/PlanAssistant/",
+            "github": "https://github.com/songtianlun/PlanAssistant",
+            "status": "archived"
+        },
+        {
+            "name": "BJ-PFD2",
+            "description": "个人财务管理方案及监控看板。",
+            "icon": "💰",
+            "github": "https://github.com/songtianlun/bj-pfd2",
+            "url": "https://bjpfd2.skybyte.me",
+            "tags": [
+                "Go",
+                "Finance",
+                "Dashboard"
+            ],
+            "language": "Go",
+            "year": "2022-01-01",
+            "status": "active"
+        },
+        {
+            "name": "MinePin",
+            "description": "个人地理位置收藏夹",
+            "icon": "📍",
+            "year": "2022",
+            "tags": [
+                "Go",
+                "Maps",
+                "Location"
+            ],
+            "github": "https://github.com/songtianlun/minepin"
+        },
+        {
+            "name": "全球艺术天气",
+            "description": "生成全球城市天气艺术图像，覆盖 15w+ 城市与 5k+ AI Art 作品。",
+            "icon": "🎨",
+            "github": "",
+            "url": "https://todayaiweather.com/",
+            "tags": [
+                "Ruby",
+                "AI",
+                "Art",
+                "Weather"
+            ],
+            "language": "Ruby",
+            "year": "2024-12-27",
+            "status": "active"
+        },
+        {
+            "name": "mirrorGit",
+            "description": "将 GitHub 仓库镜像到 Gitea 的 Shell 脚本。",
+            "note": "已停止维护，推荐使用 github.com/RayLabsHQ/gitea-mirror 替代",
+            "icon": "🪞",
+            "github": "https://github.com/songtianlun/mirrorGit",
+            "url": "",
+            "tags": [
+                "Shell",
+                "Git",
+                "Mirror"
+            ],
+            "language": "Shell",
+            "year": "2025-01-01",
+            "status": "archived"
+        },
+        {
+            "name": "Selfhost Hub",
+            "description": "自托管服务和工具目录。",
+            "icon": "🏠",
+            "github": "https://github.com/songtianlun/selfhost-hub",
+            "url": "https://selfhost-hub.com/",
+            "tags": [
+                "NextJS",
+                "React",
+                "Selfhost"
+            ],
+            "language": "TypeScript",
+            "year": "2025-01-15",
+            "status": "active"
+        },
+        {
+            "name": "FinanceCalculator",
+            "description": "帮助快速选出收益更优理财产品的在线工具。",
+            "icon": "🧮",
+            "github": "",
+            "url": "https://fc.frytea.com/",
+            "tags": [
+                "NextJS",
+                "Finance",
+                "Calculator"
+            ],
+            "language": "TypeScript",
+            "year": "2025-02-01",
+            "status": "active"
+        },
+        {
+            "name": "PlayUnb",
+            "description": "小游戏站，打开即玩超级玛丽、魂斗罗等经典游戏。",
+            "icon": "🎮",
+            "github": "https://github.com/songtianlun/PlayUnb-Assets",
+            "url": "https://playunb.com/",
+            "tags": [
+                "JavaScript",
+                "Games",
+                "Emulator"
+            ],
+            "language": "JavaScript",
+            "year": "2025-05-17",
+            "status": "active"
+        },
+        {
+            "name": "LiquidGlass",
+            "description": "液态玻璃风格图像生成和模拟工具。",
+            "icon": "💎",
+            "github": "",
+            "url": "https://liquidglass.icu/",
+            "docs": "https://frytea.com/archives/1489/",
+            "tags": [
+                "NextJS",
+                "AI",
+                "Design"
+            ],
+            "language": "TypeScript",
+            "year": "2025-06-10",
+            "status": "active"
+        },
+        {
+            "name": "Umami Dashboard",
+            "description": "更直观地展示 Umami 多站点统计数据。",
+            "icon": "📊",
+            "github": "https://github.com/songtianlun/umami-dashboard",
+            "url": "https://ud.frytea.com/",
+            "tags": [
+                "NextJS",
+                "Analytics",
+                "Dashboard"
+            ],
+            "language": "TypeScript",
+            "year": "2025-03-01",
+            "status": "active"
+        },
+        {
+            "name": "Week Count",
+            "description": "计算每年总周数、当前周数与任意日期所属周次。",
+            "icon": "📅",
+            "github": "",
+            "url": "https://weekcount.com/",
+            "tags": [
+                "NextJS",
+                "Calendar",
+                "Utility"
+            ],
+            "language": "TypeScript",
+            "year": "2025-06-24",
+            "status": "active"
+        },
+        {
+            "name": "Calc9",
+            "description": "用于健康、健身和日常场景的专业计算器集合。",
+            "icon": "❤️",
+            "github": "",
+            "url": "https://calc9.com/",
+            "tags": [
+                "NextJS",
+                "Health",
+                "Calculator"
+            ],
+            "language": "TypeScript",
+            "year": "2025-06-30",
+            "status": "active"
+        },
+        {
+            "name": "Anything vs Anything",
+            "description": "用 AI 智能分析并比较任意两个事物。",
+            "icon": "⚖️",
+            "github": "",
+            "url": "https://ava.skybyte.me/",
+            "tags": [
+                "NextJS",
+                "AI",
+                "Comparison"
+            ],
+            "language": "TypeScript",
+            "year": "2025-04-01",
+            "status": "active"
+        },
+        {
+            "name": "2md.run",
+            "description": "MarkItDown 的 web 封装， Markdown 文档的在线工具",
+            "icon": "✍️",
+            "github": "",
+            "url": "https://2md.run/",
+            "tags": [
+                "Markdown",
+                "Tool",
+                "Web"
+            ],
+            "language": "TypeScript",
+            "year": "2025-09-22",
+            "status": "archived"
+        },
+        {
+            "name": "Flashcard Maker",
+            "description": "在线制作和管理学习闪卡的工具。",
+            "icon": "🗂️",
+            "github": "",
+            "url": "https://flashcard-maker.net/",
+            "tags": [
+                "Flashcards",
+                "Education",
+                "Web"
+            ],
+            "language": "TypeScript",
+            "year": "2025-10-03",
+            "status": "archived"
+        },
+        {
+            "name": "frytea.com",
+            "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
+            "icon": "🍵",
+            "github": "https://github.com/songtianlun/songtianlun.github.io",
+            "url": "https://www.frytea.com",
+            "tags": [
+                "Hugo",
+                "blog",
+                "web"
+            ],
+            "language": "HTML",
+            "status": "active"
+        }
+    ]
+}
