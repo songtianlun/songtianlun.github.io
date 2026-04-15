@@ -2,6 +2,7 @@ backend:
   name: github
   repo: songtianlun/frytea
   branch: main
+  base_url: https://sveltia-cms-auth.frytea-gdul.workers.dev
 
 site_url: https://frytea.com
 locale: zh_Hans
