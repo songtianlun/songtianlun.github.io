@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>好文转载 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/</link>
+    <link>https://frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/</link>
     <description>Recent content in 好文转载 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 21 Jan 2026 05:55:33 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优秀的 SubReddit 清单</title>
-      <link>https://www.frytea.com/archives/1523/</link>
+      <link>https://frytea.com/archives/1523/</link>
       <pubDate>Sun, 28 Sep 2025 15:43:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1523/</guid>
+      <guid>https://frytea.com/archives/1523/</guid>
       <description>&lt;h1 id=&#34;subreddit-清单&#34;&gt;SubReddit 清单&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;SaaS 类&lt;/strong&gt;
@@ -119,38 +119,38 @@
     </item>
     <item>
       <title>云部署平台全面对比：Railway vs Render vs 其他主流方案（2025年版）</title>
-      <link>https://www.frytea.com/archives/1522/</link>
+      <link>https://frytea.com/archives/1522/</link>
       <pubDate>Fri, 19 Sep 2025 17:08:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1522/</guid>
+      <guid>https://frytea.com/archives/1522/</guid>
       <description>&lt;p&gt;随着 Heroku 免费套餐的终止，开发者们纷纷寻找新的云部署解决方案。本文将深入对比 Railway、Render 以及其他主流平台，帮你选择最适合项目需求的部署方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>地图标记和兴趣点分享软件合集</title>
-      <link>https://www.frytea.com/archives/1517/</link>
+      <link>https://frytea.com/archives/1517/</link>
       <pubDate>Mon, 01 Sep 2025 03:19:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1517/</guid>
+      <guid>https://frytea.com/archives/1517/</guid>
       <description>&lt;p&gt;从学 GIS 开始，就一直想做/找一个地图兴趣点标记、分享软件。之前也做过，但是苦于时间、运维成本太高，就只能放在那里了。直到最近发现自己总是会碰到这种，需要标记和分享兴趣点的需求。特别是多点规划、形成规划的时候，有一个这样的软件比直接看地图要方便太多。&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速感受编程乐趣的编程语言推荐</title>
-      <link>https://www.frytea.com/archives/1513/</link>
+      <link>https://frytea.com/archives/1513/</link>
       <pubDate>Mon, 18 Aug 2025 14:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1513/</guid>
+      <guid>https://frytea.com/archives/1513/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;快速看到效果对于感受编程乐趣非常重要，最近看完《计算机是怎样运行的》，推荐想要快速看到效果可以使用 VB。我认为这非常重要，现在编程语言非常多，但是能够稳定复现可以看到效果的，VB这样的方案是很少见的。如果没有可以运行 VB 的环境，可以尝试 &lt;code&gt;PyQt&lt;/code&gt; 来查看效果。下面用 Claude4 生成了一篇文章，给大家做参考。如果想要快速体验到编程的乐趣，可以看一看。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rclone WebUI 选择指南：全面对比各种图形界面方案</title>
-      <link>https://www.frytea.com/archives/1511/</link>
+      <link>https://frytea.com/archives/1511/</link>
       <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1511/</guid>
+      <guid>https://frytea.com/archives/1511/</guid>
       <description>&lt;p&gt;Rclone 作为强大的云存储同步工具，虽然命令行功能丰富，但对于普通用户来说学习曲线较陡。为了解决这个问题，社区开发了多种图形界面方案。本文将详细对比各种 Rclone WebUI 选择，帮助您找到最适合的解决方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>开源自托管数据备份解决方案全面对比</title>
-      <link>https://www.frytea.com/archives/1510/</link>
+      <link>https://frytea.com/archives/1510/</link>
       <pubDate>Fri, 08 Aug 2025 06:42:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1510/</guid>
+      <guid>https://frytea.com/archives/1510/</guid>
       <description>&lt;p&gt;在数据日益重要的今天，选择一个合适的备份解决方案至关重要。本文将对比介绍六个优秀的开源自托管数据备份方案，帮助您根据实际需求做出最佳选择。&lt;/p&gt;
 &lt;h2 id=&#34;方案概述&#34;&gt;方案概述&lt;/h2&gt;
 &lt;h3 id=&#34;1-duplicati---全能型备份工具&#34;&gt;1. Duplicati - 全能型备份工具&lt;/h3&gt;
@@ -158,54 +158,54 @@
     </item>
     <item>
       <title>独立开发者云平台技术选型深度对比：Vercel vs Cloudflare vs Supabase</title>
-      <link>https://www.frytea.com/archives/1503/</link>
+      <link>https://frytea.com/archives/1503/</link>
       <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1503/</guid>
+      <guid>https://frytea.com/archives/1503/</guid>
       <description>&lt;p&gt;在 2024-2025 年的云原生时代，独立开发者面临着前所未有的平台选择挑战。&lt;strong&gt;Vercel + Supabase 组合可降低 60% 开发时间，Cloudflare Workers 方案能节省 70% 运营成本，而技术选型错误可能导致月度支出增加 10 倍&lt;/strong&gt;。本文基于最新官方文档和实际测试数据，为构建 SaaS 应用和工具类应用的独立开发者提供全面的技术选型指南。&lt;/p&gt;</description>
     </item>
     <item>
       <title>边缘计算平台对比：Vercel vs Cloudflare Workers</title>
-      <link>https://www.frytea.com/archives/1500/</link>
+      <link>https://frytea.com/archives/1500/</link>
       <pubDate>Mon, 28 Jul 2025 15:10:47 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1500/</guid>
+      <guid>https://frytea.com/archives/1500/</guid>
       <description>&lt;h1 id=&#34;边缘计算平台对比vercel-vs-cloudflare-workers-及其他选择&#34;&gt;边缘计算平台对比：Vercel vs Cloudflare Workers 及其他选择&lt;/h1&gt;
 &lt;p&gt;在现代 Web 开发中，边缘计算平台已经成为提升应用性能和用户体验的关键技术。本文将深入对比几个主流的边缘计算和部署平台，特别关注它们对 Next.js SSR 的支持以及价格结构。&lt;/p&gt;</description>
     </item>
     <item>
       <title>媒体服务器对比：Emby vs Plex vs Jellyfin</title>
-      <link>https://www.frytea.com/archives/1499/</link>
+      <link>https://frytea.com/archives/1499/</link>
       <pubDate>Sun, 27 Jul 2025 14:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1499/</guid>
+      <guid>https://frytea.com/archives/1499/</guid>
       <description>&lt;p&gt;在数字化时代，拥有一个强大的媒体服务器来管理和流式传输您的个人媒体收藏变得越来越重要。本文将深入对比三个主流的媒体服务器解决方案：Emby、Plex 和 Jellyfin，帮助您选择最适合需求的方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kiro or Cursor? AI IDE工具全面对比：选择最适合的智能编程助手</title>
-      <link>https://www.frytea.com/archives/1497/</link>
+      <link>https://frytea.com/archives/1497/</link>
       <pubDate>Sun, 20 Jul 2025 10:17:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1497/</guid>
+      <guid>https://frytea.com/archives/1497/</guid>
       <description>&lt;p&gt;随着人工智能技术的快速发展，AI驱动的集成开发环境（IDE）正在重塑软件开发的格局。开发者现在面临众多选择，每个工具都有其独特的优势和特色。本文将深入对比四个主流的AI IDE工具：Cursor、Amazon Kiro、Claude Code和Augment Code，帮助开发者做出明智的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title>[转] 编程十年的感悟</title>
-      <link>https://www.frytea.com/archives/1415/</link>
+      <link>https://frytea.com/archives/1415/</link>
       <pubDate>Fri, 27 Dec 2024 10:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1415/</guid>
+      <guid>https://frytea.com/archives/1415/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;马尔科姆·格拉德威尔的“一万小时定律”指出，持续投入一万小时的努力，足以使人在某个领域达到专家水平。
 按照每周20小时的练习量计算，每天大约需要投入3小时，十年左右才能达成这一目标。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025年Gartner十大战略性技术趋势</title>
-      <link>https://www.frytea.com/archives/1414/</link>
+      <link>https://frytea.com/archives/1414/</link>
       <pubDate>Mon, 23 Dec 2024 16:17:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1414/</guid>
+      <guid>https://frytea.com/archives/1414/</guid>
       <description>&lt;p&gt;Gartner研究副总裁&lt;a href=&#34;https://www.gartner.com/cn/experts/arnold-gao&#34;&gt;高挺（Arnold Gao）&lt;/a&gt;表示：“今年的重要战略技术趋势涵盖了AI的必要事项和风险，以及计算技术和人机协同等前沿趋势。追踪这些趋势将帮助IT领导者以负责任、和合乎道德的创新方式塑造企业机构的未来。”&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024年Gartner十大战略性技术趋势</title>
-      <link>https://www.frytea.com/archives/1413/</link>
+      <link>https://frytea.com/archives/1413/</link>
       <pubDate>Mon, 23 Dec 2024 16:02:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1413/</guid>
+      <guid>https://frytea.com/archives/1413/</guid>
       <description>&lt;h2 id=&#34;这些战略性技术趋势将在未来三年深刻影响企业的商业和技术决策&#34;&gt;这些战略性技术趋势将在未来三年深刻影响企业的商业和技术决策&lt;/h2&gt;
 &lt;p&gt;Gartner建议企业评估每个技术趋势的影响和收益,明确哪些创新技术或组合将对企业的成功产生最显著影响。&lt;/p&gt;
 &lt;h2 id=&#34;十大技术&#34;&gt;十大技术&lt;/h2&gt;
@@ -214,16 +214,16 @@
     </item>
     <item>
       <title>深度解析根技术、根产业及发展格局</title>
-      <link>https://www.frytea.com/archives/1404/</link>
+      <link>https://frytea.com/archives/1404/</link>
       <pubDate>Thu, 19 Dec 2024 10:20:07 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1404/</guid>
+      <guid>https://frytea.com/archives/1404/</guid>
       <description>&lt;p&gt;根技术是指那些能够催生和支撑一系列衍生技术的基础性技术,它们在科技发展中起着关键的作用。了解根技术的基本概念对于把握技术发展趋势和方向具有重要意义。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Z-Library 官方地址入口</title>
-      <link>https://www.frytea.com/archives/1384/</link>
+      <link>https://frytea.com/archives/1384/</link>
       <pubDate>Sun, 01 Dec 2024 06:32:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1384/</guid>
+      <guid>https://frytea.com/archives/1384/</guid>
       <description>&lt;p&gt;官方路径：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Z-Library&#34;&gt;https://en.wikipedia.org/wiki/Z-Library&lt;/a&gt;&lt;/li&gt;
@@ -239,9 +239,9 @@
     </item>
     <item>
       <title>煮雪 - 林清玄</title>
-      <link>https://www.frytea.com/archives/1328/</link>
+      <link>https://frytea.com/archives/1328/</link>
       <pubDate>Thu, 31 Oct 2024 12:46:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1328/</guid>
+      <guid>https://frytea.com/archives/1328/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;内容转自百度词条 &lt;a href=&#34;https://baike.baidu.com/item/%E7%85%AE%E9%9B%AA/20382942&#34;&gt;煮雪&lt;/a&gt;，侵删，以下为原文。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -254,9 +254,9 @@
     </item>
     <item>
       <title>[转]名侦探柯南TV主线集数整理（截止1165集）</title>
-      <link>https://www.frytea.com/archives/1329/</link>
+      <link>https://frytea.com/archives/1329/</link>
       <pubDate>Thu, 31 Oct 2024 12:46:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1329/</guid>
+      <guid>https://frytea.com/archives/1329/</guid>
       <description>&lt;p&gt;名侦探柯南四条主线可大致分为 ：工藤新一的名侦探之路，世良姐妹一家9口人的搬迁之旅，警校五人组的牺牲故事，黑衣组织的秘密计划及红方的卧底行动&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/09/klz04d.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;主线&#34;&gt;主线&lt;/h2&gt;
@@ -264,24 +264,24 @@
     </item>
     <item>
       <title>[转译] 深思熟虑的编程练习</title>
-      <link>https://www.frytea.com/archives/1300/</link>
+      <link>https://frytea.com/archives/1300/</link>
       <pubDate>Tue, 01 Oct 2024 10:04:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1300/</guid>
+      <guid>https://frytea.com/archives/1300/</guid>
       <description>&lt;p&gt;马尔科姆·格拉德威尔曾著名地宣称，掌握一门技艺需要 10,000 小时的深思熟虑的练习，彼得·诺维格在他的文章 &lt;a href=&#34;http://norvig.com/21-days.html&#34;&gt;Teach Yourself Programming In Ten Years&lt;/a&gt; 中引用了这一发现。程序员在工作 5.2 年，每天 8 小时，每年 48 周后将获得 10,000 小时的办公室时间。这并不意味着程序员在 5 或 6 年后就会成为专家，因为这 10,000 小时的办公室时间并不全是深思熟虑的练习。&lt;/p&gt;</description>
     </item>
     <item>
       <title>[转译] CheatGPT</title>
-      <link>https://www.frytea.com/archives/1301/</link>
+      <link>https://frytea.com/archives/1301/</link>
       <pubDate>Tue, 01 Oct 2024 10:04:49 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1301/</guid>
+      <guid>https://frytea.com/archives/1301/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文为计算机科学教授大卫·汉弗莱 （David Humphrey） 撰写的关于 ChatGPT 及其对核心学习的潜在负面影响的文章。这是一本关于在教育环境中使用生成式 AI 的陷阱的好书。&lt;/p&gt;</description>
     </item>
     <item>
       <title>[转译] 别相信任何告诉你编程很简单的人</title>
-      <link>https://www.frytea.com/archives/1299/</link>
+      <link>https://frytea.com/archives/1299/</link>
       <pubDate>Fri, 27 Sep 2024 16:38:03 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1299/</guid>
+      <guid>https://frytea.com/archives/1299/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/&#34;&gt;原文发布于&lt;/a&gt; 太平洋夏令时间下午 6:00 • 2014年5月24日&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -292,9 +292,9 @@
     </item>
     <item>
       <title>[转译] 如何增加休息时间来提升你的工作效率</title>
-      <link>https://www.frytea.com/archives/1302/</link>
+      <link>https://frytea.com/archives/1302/</link>
       <pubDate>Thu, 26 Sep 2024 14:57:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1302/</guid>
+      <guid>https://frytea.com/archives/1302/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文作者：&lt;a href=&#34;https://simpleprogrammer.com/author/sgaston/&#34; title=&#34;Saeed Gatson&#34;&gt;Saeed Gatson&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -302,9 +302,9 @@
     </item>
     <item>
       <title>[转译] 如何成为一个好的开发者？</title>
-      <link>https://www.frytea.com/archives/1298/</link>
+      <link>https://frytea.com/archives/1298/</link>
       <pubDate>Thu, 26 Sep 2024 14:57:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1298/</guid>
+      <guid>https://frytea.com/archives/1298/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/&#34;&gt;原文&lt;/a&gt; 发表于2013年5月10日星期五&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -312,17 +312,17 @@
     </item>
     <item>
       <title>从 Windows 迭代看为什么要用 Linux </title>
-      <link>https://www.frytea.com/archives/714/</link>
+      <link>https://frytea.com/archives/714/</link>
       <pubDate>Sat, 24 Dec 2022 02:59:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/714/</guid>
+      <guid>https://frytea.com/archives/714/</guid>
       <description>&lt;p&gt;Windows 的待机问题、兼容问题，已经总是被人诟病的“监控”问题，促使我不断探索除 Windows 的操作系统，最近已经将 Linux Mint 作为自己工作的主要系统。&lt;/p&gt;
 &lt;p&gt;至于 Windows 的问题，下面这张图个人认为总结的很好。&lt;/p&gt;</description>
     </item>
     <item>
       <title>[转] 疫情开放后的一次医患对话</title>
-      <link>https://www.frytea.com/archives/707/</link>
+      <link>https://frytea.com/archives/707/</link>
       <pubDate>Sun, 18 Dec 2022 01:30:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/707/</guid>
+      <guid>https://frytea.com/archives/707/</guid>
       <description>&lt;p&gt;患者：医生，我想做抗原
 医生：你哪不舒服？
 患者：没有不舒服
@@ -352,9 +352,9 @@
     </item>
     <item>
       <title>[今日一梗] 体验一下用语言让人窒息的感觉</title>
-      <link>https://www.frytea.com/archives/691/</link>
+      <link>https://frytea.com/archives/691/</link>
       <pubDate>Fri, 16 Dec 2022 05:04:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/691/</guid>
+      <guid>https://frytea.com/archives/691/</guid>
       <description>&lt;h2 id=&#34;一个听不懂基础对话逻辑的酒店前台&#34;&gt;一个听不懂基础对话逻辑的酒店前台&lt;/h2&gt;
 &lt;p&gt;她告诉我们：酒店前台不负责收快递，你们的快递别丢在这里，外边就有菜鸟驿站。不然快递丢了我们负不起责任。
 我们：好的，我们知道了。
@@ -395,9 +395,9 @@
     </item>
     <item>
       <title>转载一篇知乎上的文章：抖音是如何毁掉我们的？</title>
-      <link>https://www.frytea.com/archives/675/</link>
+      <link>https://frytea.com/archives/675/</link>
       <pubDate>Thu, 08 Dec 2022 10:36:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/675/</guid>
+      <guid>https://frytea.com/archives/675/</guid>
       <description>&lt;p&gt;写在前面：&lt;/p&gt;
 &lt;p&gt;这篇文中，抖音只是一个具象化代表，&lt;/p&gt;
 &lt;p&gt;我想讲的是以抖音为代表的一众以算法为内核的娱乐化 APP。&lt;/p&gt;

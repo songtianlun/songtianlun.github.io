@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vim on Frytea</title>
-    <link>https://www.frytea.com/tags/vim/</link>
+    <link>https://frytea.com/tags/vim/</link>
     <description>Recent content in Vim on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 07 Aug 2025 14:31:18 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim 将命令输出到当前位置</title>
-      <link>https://www.frytea.com/archives/1505/</link>
+      <link>https://frytea.com/archives/1505/</link>
       <pubDate>Thu, 07 Aug 2025 14:31:18 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1505/</guid>
+      <guid>https://frytea.com/archives/1505/</guid>
       <description>&lt;p&gt;在Vim 中，可以使用 &lt;code&gt;:read !command&lt;/code&gt; 命令将外部命令 &lt;code&gt;command&lt;/code&gt; 的输出插入到当前光标所在位置的下一行。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux vim vi 翻页跳转命令快捷键</title>
-      <link>https://www.frytea.com/archives/1463/</link>
+      <link>https://frytea.com/archives/1463/</link>
       <pubDate>Mon, 07 Apr 2025 09:24:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1463/</guid>
+      <guid>https://frytea.com/archives/1463/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;以下组合若没有特殊说明，基本都是键位组合。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -63,9 +63,9 @@
     </item>
     <item>
       <title>如何调试 Vim 脚本</title>
-      <link>https://www.frytea.com/archives/1437/</link>
+      <link>https://frytea.com/archives/1437/</link>
       <pubDate>Mon, 07 Apr 2025 09:20:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1437/</guid>
+      <guid>https://frytea.com/archives/1437/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2018/12/05/vim-debug.html&#34;&gt;如何调试 Vim 脚本&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -73,9 +73,9 @@
     </item>
     <item>
       <title>Vim 下大小写敏感的搜索-替换</title>
-      <link>https://www.frytea.com/archives/1435/</link>
+      <link>https://frytea.com/archives/1435/</link>
       <pubDate>Thu, 27 Feb 2025 15:35:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1435/</guid>
+      <guid>https://frytea.com/archives/1435/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2019/12/12/vim-case-sensitive.html&#34;&gt;Vim 下大小写敏感的搜索/替换&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -83,9 +83,9 @@
     </item>
     <item>
       <title>Vim 使用系统剪切板</title>
-      <link>https://www.frytea.com/archives/1433/</link>
+      <link>https://frytea.com/archives/1433/</link>
       <pubDate>Sun, 23 Feb 2025 06:04:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1433/</guid>
+      <guid>https://frytea.com/archives/1433/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;https://harttle.land/2020/09/04/vim-clipboard.html&#34;&gt;Vim 使用系统剪切板&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -93,9 +93,9 @@
     </item>
     <item>
       <title>Vim 寄存器完全手册</title>
-      <link>https://www.frytea.com/archives/1432/</link>
+      <link>https://frytea.com/archives/1432/</link>
       <pubDate>Sun, 23 Feb 2025 06:04:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1432/</guid>
+      <guid>https://frytea.com/archives/1432/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;转载自 &lt;a href=&#34;https://harttle.land/2016/07/25/vim-registers.html&#34;&gt;Vim 寄存器完全手册&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -103,9 +103,9 @@
     </item>
     <item>
       <title>Vim 宏录制和重放</title>
-      <link>https://www.frytea.com/archives/1431/</link>
+      <link>https://frytea.com/archives/1431/</link>
       <pubDate>Sun, 23 Feb 2025 06:04:35 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1431/</guid>
+      <guid>https://frytea.com/archives/1431/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;qa&lt;/code&gt;: 录制到寄存器 &lt;code&gt;a&lt;/code&gt; 中，可使用 &lt;code&gt;a-z&lt;/code&gt; 26 个命名寄存器&lt;/li&gt;
@@ -119,9 +119,9 @@
     </item>
     <item>
       <title>Vim 替换文本</title>
-      <link>https://www.frytea.com/archives/1334/</link>
+      <link>https://frytea.com/archives/1334/</link>
       <pubDate>Sun, 10 Nov 2024 11:40:21 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1334/</guid>
+      <guid>https://frytea.com/archives/1334/</guid>
       <description>&lt;p&gt;在vim中&lt;strong&gt;查找和替换命令&lt;/strong&gt;需要在&lt;strong&gt;末行模式&lt;/strong&gt;下执行。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -150,9 +150,9 @@
     </item>
     <item>
       <title>Vim 对比文件差异 | Linux 下同屏查看文件差异并修改</title>
-      <link>https://www.frytea.com/archives/594/</link>
+      <link>https://frytea.com/archives/594/</link>
       <pubDate>Mon, 08 Nov 2021 04:31:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/594/</guid>
+      <guid>https://frytea.com/archives/594/</guid>
       <description>&lt;p&gt;在 windows 下有如 Beyond Compare 这样的文本对比工具，而在 Linux 其实预装了很好用的文本对比工具 → &lt;code&gt;vimdiff&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;使用方法很简单：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vimdiff &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;options&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; file1 file2 &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;file3 &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;file4&lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
@@ -164,9 +164,9 @@
     </item>
     <item>
       <title>Vim安装插件管理器Vundle</title>
-      <link>https://www.frytea.com/archives/418/</link>
+      <link>https://frytea.com/archives/418/</link>
       <pubDate>Sun, 26 Jul 2020 11:17:16 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/418/</guid>
+      <guid>https://frytea.com/archives/418/</guid>
       <description>&lt;h2 id=&#34;安装vundle&#34;&gt;安装vundle&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;默认安装在/.vim/bundle/vundle下；&lt;/p&gt;
@@ -188,9 +188,9 @@
     </item>
     <item>
       <title>Ubuntu下为vim安装YouCompleteMe插件</title>
-      <link>https://www.frytea.com/archives/419/</link>
+      <link>https://frytea.com/archives/419/</link>
       <pubDate>Sun, 26 Jul 2020 11:17:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/419/</guid>
+      <guid>https://frytea.com/archives/419/</guid>
       <description>&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;已安装 Vundle  (参考 &lt;a href=&#34;https://blog.frytea.com/archives/419/&#34;&gt;Vim安装插件管理器Vundle&lt;/a&gt;）&lt;/li&gt;
@@ -204,9 +204,9 @@
     </item>
     <item>
       <title>VIM 创建程序文件自动添加头部注释</title>
-      <link>https://www.frytea.com/archives/416/</link>
+      <link>https://frytea.com/archives/416/</link>
       <pubDate>Sun, 26 Jul 2020 11:16:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/416/</guid>
+      <guid>https://frytea.com/archives/416/</guid>
       <description>&lt;p&gt;修改 &lt;code&gt;/etc/vimrc&lt;/code&gt; 或 &lt;code&gt;~/.vimrc&lt;/code&gt;，在文件最后添加以下内容：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; 当新建 .h .c .hpp .cpp .mk .sh等文件时自动调用SetTitle 函数
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh exec &amp;#34;&lt;/span&gt;:call SetTitle&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;
@@ -278,17 +278,17 @@
     </item>
     <item>
       <title>VIM个性化配置（一）</title>
-      <link>https://www.frytea.com/archives/417/</link>
+      <link>https://frytea.com/archives/417/</link>
       <pubDate>Sun, 26 Jul 2020 11:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/417/</guid>
+      <guid>https://frytea.com/archives/417/</guid>
       <description>&lt;h2 id=&#34;配置&#34;&gt;&lt;strong&gt;配置&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;只需在Home目录创建一个 &lt;code&gt;~/.vimrc&lt;/code&gt; ****文件即可以配置 &lt;code&gt;vim&lt;/code&gt; 了，如需安装插件，在 &lt;code&gt;~/.vim&lt;/code&gt; 目录下创建一个bundle文件夹，插件装在里面。（需安装 &lt;code&gt;Vundle&lt;/code&gt; 插件管理器），将以下内容拷入&lt;code&gt;~/.vimrc&lt;/code&gt; ****文件中即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vim 版本升级（Vim8）</title>
-      <link>https://www.frytea.com/archives/415/</link>
+      <link>https://frytea.com/archives/415/</link>
       <pubDate>Sun, 26 Jul 2020 11:15:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/415/</guid>
+      <guid>https://frytea.com/archives/415/</guid>
       <description>&lt;h2 id=&#34;安装步骤&#34;&gt;安装步骤&lt;/h2&gt;
 &lt;h3 id=&#34;第一步下载源码&#34;&gt;第一步，下载源码&lt;/h3&gt;
 &lt;p&gt;到&lt;a href=&#34;https://github.com/vim/vim/releases&#34;&gt;Vim官方Github仓库&lt;/a&gt;下载目前最新的Vim Release版本&lt;/p&gt;

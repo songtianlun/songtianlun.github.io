@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Frytea</title>
-    <link>https://www.frytea.com/tags/git/</link>
+    <link>https://frytea.com/tags/git/</link>
     <description>Recent content in Git on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Oct 2025 04:05:22 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 将某个文件恢复到其他分支的状态</title>
-      <link>https://www.frytea.com/archives/1536/</link>
+      <link>https://frytea.com/archives/1536/</link>
       <pubDate>Tue, 14 Oct 2025 04:05:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1536/</guid>
+      <guid>https://frytea.com/archives/1536/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 下面两种写法二选一
 git checkout dev -- path/to/config.yaml
@@ -27,41 +27,41 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>git 拉取所有 branch 和 tag 到本地并推送到远程</title>
-      <link>https://www.frytea.com/archives/1462/</link>
+      <link>https://frytea.com/archives/1462/</link>
       <pubDate>Mon, 07 Apr 2025 09:23:34 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1462/</guid>
+      <guid>https://frytea.com/archives/1462/</guid>
       <description>&lt;p&gt;需要一个正常的可工作仓库，而不是裸镜像仓库。以下是在不使用 &lt;code&gt;--mirror&lt;/code&gt; 选项的情况下，拉取所有分支和标签并推送到新仓库的步骤：&lt;/p&gt;
 &lt;h3 id=&#34;步骤-1-克隆源仓库&#34;&gt;步骤 1: 克隆源仓库&lt;/h3&gt;
 &lt;p&gt;首先，正常克隆源仓库：&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用 GCOP AI 助力提升 git commit 效率</title>
-      <link>https://www.frytea.com/archives/1423/</link>
+      <link>https://frytea.com/archives/1423/</link>
       <pubDate>Sat, 04 Jan 2025 01:54:12 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1423/</guid>
+      <guid>https://frytea.com/archives/1423/</guid>
       <description>&lt;p&gt;最近在 &lt;a href=&#34;https://www.ruanyifeng.com/blog/2024/12/weekly-issue-331.html&#34;&gt;阮老师博客&lt;/a&gt; 看到一款这个 &lt;a href=&#34;https://gcop.zeeland.top&#34;&gt;GCOP&lt;/a&gt;，一个基于 LLM 的 Git 提交消息生成和 Git 工作流程优化工具，试用了一下确实不错。接入 LLM 即可自动分析 git 修改生成 commit 消息，比我之前做的 git-commit 生成器好用多了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub 个人仓库批量备份到自建 Gitea</title>
-      <link>https://www.frytea.com/archives/1417/</link>
+      <link>https://frytea.com/archives/1417/</link>
       <pubDate>Fri, 03 Jan 2025 10:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1417/</guid>
+      <guid>https://frytea.com/archives/1417/</guid>
       <description>&lt;p&gt;这是一个自动将 GitHub 仓库镜像到 Gitea 的 Shell 脚本。支持批量同步所有仓库，可以设置跳过特定仓库，并具有良好的错误处理机制。&lt;/p&gt;
 &lt;p&gt;由于 GitHub 仓库较多，因为各种原因担心数据风险和访问困难。代码托管在自建 gitea 虽然访问快，但是脱离了生态很难跟其他的 PaaS 平台对接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git 覆写上次提交</title>
-      <link>https://www.frytea.com/archives/1385/</link>
+      <link>https://frytea.com/archives/1385/</link>
       <pubDate>Wed, 11 Dec 2024 23:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1385/</guid>
+      <guid>https://frytea.com/archives/1385/</guid>
       <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
 &lt;p&gt;在日常使用 Git 版本控制工具的时候，我们有时会遇到需要修改上次&lt;code&gt;commit&lt;/code&gt;提交信息的情况，例如：修改上次提交信息中的错误内容，或者想为上次提交加入些新内容等等。&lt;/p&gt;</description>
     </item>
     <item>
       <title>批量修改 git 仓库地址</title>
-      <link>https://www.frytea.com/archives/788/</link>
+      <link>https://frytea.com/archives/788/</link>
       <pubDate>Thu, 27 Apr 2023 14:07:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/788/</guid>
+      <guid>https://frytea.com/archives/788/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;⚠️ 以下命令将修改您代码仓库的远程地址，请确保明确了解命令的含义在做操作。
 如果不确定请提前做好数据备份！！！&lt;/p&gt;
@@ -71,9 +71,9 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>git 整体提交记录(rabase)后合并(merge) </title>
-      <link>https://www.frytea.com/archives/783/</link>
+      <link>https://frytea.com/archives/783/</link>
       <pubDate>Sat, 22 Apr 2023 07:44:24 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/783/</guid>
+      <guid>https://frytea.com/archives/783/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;⚠️ 无论是 &lt;code&gt;rebase&lt;/code&gt; 还是 &lt;code&gt;merge&lt;/code&gt; 都是一项危险操作，请确保充分理解的命令的含义，并确保每一行代码无误后再继续。
 如果不确定，请一定记得做好数据备份！！！&lt;/p&gt;
@@ -82,9 +82,9 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>安装启动 Git LFS 大型文件处理模块</title>
-      <link>https://www.frytea.com/archives/777/</link>
+      <link>https://frytea.com/archives/777/</link>
       <pubDate>Sun, 09 Apr 2023 07:02:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/777/</guid>
+      <guid>https://frytea.com/archives/777/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Git LFS（Large File Storage）是一个 Git 扩展，用于更有效地处理大型文件。
 
 在基于 git 托管大模型的平台拉取 AI 模型时常常需要开启这一功能。
@@ -100,9 +100,9 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/archives/613/</link>
+      <link>https://frytea.com/archives/613/</link>
       <pubDate>Thu, 30 Dec 2021 01:31:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/613/</guid>
+      <guid>https://frytea.com/archives/613/</guid>
       <description>&lt;p&gt;GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装及汉化&#34;&gt;安装及汉化&lt;/h2&gt;
 &lt;p&gt;首先在 GitKraken 官网下载安装包：&lt;/p&gt;
@@ -113,26 +113,26 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>Git 修改提交过的邮箱和用户名</title>
-      <link>https://www.frytea.com/archives/604/</link>
+      <link>https://frytea.com/archives/604/</link>
       <pubDate>Mon, 13 Dec 2021 02:00:16 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/604/</guid>
+      <guid>https://frytea.com/archives/604/</guid>
       <description>&lt;p&gt;内网提交需要校验企业邮箱，但有时邮箱设置错误导致 &lt;code&gt;commit&lt;/code&gt; 的邮箱有问题，此时可以通过修改已提交记录中的邮箱来修复，无需重新提交。&lt;/p&gt;
 &lt;p&gt;经过检索，发现两种方法，分别适用于修改一次和修改多次，引文在最后都有注明。&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决拉取github仓库报错“gnutls_handshake() failed”问题</title>
-      <link>https://www.frytea.com/archives/421/</link>
+      <link>https://frytea.com/archives/421/</link>
       <pubDate>Mon, 27 Jul 2020 00:21:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/421/</guid>
+      <guid>https://frytea.com/archives/421/</guid>
       <description>&lt;p&gt;本文首发于：https://blog.frytea.com/archives/421/&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gnutls_handshake&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; failed: The TLS connection was non-properly terminated.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最近为新配置的虚机拉取库，但是从 GitHub 拉取库总是出问题，查阅网上文献将问题锁定在代理，但是找了一圈还是没有找到答案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决git不小心提交大文件导致无法提交问题</title>
-      <link>https://www.frytea.com/archives/406/</link>
+      <link>https://frytea.com/archives/406/</link>
       <pubDate>Fri, 17 Jul 2020 07:37:55 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/406/</guid>
+      <guid>https://frytea.com/archives/406/</guid>
       <description>&lt;p&gt;在一次不小心向GitHub提交了一个1GB文件后，出现一个令人崩溃的错误：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;remote: error: Trace: a22b6b202ddb6da3e2795ca71663de19
@@ -142,16 +142,16 @@ git restore --source=dev -- path/to/config.yaml
     </item>
     <item>
       <title>版本控制及代码托管平台综述</title>
-      <link>https://www.frytea.com/archives/297/</link>
+      <link>https://frytea.com/archives/297/</link>
       <pubDate>Sun, 19 Jan 2020 16:50:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/297/</guid>
+      <guid>https://frytea.com/archives/297/</guid>
       <description>&lt;p&gt;版本控制是协助软件开发的重要工具之一，根据维基百科中“版本控制”词条的描述，版本控制（英语：Version control）是维护工程蓝图的标准作法，能追踪工程蓝图从诞生一直到定案的过程。此外，版本控制也是一种软件工程技巧，借此能在软件开发的过程中，确保由不同人所编辑的同一程序文件都得到同步。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebStorm中使用Git同步代码到Github</title>
-      <link>https://www.frytea.com/archives/47/</link>
+      <link>https://frytea.com/archives/47/</link>
       <pubDate>Wed, 27 Feb 2019 02:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/47/</guid>
+      <guid>https://frytea.com/archives/47/</guid>
       <description>&lt;h1 id=&#34;webstorm下配置github实现代码同步&#34;&gt;WebStorm下配置GitHub实现代码同步&lt;/h1&gt;
 &lt;p&gt;项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现代码云端存储等，方便自己也方便大家！下面记录一下自己配置webstorm同步github的过程，仅供参考。&lt;/p&gt;</description>
     </item>

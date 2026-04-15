@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Telnet on Frytea</title>
-    <link>https://www.frytea.com/tags/telnet/</link>
+    <link>https://frytea.com/tags/telnet/</link>
     <description>Recent content in Telnet on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 07 Aug 2025 14:33:53 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/telnet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/telnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>telnet 如何退出</title>
-      <link>https://www.frytea.com/archives/1507/</link>
+      <link>https://frytea.com/archives/1507/</link>
       <pubDate>Thu, 07 Aug 2025 14:33:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1507/</guid>
+      <guid>https://frytea.com/archives/1507/</guid>
       <description>&lt;p&gt;telnet 的退出 分成两种，一中是在telnet命令中，直接输入 quit 或者 q 即可退出。 二种情况是 已经进入了端口中，需要先从端口中退出，然后再退出telnet。&lt;/p&gt;</description>
     </item>
   </channel>

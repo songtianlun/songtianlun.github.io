@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mochi Diffusion on Frytea</title>
-    <link>https://www.frytea.com/tags/mochi-diffusion/</link>
+    <link>https://frytea.com/tags/mochi-diffusion/</link>
     <description>Recent content in Mochi Diffusion on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 09 Apr 2023 07:11:50 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/mochi-diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/mochi-diffusion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 MacBook 上运行开源版 AI 图像生成模型之 Mochi Diffusion</title>
-      <link>https://www.frytea.com/archives/778/</link>
+      <link>https://frytea.com/archives/778/</link>
       <pubDate>Sun, 09 Apr 2023 07:11:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/778/</guid>
+      <guid>https://frytea.com/archives/778/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/godly-devotion/MochiDiffusion&#34;&gt;Mochi Diffusion&lt;/a&gt; 是一个开源的在 Mac 上原生运行 Stable Diffusion 的客户端，可以在 iOS 和 Mac 上使用 Stable Diffusion 画图而无需联网。&lt;/p&gt;
 &lt;p&gt;Stable Diffusion 作为当前火爆 AI 图像生成中的开源方案，得到广泛关注。使用下面介绍的客户端可以在 MacBook 上相对快速的将这一模型运行起来。&lt;/p&gt;</description>
     </item>

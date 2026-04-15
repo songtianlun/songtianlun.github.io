@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on Frytea</title>
-    <link>https://www.frytea.com/tags/ai/</link>
+    <link>https://frytea.com/tags/ai/</link>
     <description>Recent content in AI on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 29 Jan 2026 12:00:15 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>终极指南：在 Linux 裸机服务器上快速部署 Moltbot (原 Clawbot) 并集成飞书</title>
-      <link>https://www.frytea.com/archives/1617/</link>
+      <link>https://frytea.com/archives/1617/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1617/</guid>
+      <guid>https://frytea.com/archives/1617/</guid>
       <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
 &lt;p&gt;2026 年初，一个名为 Moltbot（前身为 Clawbot）的开源 AI 代理（Agent）框架席卷了开发者社区。该框架允许用户将强大的 AI 模型（例如 OpenAI 的 GPT 系列、Anthropic 的 Claude 等）与 WhatsApp、Telegram、Discord 等日常通讯工具集成，从而通过聊天即可操控电脑、执行任务、获取信息。特斯拉前 AI 主管 Andrej Karpathy 的推荐更是使其迅速走红，其 GitHub 项目在短时间内获得了超过 60,000 个星标。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI 生图精品提示词｜第一期</title>
-      <link>https://www.frytea.com/archives/1547/</link>
+      <link>https://frytea.com/archives/1547/</link>
       <pubDate>Sat, 06 Dec 2025 06:47:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1547/</guid>
+      <guid>https://frytea.com/archives/1547/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;若没有特别说明，默认使用 &lt;a href=&#34;https://ailoft.net/&#34;&gt;AiLoft&lt;/a&gt; 提供的 &lt;code&gt;Nano Banana Pro&lt;/code&gt; 模型生成。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -49,32 +49,32 @@ Starbucks
     </item>
     <item>
       <title>整理了一个 AI 提示词库</title>
-      <link>https://www.frytea.com/archives/1520/</link>
+      <link>https://frytea.com/archives/1520/</link>
       <pubDate>Sun, 07 Sep 2025 17:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1520/</guid>
+      <guid>https://frytea.com/archives/1520/</guid>
       <description>&lt;p&gt;大模型的能力越来越强，但是如何发挥大模型真正的实力？&lt;/p&gt;
 &lt;p&gt;这是我一直在思考的问题，在平常的使用过程中很容易发现，提示词的使用技巧对于生成结果的质量至关重要。多看看优秀的提示词，还能启发我们利用大模型的更多用法。&lt;/p&gt;</description>
     </item>
     <item>
       <title>让 LLM 看到真实世界的 Playwright MCP</title>
-      <link>https://www.frytea.com/archives/1519/</link>
+      <link>https://frytea.com/archives/1519/</link>
       <pubDate>Sun, 07 Sep 2025 14:22:41 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1519/</guid>
+      <guid>https://frytea.com/archives/1519/</guid>
       <description>&lt;p&gt;Playwright MCP 是一个模型上下文协议（MCP）服务器，使用 &lt;a href=&#34;https://playwright.dev&#34;&gt;Playwright&lt;/a&gt; 提供浏览器自动化功能。该服务器使 LLM 能够通过结构化的可访问性快照与网页交互，从而绕过对屏幕截图或视觉调整模型的需求。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Claude Code Subagents 快速开始</title>
-      <link>https://www.frytea.com/archives/1501/</link>
+      <link>https://frytea.com/archives/1501/</link>
       <pubDate>Tue, 29 Jul 2025 01:26:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1501/</guid>
+      <guid>https://frytea.com/archives/1501/</guid>
       <description>&lt;p&gt;在Claude Code中的AI子代理，可用于特定任务的工作流程和改进的上下文管理。&lt;/p&gt;
 &lt;p&gt;Claude Code中的自定义子代理是专门的AI助手，可以被调用来处理特定类型的任务。它们通过提供具有自定义系统提示、工具和独立上下文窗口的特定任务配置，实现更高效的问题解决。&lt;/p&gt;</description>
     </item>
     <item>
       <title> Lyra - AI Prompt Optimization Specialist</title>
-      <link>https://www.frytea.com/archives/1496/</link>
+      <link>https://frytea.com/archives/1496/</link>
       <pubDate>Sun, 20 Jul 2025 10:09:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1496/</guid>
+      <guid>https://frytea.com/archives/1496/</guid>
       <description>&lt;p&gt;AI 提示优化专家 - Lyra, 一个很好的提示词。&lt;/p&gt;
 &lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into
@@ -183,9 +183,9 @@ Starbucks
     </item>
     <item>
       <title>判断GPT是否降智的几个问题</title>
-      <link>https://www.frytea.com/archives/1487/</link>
+      <link>https://frytea.com/archives/1487/</link>
       <pubDate>Thu, 05 Jun 2025 09:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1487/</guid>
+      <guid>https://frytea.com/archives/1487/</guid>
       <description>&lt;h1 id=&#34;判别方法&#34;&gt;判别方法&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;以下问题，问3-4次&lt;/p&gt;
@@ -200,9 +200,9 @@ Starbucks
     </item>
     <item>
       <title>OpenManus 使用记录</title>
-      <link>https://www.frytea.com/archives/1478/</link>
+      <link>https://frytea.com/archives/1478/</link>
       <pubDate>Mon, 21 Apr 2025 08:35:45 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1478/</guid>
+      <guid>https://frytea.com/archives/1478/</guid>
       <description>&lt;h1 id=&#34;安装运行&#34;&gt;安装运行&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 安装 uv（一个快速的 Python 包管理器）：&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -228,18 +228,18 @@ Starbucks
     </item>
     <item>
       <title>绘图模型效果对比之城市气象</title>
-      <link>https://www.frytea.com/archives/1476/</link>
+      <link>https://frytea.com/archives/1476/</link>
       <pubDate>Mon, 21 Apr 2025 08:34:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1476/</guid>
+      <guid>https://frytea.com/archives/1476/</guid>
       <description>&lt;h1 id=&#34;promot&#34;&gt;Promot&lt;/h1&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;A highly detailed and photorealistic image of Akmenė, Pemagatshel, Lithuania, during a cloudy day with a temperature feel of 7.0°C. The scene captures the historic Church of St. John the Baptist, its intricate brickwork and architectural features glistening from recent rain. The wet pavement reflects the overcast sky, which is 76.0% cloud covered, creating a soft, diffused light that highlights the textures of the buildings and surrounding lush greenery. The foreground includes puddles forming on the cobblestone streets, while the background features dense, misty forests framing the town. The composition employs the rule of thirds, with the church positioned to the right, leading lines from the street guiding the viewer’s eye through the scene. The lighting enhances the mood, maintaining clarity and brightness, with details visible in the shadows. The overall atmosphere is tranquil and inviting, embodying the rich cultural heritage and natural beauty of Akmenė.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Refs: &lt;a href=&#34;https://todayaiweather.com/cities/akmene/weather/2025-04-21-fa0d310b-ff01-41e7-a002-c33f735aa311&#34;&gt;Akmenė, Lithuania Weather Art&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LLM 聚合 API 价格对比</title>
-      <link>https://www.frytea.com/archives/1453/</link>
+      <link>https://frytea.com/archives/1453/</link>
       <pubDate>Fri, 14 Mar 2025 17:26:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1453/</guid>
+      <guid>https://frytea.com/archives/1453/</guid>
       <description>&lt;p&gt;List&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;gpt-4&lt;/code&gt;&lt;/li&gt;
@@ -321,9 +321,9 @@ Starbucks
     </item>
     <item>
       <title>全球艺术天气网站</title>
-      <link>https://www.frytea.com/archives/1430/</link>
+      <link>https://frytea.com/archives/1430/</link>
       <pubDate>Sun, 02 Feb 2025 15:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1430/</guid>
+      <guid>https://frytea.com/archives/1430/</guid>
       <description>&lt;p&gt;介绍一个 每日 AI 艺术天气 网站，能够通过人工智能生成的艺术作品，以独特的视角展现日常气象现象。&lt;/p&gt;
 &lt;h2 id=&#34;入口&#34;&gt;入口&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://todayaiweather.com/&#34;&gt;TodayAiWeather&lt;/a&gt;&lt;/p&gt;
@@ -344,16 +344,16 @@ Starbucks
     </item>
     <item>
       <title>使用 GCOP AI 助力提升 git commit 效率</title>
-      <link>https://www.frytea.com/archives/1423/</link>
+      <link>https://frytea.com/archives/1423/</link>
       <pubDate>Sat, 04 Jan 2025 01:54:12 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1423/</guid>
+      <guid>https://frytea.com/archives/1423/</guid>
       <description>&lt;p&gt;最近在 &lt;a href=&#34;https://www.ruanyifeng.com/blog/2024/12/weekly-issue-331.html&#34;&gt;阮老师博客&lt;/a&gt; 看到一款这个 &lt;a href=&#34;https://gcop.zeeland.top&#34;&gt;GCOP&lt;/a&gt;，一个基于 LLM 的 Git 提交消息生成和 Git 工作流程优化工具，试用了一下确实不错。接入 LLM 即可自动分析 git 修改生成 commit 消息，比我之前做的 git-commit 生成器好用多了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【Ai Agent】智能体实验之城市天气画报</title>
-      <link>https://www.frytea.com/archives/1416/</link>
+      <link>https://frytea.com/archives/1416/</link>
       <pubDate>Fri, 27 Dec 2024 10:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1416/</guid>
+      <guid>https://frytea.com/archives/1416/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;计划进行一系列 AI Agent 实验，欢迎交流。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -483,16 +483,16 @@ Starbucks
     </item>
     <item>
       <title>自托管 AIGC UI APP 汇总</title>
-      <link>https://www.frytea.com/archives/1405/</link>
+      <link>https://frytea.com/archives/1405/</link>
       <pubDate>Fri, 20 Dec 2024 04:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1405/</guid>
+      <guid>https://frytea.com/archives/1405/</guid>
       <description>&lt;p&gt;该清单搜集人类创造的最先进最好用的开源 AIGC APP 方案，包括但不限于对话、识图、生图、TTS、知识库、多模态、工作流编排，主要搜集支持自托管，可容器化部署的方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Prompt 整理</title>
-      <link>https://www.frytea.com/archives/1396/</link>
+      <link>https://frytea.com/archives/1396/</link>
       <pubDate>Thu, 12 Dec 2024 10:50:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1396/</guid>
+      <guid>https://frytea.com/archives/1396/</guid>
       <description>&lt;h2 id=&#34;prompt-原则&#34;&gt;prompt 原则&lt;/h2&gt;
 &lt;p&gt;1、写出清晰而具体的指示，清晰不是指短，而是尽量详细，可采用分隔符避免自己的要求和内容的混淆，分隔符形式不限：&lt;code&gt;“””&lt;/code&gt;, &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt;, &lt;code&gt;{}&lt;/code&gt;
 2、给模型思考的时间。如果答案不对，可以尝试不断变化提问方式，直到得出想要结果。可以采用简化或分解问题的方式。&lt;/p&gt;</description>

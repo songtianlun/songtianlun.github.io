@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ubuntu on Frytea</title>
-    <link>https://www.frytea.com/tags/ubuntu/</link>
+    <link>https://frytea.com/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 11 Jul 2025 09:55:40 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 自签名 CA 证书安装方法</title>
-      <link>https://www.frytea.com/archives/1495/</link>
+      <link>https://frytea.com/archives/1495/</link>
       <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1495/</guid>
+      <guid>https://frytea.com/archives/1495/</guid>
       <description>&lt;p&gt;在 Linux 中运行 docker, containerd, helm 等应用时需要信任自签署证书保护的内部仓库服务，此时需要注入自签名 CA 证书，以 Ubunut 为例。在 Ubuntu 系统中，CA 证书信任主要存储在以下目录：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 22.04设置DNS</title>
-      <link>https://www.frytea.com/archives/1365/</link>
+      <link>https://frytea.com/archives/1365/</link>
       <pubDate>Thu, 28 Nov 2024 10:11:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1365/</guid>
+      <guid>https://frytea.com/archives/1365/</guid>
       <description>&lt;p&gt;DNS域名系统是网络基础架构的核心部分，提供了一种将域名转换为IP地址的方法。&lt;/p&gt;
 &lt;p&gt;您可以将DNS视为互联网的电话簿。注意这篇文章不是在Ubuntu 22.04配置自己的DNS服务器。而是给客户端配置DNS的IP地址。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 安装指定版本 docker</title>
-      <link>https://www.frytea.com/archives/789/</link>
+      <link>https://frytea.com/archives/789/</link>
       <pubDate>Sun, 30 Apr 2023 16:06:25 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/789/</guid>
+      <guid>https://frytea.com/archives/789/</guid>
       <description>&lt;p&gt;如果你过去安装过 docker，先删掉：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get remove docker docker-engine docker.io containerd runc
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;首先安装依赖：&lt;/p&gt;
@@ -48,9 +48,9 @@ echo \
     </item>
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/archives/613/</link>
+      <link>https://frytea.com/archives/613/</link>
       <pubDate>Thu, 30 Dec 2021 01:31:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/613/</guid>
+      <guid>https://frytea.com/archives/613/</guid>
       <description>&lt;p&gt;GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装及汉化&#34;&gt;安装及汉化&lt;/h2&gt;
 &lt;p&gt;首先在 GitKraken 官网下载安装包：&lt;/p&gt;
@@ -61,31 +61,31 @@ echo \
     </item>
     <item>
       <title>deb 软件包里都有什么</title>
-      <link>https://www.frytea.com/archives/591/</link>
+      <link>https://frytea.com/archives/591/</link>
       <pubDate>Thu, 28 Oct 2021 03:32:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/591/</guid>
+      <guid>https://frytea.com/archives/591/</guid>
       <description>&lt;p&gt;日常工作学习常常会在 Debian 系操作系统中完成，特别是最近自己开始打包、安装，发现 .deb 安装包甚至可以包含内核，且 Debian 就是通过这种方式来管理内核的，那么 deb 软件包中究竟有那些内容呢？&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/archives/267/</link>
+      <link>https://frytea.com/archives/267/</link>
       <pubDate>Thu, 28 Nov 2019 08:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/267/</guid>
+      <guid>https://frytea.com/archives/267/</guid>
       <description>&lt;p&gt;DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。&lt;/p&gt;
 &lt;p&gt;在内网中又一台服务器提供服务，为了使用使其可以在公共网络中访问到需要为它分配 ip 或者使用端口转发、内网穿透等，但绑定域名后域名解析到公网ip，如果在内网访问的话就写多此一举。因此在内网自建一台 DNS 服务器，使其优先级高于公网域名解析服务器，进而实现内网访问解析为内网 ip 且不影响外网访问的目的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/archives/266/</link>
+      <link>https://frytea.com/archives/266/</link>
       <pubDate>Thu, 28 Nov 2019 08:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/266/</guid>
+      <guid>https://frytea.com/archives/266/</guid>
       <description>&lt;p&gt;GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 WikiPedia）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/archives/265/</link>
+      <link>https://frytea.com/archives/265/</link>
       <pubDate>Wed, 27 Nov 2019 02:34:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/265/</guid>
+      <guid>https://frytea.com/archives/265/</guid>
       <description>&lt;p&gt;自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;完整、好用的客户端，包括 windows、mac、android、ios &amp;hellip;&lt;/li&gt;

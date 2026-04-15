@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C on Frytea</title>
-    <link>https://www.frytea.com/tags/c/</link>
+    <link>https://frytea.com/tags/c/</link>
     <description>Recent content in C on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 05 Jan 2023 00:43:52 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pkg-config 自动补全 C 编译库依赖</title>
-      <link>https://www.frytea.com/archives/719/</link>
+      <link>https://frytea.com/archives/719/</link>
       <pubDate>Thu, 05 Jan 2023 00:43:52 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/719/</guid>
+      <guid>https://frytea.com/archives/719/</guid>
       <description>&lt;p&gt;pkg-config 是一个在源代码编译时查询已安装的库的使用接口的计算机工具软件。&lt;/p&gt;
 &lt;h2 id=&#34;工作原理&#34;&gt;工作原理&lt;/h2&gt;
 &lt;p&gt;其工作原理如下：
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>根本解决C程序 ignoring return value of ‘***’</title>
-      <link>https://www.frytea.com/archives/641/</link>
+      <link>https://frytea.com/archives/641/</link>
       <pubDate>Wed, 02 Nov 2022 05:22:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/641/</guid>
+      <guid>https://frytea.com/archives/641/</guid>
       <description>&lt;p&gt;最近在移植一个 C 项目时出现如下报错：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;xxxxxx.c:990:4: error: ignoring return value of ‘chroot’, declared with attribute warn_unused_result [-Werror=unused-result]
   990 |    chroot(&amp;#34;/&amp;#34;);

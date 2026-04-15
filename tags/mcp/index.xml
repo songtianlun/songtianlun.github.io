@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MCP on Frytea</title>
-    <link>https://www.frytea.com/tags/mcp/</link>
+    <link>https://frytea.com/tags/mcp/</link>
     <description>Recent content in MCP on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Sep 2025 14:22:41 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让 LLM 看到真实世界的 Playwright MCP</title>
-      <link>https://www.frytea.com/archives/1519/</link>
+      <link>https://frytea.com/archives/1519/</link>
       <pubDate>Sun, 07 Sep 2025 14:22:41 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1519/</guid>
+      <guid>https://frytea.com/archives/1519/</guid>
       <description>&lt;p&gt;Playwright MCP 是一个模型上下文协议（MCP）服务器，使用 &lt;a href=&#34;https://playwright.dev&#34;&gt;Playwright&lt;/a&gt; 提供浏览器自动化功能。该服务器使 LLM 能够通过结构化的可访问性快照与网页交互，从而绕过对屏幕截图或视觉调整模型的需求。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI提效之使用 cherry-studio &#43; k8sgpt 实现 AI 巡检 k8s</title>
-      <link>https://www.frytea.com/archives/1502/</link>
+      <link>https://frytea.com/archives/1502/</link>
       <pubDate>Tue, 29 Jul 2025 01:43:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1502/</guid>
+      <guid>https://frytea.com/archives/1502/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/k8sgpt-ai/k8sgpt&#34;&gt;&lt;code&gt;k8sgpt&lt;/code&gt;&lt;/a&gt; 能够赋予每个人的 &lt;code&gt;Kubernetes&lt;/code&gt; 超能力，能够用简单的语言扫描 &lt;code&gt;Kubernetes&lt;/code&gt; 集群、诊断和分类问题。利用 &lt;code&gt;k8sgpt&lt;/code&gt; 的 &lt;code&gt;mcp&lt;/code&gt; 服务，可以为 LLM 赋予访问 k8s 集群的可能性。&lt;/p&gt;
 &lt;p&gt;工作原理图：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;sequenceDiagram
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Claude Code Subagents 快速开始</title>
-      <link>https://www.frytea.com/archives/1501/</link>
+      <link>https://frytea.com/archives/1501/</link>
       <pubDate>Tue, 29 Jul 2025 01:26:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1501/</guid>
+      <guid>https://frytea.com/archives/1501/</guid>
       <description>&lt;p&gt;在Claude Code中的AI子代理，可用于特定任务的工作流程和改进的上下文管理。&lt;/p&gt;
 &lt;p&gt;Claude Code中的自定义子代理是专门的AI助手，可以被调用来处理特定类型的任务。它们通过提供具有自定义系统提示、工具和独立上下文窗口的特定任务配置，实现更高效的问题解决。&lt;/p&gt;</description>
     </item>

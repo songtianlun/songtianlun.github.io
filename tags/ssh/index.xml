@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ssh on Frytea</title>
-    <link>https://www.frytea.com/tags/ssh/</link>
+    <link>https://frytea.com/tags/ssh/</link>
     <description>Recent content in Ssh on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Oct 2025 04:05:08 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH 通过跳板机连接</title>
-      <link>https://www.frytea.com/archives/1535/</link>
+      <link>https://frytea.com/archives/1535/</link>
       <pubDate>Tue, 14 Oct 2025 04:05:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1535/</guid>
+      <guid>https://frytea.com/archives/1535/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;有两种方式可以实现通过跳板机直接连接目标服务器 SSH.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ProxyJump（推荐方式）OpenSSH &amp;gt;= 7.3
@@ -33,9 +33,9 @@ ssh -o &amp;#34;ProxyCommand ssh -W %h:%p user@jump-server.dealiaxy.com -p 10023
     </item>
     <item>
       <title>解决 SSH 无操作自动断开 | pychram 超时无响应</title>
-      <link>https://www.frytea.com/archives/623/</link>
+      <link>https://frytea.com/archives/623/</link>
       <pubDate>Wed, 19 Jan 2022 01:49:24 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/623/</guid>
+      <guid>https://frytea.com/archives/623/</guid>
       <description>&lt;p&gt;工作中常需要连接着服务器，下班或暂时离开时会出现一段时间不操作终端，此时就会自动断开。&lt;/p&gt;
 &lt;p&gt;这本身无伤大雅，重连即可，直到我发现，一些依赖 SSH 提供的服务也会因此受到影响，比如 &lt;code&gt;Pychram&lt;/code&gt; 远程开发，会在一段时间后无响应，只能重启 Pychram 解决，很影响效率。&lt;/p&gt;</description>
     </item>

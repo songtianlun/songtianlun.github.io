@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Buildah on Frytea</title>
-    <link>https://www.frytea.com/tags/buildah/</link>
+    <link>https://frytea.com/tags/buildah/</link>
     <description>Recent content in Buildah on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 24 Dec 2024 11:23:04 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/buildah/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/buildah/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖</title>
-      <link>https://www.frytea.com/archives/1403/</link>
+      <link>https://frytea.com/archives/1403/</link>
       <pubDate>Tue, 24 Dec 2024 11:23:04 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1403/</guid>
+      <guid>https://frytea.com/archives/1403/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;https://www.lixueduan.com/posts/cloudnative/03-buildah/&#34;&gt;Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Frytea</title>
-    <link>https://www.frytea.com/tags/linux/</link>
+    <link>https://frytea.com/tags/linux/</link>
     <description>Recent content in Linux on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 01 Apr 2026 05:55:30 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KDE Plasma6 禁用全局菜单，恢复正常应用菜单</title>
-      <link>https://www.frytea.com/archives/1650/</link>
+      <link>https://frytea.com/archives/1650/</link>
       <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1650/</guid>
+      <guid>https://frytea.com/archives/1650/</guid>
       <description>&lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;
 &lt;p&gt;不知道从什么时候开始，KDE Plasma 默认启用类似 macOS 的全局应用菜单。&lt;/p&gt;
 &lt;p&gt;即应用窗口标题栏下方不显示菜单，而是移动到顶部菜单栏中“全局菜单”小组件中。&lt;/p&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>磁盘使用分析工具对比：du vs ncdu vs gdu vs dust</title>
-      <link>https://www.frytea.com/archives/1545/</link>
+      <link>https://frytea.com/archives/1545/</link>
       <pubDate>Mon, 03 Nov 2025 15:14:51 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1545/</guid>
+      <guid>https://frytea.com/archives/1545/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Claude Sonnet 4.5 协助编写。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -35,17 +35,17 @@
     </item>
     <item>
       <title>彻底解决阿里云和 tailscale 冲突</title>
-      <link>https://www.frytea.com/archives/1543/</link>
+      <link>https://frytea.com/archives/1543/</link>
       <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1543/</guid>
+      <guid>https://frytea.com/archives/1543/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;如果你在一台阿里云服务器安装并启动了 tailscale，大概率会出现&lt;strong&gt;阿里云服务器无法上网的问题&lt;/strong&gt;，根本原因为阿里云服务器默认DNS与tailscale网段产生冲突。&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSH 通过跳板机连接</title>
-      <link>https://www.frytea.com/archives/1535/</link>
+      <link>https://frytea.com/archives/1535/</link>
       <pubDate>Tue, 14 Oct 2025 04:05:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1535/</guid>
+      <guid>https://frytea.com/archives/1535/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;有两种方式可以实现通过跳板机直接连接目标服务器 SSH.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ProxyJump（推荐方式）OpenSSH &amp;gt;= 7.3
@@ -61,9 +61,9 @@ ssh -o &amp;#34;ProxyCommand ssh -W %h:%p user@jump-server.dealiaxy.com -p 10023
     </item>
     <item>
       <title>grep exclude 排除</title>
-      <link>https://www.frytea.com/archives/1514/</link>
+      <link>https://frytea.com/archives/1514/</link>
       <pubDate>Thu, 28 Aug 2025 14:32:39 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1514/</guid>
+      <guid>https://frytea.com/archives/1514/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;--exclude=FILE_PATTERN  skip files and directories matching FILE_PATTERN
 --exclude-from=FILE     skip files matching any file pattern from FILE
 --exclude-dir=PATTERN   directories that match PATTERN will be skipped.
@@ -74,34 +74,34 @@ ssh -o &amp;#34;ProxyCommand ssh -W %h:%p user@jump-server.dealiaxy.com -p 10023
     </item>
     <item>
       <title>Debian 11 &#43; PVE LACP Mac 冲突问题调查与解决方案</title>
-      <link>https://www.frytea.com/archives/1512/</link>
+      <link>https://frytea.com/archives/1512/</link>
       <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1512/</guid>
+      <guid>https://frytea.com/archives/1512/</guid>
       <description>&lt;p&gt;By TL.S&lt;/p&gt;
 &lt;h2 id=&#34;问题背景&#34;&gt;问题背景&lt;/h2&gt;
 &lt;p&gt;在Debian 11 + Proxmox VE环境中，当配置LACP（Link Aggregation Control Protocol）绑定接口时，有一个环境遇到一个令人困惑的问题：&lt;strong&gt;相同硬件配置的多台服务器上，所有服务器的同名bond接口都被分配了相同的MAC地址&lt;/strong&gt;。这种情况会导致严重的网络连接问题，特别是在集群环境中。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 自签名 CA 证书安装方法</title>
-      <link>https://www.frytea.com/archives/1495/</link>
+      <link>https://frytea.com/archives/1495/</link>
       <pubDate>Fri, 11 Jul 2025 09:55:40 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1495/</guid>
+      <guid>https://frytea.com/archives/1495/</guid>
       <description>&lt;p&gt;在 Linux 中运行 docker, containerd, helm 等应用时需要信任自签署证书保护的内部仓库服务，此时需要注入自签名 CA 证书，以 Ubunut 为例。在 Ubuntu 系统中，CA 证书信任主要存储在以下目录：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 进程绑定NUMA节点或CPU核心</title>
-      <link>https://www.frytea.com/archives/1488/</link>
+      <link>https://frytea.com/archives/1488/</link>
       <pubDate>Thu, 05 Jun 2025 09:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1488/</guid>
+      <guid>https://frytea.com/archives/1488/</guid>
       <description>&lt;p&gt;对于CPU和NUMA架构的介绍本文不再做叙述，感兴趣的可自行查看：&lt;a href=&#34;https://www.cnblogs.com/Xinenhui/p/17972709&#34;&gt;Linux&amp;ndash;CPU简述&lt;/a&gt;，&lt;a href=&#34;https://www.cnblogs.com/Xinenhui/p/17897482.html&#34;&gt;Linux&amp;ndash;内存管理浅谈&lt;/a&gt;。&lt;/p&gt;
 &lt;h1 id=&#34;进程绑定numa节点或cpu核心的意义&#34;&gt;进程绑定NUMA节点或cpu核心的意义&lt;/h1&gt;
 &lt;p&gt;NUMA 架构将内存和cpu分散在不同的 NUMA 节点上，每个节点都有自己的本地内存和cpu处理器，&lt;strong&gt;将进程绑定到特定的 NUMA 节点或cpu上，可以让进程直接访问本地内存和CPU，减少访问远程节点开销，提高访问速度，从而提高程序性能&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一条命令测试 pg 查询延迟</title>
-      <link>https://www.frytea.com/archives/1457/</link>
+      <link>https://frytea.com/archives/1457/</link>
       <pubDate>Mon, 31 Mar 2025 10:01:13 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1457/</guid>
+      <guid>https://frytea.com/archives/1457/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ apt install postgresql-client
 $ time psql &amp;#34;postgresql://xxx:xxxx@x.x.x.x:5432/today_ai_weather&amp;#34; -c &amp;#34;\timing on&amp;#34;  -c &amp;#34;SELECT 1&amp;#34;  
 Timing is on.  
@@ -119,9 +119,9 @@ sys     0m0.020s
     </item>
     <item>
       <title>ArchLinux pacman 一键找到最快的镜像源清单</title>
-      <link>https://www.frytea.com/archives/1454/</link>
+      <link>https://frytea.com/archives/1454/</link>
       <pubDate>Fri, 14 Mar 2025 17:26:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1454/</guid>
+      <guid>https://frytea.com/archives/1454/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -s &amp;#34;https://archlinux.org/mirrorlist/?country=CN&amp;amp;protocol=https&amp;amp;use_mirror_status=on&amp;#34; | sed -e &amp;#39;s/^#Server/Server/&amp;#39; -e &amp;#39;/^#/d&amp;#39; | rankmirrors -n 5 -
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;运行这个命令，即可自动从 archlinux 官方 mirror 清单获取中国 (&lt;code&gt;CN&lt;/code&gt;) 的镜像清单，并调用 &lt;code&gt;rankmirrors&lt;/code&gt;  测速得到速度最快的前5个。&lt;/p&gt;
 &lt;p&gt;配置到 &lt;code&gt;/etc/pacman.d/mirrorlist&lt;/code&gt; 目录中即可使用。&lt;/p&gt;
@@ -133,17 +133,17 @@ sys     0m0.020s
     </item>
     <item>
       <title>Linux buffer-cache 占用过高性能调整</title>
-      <link>https://www.frytea.com/archives/1411/</link>
+      <link>https://frytea.com/archives/1411/</link>
       <pubDate>Sat, 04 Jan 2025 01:39:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1411/</guid>
+      <guid>https://frytea.com/archives/1411/</guid>
       <description>&lt;h1 id=&#34;什么是-buffcache&#34;&gt;什么是 buff/cache？&lt;/h1&gt;
 &lt;p&gt;在 &lt;code&gt;Linux 2.4&lt;/code&gt; 的内存管理中，&lt;code&gt;buffer&lt;/code&gt; 指 Linux 内存的：&lt;code&gt;Buffer cache&lt;/code&gt;。&lt;code&gt;cache&lt;/code&gt; 指 Linux 内存中的：&lt;code&gt;Page cache&lt;/code&gt;。一般呢，是这么解释两者的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>VirtualBox VERR_NO_LOW_MEMORY 解决</title>
-      <link>https://www.frytea.com/archives/1412/</link>
+      <link>https://frytea.com/archives/1412/</link>
       <pubDate>Sat, 04 Jan 2025 01:39:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1412/</guid>
+      <guid>https://frytea.com/archives/1412/</guid>
       <description>&lt;p&gt;Archlinux 下内存有很多，但 VB 报错内存不足 VM 无法启动，free 可以看到内存大部分被 buffer 占用。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;free -h
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              total        used        free      shared  buff/cache   available  
@@ -153,16 +153,16 @@ sys     0m0.020s
     </item>
     <item>
       <title>配置 harbor 及 docker 等使用 https</title>
-      <link>https://www.frytea.com/archives/1408/</link>
+      <link>https://frytea.com/archives/1408/</link>
       <pubDate>Mon, 30 Dec 2024 15:53:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1408/</guid>
+      <guid>https://frytea.com/archives/1408/</guid>
       <description>&lt;p&gt;默认情况下，Harbor不提供证书。可以在没有安全性的情况下部署Harbor，这样您就可以通过HTTP连接到它。但是，只有在没有连接到外部internet的空间隙测试或开发环境中才可以使用HTTP。在没有空间隙的环境中使用HTTP会暴露给中间人攻击。在生产环境中，始终使用HTTPS。如果启用带公证人的内容信任对所有images进行正确签名，则必须使用HTTPS。&lt;/p&gt;</description>
     </item>
     <item>
       <title>收藏一个上古软件，在 Linux 终端上使用行编辑器 ed</title>
-      <link>https://www.frytea.com/archives/1407/</link>
+      <link>https://frytea.com/archives/1407/</link>
       <pubDate>Tue, 24 Dec 2024 11:23:18 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1407/</guid>
+      <guid>https://frytea.com/archives/1407/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;这个看似简单的编辑器为用户提供了许多易于学习和使用的命令。
 这款产生自资源极其有限时期的产物，似乎还很有助于理解 &lt;code&gt;vi/vim&lt;/code&gt; 和 &lt;code&gt;emacs&lt;/code&gt; 的一些设计。&lt;/p&gt;
@@ -171,9 +171,9 @@ sys     0m0.020s
     </item>
     <item>
       <title>tmux 加大缓冲区大小</title>
-      <link>https://www.frytea.com/archives/1398/</link>
+      <link>https://frytea.com/archives/1398/</link>
       <pubDate>Sat, 21 Dec 2024 06:53:29 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1398/</guid>
+      <guid>https://frytea.com/archives/1398/</guid>
       <description>&lt;p&gt;永久配置&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ vim ~/.tmux.conf
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+ set -g history-limit &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt;
@@ -191,9 +191,9 @@ sys     0m0.020s
     </item>
     <item>
       <title>Linux SWAP 占用情况排查 - smem</title>
-      <link>https://www.frytea.com/archives/1399/</link>
+      <link>https://frytea.com/archives/1399/</link>
       <pubDate>Fri, 13 Dec 2024 10:52:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1399/</guid>
+      <guid>https://frytea.com/archives/1399/</guid>
       <description>&lt;p&gt;最近发现 ArchLinux 的 32G 内存经常出现 OOM，分配 SWAP 后分多少就占多少，很奇怪，就想办法排查一下，找到了 &lt;code&gt;smem&lt;/code&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;smem 是一款能提供大量 Linux 系统内存使用报告的工具。与现有工具不同，smem 可以报告比例集大小 (PSS)，这对虚拟内存系统中库和应用程序使用的内存量来说更有意义。
@@ -201,9 +201,9 @@ sys     0m0.020s
     </item>
     <item>
       <title>linux vps dd windows</title>
-      <link>https://www.frytea.com/archives/1389/</link>
+      <link>https://frytea.com/archives/1389/</link>
       <pubDate>Fri, 13 Dec 2024 10:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1389/</guid>
+      <guid>https://frytea.com/archives/1389/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 
 bash reinstall.sh windows \
@@ -218,39 +218,39 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>Linux 网卡多队列配置方法</title>
-      <link>https://www.frytea.com/archives/1395/</link>
+      <link>https://frytea.com/archives/1395/</link>
       <pubDate>Tue, 10 Dec 2024 10:03:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1395/</guid>
+      <guid>https://frytea.com/archives/1395/</guid>
       <description>&lt;p&gt;多队列是指网络接口卡具有在多个发送和接收队列上并行处理网络数据包的能力。在使用网卡多队列时，通常需要配置网络中断亲和性（IRQ Affinity），将不同的队列中断分配给特定的CPU处理，而不是由任意的CPU处理，这有助于减少CPU之间的争用并提高网络性能。本文介绍如何配置Linux系统的网卡多队列的网络中断亲和性和修改网卡多队列数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux overcommit 及 oom-killer 机制</title>
-      <link>https://www.frytea.com/archives/1388/</link>
+      <link>https://frytea.com/archives/1388/</link>
       <pubDate>Fri, 06 Dec 2024 10:11:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1388/</guid>
+      <guid>https://frytea.com/archives/1388/</guid>
       <description>&lt;p&gt;通常是因为某时刻应用程序大量请求内存导致系统内存不足造成的，这通常会触发 Linux 内核里的 Out of Memory (OOM) killer，OOM killer 会杀掉某个进程(用户态进程，不是内核线程)以腾出内存留给系统用，不致于让系统立刻崩溃。&lt;/p&gt;</description>
     </item>
     <item>
       <title>RockLinux 安装 Docker</title>
-      <link>https://www.frytea.com/archives/1371/</link>
+      <link>https://frytea.com/archives/1371/</link>
       <pubDate>Fri, 29 Nov 2024 10:40:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1371/</guid>
+      <guid>https://frytea.com/archives/1371/</guid>
       <description>&lt;p&gt;Docker Engine 可以在 Rocky Linux 服务器上运行原生 Docker 风格的容器工作负载。在运行完整的 Docker Desktop 环境时，有时会首选这种方式。&lt;/p&gt;
 &lt;h2 id=&#34;添加-docker-仓库&#34;&gt;添加 Docker 仓库&lt;/h2&gt;
 &lt;p&gt;使用 &lt;code&gt;dnf&lt;/code&gt; 工具将 Docker 仓库添加到你的 Rocky Linux 服务器。输入：&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用 earlyoom 提前终止 Linux 高内存占用进程</title>
-      <link>https://www.frytea.com/archives/1348/</link>
+      <link>https://frytea.com/archives/1348/</link>
       <pubDate>Wed, 20 Nov 2024 10:09:47 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1348/</guid>
+      <guid>https://frytea.com/archives/1348/</guid>
       <description>&lt;p&gt;当我在服务器上运行一个不太重要的进程时，它的内存使用量会随实际情况不断发生变化，当它的内存超过某个阈值时，我想要 kill 掉它并重启该进程。为了满足我这个需求，我了解到了 &lt;code&gt;earlyoom&lt;/code&gt; 这个程序。&lt;/p&gt;</description>
     </item>
     <item>
       <title>虚拟磁盘扩容后扩展 LVM vg</title>
-      <link>https://www.frytea.com/archives/763/</link>
+      <link>https://frytea.com/archives/763/</link>
       <pubDate>Wed, 29 Mar 2023 10:42:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/763/</guid>
+      <guid>https://frytea.com/archives/763/</guid>
       <description>&lt;h2 id=&#34;新空间分区&#34;&gt;新空间分区&lt;/h2&gt;
 &lt;p&gt;在使用 fdisk 工具将新增的磁盘空间分配到 LVM PV 上时，您需要按照以下步骤操作：&lt;/p&gt;
 &lt;ol&gt;
@@ -266,16 +266,16 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>Arch Linux 高分屏缩放方案</title>
-      <link>https://www.frytea.com/archives/742/</link>
+      <link>https://frytea.com/archives/742/</link>
       <pubDate>Thu, 02 Mar 2023 15:09:06 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/742/</guid>
+      <guid>https://frytea.com/archives/742/</guid>
       <description>&lt;p&gt;linux 下高分屏适配当前在 macos/windows/Linux 中的排位尚属末尾，采用整数倍缩放效果尚好（例如 100%、200%），但是若是使用非整数倍缩放（125%、175%）常常会体会到窗口模糊。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PVE 批量创建、配置虚拟机 IP、网卡、启停及销毁</title>
-      <link>https://www.frytea.com/archives/737/</link>
+      <link>https://frytea.com/archives/737/</link>
       <pubDate>Wed, 08 Feb 2023 00:46:10 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/737/</guid>
+      <guid>https://frytea.com/archives/737/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 从模版批量派生，100 虚拟机仅需2 min&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;001..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm clone &lt;span style=&#34;color:#ae81ff&#34;&gt;336&lt;/span&gt; 11$i --name stl-ceph-bare-node$i --pool stl-ceph-cluster2; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -294,9 +294,9 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>iptables 设置默认规则</title>
-      <link>https://www.frytea.com/archives/735/</link>
+      <link>https://frytea.com/archives/735/</link>
       <pubDate>Tue, 31 Jan 2023 12:48:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/735/</guid>
+      <guid>https://frytea.com/archives/735/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;设置默认的规则
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;iptables -P INPUT DROP &lt;span style=&#34;color:#75715e&#34;&gt;# 配置默认的不让进&lt;/span&gt;
@@ -309,18 +309,18 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>m1 MacBook 安装 asahi linux 磁盘调整失败解决</title>
-      <link>https://www.frytea.com/archives/725/</link>
+      <link>https://frytea.com/archives/725/</link>
       <pubDate>Tue, 10 Jan 2023 13:05:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/725/</guid>
+      <guid>https://frytea.com/archives/725/</guid>
       <description>&lt;p&gt;尝试在 MacBook Air m1 安装 asahi linux ，在磁盘分区过程遭遇报错，具体过程没有留下来，是类似这样的报错：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;error: doc-id tree: record exists &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; doc-id 64, file-id &lt;span style=&#34;color:#ae81ff&#34;&gt;9665861&lt;/span&gt; but no inode references this doc-id
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;大致解决是要进恢复模式，之后使用急救程序尝试修复。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 禁用 SWAP</title>
-      <link>https://www.frytea.com/archives/722/</link>
+      <link>https://frytea.com/archives/722/</link>
       <pubDate>Fri, 06 Jan 2023 00:37:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/722/</guid>
+      <guid>https://frytea.com/archives/722/</guid>
       <description>&lt;p&gt;在服务器和容器平台建议关闭 SWAP，避免内存交换影响服务器性能，甚至引发数据丢失。&lt;/p&gt;
 &lt;p&gt;一、不重启电脑，禁用启用swap，立刻生效&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 禁用命令
@@ -337,9 +337,9 @@ sudo swapon -a
     </item>
     <item>
       <title>pkg-config 自动补全 C 编译库依赖</title>
-      <link>https://www.frytea.com/archives/719/</link>
+      <link>https://frytea.com/archives/719/</link>
       <pubDate>Thu, 05 Jan 2023 00:43:52 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/719/</guid>
+      <guid>https://frytea.com/archives/719/</guid>
       <description>&lt;p&gt;pkg-config 是一个在源代码编译时查询已安装的库的使用接口的计算机工具软件。&lt;/p&gt;
 &lt;h2 id=&#34;工作原理&#34;&gt;工作原理&lt;/h2&gt;
 &lt;p&gt;其工作原理如下：
@@ -349,41 +349,41 @@ sudo swapon -a
     </item>
     <item>
       <title>在 linux 中解析 lib 文件</title>
-      <link>https://www.frytea.com/archives/720/</link>
+      <link>https://frytea.com/archives/720/</link>
       <pubDate>Wed, 04 Jan 2023 00:23:51 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/720/</guid>
+      <guid>https://frytea.com/archives/720/</guid>
       <description>&lt;p&gt;解析 lib 文件可以获取一些二进制库的版本历史信息，例如解析 &lt;code&gt;/usr/lib64/libc.so.6&lt;/code&gt; 即可解析到 glibc 的版本历史。&lt;/p&gt;
 &lt;p&gt;在Linux中，有许多工具可以用来解析库文件（ &lt;code&gt;.lib&lt;/code&gt; 文件）。 可以使用工具如 &lt;code&gt;nm&lt;/code&gt; ， &lt;code&gt;objdump&lt;/code&gt;  和 &lt;code&gt;readelf&lt;/code&gt; 来查看库文件的符号表，包含在库文件中的对象文件的信息，以及库文件的其他信息。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux (Debian 系) 安装官方微信 (Electron，非 wine 版)</title>
-      <link>https://www.frytea.com/archives/677/</link>
+      <link>https://frytea.com/archives/677/</link>
       <pubDate>Fri, 09 Dec 2022 14:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/677/</guid>
+      <guid>https://frytea.com/archives/677/</guid>
       <description>&lt;p&gt;使用 Linux 作为唯一主力系统的阻力之一，就来自于微信。&lt;/p&gt;
 &lt;p&gt;微信大概是目前大多数人都无法离开的软件，而在 Linux 下安装微信在此前是比较复杂的，这对于使用 Linux 工作生活存在一些障碍。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
-      <link>https://www.frytea.com/archives/660/</link>
+      <link>https://frytea.com/archives/660/</link>
       <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/660/</guid>
+      <guid>https://frytea.com/archives/660/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
     <item>
       <title>macOS 使用 arping 扫描 ip 冲突</title>
-      <link>https://www.frytea.com/archives/644/</link>
+      <link>https://frytea.com/archives/644/</link>
       <pubDate>Mon, 07 Nov 2022 06:51:47 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/644/</guid>
+      <guid>https://frytea.com/archives/644/</guid>
       <description>&lt;p&gt;最近工作网络不稳定，多个常用 IP 出现冲突，就连 DHCP 获取到的 IP 也会立刻冲突，原因等待相关人员去解决，今天简单记录 macOS 下 IP 冲突检测的原因。&lt;/p&gt;
 &lt;p&gt;一般检查 IP 是否被占用的方法是使用 ping&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 使用 diff 分栏对比文本差异</title>
-      <link>https://www.frytea.com/archives/640/</link>
+      <link>https://frytea.com/archives/640/</link>
       <pubDate>Wed, 02 Nov 2022 02:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/640/</guid>
+      <guid>https://frytea.com/archives/640/</guid>
       <description>&lt;p&gt;首先看一下帮助文档：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ diff --help  
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;用法：diff &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;选项&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;... 文件列表  
@@ -493,9 +493,9 @@ sudo swapon -a
     </item>
     <item>
       <title>linux grep 过滤多个单词</title>
-      <link>https://www.frytea.com/archives/636/</link>
+      <link>https://frytea.com/archives/636/</link>
       <pubDate>Mon, 31 Oct 2022 09:49:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/636/</guid>
+      <guid>https://frytea.com/archives/636/</guid>
       <description>&lt;p&gt;有时会需要使用 grep 做多关键词匹配，这里给出集中方法，简单记录：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;word1\|word2\|word3&amp;#39;&lt;/span&gt; /path/to/file
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### Search all text files ###&lt;/span&gt;
@@ -515,9 +515,9 @@ sudo swapon -a
     </item>
     <item>
       <title>Linux USB 设备基础理论</title>
-      <link>https://www.frytea.com/archives/633/</link>
+      <link>https://frytea.com/archives/633/</link>
       <pubDate>Wed, 24 Aug 2022 10:04:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/633/</guid>
+      <guid>https://frytea.com/archives/633/</guid>
       <description>&lt;p&gt;通过扫描以下目录获取物理节点所有 USB 设备：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/sys/bus/usb/devices/usb*
 /sys/bus/usb/devices/usb*/$busnum-*
@@ -553,17 +553,17 @@ sudo swapon -a
     </item>
     <item>
       <title>INOTIFY - 监听事件</title>
-      <link>https://www.frytea.com/archives/626/</link>
+      <link>https://frytea.com/archives/626/</link>
       <pubDate>Thu, 27 Jan 2022 01:35:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/626/</guid>
+      <guid>https://frytea.com/archives/626/</guid>
       <description>&lt;p&gt;Linux 2.6.13 内核中引入了新的文件系统变化通知机制 &lt;code&gt;inotify&lt;/code&gt; ，使用该特性提供的用户态调用 api ，可以方便的完成文件变化监听。&lt;/p&gt;
 &lt;p&gt;各种语言基本都提供了对该接口的调用方法： &lt;code&gt;C&lt;/code&gt; 不必多说， &lt;code&gt;Perl&lt;/code&gt; 使用 &lt;code&gt;[Linux::Inotify2](https://metacpan.org/pod/Linux::Inotify2)&lt;/code&gt; ， &lt;code&gt;Golang&lt;/code&gt; 使用 &lt;code&gt;golang.org/x/sys/unix&lt;/code&gt; ， &lt;code&gt;Python&lt;/code&gt; 则使用 &lt;code&gt;[pyinotify](https://github.com/seb-m/pyinotify)&lt;/code&gt; 即可完成调用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 下的文件锁</title>
-      <link>https://www.frytea.com/archives/620/</link>
+      <link>https://frytea.com/archives/620/</link>
       <pubDate>Thu, 13 Jan 2022 06:30:39 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/620/</guid>
+      <guid>https://frytea.com/archives/620/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文内容为 Linux 系统通用，各个语言实现可能稍有不同，但原理相同。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -571,18 +571,18 @@ sudo swapon -a
     </item>
     <item>
       <title>Linux 下新硬盘分区、格式化、挂载全流程</title>
-      <link>https://www.frytea.com/archives/597/</link>
+      <link>https://frytea.com/archives/597/</link>
       <pubDate>Tue, 09 Nov 2021 07:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/597/</guid>
+      <guid>https://frytea.com/archives/597/</guid>
       <description>&lt;p&gt;互联网上搜索到的 Linux 环境新磁盘配置方法资料质量都不尽如人意，因此自己整理了一份，日常 Linux 磁盘分区时查阅足够了，主要是用到了 &lt;code&gt;fdisk&lt;/code&gt; 命令。&lt;/p&gt;
 &lt;h2 id=&#34;fdisk-基本使用&#34;&gt;&lt;code&gt;fdisk&lt;/code&gt; 基本使用&lt;/h2&gt;
 &lt;p&gt;新增硬盘后，在linux系统下输入 &lt;code&gt;fdisk -l&lt;/code&gt; 命令查看当前磁盘信息：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 解决远程连接的“Gtk-WARNING **: cannot open display;”</title>
-      <link>https://www.frytea.com/archives/595/</link>
+      <link>https://frytea.com/archives/595/</link>
       <pubDate>Mon, 08 Nov 2021 10:43:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/595/</guid>
+      <guid>https://frytea.com/archives/595/</guid>
       <description>&lt;h2 id=&#34;问题重现&#34;&gt;问题重现&lt;/h2&gt;
 &lt;p&gt;在使用 libvirt 管理虚拟机时，有时会用到 virt-manager 提供的图形界面管理虚拟机，查看 vnc 输出等，但是常常会得到如下错误：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;virt-manager:25381&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;: Gtk-WARNING **: 08:55:23.876: cannot open display:
@@ -591,38 +591,38 @@ sudo swapon -a
     </item>
     <item>
       <title>Tmux 使用笔记</title>
-      <link>https://www.frytea.com/archives/585/</link>
+      <link>https://frytea.com/archives/585/</link>
       <pubDate>Wed, 13 Oct 2021 06:30:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/585/</guid>
+      <guid>https://frytea.com/archives/585/</guid>
       <description>&lt;p&gt;Tmux 是一个终端复用器（terminal multiplexer），用起来就离不开。网上有很多 Tmux 使用指南，但是用下来发现还是自己整理一遍才能真正的记住，于是有了这篇文章，本文意在整理 tmux 最常用操作，详细的操作指南请移步 「&lt;a href=&#34;https://man.openbsd.org/OpenBSD-current/man1/tmux.1&#34;&gt;tmux(1) manual page&lt;/a&gt;」。&lt;/p&gt;</description>
     </item>
     <item>
       <title>基于 Ubuntu 平台安装 OS X 10.15 虚拟机</title>
-      <link>https://www.frytea.com/archives/302/</link>
+      <link>https://frytea.com/archives/302/</link>
       <pubDate>Thu, 30 Jan 2020 12:06:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/302/</guid>
+      <guid>https://frytea.com/archives/302/</guid>
       <description>&lt;p&gt;OS X 系统启动时会识别计算机主板，针对非苹果电脑拒绝启动，就算是虚拟机，也有天然的限制不可以随便安装 OS X 虚拟机，本文就介绍了在 Ubuntu 平台上使用 VMware Workstation 安装 OS X 10.15&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/archives/267/</link>
+      <link>https://frytea.com/archives/267/</link>
       <pubDate>Thu, 28 Nov 2019 08:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/267/</guid>
+      <guid>https://frytea.com/archives/267/</guid>
       <description>&lt;p&gt;DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。&lt;/p&gt;
 &lt;p&gt;在内网中又一台服务器提供服务，为了使用使其可以在公共网络中访问到需要为它分配 ip 或者使用端口转发、内网穿透等，但绑定域名后域名解析到公网ip，如果在内网访问的话就写多此一举。因此在内网自建一台 DNS 服务器，使其优先级高于公网域名解析服务器，进而实现内网访问解析为内网 ip 且不影响外网访问的目的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>KVM虚拟机安装 GitLab EE</title>
-      <link>https://www.frytea.com/archives/266/</link>
+      <link>https://frytea.com/archives/266/</link>
       <pubDate>Thu, 28 Nov 2019 08:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/266/</guid>
+      <guid>https://frytea.com/archives/266/</guid>
       <description>&lt;p&gt;GitLab 是一个基于网页的软件开发生命周期管理工具，提供了 git 代码仓库、知识库、问题追踪、CI/CD 流水线功能，使用开源许可证，由 GitLab 公司开发（来自 WikiPedia）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自建网盘之 NextCloud 终极记录</title>
-      <link>https://www.frytea.com/archives/265/</link>
+      <link>https://frytea.com/archives/265/</link>
       <pubDate>Wed, 27 Nov 2019 02:34:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/265/</guid>
+      <guid>https://frytea.com/archives/265/</guid>
       <description>&lt;p&gt;自建过许多网盘，试过 可道云、Seafile、FileRun、Nextcloud，但Nextcloud的如下特性吸引了我：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;完整、好用的客户端，包括 windows、mac、android、ios &amp;hellip;&lt;/li&gt;
@@ -634,9 +634,9 @@ sudo swapon -a
     </item>
     <item>
       <title>Deepin（Linux）下实现Android投屏</title>
-      <link>https://www.frytea.com/archives/34/</link>
+      <link>https://frytea.com/archives/34/</link>
       <pubDate>Tue, 18 Jun 2019 00:39:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/34/</guid>
+      <guid>https://frytea.com/archives/34/</guid>
       <description>&lt;h1 id=&#34;deepinlinux下实现android投屏&#34;&gt;Deepin（Linux）下实现Android投屏&lt;/h1&gt;
 &lt;p&gt;最近需要演示自己的安卓开发作品，因此需要在自己的主力操作系统（Deepin）上实现安卓投屏，之后才好连接电脑在班级里演示。找寻一圈之后终于发现了开源的Linux端投屏神器&lt;code&gt;Scrcpy&lt;/code&gt;. 因此在这里简单记录配置过程，方便后用。&lt;/p&gt;
 &lt;p&gt;项目源码：&lt;a href=&#34;https://github.com/Genymobile/scrcpy&#34;&gt;Scrcpy的GitHub&lt;/a&gt;&lt;/p&gt;
@@ -649,9 +649,9 @@ sudo swapon -a
     </item>
     <item>
       <title>Linux后台运行hexo</title>
-      <link>https://www.frytea.com/archives/50/</link>
+      <link>https://frytea.com/archives/50/</link>
       <pubDate>Thu, 21 Feb 2019 07:22:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/50/</guid>
+      <guid>https://frytea.com/archives/50/</guid>
       <description>&lt;p&gt;hexo是一个非常高效的博客，但由于其设计特点，目的是为了转换为静态页面，因此不必要一直在后台运行，但是我想随时随地写博客同步到github，使用hexo admin编辑器，这就需要hexo一直在后台运行，于是在网上找到了pm2托管的方式。&lt;/p&gt;</description>
     </item>
   </channel>

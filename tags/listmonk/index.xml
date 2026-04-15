@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Listmonk on Frytea</title>
-    <link>https://www.frytea.com/tags/listmonk/</link>
+    <link>https://frytea.com/tags/listmonk/</link>
     <description>Recent content in Listmonk on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 13 Dec 2024 10:51:19 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/listmonk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/listmonk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>listmonk 导入 Mailchimp 邮件清单</title>
-      <link>https://www.frytea.com/archives/1379/</link>
+      <link>https://frytea.com/archives/1379/</link>
       <pubDate>Fri, 06 Dec 2024 10:06:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1379/</guid>
+      <guid>https://frytea.com/archives/1379/</guid>
       <description>&lt;p&gt;使用单行 &lt;code&gt;perl&lt;/code&gt; 脚本将 Mailchimp 导出的数据转换为 listmonk 可用的清单。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;perl -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;print qq{email,name,attributes\n};while(&amp;lt;&amp;gt;){ my @r = split /,/; next unless $r[0] =~ /@/; map { s/&amp;#34;//g } @r; my $name = $r[1]; $name .= &amp;#34; $r[2]&amp;#34; if $r[2]; $name ||= &amp;#34;Unknown Name&amp;#34;; print qq{$r[0],&amp;#34;$name&amp;#34;,&amp;#34;{&amp;#34;&amp;#34;mailchimp&amp;#34;&amp;#34;: true}&amp;#34;\n}}&amp;#39;&lt;/span&gt; subscribed_segment_export_xxxxx.csv 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>基于 listmonk 实现 rss to mail</title>
-      <link>https://www.frytea.com/archives/1380/</link>
+      <link>https://frytea.com/archives/1380/</link>
       <pubDate>Fri, 06 Dec 2024 10:06:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1380/</guid>
+      <guid>https://frytea.com/archives/1380/</guid>
       <description>&lt;h2 id=&#34;listmonk-部署&#34;&gt;listmonk 部署&lt;/h2&gt;
 &lt;p&gt;安装 &lt;a href=&#34;https://listmonk.app/docs/installation/#docker&#34;&gt;官方教程&lt;/a&gt; 进行即可，大致如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Download the compose file to the current directory.&lt;/span&gt;

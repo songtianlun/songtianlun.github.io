@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://www.frytea.com/sitemap.xml
+Sitemap: https://frytea.com/sitemap.xml

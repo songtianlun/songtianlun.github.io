@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Helm on Frytea</title>
-    <link>https://www.frytea.com/tags/helm/</link>
+    <link>https://frytea.com/tags/helm/</link>
     <description>Recent content in Helm on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 15:15:49 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/helm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/helm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>支持 helm 的 harbor 版本</title>
-      <link>https://www.frytea.com/archives/1409/</link>
+      <link>https://frytea.com/archives/1409/</link>
       <pubDate>Mon, 30 Dec 2024 15:54:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1409/</guid>
+      <guid>https://frytea.com/archives/1409/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Harbor在v1.6版本开始支持Helm Chart仓库功能，- 从v2.6.0 开始弃用Chartmuseum，并在v2.8.0中开始删除。更多详情，请参阅讨论：https://github.com/goharbor/harbor/discussions/15057 从 v2.6.0 开始弃用 Notary（签名者和服务器），并在 v2.8.0 中开始删除。更多详情，请参阅讨论：https://github.com/goharbor/harbor/discussions/16612&lt;/p&gt;</description>
     </item>
     <item>
       <title>推送 helm 到 harbor</title>
-      <link>https://www.frytea.com/archives/1406/</link>
+      <link>https://frytea.com/archives/1406/</link>
       <pubDate>Fri, 20 Dec 2024 11:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1406/</guid>
+      <guid>https://frytea.com/archives/1406/</guid>
       <description>&lt;p&gt;大致流程如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo add harbor https://myharbor.mydomain.com/chartrepo/myproject --username myusername --password mypassword
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>使用脚本镜像 helm charts 仓库</title>
-      <link>https://www.frytea.com/archives/1402/</link>
+      <link>https://frytea.com/archives/1402/</link>
       <pubDate>Wed, 18 Dec 2024 10:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1402/</guid>
+      <guid>https://frytea.com/archives/1402/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash  
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 源 Harbor 配置  &lt;/span&gt;

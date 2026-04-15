@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Libvirt on Frytea</title>
-    <link>https://www.frytea.com/tags/libvirt/</link>
+    <link>https://frytea.com/tags/libvirt/</link>
     <description>Recent content in Libvirt on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Mar 2023 05:21:17 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/libvirt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/libvirt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>virsh 批量克隆虚拟机</title>
-      <link>https://www.frytea.com/archives/747/</link>
+      <link>https://frytea.com/archives/747/</link>
       <pubDate>Sun, 12 Mar 2023 05:21:17 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/747/</guid>
+      <guid>https://frytea.com/archives/747/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 快速克隆&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;virt-clone --auto-clone --original vm-euler --name vm-euler-2
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;批量克隆&lt;/p&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>虚拟机 img 镜像密码修改</title>
-      <link>https://www.frytea.com/archives/567/</link>
+      <link>https://frytea.com/archives/567/</link>
       <pubDate>Fri, 03 Sep 2021 07:29:19 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/567/</guid>
+      <guid>https://frytea.com/archives/567/</guid>
       <description>&lt;p&gt;本文介绍使用 &lt;code&gt;libguestfs-tools&lt;/code&gt; 修改镜像文件密码的方法。&lt;/p&gt;
 &lt;h2 id=&#34;步骤&#34;&gt;步骤&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 环境&lt;/span&gt;
@@ -42,9 +42,9 @@
     </item>
     <item>
       <title>GDB 调试 libvirt 源码之 domblkinfo 命令源码跟踪记</title>
-      <link>https://www.frytea.com/archives/565/</link>
+      <link>https://frytea.com/archives/565/</link>
       <pubDate>Thu, 02 Sep 2021 05:42:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/565/</guid>
+      <guid>https://frytea.com/archives/565/</guid>
       <description>&lt;p&gt;最近发现环境中 KVM 虚拟机磁盘利用率查不准，使用 virsh 命令查看磁盘使用情况得到如下结果：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# virsh domblkinfo 20 vda --human&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Capacity:       2.000 GiB

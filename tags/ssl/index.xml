@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ssl on Frytea</title>
-    <link>https://www.frytea.com/tags/ssl/</link>
+    <link>https://frytea.com/tags/ssl/</link>
     <description>Recent content in Ssl on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 30 Dec 2024 15:54:09 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>配置 harbor 及 docker 等使用 https</title>
-      <link>https://www.frytea.com/archives/1408/</link>
+      <link>https://frytea.com/archives/1408/</link>
       <pubDate>Mon, 30 Dec 2024 15:53:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1408/</guid>
+      <guid>https://frytea.com/archives/1408/</guid>
       <description>&lt;p&gt;默认情况下，Harbor不提供证书。可以在没有安全性的情况下部署Harbor，这样您就可以通过HTTP连接到它。但是，只有在没有连接到外部internet的空间隙测试或开发环境中才可以使用HTTP。在没有空间隙的环境中使用HTTP会暴露给中间人攻击。在生产环境中，始终使用HTTPS。如果启用带公证人的内容信任对所有images进行正确签名，则必须使用HTTPS。&lt;/p&gt;</description>
     </item>
   </channel>

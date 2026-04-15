@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emacs on Frytea</title>
-    <link>https://www.frytea.com/tags/emacs/</link>
+    <link>https://frytea.com/tags/emacs/</link>
     <description>Recent content in Emacs on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 09 Feb 2023 14:21:22 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs 集成 Github Copilot</title>
-      <link>https://www.frytea.com/archives/738/</link>
+      <link>https://frytea.com/archives/738/</link>
       <pubDate>Thu, 09 Feb 2023 14:21:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/738/</guid>
+      <guid>https://frytea.com/archives/738/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/zerolfx/copilot.el&#34;&gt;copilot.el&lt;/a&gt;  是一个&lt;strong&gt;非官方&lt;/strong&gt;实现的 Github Copilot 插件，实测在 x86/arm64 、macos/debian 下均可使用，下面介绍最关键的几个配置步骤。&lt;/p&gt;
 &lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
 &lt;ul&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>macOS 安装 Emacs</title>
-      <link>https://www.frytea.com/archives/733/</link>
+      <link>https://frytea.com/archives/733/</link>
       <pubDate>Fri, 27 Jan 2023 08:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/733/</guid>
+      <guid>https://frytea.com/archives/733/</guid>
       <description>&lt;p&gt;macOS 下可选择多种 Emacs GUI ，建议 Emacs Mac Port。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/railwaycat/homebrew-emacsmacport&#34;&gt;Emacs Mac Port&lt;/a&gt;&lt;/li&gt;
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>使用 dos2unix 解决跨操作系统换行符问题</title>
-      <link>https://www.frytea.com/archives/728/</link>
+      <link>https://frytea.com/archives/728/</link>
       <pubDate>Mon, 16 Jan 2023 00:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/728/</guid>
+      <guid>https://frytea.com/archives/728/</guid>
       <description>&lt;p&gt;&lt;code&gt;dos2unix&lt;/code&gt; 是将 &lt;code&gt;Windows&lt;/code&gt; 格式文件转换为 &lt;code&gt;Unix/Linux&lt;/code&gt; 格式的实用命令。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;unix2dos&lt;/code&gt; 则是和 &lt;code&gt;dos2unix&lt;/code&gt; 互为孪生的一个命令，将 &lt;code&gt;Linux&amp;amp;Unix&lt;/code&gt; 格式文件转换为 &lt;code&gt;Windows&lt;/code&gt; 格式文件的命令。&lt;/p&gt;

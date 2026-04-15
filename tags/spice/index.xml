@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spice on Frytea</title>
-    <link>https://www.frytea.com/tags/spice/</link>
+    <link>https://frytea.com/tags/spice/</link>
     <description>Recent content in Spice on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 25 Jan 2022 07:10:58 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/spice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/spice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>macOS 使用 remote-viewer 连接 spice 服务 ｜ PC 连接 spice 云桌面方法</title>
-      <link>https://www.frytea.com/archives/624/</link>
+      <link>https://frytea.com/archives/624/</link>
       <pubDate>Tue, 25 Jan 2022 07:10:58 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/624/</guid>
+      <guid>https://frytea.com/archives/624/</guid>
       <description>&lt;p&gt;最近需要使用到云桌面办公，但目前仅支持 windows 客户端。后经过询问，发现是使用 spice 协议链接，提供地址后，即可使用第三方客户端链接。&lt;/p&gt;
 &lt;p&gt;MacOS 平台下没有很好的支持 spice 协议的图形化客户端，但是可以使用 &lt;code&gt;remote-viewer&lt;/code&gt; 这个工具，也比较好用，下面介绍安装方法：&lt;/p&gt;</description>
     </item>

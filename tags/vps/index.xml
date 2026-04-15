@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vps on Frytea</title>
-    <link>https://www.frytea.com/tags/vps/</link>
+    <link>https://frytea.com/tags/vps/</link>
     <description>Recent content in Vps on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 24 Nov 2025 00:14:49 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/vps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 年黑五云主机活动汇总(含双十一)</title>
-      <link>https://www.frytea.com/archives/1544/</link>
+      <link>https://frytea.com/archives/1544/</link>
       <pubDate>Mon, 03 Nov 2025 15:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1544/</guid>
+      <guid>https://frytea.com/archives/1544/</guid>
       <description>&lt;p&gt;2025 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
 &lt;p&gt;2025 年黑色星期五为 &lt;strong&gt;11月28日&lt;/strong&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>2024 年黑五云服务活动汇总</title>
-      <link>https://www.frytea.com/archives/1358/</link>
+      <link>https://frytea.com/archives/1358/</link>
       <pubDate>Wed, 20 Nov 2024 10:09:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1358/</guid>
+      <guid>https://frytea.com/archives/1358/</guid>
       <description>&lt;p&gt;2024 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
 &lt;p&gt;2024年黑色星期五为&lt;strong&gt;11月29日&lt;/strong&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -42,44 +42,44 @@
     </item>
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
-      <link>https://www.frytea.com/archives/660/</link>
+      <link>https://frytea.com/archives/660/</link>
       <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/660/</guid>
+      <guid>https://frytea.com/archives/660/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
-      <link>https://www.frytea.com/archives/658/</link>
+      <link>https://frytea.com/archives/658/</link>
       <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/658/</guid>
+      <guid>https://frytea.com/archives/658/</guid>
       <description>&lt;p&gt;很长一段时间中，我都在思考容器建站的可行性。&lt;/p&gt;
 &lt;p&gt;容器有诸多益处，各类好处就不一一列举了。&lt;/p&gt;
 &lt;p&gt;在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一管理，完成几乎所有 Web 资源的自动调度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/archives/31/</link>
+      <link>https://frytea.com/archives/31/</link>
       <pubDate>Mon, 06 May 2019 15:58:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/31/</guid>
+      <guid>https://frytea.com/archives/31/</guid>
       <description>&lt;p&gt;Rclone 是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;目前 Rclone 支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone 还支持 SFTP 、FTP 、HTTP 挂载。&lt;/p&gt;</description>
     </item>
     <item>
       <title>vps使用Shadowsocks搭建vpn</title>
-      <link>https://www.frytea.com/archives/30/</link>
+      <link>https://frytea.com/archives/30/</link>
       <pubDate>Sat, 12 Jan 2019 03:52:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/30/</guid>
+      <guid>https://frytea.com/archives/30/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;Create a SOCKS5 Proxy Server with Shadowsocks on Ubuntu and CentOS 7&#34; loading=&#34;lazy&#34; src=&#34;https://www.linode.com/docs/networking/vpn/create-a-socks5-proxy-server-with-shadowsocks-on-ubuntu-and-centos7/shadowsocks.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的 vpn 经历无一不遇奸商！于是下决心搭建自己的 vpn！就在今天，vpn 终于搭建成功，在这里分享一下成功的喜悦同时贴出自己搭建的过程仅供参考！&lt;/p&gt;</description>
     </item>
     <item>
       <title>私人网盘nextcloud配置问题解决</title>
-      <link>https://www.frytea.com/archives/32/</link>
+      <link>https://frytea.com/archives/32/</link>
       <pubDate>Thu, 10 Jan 2019 03:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/32/</guid>
+      <guid>https://frytea.com/archives/32/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-7.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;安装流程&#34;&gt;安装流程&lt;/h2&gt;
 &lt;p&gt;配置流程非常简单，主要是参考了下面这篇博文配置，在宝塔面板下安装nextcloud，非常简单。&lt;/p&gt;

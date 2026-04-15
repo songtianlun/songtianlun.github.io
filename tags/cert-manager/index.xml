@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cert-Manager on Frytea</title>
-    <link>https://www.frytea.com/tags/cert-manager/</link>
+    <link>https://frytea.com/tags/cert-manager/</link>
     <description>Recent content in Cert-Manager on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 06 Mar 2025 03:59:28 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/cert-manager/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/cert-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cert-manager CNAME 问题记录</title>
-      <link>https://www.frytea.com/archives/1446/</link>
+      <link>https://frytea.com/archives/1446/</link>
       <pubDate>Thu, 06 Mar 2025 03:59:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1446/</guid>
+      <guid>https://frytea.com/archives/1446/</guid>
       <description>&lt;p&gt;在研究 &lt;code&gt;cert-manager&lt;/code&gt; 使用 &lt;code&gt;webhook&lt;/code&gt; 方式调用 &lt;code&gt;dnspod&lt;/code&gt; 使用 &lt;code&gt;DNS-01&lt;/code&gt; 方式签发 SSL 证书遇到问题，一直得到错误：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;I0306 03:48:38.870605       1 controller.go:144] &amp;#34;syncing item&amp;#34; logger=&amp;#34;cert-manager.controller&amp;#34;
 I0306 03:48:38.870714       1 dns.go:118] &amp;#34;checking DNS propagation&amp;#34; logger=&amp;#34;cert-manager.controller.Check&amp;#34; resource_name=&amp;#34;test1-tsh1-frytea-com-1-3300738485-2689263791&amp;#34; resource_namespace=&amp;#34;default&amp;#34; resource_kind=&amp;#34;Challenge&amp;#34; resource_version=&amp;#34;

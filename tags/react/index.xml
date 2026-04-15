@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>React on Frytea</title>
-    <link>https://www.frytea.com/tags/react/</link>
+    <link>https://frytea.com/tags/react/</link>
     <description>Recent content in React on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 12 Dec 2021 14:48:58 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 LeanCloud 云引擎部署 React Web 应用</title>
-      <link>https://www.frytea.com/archives/603/</link>
+      <link>https://frytea.com/archives/603/</link>
       <pubDate>Sun, 12 Dec 2021 14:48:58 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/603/</guid>
+      <guid>https://frytea.com/archives/603/</guid>
       <description>&lt;p&gt;最近在探索 &lt;a href=&#34;https://kubesphere.com.cn&#34;&gt;KubeSphere&lt;/a&gt; 和 &lt;a href=&#34;https://kubernetes.io&#34;&gt;K8s&lt;/a&gt;，东西毫无疑问是好东西，学了在未来也很有用，但是用在个人开发上实在是费用有点高，当然也不太敢用在个人开源项目上，因此我再次开始探索适用于个人全栈应用托管平台。&lt;/p&gt;
 &lt;p&gt;提供这类 PaaS 云平台服务的公司有一些，比如 2007 年就开始开发的 &lt;a href=&#34;https://heroku.com&#34;&gt;Heroku&lt;/a&gt;，也有 &lt;a href=&#34;https://vercel.com/&#34;&gt;Vercel&lt;/a&gt; 这类现代化的 Web 应用托管平台，在国内则有 &lt;a href=&#34;https://www.leancloud.cn&#34;&gt;Leancloud&lt;/a&gt; 这种 BaaS 平台也可实现类似功能。&lt;/p&gt;
 &lt;h2 id=&#34;背景资料&#34;&gt;背景资料&lt;/h2&gt;

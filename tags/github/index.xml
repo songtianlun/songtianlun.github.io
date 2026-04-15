@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Github on Frytea</title>
-    <link>https://www.frytea.com/tags/github/</link>
+    <link>https://frytea.com/tags/github/</link>
     <description>Recent content in Github on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 15:15:11 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub 个人仓库批量备份到自建 Gitea</title>
-      <link>https://www.frytea.com/archives/1417/</link>
+      <link>https://frytea.com/archives/1417/</link>
       <pubDate>Fri, 03 Jan 2025 10:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1417/</guid>
+      <guid>https://frytea.com/archives/1417/</guid>
       <description>&lt;p&gt;这是一个自动将 GitHub 仓库镜像到 Gitea 的 Shell 脚本。支持批量同步所有仓库，可以设置跳过特定仓库，并具有良好的错误处理机制。&lt;/p&gt;
 &lt;p&gt;由于 GitHub 仓库较多，因为各种原因担心数据风险和访问困难。代码托管在自建 gitea 虽然访问快，但是脱离了生态很难跟其他的 PaaS 平台对接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emacs 集成 Github Copilot</title>
-      <link>https://www.frytea.com/archives/738/</link>
+      <link>https://frytea.com/archives/738/</link>
       <pubDate>Thu, 09 Feb 2023 14:21:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/738/</guid>
+      <guid>https://frytea.com/archives/738/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/zerolfx/copilot.el&#34;&gt;copilot.el&lt;/a&gt;  是一个&lt;strong&gt;非官方&lt;/strong&gt;实现的 Github Copilot 插件，实测在 x86/arm64 、macos/debian 下均可使用，下面介绍最关键的几个配置步骤。&lt;/p&gt;
 &lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
 &lt;ul&gt;
@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Ubuntu 安装 GitKraken 并汉化</title>
-      <link>https://www.frytea.com/archives/613/</link>
+      <link>https://frytea.com/archives/613/</link>
       <pubDate>Thu, 30 Dec 2021 01:31:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/613/</guid>
+      <guid>https://frytea.com/archives/613/</guid>
       <description>&lt;p&gt;GitKraken 是一款超好用的 git 可视化(gui)工具，但是官方不提供多语言支持，今天就以 Ubuntu 平台为例介绍一下安装方法。&lt;/p&gt;
 &lt;h2 id=&#34;安装及汉化&#34;&gt;安装及汉化&lt;/h2&gt;
 &lt;p&gt;首先在 GitKraken 官网下载安装包：&lt;/p&gt;
@@ -50,18 +50,18 @@
     </item>
     <item>
       <title>一键在 vs code online 中打开任意 github 仓库</title>
-      <link>https://www.frytea.com/archives/568/</link>
+      <link>https://frytea.com/archives/568/</link>
       <pubDate>Fri, 03 Sep 2021 09:58:13 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/568/</guid>
+      <guid>https://frytea.com/archives/568/</guid>
       <description>&lt;p&gt;之前有大佬开发过一个项目 &lt;code&gt;[github1s](https://github.com/conwnet/github1s)&lt;/code&gt; ，利用 GitHub action ，仅需在任意 github 仓库在 &lt;code&gt;github&lt;/code&gt; 后面加上 &lt;code&gt;1s&lt;/code&gt; 即可在一个在线的 VS code 中打开这个项目。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;https://imagehost-cdn.frytea.com/images/2021/09/03/2021-09-03-5.51.4487ec1eade813be27.png&#34; loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2021/09/03/2021-09-03-5.51.4487ec1eade813be27.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;就在前不久，Github 官方发布了类似的功能，进一步简化了这个过程，仅需在仓库的 web 页面，按下 &lt;code&gt;.&lt;/code&gt; 键，没错就是键盘上那个句号，github 就会打开一个在线的 VS code 并开启该仓库，您就可以更方便的浏览这个仓库了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebStorm中使用Git同步代码到Github</title>
-      <link>https://www.frytea.com/archives/47/</link>
+      <link>https://frytea.com/archives/47/</link>
       <pubDate>Wed, 27 Feb 2019 02:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/47/</guid>
+      <guid>https://frytea.com/archives/47/</guid>
       <description>&lt;h1 id=&#34;webstorm下配置github实现代码同步&#34;&gt;WebStorm下配置GitHub实现代码同步&lt;/h1&gt;
 &lt;p&gt;项目开发时使用GitHub作为公共代码仓库托管代码，可以极大的提高团队合作效率，同时也可以实现代码云端存储等，方便自己也方便大家！下面记录一下自己配置webstorm同步github的过程，仅供参考。&lt;/p&gt;</description>
     </item>

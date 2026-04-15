@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Axios on Frytea</title>
-    <link>https://www.frytea.com/tags/axios/</link>
+    <link>https://frytea.com/tags/axios/</link>
     <description>Recent content in Axios on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 10 Feb 2023 11:57:12 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/axios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/axios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vue项目使用axios对接第三方api，并做跨域处理</title>
-      <link>https://www.frytea.com/archives/40/</link>
+      <link>https://frytea.com/archives/40/</link>
       <pubDate>Sun, 17 Mar 2019 09:51:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/40/</guid>
+      <guid>https://frytea.com/archives/40/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;使用 vue 框架对接第三方接口时，常常使用 anxios。&lt;/p&gt;
 &lt;blockquote&gt;

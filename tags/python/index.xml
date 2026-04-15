@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Frytea</title>
-    <link>https://www.frytea.com/tags/python/</link>
+    <link>https://frytea.com/tags/python/</link>
     <description>Recent content in Python on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 20 Apr 2022 02:15:26 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shell 中格式化显示 json 字符串</title>
-      <link>https://www.frytea.com/archives/629/</link>
+      <link>https://frytea.com/archives/629/</link>
       <pubDate>Wed, 20 Apr 2022 02:11:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/629/</guid>
+      <guid>https://frytea.com/archives/629/</guid>
       <description>&lt;p&gt;有时需要在终端环境中查看 json 数据，比如使用 &lt;code&gt;curl&lt;/code&gt;  调试接口时。直接看到的 json 数据是类似这样的：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{&amp;#34;foo&amp;#34;: &amp;#34;lorem&amp;#34;, &amp;#34;bar&amp;#34;: &amp;#34;ipsum&amp;#34;}&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lorem&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;bar&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ipsum&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Python 传值 or 传引用</title>
-      <link>https://www.frytea.com/archives/622/</link>
+      <link>https://frytea.com/archives/622/</link>
       <pubDate>Wed, 19 Jan 2022 01:11:11 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/622/</guid>
+      <guid>https://frytea.com/archives/622/</guid>
       <description>&lt;p&gt;先说结论：python不允许程序员选择采用传值还是传引用。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;如果函数收到的是一个 &lt;strong&gt;可变对象&lt;/strong&gt; （比如 &lt;strong&gt;字典&lt;/strong&gt; 或者 &lt;strong&gt;列表&lt;/strong&gt; ）的引用，就能修改对象的原始值－－相当于通过“&lt;strong&gt;传引用&lt;/strong&gt;”来传递对象。&lt;/li&gt;
@@ -37,17 +37,17 @@
     </item>
     <item>
       <title>Python 二进制结构化数据处理和封装</title>
-      <link>https://www.frytea.com/archives/621/</link>
+      <link>https://frytea.com/archives/621/</link>
       <pubDate>Mon, 17 Jan 2022 08:04:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/621/</guid>
+      <guid>https://frytea.com/archives/621/</guid>
       <description>&lt;p&gt;当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 &lt;code&gt;struct&lt;/code&gt; 这个模块提供的方法。&lt;/p&gt;
 &lt;p&gt;详细方法可以查看 &lt;a href=&#34;https://docs.python.org/zh-cn/3/library/struct.html&#34;&gt;官方教程&lt;/a&gt;，这里以 &lt;code&gt;perl&lt;/code&gt; 的 &lt;code&gt;pack&lt;/code&gt; 作为对比，使用 python 实现类似 perl 数据打包的效果。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python 实战项目解决循环依赖问题</title>
-      <link>https://www.frytea.com/archives/610/</link>
+      <link>https://frytea.com/archives/610/</link>
       <pubDate>Mon, 27 Dec 2021 06:15:49 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/610/</guid>
+      <guid>https://frytea.com/archives/610/</guid>
       <description>&lt;h2 id=&#34;问题重现&#34;&gt;问题重现&lt;/h2&gt;
 &lt;p&gt;在一次简单的代码合并后，发现 Python 项目跑不起来了，报错如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh://root@192.168.226.76:22/usr/bin/python3 -B -u /tmp/pycharm_project_882/mimic_daemon_server/helper_main.py
@@ -75,9 +75,9 @@
     </item>
     <item>
       <title>Python3下基于Scapy库完成网卡抓包解析</title>
-      <link>https://www.frytea.com/archives/451/</link>
+      <link>https://frytea.com/archives/451/</link>
       <pubDate>Mon, 07 Sep 2020 06:55:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/451/</guid>
+      <guid>https://frytea.com/archives/451/</guid>
       <description>&lt;p&gt;Scapy是一个可以让用户发送、侦听和解析并伪装网络报文的Python程序。这些功能可以用于制作侦测、扫描和攻击网络的工具。&lt;/p&gt;
 &lt;p&gt;在 &lt;code&gt;Python&lt;/code&gt; 代码中可以通过 &lt;code&gt;sniff&lt;/code&gt; 函数调用抓包分析，并对抓到的包进行回调操作。&lt;/p&gt;</description>
     </item>

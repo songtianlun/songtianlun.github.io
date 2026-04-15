@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>阅读笔记 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
+    <link>https://frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 阅读笔记 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 20 Jul 2025 15:56:26 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《我看见的世界：李飞飞自传》</title>
-      <link>https://www.frytea.com/archives/1498/</link>
+      <link>https://frytea.com/archives/1498/</link>
       <pubDate>Sun, 20 Jul 2025 15:56:26 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1498/</guid>
+      <guid>https://frytea.com/archives/1498/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h1 id=&#34;阅读摘录&#34;&gt;阅读摘录&lt;/h1&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>《奔跑吧，程序员：从零开始打造产品、技术和团队》</title>
-      <link>https://www.frytea.com/archives/1425/</link>
+      <link>https://frytea.com/archives/1425/</link>
       <pubDate>Mon, 20 Jan 2025 15:30:39 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1425/</guid>
+      <guid>https://frytea.com/archives/1425/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h2 id=&#34;阅读摘录&#34;&gt;阅读摘录&lt;/h2&gt;
@@ -43,16 +43,16 @@
     </item>
     <item>
       <title>跟着 《Hell Yes! CSS!》和 AI 学 CSS</title>
-      <link>https://www.frytea.com/archives/1428/</link>
+      <link>https://frytea.com/archives/1428/</link>
       <pubDate>Mon, 20 Jan 2025 12:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1428/</guid>
+      <guid>https://frytea.com/archives/1428/</guid>
       <description>&lt;p&gt;最近发现 &lt;a href=&#34;https://wizardzines.com&#34;&gt;★ wizard zines&lt;/a&gt; 中的这本 《&lt;a href=&#34;https://wizardzines.com/zines/css/&#34;&gt;Hell Yes! CSS!&lt;/a&gt;》 对于理解 CSS 的核心概念特别有用。结合 DeepSeek 的解释，对于理解 CSS 似乎非常有帮助，因此结合原文核心内容和 DeepSeek 的解释汇集为本文。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《赵玉平说职场智慧》</title>
-      <link>https://www.frytea.com/archives/1424/</link>
+      <link>https://frytea.com/archives/1424/</link>
       <pubDate>Sun, 19 Jan 2025 05:41:16 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1424/</guid>
+      <guid>https://frytea.com/archives/1424/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;职场道路必经之路，通透一些人间的事情。&lt;/p&gt;
 &lt;h2 id=&#34;阅读摘录&#34;&gt;阅读摘录&lt;/h2&gt;
@@ -64,9 +64,9 @@
     </item>
     <item>
       <title>《凤凰架构：构建可靠的大型分布式系统》</title>
-      <link>https://www.frytea.com/archives/1321/</link>
+      <link>https://frytea.com/archives/1321/</link>
       <pubDate>Fri, 01 Nov 2024 16:50:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1321/</guid>
+      <guid>https://frytea.com/archives/1321/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h1 id=&#34;阅读摘录&#34;&gt;阅读摘录&lt;/h1&gt;
@@ -163,9 +163,9 @@
     </item>
     <item>
       <title>《芯片战争：世界最关键技术的争夺战（财之道丛书）》</title>
-      <link>https://www.frytea.com/archives/1320/</link>
+      <link>https://frytea.com/archives/1320/</link>
       <pubDate>Sat, 26 Oct 2024 09:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1320/</guid>
+      <guid>https://frytea.com/archives/1320/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h1 id=&#34;阅读笔记&#34;&gt;阅读笔记&lt;/h1&gt;
@@ -196,9 +196,9 @@
     </item>
     <item>
       <title>《解密》</title>
-      <link>https://www.frytea.com/archives/1309/</link>
+      <link>https://frytea.com/archives/1309/</link>
       <pubDate>Sun, 13 Oct 2024 06:22:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1309/</guid>
+      <guid>https://frytea.com/archives/1309/</guid>
       <description>&lt;p&gt;解密&lt;/p&gt;
 &lt;p&gt;《解密（陈思诚导演，刘昊然主演电影同步上映中）》&lt;/p&gt;
 &lt;p&gt;麦家
@@ -208,9 +208,9 @@
     </item>
     <item>
       <title>《Helm学习指南：Kubernetes上的应用程序管理》</title>
-      <link>https://www.frytea.com/archives/1310/</link>
+      <link>https://frytea.com/archives/1310/</link>
       <pubDate>Sun, 06 Oct 2024 10:56:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1310/</guid>
+      <guid>https://frytea.com/archives/1310/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h2 id=&#34;阅读摘录&#34;&gt;阅读摘录&lt;/h2&gt;
@@ -222,9 +222,9 @@
     </item>
     <item>
       <title>《大话设计模式》</title>
-      <link>https://www.frytea.com/archives/1311/</link>
+      <link>https://frytea.com/archives/1311/</link>
       <pubDate>Sat, 05 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1311/</guid>
+      <guid>https://frytea.com/archives/1311/</guid>
       <description>&lt;h1 id=&#34;阅读感悟&#34;&gt;阅读感悟&lt;/h1&gt;
 &lt;p&gt;暂略&lt;/p&gt;
 &lt;h1 id=&#34;摘录笔记&#34;&gt;摘录笔记&lt;/h1&gt;
@@ -338,9 +338,9 @@
     </item>
     <item>
       <title>《人月神话》</title>
-      <link>https://www.frytea.com/archives/1062/</link>
+      <link>https://frytea.com/archives/1062/</link>
       <pubDate>Thu, 11 Jul 2024 10:59:29 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1062/</guid>
+      <guid>https://frytea.com/archives/1062/</guid>
       <description>&lt;h1 id=&#34;阅读记录&#34;&gt;阅读记录&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;很奇怪，书中说大部分程序员都是乐观主义者，但是我自以为自己不是，也是。&lt;/li&gt;
@@ -349,9 +349,9 @@
     </item>
     <item>
       <title>《普林斯顿计算机公开课》</title>
-      <link>https://www.frytea.com/archives/1046/</link>
+      <link>https://frytea.com/archives/1046/</link>
       <pubDate>Sun, 30 Jun 2024 04:51:19 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1046/</guid>
+      <guid>https://frytea.com/archives/1046/</guid>
       <description>&lt;p&gt;仿佛对计算机的理解更深了一点；
 好想去计算机博物馆看看。&lt;/p&gt;
 &lt;p&gt;摘录了很多内容，解决了我许多问题。&lt;/p&gt;
@@ -359,9 +359,9 @@
     </item>
     <item>
       <title>《UNIX传奇》</title>
-      <link>https://www.frytea.com/archives/1061/</link>
+      <link>https://frytea.com/archives/1061/</link>
       <pubDate>Tue, 11 Jun 2024 11:55:20 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1061/</guid>
+      <guid>https://frytea.com/archives/1061/</guid>
       <description>&lt;h1 id=&#34;思考&#34;&gt;思考&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;是不是老外对颜色都不敏感，所以喜欢用很浓的颜色。而对于文字排版很敏感。&lt;/li&gt;
@@ -370,16 +370,16 @@
     </item>
     <item>
       <title>《高能效人士的七个习惯》</title>
-      <link>https://www.frytea.com/archives/1060/</link>
+      <link>https://frytea.com/archives/1060/</link>
       <pubDate>Tue, 28 Feb 2023 19:56:21 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1060/</guid>
+      <guid>https://frytea.com/archives/1060/</guid>
       <description>&lt;p&gt;要事第一 重要性：《成功的普遍共性》一文的作者格雷(E.MGray)发现成功的决定因素并非辛勤的工作&lt;/p&gt;</description>
     </item>
     <item>
       <title>高能效人士的七个习惯</title>
-      <link>https://www.frytea.com/archives/744/</link>
+      <link>https://frytea.com/archives/744/</link>
       <pubDate>Tue, 28 Feb 2023 11:56:21 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/744/</guid>
+      <guid>https://frytea.com/archives/744/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;要事第一
 &lt;ul&gt;
@@ -494,16 +494,16 @@
     </item>
     <item>
       <title>《任正非传》</title>
-      <link>https://www.frytea.com/archives/1064/</link>
+      <link>https://frytea.com/archives/1064/</link>
       <pubDate>Sat, 31 Dec 2022 18:16:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1064/</guid>
+      <guid>https://frytea.com/archives/1064/</guid>
       <description>&lt;p&gt;任正非传 孙力科 36个笔记 ◆ 第一章 谁是任正非？ 出生在贵州安顺地区镇宁县的任正非，祖籍便在浙&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《任正非传》 - 孙力科</title>
-      <link>https://www.frytea.com/archives/706/</link>
+      <link>https://frytea.com/archives/706/</link>
       <pubDate>Sat, 31 Dec 2022 10:16:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/706/</guid>
+      <guid>https://frytea.com/archives/706/</guid>
       <description>&lt;p&gt;任正非传
 孙力科
 36个笔记&lt;/p&gt;
@@ -519,16 +519,16 @@
     </item>
     <item>
       <title>《人人都懂设计模式：从生活中领悟设计模式（Python实现） 》 - 罗伟富</title>
-      <link>https://www.frytea.com/archives/1063/</link>
+      <link>https://frytea.com/archives/1063/</link>
       <pubDate>Fri, 30 Dec 2022 19:56:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1063/</guid>
+      <guid>https://frytea.com/archives/1063/</guid>
       <description>&lt;p&gt;人人都懂设计模式：从生活中领悟设计模式（Python实现） 罗伟富 64个笔记 ◆ 基础篇 类图用于&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《人人都懂设计模式：从生活中领悟设计模式（Python实现） 》 - 罗伟富</title>
-      <link>https://www.frytea.com/archives/700/</link>
+      <link>https://frytea.com/archives/700/</link>
       <pubDate>Fri, 30 Dec 2022 11:56:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/700/</guid>
+      <guid>https://frytea.com/archives/700/</guid>
       <description>&lt;p&gt;人人都懂设计模式：从生活中领悟设计模式（Python实现）
 罗伟富
 64个笔记&lt;/p&gt;
@@ -539,16 +539,16 @@
     </item>
     <item>
       <title>《大型网站技术架构》 - 李智慧</title>
-      <link>https://www.frytea.com/archives/1074/</link>
+      <link>https://frytea.com/archives/1074/</link>
       <pubDate>Wed, 28 Dec 2022 10:36:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1074/</guid>
+      <guid>https://frytea.com/archives/1074/</guid>
       <description>&lt;p&gt;大型网站技术架构 李智慧 95个笔记 ◆ 第1篇 概述 网站访问特点和现实世界的财富分配一样遵循二八&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《大型网站技术架构》 - 李智慧</title>
-      <link>https://www.frytea.com/archives/702/</link>
+      <link>https://frytea.com/archives/702/</link>
       <pubDate>Wed, 28 Dec 2022 02:36:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/702/</guid>
+      <guid>https://frytea.com/archives/702/</guid>
       <description>&lt;p&gt;大型网站技术架构
 李智慧
 95个笔记&lt;/p&gt;
@@ -564,16 +564,16 @@
     </item>
     <item>
       <title>《刘强东：人到绝境是重生》 - 黄鸿涯</title>
-      <link>https://www.frytea.com/archives/1078/</link>
+      <link>https://frytea.com/archives/1078/</link>
       <pubDate>Tue, 27 Dec 2022 20:15:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1078/</guid>
+      <guid>https://frytea.com/archives/1078/</guid>
       <description>&lt;p&gt;刘强东：人到绝境是重生 黄鸿涯 48个笔记 ◆ 第一章 停止绝望，人是第一生产力 但刘强东却认为一个&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《刘强东：人到绝境是重生》 - 黄鸿涯</title>
-      <link>https://www.frytea.com/archives/705/</link>
+      <link>https://frytea.com/archives/705/</link>
       <pubDate>Tue, 27 Dec 2022 12:15:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/705/</guid>
+      <guid>https://frytea.com/archives/705/</guid>
       <description>&lt;p&gt;刘强东：人到绝境是重生
 黄鸿涯
 48个笔记&lt;/p&gt;
@@ -584,23 +584,23 @@
     </item>
     <item>
       <title>《让你的时间更有价值：空闲时间就是你的未来财富（独家定制版） 》 - 张萌</title>
-      <link>https://www.frytea.com/archives/1050/</link>
+      <link>https://frytea.com/archives/1050/</link>
       <pubDate>Mon, 26 Dec 2022 08:09:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1050/</guid>
+      <guid>https://frytea.com/archives/1050/</guid>
       <description>&lt;p&gt;让你的时间更有价值：空闲时间就是你的未来财富（独家定制版） 张萌 51个笔记 ◆ 前言PREFACE&lt;/p&gt;</description>
     </item>
     <item>
       <title>《加速：从拖延到高效，过三倍速度人生》- 张萌</title>
-      <link>https://www.frytea.com/archives/1054/</link>
+      <link>https://frytea.com/archives/1054/</link>
       <pubDate>Mon, 26 Dec 2022 08:09:04 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1054/</guid>
+      <guid>https://frytea.com/archives/1054/</guid>
       <description>&lt;p&gt;加速：从拖延到高效，过三倍速度人生 张萌 104个笔记 ◆ 序 从现在起，过有准备的人生 2017年&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《让你的时间更有价值：空闲时间就是你的未来财富（独家定制版） 》 - 张萌</title>
-      <link>https://www.frytea.com/archives/704/</link>
+      <link>https://frytea.com/archives/704/</link>
       <pubDate>Mon, 26 Dec 2022 00:09:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/704/</guid>
+      <guid>https://frytea.com/archives/704/</guid>
       <description>&lt;p&gt;让你的时间更有价值：空闲时间就是你的未来财富（独家定制版）
 张萌
 51个笔记&lt;/p&gt;
@@ -611,9 +611,9 @@
     </item>
     <item>
       <title>[摘录]《加速：从拖延到高效，过三倍速度人生》- 张萌</title>
-      <link>https://www.frytea.com/archives/698/</link>
+      <link>https://frytea.com/archives/698/</link>
       <pubDate>Mon, 26 Dec 2022 00:09:04 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/698/</guid>
+      <guid>https://frytea.com/archives/698/</guid>
       <description>&lt;p&gt;加速：从拖延到高效，过三倍速度人生
 张萌
 104个笔记&lt;/p&gt;
@@ -624,23 +624,23 @@
     </item>
     <item>
       <title>《写作是最好的自我投资》 - Spenser</title>
-      <link>https://www.frytea.com/archives/1077/</link>
+      <link>https://frytea.com/archives/1077/</link>
       <pubDate>Sat, 24 Dec 2022 12:32:42 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1077/</guid>
+      <guid>https://frytea.com/archives/1077/</guid>
       <description>&lt;p&gt;写作是最好的自我投资 Spenser 36个笔记 ◆ 自序 没有写作，我可能要多奋斗十年 第一，写作&lt;/p&gt;</description>
     </item>
     <item>
       <title>《Linux系统命令及Shell脚本实践指南》 - 王军</title>
-      <link>https://www.frytea.com/archives/1065/</link>
+      <link>https://frytea.com/archives/1065/</link>
       <pubDate>Sat, 24 Dec 2022 10:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1065/</guid>
+      <guid>https://frytea.com/archives/1065/</guid>
       <description>&lt;p&gt;Linux 系统命令及 Shell 脚本实践指南 王军 415 个笔记 ◆ 点评 认为好看 此前一些&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《写作是最好的自我投资》 - Spenser</title>
-      <link>https://www.frytea.com/archives/703/</link>
+      <link>https://frytea.com/archives/703/</link>
       <pubDate>Sat, 24 Dec 2022 04:32:42 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/703/</guid>
+      <guid>https://frytea.com/archives/703/</guid>
       <description>&lt;p&gt;写作是最好的自我投资
 Spenser
 36个笔记&lt;/p&gt;
@@ -656,9 +656,9 @@ Spenser
     </item>
     <item>
       <title>[摘录]《Linux系统命令及Shell脚本实践指南》 - 王军</title>
-      <link>https://www.frytea.com/archives/699/</link>
+      <link>https://frytea.com/archives/699/</link>
       <pubDate>Sat, 24 Dec 2022 02:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/699/</guid>
+      <guid>https://frytea.com/archives/699/</guid>
       <description>&lt;p&gt;Linux 系统命令及 Shell 脚本实践指南
 王军
 415 个笔记&lt;/p&gt;
@@ -668,16 +668,16 @@ Spenser
     </item>
     <item>
       <title>《Ceph分布式存储实战》 - Ceph中国社区</title>
-      <link>https://www.frytea.com/archives/1045/</link>
+      <link>https://frytea.com/archives/1045/</link>
       <pubDate>Thu, 22 Dec 2022 08:59:58 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1045/</guid>
+      <guid>https://frytea.com/archives/1045/</guid>
       <description>&lt;p&gt;Ceph分布式存储实战 Ceph中国社区 135个笔记 ◆ 本书赞誉 Ceph的CRUSH算法引擎，&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《Ceph分布式存储实战》 - Ceph中国社区</title>
-      <link>https://www.frytea.com/archives/701/</link>
+      <link>https://frytea.com/archives/701/</link>
       <pubDate>Thu, 22 Dec 2022 00:59:58 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/701/</guid>
+      <guid>https://frytea.com/archives/701/</guid>
       <description>&lt;p&gt;Ceph分布式存储实战
 Ceph中国社区
 135个笔记&lt;/p&gt;
@@ -693,16 +693,16 @@ Ceph中国社区
     </item>
     <item>
       <title>《梁永安：阅读、游历和爱情》</title>
-      <link>https://www.frytea.com/archives/1076/</link>
+      <link>https://frytea.com/archives/1076/</link>
       <pubDate>Wed, 21 Dec 2022 09:14:56 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1076/</guid>
+      <guid>https://frytea.com/archives/1076/</guid>
       <description>&lt;p&gt;梁永安：阅读、游历和爱情 梁永安 70个笔记 ◆ 谈自我 如何衡量自我价值？其实很简单：每天都反思一&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《梁永安：阅读、游历和爱情》</title>
-      <link>https://www.frytea.com/archives/697/</link>
+      <link>https://frytea.com/archives/697/</link>
       <pubDate>Wed, 21 Dec 2022 01:14:56 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/697/</guid>
+      <guid>https://frytea.com/archives/697/</guid>
       <description>&lt;p&gt;梁永安：阅读、游历和爱情
 梁永安
 70个笔记&lt;/p&gt;
@@ -713,16 +713,16 @@ Ceph中国社区
     </item>
     <item>
       <title>《聪明人都下笨功夫 愚蠢人只想走捷径》 - 夏文芳</title>
-      <link>https://www.frytea.com/archives/1073/</link>
+      <link>https://frytea.com/archives/1073/</link>
       <pubDate>Tue, 20 Dec 2022 09:25:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1073/</guid>
+      <guid>https://frytea.com/archives/1073/</guid>
       <description>&lt;p&gt;聪明人都下笨功夫 愚蠢人只想走捷径 夏文芳 61个笔记 ◆ 01 聪明没有护城河 想成功，就得在别人&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《聪明人都下笨功夫 愚蠢人只想走捷径》 - 夏文芳</title>
-      <link>https://www.frytea.com/archives/696/</link>
+      <link>https://frytea.com/archives/696/</link>
       <pubDate>Tue, 20 Dec 2022 01:25:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/696/</guid>
+      <guid>https://frytea.com/archives/696/</guid>
       <description>&lt;p&gt;聪明人都下笨功夫 愚蠢人只想走捷径
 夏文芳
 61个笔记&lt;/p&gt;
@@ -738,23 +738,23 @@ Ceph中国社区
     </item>
     <item>
       <title>《GitHub入门与实践》 - 大塚弘记</title>
-      <link>https://www.frytea.com/archives/1066/</link>
+      <link>https://frytea.com/archives/1066/</link>
       <pubDate>Sat, 17 Dec 2022 11:02:13 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1066/</guid>
+      <guid>https://frytea.com/archives/1066/</guid>
       <description>&lt;p&gt;GitHub入门与实践 大塚弘记 13个笔记 ◆ 第1章 欢迎来到GitHub的世界 GitHub公&lt;/p&gt;</description>
     </item>
     <item>
       <title>《发布！设计与部署稳定的分布式系统（第2版）》- 迈克尔·尼加德</title>
-      <link>https://www.frytea.com/archives/1067/</link>
+      <link>https://frytea.com/archives/1067/</link>
       <pubDate>Sat, 17 Dec 2022 11:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1067/</guid>
+      <guid>https://frytea.com/archives/1067/</guid>
       <description>&lt;p&gt;发布！设计与部署稳定的分布式系统（第2版） 迈克尔·尼加德 16个笔记 ◆ 译者序 因为很多开发人员&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《GitHub入门与实践 - 大塚弘记》</title>
-      <link>https://www.frytea.com/archives/694/</link>
+      <link>https://frytea.com/archives/694/</link>
       <pubDate>Sat, 17 Dec 2022 03:02:13 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/694/</guid>
+      <guid>https://frytea.com/archives/694/</guid>
       <description>&lt;p&gt;GitHub入门与实践
 大塚弘记
 13个笔记&lt;/p&gt;
@@ -765,9 +765,9 @@ Ceph中国社区
     </item>
     <item>
       <title>[摘录]《发布！设计与部署稳定的分布式系统（第2版） - 迈克尔·尼加德》</title>
-      <link>https://www.frytea.com/archives/693/</link>
+      <link>https://frytea.com/archives/693/</link>
       <pubDate>Sat, 17 Dec 2022 03:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/693/</guid>
+      <guid>https://frytea.com/archives/693/</guid>
       <description>&lt;p&gt;发布！设计与部署稳定的分布式系统（第2版）
 迈克尔·尼加德
 16个笔记&lt;/p&gt;
@@ -778,16 +778,16 @@ Ceph中国社区
     </item>
     <item>
       <title>《微信小程序开发入门与实践》 - 雷磊</title>
-      <link>https://www.frytea.com/archives/1056/</link>
+      <link>https://frytea.com/archives/1056/</link>
       <pubDate>Fri, 16 Dec 2022 20:21:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1056/</guid>
+      <guid>https://frytea.com/archives/1056/</guid>
       <description>&lt;p&gt;微信小程序开发入门与实践 雷磊 53个笔记 ◆ 前 言 小程序中没有DOM，请放弃“首先获取DOM，&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《微信小程序开发入门与实践》 - 雷磊</title>
-      <link>https://www.frytea.com/archives/679/</link>
+      <link>https://frytea.com/archives/679/</link>
       <pubDate>Fri, 16 Dec 2022 12:21:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/679/</guid>
+      <guid>https://frytea.com/archives/679/</guid>
       <description>&lt;p&gt;微信小程序开发入门与实践
 雷磊
 53个笔记&lt;/p&gt;
@@ -803,16 +803,16 @@ Ceph中国社区
     </item>
     <item>
       <title>《OpenResty完全开发指南：构建百万级别并发的Web应用》 - 罗剑锋</title>
-      <link>https://www.frytea.com/archives/1080/</link>
+      <link>https://frytea.com/archives/1080/</link>
       <pubDate>Thu, 15 Dec 2022 19:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1080/</guid>
+      <guid>https://frytea.com/archives/1080/</guid>
       <description>&lt;p&gt;OpenResty完全开发指南：构建百万级别并发的Web应用 罗剑锋 131个笔记 ◆ 第1章 总论&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《OpenResty完全开发指南：构建百万级别并发的Web应用》 - 罗剑锋</title>
-      <link>https://www.frytea.com/archives/678/</link>
+      <link>https://frytea.com/archives/678/</link>
       <pubDate>Thu, 15 Dec 2022 11:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/678/</guid>
+      <guid>https://frytea.com/archives/678/</guid>
       <description>&lt;p&gt;OpenResty完全开发指南：构建百万级别并发的Web应用
 罗剑锋
 131个笔记&lt;/p&gt;
@@ -828,16 +828,16 @@ Ceph中国社区
     </item>
     <item>
       <title>《Go语言精进之路：从新手到高手的编程思想、方法和技巧1 》- 白明</title>
-      <link>https://www.frytea.com/archives/1057/</link>
+      <link>https://frytea.com/archives/1057/</link>
       <pubDate>Sun, 11 Dec 2022 22:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1057/</guid>
+      <guid>https://frytea.com/archives/1057/</guid>
       <description>&lt;p&gt;Go语言精进之路：从新手到高手的编程思想、方法和技巧1 白明 330个笔记 ◆ 第一部分 熟知Go语&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录]《Go语言精进之路：从新手到高手的编程思想、方法和技巧1 - 白明》</title>
-      <link>https://www.frytea.com/archives/680/</link>
+      <link>https://frytea.com/archives/680/</link>
       <pubDate>Sun, 11 Dec 2022 14:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/680/</guid>
+      <guid>https://frytea.com/archives/680/</guid>
       <description>&lt;p&gt;Go语言精进之路：从新手到高手的编程思想、方法和技巧1
 白明
 330个笔记&lt;/p&gt;
@@ -848,18 +848,18 @@ Ceph中国社区
     </item>
     <item>
       <title>拨云见日站在新的《起跑线》，让人放松的喜剧片</title>
-      <link>https://www.frytea.com/archives/672/</link>
+      <link>https://frytea.com/archives/672/</link>
       <pubDate>Tue, 06 Dec 2022 15:22:12 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/672/</guid>
+      <guid>https://frytea.com/archives/672/</guid>
       <description>&lt;p&gt;最近才得知《起跑线》这部电影，晚上精神疲惫看不进东西，就翻出这部喜剧片，只能说珍藏片库+1了。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/06/202212062307799d689de566f57f257.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;对于电影本身不做过多评价了，简单谈谈看过后自己心态上的一切变化。&lt;/p&gt;</description>
     </item>
     <item>
       <title>「送你一朵小红花」</title>
-      <link>https://www.frytea.com/archives/519/</link>
+      <link>https://frytea.com/archives/519/</link>
       <pubDate>Tue, 09 Mar 2021 15:50:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/519/</guid>
+      <guid>https://frytea.com/archives/519/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;马小远：我从五岁就大把大把吃药，那会儿我就知道，活着就不是件容易的事。              ——《送你一朵小红花》&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -867,111 +867,111 @@ Ceph中国社区
     </item>
     <item>
       <title>《小狗钱钱》</title>
-      <link>https://www.frytea.com/archives/1059/</link>
+      <link>https://frytea.com/archives/1059/</link>
       <pubDate>Sun, 03 Jan 2021 12:16:23 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1059/</guid>
+      <guid>https://frytea.com/archives/1059/</guid>
       <description>&lt;p&gt;如果你只是带着试试看的心态，那么你最后只会以失败而告终，你会一事无成。尝试纯粹是一种借口，你还没有做&lt;/p&gt;</description>
     </item>
     <item>
       <title>小狗钱钱 ｜ 伪装成童话的入门理财书籍</title>
-      <link>https://www.frytea.com/archives/503/</link>
+      <link>https://frytea.com/archives/503/</link>
       <pubDate>Sun, 03 Jan 2021 04:16:23 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/503/</guid>
+      <guid>https://frytea.com/archives/503/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;如果你只是带着试试看的心态，那么你最后只会以失败而告终，你会一事无成。尝试纯粹是一种借口，你还没有做，就已经给自己想好退路了。不能试验。你只有两个选择：做，或者不做。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《天气之子》 有时需要些治愈系</title>
-      <link>https://www.frytea.com/archives/1047/</link>
+      <link>https://frytea.com/archives/1047/</link>
       <pubDate>Sun, 15 Nov 2020 19:43:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1047/</guid>
+      <guid>https://frytea.com/archives/1047/</guid>
       <description>&lt;p&gt;还记得上一次，阅读那本《解忧杂货铺》；还有那一次，观赏《解忧杂货铺》；再有在那2020年的4月份，观&lt;/p&gt;</description>
     </item>
     <item>
       <title>【阅记】天气之子 ｜ 有时需要些治愈系</title>
-      <link>https://www.frytea.com/archives/483/</link>
+      <link>https://frytea.com/archives/483/</link>
       <pubDate>Sun, 15 Nov 2020 11:43:05 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/483/</guid>
+      <guid>https://frytea.com/archives/483/</guid>
       <description>&lt;p&gt;还记得上一次，阅读那本《解忧杂货铺》；还有那一次，观赏《解忧杂货铺》；再有在那2020年的4月份，观赏《解忧杂货铺》。内心里涌动着一股暖流，驱散了许多阴霾。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《斯坦福高效睡眠法》 ｜ 高效睡眠 ｜ 高效人生</title>
-      <link>https://www.frytea.com/archives/1075/</link>
+      <link>https://frytea.com/archives/1075/</link>
       <pubDate>Thu, 05 Nov 2020 22:31:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1075/</guid>
+      <guid>https://frytea.com/archives/1075/</guid>
       <description>&lt;p&gt;时常会听到有人说抱怨自己失眠、睡眠不足，工作压力大没时间睡，有时间睡了反而辗转反侧睡不着。 这都是很&lt;/p&gt;</description>
     </item>
     <item>
       <title>【阅记】斯坦福高效睡眠法 ｜ 高效睡眠 ｜ 高效人生</title>
-      <link>https://www.frytea.com/archives/476/</link>
+      <link>https://frytea.com/archives/476/</link>
       <pubDate>Thu, 05 Nov 2020 14:31:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/476/</guid>
+      <guid>https://frytea.com/archives/476/</guid>
       <description>&lt;p&gt;时常会听到有人说抱怨自己失眠、睡眠不足，工作压力大没时间睡，有时间睡了反而辗转反侧睡不着。&lt;/p&gt;
 &lt;p&gt;这都是很常见的一些睡眠问题，大学室友就饱受睡眠问题的困扰，后来用了褪黑素效果还不错。我自己也有类似的苦恼，有时候在深夜里突然感觉全身难受，究其原因居然是饮水不足。总是导致睡满问题的原因有很多很多，可许多人都会有的共同烦恼可以总结为：&lt;strong&gt;睡不着、睡不够&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>夺冠的感觉？ ｜ 精神传承 ｜ 自我到为人</title>
-      <link>https://www.frytea.com/archives/458/</link>
+      <link>https://frytea.com/archives/458/</link>
       <pubDate>Tue, 29 Sep 2020 16:34:41 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/458/</guid>
+      <guid>https://frytea.com/archives/458/</guid>
       <description>&lt;p&gt;今天组织集体去看了电影《夺冠》。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;《夺冠》是由中宣部与国家体育总局联合拍摄，由陈可辛执导的剧情运动片，巩俐、黄渤、吴刚、彭昱畅、白浪、中国女子排球队领衔主演。该片于2020年9月25日在中国内地上映。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《幸福领导力》 ｜ 高层次的激励力量</title>
-      <link>https://www.frytea.com/archives/1048/</link>
+      <link>https://frytea.com/archives/1048/</link>
       <pubDate>Sat, 12 Sep 2020 09:59:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1048/</guid>
+      <guid>https://frytea.com/archives/1048/</guid>
       <description>&lt;p&gt;当今社会十分缺乏幸福感，同样是加班，有些员工乐在其中，有些员工叫苦不迭。其差异就在于缺乏幸福感。有幸&lt;/p&gt;</description>
     </item>
     <item>
       <title>幸福领导力 ｜ 高层次的激励力量</title>
-      <link>https://www.frytea.com/archives/452/</link>
+      <link>https://frytea.com/archives/452/</link>
       <pubDate>Sat, 12 Sep 2020 01:59:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/452/</guid>
+      <guid>https://frytea.com/archives/452/</guid>
       <description>&lt;p&gt;当今社会十分缺乏幸福感，同样是加班，有些员工乐在其中，有些员工叫苦不迭。其差异就在于缺乏幸福感。有幸福感的工作和生活，会更具有激情，走的更长久，做的更好。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《加速》</title>
-      <link>https://www.frytea.com/archives/1071/</link>
+      <link>https://frytea.com/archives/1071/</link>
       <pubDate>Sun, 30 Aug 2020 23:54:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1071/</guid>
+      <guid>https://frytea.com/archives/1071/</guid>
       <description>&lt;p&gt;这本书看完许久了，但一直没有整理出笔记。理由是：高亮区域实在太多，难以取舍。可就在近期，我自己没有必&lt;/p&gt;</description>
     </item>
     <item>
       <title>想要加速人生吗 ｜ 加速 ｜ 阅后记</title>
-      <link>https://www.frytea.com/archives/445/</link>
+      <link>https://frytea.com/archives/445/</link>
       <pubDate>Sun, 30 Aug 2020 15:54:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/445/</guid>
+      <guid>https://frytea.com/archives/445/</guid>
       <description>&lt;p&gt;这本书看完许久了，但一直没有整理出笔记。理由是：高亮区域实在太多，难以取舍。可就在近期，我自己没有必要把所有高光时刻都一一呈现，只需要挑选几个比较有意思的点分享即可。我不是在写书，我是在呈现自己的阅读思路。下面是这本书的一些信息，先装模作样的展示一下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>《蒂姆·库克传》 - 苹果的转机与未来</title>
-      <link>https://www.frytea.com/archives/1044/</link>
+      <link>https://frytea.com/archives/1044/</link>
       <pubDate>Sat, 29 Aug 2020 16:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1044/</guid>
+      <guid>https://frytea.com/archives/1044/</guid>
       <description>&lt;p&gt;不知道大家对于 蒂姆 · 库克 是否好奇，究竟是什么样的人才能够接过乔帮主的接力棒，成为世界上最有创&lt;/p&gt;</description>
     </item>
     <item>
       <title>苹果的转机与未来 ｜ 蒂姆·库克传阅后记</title>
-      <link>https://www.frytea.com/archives/444/</link>
+      <link>https://frytea.com/archives/444/</link>
       <pubDate>Sat, 29 Aug 2020 08:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/444/</guid>
+      <guid>https://frytea.com/archives/444/</guid>
       <description>&lt;p&gt;不知道大家对于 蒂姆 · 库克 是否好奇，究竟是什么样的人才能够接过乔帮主的接力棒，成为世界上最有创造力公司的掌舵人，顶着外界带来的巨大压力，带领苹果走向新的巅峰呢？&lt;/p&gt;</description>
     </item>
     <item>
       <title>《刘强东（传）》 - 人到绝境是重生 ｜ 创业就是解决问题 ｜</title>
-      <link>https://www.frytea.com/archives/1069/</link>
+      <link>https://frytea.com/archives/1069/</link>
       <pubDate>Mon, 24 Aug 2020 22:25:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1069/</guid>
+      <guid>https://frytea.com/archives/1069/</guid>
       <description>&lt;p&gt;创业究竟是为了什么？ 如何才能成功呢？ 前些阵子我在这本《刘强东：人到绝境是重生》中找到了答案。 壹&lt;/p&gt;</description>
     </item>
     <item>
       <title>人到绝境是重生 ｜ 创业就是解决问题 ｜ 刘强东（传）阅后记</title>
-      <link>https://www.frytea.com/archives/441/</link>
+      <link>https://frytea.com/archives/441/</link>
       <pubDate>Mon, 24 Aug 2020 14:25:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/441/</guid>
+      <guid>https://frytea.com/archives/441/</guid>
       <description>&lt;p&gt;创业究竟是为了什么？&lt;/p&gt;
 &lt;p&gt;如何才能成功呢？&lt;/p&gt;
 &lt;p&gt;前些阵子我在这本《刘强东：人到绝境是重生》中找到了答案。&lt;/p&gt;
@@ -981,17 +981,17 @@ Ceph中国社区
     </item>
     <item>
       <title>时代终将遗忘无输出的人 ｜ 写作是最好的自我投资 ｜ 阅后记</title>
-      <link>https://www.frytea.com/archives/436/</link>
+      <link>https://frytea.com/archives/436/</link>
       <pubDate>Thu, 20 Aug 2020 13:15:07 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/436/</guid>
+      <guid>https://frytea.com/archives/436/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;今天工作结束的早，回到住处读完了这本《写作是最好的自我投资》，筹划着什么时候给自己配备一台汉王黄金屋。读完本书又一个小灵感——根据标题做完思维导图，基本就掌握了本书脉络。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《4点起床：最养生和高效的时间管理》摘录总结 ｜ 十句阅读</title>
-      <link>https://www.frytea.com/archives/432/</link>
+      <link>https://frytea.com/archives/432/</link>
       <pubDate>Sun, 16 Aug 2020 22:29:32 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/432/</guid>
+      <guid>https://frytea.com/archives/432/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;4点起床：最养生和高效的时间管理
 作者: 【日】中岛孝志
@@ -1003,17 +1003,17 @@ ISBN: 9787514200577
     </item>
     <item>
       <title>《哈利·波特与魔法石》观影记录 ｜ 感动 ｜ 魔法永恒</title>
-      <link>https://www.frytea.com/archives/431/</link>
+      <link>https://frytea.com/archives/431/</link>
       <pubDate>Sun, 16 Aug 2020 13:28:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/431/</guid>
+      <guid>https://frytea.com/archives/431/</guid>
       <description>&lt;p&gt;今天去看了《哈利波特与魔法石》重映：4K 修复 + 3D 版。&lt;/p&gt;
 &lt;p&gt;数据显示，正在中国内地重映的第一部《哈利 · 波特》电影《哈利 · 波特与魔法石》，目前内地累计票房已破 1 亿元：18 年前首映票房为 5600 万，重映现 4490 万（2020年8月15日IT之家报道）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《让你的时间更有价值》十句感悟</title>
-      <link>https://www.frytea.com/archives/425/</link>
+      <link>https://frytea.com/archives/425/</link>
       <pubDate>Sat, 08 Aug 2020 13:21:41 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/425/</guid>
+      <guid>https://frytea.com/archives/425/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;让你的时间更有价值：空闲时间就是你的未来财富（微信阅读独家首发）
 张萌 萌姐
@@ -1023,9 +1023,9 @@ ISBN: 9787514200577
     </item>
     <item>
       <title>《任正非传》十句摘录</title>
-      <link>https://www.frytea.com/archives/422/</link>
+      <link>https://frytea.com/archives/422/</link>
       <pubDate>Sun, 02 Aug 2020 15:10:10 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/422/</guid>
+      <guid>https://frytea.com/archives/422/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;孙力科著
 共36个笔记&lt;/p&gt;
@@ -1034,16 +1034,16 @@ ISBN: 9787514200577
     </item>
     <item>
       <title>《断舍离》</title>
-      <link>https://www.frytea.com/archives/1079/</link>
+      <link>https://frytea.com/archives/1079/</link>
       <pubDate>Sun, 19 Jul 2020 17:07:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1079/</guid>
+      <guid>https://frytea.com/archives/1079/</guid>
       <description>&lt;p&gt;作者: 山下英子 出版社: 广西科学技术出版社 原作名: 新・片づけ術「断捨離」 译者: 吴倩 出版&lt;/p&gt;</description>
     </item>
     <item>
       <title>《断舍离》十句感触</title>
-      <link>https://www.frytea.com/archives/408/</link>
+      <link>https://frytea.com/archives/408/</link>
       <pubDate>Sun, 19 Jul 2020 09:07:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/408/</guid>
+      <guid>https://frytea.com/archives/408/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;作者: 山下英子
 出版社: 广西科学技术出版社
@@ -1058,16 +1058,16 @@ ISBN: 9787807639817&lt;/p&gt;</description>
     </item>
     <item>
       <title>《房思琪的初恋乐园》</title>
-      <link>https://www.frytea.com/archives/1052/</link>
+      <link>https://frytea.com/archives/1052/</link>
       <pubDate>Sun, 21 Jun 2020 10:55:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1052/</guid>
+      <guid>https://frytea.com/archives/1052/</guid>
       <description>&lt;p&gt;“这世界有个奇怪的现象，总是等到作者离开世界，人们才去读她的作品。这社会还有个奇怪的规律，总是等到人&lt;/p&gt;</description>
     </item>
     <item>
       <title>《房思琪的初恋乐园》阅读笔记</title>
-      <link>https://www.frytea.com/archives/388/</link>
+      <link>https://frytea.com/archives/388/</link>
       <pubDate>Sun, 21 Jun 2020 02:55:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/388/</guid>
+      <guid>https://frytea.com/archives/388/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;“这世界有个奇怪的现象，总是等到作者离开世界，人们才去读她的作品。这社会还有个奇怪的规律，总是等到人以命相逼，才意识到事情不小。”
 ——李尚龙&lt;/p&gt;
@@ -1077,17 +1077,17 @@ ISBN: 9787807639817&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cisco PT 案例九：单臂路由</title>
-      <link>https://www.frytea.com/archives/350/</link>
+      <link>https://frytea.com/archives/350/</link>
       <pubDate>Fri, 19 Jun 2020 08:32:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/350/</guid>
+      <guid>https://frytea.com/archives/350/</guid>
       <description>&lt;p&gt;单臂路由（router-on-a-stick）是指在路由器的一个接口上通过配置子接口（或“逻辑接口”，并不存在真正物理接口）的方式，实现原来相互隔离的不同VLAN（虚拟局域网）之间的互联互通。
 &lt;a name=&#34;cwLaM&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cisco PT  案例八：配置基本ACL访问控制</title>
-      <link>https://www.frytea.com/archives/349/</link>
+      <link>https://frytea.com/archives/349/</link>
       <pubDate>Fri, 19 Jun 2020 01:52:23 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/349/</guid>
+      <guid>https://frytea.com/archives/349/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;DAUUT&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1104,9 +1104,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例七：配置链路聚合 / 负载均衡</title>
-      <link>https://www.frytea.com/archives/348/</link>
+      <link>https://frytea.com/archives/348/</link>
       <pubDate>Fri, 19 Jun 2020 01:51:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/348/</guid>
+      <guid>https://frytea.com/archives/348/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;DAUUT&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1136,9 +1136,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例六：交换机端口与Mac地址绑定</title>
-      <link>https://www.frytea.com/archives/347/</link>
+      <link>https://frytea.com/archives/347/</link>
       <pubDate>Fri, 19 Jun 2020 01:51:04 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/347/</guid>
+      <guid>https://frytea.com/archives/347/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;7V7nm&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1158,9 +1158,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例五：VLAN（Trunk模式实践）</title>
-      <link>https://www.frytea.com/archives/346/</link>
+      <link>https://frytea.com/archives/346/</link>
       <pubDate>Fri, 19 Jun 2020 01:50:29 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/346/</guid>
+      <guid>https://frytea.com/archives/346/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;pVLnQ&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1180,9 +1180,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例四：VLAN（Access模式实践）</title>
-      <link>https://www.frytea.com/archives/345/</link>
+      <link>https://frytea.com/archives/345/</link>
       <pubDate>Fri, 19 Jun 2020 01:49:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/345/</guid>
+      <guid>https://frytea.com/archives/345/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;DAUUT&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1208,9 +1208,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例三：端口使能/禁用</title>
-      <link>https://www.frytea.com/archives/344/</link>
+      <link>https://frytea.com/archives/344/</link>
       <pubDate>Fri, 19 Jun 2020 01:48:54 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/344/</guid>
+      <guid>https://frytea.com/archives/344/</guid>
       <description>&lt;h1&gt;&lt;a name=&#34;DAUUT&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -1248,9 +1248,9 @@ R1(config-if)#no shutdown                    //开启端口
     </item>
     <item>
       <title>Cisco PT 案例二：为路由器配置并连接SSH</title>
-      <link>https://www.frytea.com/archives/343/</link>
+      <link>https://frytea.com/archives/343/</link>
       <pubDate>Fri, 19 Jun 2020 01:47:49 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/343/</guid>
+      <guid>https://frytea.com/archives/343/</guid>
       <description>&lt;p&gt;&lt;a name=&#34;Ilgev&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-案例目标&#34;&gt;1. 案例目标&lt;/h2&gt;
 &lt;p&gt;通过本案例，你可以掌握如下技能：&lt;/p&gt;
@@ -1270,31 +1270,31 @@ SSH 已经替代了 Telnet，作为远程路由器连接管理的最佳工具，
     </item>
     <item>
       <title>Cisco PT案例一：为交换机配置并连接TELNET</title>
-      <link>https://www.frytea.com/archives/342/</link>
+      <link>https://frytea.com/archives/342/</link>
       <pubDate>Fri, 19 Jun 2020 01:42:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/342/</guid>
+      <guid>https://frytea.com/archives/342/</guid>
       <description>&lt;p&gt;Telnet协议是TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式。它为用户提供了在本地计算机上完成远程主机工作的能力。在终端使用者的电脑上使用telnet程序，用它连接到服务器。终端使用者可以在telnet程序中输入命令，这些命令会在服务器上运行，就像直接在服务器的控制台上输入一样。可以在本地就能控制服务器。要开始一个telnet会话，必须输入用户名和密码来登录服务器。Telnet是常用的远程控制Web服务器的方法。
 &lt;a name=&#34;DAUUT&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>《哈利 · 波特 与混血王子（2005）》</title>
-      <link>https://www.frytea.com/archives/1053/</link>
+      <link>https://frytea.com/archives/1053/</link>
       <pubDate>Sun, 03 Nov 2019 16:53:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1053/</guid>
+      <guid>https://frytea.com/archives/1053/</guid>
       <description>&lt;p&gt;The Prime Minister did not know what to say to thi&lt;/p&gt;</description>
     </item>
     <item>
       <title>《哈利 · 波特 与密室（1998）》</title>
-      <link>https://www.frytea.com/archives/1072/</link>
+      <link>https://frytea.com/archives/1072/</link>
       <pubDate>Sun, 03 Nov 2019 16:51:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1072/</guid>
+      <guid>https://frytea.com/archives/1072/</guid>
       <description>&lt;p&gt;I think I’d better do the actual stealing » 我们需要声东&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录] 哈利 · 波特 与混血王子（2005）</title>
-      <link>https://www.frytea.com/archives/174/</link>
+      <link>https://frytea.com/archives/174/</link>
       <pubDate>Sun, 03 Nov 2019 08:53:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/174/</guid>
+      <guid>https://frytea.com/archives/174/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;The Prime Minister did not know what to say to this, but a persistent habit of wishing to appear well-informed on any subject that came up made him cast around for any details he could remember of their previous conversations. &amp;raquo;&lt;/li&gt;
 &lt;li&gt;首相听了这话,竟一时不知道该说什么好,但他有一个根深蒂固的习惯,不管谈论什么话题,他都要显示自己无所不知,因此他在记忆中苦苦搜寻他们前几次谈话的内容。 &amp;raquo;&lt;/li&gt;
@@ -1565,9 +1565,9 @@ SSH 已经替代了 Telnet，作为远程路由器连接管理的最佳工具，
     </item>
     <item>
       <title>[摘录] 哈利 · 波特 与密室（1998）</title>
-      <link>https://www.frytea.com/archives/173/</link>
+      <link>https://frytea.com/archives/173/</link>
       <pubDate>Sun, 03 Nov 2019 08:51:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/173/</guid>
+      <guid>https://frytea.com/archives/173/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;I think I’d better do the actual stealing &amp;raquo;&lt;/li&gt;
 &lt;li&gt;我们需要声东击西 &amp;raquo;&lt;/li&gt;
@@ -1600,16 +1600,16 @@ SSH 已经替代了 Telnet，作为远程路由器连接管理的最佳工具，
     </item>
     <item>
       <title>《哈利 · 波特 与凤凰社（2003）》</title>
-      <link>https://www.frytea.com/archives/1055/</link>
+      <link>https://frytea.com/archives/1055/</link>
       <pubDate>Thu, 26 Sep 2019 21:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1055/</guid>
+      <guid>https://frytea.com/archives/1055/</guid>
       <description>&lt;p&gt;!!! [tag outline] Photo by Hudson Hintze on Unsp&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录] 哈利 · 波特 与凤凰社（2003）</title>
-      <link>https://www.frytea.com/archives/162/</link>
+      <link>https://frytea.com/archives/162/</link>
       <pubDate>Thu, 26 Sep 2019 13:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/162/</guid>
+      <guid>https://frytea.com/archives/162/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;86AAA194-FF56-46F7-A93F-958324ABA777.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/86AAA194-FF56-46F7-A93F-958324ABA777.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;p&gt;!!!&lt;/p&gt;
 &lt;center&gt;
@@ -2157,16 +2157,16 @@ You need return there only once a year, but as long as you can still call it hom
     </item>
     <item>
       <title>《哈利 · 波特 与火焰杯（2000）》</title>
-      <link>https://www.frytea.com/archives/1051/</link>
+      <link>https://frytea.com/archives/1051/</link>
       <pubDate>Thu, 29 Aug 2019 16:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1051/</guid>
+      <guid>https://frytea.com/archives/1051/</guid>
       <description>&lt;p&gt;!!! !!! Your devotion is nothing more than cowardi&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录] 哈利 · 波特 与火焰杯（2000）</title>
-      <link>https://www.frytea.com/archives/158/</link>
+      <link>https://frytea.com/archives/158/</link>
       <pubDate>Thu, 29 Aug 2019 08:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/158/</guid>
+      <guid>https://frytea.com/archives/158/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;ED4851EE-79E3-4759-AB73-25388C217BE6.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/E01D7A08-12DA-49D0-B8AD-5F588B23411D.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;p&gt;!!!&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jATVgJ_grys&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -2186,16 +2186,16 @@ You need return there only once a year, but as long as you can still call it hom
     </item>
     <item>
       <title>《哈利 · 波特 与阿兹卡班的囚徒（1999）》</title>
-      <link>https://www.frytea.com/archives/1068/</link>
+      <link>https://frytea.com/archives/1068/</link>
       <pubDate>Thu, 15 Aug 2019 09:24:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1068/</guid>
+      <guid>https://frytea.com/archives/1068/</guid>
       <description>&lt;p&gt;!!! !!! 1. He was stranded, quite alone, in the da&lt;/p&gt;</description>
     </item>
     <item>
       <title>[摘录] 哈利 · 波特 与阿兹卡班的囚徒（1999）</title>
-      <link>https://www.frytea.com/archives/157/</link>
+      <link>https://frytea.com/archives/157/</link>
       <pubDate>Thu, 15 Aug 2019 01:24:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/157/</guid>
+      <guid>https://frytea.com/archives/157/</guid>
       <description>&lt;p&gt;!!!&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oi007IrGQZI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 !!!
@@ -2208,25 +2208,25 @@ people with a single curse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>《人人都能用英语》</title>
-      <link>https://www.frytea.com/archives/1070/</link>
+      <link>https://frytea.com/archives/1070/</link>
       <pubDate>Wed, 14 Aug 2019 19:18:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1070/</guid>
+      <guid>https://frytea.com/archives/1070/</guid>
       <description>&lt;p&gt;该图片由luthfi pribadi在Pixabay上发布 看到李笑来《人人都能用英语》这本书的那一&lt;/p&gt;</description>
     </item>
     <item>
       <title>【摘录笔记】人人都能用英语</title>
-      <link>https://www.frytea.com/archives/156/</link>
+      <link>https://frytea.com/archives/156/</link>
       <pubDate>Wed, 14 Aug 2019 11:18:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/156/</guid>
+      <guid>https://frytea.com/archives/156/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;sunset-4361545_1920.jpg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/sunset-4361545_1920.jpg#shadow&#34;&gt;
 该图片由&lt;a href=&#34;https://pixabay.com/zh/users/lutv22-9114339/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4361545&#34;&gt;luthfi pribadi&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4361545&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
 &lt;p&gt;看到李笑来《人人都能用英语》这本书的那一刻，就像是阴暗之中射进一束光。书里说了不少“实话”，让我真正的看清自己。看过这本书，我终于坚定下一些事情。有些错误，真会错一辈子，还乐此不疲。有的看似美好，真就是对自己的一种欺骗。看清这个世界，如同哈利波特中说的那样。&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Legend of 1900</title>
-      <link>https://www.frytea.com/archives/155/</link>
+      <link>https://frytea.com/archives/155/</link>
       <pubDate>Tue, 13 Aug 2019 08:26:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/155/</guid>
+      <guid>https://frytea.com/archives/155/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;5ADDCEEB-9BC1-44DF-8024-6509FD4F4704.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/5ADDCEEB-9BC1-44DF-8024-6509FD4F4704.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;p&gt;!!!
 &lt;audio src=&#34;http://frytea-data.test.upcdn.net/2019081316210360940281.mp3&#34; controls=&#34;controls&#34;&gt;  &lt;/audio&gt;
@@ -2246,9 +2246,9 @@ You know there are 88 of them and no-one can tell you differently
     </item>
     <item>
       <title>【翻译】早起的7个好处</title>
-      <link>https://www.frytea.com/archives/154/</link>
+      <link>https://frytea.com/archives/154/</link>
       <pubDate>Mon, 05 Aug 2019 12:15:55 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/154/</guid>
+      <guid>https://frytea.com/archives/154/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;201908516455576001081.jpg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/201908516455576001081.jpg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/Skitterphoto-324082/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1069218&#34;&gt;Rudy and Peter Skitterians&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1069218&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
@@ -2261,9 +2261,9 @@ Title: **7 Benefits of Waking Up Early (That Have Nothing to Do With Being a CEO
     </item>
     <item>
       <title>【翻译】十分钟助您明晰方向、激发创造</title>
-      <link>https://www.frytea.com/archives/153/</link>
+      <link>https://frytea.com/archives/153/</link>
       <pubDate>Sat, 03 Aug 2019 09:02:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/153/</guid>
+      <guid>https://frytea.com/archives/153/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;201908314013282622595.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/201908314013282622595.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/ColiN00B-346653/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=3104355&#34;&gt;Colin Behrens&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=3104355&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
@@ -2279,9 +2279,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.8.2</title>
-      <link>https://www.frytea.com/archives/152/</link>
+      <link>https://frytea.com/archives/152/</link>
       <pubDate>Fri, 02 Aug 2019 11:58:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/152/</guid>
+      <guid>https://frytea.com/archives/152/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;59AEE89E-2283-4FDE-8DF5-1E772D320BF2.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/59AEE89E-2283-4FDE-8DF5-1E772D320BF2.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：Photo by Chokniti Khongchum from Pexels&lt;/p&gt;
@@ -2300,9 +2300,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.8.1.md</title>
-      <link>https://www.frytea.com/archives/151/</link>
+      <link>https://frytea.com/archives/151/</link>
       <pubDate>Thu, 01 Aug 2019 12:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/151/</guid>
+      <guid>https://frytea.com/archives/151/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;BABB983E-1A56-4E5F-BEEB-11B56841928C.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/BABB983E-1A56-4E5F-BEEB-11B56841928C.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：Photo by Chokniti Khongchum from Pexels&lt;/p&gt;
@@ -2312,9 +2312,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.7.31</title>
-      <link>https://www.frytea.com/archives/150/</link>
+      <link>https://frytea.com/archives/150/</link>
       <pubDate>Thu, 01 Aug 2019 12:10:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/150/</guid>
+      <guid>https://frytea.com/archives/150/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;cropland-daylight-farm-1033716.jpg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/cropland-daylight-farm-1033716.jpg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：Photo by Chokniti Khongchum from Pexels&lt;/p&gt;
@@ -2324,9 +2324,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.7.30</title>
-      <link>https://www.frytea.com/archives/149/</link>
+      <link>https://frytea.com/archives/149/</link>
       <pubDate>Thu, 01 Aug 2019 12:00:26 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/149/</guid>
+      <guid>https://frytea.com/archives/149/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2B164AD6-C0F0-4F8D-A2BC-39521172E356.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2B164AD6-C0F0-4F8D-A2BC-39521172E356.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：Photo by Chokniti Khongchum from Pexels&lt;/p&gt;
@@ -2336,9 +2336,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.7.29</title>
-      <link>https://www.frytea.com/archives/148/</link>
+      <link>https://frytea.com/archives/148/</link>
       <pubDate>Thu, 01 Aug 2019 11:48:15 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/148/</guid>
+      <guid>https://frytea.com/archives/148/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;71E7DB51-8276-4FA1-AE58-8E5662102DF3.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/71E7DB51-8276-4FA1-AE58-8E5662102DF3.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：Photo by Chokniti Khongchum from Pexels&lt;/p&gt;
@@ -2348,9 +2348,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【长句分析】2019.7.26</title>
-      <link>https://www.frytea.com/archives/147/</link>
+      <link>https://frytea.com/archives/147/</link>
       <pubDate>Thu, 01 Aug 2019 11:34:10 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/147/</guid>
+      <guid>https://frytea.com/archives/147/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2019072614354982974987.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072614354982974987.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=965028&#34;&gt;Pixabay&lt;/a&gt;&lt;/p&gt;
@@ -2368,9 +2368,9 @@ Title: ** This 10-Minute Routine Will Increase Your Clarity And Creativity **&lt
     </item>
     <item>
       <title>【翻译】看看Netflix如何躲避瘟疫一般的规则</title>
-      <link>https://www.frytea.com/archives/146/</link>
+      <link>https://frytea.com/archives/146/</link>
       <pubDate>Thu, 01 Aug 2019 09:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/146/</guid>
+      <guid>https://frytea.com/archives/146/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;A9EFB3A2-4BAB-46FF-9DF0-739C9A5FAC08.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/A9EFB3A2-4BAB-46FF-9DF0-739C9A5FAC08.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Photo by &lt;a href=&#34;https://www.pexels.com/@jmark?utm_content=attributionCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=pexels&#34;&gt;John-Mark Smith&lt;/a&gt; from &lt;a href=&#34;https://www.pexels.com/photo/photo-of-cup-near-flat-screen-television-2726370/?utm_content=attributionCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=pexels&#34;&gt;Pexels&lt;/a&gt;&lt;/p&gt;
@@ -2387,9 +2387,9 @@ NetFlix成功的原因之一：与众不同
     </item>
     <item>
       <title>【翻译】Being ‘Busy’ Doesn’t Mean You’re Successful</title>
-      <link>https://www.frytea.com/archives/145/</link>
+      <link>https://frytea.com/archives/145/</link>
       <pubDate>Tue, 30 Jul 2019 07:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/145/</guid>
+      <guid>https://frytea.com/archives/145/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2019072917143741604168.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072917143741604168.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://www.pexels.com&#34;&gt;https://www.pexels.com&lt;/a&gt;&lt;/p&gt;
@@ -2404,9 +2404,9 @@ Link：&lt;a href=&#34;https://link.medium.com/YYBK3OudIY&#34;&gt;https://link.m
     </item>
     <item>
       <title>【翻译】How to Fall Asleep in 120 Seconds</title>
-      <link>https://www.frytea.com/archives/144/</link>
+      <link>https://frytea.com/archives/144/</link>
       <pubDate>Sun, 28 Jul 2019 09:03:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/144/</guid>
+      <guid>https://frytea.com/archives/144/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2019072816552240120074.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072816552240120074.jpeg#shadow&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://www.ssyer.com&#34;&gt;https://www.ssyer.com&lt;/a&gt;&lt;/p&gt;
@@ -2422,25 +2422,25 @@ Link：&lt;a href=&#34;https://link.medium.com/O3j0d2mlDY&#34;&gt;https://link.m
     </item>
     <item>
       <title>《人民的名义》</title>
-      <link>https://www.frytea.com/archives/1058/</link>
+      <link>https://frytea.com/archives/1058/</link>
       <pubDate>Sat, 27 Jul 2019 08:39:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1058/</guid>
+      <guid>https://frytea.com/archives/1058/</guid>
       <description>&lt;p&gt;/ 著作 /《人民的名义》/ in the name of people / / * 亮平，咱们就&lt;/p&gt;</description>
     </item>
     <item>
       <title>阅读摘录</title>
-      <link>https://www.frytea.com/archives/143/</link>
+      <link>https://frytea.com/archives/143/</link>
       <pubDate>Sat, 27 Jul 2019 00:39:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/143/</guid>
+      <guid>https://frytea.com/archives/143/</guid>
       <description>&lt;h2 id=&#34;-著作-人民的名义-in-the-name-of-people-&#34;&gt;/ 著作 /《人民的名义》/ in the name of people /&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;/ * 亮平，咱们就此跟过去告别了吗？那段纯真的、充满理想和热情的青春岁月？候亮平叹息道：就此别过了！今夜之后，那份历史的参与者，无论是谁，不论是师生，还是上下级，回忆里都不可能再轻松了。 * /&lt;/p&gt;</description>
     </item>
     <item>
       <title>【长句分析】2019.7.25</title>
-      <link>https://www.frytea.com/archives/142/</link>
+      <link>https://frytea.com/archives/142/</link>
       <pubDate>Fri, 26 Jul 2019 06:29:52 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/142/</guid>
+      <guid>https://frytea.com/archives/142/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=965028&#34;&gt;Pixabay&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2456,9 +2456,9 @@ Link：&lt;a href=&#34;https://link.medium.com/O3j0d2mlDY&#34;&gt;https://link.m
     </item>
     <item>
       <title>【长句分析】2019.7.24</title>
-      <link>https://www.frytea.com/archives/141/</link>
+      <link>https://frytea.com/archives/141/</link>
       <pubDate>Thu, 25 Jul 2019 09:41:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/141/</guid>
+      <guid>https://frytea.com/archives/141/</guid>
       <description>&lt;h2 id=&#34;句子原型&#34;&gt;句子原型&lt;/h2&gt;
 &lt;p&gt;Students also benefit from learning something about coding before they get to college, where introductorycomputer-science classes are packed to the brim, which can drive the less-experienced or -determined students away.（Text 1. 2016. 英二）&lt;/p&gt;
 &lt;h2 id=&#34;词汇积累&#34;&gt;词汇积累&lt;/h2&gt;
@@ -2475,9 +2475,9 @@ Link：&lt;a href=&#34;https://link.medium.com/O3j0d2mlDY&#34;&gt;https://link.m
     </item>
     <item>
       <title>【翻译】10 Bad Habits of Unsuccessful People</title>
-      <link>https://www.frytea.com/archives/140/</link>
+      <link>https://frytea.com/archives/140/</link>
       <pubDate>Thu, 25 Jul 2019 09:06:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/140/</guid>
+      <guid>https://frytea.com/archives/140/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2019072510110136775190.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072510110136775190.jpeg#shadow&#34;&gt;
 Instead of looking for traits to emulate, focus on ones to avoid
 &lt;em&gt;与其寻找模仿的特质，不如关注哪些需要避免的特质&lt;/em&gt;&lt;/p&gt;
@@ -2488,9 +2488,9 @@ Link：&lt;a href=&#34;https://forge.medium.com/10-habits-of-unsuccessful-people
     </item>
     <item>
       <title>【研译】评分标准与技巧</title>
-      <link>https://www.frytea.com/archives/139/</link>
+      <link>https://frytea.com/archives/139/</link>
       <pubDate>Wed, 24 Jul 2019 09:29:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/139/</guid>
+      <guid>https://frytea.com/archives/139/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;图片来源：&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=965028&#34;&gt;Pixabay&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2519,17 +2519,17 @@ Link：&lt;a href=&#34;https://forge.medium.com/10-habits-of-unsuccessful-people
     </item>
     <item>
       <title>【长句分析】2019.7.24</title>
-      <link>https://www.frytea.com/archives/138/</link>
+      <link>https://frytea.com/archives/138/</link>
       <pubDate>Wed, 24 Jul 2019 01:09:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/138/</guid>
+      <guid>https://frytea.com/archives/138/</guid>
       <description>&lt;h2 id=&#34;句子原型&#34;&gt;句子原型&lt;/h2&gt;
 &lt;p&gt;The correlation between happiness and investment was particularly strong for younger firms, which the authors attribute to “less codified decision making process” and the possible presence of “younger and less experienced managers who are more likely to be influenced by sentiment.”（完形. 2016. 英二）&lt;/p&gt;</description>
     </item>
     <item>
       <title>【史纲】第七章 为新中国而奋斗</title>
-      <link>https://www.frytea.com/archives/137/</link>
+      <link>https://frytea.com/archives/137/</link>
       <pubDate>Tue, 23 Jul 2019 12:53:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/137/</guid>
+      <guid>https://frytea.com/archives/137/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/PublicDomainPictures-14/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=20910&#34;&gt;PublicDomainPictures&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=20910&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2543,9 +2543,9 @@ Link：&lt;a href=&#34;https://forge.medium.com/10-habits-of-unsuccessful-people
     </item>
     <item>
       <title>【史纲】第六章 中华民族的抗日战争</title>
-      <link>https://www.frytea.com/archives/135/</link>
+      <link>https://frytea.com/archives/135/</link>
       <pubDate>Tue, 23 Jul 2019 09:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/135/</guid>
+      <guid>https://frytea.com/archives/135/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/Janice_Li-1529522/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1016598&#34;&gt;Janice_Li&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1016598&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2566,9 +2566,9 @@ Link：&lt;a href=&#34;https://forge.medium.com/10-habits-of-unsuccessful-people
     </item>
     <item>
       <title>【翻译】The Only Sleep Hack That Actually Works</title>
-      <link>https://www.frytea.com/archives/134/</link>
+      <link>https://frytea.com/archives/134/</link>
       <pubDate>Mon, 22 Jul 2019 09:38:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/134/</guid>
+      <guid>https://frytea.com/archives/134/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;2019072217050646278371.jpeg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072217050646278371.jpeg&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
 &lt;p&gt;英文原文由&lt;strong&gt;Darius Foroux&lt;/strong&gt;发布在&lt;strong&gt;The Bolg Of Darius Foroux&lt;/strong&gt;中，我在Medium中看到这篇文章，下附原文链接：
@@ -2577,9 +2577,9 @@ Meduim link：&lt;a href=&#34;https://link.medium.com/lbB3TSHGwY&#34;&gt;https:/
     </item>
     <item>
       <title>【高2.2】中值定理及导数的应用</title>
-      <link>https://www.frytea.com/archives/133/</link>
+      <link>https://frytea.com/archives/133/</link>
       <pubDate>Mon, 22 Jul 2019 02:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/133/</guid>
+      <guid>https://frytea.com/archives/133/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/ElisaRiva-1348268/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=2062055&#34;&gt;ElisaRiva&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=2062055&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2598,9 +2598,9 @@ $$从而f’(x_{0}) = f’&lt;em&gt;{+}(x&lt;/em&gt;{0}) = f’&lt;em&gt;{-}(x&l
     </item>
     <item>
       <title>【长句分析】2019.7.11</title>
-      <link>https://www.frytea.com/archives/132/</link>
+      <link>https://frytea.com/archives/132/</link>
       <pubDate>Sun, 21 Jul 2019 23:10:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/132/</guid>
+      <guid>https://frytea.com/archives/132/</guid>
       <description>&lt;h2 id=&#34;句子原型&#34;&gt;句子原型：&lt;/h2&gt;
 &lt;p&gt;So they compared U.S. cities’ average happiness measured by Gallup polling with the investment activity of publicly traded firms in those areas.（完形. 2016. 英二）&lt;/p&gt;
 &lt;h2 id=&#34;词汇积累&#34;&gt;词汇积累&lt;/h2&gt;
@@ -2611,9 +2611,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【语法三四】长难句三大套路</title>
-      <link>https://www.frytea.com/archives/131/</link>
+      <link>https://frytea.com/archives/131/</link>
       <pubDate>Sun, 21 Jul 2019 09:37:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/131/</guid>
+      <guid>https://frytea.com/archives/131/</guid>
       <description>&lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/zhaomengqi23-4295622/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1989115&#34;&gt;zhaomengqi23&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1989115&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
 &lt;h1 id=&#34;知识结构&#34;&gt;知识结构&lt;/h1&gt;
 &lt;p&gt;&lt;img alt=&#34;2019072117114612860463.png&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/2019072117114612860463.png#shadow&#34;&gt;&lt;/p&gt;
@@ -2626,9 +2626,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【高 1】 函数、极限、连续</title>
-      <link>https://www.frytea.com/archives/130/</link>
+      <link>https://frytea.com/archives/130/</link>
       <pubDate>Sun, 21 Jul 2019 09:00:45 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/130/</guid>
+      <guid>https://frytea.com/archives/130/</guid>
       <description>&lt;h2 id=&#34;大纲要求&#34;&gt;大纲要求&lt;/h2&gt;
 &lt;p&gt;略&lt;/p&gt;
 &lt;h2 id=&#34;本章重点&#34;&gt;本章重点&lt;/h2&gt;
@@ -2644,9 +2644,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>考研数二知识说明</title>
-      <link>https://www.frytea.com/archives/129/</link>
+      <link>https://frytea.com/archives/129/</link>
       <pubDate>Sun, 21 Jul 2019 08:53:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/129/</guid>
+      <guid>https://frytea.com/archives/129/</guid>
       <description>&lt;h1 id=&#34;知识架构&#34;&gt;知识架构&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;http://frytea-data.test.upcdn.net/2019072119185781322145.png&#34;&gt;http://frytea-data.test.upcdn.net/2019072119185781322145.png&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;版权声明&#34;&gt;版权声明&lt;/h1&gt;
@@ -2669,9 +2669,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】近现代史纲要知识说明</title>
-      <link>https://www.frytea.com/archives/128/</link>
+      <link>https://frytea.com/archives/128/</link>
       <pubDate>Sat, 20 Jul 2019 11:02:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/128/</guid>
+      <guid>https://frytea.com/archives/128/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;201907229394942671451.jpg&#34; loading=&#34;lazy&#34; src=&#34;http://frytea-data.test.upcdn.net/201907229394942671451.jpg&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;该图片由&lt;a href=&#34;https://pixabay.com/zh/users/Janice_Li-1529522/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1016598&#34;&gt;Janice_Li&lt;/a&gt;在&lt;a href=&#34;https://pixabay.com/zh/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1016598&#34;&gt;Pixabay&lt;/a&gt;上发布&lt;/p&gt;
@@ -2691,9 +2691,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】第四章 开天辟地的大事变</title>
-      <link>https://www.frytea.com/archives/126/</link>
+      <link>https://frytea.com/archives/126/</link>
       <pubDate>Sat, 20 Jul 2019 11:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/126/</guid>
+      <guid>https://frytea.com/archives/126/</guid>
       <description>&lt;h1 id=&#34;第四章----开天辟地的大事变&#34;&gt;第四章    开天辟地的大事变&lt;/h1&gt;
 &lt;p&gt;1.新文化运动兴起的标志：1915年9月陈独秀在上海创办《新青年》杂志&lt;/p&gt;
 &lt;p&gt;新文化运动的主要阵地：《新青年》杂志和北京大学&lt;/p&gt;
@@ -2702,9 +2702,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】第五章 中国革命的新道路</title>
-      <link>https://www.frytea.com/archives/127/</link>
+      <link>https://frytea.com/archives/127/</link>
       <pubDate>Sat, 20 Jul 2019 11:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/127/</guid>
+      <guid>https://frytea.com/archives/127/</guid>
       <description>&lt;h1 id=&#34;第五章----中国革命的新道路&#34;&gt;第五章    中国革命的新道路&lt;/h1&gt;
 &lt;p&gt;1.标志着国民党在全国范围内建立了自己的政治的事件是：东北易帜
 2.八七会议的主要内容&lt;/p&gt;
@@ -2718,9 +2718,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】第二章 对国家出路的早期探索</title>
-      <link>https://www.frytea.com/archives/124/</link>
+      <link>https://frytea.com/archives/124/</link>
       <pubDate>Sat, 20 Jul 2019 11:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/124/</guid>
+      <guid>https://frytea.com/archives/124/</guid>
       <description>&lt;h1 id=&#34;第二章----对国家出路的早期探索&#34;&gt;第二章    对国家出路的早期探索&lt;/h1&gt;
 &lt;p&gt;1.《天朝田亩制度》是&lt;strong&gt;最能&lt;/strong&gt;体现太平天国社会理想和这次农民起义特色的纲领性文件
 2.《天朝田亩制度》的缺点：&lt;/p&gt;
@@ -2733,9 +2733,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】第三章 辛亥革命与君主专制制度的终结</title>
-      <link>https://www.frytea.com/archives/125/</link>
+      <link>https://frytea.com/archives/125/</link>
       <pubDate>Sat, 20 Jul 2019 11:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/125/</guid>
+      <guid>https://frytea.com/archives/125/</guid>
       <description>&lt;h1 id=&#34;第三章----辛亥革命与君主专制制度的终结&#34;&gt;第三章    辛亥革命与君主专制制度的终结&lt;/h1&gt;
 &lt;p&gt;1.&lt;strong&gt;清末“新政”的破产&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2749,9 +2749,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【史纲】第一章   反对外国侵略的斗争</title>
-      <link>https://www.frytea.com/archives/123/</link>
+      <link>https://frytea.com/archives/123/</link>
       <pubDate>Sat, 20 Jul 2019 11:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/123/</guid>
+      <guid>https://frytea.com/archives/123/</guid>
       <description>&lt;h1 id=&#34;第一章---反对外国侵略的斗争&#34;&gt;第一章   反对外国侵略的斗争&lt;/h1&gt;
 &lt;p&gt;1.鸦片战争是中国近代史（1840-1949）的起点。
 2.中国近代史上第一个不平等条约是与英国签订的《南京条约》
@@ -2759,9 +2759,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【语法二】长难句入门</title>
-      <link>https://www.frytea.com/archives/120/</link>
+      <link>https://frytea.com/archives/120/</link>
       <pubDate>Sat, 20 Jul 2019 08:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/120/</guid>
+      <guid>https://frytea.com/archives/120/</guid>
       <description>&lt;h1 id=&#34;一句子的基本结构&#34;&gt;一、句子的基本结构&lt;/h1&gt;
 &lt;h2 id=&#34;英语句子&#34;&gt;英语句子&lt;/h2&gt;
 &lt;ol&gt;
@@ -2783,9 +2783,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【高2.1】函数与微分</title>
-      <link>https://www.frytea.com/archives/117/</link>
+      <link>https://frytea.com/archives/117/</link>
       <pubDate>Fri, 19 Jul 2019 03:26:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/117/</guid>
+      <guid>https://frytea.com/archives/117/</guid>
       <description>&lt;h1 id=&#34;21-导数与微分&#34;&gt;2.1 导数与微分&lt;/h1&gt;
 &lt;h2 id=&#34;一导数与微分的基本概念&#34;&gt;一、导数与微分的基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;1-函数在一点x_0处的导数定义&#34;&gt;1. 函数在一点$x_{0}$处的导数定义&lt;/h3&gt;
@@ -2793,17 +2793,17 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【语法一】基础语法入门</title>
-      <link>https://www.frytea.com/archives/115/</link>
+      <link>https://frytea.com/archives/115/</link>
       <pubDate>Thu, 18 Jul 2019 08:39:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/115/</guid>
+      <guid>https://frytea.com/archives/115/</guid>
       <description>&lt;p&gt;英语语法真是一个很魔性的东西，学了这么多年，却还是一窍不通，每每提及这件事情我自己总会不自觉的伤感起来。曾经教过我的老师们一定也很恼火，这学生怎么这么笨呀！
 最近复习考研英语决心一定要弄懂英语语法，因此从最基础的内容开始积累，在此进行一个简单的记录，内容全部来自于&lt;strong&gt;Vivial老师的考研语法课&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>software engineering Final Review | 软件工程期末复习</title>
-      <link>https://www.frytea.com/archives/96/</link>
+      <link>https://frytea.com/archives/96/</link>
       <pubDate>Sun, 02 Jun 2019 13:18:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/96/</guid>
+      <guid>https://frytea.com/archives/96/</guid>
       <description>&lt;h1 id=&#34;软件工程复习&#34;&gt;软件工程复习&lt;/h1&gt;
 &lt;h2 id=&#34;more-important&#34;&gt;more important&lt;/h2&gt;
 &lt;ol&gt;
@@ -2832,9 +2832,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>Spatial database</title>
-      <link>https://www.frytea.com/archives/95/</link>
+      <link>https://frytea.com/archives/95/</link>
       <pubDate>Tue, 21 May 2019 06:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/95/</guid>
+      <guid>https://frytea.com/archives/95/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;A spatial database is a database that is optimized for storing and querying data that represents objects defined in a geometric space.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2846,18 +2846,18 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>智能手机中的传感器</title>
-      <link>https://www.frytea.com/archives/97/</link>
+      <link>https://frytea.com/archives/97/</link>
       <pubDate>Sat, 11 May 2019 14:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/97/</guid>
+      <guid>https://frytea.com/archives/97/</guid>
       <description>&lt;h1 id=&#34;智能手机中的传感器&#34;&gt;智能手机中的传感器&lt;/h1&gt;
 &lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 &lt;p&gt;随着现代信息技术的飞速发展，智能手机已经成为人们生活不可获取的一部分，同时其职能也从一开始的通讯发展到现在的娱乐、社交甚至生产，为了应对人们对手机越老越高的要求，其自身必定要生产的越来越人性化、智能化，而为了实现这一目标，就必定需要更加智能化的传感器支持，今天作者就在这里整理一下互联网及学术平台上开发可以查到的智能手机传感器相关信息，让我们进一步了解手上的这一台智能设备。&lt;/p&gt;</description>
     </item>
     <item>
       <title>物联网技术概论</title>
-      <link>https://www.frytea.com/archives/98/</link>
+      <link>https://frytea.com/archives/98/</link>
       <pubDate>Tue, 09 Apr 2019 02:51:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/98/</guid>
+      <guid>https://frytea.com/archives/98/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;教材《物联网概论》——崔艳荣、周贤善&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2895,31 +2895,31 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>《一条狗的回家路》观后感</title>
-      <link>https://www.frytea.com/archives/107/</link>
+      <link>https://frytea.com/archives/107/</link>
       <pubDate>Mon, 25 Mar 2019 15:40:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/107/</guid>
+      <guid>https://frytea.com/archives/107/</guid>
       <description>&lt;p&gt;一条狗的回家路《观后感》&lt;/p&gt;
 &lt;p&gt;为了培养对英语的感觉，我决定有时间就看看英文电影，每天背单词。今天看了电影《一条狗的回家路》，心里看的暖烘烘的，也许联系幸福的纽带，就是我们内心深处的爱。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《神探蒲松龄》观影有感</title>
-      <link>https://www.frytea.com/archives/109/</link>
+      <link>https://frytea.com/archives/109/</link>
       <pubDate>Sat, 23 Mar 2019 13:42:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/109/</guid>
+      <guid>https://frytea.com/archives/109/</guid>
       <description>&lt;p&gt;最近看了很多电影，也许是因为这学期时间相对宽松。但又也许是因为看电影能看到的能感知到的东西变多了。总觉就是这样一种神奇的东西，越来越不会把电影里的东西当真，另一方面又感受到了其他不同的魔力。很神奇，也许就是这样子，无论是出于什么样的人生阶段，都会有阻力和动力，任何一个时候都是最好的时候。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《一百个人的十年》</title>
-      <link>https://www.frytea.com/archives/1049/</link>
+      <link>https://frytea.com/archives/1049/</link>
       <pubDate>Sat, 23 Feb 2019 01:23:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1049/</guid>
+      <guid>https://frytea.com/archives/1049/</guid>
       <description>&lt;p&gt;最近看了冯骥才老先生写的《一百个人的十年》，讲述的是文革时期那段不堪回首的回忆。作者通过100个在文&lt;/p&gt;</description>
     </item>
     <item>
       <title>【书评】一百个人的十年</title>
-      <link>https://www.frytea.com/archives/103/</link>
+      <link>https://frytea.com/archives/103/</link>
       <pubDate>Fri, 22 Feb 2019 17:23:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/103/</guid>
+      <guid>https://frytea.com/archives/103/</guid>
       <description>&lt;p&gt;最近看了冯骥才老先生写的《一百个人的十年》，讲述的是文革时期那段不堪回首的回忆。作者通过100个在文革中受苦受难的大众，记录下他们在文革中经历的苦难故事，让我们这一代人才有机会如此近距离地接触那一段上一辈不愿提起的往事。前辈人经历的苦难会变作后辈人宝贵的精神财富，文革必定会成为激励我们这一代人奋力前行的一段历史。
 阅读书籍，虽然是一本纪实书籍，文字看上去很轻，但事实上每一个字都重重的捶打在我的心上，常常看到有时候捶胸顿足，有一口气久久上不来，看到难以入眠，眼睛实在睁不开了才慢慢地睡去。文革，那是一段不堪的往事，作为我们这一代人又是不知其真面目的。
 阅读书籍有很多的感受，在下面请允许我慢慢叙述：
@@ -2928,24 +2928,24 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>《别让无效努力毁了你》书评</title>
-      <link>https://www.frytea.com/archives/113/</link>
+      <link>https://frytea.com/archives/113/</link>
       <pubDate>Tue, 29 Jan 2019 14:54:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/113/</guid>
+      <guid>https://frytea.com/archives/113/</guid>
       <description>&lt;h2 id=&#34;内容简介&#34;&gt;内容简介&lt;/h2&gt;
 &lt;p&gt;《别让无效努力毁了你》分7部分，25章节，详细阐释了时间、能量和注意力对提升效能的关键作用，比如：找到你的黄金时间、建设体能精力、通过冥想来提升专注力……书中介绍的25种方法都是作者在长期研究中千挑万选出来，并且经过亲身验证的高效方法。每章包含一个测试，理论与实践的结合让阅读的过程就像经历一场高效实验。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《密室逃生》电影观后感</title>
-      <link>https://www.frytea.com/archives/110/</link>
+      <link>https://frytea.com/archives/110/</link>
       <pubDate>Sun, 27 Jan 2019 11:09:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/110/</guid>
+      <guid>https://frytea.com/archives/110/</guid>
       <description>&lt;p&gt;结束一学期的事情，特别有一种冲动，想去电影院好好的看一部电影，挑选了许久选择了这一部《密室求生》。整体感觉很震撼，故事设计较为严密，作为密室来说可以说是密室中比较极致的了。本着不剧透，只说观点的理念，在这里记下自己的观点，仅供批评。&lt;/p&gt;</description>
     </item>
     <item>
       <title>纪录片《为民而商》观后感</title>
-      <link>https://www.frytea.com/archives/100/</link>
+      <link>https://frytea.com/archives/100/</link>
       <pubDate>Sun, 27 Jan 2019 10:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/100/</guid>
+      <guid>https://frytea.com/archives/100/</guid>
       <description>&lt;p&gt;返乡倒计时：0天！&lt;/p&gt;
 &lt;p&gt;是的，今晚的火车，T197次，回家&lt;br&gt;
 今天白天在宿舍，看了一部纪录片，由几点感受想要在此记录一下：&lt;/p&gt;
@@ -2953,9 +2953,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【影评】爱情公寓2018电影观后感</title>
-      <link>https://www.frytea.com/archives/102/</link>
+      <link>https://frytea.com/archives/102/</link>
       <pubDate>Wed, 16 Jan 2019 16:03:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/102/</guid>
+      <guid>https://frytea.com/archives/102/</guid>
       <description>&lt;p&gt;切不可听信谗言，不可只听周遭人的评价。事情究竟是怎么样，必定得是眼见为实。也只有一个眼见为实！&lt;/p&gt;
 &lt;p&gt;电影《爱情公寓》剧照&lt;/p&gt;
 &lt;p&gt;今天突然兴起，打算看一下《爱情公寓》。爱情公寓是陪伴我长大的一部电视剧，不仅如此，还是陪伴我们这代人长大的一部电视剧，在我们的记忆中留下了深刻的印象。这部电影可以说是令我期待很久。可惜的是由于以下两个原因，没有得意去电影院观影。&lt;br&gt;
@@ -2964,9 +2964,9 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>【书评】白鹿原</title>
-      <link>https://www.frytea.com/archives/106/</link>
+      <link>https://frytea.com/archives/106/</link>
       <pubDate>Tue, 15 Jan 2019 23:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/106/</guid>
+      <guid>https://frytea.com/archives/106/</guid>
       <description>&lt;p&gt;这学期看过许多记录上世纪故事的纪实作品。&lt;br&gt;
 《蛙》&lt;br&gt;
 《一百个人的十年》&lt;br&gt;
@@ -2977,49 +2977,49 @@ publicly traded firms 公开交易的公司；上市公司&lt;/p&gt;</descriptio
     </item>
     <item>
       <title>《西南联大》之八音合奏读后感</title>
-      <link>https://www.frytea.com/archives/108/</link>
+      <link>https://frytea.com/archives/108/</link>
       <pubDate>Tue, 15 Jan 2019 06:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/108/</guid>
+      <guid>https://frytea.com/archives/108/</guid>
       <description>&lt;p&gt;今日观看纪录片《西南联大》第一集，西南联大，感触良多，一个关键词则为西南联大之团结合作，互相退让令人感触良多。&lt;/p&gt;
 &lt;p&gt;本片的第一集《八音合奏》围绕北大、清华、南开三校长展开，从他们各自的经历、性格、理念、方略，探究三校可以成功“联合”的原因；同时，展现这“共同的经验和价值观”形成的时代背景和走向——爱国、进步、民主和科学的新思想在五四时期得以创造、发现和孕育，在抗战时期走向成熟。在这三大师的背后，实际上是整整一代中国知识分子上下求索的身影。&lt;/p&gt;</description>
     </item>
     <item>
       <title>《开讲啦》王树国校长开讲感受</title>
-      <link>https://www.frytea.com/archives/111/</link>
+      <link>https://frytea.com/archives/111/</link>
       <pubDate>Fri, 04 Jan 2019 15:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/111/</guid>
+      <guid>https://frytea.com/archives/111/</guid>
       <description>&lt;p&gt;开讲时间：2018年12月30日&lt;/p&gt;
 &lt;p&gt;开讲嘉宾：王树国校长（西安交通大学校长）&lt;/p&gt;
 &lt;p&gt;引言：在家人建议下看了这一期开讲啦，感触很多，短短的四十四分钟时间让我汲取了很多的营养，感觉备受鼓舞，在这里将听讲过程中的一些笔记结合自己的感受记录如下：&lt;/p&gt;</description>
     </item>
     <item>
       <title>《海王》电影观后小感</title>
-      <link>https://www.frytea.com/archives/112/</link>
+      <link>https://frytea.com/archives/112/</link>
       <pubDate>Wed, 02 Jan 2019 02:31:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/112/</guid>
+      <guid>https://frytea.com/archives/112/</guid>
       <description>&lt;p&gt;看了最近很火的电影——《海王》&lt;/p&gt;
 &lt;p&gt;网络评分力压同档期电影的一部电影，真实看过后有几点感受，本着不剧透的原则记录下自己的一点小感受来跟大家分享。&lt;/p&gt;
 &lt;p&gt;一、似曾相识&lt;/p&gt;</description>
     </item>
     <item>
       <title>【影评】名侦探柯南·零的执行人</title>
-      <link>https://www.frytea.com/archives/101/</link>
+      <link>https://frytea.com/archives/101/</link>
       <pubDate>Sun, 25 Nov 2018 07:23:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/101/</guid>
+      <guid>https://frytea.com/archives/101/</guid>
       <description>&lt;p&gt;今天圆了多年来的一个小愿望，那就是去电影院看一场柯南。 真的很开心，小的时候完全是不知道为什么就被名侦探柯南吸引，闲暇之余看会儿柯南是最开心的事情了呢，也许这事情就像是一个人喜欢一个人一样，不需要解释吧。电影结束，片尾曲一出，常态下人们会纷纷起身向门口走去，但是为什么这次这么不一样？每个人都在安静的听，认真的看着屏幕上每一帧画面，甚至比观影时刻还要认真。原本是奇怪，但是仔细一想突然眼眶湿润了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>【书评】蛙</title>
-      <link>https://www.frytea.com/archives/104/</link>
+      <link>https://frytea.com/archives/104/</link>
       <pubDate>Mon, 19 Nov 2018 12:18:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/104/</guid>
+      <guid>https://frytea.com/archives/104/</guid>
       <description>&lt;p&gt;前些日子读了莫言写的《蛙》，没错，就是那一本一举拿下诺贝尔文学奖，同时这也是中国人第一次获得诺贝尔文学奖。我并不觉得拿奖和作品之间有必然得衡量标准，但我想说的是这本书真的带给我很大的震撼，词到深处直冲我心，措手不及，这本书也是我第一次正面接触上个世纪得一些事情，开启了我对于旧中国社会现象以及究竟当今中国得状况是如何被塑造的深深的思考。 一、读书感悟 在生活中常常会有这样那样子的不满，有时候不满于某些人得不负责任，有时候不满于食堂大厨掌勺太过肤浅，有时候又不满于种种不好的社会现象&amp;hellip;&amp;hellip;可这样的互相抱怨究竟何时是一个头呢？最近听到的抱怨的声音挺多，作为一个普通大学生混迹在学生中间听到许多同学对于老师的不满，有的是因为老师太不负责，埋怨老师得课件、实验报告上漏洞百出，有时又是因为老师太过负责，布置了太多的任务或是要求太多细致（另许多人没了钻空子的可能亦或是说少了些行为上的自由），有时是考试的时候老师要求太过严格，监考很严格最后只得破罐子破摔；有的时候也会因为老师监考太松导致环境混乱，虽然后者明显少很多&amp;hellip;&amp;hellip; 但这一切的一切其实细细思考都是由原因存在的，有时候是真的因为政策原因得短缺，有的时候又是因为个人认识不够全面吧。说回到这本书，《蛙》这本书讲述的是中华人名共和国进六十年得波澜起伏的农村计划生育史为背景 ，真实的反应了当时乡下种种艰苦的条件以及计划生育艰难的推进状况，同时也很痛苦的叙述了了计划生育带给当时人们的种种不好。全书揭示了太多的现实情况，叙述太过真实，以至于有一段时间都无法接受那段历史，为了生孩子，甚至有人不惜于放弃所有的一切；妇产科医生也不容易，为了落实政策，为中国人的未来着想，不仅仅是需要和老百姓“斗智斗勇”，要遭受的更多的是来自自己内心深处的折磨还有日后无尽的心理负担。 二、读书摘录&lt;/p&gt;</description>
     </item>
     <item>
       <title>【书评】山茶文具店</title>
-      <link>https://www.frytea.com/archives/105/</link>
+      <link>https://frytea.com/archives/105/</link>
       <pubDate>Fri, 19 Oct 2018 08:47:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/105/</guid>
+      <guid>https://frytea.com/archives/105/</guid>
       <description>&lt;p&gt;读《山茶文具店》的这段日子，心里日常被温暖包围。无论发生了什么，睡前读几页书，可以感觉到从内而外的温暖。这真是一本好书，好到最后读到98%，不舍得往下读，又期待往下读，这般纠结的感觉。&lt;/p&gt;</description>
     </item>
   </channel>

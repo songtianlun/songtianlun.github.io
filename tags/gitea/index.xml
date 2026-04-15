@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gitea on Frytea</title>
-    <link>https://www.frytea.com/tags/gitea/</link>
+    <link>https://frytea.com/tags/gitea/</link>
     <description>Recent content in Gitea on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 15:15:11 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/gitea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/gitea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub 个人仓库批量备份到自建 Gitea</title>
-      <link>https://www.frytea.com/archives/1417/</link>
+      <link>https://frytea.com/archives/1417/</link>
       <pubDate>Fri, 03 Jan 2025 10:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1417/</guid>
+      <guid>https://frytea.com/archives/1417/</guid>
       <description>&lt;p&gt;这是一个自动将 GitHub 仓库镜像到 Gitea 的 Shell 脚本。支持批量同步所有仓库，可以设置跳过特定仓库，并具有良好的错误处理机制。&lt;/p&gt;
 &lt;p&gt;由于 GitHub 仓库较多，因为各种原因担心数据风险和访问困难。代码托管在自建 gitea 虽然访问快，但是脱离了生态很难跟其他的 PaaS 平台对接。&lt;/p&gt;</description>
     </item>

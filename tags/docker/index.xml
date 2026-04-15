@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on Frytea</title>
-    <link>https://www.frytea.com/tags/docker/</link>
+    <link>https://frytea.com/tags/docker/</link>
     <description>Recent content in Docker on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 31 Mar 2025 09:59:51 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wordpress 使用 k8s 部署并使用 nginx ingress 代理无限 302 到 ssl 问题解决</title>
-      <link>https://www.frytea.com/archives/1455/</link>
+      <link>https://frytea.com/archives/1455/</link>
       <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1455/</guid>
+      <guid>https://frytea.com/archives/1455/</guid>
       <description>&lt;p&gt;发现容器化之后，wp 网站打开一直尝试 302 到 https 的页面，即使我当前已经是 https 了，经过排查是由于代理提供了 ssl 但 wordpress 不知道，默认会再重定向一次，出现无限 302 。&lt;/p&gt;</description>
     </item>
     <item>
       <title>将当前系统做成 docker 镜像</title>
-      <link>https://www.frytea.com/archives/1447/</link>
+      <link>https://frytea.com/archives/1447/</link>
       <pubDate>Wed, 12 Mar 2025 01:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1447/</guid>
+      <guid>https://frytea.com/archives/1447/</guid>
       <description>&lt;h1 id=&#34;tl-dr&#34;&gt;TL; DR&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Step1: 将当前系统打包&lt;/li&gt;
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>Linux 备份和恢复 docker volume 脚本分享</title>
-      <link>https://www.frytea.com/archives/1443/</link>
+      <link>https://frytea.com/archives/1443/</link>
       <pubDate>Thu, 27 Feb 2025 15:36:16 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1443/</guid>
+      <guid>https://frytea.com/archives/1443/</guid>
       <description>&lt;h1 id=&#34;脚本&#34;&gt;脚本&lt;/h1&gt;
 &lt;h2 id=&#34;dump&#34;&gt;Dump&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;docker-volume-dump.sh &lt;/code&gt;&lt;/p&gt;
@@ -98,9 +98,9 @@
     </item>
     <item>
       <title>Docker 官方脚本一键安装</title>
-      <link>https://www.frytea.com/archives/1429/</link>
+      <link>https://frytea.com/archives/1429/</link>
       <pubDate>Wed, 22 Jan 2025 06:47:51 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1429/</guid>
+      <guid>https://frytea.com/archives/1429/</guid>
       <description>&lt;p&gt;使用官方脚本安装&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -121,16 +121,16 @@
     </item>
     <item>
       <title>配置 harbor 及 docker 等使用 https</title>
-      <link>https://www.frytea.com/archives/1408/</link>
+      <link>https://frytea.com/archives/1408/</link>
       <pubDate>Mon, 30 Dec 2024 15:53:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1408/</guid>
+      <guid>https://frytea.com/archives/1408/</guid>
       <description>&lt;p&gt;默认情况下，Harbor不提供证书。可以在没有安全性的情况下部署Harbor，这样您就可以通过HTTP连接到它。但是，只有在没有连接到外部internet的空间隙测试或开发环境中才可以使用HTTP。在没有空间隙的环境中使用HTTP会暴露给中间人攻击。在生产环境中，始终使用HTTPS。如果启用带公证人的内容信任对所有images进行正确签名，则必须使用HTTPS。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖</title>
-      <link>https://www.frytea.com/archives/1403/</link>
+      <link>https://frytea.com/archives/1403/</link>
       <pubDate>Tue, 24 Dec 2024 11:23:04 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1403/</guid>
+      <guid>https://frytea.com/archives/1403/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;https://www.lixueduan.com/posts/cloudnative/03-buildah/&#34;&gt;Buildah 简明教程：让镜像构建更轻量，告别 Docker 依赖&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -139,9 +139,9 @@
     </item>
     <item>
       <title>快速清理 docker 容器和镜像等资源</title>
-      <link>https://www.frytea.com/archives/1392/</link>
+      <link>https://frytea.com/archives/1392/</link>
       <pubDate>Sat, 14 Dec 2024 14:59:47 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1392/</guid>
+      <guid>https://frytea.com/archives/1392/</guid>
       <description>&lt;p&gt;这些命令总是记不住，或者说不用心去记，所以记录在本文中，以便将来查询。&lt;/p&gt;
 &lt;h2 id=&#34;列出所有的容器-id&#34;&gt;列出所有的容器 ID&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker ps -aq
@@ -171,9 +171,9 @@ docker image prune -f -a
     </item>
     <item>
       <title>Docker 部署 mautic 并增加插件和翻译包等</title>
-      <link>https://www.frytea.com/archives/1381/</link>
+      <link>https://frytea.com/archives/1381/</link>
       <pubDate>Tue, 03 Dec 2024 11:49:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1381/</guid>
+      <guid>https://frytea.com/archives/1381/</guid>
       <description>&lt;h2 id=&#34;docker-部署方法&#34;&gt;Docker 部署方法&lt;/h2&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://github.com/mautic/docker-mautic/tree/mautic5/examples&#34;&gt;https://github.com/mautic/docker-mautic/tree/mautic5/examples&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;增加插件&#34;&gt;增加插件&lt;/h2&gt;
@@ -199,18 +199,18 @@ docker image prune -f -a
     </item>
     <item>
       <title>RockLinux 安装 Docker</title>
-      <link>https://www.frytea.com/archives/1371/</link>
+      <link>https://frytea.com/archives/1371/</link>
       <pubDate>Fri, 29 Nov 2024 10:40:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1371/</guid>
+      <guid>https://frytea.com/archives/1371/</guid>
       <description>&lt;p&gt;Docker Engine 可以在 Rocky Linux 服务器上运行原生 Docker 风格的容器工作负载。在运行完整的 Docker Desktop 环境时，有时会首选这种方式。&lt;/p&gt;
 &lt;h2 id=&#34;添加-docker-仓库&#34;&gt;添加 Docker 仓库&lt;/h2&gt;
 &lt;p&gt;使用 &lt;code&gt;dnf&lt;/code&gt; 工具将 Docker 仓库添加到你的 Rocky Linux 服务器。输入：&lt;/p&gt;</description>
     </item>
     <item>
       <title>镜像操作神器 skopeo 用法总结</title>
-      <link>https://www.frytea.com/archives/1353/</link>
+      <link>https://frytea.com/archives/1353/</link>
       <pubDate>Sat, 23 Nov 2024 02:59:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1353/</guid>
+      <guid>https://frytea.com/archives/1353/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/containers/skopeo&#34;&gt;skopeo&lt;/a&gt;&lt;/strong&gt; 是一个命令行工具，可对容器镜像和容器存储进行操作。 在没有dockerd的环境下，使用 &lt;strong&gt;skopeo&lt;/strong&gt; 操作镜像是非常方便的。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
 &lt;h3 id=&#34;包管理器&#34;&gt;包管理器&lt;/h3&gt;
@@ -235,9 +235,9 @@ sudo pacman -S skopeo
     </item>
     <item>
       <title>Ubuntu 安装指定版本 docker</title>
-      <link>https://www.frytea.com/archives/789/</link>
+      <link>https://frytea.com/archives/789/</link>
       <pubDate>Sun, 30 Apr 2023 16:06:25 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/789/</guid>
+      <guid>https://frytea.com/archives/789/</guid>
       <description>&lt;p&gt;如果你过去安装过 docker，先删掉：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get remove docker docker-engine docker.io containerd runc
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;首先安装依赖：&lt;/p&gt;
@@ -253,25 +253,25 @@ echo \
     </item>
     <item>
       <title>检查当前终端是不是 Docker</title>
-      <link>https://www.frytea.com/archives/775/</link>
+      <link>https://frytea.com/archives/775/</link>
       <pubDate>Thu, 27 Apr 2023 14:07:15 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/775/</guid>
+      <guid>https://frytea.com/archives/775/</guid>
       <description>&lt;p&gt;要确定当前运行的终端是否在 Docker 容器内，可以检查容器特定的文件和环境变量。以下是一种方法，通过查看 /proc/1/cgroup 文件来判断：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat /proc/1/cgroup
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;观察输出的内容。如果您看到与 Docker 相关的内容（如 docker 或 containerd），则表示您当前正在 Docker 容器内运行。例如：&lt;/p&gt;</description>
     </item>
     <item>
       <title>查看 Docker cp 进度</title>
-      <link>https://www.frytea.com/archives/762/</link>
+      <link>https://frytea.com/archives/762/</link>
       <pubDate>Wed, 29 Mar 2023 01:18:12 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/762/</guid>
+      <guid>https://frytea.com/archives/762/</guid>
       <description>&lt;p&gt;docker cp 命令本身不提供进度查看功能。但是，您可以使用第三方工具，如 pv（Pipe Viewer）在执行 docker cp 时查看进度。以下是使用 pv 查看 docker cp 进度的步骤：&lt;/p&gt;</description>
     </item>
     <item>
       <title>迁移 Docker volume 到本地挂载点</title>
-      <link>https://www.frytea.com/archives/760/</link>
+      <link>https://frytea.com/archives/760/</link>
       <pubDate>Tue, 28 Mar 2023 10:22:02 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/760/</guid>
+      <guid>https://frytea.com/archives/760/</guid>
       <description>&lt;p&gt;要将 Docker volume 迁移到本地挂载点，您需要执行以下步骤：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;首先，确保已停止正在使用此 volume 的所有容器。您可以使用以下命令停止容器（将 &amp;lt;container_name&amp;gt; 替换为您的容器名称）：    ```
@@ -283,16 +283,16 @@ docker run -d --name temp_container -v &amp;lt;volume_name&amp;gt;:/volume_data 
     </item>
     <item>
       <title>Dockerfile 禁止弹出 apt 安装交互视图</title>
-      <link>https://www.frytea.com/archives/749/</link>
+      <link>https://frytea.com/archives/749/</link>
       <pubDate>Mon, 13 Mar 2023 00:41:20 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/749/</guid>
+      <guid>https://frytea.com/archives/749/</guid>
       <description>&lt;p&gt;在 Dockerfile 中执行 apt 安装时，有些软件包可能会在安装过程中弹出交互式视图，例如询问用户是否接受软件包许可证或配置软件包参数等。在 Docker 构建过程中，由于无法进行交互式操作，这些视图可能会导致构建失败或出现不可预期的结果。为避免这些问题，可以通过以下方法避免在 Docker 构建过程中弹出交互式视图：&lt;/p&gt;</description>
     </item>
     <item>
       <title>部署 Prometheus 主机监控完全体</title>
-      <link>https://www.frytea.com/archives/664/</link>
+      <link>https://frytea.com/archives/664/</link>
       <pubDate>Fri, 02 Dec 2022 01:57:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/664/</guid>
+      <guid>https://frytea.com/archives/664/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/02/202212020957362a5ac543b2ec7f2be.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;监控完全体 = Prometheus + Node Exporter + cadvisor + grafana&lt;/p&gt;
 &lt;p&gt;Prometheus 作为轮转数据库，从各个服务器采集数据；
@@ -302,34 +302,34 @@ grafana 作为看板，从 prometheus 查询数据做数据可视化。&lt;/p&gt
     </item>
     <item>
       <title>Juice FS 初探 ｜ 一种为 VPS 提供无限磁盘空间的解决方案</title>
-      <link>https://www.frytea.com/archives/660/</link>
+      <link>https://frytea.com/archives/660/</link>
       <pubDate>Sun, 20 Nov 2022 13:56:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/660/</guid>
+      <guid>https://frytea.com/archives/660/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/11/20/202211202157973a3a77a11832318cf.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;JuiceFS&lt;/strong&gt; 是一款面向云原生设计的高性能分布式文件系统，在 Apache 2.0 开源协议下发布。提供完备的 &lt;a href=&#34;https://en.wikipedia.org/wiki/POSIX&#34;&gt;POSIX&lt;/a&gt; 兼容性，可将几乎所有对象存储接入本地作为海量本地磁盘使用，亦可同时在跨平台、跨地区的不同主机上挂载读写。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx Proxy Manager - Docker 建站最佳伴侣</title>
-      <link>https://www.frytea.com/archives/658/</link>
+      <link>https://frytea.com/archives/658/</link>
       <pubDate>Sun, 20 Nov 2022 02:28:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/658/</guid>
+      <guid>https://frytea.com/archives/658/</guid>
       <description>&lt;p&gt;很长一段时间中，我都在思考容器建站的可行性。&lt;/p&gt;
 &lt;p&gt;容器有诸多益处，各类好处就不一一列举了。&lt;/p&gt;
 &lt;p&gt;在企业场景下，K8s 几乎一骑绝尘，可以完成大规模集群统一管理，完成几乎所有 Web 资源的自动调度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>深挖 docker 默认网络 | 为什么 docker 默认网络能上外网</title>
-      <link>https://www.frytea.com/archives/612/</link>
+      <link>https://frytea.com/archives/612/</link>
       <pubDate>Tue, 28 Dec 2021 06:49:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/612/</guid>
+      <guid>https://frytea.com/archives/612/</guid>
       <description>&lt;p&gt;为什么默认配置创建出来的 docker 容器可以访问外网，为什么监听对应端口就能对外暴露docker服务，一张图搞清楚。&lt;/p&gt;
 &lt;p&gt;首先 Docker 有四中网络模式， 分别是 Bridge、Host、Container、None，默认使用 Bridge，今天就来讲讲 Bridge。&lt;/p&gt;</description>
     </item>
     <item>
       <title>申威（神/声）（SW）1621 &#43; UOS 20 编译安装 Docker | 容器国产化适配</title>
-      <link>https://www.frytea.com/archives/598/</link>
+      <link>https://frytea.com/archives/598/</link>
       <pubDate>Wed, 10 Nov 2021 10:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/598/</guid>
+      <guid>https://frytea.com/archives/598/</guid>
       <description>&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;OS: &lt;code&gt;UOS 20 1021 12011.101&lt;/code&gt;&lt;/li&gt;
@@ -348,9 +348,9 @@ grafana 作为看板，从 prometheus 查询数据做数据可视化。&lt;/p&gt
     </item>
     <item>
       <title>Centos系统安装docker</title>
-      <link>https://www.frytea.com/archives/37/</link>
+      <link>https://frytea.com/archives/37/</link>
       <pubDate>Tue, 12 Mar 2019 03:13:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/37/</guid>
+      <guid>https://frytea.com/archives/37/</guid>
       <description>&lt;h2 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h2&gt;
 &lt;p&gt;1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。&lt;/p&gt;
 &lt;p&gt;通过 uname -r 命令查看你当前的内核版本&lt;/p&gt;

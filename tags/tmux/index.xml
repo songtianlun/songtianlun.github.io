@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tmux on Frytea</title>
-    <link>https://www.frytea.com/tags/tmux/</link>
+    <link>https://frytea.com/tags/tmux/</link>
     <description>Recent content in Tmux on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 21 Dec 2024 06:53:29 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tmux 加大缓冲区大小</title>
-      <link>https://www.frytea.com/archives/1398/</link>
+      <link>https://frytea.com/archives/1398/</link>
       <pubDate>Sat, 21 Dec 2024 06:53:29 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1398/</guid>
+      <guid>https://frytea.com/archives/1398/</guid>
       <description>&lt;p&gt;永久配置&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ vim ~/.tmux.conf
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+ set -g history-limit &lt;span style=&#34;color:#ae81ff&#34;&gt;5000&lt;/span&gt;
@@ -35,9 +35,9 @@
     </item>
     <item>
       <title>Tmux 使用笔记</title>
-      <link>https://www.frytea.com/archives/585/</link>
+      <link>https://frytea.com/archives/585/</link>
       <pubDate>Wed, 13 Oct 2021 06:30:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/585/</guid>
+      <guid>https://frytea.com/archives/585/</guid>
       <description>&lt;p&gt;Tmux 是一个终端复用器（terminal multiplexer），用起来就离不开。网上有很多 Tmux 使用指南，但是用下来发现还是自己整理一遍才能真正的记住，于是有了这篇文章，本文意在整理 tmux 最常用操作，详细的操作指南请移步 「&lt;a href=&#34;https://man.openbsd.org/OpenBSD-current/man1/tmux.1&#34;&gt;tmux(1) manual page&lt;/a&gt;」。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rails on Ruby on Frytea</title>
-    <link>https://www.frytea.com/tags/rails-on-ruby/</link>
+    <link>https://frytea.com/tags/rails-on-ruby/</link>
     <description>Recent content in Rails on Ruby on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Apr 2025 09:21:44 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/rails-on-ruby/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/rails-on-ruby/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rails 性能分析工具 rack-mini-profiler 和 bullet</title>
-      <link>https://www.frytea.com/archives/1441/</link>
+      <link>https://frytea.com/archives/1441/</link>
       <pubDate>Mon, 07 Apr 2025 09:21:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1441/</guid>
+      <guid>https://frytea.com/archives/1441/</guid>
       <description>&lt;p&gt;rack-mini-profiler 和 bullet 是ruby 开发中两个广受欢迎的性能分析工具。&lt;/p&gt;
 &lt;p&gt;Bullet 更加实用，提得建议更加直接有效，rack-mini-profiler 信息丰富，需要更细致的排查时使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails Active Record 常用命令</title>
-      <link>https://www.frytea.com/archives/1439/</link>
+      <link>https://frytea.com/archives/1439/</link>
       <pubDate>Mon, 07 Apr 2025 09:21:19 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1439/</guid>
+      <guid>https://frytea.com/archives/1439/</guid>
       <description>&lt;p&gt;主要命令&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rake db:migrate
 rake db:rollback
@@ -46,9 +46,9 @@ rake db:migrate:redo
     </item>
     <item>
       <title>Rails Rake 简介与编写</title>
-      <link>https://www.frytea.com/archives/1438/</link>
+      <link>https://frytea.com/archives/1438/</link>
       <pubDate>Mon, 07 Apr 2025 09:21:09 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1438/</guid>
+      <guid>https://frytea.com/archives/1438/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;https://ruby-china.org/topics/27846&#34;&gt;Rake 简介与编写&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -59,9 +59,9 @@ rake db:migrate:redo
     </item>
     <item>
       <title>Rails 7  已有项目引入 Bootstrap 3</title>
-      <link>https://www.frytea.com/archives/1418/</link>
+      <link>https://frytea.com/archives/1418/</link>
       <pubDate>Sat, 18 Jan 2025 15:42:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1418/</guid>
+      <guid>https://frytea.com/archives/1418/</guid>
       <description>&lt;p&gt;若是新项目，在 Rails 7 之后直接使用 &lt;code&gt;rails new test -j esbuild --css bootstrap&lt;/code&gt; 即可，若是已有项目，使用下面步骤引入：&lt;/p&gt;
 &lt;h1 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h1&gt;
 &lt;h2 id=&#34;安装-cssbundling-rails-管理-css&#34;&gt;安装 &lt;code&gt;cssbundling-rails&lt;/code&gt; 管理 CSS&lt;/h2&gt;

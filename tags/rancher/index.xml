@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rancher on Frytea</title>
-    <link>https://www.frytea.com/tags/rancher/</link>
+    <link>https://frytea.com/tags/rancher/</link>
     <description>Recent content in Rancher on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 31 Mar 2025 10:00:40 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/rancher/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/rancher/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>k3s 容器 mirror 配置方法</title>
-      <link>https://www.frytea.com/archives/1456/</link>
+      <link>https://frytea.com/archives/1456/</link>
       <pubDate>Mon, 31 Mar 2025 10:00:40 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1456/</guid>
+      <guid>https://frytea.com/archives/1456/</guid>
       <description>&lt;h1 id=&#34;tl-dr&#34;&gt;TL; DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@tencent-sh1:~# cat /etc/rancher/k3s/registries.yaml 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mirrors:

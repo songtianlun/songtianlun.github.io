@@ -1,0 +1,123 @@
+backend:
+  name: github
+  repo: songtianlun/frytea
+  branch: main
+
+site_url: https://frytea.com
+locale: zh_Hans
+search: true
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: archives
+    label: 归档文章
+    label_singular: 文章
+    folder: content/archives
+    create: true
+    extension: md
+    format: frontmatter
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{year}} · {{title}}'
+    sortable_fields: ['date', 'title']
+    view_filters:
+      - label: 已发布
+        field: draft
+        pattern: false
+      - label: 草稿
+        field: draft
+        pattern: true
+    fields:
+      - { label: 标题, name: title, widget: string }
+      - { label: 发布日期, name: date, widget: datetime }
+      - { label: 描述, name: description, widget: text, required: false }
+      - { label: 分类, name: categories, widget: list, required: false }
+      - { label: 标签, name: tags, widget: list, required: false }
+      - { label: 草稿, name: draft, widget: boolean, default: true, required: false }
+      - { label: 正文, name: body, widget: markdown }
+
+  - name: pages
+    label: 独立页面
+    files:
+      - label: 关于页
+        name: about
+        file: content/about.md
+        fields:
+          - { label: 标题, name: title, widget: string }
+          - { label: 布局, name: layout, widget: hidden, default: about }
+          - { label: 链接, name: url, widget: hidden, default: /about/ }
+          - { label: 摘要, name: summary, widget: hidden, default: about }
+          - { label: 展开目录, name: TocOpen, widget: hidden, default: false }
+          - { label: 禁用转载说明, name: disableReprinted, widget: hidden, default: true }
+          - { label: 正文, name: body, widget: markdown }
+      - label: 项目页
+        name: projects
+        file: content/projects.md
+        fields:
+          - { label: 标题, name: title, widget: string }
+          - { label: 描述, name: description, widget: string, required: false }
+          - { label: 布局, name: layout, widget: hidden, default: projects }
+          - { label: 隐藏元信息, name: hidemeta, widget: hidden, default: true }
+          - { label: 关闭评论, name: comments, widget: hidden, default: false }
+          - { label: 禁用分享, name: disableShare, widget: hidden, default: true }
+          - { label: 显示页脚, name: hideFooter, widget: hidden, default: false }
+          - { label: 显示面包屑, name: ShowBreadCrumbs, widget: hidden, default: true }
+          - { label: 正文, name: body, widget: markdown, required: false }
+      - label: 友链页
+        name: friends
+        file: content/friends.md
+        fields:
+          - { label: 标题, name: title, widget: string }
+          - { label: 排序权重, name: weight, widget: hidden, default: 45 }
+          - { label: 显示目录, name: showtoc, widget: hidden, default: false }
+          - { label: 展开目录, name: tocopen, widget: hidden, default: false }
+          - { label: 显示阅读时间, name: showReadingTime, widget: hidden, default: false }
+          - { label: 显示分享按钮, name: ShowShareButtons, widget: hidden, default: false }
+          - { label: 正文, name: body, widget: markdown }
+      - label: 订阅页
+        name: subscribe
+        file: content/subscribe.md
+        fields:
+          - { label: 标题, name: title, widget: string }
+          - { label: 日期, name: date, widget: datetime }
+          - { label: 更新时间, name: lastmod, widget: datetime, required: false }
+          - { label: 草稿, name: draft, widget: boolean, default: true, required: false }
+          - { label: 固定链接, name: slug, widget: string, required: false }
+          - { label: 分类, name: categories, widget: list, required: false }
+          - { label: 标签, name: tags, widget: list, required: false }
+          - { label: 正文, name: body, widget: markdown }
+      - label: 免责声明
+        name: disclaimer
+        file: content/disclaimer.md
+        fields:
+          - { label: 标题, name: title, widget: string }
+          - { label: 链接, name: url, widget: hidden, default: /disclaimer/ }
+          - { label: 摘要, name: summary, widget: hidden, default: disclaimer }
+          - { label: 展开目录, name: TocOpen, widget: hidden, default: false }
+          - { label: 禁用转载说明, name: disableReprinted, widget: hidden, default: true }
+          - { label: 正文, name: body, widget: markdown }
+
+  - name: project_data
+    label: 项目数据
+    files:
+      - label: 项目列表
+        name: projects_json
+        file: static/projects.json
+        format: json
+        fields:
+          - label: 项目列表
+            name: projects
+            widget: list
+            summary: '{{fields.name}} · {{fields.year}}'
+            fields:
+              - { label: 名称, name: name, widget: string }
+              - { label: 描述, name: description, widget: text, required: false }
+              - { label: 图标, name: icon, widget: string, required: false, hint: '支持 emoji，如 🍵 或 🚀' }
+              - { label: 年份, name: year, widget: string, required: false, hint: '支持 2025 或 2025-01-01' }
+              - { label: 语言, name: language, widget: string, required: false }
+              - { label: 状态, name: status, widget: select, required: false, options: [active, archived, paused] }
+              - { label: 网址, name: url, widget: string, required: false }
+              - { label: GitHub, name: github, widget: string, required: false }
+              - { label: 文档链接, name: docs, widget: string, required: false }
+              - { label: 备注, name: note, widget: text, required: false }
+              - { label: 标签, name: tags, widget: list, required: false }

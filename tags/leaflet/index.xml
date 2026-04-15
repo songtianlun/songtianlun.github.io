@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Leaflet on Frytea</title>
-    <link>https://www.frytea.com/tags/leaflet/</link>
+    <link>https://frytea.com/tags/leaflet/</link>
     <description>Recent content in Leaflet on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 10 Feb 2023 11:57:47 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/leaflet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/leaflet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vue项目使用leaflet&#43;heatmap.js加载热力图</title>
-      <link>https://www.frytea.com/archives/41/</link>
+      <link>https://frytea.com/archives/41/</link>
       <pubDate>Fri, 08 Mar 2019 16:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/41/</guid>
+      <guid>https://frytea.com/archives/41/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 &lt;p&gt;最近做数字工程实践涉及到大量的地图操作，刚开始跳过依赖于 supermap iclient for JavaScript，但是越做深入越发现局限性太大，于是开始考虑使用开源地图库做各项操作，本文记录在 vue 项目中引入原生 leaflet 及 heatmap 打开地图及显示热力图的各项操作。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vue项目使用Vue2Leaflet插件实现地图显示</title>
-      <link>https://www.frytea.com/archives/43/</link>
+      <link>https://frytea.com/archives/43/</link>
       <pubDate>Sun, 03 Mar 2019 10:47:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/43/</guid>
+      <guid>https://frytea.com/archives/43/</guid>
       <description>&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 &lt;p&gt;vue是一个渐进式javascript框架，用来快速构建网页项目，在vue框架之上结构化leaflet地图库的产物vue2leaflet可以在vue项目中很方便的加载地图，下面简单介绍一个vue2leaflet加载地图的过程。&lt;/p&gt;</description>
     </item>

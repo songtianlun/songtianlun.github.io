@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Win11 on Frytea</title>
-    <link>https://www.frytea.com/tags/win11/</link>
+    <link>https://frytea.com/tags/win11/</link>
     <description>Recent content in Win11 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Aug 2022 03:15:05 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/win11/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/win11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win11 手动调整任务栏大小 ｜ 定制任务栏 2022</title>
-      <link>https://www.frytea.com/archives/631/</link>
+      <link>https://frytea.com/archives/631/</link>
       <pubDate>Mon, 15 Aug 2022 03:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/631/</guid>
+      <guid>https://frytea.com/archives/631/</guid>
       <description>&lt;p&gt;最近自己的 MacBook Air M1 资源吃紧，干起活来常常被内存拖累。&lt;/p&gt;
 &lt;p&gt;虽然平时都是远程开发，但终端一多，网页一多，很容易达到性能瓶颈导致工作效率下降。于是心生一计，在计算资源较充足的开发服务器上开一台高性能的桌面虚拟机，恰好此前一直没有使用过 Win11，趁此机会体验一下。&lt;/p&gt;</description>
     </item>

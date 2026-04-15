@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LVM on Frytea</title>
-    <link>https://www.frytea.com/tags/lvm/</link>
+    <link>https://frytea.com/tags/lvm/</link>
     <description>Recent content in LVM on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 29 Mar 2023 10:42:08 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虚拟磁盘扩容后扩展 LVM vg</title>
-      <link>https://www.frytea.com/archives/763/</link>
+      <link>https://frytea.com/archives/763/</link>
       <pubDate>Wed, 29 Mar 2023 10:42:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/763/</guid>
+      <guid>https://frytea.com/archives/763/</guid>
       <description>&lt;h2 id=&#34;新空间分区&#34;&gt;新空间分区&lt;/h2&gt;
 &lt;p&gt;在使用 fdisk 工具将新增的磁盘空间分配到 LVM PV 上时，您需要按照以下步骤操作：&lt;/p&gt;
 &lt;ol&gt;

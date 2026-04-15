@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Synology on Frytea</title>
-    <link>https://www.frytea.com/tags/synology/</link>
+    <link>https://frytea.com/tags/synology/</link>
     <description>Recent content in Synology on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 13 Sep 2025 17:07:13 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/synology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/synology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Synology 群晖重置 Syncthing 密码</title>
-      <link>https://www.frytea.com/archives/1521/</link>
+      <link>https://frytea.com/archives/1521/</link>
       <pubDate>Sat, 13 Sep 2025 17:07:13 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1521/</guid>
+      <guid>https://frytea.com/archives/1521/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;进入群晖终端执行这个：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo vim /volume1/@appdata/syncthing/config.xml

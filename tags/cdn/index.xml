@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CDN on Frytea</title>
-    <link>https://www.frytea.com/tags/cdn/</link>
+    <link>https://frytea.com/tags/cdn/</link>
     <description>Recent content in CDN on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 30 Dec 2021 12:11:59 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>国内对象存储/CDN服务价格横评</title>
-      <link>https://www.frytea.com/archives/614/</link>
+      <link>https://frytea.com/archives/614/</link>
       <pubDate>Thu, 30 Dec 2021 12:11:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/614/</guid>
+      <guid>https://frytea.com/archives/614/</guid>
       <description>&lt;p&gt;话不多说，直接上表格。&lt;/p&gt;
 &lt;h2 id=&#34;价格表国内https价格&#34;&gt;价格表(国内HTTPS价格)&lt;/h2&gt;
 &lt;table&gt;
@@ -87,9 +87,9 @@
     </item>
     <item>
       <title>CDN 中的 「回源HOST」与「源站」</title>
-      <link>https://www.frytea.com/archives/589/</link>
+      <link>https://frytea.com/archives/589/</link>
       <pubDate>Wed, 27 Oct 2021 16:11:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/589/</guid>
+      <guid>https://frytea.com/archives/589/</guid>
       <description>&lt;p&gt;在配置网站 CDN 时总是搞不清其中「回源HOST」与「源站」的区别，因此在这里简单记录。&lt;/p&gt;
 &lt;p&gt;源站和回源HOST的区别：&lt;/p&gt;
 &lt;ul&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>这项技术解决了博客访问的大问题</title>
-      <link>https://www.frytea.com/archives/299/</link>
+      <link>https://frytea.com/archives/299/</link>
       <pubDate>Thu, 23 Jan 2020 03:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/299/</guid>
+      <guid>https://frytea.com/archives/299/</guid>
       <description>&lt;p&gt;由于一些原因，我的博客暂时托管在香港某家服务提供商的云主机之上，虽然商家已经尽权力为线路做了优化，但是到达大陆一些地域的访问速度还是不太理想，特别是在一些本人长期驻留的地域。&lt;/p&gt;</description>
     </item>
   </channel>

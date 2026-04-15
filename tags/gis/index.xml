@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GIS on Frytea</title>
-    <link>https://www.frytea.com/tags/gis/</link>
+    <link>https://frytea.com/tags/gis/</link>
     <description>Recent content in GIS on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 01 Sep 2025 03:19:33 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>地图标记和兴趣点分享软件合集</title>
-      <link>https://www.frytea.com/archives/1517/</link>
+      <link>https://frytea.com/archives/1517/</link>
       <pubDate>Mon, 01 Sep 2025 03:19:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1517/</guid>
+      <guid>https://frytea.com/archives/1517/</guid>
       <description>&lt;p&gt;从学 GIS 开始，就一直想做/找一个地图兴趣点标记、分享软件。之前也做过，但是苦于时间、运维成本太高，就只能放在那里了。直到最近发现自己总是会碰到这种，需要标记和分享兴趣点的需求。特别是多点规划、形成规划的时候，有一个这样的软件比直接看地图要方便太多。&lt;/p&gt;</description>
     </item>
   </channel>

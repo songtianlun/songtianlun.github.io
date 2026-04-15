@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>K8s on Frytea</title>
-    <link>https://www.frytea.com/tags/k8s/</link>
+    <link>https://frytea.com/tags/k8s/</link>
     <description>Recent content in K8s on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 11 Nov 2025 00:16:58 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes kubectl --raw 使用指南</title>
-      <link>https://www.frytea.com/archives/1546/</link>
+      <link>https://frytea.com/archives/1546/</link>
       <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1546/</guid>
+      <guid>https://frytea.com/archives/1546/</guid>
       <description>&lt;h2 id=&#34;什么是-kubectl-raw&#34;&gt;什么是 kubectl &amp;ndash;raw?&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;kubectl --raw&lt;/code&gt; 是一个强大的底层工具,允许你直接访问 Kubernetes API Server 的 REST API,绕过 kubectl 的客户端逻辑、准入控制器(Admission Controllers)和 Webhook。&lt;/p&gt;</description>
     </item>
     <item>
       <title>k3s k8s 快速部署轻量节点监控方案 beszel</title>
-      <link>https://www.frytea.com/archives/1484/</link>
+      <link>https://frytea.com/archives/1484/</link>
       <pubDate>Thu, 08 May 2025 13:21:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1484/</guid>
+      <guid>https://frytea.com/archives/1484/</guid>
       <description>&lt;p&gt;在逛 Reddit 时看到 &lt;a href=&#34;https://www.reddit.com/r/selfhosted/comments/1kho3qe/what_are_some_very_simple_status_dashboards/&#34;&gt;这篇帖子&lt;/a&gt; 发现 &lt;a href=&#34;https://beszel.dev/&#34;&gt;beszel&lt;/a&gt; 这个熟悉又陌生的名字。看了一下官网发现还支持 kubernetes 的部署，直接使用 &lt;code&gt;daemonset&lt;/code&gt; 就可以在所有节点自动部署 &lt;code&gt;agent&lt;/code&gt; ，虽然还需要手动在 &lt;code&gt;hub&lt;/code&gt; 添加，但已经很方便,用了一下不错。&lt;/p&gt;</description>
     </item>
     <item>
       <title>k3s-k8s 实现 DevOps 方案横向对比</title>
-      <link>https://www.frytea.com/archives/1483/</link>
+      <link>https://frytea.com/archives/1483/</link>
       <pubDate>Wed, 07 May 2025 10:03:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1483/</guid>
+      <guid>https://frytea.com/archives/1483/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;目前在用 Keel，感觉良好。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -113,9 +113,9 @@
     </item>
     <item>
       <title>k8s 配置访问私有镜像仓库</title>
-      <link>https://www.frytea.com/archives/1482/</link>
+      <link>https://frytea.com/archives/1482/</link>
       <pubDate>Wed, 07 May 2025 06:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1482/</guid>
+      <guid>https://frytea.com/archives/1482/</guid>
       <description>&lt;p&gt;harbor 私有仓库、aliyun acr 等同理。&lt;/p&gt;
 &lt;h1 id=&#34;创建凭据&#34;&gt;创建凭据&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -154,9 +154,9 @@
     </item>
     <item>
       <title>k8s csi-driver-nfs的一个坑</title>
-      <link>https://www.frytea.com/archives/1458/</link>
+      <link>https://frytea.com/archives/1458/</link>
       <pubDate>Mon, 31 Mar 2025 10:01:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1458/</guid>
+      <guid>https://frytea.com/archives/1458/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;发现 k8s csi 组的社区项目 &lt;a href=&#34;https://github.com/kubernetes-csi/csi-driver-nfs&#34;&gt;csi-driver-nfs&lt;/a&gt; &lt;code&gt;v4.10&lt;/code&gt; 到 &lt;code&gt;v4.11&lt;/code&gt; 至少这两个版本存在删除 &lt;code&gt;pv&lt;/code&gt; 时会连带将整个根删除的问题。&lt;/p&gt;
 &lt;p&gt;声明 &lt;code&gt;StorageClass&lt;/code&gt; 时虽然支持 &lt;code&gt;subDir&lt;/code&gt; ，类似这样：&lt;/p&gt;
@@ -181,9 +181,9 @@
     </item>
     <item>
       <title>k3s 容器 mirror 配置方法</title>
-      <link>https://www.frytea.com/archives/1456/</link>
+      <link>https://frytea.com/archives/1456/</link>
       <pubDate>Mon, 31 Mar 2025 10:00:40 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1456/</guid>
+      <guid>https://frytea.com/archives/1456/</guid>
       <description>&lt;h1 id=&#34;tl-dr&#34;&gt;TL; DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@tencent-sh1:~# cat /etc/rancher/k3s/registries.yaml 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mirrors:
@@ -212,9 +212,9 @@
     </item>
     <item>
       <title>wordpress 使用 k8s 部署并使用 nginx ingress 代理无限 302 到 ssl 问题解决</title>
-      <link>https://www.frytea.com/archives/1455/</link>
+      <link>https://frytea.com/archives/1455/</link>
       <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1455/</guid>
+      <guid>https://frytea.com/archives/1455/</guid>
       <description>&lt;p&gt;发现容器化之后，wp 网站打开一直尝试 302 到 https 的页面，即使我当前已经是 https 了，经过排查是由于代理提供了 ssl 但 wordpress 不知道，默认会再重定向一次，出现无限 302 。&lt;/p&gt;</description>
     </item>
   </channel>

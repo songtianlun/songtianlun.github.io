@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Rclone on Frytea</title>
-    <link>https://www.frytea.com/tags/rclone/</link>
+    <link>https://frytea.com/tags/rclone/</link>
     <description>Recent content in Rclone on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 08 Aug 2025 06:45:14 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rclone WebUI 选择指南：全面对比各种图形界面方案</title>
-      <link>https://www.frytea.com/archives/1511/</link>
+      <link>https://frytea.com/archives/1511/</link>
       <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1511/</guid>
+      <guid>https://frytea.com/archives/1511/</guid>
       <description>&lt;p&gt;Rclone 作为强大的云存储同步工具，虽然命令行功能丰富，但对于普通用户来说学习曲线较陡。为了解决这个问题，社区开发了多种图形界面方案。本文将详细对比各种 Rclone WebUI 选择，帮助您找到最适合的解决方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux下使用rclone挂载网盘到本地</title>
-      <link>https://www.frytea.com/archives/31/</link>
+      <link>https://frytea.com/archives/31/</link>
       <pubDate>Mon, 06 May 2019 15:58:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/31/</guid>
+      <guid>https://frytea.com/archives/31/</guid>
       <description>&lt;p&gt;Rclone 是一个支持挂载多数国外网盘的工具。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://rclone.org/&#34;&gt;Rclone官网传送们&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;目前 Rclone 支持挂载的网盘有：Google Drive、 Dropbox 、Google Cloud Storage 、Microsoft One Drive 、Hubic、 Backblaze B2 、Yandex Disk 、Openstack Swift / Rackspace cloud files / Memset Memstore 等。更强大的是，Rclone 还支持 SFTP 、FTP 、HTTP 挂载。&lt;/p&gt;</description>

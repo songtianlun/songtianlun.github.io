@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lxc on Frytea</title>
-    <link>https://www.frytea.com/tags/lxc/</link>
+    <link>https://frytea.com/tags/lxc/</link>
     <description>Recent content in Lxc on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 14 Oct 2025 04:04:52 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/lxc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lxc 使用 chronyc 构建 ntp 服务</title>
-      <link>https://www.frytea.com/archives/1534/</link>
+      <link>https://frytea.com/archives/1534/</link>
       <pubDate>Tue, 14 Oct 2025 04:04:52 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1534/</guid>
+      <guid>https://frytea.com/archives/1534/</guid>
       <description>&lt;p&gt;lxc 启动 chronyd 是无法直接启动的，因为用到了很多未授权的权限。&lt;/p&gt;
 &lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;lxc与宿主机共用内核，因此时间也是共用的，无需同步。如果你想构建一个 ntp 服务，不需要同步时间，可以像下面这样做：&lt;/p&gt;</description>
     </item>
     <item>
       <title>确认当前终端是否运行在 LXC 容器</title>
-      <link>https://www.frytea.com/archives/774/</link>
+      <link>https://frytea.com/archives/774/</link>
       <pubDate>Mon, 10 Apr 2023 14:56:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/774/</guid>
+      <guid>https://frytea.com/archives/774/</guid>
       <description>&lt;p&gt;要确定当前运行的系统是否在 LXC 容器中，可以检查特定的环境变量和文件。以下是一种方法，通过查看 /proc/1/environ 文件来判断：&lt;/p&gt;
 &lt;p&gt;在终端中运行以下命令：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat /proc/1/environ | tr &amp;#39;\0&amp;#39; &amp;#39;\n&amp;#39; | grep &amp;#39;^container=&amp;#39;
@@ -34,9 +34,9 @@
     </item>
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/archives/605/</link>
+      <link>https://frytea.com/archives/605/</link>
       <pubDate>Tue, 14 Dec 2021 01:05:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/605/</guid>
+      <guid>https://frytea.com/archives/605/</guid>
       <description>&lt;p&gt;PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提升。&lt;/p&gt;</description>
     </item>
   </channel>

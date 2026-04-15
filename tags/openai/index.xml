@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenAI on Frytea</title>
-    <link>https://www.frytea.com/tags/openai/</link>
+    <link>https://frytea.com/tags/openai/</link>
     <description>Recent content in OpenAI on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Dec 2022 15:26:09 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT 注册方法（附万能接码方法）</title>
-      <link>https://www.frytea.com/archives/671/</link>
+      <link>https://frytea.com/archives/671/</link>
       <pubDate>Tue, 06 Dec 2022 15:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/671/</guid>
+      <guid>https://frytea.com/archives/671/</guid>
       <description>&lt;p&gt;ChatGPT 是一个训练有素的语言模型，由 OpenAI 公司训练而成。目的是帮助回答问题，提供信息和支持，但不具备人类的感知能力，也不会回答所有问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;以上自我介绍原始内容来自 ChatGPT 回答。&lt;/p&gt;</description>

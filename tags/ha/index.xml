@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>HA on Frytea</title>
-    <link>https://www.frytea.com/tags/ha/</link>
+    <link>https://frytea.com/tags/ha/</link>
     <description>Recent content in HA on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 14 Dec 2024 14:59:30 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ha/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HA 可用性表格</title>
-      <link>https://www.frytea.com/archives/1401/</link>
+      <link>https://frytea.com/archives/1401/</link>
       <pubDate>Sat, 14 Dec 2024 14:59:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1401/</guid>
+      <guid>https://frytea.com/archives/1401/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;

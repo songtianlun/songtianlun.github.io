@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Centos on Frytea</title>
-    <link>https://www.frytea.com/tags/centos/</link>
+    <link>https://frytea.com/tags/centos/</link>
     <description>Recent content in Centos on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 07 Aug 2025 14:34:31 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CentOS 7 重置 root 密码</title>
-      <link>https://www.frytea.com/archives/1508/</link>
+      <link>https://frytea.com/archives/1508/</link>
       <pubDate>Thu, 07 Aug 2025 14:34:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1508/</guid>
+      <guid>https://frytea.com/archives/1508/</guid>
       <description>&lt;h1 id=&#34;引言&#34;&gt;引言&lt;/h1&gt;
 &lt;p&gt;很多遗留系统都采用 CentOS 系统，经常出现忘记密码，故在此记录方法。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>私人网盘搭建之centos下安装cloudreve</title>
-      <link>https://www.frytea.com/archives/29/</link>
+      <link>https://frytea.com/archives/29/</link>
       <pubDate>Fri, 15 Mar 2019 05:10:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/29/</guid>
+      <guid>https://frytea.com/archives/29/</guid>
       <description>&lt;h1 id=&#34;简介&#34;&gt;简介&lt;/h1&gt;
 &lt;p&gt;cloudreve是基于ThinkPHP构建的网盘系统，能够助您以较低成本快速搭建起公私兼备的网盘。
 &lt;a href=&#34;https://cloudreve.org/&#34;&gt;主页&lt;/a&gt; | &lt;a href=&#34;https://forum.cloudreve.org/&#34;&gt;论坛&lt;/a&gt; | &lt;a href=&#34;https://drive.aoaoao.me/&#34;&gt;演示站&lt;/a&gt; | &lt;a href=&#34;https://jq.qq.com/?_wv=1027&amp;amp;k=5TX6sJY&#34;&gt;QQ群&lt;/a&gt;
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Centos系统安装docker</title>
-      <link>https://www.frytea.com/archives/37/</link>
+      <link>https://frytea.com/archives/37/</link>
       <pubDate>Tue, 12 Mar 2019 03:13:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/37/</guid>
+      <guid>https://frytea.com/archives/37/</guid>
       <description>&lt;h2 id=&#34;主要步骤&#34;&gt;主要步骤&lt;/h2&gt;
 &lt;p&gt;1、Docker 要求 CentOS 系统的内核版本高于 3.10 ，查看本页面的前提条件来验证你的CentOS 版本是否支持 Docker 。&lt;/p&gt;
 &lt;p&gt;通过 uname -r 命令查看你当前的内核版本&lt;/p&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NAS on Frytea</title>
-    <link>https://www.frytea.com/tags/nas/</link>
+    <link>https://frytea.com/tags/nas/</link>
     <description>Recent content in NAS on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 01 Aug 2021 15:37:00 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决OpenVPN证书过期问题</title>
-      <link>https://www.frytea.com/archives/553/</link>
+      <link>https://frytea.com/archives/553/</link>
       <pubDate>Sun, 01 Aug 2021 15:36:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/553/</guid>
+      <guid>https://frytea.com/archives/553/</guid>
       <description>&lt;p&gt;使用 Synology 提供的 VPN Server 一阵子，突然用不了了，大意是说 SSL 证书过期了，但是不知道如何解决，网络搜索也没有结果，试过了重置套件，无法解决。&lt;/p&gt;
 &lt;p&gt;最后查阅文档发现，VPN Server 是依赖了群晖设置中的证书。&lt;/p&gt;</description>
     </item>

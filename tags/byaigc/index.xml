@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ByAIGC on Frytea</title>
-    <link>https://www.frytea.com/tags/byaigc/</link>
+    <link>https://frytea.com/tags/byaigc/</link>
     <description>Recent content in ByAIGC on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 19 Sep 2025 17:08:57 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/byaigc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/byaigc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>云部署平台全面对比：Railway vs Render vs 其他主流方案（2025年版）</title>
-      <link>https://www.frytea.com/archives/1522/</link>
+      <link>https://frytea.com/archives/1522/</link>
       <pubDate>Fri, 19 Sep 2025 17:08:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1522/</guid>
+      <guid>https://frytea.com/archives/1522/</guid>
       <description>&lt;p&gt;随着 Heroku 免费套餐的终止，开发者们纷纷寻找新的云部署解决方案。本文将深入对比 Railway、Render 以及其他主流平台，帮你选择最适合项目需求的部署方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速感受编程乐趣的编程语言推荐</title>
-      <link>https://www.frytea.com/archives/1513/</link>
+      <link>https://frytea.com/archives/1513/</link>
       <pubDate>Mon, 18 Aug 2025 14:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1513/</guid>
+      <guid>https://frytea.com/archives/1513/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;快速看到效果对于感受编程乐趣非常重要，最近看完《计算机是怎样运行的》，推荐想要快速看到效果可以使用 VB。我认为这非常重要，现在编程语言非常多，但是能够稳定复现可以看到效果的，VB这样的方案是很少见的。如果没有可以运行 VB 的环境，可以尝试 &lt;code&gt;PyQt&lt;/code&gt; 来查看效果。下面用 Claude4 生成了一篇文章，给大家做参考。如果想要快速体验到编程的乐趣，可以看一看。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rclone WebUI 选择指南：全面对比各种图形界面方案</title>
-      <link>https://www.frytea.com/archives/1511/</link>
+      <link>https://frytea.com/archives/1511/</link>
       <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1511/</guid>
+      <guid>https://frytea.com/archives/1511/</guid>
       <description>&lt;p&gt;Rclone 作为强大的云存储同步工具，虽然命令行功能丰富，但对于普通用户来说学习曲线较陡。为了解决这个问题，社区开发了多种图形界面方案。本文将详细对比各种 Rclone WebUI 选择，帮助您找到最适合的解决方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>开源自托管数据备份解决方案全面对比</title>
-      <link>https://www.frytea.com/archives/1510/</link>
+      <link>https://frytea.com/archives/1510/</link>
       <pubDate>Fri, 08 Aug 2025 06:42:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1510/</guid>
+      <guid>https://frytea.com/archives/1510/</guid>
       <description>&lt;p&gt;在数据日益重要的今天，选择一个合适的备份解决方案至关重要。本文将对比介绍六个优秀的开源自托管数据备份方案，帮助您根据实际需求做出最佳选择。&lt;/p&gt;
 &lt;h2 id=&#34;方案概述&#34;&gt;方案概述&lt;/h2&gt;
 &lt;h3 id=&#34;1-duplicati---全能型备份工具&#34;&gt;1. Duplicati - 全能型备份工具&lt;/h3&gt;
@@ -47,31 +47,31 @@
     </item>
     <item>
       <title>独立开发者云平台技术选型深度对比：Vercel vs Cloudflare vs Supabase</title>
-      <link>https://www.frytea.com/archives/1503/</link>
+      <link>https://frytea.com/archives/1503/</link>
       <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1503/</guid>
+      <guid>https://frytea.com/archives/1503/</guid>
       <description>&lt;p&gt;在 2024-2025 年的云原生时代，独立开发者面临着前所未有的平台选择挑战。&lt;strong&gt;Vercel + Supabase 组合可降低 60% 开发时间，Cloudflare Workers 方案能节省 70% 运营成本，而技术选型错误可能导致月度支出增加 10 倍&lt;/strong&gt;。本文基于最新官方文档和实际测试数据，为构建 SaaS 应用和工具类应用的独立开发者提供全面的技术选型指南。&lt;/p&gt;</description>
     </item>
     <item>
       <title>边缘计算平台对比：Vercel vs Cloudflare Workers</title>
-      <link>https://www.frytea.com/archives/1500/</link>
+      <link>https://frytea.com/archives/1500/</link>
       <pubDate>Mon, 28 Jul 2025 15:10:47 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1500/</guid>
+      <guid>https://frytea.com/archives/1500/</guid>
       <description>&lt;h1 id=&#34;边缘计算平台对比vercel-vs-cloudflare-workers-及其他选择&#34;&gt;边缘计算平台对比：Vercel vs Cloudflare Workers 及其他选择&lt;/h1&gt;
 &lt;p&gt;在现代 Web 开发中，边缘计算平台已经成为提升应用性能和用户体验的关键技术。本文将深入对比几个主流的边缘计算和部署平台，特别关注它们对 Next.js SSR 的支持以及价格结构。&lt;/p&gt;</description>
     </item>
     <item>
       <title>媒体服务器对比：Emby vs Plex vs Jellyfin</title>
-      <link>https://www.frytea.com/archives/1499/</link>
+      <link>https://frytea.com/archives/1499/</link>
       <pubDate>Sun, 27 Jul 2025 14:45:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1499/</guid>
+      <guid>https://frytea.com/archives/1499/</guid>
       <description>&lt;p&gt;在数字化时代，拥有一个强大的媒体服务器来管理和流式传输您的个人媒体收藏变得越来越重要。本文将深入对比三个主流的媒体服务器解决方案：Emby、Plex 和 Jellyfin，帮助您选择最适合需求的方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kiro or Cursor? AI IDE工具全面对比：选择最适合的智能编程助手</title>
-      <link>https://www.frytea.com/archives/1497/</link>
+      <link>https://frytea.com/archives/1497/</link>
       <pubDate>Sun, 20 Jul 2025 10:17:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1497/</guid>
+      <guid>https://frytea.com/archives/1497/</guid>
       <description>&lt;p&gt;随着人工智能技术的快速发展，AI驱动的集成开发环境（IDE）正在重塑软件开发的格局。开发者现在面临众多选择，每个工具都有其独特的优势和特色。本文将深入对比四个主流的AI IDE工具：Cursor、Amazon Kiro、Claude Code和Augment Code，帮助开发者做出明智的选择。&lt;/p&gt;</description>
     </item>
   </channel>

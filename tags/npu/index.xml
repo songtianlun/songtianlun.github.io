@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NPU on Frytea</title>
-    <link>https://www.frytea.com/tags/npu/</link>
+    <link>https://frytea.com/tags/npu/</link>
     <description>Recent content in NPU on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Apr 2026 08:53:36 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/npu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/npu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>openFuyao InferNex AI推理集成部署 310P(300I Pro) 环境问题记录及解决</title>
-      <link>https://www.frytea.com/archives/1653/</link>
+      <link>https://frytea.com/archives/1653/</link>
       <pubDate>Mon, 13 Apr 2026 08:53:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1653/</guid>
+      <guid>https://frytea.com/archives/1653/</guid>
       <description>&lt;p&gt;AI推理集成部署（InferNex）是一个专为云原生环境下AI推理服务优化所设计的端到端集成部署方案。该方案基于Kubernetes Gateway API Inference Extension (GIE) 和主流LLM技术栈构建，通过Helm Chart将开源网关、智能路由、高性能推理后端、全局KVCache管理、扩缩容决策框架及推理可观测体系等核心加速模块无缝集成。它提供从请求接入、动态路由、推理执行到资源管理与监控的完整加速链路，旨在提升推理吞吐量并降低TTFT/TPOT时延，实现一站式的高效AI服务部署体验。&lt;/p&gt;</description>
     </item>
   </channel>

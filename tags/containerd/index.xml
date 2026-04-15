@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Containerd on Frytea</title>
-    <link>https://www.frytea.com/tags/containerd/</link>
+    <link>https://frytea.com/tags/containerd/</link>
     <description>Recent content in Containerd on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Dec 2024 10:17:08 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/containerd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/containerd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>以沙箱的方式运行容器-安全容器Kata Containers</title>
-      <link>https://www.frytea.com/archives/1393/</link>
+      <link>https://frytea.com/archives/1393/</link>
       <pubDate>Wed, 18 Dec 2024 10:17:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1393/</guid>
+      <guid>https://frytea.com/archives/1393/</guid>
       <description>&lt;h1 id=&#34;一系统环境&#34;&gt;一.系统环境&lt;/h1&gt;
 &lt;p&gt;本文主要基于Kubernetes1.22.2和Linux操作系统Ubuntu 18.04。&lt;/p&gt;
 &lt;table&gt;
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>镜像操作神器 skopeo 用法总结</title>
-      <link>https://www.frytea.com/archives/1353/</link>
+      <link>https://frytea.com/archives/1353/</link>
       <pubDate>Sat, 23 Nov 2024 02:59:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1353/</guid>
+      <guid>https://frytea.com/archives/1353/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/containers/skopeo&#34;&gt;skopeo&lt;/a&gt;&lt;/strong&gt; 是一个命令行工具，可对容器镜像和容器存储进行操作。 在没有dockerd的环境下，使用 &lt;strong&gt;skopeo&lt;/strong&gt; 操作镜像是非常方便的。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
 &lt;h3 id=&#34;包管理器&#34;&gt;包管理器&lt;/h3&gt;

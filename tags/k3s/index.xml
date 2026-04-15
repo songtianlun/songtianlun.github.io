@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>K3s on Frytea</title>
-    <link>https://www.frytea.com/tags/k3s/</link>
+    <link>https://frytea.com/tags/k3s/</link>
     <description>Recent content in K3s on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 08 May 2025 13:26:02 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/k3s/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/k3s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>k3s k8s 快速部署轻量节点监控方案 beszel</title>
-      <link>https://www.frytea.com/archives/1484/</link>
+      <link>https://frytea.com/archives/1484/</link>
       <pubDate>Thu, 08 May 2025 13:21:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1484/</guid>
+      <guid>https://frytea.com/archives/1484/</guid>
       <description>&lt;p&gt;在逛 Reddit 时看到 &lt;a href=&#34;https://www.reddit.com/r/selfhosted/comments/1kho3qe/what_are_some_very_simple_status_dashboards/&#34;&gt;这篇帖子&lt;/a&gt; 发现 &lt;a href=&#34;https://beszel.dev/&#34;&gt;beszel&lt;/a&gt; 这个熟悉又陌生的名字。看了一下官网发现还支持 kubernetes 的部署，直接使用 &lt;code&gt;daemonset&lt;/code&gt; 就可以在所有节点自动部署 &lt;code&gt;agent&lt;/code&gt; ，虽然还需要手动在 &lt;code&gt;hub&lt;/code&gt; 添加，但已经很方便,用了一下不错。&lt;/p&gt;</description>
     </item>
     <item>
       <title>k3s-k8s 实现 DevOps 方案横向对比</title>
-      <link>https://www.frytea.com/archives/1483/</link>
+      <link>https://frytea.com/archives/1483/</link>
       <pubDate>Wed, 07 May 2025 10:03:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1483/</guid>
+      <guid>https://frytea.com/archives/1483/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;目前在用 Keel，感觉良好。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>k8s 配置访问私有镜像仓库</title>
-      <link>https://www.frytea.com/archives/1482/</link>
+      <link>https://frytea.com/archives/1482/</link>
       <pubDate>Wed, 07 May 2025 06:19:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1482/</guid>
+      <guid>https://frytea.com/archives/1482/</guid>
       <description>&lt;p&gt;harbor 私有仓库、aliyun acr 等同理。&lt;/p&gt;
 &lt;h1 id=&#34;创建凭据&#34;&gt;创建凭据&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -146,16 +146,16 @@
     </item>
     <item>
       <title>Tailscale 自建 DERP 并配置 SSL 完整教程</title>
-      <link>https://www.frytea.com/archives/1479/</link>
+      <link>https://frytea.com/archives/1479/</link>
       <pubDate>Tue, 22 Apr 2025 13:38:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1479/</guid>
+      <guid>https://frytea.com/archives/1479/</guid>
       <description>&lt;p&gt;Tailscale 在很多场景有着广泛应用，&lt;code&gt;k3s&lt;/code&gt; 天然有针对它的支持，最近在基于这个方案构建遍布全球的分布式私有网络。官方的 &lt;code&gt;DERP&lt;/code&gt; 服务质量并不稳定， 自建后稳定很多，本文记录详细的过程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>k8s csi-driver-nfs的一个坑</title>
-      <link>https://www.frytea.com/archives/1458/</link>
+      <link>https://frytea.com/archives/1458/</link>
       <pubDate>Mon, 31 Mar 2025 10:01:43 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1458/</guid>
+      <guid>https://frytea.com/archives/1458/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;发现 k8s csi 组的社区项目 &lt;a href=&#34;https://github.com/kubernetes-csi/csi-driver-nfs&#34;&gt;csi-driver-nfs&lt;/a&gt; &lt;code&gt;v4.10&lt;/code&gt; 到 &lt;code&gt;v4.11&lt;/code&gt; 至少这两个版本存在删除 &lt;code&gt;pv&lt;/code&gt; 时会连带将整个根删除的问题。&lt;/p&gt;
 &lt;p&gt;声明 &lt;code&gt;StorageClass&lt;/code&gt; 时虽然支持 &lt;code&gt;subDir&lt;/code&gt; ，类似这样：&lt;/p&gt;
@@ -180,9 +180,9 @@
     </item>
     <item>
       <title>k3s 容器 mirror 配置方法</title>
-      <link>https://www.frytea.com/archives/1456/</link>
+      <link>https://frytea.com/archives/1456/</link>
       <pubDate>Mon, 31 Mar 2025 10:00:40 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1456/</guid>
+      <guid>https://frytea.com/archives/1456/</guid>
       <description>&lt;h1 id=&#34;tl-dr&#34;&gt;TL; DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root@tencent-sh1:~# cat /etc/rancher/k3s/registries.yaml 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mirrors:
@@ -211,9 +211,9 @@
     </item>
     <item>
       <title>k8s 使用 pv-migrate  迁移 pvc</title>
-      <link>https://www.frytea.com/archives/1452/</link>
+      <link>https://frytea.com/archives/1452/</link>
       <pubDate>Fri, 14 Mar 2025 17:25:34 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1452/</guid>
+      <guid>https://frytea.com/archives/1452/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;安装&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://github.com/utkuozdemir/pv-migrate/releases/download/v1.7.1/pv-migrate_v1.7.1_linux_x86_64.tar.gz
@@ -241,9 +241,9 @@ mv pv-migrate /usr/local/bin
     </item>
     <item>
       <title>k8s 使用 OpenEBS 存储</title>
-      <link>https://www.frytea.com/archives/1451/</link>
+      <link>https://frytea.com/archives/1451/</link>
       <pubDate>Fri, 14 Mar 2025 17:25:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1451/</guid>
+      <guid>https://frytea.com/archives/1451/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo add openebs https://openebs.github.io/openebs
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo update
@@ -282,9 +282,9 @@ mv pv-migrate /usr/local/bin
     </item>
     <item>
       <title>k3s 部署 kube-prometheus-stack 监控栈</title>
-      <link>https://www.frytea.com/archives/1450/</link>
+      <link>https://frytea.com/archives/1450/</link>
       <pubDate>Fri, 14 Mar 2025 17:24:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1450/</guid>
+      <guid>https://frytea.com/archives/1450/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ helm repo update
@@ -302,9 +302,9 @@ mv pv-migrate /usr/local/bin
     </item>
     <item>
       <title>k8s-k3s 标记节点暂时不可用及排空</title>
-      <link>https://www.frytea.com/archives/1449/</link>
+      <link>https://frytea.com/archives/1449/</link>
       <pubDate>Fri, 14 Mar 2025 17:24:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1449/</guid>
+      <guid>https://frytea.com/archives/1449/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 标记为不可调度&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kubectl cordon NODE
@@ -320,9 +320,9 @@ mv pv-migrate /usr/local/bin
     </item>
     <item>
       <title>helm operation 中断锁死问题解决</title>
-      <link>https://www.frytea.com/archives/1448/</link>
+      <link>https://frytea.com/archives/1448/</link>
       <pubDate>Fri, 14 Mar 2025 10:00:21 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1448/</guid>
+      <guid>https://frytea.com/archives/1448/</guid>
       <description>&lt;p&gt;两种方案：&lt;/p&gt;
 &lt;h1 id=&#34;解决办法&#34;&gt;解决办法&lt;/h1&gt;
 &lt;h2 id=&#34;方法一卸载重装&#34;&gt;方法一，卸载重装&lt;/h2&gt;

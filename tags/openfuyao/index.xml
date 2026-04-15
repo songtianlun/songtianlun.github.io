@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenFuyao on Frytea</title>
-    <link>https://www.frytea.com/tags/openfuyao/</link>
+    <link>https://frytea.com/tags/openfuyao/</link>
     <description>Recent content in OpenFuyao on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 13 Apr 2026 09:01:27 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/openfuyao/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/openfuyao/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>openFuyao 2603 共测测试报告</title>
-      <link>https://www.frytea.com/archives/1654/</link>
+      <link>https://frytea.com/archives/1654/</link>
       <pubDate>Mon, 13 Apr 2026 09:01:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1654/</guid>
+      <guid>https://frytea.com/archives/1654/</guid>
       <description>&lt;h1 id=&#34;相关链接&#34;&gt;相关链接&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;特性清单: &lt;a href=&#34;https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md&#34;&gt;https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md&lt;/a&gt;&lt;/li&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Homebrew on Frytea</title>
-    <link>https://www.frytea.com/tags/homebrew/</link>
+    <link>https://frytea.com/tags/homebrew/</link>
     <description>Recent content in Homebrew on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Oct 2021 16:08:29 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Homebrew 安装策略（M1芯片 Macbook）</title>
-      <link>https://www.frytea.com/archives/587/</link>
+      <link>https://frytea.com/archives/587/</link>
       <pubDate>Wed, 27 Oct 2021 16:08:29 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/587/</guid>
+      <guid>https://frytea.com/archives/587/</guid>
       <description>&lt;p&gt;换了 m1 芯片的 Macbook 之后第一个感受到的就是使用 homebrew 的不一样，由于不同的芯片架构，其安装方法也有不同，在这简单记录。&lt;/p&gt;
 &lt;h2 id=&#34;arm-mac-安装步骤&#34;&gt;Arm Mac 安装步骤&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# arm homebrew 同时设为国内源&lt;/span&gt;

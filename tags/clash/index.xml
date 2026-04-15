@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Clash on Frytea</title>
-    <link>https://www.frytea.com/tags/clash/</link>
+    <link>https://frytea.com/tags/clash/</link>
     <description>Recent content in Clash on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 24 Sep 2021 02:53:26 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/clash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/clash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>原生 clash linux 环境配置方法</title>
-      <link>https://www.frytea.com/archives/577/</link>
+      <link>https://frytea.com/archives/577/</link>
       <pubDate>Fri, 24 Sep 2021 02:53:26 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/577/</guid>
+      <guid>https://frytea.com/archives/577/</guid>
       <description>&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Ubuntu Desktop 20.04 理论适用大部分 Linux 发行版&lt;/li&gt;
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>解决 Clash for windows 端口为 0 导致无法使用</title>
-      <link>https://www.frytea.com/archives/564/</link>
+      <link>https://frytea.com/archives/564/</link>
       <pubDate>Mon, 30 Aug 2021 01:58:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/564/</guid>
+      <guid>https://frytea.com/archives/564/</guid>
       <description>&lt;p&gt;今天更新完 Windows 重启后发现上不了网了，检查 clash for windows 发现监听端口为 &lt;strong&gt;0&lt;/strong&gt; 。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;https://imagehost-cdn.frytea.com/images/2021/08/30/20210830095030627b1fa801f19241.png&#34; loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2021/08/30/20210830095030627b1fa801f19241.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这就不正常了，检查了一下 &lt;code&gt;C:\Users\&amp;lt;username&amp;gt;\.config\clash\logs&lt;/code&gt; 的日志，发现这行报错：&lt;/p&gt;

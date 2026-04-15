@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Swap on Frytea</title>
-    <link>https://www.frytea.com/tags/swap/</link>
+    <link>https://frytea.com/tags/swap/</link>
     <description>Recent content in Swap on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 13 Dec 2024 10:52:08 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/swap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/swap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux SWAP 占用情况排查 - smem</title>
-      <link>https://www.frytea.com/archives/1399/</link>
+      <link>https://frytea.com/archives/1399/</link>
       <pubDate>Fri, 13 Dec 2024 10:52:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1399/</guid>
+      <guid>https://frytea.com/archives/1399/</guid>
       <description>&lt;p&gt;最近发现 ArchLinux 的 32G 内存经常出现 OOM，分配 SWAP 后分多少就占多少，很奇怪，就想办法排查一下，找到了 &lt;code&gt;smem&lt;/code&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;smem 是一款能提供大量 Linux 系统内存使用报告的工具。与现有工具不同，smem 可以报告比例集大小 (PSS)，这对虚拟内存系统中库和应用程序使用的内存量来说更有意义。
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Linux 禁用 SWAP</title>
-      <link>https://www.frytea.com/archives/722/</link>
+      <link>https://frytea.com/archives/722/</link>
       <pubDate>Fri, 06 Jan 2023 00:37:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/722/</guid>
+      <guid>https://frytea.com/archives/722/</guid>
       <description>&lt;p&gt;在服务器和容器平台建议关闭 SWAP，避免内存交换影响服务器性能，甚至引发数据丢失。&lt;/p&gt;
 &lt;p&gt;一、不重启电脑，禁用启用swap，立刻生效&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 禁用命令

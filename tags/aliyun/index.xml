@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Aliyun on Frytea</title>
-    <link>https://www.frytea.com/tags/aliyun/</link>
+    <link>https://frytea.com/tags/aliyun/</link>
     <description>Recent content in Aliyun on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Oct 2025 15:20:01 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/aliyun/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/aliyun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>彻底解决阿里云和 tailscale 冲突</title>
-      <link>https://www.frytea.com/archives/1543/</link>
+      <link>https://frytea.com/archives/1543/</link>
       <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1543/</guid>
+      <guid>https://frytea.com/archives/1543/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;如果你在一台阿里云服务器安装并启动了 tailscale，大概率会出现&lt;strong&gt;阿里云服务器无法上网的问题&lt;/strong&gt;，根本原因为阿里云服务器默认DNS与tailscale网段产生冲突。&lt;/p&gt;</description>
     </item>

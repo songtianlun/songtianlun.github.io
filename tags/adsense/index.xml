@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Adsense on Frytea</title>
-    <link>https://www.frytea.com/tags/adsense/</link>
+    <link>https://frytea.com/tags/adsense/</link>
     <description>Recent content in Adsense on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Oct 2021 16:21:06 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/adsense/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/adsense/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Adsense 注意事项</title>
-      <link>https://www.frytea.com/archives/590/</link>
+      <link>https://frytea.com/archives/590/</link>
       <pubDate>Wed, 27 Oct 2021 16:21:06 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/590/</guid>
+      <guid>https://frytea.com/archives/590/</guid>
       <description>&lt;p&gt;最近刚刚通过了 Google Adsense 的审核，加入了其联盟，兴奋之余不忘思考，既然如此艰难的通过了审核，虽然我也不知道为什么之前为什么一直不通过（没有给出具体原因），我也不知道为什么突然就通过了。总之来之不易，一定加倍珍惜，多多输出好的内容来回报社会。&lt;/p&gt;</description>
     </item>
   </channel>

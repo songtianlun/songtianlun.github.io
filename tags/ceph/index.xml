@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ceph on Frytea</title>
-    <link>https://www.frytea.com/tags/ceph/</link>
+    <link>https://frytea.com/tags/ceph/</link>
     <description>Recent content in Ceph on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Apr 2025 09:19:22 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/ceph/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/ceph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ceph 检查 rbd io 排名</title>
-      <link>https://www.frytea.com/archives/1459/</link>
+      <link>https://frytea.com/archives/1459/</link>
       <pubDate>Mon, 07 Apr 2025 09:19:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1459/</guid>
+      <guid>https://frytea.com/archives/1459/</guid>
       <description>&lt;p&gt;好的，在 Ceph 中查看哪个 RBD (RADOS Block Device) 镜像的 I/O 读写最高，最常用的方法是使用 &lt;code&gt;rbd perf image iotop&lt;/code&gt; 或 &lt;code&gt;rbd perf image iostat&lt;/code&gt; 命令。&lt;/p&gt;
 &lt;p&gt;这两个命令都需要指定 &lt;strong&gt;存储池 (pool)&lt;/strong&gt; 的名称，因为 RBD 镜像是存在于特定的存储池中的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ceph RBD 查看实际占用top</title>
-      <link>https://www.frytea.com/archives/1375/</link>
+      <link>https://frytea.com/archives/1375/</link>
       <pubDate>Mon, 02 Dec 2024 10:12:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1375/</guid>
+      <guid>https://frytea.com/archives/1375/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rbd du -p ssd | awk &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;  
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;NR&amp;gt;1 {  
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;   size=$4  

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Windows on Frytea</title>
-    <link>https://www.frytea.com/tags/windows/</link>
+    <link>https://frytea.com/tags/windows/</link>
     <description>Recent content in Windows on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 14 Jan 2026 01:47:24 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 配置 Claude Code 解决  settings.json 不生效</title>
-      <link>https://www.frytea.com/archives/1616/</link>
+      <link>https://frytea.com/archives/1616/</link>
       <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1616/</guid>
+      <guid>https://frytea.com/archives/1616/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;默认情况下 Windows 安装的 &lt;code&gt;Claude Code&lt;/code&gt; 会从这个位置读取配置：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Users\&amp;lt;YOUR_NAME&amp;gt;\.claude
@@ -26,16 +26,16 @@
     </item>
     <item>
       <title>Windows 配置 Claude Code 全流程</title>
-      <link>https://www.frytea.com/archives/1615/</link>
+      <link>https://frytea.com/archives/1615/</link>
       <pubDate>Fri, 09 Jan 2026 08:22:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1615/</guid>
+      <guid>https://frytea.com/archives/1615/</guid>
       <description>&lt;p&gt;今天终于跑通了 Windows 下运行 Claoude Code 的全流程，不借助 WSL ，原生运行。起因是自己需要一个可以长期运行任务的云桌面，这方面还是 Windows 最好用。不得不说相比于 &lt;code&gt;Linux/macOS&lt;/code&gt; ，&lt;code&gt;Windows&lt;/code&gt; 下运行 &lt;code&gt;Claude Code&lt;/code&gt; 实在太多坑了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>linux vps dd windows</title>
-      <link>https://www.frytea.com/archives/1389/</link>
+      <link>https://frytea.com/archives/1389/</link>
       <pubDate>Fri, 13 Dec 2024 10:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1389/</guid>
+      <guid>https://frytea.com/archives/1389/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || wget -O reinstall.sh $_
 
 bash reinstall.sh windows \
@@ -50,9 +50,9 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>使用 dos2unix 解决跨操作系统换行符问题</title>
-      <link>https://www.frytea.com/archives/728/</link>
+      <link>https://frytea.com/archives/728/</link>
       <pubDate>Mon, 16 Jan 2023 00:29:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/728/</guid>
+      <guid>https://frytea.com/archives/728/</guid>
       <description>&lt;p&gt;&lt;code&gt;dos2unix&lt;/code&gt; 是将 &lt;code&gt;Windows&lt;/code&gt; 格式文件转换为 &lt;code&gt;Unix/Linux&lt;/code&gt; 格式的实用命令。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;unix2dos&lt;/code&gt; 则是和 &lt;code&gt;dos2unix&lt;/code&gt; 互为孪生的一个命令，将 &lt;code&gt;Linux&amp;amp;Unix&lt;/code&gt; 格式文件转换为 &lt;code&gt;Windows&lt;/code&gt; 格式文件的命令。&lt;/p&gt;
@@ -86,23 +86,23 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>Windows 禁用 AppXSVC 解决 CPU 占用高问题</title>
-      <link>https://www.frytea.com/archives/606/</link>
+      <link>https://frytea.com/archives/606/</link>
       <pubDate>Thu, 16 Dec 2021 03:26:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/606/</guid>
+      <guid>https://frytea.com/archives/606/</guid>
       <description>&lt;p&gt;在一台虚拟机上安装了 Windows 10 lstc 2021 版，启动后发现 CPU 占用率一直居高不下，查看任务管理器发现是一个叫 &lt;code&gt;wsapp&lt;/code&gt; 的系统服务服务占用 CPU 过高，搜索后发现对应的是 &lt;code&gt;AppX Deployment Service&lt;/code&gt; 系统服务，是用来提供 微软应用商店服务服务的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>最新 2021 Win10 LTSC 20H1 安装激活方法</title>
-      <link>https://www.frytea.com/archives/599/</link>
+      <link>https://frytea.com/archives/599/</link>
       <pubDate>Sun, 21 Nov 2021 06:54:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/599/</guid>
+      <guid>https://frytea.com/archives/599/</guid>
       <description>&lt;p&gt;我个人日常使用操作系统主要是 Linux 或 MacOS，但在一些特殊情况下，一些工作使用 Windows 桌面处理起来会方便一些（比如 Linux 环境时需要首发企业微信等），于是我会在公司内网云平台或是台式机上安装一个 Win10 桌面系统。&lt;/p&gt;</description>
     </item>
     <item>
       <title>一键修改Windows远程桌面（RDP）端口号</title>
-      <link>https://www.frytea.com/archives/555/</link>
+      <link>https://frytea.com/archives/555/</link>
       <pubDate>Tue, 10 Aug 2021 03:25:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/555/</guid>
+      <guid>https://frytea.com/archives/555/</guid>
       <description>&lt;p&gt;本文主要内容来微软官方文档，命令未 PowerShell 命令，管理员权限运行，最后给出链接。&lt;/p&gt;
 &lt;p&gt;若要查看当前 RDP 端口，可使用以下 PowerShell 命令：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Get-ItemProperty -Path &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp&amp;#39;&lt;/span&gt; -name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PortNumber&amp;#34;&lt;/span&gt;
@@ -110,9 +110,9 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>Windows Update服务启动弹出“拒绝访问的解决方案</title>
-      <link>https://www.frytea.com/archives/49/</link>
+      <link>https://frytea.com/archives/49/</link>
       <pubDate>Sat, 13 Apr 2019 14:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/49/</guid>
+      <guid>https://frytea.com/archives/49/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
 &lt;p&gt;说起 windows 自动更新相信这是让很多人又爱又恨的东西，爱在于它可以带给我们更新更安全的系统，让我们的生活添加一些新意；而恨就在于其常常在我们不知情的情况下强行开始更新并运行很久的时间。&lt;/p&gt;
 &lt;p&gt;作者对于 windows 自动更新忍无可忍，从注册表层关闭了 windows 自动更新；但是当时年少无知，只图一时爽快，确实很长的一段时间没有再更新，但是当有一天我需要自动更新的时候却发现自动更新的服务怎么也打不开了，具体表现在开启 windows update 服务会提示拒绝访问&lt;/p&gt;
@@ -121,9 +121,9 @@ bash reinstall.sh windows \
     </item>
     <item>
       <title>Windows下纯控制台配置vue环境并创建第一个vue项目</title>
-      <link>https://www.frytea.com/archives/48/</link>
+      <link>https://frytea.com/archives/48/</link>
       <pubDate>Fri, 01 Mar 2019 01:50:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/48/</guid>
+      <guid>https://frytea.com/archives/48/</guid>
       <description>&lt;h1 id=&#34;概述&#34;&gt;概述&lt;/h1&gt;
 &lt;p&gt;本文叙述如何在windows环境下完全使用cmd控制台配置vue环境并使用控制台创建vue项目，最终使用webstorm运行。&lt;/p&gt;
 &lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;

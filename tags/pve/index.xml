@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PVE on Frytea</title>
-    <link>https://www.frytea.com/tags/pve/</link>
+    <link>https://frytea.com/tags/pve/</link>
     <description>Recent content in PVE on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 04 Mar 2025 01:32:45 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/pve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ProxmoxVE (PVE) NAT 网络配置方法</title>
-      <link>https://www.frytea.com/archives/1445/</link>
+      <link>https://frytea.com/archives/1445/</link>
       <pubDate>Tue, 04 Mar 2025 01:32:45 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1445/</guid>
+      <guid>https://frytea.com/archives/1445/</guid>
       <description>&lt;p&gt;伪装允许只有私有 IP 地址的访客使用主机 IP 地址来访问网络，以处理传出流量。每个传出数据包都会被重写 iptables ，使其看起来来自主机，响应也会相应地被重写以路由到原始发件人。&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决 PVE 报错 rbd error list images</title>
-      <link>https://www.frytea.com/archives/1345/</link>
+      <link>https://frytea.com/archives/1345/</link>
       <pubDate>Thu, 14 Nov 2024 11:47:06 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1345/</guid>
+      <guid>https://frytea.com/archives/1345/</guid>
       <description>&lt;p&gt;针对下列报错：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    2021-05-26 11:06:11 ERROR: Failed to sync data - rbd error: rbd: listing images failed: &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; No such file or directory
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;解决方法&#34;&gt;解决方法&lt;/h2&gt;
@@ -47,9 +47,9 @@ rbd rm vm-111-disk-0 -p data
     </item>
     <item>
       <title>PVE 批量销毁虚拟机</title>
-      <link>https://www.frytea.com/archives/771/</link>
+      <link>https://frytea.com/archives/771/</link>
       <pubDate>Sat, 08 Apr 2023 06:56:44 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/771/</guid>
+      <guid>https://frytea.com/archives/771/</guid>
       <description>&lt;p&gt;可以使用以下命令一次性删除所有 QEMU 虚拟机：&lt;/p&gt;
 &lt;h2 id=&#34;串行&#34;&gt;串行&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;qm list | awk &amp;#39;NR&amp;gt;1 {print $1}&amp;#39; | xargs -I {} qm destroy {}
@@ -63,9 +63,9 @@ rbd rm vm-111-disk-0 -p data
     </item>
     <item>
       <title>PVE 删除/离开集群</title>
-      <link>https://www.frytea.com/archives/753/</link>
+      <link>https://frytea.com/archives/753/</link>
       <pubDate>Thu, 16 Mar 2023 11:34:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/753/</guid>
+      <guid>https://frytea.com/archives/753/</guid>
       <description>&lt;h2 id=&#34;删除节点&#34;&gt;删除节点&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;用于从集群中删除无效节点。&lt;/p&gt;
@@ -102,9 +102,9 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>PVE 手动创建 lvm-thin-pool 加入多磁盘</title>
-      <link>https://www.frytea.com/archives/748/</link>
+      <link>https://frytea.com/archives/748/</link>
       <pubDate>Sun, 12 Mar 2023 05:21:21 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/748/</guid>
+      <guid>https://frytea.com/archives/748/</guid>
       <description>&lt;p&gt;新建存储池，包括多块硬盘&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lsblk
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pvcreate /dev/sdb /dev/sdc /dev/sdd
@@ -118,9 +118,9 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>PVE 批量创建、配置虚拟机 IP、网卡、启停及销毁</title>
-      <link>https://www.frytea.com/archives/737/</link>
+      <link>https://frytea.com/archives/737/</link>
       <pubDate>Wed, 08 Feb 2023 00:46:10 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/737/</guid>
+      <guid>https://frytea.com/archives/737/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 从模版批量派生，100 虚拟机仅需2 min&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;001..128&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; qm clone &lt;span style=&#34;color:#ae81ff&#34;&gt;336&lt;/span&gt; 11$i --name stl-ceph-bare-node$i --pool stl-ceph-cluster2; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -139,9 +139,9 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>PVE 虚拟机导入 vmdk 磁盘</title>
-      <link>https://www.frytea.com/archives/736/</link>
+      <link>https://frytea.com/archives/736/</link>
       <pubDate>Wed, 01 Feb 2023 01:45:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/736/</guid>
+      <guid>https://frytea.com/archives/736/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;先把磁盘镜像上传到 pve 服务器中，若空间不足可挂载本地存储；&lt;/li&gt;
 &lt;li&gt;把 &lt;code&gt;vmdk&lt;/code&gt; 转为 &lt;code&gt;qcow2&lt;/code&gt;&lt;/li&gt;
@@ -166,23 +166,23 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>Proxmox VE (PVE) 销毁集群</title>
-      <link>https://www.frytea.com/archives/628/</link>
+      <link>https://frytea.com/archives/628/</link>
       <pubDate>Thu, 14 Apr 2022 02:43:42 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/628/</guid>
+      <guid>https://frytea.com/archives/628/</guid>
       <description>&lt;p&gt;当 pve 集群某节点出现问题时，可能导致所有主机均无法连接到 WEB 管理后台，此时可以尝试以下方法将正常节点的集群状态销毁，在需要时重建集群，从而保证仍在线节点可用：&lt;/p&gt;</description>
     </item>
     <item>
       <title>更换 PVE7 软件仓库源和 CT模板（LXC）源为国内源</title>
-      <link>https://www.frytea.com/archives/605/</link>
+      <link>https://frytea.com/archives/605/</link>
       <pubDate>Tue, 14 Dec 2021 01:05:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/605/</guid>
+      <guid>https://frytea.com/archives/605/</guid>
       <description>&lt;p&gt;PVE7 安装后默认配置的 apt 软件源和 CT(LXC)容器模板源均是官方默认的，国内使用性能不佳，建议替换为 清华 Tuna 提供的国内镜像源，速度将有一个较大的提升。&lt;/p&gt;</description>
     </item>
     <item>
       <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
-      <link>https://www.frytea.com/archives/600/</link>
+      <link>https://frytea.com/archives/600/</link>
       <pubDate>Wed, 24 Nov 2021 09:38:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/600/</guid>
+      <guid>https://frytea.com/archives/600/</guid>
       <description>&lt;p&gt;最近在看 PVE 源码时看到这样一段：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法&lt;/span&gt;
@@ -193,9 +193,9 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>pve-kernal 编译安装步骤</title>
-      <link>https://www.frytea.com/archives/586/</link>
+      <link>https://frytea.com/archives/586/</link>
       <pubDate>Wed, 20 Oct 2021 01:55:57 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/586/</guid>
+      <guid>https://frytea.com/archives/586/</guid>
       <description>&lt;p&gt;以 pve-release-6.x ，基于 debian buster 为例：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Step1: 配置国内 PVE 镜像源&lt;/li&gt;
@@ -215,9 +215,9 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
     </item>
     <item>
       <title>Cloud-init 概述及 PVE 下创建步骤说明</title>
-      <link>https://www.frytea.com/archives/583/</link>
+      <link>https://frytea.com/archives/583/</link>
       <pubDate>Tue, 12 Oct 2021 03:45:28 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/583/</guid>
+      <guid>https://frytea.com/archives/583/</guid>
       <description>&lt;p&gt;Cloud-init 是一个程序，它在启动时在客户机上运行，是用于 &lt;strong&gt;跨平台云实例初始化&lt;/strong&gt; 的行业标准多分发方法。它支持所有主要的 &lt;strong&gt;公共云提供商、私有云基础设施的供应系统和裸机安装&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
   </channel>

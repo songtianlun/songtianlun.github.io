@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BJ-PFD on Frytea</title>
-    <link>https://www.frytea.com/tags/bj-pfd/</link>
+    <link>https://frytea.com/tags/bj-pfd/</link>
     <description>Recent content in BJ-PFD on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 09 Sep 2021 16:55:46 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/bj-pfd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bullet Journal for Notion 之概览</title>
-      <link>https://www.frytea.com/archives/571/</link>
+      <link>https://frytea.com/archives/571/</link>
       <pubDate>Thu, 09 Sep 2021 16:31:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/571/</guid>
+      <guid>https://frytea.com/archives/571/</guid>
       <description>&lt;p&gt;最近几乎花费全部业余时间制作了一个 BJ for Notion 辅助看板工具，配合我做的 Bj 模版使用。本文主要就是做一个预览，具体的使用方法后面慢慢出文介绍。话不多说，直接看效果吧！&lt;/p&gt;</description>
     </item>
   </channel>

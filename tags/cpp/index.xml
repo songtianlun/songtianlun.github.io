@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CPP on Frytea</title>
-    <link>https://www.frytea.com/tags/cpp/</link>
+    <link>https://frytea.com/tags/cpp/</link>
     <description>Recent content in CPP on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 19 Apr 2025 02:21:24 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第一个 CUDA 程序之矩阵运算计算效能对比</title>
-      <link>https://www.frytea.com/archives/1472/</link>
+      <link>https://frytea.com/archives/1472/</link>
       <pubDate>Sat, 19 Apr 2025 02:21:24 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1472/</guid>
+      <guid>https://frytea.com/archives/1472/</guid>
       <description>&lt;p&gt;这是一个使用 CUDA 进行编程的实际例子，对比 CPU 和 GPU 在执行矩阵乘法时的性能差异。&lt;/p&gt;
 &lt;h1 id=&#34;运行效果&#34;&gt;运行效果&lt;/h1&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(base) root@gpu-1095cf160ec353b4e35a9-1-zqa76jnvthlx:~/data/CUDA/first# ./gpu_matrix_mult

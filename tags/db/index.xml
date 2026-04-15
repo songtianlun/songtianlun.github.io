@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DB on Frytea</title>
-    <link>https://www.frytea.com/tags/db/</link>
+    <link>https://frytea.com/tags/db/</link>
     <description>Recent content in DB on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Apr 2025 09:21:31 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/db/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>全球国家、城市、地区开源数据库</title>
-      <link>https://www.frytea.com/archives/1440/</link>
+      <link>https://frytea.com/archives/1440/</link>
       <pubDate>Mon, 07 Apr 2025 09:21:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1440/</guid>
+      <guid>https://frytea.com/archives/1440/</guid>
       <description>&lt;p&gt;以 JSON、MYSQL、PSQL、SQLITE、XML、YAML 和 CSV 格式提供城市、州、国家/地区的完整数据库。所有国家、州和城市都覆盖并填充了不同的组合和版本。&lt;/p&gt;</description>
     </item>
   </channel>

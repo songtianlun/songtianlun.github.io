@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>随笔思考 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E9%9A%8F%E7%AC%94%E6%80%9D%E8%80%83/</link>
+    <link>https://frytea.com/categories/%E9%9A%8F%E7%AC%94%E6%80%9D%E8%80%83/</link>
     <description>Recent content in 随笔思考 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 21 Oct 2025 14:08:25 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/categories/%E9%9A%8F%E7%AC%94%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/categories/%E9%9A%8F%E7%AC%94%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-10-21 ｜ 沉淀思维</title>
-      <link>https://www.frytea.com/archives/1542/</link>
+      <link>https://frytea.com/archives/1542/</link>
       <pubDate>Tue, 21 Oct 2025 14:08:25 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1542/</guid>
+      <guid>https://frytea.com/archives/1542/</guid>
       <description>&lt;p&gt;焦虑的时候，还是要看书。&lt;/p&gt;
 &lt;p&gt;一章一章的读下去，让自己的思维从那些焦虑的事情上短暂移开，看到更大的世界。&lt;/p&gt;
 &lt;p&gt;焦虑是告诉人们处于不安全状态的信号，且焦虑的原因很有可能源自过去的事，低概率的事，未知的事情。弄清楚这一点，这只是传递信号，需要思考的，是更通透的看待这个世界，更深刻的思考面临的问题，更清晰的审视当前的处境。想清楚，看清楚，思考的足够深，足够远，就不会在意当下这一点小麻烦，焦虑可能就随之而去。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-16 ｜ 负载高低</title>
-      <link>https://www.frytea.com/archives/1540/</link>
+      <link>https://frytea.com/archives/1540/</link>
       <pubDate>Thu, 16 Oct 2025 15:10:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1540/</guid>
+      <guid>https://frytea.com/archives/1540/</guid>
       <description>&lt;p&gt;Oracle 云按照负载情况清退免费账户的虚拟机，这个思路感觉很厉害。其他云厂商都是听说有谁负载太高了，被限制。两种思维方式不同，可能面对的情况也有很大的区别。常规云厂商，如果单用户负载过高，影响到整体用户的体验，这就必须介入管控，这运行的每一分钟对云厂商都是金钱。但是对 Oracle 这种体量的企业来说，有严格的风控和注册限制，即使如此规模也很大，这里面难免有一批注册来不用的，这样的机器回收回去确实也合理，需要保证的是整体负载要上去，不要空置。两种思路，似乎跟现实中许多实体运转的情况，高度的类似。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-15 ｜ 睡眠周期</title>
-      <link>https://www.frytea.com/archives/1539/</link>
+      <link>https://frytea.com/archives/1539/</link>
       <pubDate>Wed, 15 Oct 2025 14:27:58 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1539/</guid>
+      <guid>https://frytea.com/archives/1539/</guid>
       <description>&lt;p&gt;关于睡眠的周期，总是可以看到一个说法，是说睡眠最好睡到一个半小时的倍数，这样是完整的睡眠周期，可以避免从深度睡眠中起来。&lt;/p&gt;
 &lt;p&gt;但很奇怪，感觉自己不同的时长，对应清醒程度跟睡眠周期不是很一样。有时候感觉很符合睡眠周期的时间，反而起来的时候很困。有时候感觉睡眠时间跟睡眠周期差的很远，但是起来的时候反而是清醒的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-14 ｜ 转换情绪与独立观点</title>
-      <link>https://www.frytea.com/archives/1538/</link>
+      <link>https://frytea.com/archives/1538/</link>
       <pubDate>Tue, 14 Oct 2025 13:36:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1538/</guid>
+      <guid>https://frytea.com/archives/1538/</guid>
       <description>&lt;h1 id=&#34;愤怒转换&#34;&gt;愤怒转换&lt;/h1&gt;
 &lt;p&gt;在书店顺手买了一本《给大人们的情绪使用说明书》，从第一章《愤怒》中摘录几句话：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -50,34 +50,34 @@
     </item>
     <item>
       <title>2025-10-13 ｜ 独立思考于未来能源</title>
-      <link>https://www.frytea.com/archives/1533/</link>
+      <link>https://frytea.com/archives/1533/</link>
       <pubDate>Mon, 13 Oct 2025 13:29:15 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1533/</guid>
+      <guid>https://frytea.com/archives/1533/</guid>
       <description>&lt;h1 id=&#34;think1&#34;&gt;Think.1&lt;/h1&gt;
 &lt;p&gt;cc 的额度用的好快。之前每次触发限流，又可以用差不多的时间。现在触发几次限流以后，就开始提醒我接近周限额。限制可真是越来越多。本来以为发了新的模型可以用更久一点，结果非但没有更多，感觉更容易限流了。可能每个人的体感不一样。既然这么容易限制，大规模的使用势必是要考虑如何回本的，所以就看如何在有限的token中获取更多了。似乎 AI 正逐渐向一种“资源”靠近，未来或许真的就像是用水和电一样，去获取和使用AI资源。但是从经济的角度去看，似乎赚钱的人们很喜欢这样。都希望将自己的产品，包装成更容易、更广泛流动的资源。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-12｜AI Review 及高质量工作流</title>
-      <link>https://www.frytea.com/archives/1532/</link>
+      <link>https://frytea.com/archives/1532/</link>
       <pubDate>Sun, 12 Oct 2025 14:33:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1532/</guid>
+      <guid>https://frytea.com/archives/1532/</guid>
       <description>&lt;h1 id=&#34;ai-review&#34;&gt;AI review&lt;/h1&gt;
 &lt;p&gt;今天尝试了一下用 cc 写代码、设计。再用 cx review，发现的问题再给 cc 优化，效果确实不错。cx 的优势在于准确可控，致力于给出最标准的答案，因此创造性略差，做出的东西准确但呆板。cc 做的东西更容易给人眼前一亮的感觉，但有时不够准确，修改面积过大，随之会带来一些风险和漏洞。结合两者优势，共同使用，扬长避短，效果还不错。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-11 ｜ 人生阶段</title>
-      <link>https://www.frytea.com/archives/1531/</link>
+      <link>https://frytea.com/archives/1531/</link>
       <pubDate>Sat, 11 Oct 2025 12:27:38 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1531/</guid>
+      <guid>https://frytea.com/archives/1531/</guid>
       <description>&lt;p&gt;或许到一定程度，就需要换个思维考虑问题。不同的阶段，需匹配不同的思维方式才可。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Penguin - unsplash&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/10/11/xieua0.webp&#34;&gt;&lt;/p&gt;
 &lt;p&gt;今天在听腾讯发展的一个播客，讲到腾讯早期什么都做，各种抄袭，最后发展成很坏的风评，最终引发 3Q 大战。Pony Ma 在那时候进行深刻反思，觉得自己只是一心想要做好产品，但是为什么会到这个结果呢，经过深刻反思，后面的做事方式也发生了深刻的改变。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-10 ｜ AI Logo ｜ 远程操控 AI</title>
-      <link>https://www.frytea.com/archives/1530/</link>
+      <link>https://frytea.com/archives/1530/</link>
       <pubDate>Fri, 10 Oct 2025 15:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1530/</guid>
+      <guid>https://frytea.com/archives/1530/</guid>
       <description>&lt;h1 id=&#34;远程操控-ai&#34;&gt;远程操控 AI&lt;/h1&gt;
 &lt;p&gt;用了一下 happy，还挺震惊的。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/slopus/happy&#34;&gt;https://github.com/slopus/happy&lt;/a&gt;&lt;/p&gt;
@@ -88,34 +88,34 @@
     </item>
     <item>
       <title>2025-10-09 | 去班味｜银杏｜域名</title>
-      <link>https://www.frytea.com/archives/1529/</link>
+      <link>https://frytea.com/archives/1529/</link>
       <pubDate>Thu, 09 Oct 2025 15:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1529/</guid>
+      <guid>https://frytea.com/archives/1529/</guid>
       <description>&lt;h1 id=&#34;去班味&#34;&gt;去班味&lt;/h1&gt;
 &lt;p&gt;去了一个跟自己生活地方气质完全不同的地方，回想起来才感觉是一种累但得到休息的感觉。假期去香港转了两天，走过深圳就能感受到一种气质迅速的转变。回过头来才意识到，这种感受不一样风格的生活和空气，可以让人短暂的从高压神经状态下抽离，得到一定程度放松。后面也可逐渐尝试这种方式，让自己放松。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-08</title>
-      <link>https://www.frytea.com/archives/1528/</link>
+      <link>https://frytea.com/archives/1528/</link>
       <pubDate>Wed, 08 Oct 2025 11:56:59 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1528/</guid>
+      <guid>https://frytea.com/archives/1528/</guid>
       <description>&lt;h1 id=&#34;ms-卡&#34;&gt;MS 卡&lt;/h1&gt;
 &lt;p&gt;收了一台旧相机，发现用的存储卡是索尼的 Memory Stick Pro Duo，简称 MS 卡，查了一下资料：&lt;/p&gt;
 &lt;p&gt;Memory Stick，简称为MS卡、MS记忆卡、记忆棒等，它是一种可移除式快闪存储卡格式，并由索尼公司制造，于1998年10月推出市场。现因SD卡等存储介质较为通用，仅索尼产品使用MS卡。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-07</title>
-      <link>https://www.frytea.com/archives/1527/</link>
+      <link>https://frytea.com/archives/1527/</link>
       <pubDate>Tue, 07 Oct 2025 14:07:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1527/</guid>
+      <guid>https://frytea.com/archives/1527/</guid>
       <description>&lt;h1 id=&#34;期待一下-figma-的-ai-助力&#34;&gt;期待一下 Figma 的 AI 助力&lt;/h1&gt;
 &lt;p&gt;试了一下 Figma make，感觉效果比 v0 好一些。做出的页面更精致一些，布局、交互更合理。输出结果还是给出 tex 源码，要是能直接出 figma 设计稿就好了。期待一下。&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-10-06</title>
-      <link>https://www.frytea.com/archives/1526/</link>
+      <link>https://frytea.com/archives/1526/</link>
       <pubDate>Mon, 06 Oct 2025 15:40:54 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1526/</guid>
+      <guid>https://frytea.com/archives/1526/</guid>
       <description>&lt;h1 id=&#34;中秋快乐&#34;&gt;中秋快乐&lt;/h1&gt;
 &lt;p&gt;祝大家中秋快乐，愿团圆美好，所愿皆所得，越来越好。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;岭南印象园 - 打铁花&#34; loading=&#34;lazy&#34; src=&#34;https://image.frytea.com/images/2025/10/06/12id0nr.webp&#34;&gt;&lt;/p&gt;
@@ -125,18 +125,18 @@
     </item>
     <item>
       <title>2025-10-05</title>
-      <link>https://www.frytea.com/archives/1524/</link>
+      <link>https://frytea.com/archives/1524/</link>
       <pubDate>Sun, 05 Oct 2025 14:37:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1524/</guid>
+      <guid>https://frytea.com/archives/1524/</guid>
       <description>&lt;h1 id=&#34;文字表达能力&#34;&gt;文字表达能力&lt;/h1&gt;
 &lt;p&gt;今天看到这个 &lt;a href=&#34;https://v2ex.com/t/1163394&#34;&gt;帖子&lt;/a&gt;  ，很有感触。现在很多工作为了快，都是先用 AI 打个底稿，再人工优化。久而久之写作水平就下降了。
 此前一直想要多写点东西，但总是拘泥于形式不敢下手。现在看来再不下手就晚了，敢在自己写作水平下降之前多写点东西。无所谓什么，写就是了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>虽怀念必前行</title>
-      <link>https://www.frytea.com/archives/1296/</link>
+      <link>https://frytea.com/archives/1296/</link>
       <pubDate>Sat, 14 Sep 2024 10:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1296/</guid>
+      <guid>https://frytea.com/archives/1296/</guid>
       <description>&lt;p&gt;感觉当下的状态不是最好，可能是一种常态。&lt;/p&gt;
 &lt;p&gt;虽然感觉不是最好的状态，但或许这已经是最佳的状态。&lt;/p&gt;
 &lt;p&gt;甚至过去这段时间回看，还不如这个状态。&lt;/p&gt;
@@ -145,9 +145,9 @@
     </item>
     <item>
       <title>在线小店 ｜ 网络服务</title>
-      <link>https://www.frytea.com/archives/1082/</link>
+      <link>https://frytea.com/archives/1082/</link>
       <pubDate>Wed, 03 May 2023 08:40:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1082/</guid>
+      <guid>https://frytea.com/archives/1082/</guid>
       <description>&lt;p&gt;搜集网上一些有用的在线服务、发卡站.&lt;/p&gt;
 &lt;h2 id=&#34;发卡小店&#34;&gt;发卡小店&lt;/h2&gt;
 &lt;ul&gt;
@@ -156,9 +156,9 @@
     </item>
     <item>
       <title>每次离开的时候才会特别想家</title>
-      <link>https://www.frytea.com/archives/734/</link>
+      <link>https://frytea.com/archives/734/</link>
       <pubDate>Fri, 27 Jan 2023 14:03:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/734/</guid>
+      <guid>https://frytea.com/archives/734/</guid>
       <description>&lt;p&gt;今年出人预料的能回家了，匆匆去，匆匆回，真的离开了家乡，才开始想家。&lt;/p&gt;
 &lt;p&gt;2021 年春节，咨询街道被告知回去就隔离 14 天；
 2022 年春节，咨询街道被告知回去就隔离 7+7。
@@ -166,9 +166,9 @@
     </item>
     <item>
       <title>顺利返程，这个年就算过完了（流水账）</title>
-      <link>https://www.frytea.com/archives/731/</link>
+      <link>https://frytea.com/archives/731/</link>
       <pubDate>Thu, 26 Jan 2023 12:26:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/731/</guid>
+      <guid>https://frytea.com/archives/731/</guid>
       <description>&lt;p&gt;昨夜十一点，回到了居住地，
 看着熟悉的一切，
 心里感触良多，离开的这 7 天，仿佛过去了很久很久。&lt;/p&gt;
@@ -178,9 +178,9 @@
     </item>
     <item>
       <title>一次过年返乡机票的教训，亏了900块</title>
-      <link>https://www.frytea.com/archives/724/</link>
+      <link>https://frytea.com/archives/724/</link>
       <pubDate>Mon, 09 Jan 2023 04:40:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/724/</guid>
+      <guid>https://frytea.com/archives/724/</guid>
       <description>&lt;p&gt;控制变量，均为直飞+当日价格最优惠前5，
 均加购 50 元左右的退改险。&lt;/p&gt;
 &lt;p&gt;距离起飞 22 天，花费 3410
@@ -195,9 +195,9 @@
     </item>
     <item>
       <title>新冠恢复一部份后的感受</title>
-      <link>https://www.frytea.com/archives/718/</link>
+      <link>https://frytea.com/archives/718/</link>
       <pubDate>Tue, 03 Jan 2023 00:43:54 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/718/</guid>
+      <guid>https://frytea.com/archives/718/</guid>
       <description>&lt;p&gt;距离感染新冠今天是第八天了，
 终于感觉身体恢复了很多，
 趁着温柔的午后阳光，
@@ -210,9 +210,9 @@
     </item>
     <item>
       <title>圣诞节怎么过？看看历年圣诞节怎么过就知道了</title>
-      <link>https://www.frytea.com/archives/715/</link>
+      <link>https://frytea.com/archives/715/</link>
       <pubDate>Sat, 24 Dec 2022 09:31:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/715/</guid>
+      <guid>https://frytea.com/archives/715/</guid>
       <description>&lt;p&gt;每当过节这天，即使没有过这个节日的习惯，也总想着要做些什么。&lt;/p&gt;
 &lt;p&gt;怎么知道自己有没有过这个节日的习惯呢。&lt;/p&gt;
 &lt;p&gt;翻看一下自己的历史相册或是日记就知道了。&lt;/p&gt;
@@ -220,17 +220,17 @@
     </item>
     <item>
       <title>失眠，整理如何对抗焦虑</title>
-      <link>https://www.frytea.com/archives/710/</link>
+      <link>https://frytea.com/archives/710/</link>
       <pubDate>Sat, 24 Dec 2022 02:46:18 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/710/</guid>
+      <guid>https://frytea.com/archives/710/</guid>
       <description>&lt;p&gt;最近的几件事情再次让内心焦虑感上升到一个巅峰。&lt;/p&gt;
 &lt;p&gt;工作日心里抱怨睡不够，休息日可以好好睡，结果直接就失眠了，对于这件事应该不需要诧异，就像是吃饭一样稀疏平常。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第一反应要三思</title>
-      <link>https://www.frytea.com/archives/690/</link>
+      <link>https://frytea.com/archives/690/</link>
       <pubDate>Thu, 15 Dec 2022 01:01:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/690/</guid>
+      <guid>https://frytea.com/archives/690/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/15/2022121519179295633a145ae840417.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;人的第一反应或许常常是处于本能的，&lt;/p&gt;
 &lt;p&gt;而本能或是条件反射多是为了生存思考，&lt;/p&gt;
@@ -240,9 +240,9 @@
     </item>
     <item>
       <title>坚持习惯从身边的点滴做起</title>
-      <link>https://www.frytea.com/archives/686/</link>
+      <link>https://frytea.com/archives/686/</link>
       <pubDate>Wed, 14 Dec 2022 00:41:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/686/</guid>
+      <guid>https://frytea.com/archives/686/</guid>
       <description>&lt;p&gt;每天都想早睡，但有时候就是容易晚睡，如何才能实现早点睡呢。&lt;/p&gt;
 &lt;p&gt;发现其实也很简单，将睡下之前的所有工序提早做完，再去做可能拖延的事情。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/12/2022121223590020661c0ed437b1065.png&#34;&gt;&lt;/p&gt;
@@ -250,9 +250,9 @@
     </item>
     <item>
       <title>前事不忘，后事之师</title>
-      <link>https://www.frytea.com/archives/687/</link>
+      <link>https://frytea.com/archives/687/</link>
       <pubDate>Tue, 13 Dec 2022 00:25:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/687/</guid>
+      <guid>https://frytea.com/archives/687/</guid>
       <description>&lt;p&gt;前事不忘，后事之师。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/13/20221213082443845001c290c759a19.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;今天，是我国第9个
@@ -266,9 +266,9 @@
     </item>
     <item>
       <title>精神力充能跟吃饭一样重要</title>
-      <link>https://www.frytea.com/archives/682/</link>
+      <link>https://frytea.com/archives/682/</link>
       <pubDate>Mon, 12 Dec 2022 00:41:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/682/</guid>
+      <guid>https://frytea.com/archives/682/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2022/12/11/20221211224592189c4fdee01b7a6cb.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;除了吃饭，好要注意补充精神力。&lt;/p&gt;
 &lt;p&gt;吃饭可以补充能量，让人有力气去做事情。&lt;/p&gt;
@@ -277,17 +277,17 @@
     </item>
     <item>
       <title>事事有回音，才更容易坚持</title>
-      <link>https://www.frytea.com/archives/674/</link>
+      <link>https://frytea.com/archives/674/</link>
       <pubDate>Sun, 11 Dec 2022 14:25:30 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/674/</guid>
+      <guid>https://frytea.com/archives/674/</guid>
       <description>&lt;p&gt;写完程序，做一做代码扫描、代码评级检测、单元测试覆盖率检测，看到那个很直观且能够努力有所提升的具体的数值，就更有力气为之努力。&lt;/p&gt;
 &lt;p&gt;写完文字，看着发文数量，评论数量，阅读数量，一天天增加，就更有力气。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于新时代“电子毒品”的思考</title>
-      <link>https://www.frytea.com/archives/676/</link>
+      <link>https://frytea.com/archives/676/</link>
       <pubDate>Thu, 08 Dec 2022 15:45:35 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/676/</guid>
+      <guid>https://frytea.com/archives/676/</guid>
       <description>&lt;p&gt;这世上有这么一群人，“不装抖音”是他们最后的倔强。&lt;/p&gt;
 &lt;p&gt;我恰好就属于这群人的一员。&lt;/p&gt;
 &lt;p&gt;人活在世上多么不容易，辛苦产生一些价值，片刻的闲暇还是难逃“收割”的命运。&lt;/p&gt;</description>

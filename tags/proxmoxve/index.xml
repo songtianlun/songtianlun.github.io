@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ProxmoxVE on Frytea</title>
-    <link>https://www.frytea.com/tags/proxmoxve/</link>
+    <link>https://frytea.com/tags/proxmoxve/</link>
     <description>Recent content in ProxmoxVE on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 15 Aug 2025 00:25:46 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/proxmoxve/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/proxmoxve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian 11 &#43; PVE LACP Mac 冲突问题调查与解决方案</title>
-      <link>https://www.frytea.com/archives/1512/</link>
+      <link>https://frytea.com/archives/1512/</link>
       <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1512/</guid>
+      <guid>https://frytea.com/archives/1512/</guid>
       <description>&lt;p&gt;By TL.S&lt;/p&gt;
 &lt;h2 id=&#34;问题背景&#34;&gt;问题背景&lt;/h2&gt;
 &lt;p&gt;在Debian 11 + Proxmox VE环境中，当配置LACP（Link Aggregation Control Protocol）绑定接口时，有一个环境遇到一个令人困惑的问题：&lt;strong&gt;相同硬件配置的多台服务器上，所有服务器的同名bond接口都被分配了相同的MAC地址&lt;/strong&gt;。这种情况会导致严重的网络连接问题，特别是在集群环境中。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ProxmoxVE (PVE) NAT 网络配置方法</title>
-      <link>https://www.frytea.com/archives/1445/</link>
+      <link>https://frytea.com/archives/1445/</link>
       <pubDate>Tue, 04 Mar 2025 01:32:45 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1445/</guid>
+      <guid>https://frytea.com/archives/1445/</guid>
       <description>&lt;p&gt;伪装允许只有私有 IP 地址的访客使用主机 IP 地址来访问网络，以处理传出流量。每个传出数据包都会被重写 iptables ，使其看起来来自主机，响应也会相应地被重写以路由到原始发件人。&lt;/p&gt;</description>
     </item>
   </channel>

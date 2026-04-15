@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Claude on Frytea</title>
-    <link>https://www.frytea.com/tags/claude/</link>
+    <link>https://frytea.com/tags/claude/</link>
     <description>Recent content in Claude on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 29 Jul 2025 01:26:08 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Claude Code Subagents 快速开始</title>
-      <link>https://www.frytea.com/archives/1501/</link>
+      <link>https://frytea.com/archives/1501/</link>
       <pubDate>Tue, 29 Jul 2025 01:26:08 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1501/</guid>
+      <guid>https://frytea.com/archives/1501/</guid>
       <description>&lt;p&gt;在Claude Code中的AI子代理，可用于特定任务的工作流程和改进的上下文管理。&lt;/p&gt;
 &lt;p&gt;Claude Code中的自定义子代理是专门的AI助手，可以被调用来处理特定类型的任务。它们通过提供具有自定义系统提示、工具和独立上下文窗口的特定任务配置，实现更高效的问题解决。&lt;/p&gt;</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Asahi Linux on Frytea</title>
-    <link>https://www.frytea.com/tags/asahi-linux/</link>
+    <link>https://frytea.com/tags/asahi-linux/</link>
     <description>Recent content in Asahi Linux on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 10 Jan 2023 13:05:22 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/asahi-linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/asahi-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>m1 MacBook 安装 asahi linux 磁盘调整失败解决</title>
-      <link>https://www.frytea.com/archives/725/</link>
+      <link>https://frytea.com/archives/725/</link>
       <pubDate>Tue, 10 Jan 2023 13:05:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/725/</guid>
+      <guid>https://frytea.com/archives/725/</guid>
       <description>&lt;p&gt;尝试在 MacBook Air m1 安装 asahi linux ，在磁盘分区过程遭遇报错，具体过程没有留下来，是类似这样的报错：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;error: doc-id tree: record exists &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; doc-id 64, file-id &lt;span style=&#34;color:#ae81ff&#34;&gt;9665861&lt;/span&gt; but no inode references this doc-id
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;大致解决是要进恢复模式，之后使用急救程序尝试修复。&lt;/p&gt;</description>

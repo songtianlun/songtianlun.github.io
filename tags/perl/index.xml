@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Perl on Frytea</title>
-    <link>https://www.frytea.com/tags/perl/</link>
+    <link>https://frytea.com/tags/perl/</link>
     <description>Recent content in Perl on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 28 Feb 2023 11:40:56 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/perl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>整理 Notion 导出文档名称</title>
-      <link>https://www.frytea.com/archives/743/</link>
+      <link>https://frytea.com/archives/743/</link>
       <pubDate>Tue, 28 Feb 2023 11:40:56 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/743/</guid>
+      <guid>https://frytea.com/archives/743/</guid>
       <description>&lt;p&gt;从 Notion 导出 md 格式的文档，默认会对文件名做一些处理，&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imagehost-cdn.frytea.com/images/2023/02/28/202302281809111b4ea3d003517a7d.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;大概是这样，会讲过长的文档名称压缩，在首行使用 md 一级标签标记文件名，再将文档截断为图示的样子。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perl 特性之不安全的依赖</title>
-      <link>https://www.frytea.com/archives/630/</link>
+      <link>https://frytea.com/archives/630/</link>
       <pubDate>Wed, 27 Jul 2022 06:56:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/630/</guid>
+      <guid>https://frytea.com/archives/630/</guid>
       <description>&lt;p&gt;最近写 Perl 程序时遇到一个很奇怪的问题：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Insecure dependency in unlink while running with -T switch at ../tmpfile.pl line 44.
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;经过检查，发现这是 Perl 语言一个特性，在运行时使用 &lt;code&gt;-w&lt;/code&gt; 或 &lt;code&gt;-T&lt;/code&gt; 都意味着 &amp;ldquo;万无一失&amp;rdquo; 标志。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python 二进制结构化数据处理和封装</title>
-      <link>https://www.frytea.com/archives/621/</link>
+      <link>https://frytea.com/archives/621/</link>
       <pubDate>Mon, 17 Jan 2022 08:04:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/621/</guid>
+      <guid>https://frytea.com/archives/621/</guid>
       <description>&lt;p&gt;当 python 需要调用 C 程序，或是进行文件、网络操作时，需要对二进制结构化字节流进行处理，此时需要使用到 &lt;code&gt;struct&lt;/code&gt; 这个模块提供的方法。&lt;/p&gt;
 &lt;p&gt;详细方法可以查看 &lt;a href=&#34;https://docs.python.org/zh-cn/3/library/struct.html&#34;&gt;官方教程&lt;/a&gt;，这里以 &lt;code&gt;perl&lt;/code&gt; 的 &lt;code&gt;pack&lt;/code&gt; 作为对比，使用 python 实现类似 perl 数据打包的效果。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perl //= 和 ||= 的区别 | 附实验</title>
-      <link>https://www.frytea.com/archives/619/</link>
+      <link>https://frytea.com/archives/619/</link>
       <pubDate>Wed, 12 Jan 2022 07:42:03 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/619/</guid>
+      <guid>https://frytea.com/archives/619/</guid>
       <description>&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;$var//=2&lt;/code&gt;：等价于 &lt;code&gt;defined($var)||2&lt;/code&gt;，即 &lt;strong&gt;未定义&lt;/strong&gt; 时才赋值为 &lt;code&gt;2&lt;/code&gt; ，否则不变（ 即使是 &lt;code&gt;0&lt;/code&gt;或 &lt;code&gt;空字符串&lt;/code&gt;  ）&lt;/li&gt;
@@ -103,9 +103,9 @@
     </item>
     <item>
       <title>Perl 常用内置函数 -r -e 等</title>
-      <link>https://www.frytea.com/archives/617/</link>
+      <link>https://frytea.com/archives/617/</link>
       <pubDate>Tue, 11 Jan 2022 07:55:24 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/617/</guid>
+      <guid>https://frytea.com/archives/617/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;r: File is readable by effective uid&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;gid&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;w: File is writable by effective uid&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;gid&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;x: File is executable by effective uid&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;gid&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>Perl 调试打印 HASH 内容</title>
-      <link>https://www.frytea.com/archives/608/</link>
+      <link>https://frytea.com/archives/608/</link>
       <pubDate>Thu, 23 Dec 2021 06:14:27 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/608/</guid>
+      <guid>https://frytea.com/archives/608/</guid>
       <description>&lt;p&gt;在调试 Perl 程序时常常需要打印哈希表内容，虽然可以直接使用 &lt;code&gt;foreach&lt;/code&gt; 打印，但数据复杂了就难办了，此时可以将 Hash 表转换为 json 文本再打印：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; JSON;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -163,9 +163,9 @@
     </item>
     <item>
       <title>perl &#39;-&amp;gt;&#39; 和 &#39;::&#39; 的区别 | 方法和函数的区别</title>
-      <link>https://www.frytea.com/archives/600/</link>
+      <link>https://frytea.com/archives/600/</link>
       <pubDate>Wed, 24 Nov 2021 09:38:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/600/</guid>
+      <guid>https://frytea.com/archives/600/</guid>
       <description>&lt;p&gt;最近在看 PVE 源码时看到这样一段：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# old code uses PVE::RPCEnvironment::get(); 使用冒号表示调用函数&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# new code should use PVE::RPCEnvironment-&amp;gt;get(); 使用箭头表示法调用方法&lt;/span&gt;
@@ -176,9 +176,9 @@
     </item>
     <item>
       <title>Perl 程序后台执行示例</title>
-      <link>https://www.frytea.com/archives/563/</link>
+      <link>https://frytea.com/archives/563/</link>
       <pubDate>Thu, 26 Aug 2021 03:51:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/563/</guid>
+      <guid>https://frytea.com/archives/563/</guid>
       <description>&lt;p&gt;最近阅读 PVE 源码发现一处源码这样使用了 &lt;code&gt;fork()&lt;/code&gt; 方法：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$spid &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; fork();
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;defined ($spid)) {
@@ -190,9 +190,9 @@
     </item>
     <item>
       <title>Perl 面向对象之基类(use base)</title>
-      <link>https://www.frytea.com/archives/562/</link>
+      <link>https://frytea.com/archives/562/</link>
       <pubDate>Wed, 25 Aug 2021 08:39:33 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/562/</guid>
+      <guid>https://frytea.com/archives/562/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; base somemodule;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 相当于以下两句的结合：&lt;/span&gt;
@@ -224,9 +224,9 @@
     </item>
     <item>
       <title>Perl 模块路径指定（调试环境）</title>
-      <link>https://www.frytea.com/archives/561/</link>
+      <link>https://frytea.com/archives/561/</link>
       <pubDate>Wed, 25 Aug 2021 08:33:50 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/561/</guid>
+      <guid>https://frytea.com/archives/561/</guid>
       <description>&lt;p&gt;在调试 Perl 测试程序时，常常需要在测试路劲执行 Perl 脚本，相应的 &lt;code&gt;.pm&lt;/code&gt; 模块测试程序也需并不在 Perl 默认的模块路径下，使用以下语句即可指定模块检索路径。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/perl
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;use lib &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;./&amp;#39;&lt;/span&gt;;

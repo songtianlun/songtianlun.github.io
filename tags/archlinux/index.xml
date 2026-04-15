@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ArchLinux on Frytea</title>
-    <link>https://www.frytea.com/tags/archlinux/</link>
+    <link>https://frytea.com/tags/archlinux/</link>
     <description>Recent content in ArchLinux on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 17 Apr 2025 07:26:09 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archlinux KDE Apache JMeter 配置高分屏缩放</title>
-      <link>https://www.frytea.com/archives/1471/</link>
+      <link>https://frytea.com/archives/1471/</link>
       <pubDate>Thu, 17 Apr 2025 06:11:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1471/</guid>
+      <guid>https://frytea.com/archives/1471/</guid>
       <description>&lt;p&gt;ArchLinux 下安装 &lt;code&gt;jmeter&lt;/code&gt; 很简单：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yay -S jmeter
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是在现代高分辨率显示器下 GUI 的字体和图标都很小 ：&lt;/p&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>ArchLinux pacman 一键找到最快的镜像源清单</title>
-      <link>https://www.frytea.com/archives/1454/</link>
+      <link>https://frytea.com/archives/1454/</link>
       <pubDate>Fri, 14 Mar 2025 17:26:36 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1454/</guid>
+      <guid>https://frytea.com/archives/1454/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -s &amp;#34;https://archlinux.org/mirrorlist/?country=CN&amp;amp;protocol=https&amp;amp;use_mirror_status=on&amp;#34; | sed -e &amp;#39;s/^#Server/Server/&amp;#39; -e &amp;#39;/^#/d&amp;#39; | rankmirrors -n 5 -
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;运行这个命令，即可自动从 archlinux 官方 mirror 清单获取中国 (&lt;code&gt;CN&lt;/code&gt;) 的镜像清单，并调用 &lt;code&gt;rankmirrors&lt;/code&gt;  测速得到速度最快的前5个。&lt;/p&gt;
 &lt;p&gt;配置到 &lt;code&gt;/etc/pacman.d/mirrorlist&lt;/code&gt; 目录中即可使用。&lt;/p&gt;
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>ArchLinux 休眠到交换文件</title>
-      <link>https://www.frytea.com/archives/1436/</link>
+      <link>https://frytea.com/archives/1436/</link>
       <pubDate>Thu, 27 Feb 2025 15:35:55 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1436/</guid>
+      <guid>https://frytea.com/archives/1436/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2019/10/19/hibernate-archlinux.html&#34;&gt;ArchLinux 休眠到交换文件&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>ArchLinux 快速本地部署 DeepSeek</title>
-      <link>https://www.frytea.com/archives/1444/</link>
+      <link>https://frytea.com/archives/1444/</link>
       <pubDate>Tue, 18 Feb 2025 07:19:37 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1444/</guid>
+      <guid>https://frytea.com/archives/1444/</guid>
       <description>&lt;p&gt;在 ArchLinux 下借助 Ollama 可以快速运行一个小参数体量的 DeepSeek 本地模型，在我的环境上 纯 CPU 推理也可以获得很快的体验。&lt;/p&gt;
 &lt;h1 id=&#34;安装环境&#34;&gt;安装环境&lt;/h1&gt;
 &lt;p&gt;一行命令即可装好 ollama&lt;/p&gt;
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>VirtualBox VERR_NO_LOW_MEMORY 解决</title>
-      <link>https://www.frytea.com/archives/1412/</link>
+      <link>https://frytea.com/archives/1412/</link>
       <pubDate>Sat, 04 Jan 2025 01:39:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1412/</guid>
+      <guid>https://frytea.com/archives/1412/</guid>
       <description>&lt;p&gt;Archlinux 下内存有很多，但 VB 报错内存不足 VM 无法启动，free 可以看到内存大部分被 buffer 占用。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;free -h
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              total        used        free      shared  buff/cache   available  
@@ -77,9 +77,9 @@
     </item>
     <item>
       <title>ArchLinux 图片压缩工具</title>
-      <link>https://www.frytea.com/archives/1370/</link>
+      <link>https://frytea.com/archives/1370/</link>
       <pubDate>Fri, 29 Nov 2024 10:39:52 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1370/</guid>
+      <guid>https://frytea.com/archives/1370/</guid>
       <description>&lt;p&gt;在 Arch Linux 下有几个优秀的 PNG 图片压缩工具：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;OptiPNG&lt;/strong&gt;&lt;/li&gt;

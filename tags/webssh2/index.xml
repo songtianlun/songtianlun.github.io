@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Webssh2 on Frytea</title>
-    <link>https://www.frytea.com/tags/webssh2/</link>
+    <link>https://frytea.com/tags/webssh2/</link>
     <description>Recent content in Webssh2 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 16 Jul 2019 15:27:47 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/webssh2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/webssh2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网页版终端webssh2配置</title>
-      <link>https://www.frytea.com/archives/33/</link>
+      <link>https://frytea.com/archives/33/</link>
       <pubDate>Thu, 21 Feb 2019 10:17:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/33/</guid>
+      <guid>https://frytea.com/archives/33/</guid>
       <description>&lt;p&gt;开源项目webssh2可以实现浏览器访问终端，参照网上教程实践后，记录步骤如下：&lt;/p&gt;
 &lt;p&gt;安装NVM&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash

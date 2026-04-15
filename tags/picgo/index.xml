@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Picgo on Frytea</title>
-    <link>https://www.frytea.com/tags/picgo/</link>
+    <link>https://frytea.com/tags/picgo/</link>
     <description>Recent content in Picgo on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 09 Feb 2023 14:38:37 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/picgo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/picgo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>arm64 版 picgo 提示已损坏解决办法</title>
-      <link>https://www.frytea.com/archives/739/</link>
+      <link>https://frytea.com/archives/739/</link>
       <pubDate>Thu, 09 Feb 2023 14:31:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/739/</guid>
+      <guid>https://frytea.com/archives/739/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/Molunerfinn/PicGo&#34;&gt;PicGo&lt;/a&gt; 是一款很好用的图床辅助软件，一直在使用。&lt;/p&gt;
 &lt;p&gt;最新下载最新版的 picGo arm64 版安装，提示已损坏，执行以下命令解决：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo xattr -d com.apple.quarantine &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/Applications/PicGo.app&amp;#34;&lt;/span&gt;

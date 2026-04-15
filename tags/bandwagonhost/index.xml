@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BandwagonHost on Frytea</title>
-    <link>https://www.frytea.com/tags/bandwagonhost/</link>
+    <link>https://frytea.com/tags/bandwagonhost/</link>
     <description>Recent content in BandwagonHost on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 30 Nov 2024 17:11:05 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/bandwagonhost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/bandwagonhost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BWH DC99 掉线事件记录</title>
-      <link>https://www.frytea.com/archives/1383/</link>
+      <link>https://frytea.com/archives/1383/</link>
       <pubDate>Sat, 30 Nov 2024 17:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1383/</guid>
+      <guid>https://frytea.com/archives/1383/</guid>
       <description>&lt;p&gt;出去一天，回来发现各个群都在说瓦工 DC99 掉线事件，看了一下监控确实掉线了一段时间。好在现在已经恢复，树大招风，可以看出瓦工的用户规模还是很大的，希望后面不要再发生类似事件。&lt;/p&gt;</description>
     </item>
     <item>
       <title>BWH-DC99</title>
-      <link>https://www.frytea.com/archives/1359/</link>
+      <link>https://frytea.com/archives/1359/</link>
       <pubDate>Thu, 21 Nov 2024 16:12:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1359/</guid>
+      <guid>https://frytea.com/archives/1359/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：BandwagonHost&lt;/li&gt;

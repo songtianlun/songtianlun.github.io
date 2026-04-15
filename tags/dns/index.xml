@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DNS on Frytea</title>
-    <link>https://www.frytea.com/tags/dns/</link>
+    <link>https://frytea.com/tags/dns/</link>
     <description>Recent content in DNS on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 15:15:57 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dig获取并批量路由IP地址到指定网关</title>
-      <link>https://www.frytea.com/archives/1386/</link>
+      <link>https://frytea.com/archives/1386/</link>
       <pubDate>Thu, 12 Dec 2024 10:50:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1386/</guid>
+      <guid>https://frytea.com/archives/1386/</guid>
       <description>&lt;h2 id=&#34;安装-dig&#34;&gt;安装 dig&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Debian/Ubuntu&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install knot-dnsutils
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>常用公共 DNS 服务器</title>
-      <link>https://www.frytea.com/archives/1372/</link>
+      <link>https://frytea.com/archives/1372/</link>
       <pubDate>Fri, 29 Nov 2024 10:40:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1372/</guid>
+      <guid>https://frytea.com/archives/1372/</guid>
       <description>&lt;h2 id=&#34;汇总表格&#34;&gt;汇总表格&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -104,9 +104,9 @@
     </item>
     <item>
       <title>Linux 使用 DNSMasq 自建 DNS 服务器</title>
-      <link>https://www.frytea.com/archives/267/</link>
+      <link>https://frytea.com/archives/267/</link>
       <pubDate>Thu, 28 Nov 2019 08:35:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/267/</guid>
+      <guid>https://frytea.com/archives/267/</guid>
       <description>&lt;p&gt;DNS(Domain Name System) 是一个为计算机、服务器或其他任何需要接入互联网或私有网络提供分级域名分发系统(hierarchical and decentralized naming system)。&lt;/p&gt;
 &lt;p&gt;在内网中又一台服务器提供服务，为了使用使其可以在公共网络中访问到需要为它分配 ip 或者使用端口转发、内网穿透等，但绑定域名后域名解析到公网ip，如果在内网访问的话就写多此一举。因此在内网自建一台 DNS 服务器，使其优先级高于公网域名解析服务器，进而实现内网访问解析为内网 ip 且不影响外网访问的目的。&lt;/p&gt;</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>主机资讯 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/</link>
+    <link>https://frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/</link>
     <description>Recent content in 主机资讯 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 24 Nov 2025 00:14:49 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/categories/%E4%B8%BB%E6%9C%BA%E8%B5%84%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 年黑五云主机活动汇总(含双十一)</title>
-      <link>https://www.frytea.com/archives/1544/</link>
+      <link>https://frytea.com/archives/1544/</link>
       <pubDate>Mon, 03 Nov 2025 15:14:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1544/</guid>
+      <guid>https://frytea.com/archives/1544/</guid>
       <description>&lt;p&gt;2025 年主机厂商黑五活动集合，持续更新。&lt;/p&gt;
 &lt;p&gt;2025 年黑色星期五为 &lt;strong&gt;11月28日&lt;/strong&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -26,16 +26,16 @@
     </item>
     <item>
       <title>BWH DC99 掉线事件记录</title>
-      <link>https://www.frytea.com/archives/1383/</link>
+      <link>https://frytea.com/archives/1383/</link>
       <pubDate>Sat, 30 Nov 2024 17:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1383/</guid>
+      <guid>https://frytea.com/archives/1383/</guid>
       <description>&lt;p&gt;出去一天，回来发现各个群都在说瓦工 DC99 掉线事件，看了一下监控确实掉线了一段时间。好在现在已经恢复，树大招风，可以看出瓦工的用户规模还是很大的，希望后面不要再发生类似事件。&lt;/p&gt;</description>
     </item>
     <item>
       <title>claw hk 网络监控稳定晚上出现小幅波动</title>
-      <link>https://www.frytea.com/archives/1378/</link>
+      <link>https://frytea.com/archives/1378/</link>
       <pubDate>Wed, 27 Nov 2024 15:56:46 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1378/</guid>
+      <guid>https://frytea.com/archives/1378/</guid>
       <description>&lt;p&gt;貌似每到晚高峰就会稳定出现一些波动，很神奇。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;3h&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/27/12xl5zn.webp&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;30h&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2024/11/27/12xp9pm.webp&#34;&gt;&lt;/p&gt;
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>各大云服务主机商测试 IP 整理</title>
-      <link>https://www.frytea.com/archives/1376/</link>
+      <link>https://frytea.com/archives/1376/</link>
       <pubDate>Sat, 23 Nov 2024 16:12:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1376/</guid>
+      <guid>https://frytea.com/archives/1376/</guid>
       <description>&lt;p&gt;整理了互联网上能找到的各大云服务主机商的官方/民间测试 IP ，按照首字母排序，按需取用，欢迎补充。&lt;/p&gt;
 &lt;h2 id=&#34;厂商&#34;&gt;厂商&lt;/h2&gt;
 &lt;h3 id=&#34;aliyun&#34;&gt;Aliyun&lt;/h3&gt;
@@ -211,9 +211,9 @@
     </item>
     <item>
       <title>BWH-DC99</title>
-      <link>https://www.frytea.com/archives/1359/</link>
+      <link>https://frytea.com/archives/1359/</link>
       <pubDate>Thu, 21 Nov 2024 16:12:48 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1359/</guid>
+      <guid>https://frytea.com/archives/1359/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：BandwagonHost&lt;/li&gt;
@@ -229,9 +229,9 @@
     </item>
     <item>
       <title>Hetzner-CX22</title>
-      <link>https://www.frytea.com/archives/1360/</link>
+      <link>https://frytea.com/archives/1360/</link>
       <pubDate>Thu, 21 Nov 2024 16:12:32 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1360/</guid>
+      <guid>https://frytea.com/archives/1360/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：Hetzner&lt;/li&gt;
@@ -247,9 +247,9 @@
     </item>
     <item>
       <title>Aliyun-ecs.e-c1m1.large</title>
-      <link>https://www.frytea.com/archives/1361/</link>
+      <link>https://frytea.com/archives/1361/</link>
       <pubDate>Thu, 21 Nov 2024 16:12:16 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1361/</guid>
+      <guid>https://frytea.com/archives/1361/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：Aliyun&lt;/li&gt;
@@ -266,9 +266,9 @@
     </item>
     <item>
       <title>Tencent-轻量-2C4G</title>
-      <link>https://www.frytea.com/archives/1362/</link>
+      <link>https://frytea.com/archives/1362/</link>
       <pubDate>Thu, 21 Nov 2024 16:12:09 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1362/</guid>
+      <guid>https://frytea.com/archives/1362/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：Tencent&lt;/li&gt;
@@ -285,9 +285,9 @@
     </item>
     <item>
       <title>DogYun-HK-EQ</title>
-      <link>https://www.frytea.com/archives/1369/</link>
+      <link>https://frytea.com/archives/1369/</link>
       <pubDate>Thu, 21 Nov 2024 11:05:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1369/</guid>
+      <guid>https://frytea.com/archives/1369/</guid>
       <description>&lt;p&gt;相关信息：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;厂商：DogYun&lt;/li&gt;

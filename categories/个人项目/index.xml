@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>个人项目 on Frytea</title>
-    <link>https://www.frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/</link>
+    <link>https://frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/</link>
     <description>Recent content in 个人项目 on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 03 Apr 2026 03:25:31 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ceph mon Operation not permitted 问题解决</title>
-      <link>https://www.frytea.com/archives/1652/</link>
+      <link>https://frytea.com/archives/1652/</link>
       <pubDate>Fri, 03 Apr 2026 03:25:31 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1652/</guid>
+      <guid>https://frytea.com/archives/1652/</guid>
       <description>&lt;p&gt;自己构建的 ceph 发现 mon 起不来，报错如下：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Apr 03 11:14:30 debian systemd[1]: Started Ceph cluster monitor daemon.
 ░░ Subject: A start job for unit ceph-mon@debian.service has finished successfully
@@ -47,17 +47,17 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>整理了一个 AI 提示词库</title>
-      <link>https://www.frytea.com/archives/1520/</link>
+      <link>https://frytea.com/archives/1520/</link>
       <pubDate>Sun, 07 Sep 2025 17:00:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1520/</guid>
+      <guid>https://frytea.com/archives/1520/</guid>
       <description>&lt;p&gt;大模型的能力越来越强，但是如何发挥大模型真正的实力？&lt;/p&gt;
 &lt;p&gt;这是我一直在思考的问题，在平常的使用过程中很容易发现，提示词的使用技巧对于生成结果的质量至关重要。多看看优秀的提示词，还能启发我们利用大模型的更多用法。&lt;/p&gt;</description>
     </item>
     <item>
       <title> Lyra - AI Prompt Optimization Specialist</title>
-      <link>https://www.frytea.com/archives/1496/</link>
+      <link>https://frytea.com/archives/1496/</link>
       <pubDate>Sun, 20 Jul 2025 10:09:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1496/</guid>
+      <guid>https://frytea.com/archives/1496/</guid>
       <description>&lt;p&gt;AI 提示优化专家 - Lyra, 一个很好的提示词。&lt;/p&gt;
 &lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into
@@ -166,16 +166,16 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>智能理财计算器更新了，一站对比各家理财收益率，避免踩坑！</title>
-      <link>https://www.frytea.com/archives/1494/</link>
+      <link>https://frytea.com/archives/1494/</link>
       <pubDate>Sat, 05 Jul 2025 06:29:24 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1494/</guid>
+      <guid>https://frytea.com/archives/1494/</guid>
       <description>&lt;p&gt;一直非常困扰各家理财平台的算法不一致，实际收益和标称差异大，很难各平台之间决策。于是做了这样一个简单的工具，可以在一个地方直观的对比各家理财产品，根据收益率、收益、预期收益等快速决策。&lt;/p&gt;</description>
     </item>
     <item>
       <title>超级玛丽、魂斗罗等经典小游戏聚合站 | PlayUnb</title>
-      <link>https://www.frytea.com/archives/1492/</link>
+      <link>https://frytea.com/archives/1492/</link>
       <pubDate>Sat, 14 Jun 2025 16:40:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1492/</guid>
+      <guid>https://frytea.com/archives/1492/</guid>
       <description>&lt;p&gt;在线小游戏网站，界面简洁清爽无广告，各种 GBA/NES/HTML/UNITY 游戏&lt;/p&gt;
 &lt;p&gt;打开即玩超级玛丽、魂斗罗等经典游戏&lt;/p&gt;
 &lt;p&gt;收录 173+ 游戏&lt;/p&gt;
@@ -183,9 +183,9 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>个人业余开发项目清单</title>
-      <link>https://www.frytea.com/archives/1491/</link>
+      <link>https://frytea.com/archives/1491/</link>
       <pubDate>Sat, 14 Jun 2025 16:34:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1491/</guid>
+      <guid>https://frytea.com/archives/1491/</guid>
       <description>&lt;p&gt;后续更新在这里：https://songtianlun.github.io/&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -257,9 +257,9 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>快速选出收益最高的理财产品 ｜ finance-calculator</title>
-      <link>https://www.frytea.com/archives/1490/</link>
+      <link>https://frytea.com/archives/1490/</link>
       <pubDate>Sat, 14 Jun 2025 16:11:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1490/</guid>
+      <guid>https://frytea.com/archives/1490/</guid>
       <description>&lt;p&gt;每次对比各种理财产品的时候，都会遇到一些问题：&lt;/p&gt;
 &lt;p&gt;一是都很难有一个统一的指标来比对；&lt;/p&gt;
 &lt;p&gt;二是各家算法不一致，很容易被各平台标记的收益率“欺骗”。&lt;/p&gt;
@@ -267,9 +267,9 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>苹果液态玻璃风格图像生成和模拟器 ｜ LiquedGlass.icu</title>
-      <link>https://www.frytea.com/archives/1489/</link>
+      <link>https://frytea.com/archives/1489/</link>
       <pubDate>Sat, 14 Jun 2025 15:44:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1489/</guid>
+      <guid>https://frytea.com/archives/1489/</guid>
       <description>&lt;p&gt;一个 LiquedGlass 风格图像生成器;
 一个 LiquedGlass 风格模拟器。&lt;/p&gt;
 &lt;p&gt;快速生成 Apple 液态玻璃风格图像。快速体验液态玻璃设计风格。&lt;/p&gt;
@@ -277,9 +277,9 @@ Apr 03 11:14:31 debian systemd[1]: ceph-mon@debian.service: Failed with result &
     </item>
     <item>
       <title>Plausible 缺失 location 信息的研究</title>
-      <link>https://www.frytea.com/archives/1477/</link>
+      <link>https://frytea.com/archives/1477/</link>
       <pubDate>Mon, 21 Apr 2025 08:35:22 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1477/</guid>
+      <guid>https://frytea.com/archives/1477/</guid>
       <description>&lt;h1 id=&#34;plausible-调试方案&#34;&gt;Plausible 调试方案&lt;/h1&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cd hosting
 $ docker compose exec plausible bin/plausible remote
@@ -296,9 +296,9 @@ iex&amp;gt; :recon_trace.calls(mod_fun_args, how_many_times, formatter: headers)
     </item>
     <item>
       <title>k8s 使用 OpenEBS 存储</title>
-      <link>https://www.frytea.com/archives/1451/</link>
+      <link>https://frytea.com/archives/1451/</link>
       <pubDate>Fri, 14 Mar 2025 17:25:14 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1451/</guid>
+      <guid>https://frytea.com/archives/1451/</guid>
       <description>&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo add openebs https://openebs.github.io/openebs
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helm repo update
@@ -337,9 +337,9 @@ iex&amp;gt; :recon_trace.calls(mod_fun_args, how_many_times, formatter: headers)
     </item>
     <item>
       <title>Vim 使用系统剪切板</title>
-      <link>https://www.frytea.com/archives/1433/</link>
+      <link>https://frytea.com/archives/1433/</link>
       <pubDate>Sun, 23 Feb 2025 06:04:53 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1433/</guid>
+      <guid>https://frytea.com/archives/1433/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;来源：&lt;a href=&#34;https://harttle.land/2020/09/04/vim-clipboard.html&#34;&gt;Vim 使用系统剪切板&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -347,9 +347,9 @@ iex&amp;gt; :recon_trace.calls(mod_fun_args, how_many_times, formatter: headers)
     </item>
     <item>
       <title>全球艺术天气网站</title>
-      <link>https://www.frytea.com/archives/1430/</link>
+      <link>https://frytea.com/archives/1430/</link>
       <pubDate>Sun, 02 Feb 2025 15:08:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1430/</guid>
+      <guid>https://frytea.com/archives/1430/</guid>
       <description>&lt;p&gt;介绍一个 每日 AI 艺术天气 网站，能够通过人工智能生成的艺术作品，以独特的视角展现日常气象现象。&lt;/p&gt;
 &lt;h2 id=&#34;入口&#34;&gt;入口&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://todayaiweather.com/&#34;&gt;TodayAiWeather&lt;/a&gt;&lt;/p&gt;

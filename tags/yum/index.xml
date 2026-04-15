@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yum on Frytea</title>
-    <link>https://www.frytea.com/tags/yum/</link>
+    <link>https://frytea.com/tags/yum/</link>
     <description>Recent content in Yum on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 13 Dec 2024 10:59:04 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/yum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/yum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>查看文件所属 RPM 包的方法</title>
-      <link>https://www.frytea.com/archives/1387/</link>
+      <link>https://frytea.com/archives/1387/</link>
       <pubDate>Wed, 11 Dec 2024 23:20:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1387/</guid>
+      <guid>https://frytea.com/archives/1387/</guid>
       <description>&lt;p&gt;在 Linux 系统中，有几种方法可以查看文件属于哪个 RPM 包：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;使用 &lt;code&gt;rpm -qf&lt;/code&gt; 命令：&lt;/li&gt;

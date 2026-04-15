@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Frytea</title>
-    <link>https://www.frytea.com/tags/hugo/</link>
+    <link>https://frytea.com/tags/hugo/</link>
     <description>Recent content in Hugo on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Nov 2024 11:40:10 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>限制线程数避免Hugo资源耗尽被杀</title>
-      <link>https://www.frytea.com/archives/1333/</link>
+      <link>https://frytea.com/archives/1333/</link>
       <pubDate>Sun, 10 Nov 2024 11:40:10 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1333/</guid>
+      <guid>https://frytea.com/archives/1333/</guid>
       <description>&lt;p&gt;如果项目很大，hugo默认启动物理核心数个线程并发，但如果已有程序占用，就可能导致 hugo 进程杀死。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo --gc --minify
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;此时可以尝试使用下面这个命令：&lt;/p&gt;
@@ -26,9 +26,9 @@
     </item>
     <item>
       <title>新 Hugo 博客相关记录笔记</title>
-      <link>https://www.frytea.com/archives/588/</link>
+      <link>https://frytea.com/archives/588/</link>
       <pubDate>Wed, 27 Oct 2021 16:10:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/588/</guid>
+      <guid>https://frytea.com/archives/588/</guid>
       <description>&lt;p&gt;2021年10月21日，基于以下原因，我打算重建自己的博客，这次直接使用顶级域名：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blog.frytea.com&#34;&gt;blog.frytea.com&lt;/a&gt; 内容太过庞杂，不成体系，很难重新做规整；&lt;/li&gt;

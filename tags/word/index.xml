@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Word on Frytea</title>
-    <link>https://www.frytea.com/tags/word/</link>
+    <link>https://frytea.com/tags/word/</link>
     <description>Recent content in Word on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Feb 2025 15:15:39 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/word/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/word/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Word文档中添加打勾的小方框</title>
-      <link>https://www.frytea.com/archives/1410/</link>
+      <link>https://frytea.com/archives/1410/</link>
       <pubDate>Sat, 21 Dec 2024 06:53:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1410/</guid>
+      <guid>https://frytea.com/archives/1410/</guid>
       <description>&lt;p&gt;用户在做电子调查报告或者填写一些资料表，会遇到一些word文档中有小方框【□】，需要在里面打钩【√】&lt;/p&gt;
 &lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
 &lt;p&gt;方法一：将光标定位于需要打钩的地方，选择【插入】→【符号】→【其他符号】，在弹出的符号栏里，字体选择【Windings2】，然后便可以找到现成的打钩样式，点击插入，再关闭即可。&lt;/p&gt;</description>

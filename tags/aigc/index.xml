@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AIGC on Frytea</title>
-    <link>https://www.frytea.com/tags/aigc/</link>
+    <link>https://frytea.com/tags/aigc/</link>
     <description>Recent content in AIGC on Frytea</description>
     <image>
       <title>Frytea</title>
-      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Sep 2025 14:22:41 +0000</lastBuildDate>
-    <atom:link href="https://www.frytea.com/tags/aigc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frytea.com/tags/aigc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让 LLM 看到真实世界的 Playwright MCP</title>
-      <link>https://www.frytea.com/archives/1519/</link>
+      <link>https://frytea.com/archives/1519/</link>
       <pubDate>Sun, 07 Sep 2025 14:22:41 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1519/</guid>
+      <guid>https://frytea.com/archives/1519/</guid>
       <description>&lt;p&gt;Playwright MCP 是一个模型上下文协议（MCP）服务器，使用 &lt;a href=&#34;https://playwright.dev&#34;&gt;Playwright&lt;/a&gt; 提供浏览器自动化功能。该服务器使 LLM 能够通过结构化的可访问性快照与网页交互，从而绕过对屏幕截图或视觉调整模型的需求。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自托管 AIGC UI APP 汇总</title>
-      <link>https://www.frytea.com/archives/1405/</link>
+      <link>https://frytea.com/archives/1405/</link>
       <pubDate>Fri, 20 Dec 2024 04:16:00 +0000</pubDate>
-      <guid>https://www.frytea.com/archives/1405/</guid>
+      <guid>https://frytea.com/archives/1405/</guid>
       <description>&lt;p&gt;该清单搜集人类创造的最先进最好用的开源 AIGC APP 方案，包括但不限于对话、识图、生图、TTS、知识库、多模态、工作流编排，主要搜集支持自托管，可容器化部署的方案。&lt;/p&gt;</description>
     </item>
   </channel>
