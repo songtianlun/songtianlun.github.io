@@ -10,6 +10,15 @@ search: true
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
+slug:
+  encoding: unicode
+  clean_accents: true
+  sanitize_replacement: '-'
+  trim: true
+  lowercase: true
+  maxlength: 16
+  timezone: local
+
 collections:
   - name: archives
     label: 归档文章
@@ -18,7 +27,8 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    #slug: '{{year}}-{{month}}-{{day}}-{{hour}}{{minute}}{{second}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}-{{uuid_shorter}}'
     summary: '{{year}} · {{title}}'
     sortable_fields: ['date', 'title']
     view_filters:
@@ -30,7 +40,8 @@ collections:
         pattern: true
     fields:
       - { label: 标题, name: title, widget: string }
-      - { label: 发布日期, name: date, widget: datetime }
+      - { label: 发布日期, name: date, widget: datetime, default: '{{now}}', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      #- { label: 固定链接标识, name: slug, widget: string, required: false, hint: '可选，建议填写英文短标识，用于最终 URL；例如 hermes-agent-bare-metal-security' }
       - { label: 描述, name: description, widget: text, required: false }
       - { label: 分类, name: categories, widget: list, required: false }
       - { label: 标签, name: tags, widget: list, required: false }
@@ -80,8 +91,8 @@ collections:
         file: content/subscribe.md
         fields:
           - { label: 标题, name: title, widget: string }
-          - { label: 日期, name: date, widget: datetime }
-          - { label: 更新时间, name: lastmod, widget: datetime, required: false }
+          - { label: 日期, name: date, widget: datetime, default: '{{now}}', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+          - { label: 更新时间, name: lastmod, widget: datetime, required: false, format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
           - { label: 草稿, name: draft, widget: boolean, default: true, required: false }
           - { label: 固定链接, name: slug, widget: string, required: false }
           - { label: 分类, name: categories, widget: list, required: false }
