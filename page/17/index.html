@@ -72,7 +72,13 @@
 </script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
 <span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
 <svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/projects/ title="🗂 项目"><span>🗂 项目</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2>使用 GDB 调试 Go 程序</h2></header><section class=entry-content><p><p>进入调试 使用前，请先确保机器上已经安装 GDB
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/projects/ title="🗂 项目"><span>🗂 项目</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2>查看文件所属 RPM 包的方法</h2></header><section class=entry-content><p><p>在 Linux 系统中，有几种方法可以查看文件属于哪个 RPM 包：
+使用 rpm -qf 命令： rpm -qf /path/to/file 例如：
+rpm -qf /bin/ls 使用 dnf provides 或 yum provides 命令： dnf provides /path/to/file # 或 yum provides /path/to/file 例如：
+dnf provides /bin/ls 如果是已安装的包，也可以使用 which 和 rpm -qf 组合： rpm -qf $(which command_name) 例如：
+...</p></p></section><footer class=entry-footer>December 11, 2024&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;196 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to 查看文件所属 RPM 包的方法" href=https://www.frytea.com/archives/1387/></a></article><article class=post-entry><header class=entry-header><h2>Git 覆写上次提交</h2></header><section class=entry-content><p><p>前言 在日常使用 Git 版本控制工具的时候，我们有时会遇到需要修改上次commit提交信息的情况，例如：修改上次提交信息中的错误内容，或者想为上次提交加入些新内容等等。
+...</p></p></section><footer class=entry-footer>December 11, 2024&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;913 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Git 覆写上次提交" href=https://www.frytea.com/archives/1385/></a></article><article class=post-entry><header class=entry-header><h2>Linux 网卡多队列配置方法</h2></header><section class=entry-content><p><p>多队列是指网络接口卡具有在多个发送和接收队列上并行处理网络数据包的能力。在使用网卡多队列时，通常需要配置网络中断亲和性（IRQ Affinity），将不同的队列中断分配给特定的CPU处理，而不是由任意的CPU处理，这有助于减少CPU之间的争用并提高网络性能。本文介绍如何配置Linux系统的网卡多队列的网络中断亲和性和修改网卡多队列数。
+...</p></p></section><footer class=entry-footer>December 10, 2024&nbsp;|&nbsp;3 分钟&nbsp;|&nbsp;1042 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Linux 网卡多队列配置方法" href=https://www.frytea.com/archives/1395/></a></article><article class=post-entry><header class=entry-header><h2>使用 GDB 调试 Go 程序</h2></header><section class=entry-content><p><p>进入调试 使用前，请先确保机器上已经安装 GDB
 [root@localhost code]# which gdb /usr/bin/gdb 准备就绪后，以下列测试程序为例
 package main import "fmt" func main(){ msg := "hello, world" fmt.Println(msg) } 然后执行 如下命令进行编译，里面有好多个参数，有疑问的可以自行搜索引擎
 ...</p></p></section><footer class=entry-footer>December 10, 2024&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;827 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to 使用 GDB 调试 Go 程序" href=https://www.frytea.com/archives/1394/></a></article><article class=post-entry><header class=entry-header><h2>Linux overcommit 及 oom-killer 机制</h2></header><section class=entry-content><p><p>通常是因为某时刻应用程序大量请求内存导致系统内存不足造成的，这通常会触发 Linux 内核里的 Out of Memory (OOM) killer，OOM killer 会杀掉某个进程(用户态进程，不是内核线程)以腾出内存留给系统用，不致于让系统立刻崩溃。
@@ -97,27 +103,7 @@ commands...]
 [else
 commands]
 fi 这个命令分成三个部分：if、elif和else。其中，后两个部分是可选的。
-...</p></p></section><footer class=entry-footer>December 2, 2024&nbsp;|&nbsp;12 分钟&nbsp;|&nbsp;5749 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Bash 条件判断" href=https://www.frytea.com/archives/1374/></a></article><article class=post-entry><header class=entry-header><h2>Z-Library 官方地址入口</h2></header><section class=entry-content><p><p>官方路径：
-https://en.wikipedia.org/wiki/Z-Library 最新入口（2024-12-01更新）：
-z-library.sk go-to-library.sk References: t.me/Zlibraryorg</p></p></section><footer class=entry-footer>December 1, 2024&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;29 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Z-Library 官方地址入口" href=https://www.frytea.com/archives/1384/></a></article><article class=post-entry><header class=entry-header><h2>SmokePing 搭建及多节点探测</h2></header><section class=entry-content><p><p>linuxserver 版 docker --- services: smokeping: image: lscr.io/linuxserver/smokeping:latest container_name: smokeping environment: - PUID=1000 - PGID=1000 - TZ=Asia/Shanghai - MASTER_URL=http://&lt;master-host-ip>:80/smokeping/ #optional - SHARED_SECRET=password #optional - CACHE_DIR=/tmp #optional volumes: - ./data/config:/config - ./data/data:/data ports: - 80:80 restart: unless-stopped 其中的 data/config/Targets 为监控目标配置。
-配置说明 General 自行配置。
-*** General ***
-owner = frytea.com
-contact = songtianlun@frytea.com
-mailhost = my.mail.host
-# NOTE: do not put the Image Cache below cgi-bin
-# since all files under cgi-bin will be executed ... this is not
-# good for images.
-cgiurl = http://localhost/smokeping/smokeping.cgi
-# specify this to get syslog logging
-syslogfacility = local0
-# each probe is now run in its own process
-# disable this to revert to the old behaviour
-# concurrentprobes = no
-display_name = Frytea's SmokePing
-@include /config/pathnames Probes 配置侦测频率。
-...</p></p></section><footer class=entry-footer>November 30, 2024&nbsp;|&nbsp;3 分钟&nbsp;|&nbsp;1245 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to SmokePing 搭建及多节点探测" href=https://www.frytea.com/archives/1373/></a></article><article class=post-entry><header class=entry-header><h2>BWH DC99 掉线事件记录</h2></header><section class=entry-content><p><p>出去一天，回来发现各个群都在说瓦工 DC99 掉线事件，看了一下监控确实掉线了一段时间。好在现在已经恢复，树大招风，可以看出瓦工的用户规模还是很大的，希望后面不要再发生类似事件。
-...</p></p></section><footer class=entry-footer>November 30, 2024&nbsp;|&nbsp;2 分钟&nbsp;|&nbsp;946 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to BWH DC99 掉线事件记录" href=https://www.frytea.com/archives/1383/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://www.frytea.com/page/16/>« 上一页</a>
+...</p></p></section><footer class=entry-footer>December 2, 2024&nbsp;|&nbsp;12 分钟&nbsp;|&nbsp;5749 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Bash 条件判断" href=https://www.frytea.com/archives/1374/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://www.frytea.com/page/16/>« 上一页</a>
 <a class=next href=https://www.frytea.com/page/18/>下一页 »</a></nav></footer></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
 <span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span class=footer-links><a href=/about/>关于</a>
 <span aria-hidden=true>•</span>

@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Apr 2026 05:55:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 09:01:27 +0000</lastBuildDate>
     <atom:link href="https://www.frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenFuyao</title>
+      <link>https://www.frytea.com/tags/openfuyao/</link>
+      <pubDate>Mon, 13 Apr 2026 09:01:27 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/openfuyao/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPU</title>
+      <link>https://www.frytea.com/tags/npu/</link>
+      <pubDate>Mon, 13 Apr 2026 08:53:36 +0000</pubDate>
+      <guid>https://www.frytea.com/tags/npu/</guid>
+      <description></description>
+    </item>
     <item>
       <title>KDE</title>
       <link>https://www.frytea.com/tags/kde/</link>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenFuyao on Frytea</title>
+    <link>https://www.frytea.com/tags/openfuyao/</link>
+    <description>Recent content in OpenFuyao on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 13 Apr 2026 09:01:27 +0000</lastBuildDate>
+    <atom:link href="https://www.frytea.com/tags/openfuyao/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>openFuyao 2603 共测测试报告</title>
+      <link>https://www.frytea.com/archives/1654/</link>
+      <pubDate>Mon, 13 Apr 2026 09:01:27 +0000</pubDate>
+      <guid>https://www.frytea.com/archives/1654/</guid>
+      <description>&lt;h1 id=&#34;相关链接&#34;&gt;相关链接&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;特性清单: &lt;a href=&#34;https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md&#34;&gt;https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装部署前置环境校验工具使用指导: &lt;a href=&#34;https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md&#34;&gt;https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;测试环境&#34;&gt;测试环境&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: &lt;code&gt;Kunpeng-920&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;OS: &lt;code&gt;openEuler 24.03 LTS SP3 aarch64&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fuyao Version: &lt;code&gt;v26.03 rc3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;docker: &lt;code&gt;2:18.09.0-346.oe2403sp3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;测试特性&#34;&gt;测试特性&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在线部署；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 离线包制备；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 离线部署；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 安装部署前置检查工具；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; NPU Operator；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; AI推理套件；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;建议优化点&#34;&gt;建议优化点&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题；&lt;/li&gt;
+&lt;li&gt;运行 cli 前检查是否存在命令并及时抛出错误；检查 &lt;code&gt;tar&lt;/code&gt; / &lt;code&gt;unzip&lt;/code&gt; 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。&lt;/li&gt;
+&lt;li&gt;安装命令变化，考虑上下兼容性？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;场景记录&#34;&gt;场景记录&lt;/h1&gt;
+&lt;h2 id=&#34;离线部署管理面和业务面集群&#34;&gt;离线部署管理面和业务面集群&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: &lt;code&gt;Kunpeng-920&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;OS: &lt;code&gt;openEuler 24.03 LTS SP3 aarch64&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fuyao Version: &lt;code&gt;v26.03 rc3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;docker: &lt;code&gt;2:18.09.0-346.oe2403sp3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;arm64 环境下构建离线制品包为什么会执行 amd64 的 bin&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

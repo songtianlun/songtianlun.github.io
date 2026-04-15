@@ -1,0 +1,1535 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>openFuyao 2603 共测测试报告 | Frytea</title><meta name=keywords content="openFuyao"><meta name=description content="相关链接
+
+特性清单: https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md
+安装部署前置环境校验工具使用指导: https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md
+
+测试环境
+
+CPU: Kunpeng-920
+OS: openEuler 24.03 LTS SP3 aarch64
+Fuyao Version: v26.03 rc3
+docker: 2:18.09.0-346.oe2403sp3
+
+测试特性
+
+ 在线部署；
+ 离线包制备；
+ 离线部署；
+ 安装部署前置检查工具；
+ NPU Operator；
+ AI推理套件；
+
+建议优化点
+
+环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题；
+运行 cli 前检查是否存在命令并及时抛出错误；检查 tar / unzip 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。
+安装命令变化，考虑上下兼容性？
+
+场景记录
+离线部署管理面和业务面集群
+
+CPU: Kunpeng-920
+OS: openEuler 24.03 LTS SP3 aarch64
+Fuyao Version: v26.03 rc3
+docker: 2:18.09.0-346.oe2403sp3
+
+
+arm64 环境下构建离线制品包为什么会执行 amd64 的 bin"><meta name=author content="Tianlun Song"><link rel=canonical href=https://www.frytea.com/archives/1654/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.19ae752d83a833c80ac4be9345f890d0e7265f9708ffa9c5a5d208092e66d3f3.css integrity="sha256-Ga51LYOoM8gKxL6TRfiQ0OcmX5cI/6nFpdIICS5m0/M=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://www.frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://www.frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://www.frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://www.frytea.com/archives/1654/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script data-goatcounter=https://blog.stats.frytea.com/count async src=//gc.frytea.com/count.js></script><style>.gc-pv-wrapper{display:inline-flex;align-items:center;gap:.25em;line-height:1}.gc-spinner{display:inline-block;width:.75em;height:.75em;border:1.5px solid var(--border,#e0e0e0);border-top-color:var(--secondary,#999);border-radius:50%;animation:gc-spin .75s linear infinite;vertical-align:middle;flex-shrink:0}@keyframes gc-spin{to{transform:rotate(360deg)}}.gc-pv-count{display:none;align-items:center;gap:.25em;color:var(--secondary,#999);font-size:.85em}.gc-pv-count svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}.gc-site-stats{display:none;justify-content:center;align-items:center;gap:.35em;font-size:.78em;color:var(--secondary,#999);margin-top:6px}.gc-site-stats svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}</style><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://www.frytea.com/archives/1654/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="openFuyao 2603 共测测试报告"><meta property="og:description" content="相关链接 特性清单: https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md 安装部署前置环境校验工具使用指导: https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md 测试环境 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 测试特性 在线部署； 离线包制备； 离线部署； 安装部署前置检查工具； NPU Operator； AI推理套件； 建议优化点 环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题； 运行 cli 前检查是否存在命令并及时抛出错误；检查 tar / unzip 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。 安装命令变化，考虑上下兼容性？ 场景记录 离线部署管理面和业务面集群 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 arm64 环境下构建离线制品包为什么会执行 amd64 的 bin"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2026-04-13T09:01:27+00:00"><meta property="article:modified_time" content="2026-04-13T09:01:27+00:00"><meta property="article:tag" content="OpenFuyao"><meta property="og:image" content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="openFuyao 2603 共测测试报告"><meta name=twitter:description content="相关链接 特性清单: https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md 安装部署前置环境校验工具使用指导: https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md 测试环境 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 测试特性 在线部署； 离线包制备； 离线部署； 安装部署前置检查工具； NPU Operator； AI推理套件； 建议优化点 环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题； 运行 cli 前检查是否存在命令并及时抛出错误；检查 tar / unzip 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。 安装命令变化，考虑上下兼容性？ 场景记录 离线部署管理面和业务面集群 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 arm64 环境下构建离线制品包为什么会执行 amd64 的 bin"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://www.frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"openFuyao 2603 共测测试报告","item":"https://www.frytea.com/archives/1654/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"openFuyao 2603 共测测试报告","name":"openFuyao 2603 共测测试报告","description":"相关链接 特性清单: https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md 安装部署前置环境校验工具使用指导: https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md 测试环境 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 测试特性 在线部署； 离线包制备； 离线部署； 安装部署前置检查工具； NPU Operator； AI推理套件； 建议优化点 环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题； 运行 cli 前检查是否存在命令并及时抛出错误；检查 tar / unzip 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。 安装命令变化，考虑上下兼容性？ 场景记录 离线部署管理面和业务面集群 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 arm64 环境下构建离线制品包为什么会执行 amd64 的 bin\n","keywords":["openFuyao"],"articleBody":"相关链接 特性清单: https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md 安装部署前置环境校验工具使用指导: https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md 测试环境 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 测试特性 在线部署； 离线包制备； 离线部署； 安装部署前置检查工具； NPU Operator； AI推理套件； 建议优化点 环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题； 运行 cli 前检查是否存在命令并及时抛出错误；检查 tar / unzip 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。 安装命令变化，考虑上下兼容性？ 场景记录 离线部署管理面和业务面集群 CPU: Kunpeng-920 OS: openEuler 24.03 LTS SP3 aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 arm64 环境下构建离线制品包为什么会执行 amd64 的 bin\n[bke][2026-03-26 07:48:49][INFO] The bke binary file version is . sh: line 1: /root/fuyao-26-03/packages/usr/bin/bkeadm_linux_amd64: cannot execute binary file: Exec format error 完整日志\n[root@master1 fuyao-26-03]# cat build-offline-package.log | grep -v sha256 2026-03-26T06:49:56.467+0800 info infrastructure/infrastructure.go:53 The docker client is ready.\r[bke][2026-03-26 06:49:56][step.1] Configuration file check\r[bke][2026-03-26 06:49:56][step.2] Creates a workspace in the current directory\r[bke][2026-03-26 06:49:56][step.5] Collect the required image files\r[bke][2026-03-26 06:49:56][INFO] Try pulling away the mirror image cr.openfuyao.cn/openfuyao/registry:2.8.1\r[bke][2026-03-26 06:49:56][step.3] Collect host dependency packages and package files\r[bke][2026-03-26 06:49:56][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/arm64/kubectl to /root/fuyao-26-03/packages/tmp/packages/files/kubectl-v1.34.3-of.1-arm64\r[bke][2026-03-26 06:50:07][INFO] Try pulling away the mirror image cr.openfuyao.cn/openfuyao/registry:2.8.1\r[bke][2026-03-26 06:50:18][step.6] Collect images from the source repository to the target repository\r[bke][2026-03-26 06:50:18][INFO] Remove the image repository\r2026-03-26T06:50:18.026+0800 info infrastructure/infrastructure.go:53 The docker client is ready.\r2026-03-26T06:50:18.028+0800 info infrastructure/infrastructure.go:53 The docker client is ready.\r[bke][2026-03-26 06:50:20][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (1/3)...\r[bke][2026-03-26 06:50:21][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (2/3)...\r[bke][2026-03-26 06:50:22][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (3/3)...\r[bke][2026-03-26 06:50:23][WARN] Get image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: failed to inspect image cr.openfuyao.cn/openfuyao/registry:2.8.1 after 3 attempts: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1\r[bke][2026-03-26 06:50:23][INFO] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 is downloading\r[bke][2026-03-26 06:50:37][INFO] Wait for the container mirroring service to start...\r[bke][2026-03-26 06:50:42][INFO] The container mirroring service is started. Getting image list signatures\rCopying 6 images generated from 6 images in list\rGetting image source signatures\r[bke][2026-03-26 06:50:56][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/arm64/kubelet to /root/fuyao-26-03/packages/tmp/packages/files/kubelet-v1.34.3-of.1-arm64\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 7 images generated from 7 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 06:52:10][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/amd64/kubectl to /root/fuyao-26-03/packages/tmp/packages/files/kubectl-v1.34.3-of.1-amd64\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 06:53:23][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/amd64/kubelet to /root/fuyao-26-03/packages/tmp/packages/files/kubelet-v1.34.3-of.1-amd64\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 06:54:34][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containerd/containerd/releases/download/v2.1.1-origin/containerd-v2.1.1-linux-amd64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/containerd-v2.1.1-linux-amd64.tar.gz\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 3 images generated from 3 images in list\rGetting image source signatures\r[bke][2026-03-26 06:55:53][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containerd/containerd/releases/download/v2.1.1-origin/containerd-v2.1.1-linux-arm64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/containerd-v2.1.1-linux-arm64.tar.gz\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 06:57:07][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containernetworking/plugins/releases/download/v1.4.1/cni-plugins-linux-amd64-v1.4.1.tgz to /root/fuyao-26-03/packages/tmp/packages/files/cni-plugins-linux-amd64-v1.4.1.tgz\r[bke][2026-03-26 06:58:00][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containernetworking/plugins/releases/download/v1.4.1/cni-plugins-linux-arm64-v1.4.1.tgz to /root/fuyao-26-03/packages/tmp/packages/files/cni-plugins-linux-arm64-v1.4.1.tgz\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 06:58:49][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/helm/releases/download/v3.14.2/helm-v3.14.2-linux-amd64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/helm-v3.14.2-linux-amd64.tar.gz\r[bke][2026-03-26 06:59:08][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/helm/releases/download/v3.14.2/helm-v3.14.2-linux-arm64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/helm-v3.14.2-linux-arm64.tar.gz\r[bke][2026-03-26 06:59:24][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/yq_linux_arm64\r[bke][2026-03-26 06:59:35][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/yq_linux_amd64\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 10 images generated from 10 images in list\rGetting image source signatures\r[bke][2026-03-26 06:59:44][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/jqlang/jq/releases/download/v1.7.1/jq-linux-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/jq-linux-arm64\r[bke][2026-03-26 06:59:46][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/jqlang/jq/releases/download/v1.7.1/jq-linux-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/jq-linux-amd64\r[bke][2026-03-26 06:59:49][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl-certinfo_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl-certinfo_1.6.4_linux_arm64\r[bke][2026-03-26 07:00:00][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl-certinfo_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl-certinfo_1.6.4_linux_amd64\r[bke][2026-03-26 07:00:11][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl_1.6.4_linux_arm64\r[bke][2026-03-26 07:00:24][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl_1.6.4_linux_amd64\r[bke][2026-03-26 07:00:38][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssljson_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssljson_1.6.4_linux_arm64\r[bke][2026-03-26 07:00:46][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssljson_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssljson_1.6.4_linux_amd64\r[bke][2026-03-26 07:00:55][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/opencontainers/runc/releases/download/v1.1.12/runc-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/runc-arm64\r[bke][2026-03-26 07:01:07][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/opencontainers/runc/releases/download/v1.1.12/runc-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/runc-amd64\r[bke][2026-03-26 07:01:19][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/etcd-io/etcd/releases/download/v3.5.6/etcdctl-v3.5.6-linux-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/etcdctl-v3.5.6-linux-amd64\r[bke][2026-03-26 07:01:40][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/etcd-io/etcd/releases/download/v3.5.6/etcdctl-v3.5.6-linux-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/etcdctl-v3.5.6-linux-arm64\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 07:01:58][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/rpm/releases/download/v0.0.1/rpm.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/rpm.tar.gz\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 7 images generated from 7 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 8 images generated from 8 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\r[bke][2026-03-26 07:45:30][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/nfs/nfsshare.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/nfsshare.tar.gz\r[bke][2026-03-26 07:45:30][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/bkeadm/releases/download/1.2.1/bkeadm_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/bkeadm_linux_amd64\r[bke][2026-03-26 07:46:48][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/bkeadm/releases/download/1.2.1/bkeadm_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/bkeadm_linux_arm64\r[bke][2026-03-26 07:48:03][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/oauth-webhook-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/oauth-webhook-1.0.2.tgz\rWriting manifest to image destination\r[bke][2026-03-26 07:48:03][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/oauth-server-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/oauth-server-1.0.3.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/console-website-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/console-website-1.0.4.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/monitoring-service-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/monitoring-service-1.0.4.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/console-service-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/console-service-1.0.4.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/marketplace-service-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/marketplace-service-1.0.3.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/application-management-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/application-management-service-1.0.2.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/plugin-management-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/plugin-management-service-1.0.2.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/user-management-operator-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/user-management-operator-1.0.2.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/web-terminal-service-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/web-terminal-service-1.0.3.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/installer-service-1.2.1.tgz to /root/fuyao-26-03/packages/tmp/charts/installer-service-1.2.1.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/installer-website-1.2.1.tgz to /root/fuyao-26-03/packages/tmp/charts/installer-website-1.2.1.tgz\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/harbor-1.11.4.tgz to /root/fuyao-26-03/packages/tmp/charts/harbor-1.11.4.tgz\rGetting image source signatures\r[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/bke-console-website-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/bke-console-website-1.0.3.tgz\r[bke][2026-03-26 07:48:05][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/bke-console-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/bke-console-service-1.0.2.tgz\r[bke][2026-03-26 07:48:49][step.4] Collect the bke binary file\r[bke][2026-03-26 07:48:49][INFO] The bke binary file version is . sh: line 1: /root/fuyao-26-03/packages/usr/bin/bkeadm_linux_amd64: cannot execute binary file: Exec format error\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 17 images generated from 17 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 16 images generated from 16 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 2 images generated from 2 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 10 images generated from 10 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 4 images generated from 4 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\rGetting image list signatures\rCopying 5 images generated from 5 images in list\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rGetting image source signatures\rWriting manifest to image destination\rWriting manifest list to image destination\rStoring list signatures\r[bke][2026-03-26 08:41:56][INFO] The system starts to pack the image file.\r[bke][2026-03-26 08:43:49][INFO] Remove the image repository\r2026-03-26T08:43:49.940+0800 info infrastructure/infrastructure.go:53 The docker client is ready.\r[bke][2026-03-26 08:43:51][step.7] Build the bke package, please wait for the larger package...\r[bke][2026-03-26 08:46:22][step.8] Packaging complete bke.tar.gz openEuler 24.03 lts 部署 npu operator 有 pod 无法启动：\nEvery 1.0s: kubectl get pod -A master1: Fri Mar 27 10:33:04 2026\rNAMESPACE NAME READY STATUS RESTARTS AGE\rcluster-system bkeagent-deployer-fcnfd 1/1 Running 0 29m\rdefault mindio-acp-g67n9 1/1 Running 0 7m56s\rdefault mindio-tft-bk8mj 1/1 Running 0 7m57s\ringress-nginx ingress-nginx-admission-create-fh4rv 0/1 Completed 0 28m\ringress-nginx ingress-nginx-admission-patch-nn79l 0/1 Completed 2 28m\ringress-nginx ingress-nginx-controller-jdb5s 1/1 Running 0 28m\rkube-system ascend-device-plugin-5hmhf 0/1 CrashLoopBackOff 6 (33s ago) 7m59s\rkube-system calico-kube-controllers-9c987b475-db86h 1/1 Running 0 29m\rkube-system calico-node-sfvjm 1/1 Running 0 29m\rkube-system coredns-6bd9b76578-2mqzh 1/1 Running 2 (29m ago) 29m\rkube-system coredns-6bd9b76578-94pmp 1/1 Running 2 (21m ago) 29m\rkube-system etcd-master1 1/1 Running 0 28m\rkube-system kube-apiserver-master1 1/1 Running 0 27m\rkube-system kube-controller-manager-master1 1/1 Running 1 (27m ago) 29m\rkube-system kube-proxy-rwpzc 1/1 Running 0 29m\rkube-system kube-scheduler-master1 1/1 Running 1 (27m ago) 29m\rkube-system metrics-server-db68b78d-b8kkn 1/1 Running 0 26m\rmindx-dl ascend-operator-manager-5d4d89f675-8dzn4 0/1 Pending 0 7m59s\rmindx-dl clusterd-5588c5dc88-qmblm 0/1 Pending 0 7m57s\rmindx-dl noded-rc5lj 1/1 Running 0 7m59s\rmindx-dl resilience-controller-8686bbd76f-qzc2z 0/1 Pending 0 7m57s\rmonitoring alertmanager-main-0 2/2 Running 0 28m\rmonitoring alertmanager-main-1 2/2 Running 0 28m\rmonitoring alertmanager-main-2 2/2 Running 0 28m\rmonitoring blackbox-exporter-6877f5c5f7-66qn4 3/3 Running 0 28m\rmonitoring kube-state-metrics-6f6c47f5f4-4pt9s 3/3 Running 0 28m\rmonitoring node-exporter-ng468 2/2 Running 0 28m\rmonitoring prometheus-k8s-0 2/2 Running 0 28m\rmonitoring prometheus-k8s-1 2/2 Running 0 28m\rmonitoring prometheus-operator-6698d7bc85-72xwx 2/2 Running 0 28m\rnpu-exporter npu-exporter-vnzk6 0/1 Pending 0 7m57s\rnpu ascend-runtime-containerd-7s6jv 1/1 Running 0 8m npu npu-driver-l7rjp 1/1 Running 0 8m npu npu-feature-discovery-xr7nt 1/1 Running 0 19m\rnpu npu-node-feature-discovery-gc-5d97746dbc-wvnx6 1/1 Running 0 9m52s\rnpu npu-node-feature-discovery-master-664666b7bb-7qjfh 1/1 Running 0 9m43s\rnpu npu-node-feature-discovery-worker-8mj5w 1/1 Running 0 9m38s\rnpu npu-operator-5678cd59d4-ljvc8 1/1 Running 0 19m\ropenfuyao-system-controller modify-manifests-master1-rhfqf 0/1 Completed 0 27m\ropenfuyao-system-controller openfuyao-system-controller-798c4f6598-npmjs 1/1 Running 0 29m\ropenfuyao-system application-management-service-77457c5c85-g7b6z 2/2 Running 0 28m\ropenfuyao-system console-service-7fdb88c9c6-g2kp5 1/1 Running 0 28m\ropenfuyao-system console-website-c78945fcc-dm6s4 1/1 Running 0 28m\ropenfuyao-system local-harbor-chartmuseum-57fdd9949d-5xwh6 1/1 Running 0 28m\ropenfuyao-system local-harbor-core-6f7d4cc767-9rp6l 1/1 Running 0 28m\ropenfuyao-system local-harbor-database-0 1/1 Running 0 28m\ropenfuyao-system local-harbor-jobservice-7b8c9bf798-ms8qh 1/1 Running 4 (27m ago) 28m\ropenfuyao-system local-harbor-nginx-78b94f7b74-nflct 1/1 Running 0 28m\ropenfuyao-system local-harbor-portal-6b8cbf6747-gq6wd 1/1 Running 0 28m\ropenfuyao-system local-harbor-redis-0 1/1 Running 0 28m\ropenfuyao-system local-harbor-registry-7879c9d46d-d8wq6 2/2 Running 0 28m\ropenfuyao-system marketplace-service-5cf7cd6f5b-bmknq 2/2 Running 0 28m\ropenfuyao-system monitoring-service-6fd8dbd59f-bwq96 2/2 Running 0 28m\ropenfuyao-system oauth-server-64f6545c48-2hm7z 1/1 Running 0 26m\ropenfuyao-system oauth-webhook-78cb864fc5-gsmw9 1/1 Running 0 26m\ropenfuyao-system plugin-management-service-6fd8f64cc4-zvql8 2/2 Running 0 26m\ropenfuyao-system user-management-operator-9bb7bf64-6q9xg 1/1 Running 0 26m\ropenfuyao-system web-terminal-service-6f64b888f9-gdxpb 1/1 Running 0 26m\rvolcano-system volcano-controllers-6ffb787f8d-chk69 0/1 Pending 0 7m58s\rvolcano-system volcano-scheduler-867f9784bb-tvhzh 0/1 Pending 0 7m57s\r[root@master1 fuyao-26-03]# kubectl -n kube-system logs ascend-device-plugin-5hmhf\rDefaulted container \"device-plugin-01\" out of: device-plugin-01, init-permission (init)\r[INFO] 2026/03/27 02:26:56.030212 1 hwlog/api.go:108 devicePlugin.log's logger init success\r[INFO] 2026/03/27 02:26:56.030715 1 main.go:187 ascend device plugin starting and the version is v6.0.0_linux-aarch64\r[INFO] 2026/03/27 02:26:56.030759 1 main.go:188 ascend device plugin starting scene is center\r2026/03/27 02:26:56 command exec failed, exit status 1\r[ERROR] 2026/03/27 02:26:56.032950 1 devmanager/devmanager.go:95 deviceManager init failed, prepare dcmi failed, err: cannot found valid driver lib, fromEnv: lib path is invalid, [], fromLdCmd: can't find valid lib: EOF\r[ERROR] 2026/03/27 02:26:56.033013 1 main.go:203 init devmanager failed, err: auto init failed, err: get chip info failed, err: device Manager is nil, may encounter an exception during initialization. You can check the system log to confirm 环境检查 参考 https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md\nwget https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/env-check/releases/download/latest/bin/linux/arm64/envCheck\rwget https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/env-check/releases/download/latest/bin/linux/arm64/config.json 文件检查：\n[root@localhost env]# ./envCheck query\r[INFO][2026-03-27 02:53:25] envCheck tool start\r[INFO][2026-03-27 02:53:25] mode: fileQuery\r[INFO][2026-03-27 02:53:25] file query start ......\r[INFO][2026-03-27 02:53:25] query path: [/root/.kube /etc/kubernetes /usr/local/bin/crictl /etc/sysctl.d/k8s.conf /etc/systemd/system/kubelet.service /etc/systemd/system/kubelet.service.d /var/lib/etcd /var/lib/kubelet /run/containerd/containerd.sock /usr/lib/systemd/system/kubelet.service.d /var/run/containerd/containerd.sock /var/run/docker.sock]\r[INFO][2026-03-27 02:53:25] path not exist: /root/.kube\r[INFO][2026-03-27 02:53:25] path not exist: /etc/kubernetes\r[INFO][2026-03-27 02:53:25] path not exist: /usr/local/bin/crictl\r[INFO][2026-03-27 02:53:25] path not exist: /etc/sysctl.d/k8s.conf\r[INFO][2026-03-27 02:53:25] path not exist: /etc/systemd/system/kubelet.service\r[INFO][2026-03-27 02:53:25] path not exist: /etc/systemd/system/kubelet.service.d\r[INFO][2026-03-27 02:53:25] path not exist: /var/lib/etcd\r[INFO][2026-03-27 02:53:25] path not exist: /var/lib/kubelet\r[INFO][2026-03-27 02:53:25] path not exist: /run/containerd/containerd.sock\r[INFO][2026-03-27 02:53:25] path not exist: /usr/lib/systemd/system/kubelet.service.d\r[INFO][2026-03-27 02:53:25] path not exist: /var/run/containerd/containerd.sock\r[WARNING][2026-03-27 02:53:25] file exist: /var/run/docker.sock\r[INFO][2026-03-27 02:53:25] file query completed\rQuery Time: 2026-03-27 02:53:25\r+-------------------------------------------+---------+---------+-------+--------+-------------+\r| Path | Exists | Type | Owner | Group | Permissions |\r+-------------------------------------------+---------+---------+-------+--------+-------------+\r| /root/.kube | Missing | Missing |-------+--------+-------------+\r| /etc/kubernetes | Missing | Missing |-------+--------+-------------+\r| /usr/local/bin/crictl | Missing | Missing |-------+--------+-------------+\r| /etc/sysctl.d/k8s.conf | Missing | Missing |-------+--------+-------------+\r| /etc/systemd/system/kubelet.service | Missing | Missing |-------+--------+-------------+\r| /etc/systemd/system/kubelet.service.d | Missing | Missing |-------+--------+-------------+\r| /var/lib/etcd | Missing | Missing |-------+--------+-------------+\r| /var/lib/kubelet | Missing | Missing |-------+--------+-------------+\r| /run/containerd/containerd.sock | Missing | Missing |-------+--------+-------------+\r| /usr/lib/systemd/system/kubelet.service.d | Missing | Missing |-------+--------+-------------+\r| /var/run/containerd/containerd.sock | Missing | Missing |-------+--------+-------------+\r| /var/run/docker.sock | Exists | File | root | docker | Srw-rw---- |\r+-------------------------------------------+---------+---------+-------+--------+-------------+\r+-------------------+-------+\r| Summary | Count |\r+-------------------+-------+\r| Total Checked | 12 |\r| Total Exists | 1 |\r| Total Missing | 11 |\r| Total Directories | 0 |\r| Total Files | 1 |\r+-------------------+-------+\r[INFO][2026-03-27 02:53:25] completed 程序存在性检测：\n[root@localhost env]# ./envCheck check\r[INFO][2026-03-27 02:54:04] envCheck tool start\r[INFO][2026-03-27 02:54:04] mode: programCheck\r[INFO][2026-03-27 02:54:04] program check start......\r[INFO][2026-03-27 02:54:04] os: linux, arch: arm64\r[INFO][2026-03-27 02:54:04] program list to check: [docker kubectl containerd]\r[INFO][2026-03-27 02:54:04] check program: docker\r[WARNING][2026-03-27 02:54:04] docker installed - version: Docker version 18.09.0, build d51e3ad\r[INFO][2026-03-27 02:54:04] check program: kubectl\r[INFO][2026-03-27 02:54:04] not install: kubectl\r[INFO][2026-03-27 02:54:04] check program: containerd\r[WARNING][2026-03-27 02:54:04] containerd installed - version: time=\"2026-03-27T02:54:04Z\" level=warning msg=\"init error, wrong runtimeTimeout format: time: invalid duration \"\"\" containerd version:1.2.0.320.oe2203sp4 871075eb7cc979944ba2d987719cb534bbb87e5c\r[INFO][2026-03-27 02:54:04] program check completed\r[WARNING][2026-03-27 02:54:04] detected installed application(s): docker, containerd. Please uninstall it(them) yourself\rCheck Time: 2026-03-27 02:54:04\r+------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+\r| Program | Status | Version | Path |\r+------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+\r| docker | Installed | Docker version 18.09.0, build d51e3ad | /usr/bin/docker |\r| kubectl | Not Installed | Unknown | Not found |\r| containerd | Installed | time=\"2026-03-27T02:54:04Z\" level=warning msg=\"init error, wrong runtimeTimeout format: time: invalid duration \"\"\" containerd version:1.2.0.320.oe2203sp4 871075eb7cc979944ba2d987719cb534bbb87e5c | /usr/bin/containerd |\r+------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+\r+-----------------+-------+\r| Summary | Count |\r+-----------------+-------+\r| Total Checked | 3 |\r| Total Installed | 2 |\r| Total Missing | 1 |\r+-----------------+-------+\r[INFO][2026-03-27 02:54:04] completed 在线部署 部署完毕浏览 NPU Operator 文档才发现需满足 openEuler 22.03 lts 条件，故重装 https://docs.openfuyao.cn/zh/docs/v25.12/user_guide/npu_operator.html#%E5%AE%89%E8%A3%85\nCPU: Kunpeng-920 OS: openEuler 22.03 (LTS-SP4) aarch64 Fuyao Version: v26.03 rc3 docker: 2:18.09.0-346.oe2403sp3 使用 openEuler 22.03 (LTS-SP4) aarch64 cloud 镜像全新安装、扩容硬盘后部署。\n[root@localhost fuyao-26.3-rc3]# ./bkeadm_linux_arm64 init --otherRepo cr.openfuyao.cn/openfuyao/bke-online-installed:latest\r--hostIP: 10.17.30.131\r--domain: deploy.bocloud.k8s\r--kubernetesPort: 36443\r--imageRepoPort: 40443\r--yumRepoPort: 40080\r--chartRepoPort: 38080\r--ntpServer: cn.pool.ntp.org:123\r--runtime: containerd\r--runtimeStorage: /var/lib/containerd\r--clusterAPI: 1.2.1\r--oFVersion: v26.03-rc.3\r--versionUrl: https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/version-config/\r--enableNTP: true\r--agentHealthPort: 58080\r--otherRepo: cr.openfuyao.cn/openfuyao/bke-online-installed:latest\rConfirm the parameters, press Y to continue N will exit. [Y/N]? y\r[bke][2026-03-27 02:57:16][INFO] BKE initialize ...\r[bke][2026-03-27 02:57:16][INFO] HOSTNAME: localhost\r[bke][2026-03-27 02:57:16][INFO] PLATFORM: openeuler\r[bke][2026-03-27 02:57:16][INFO] Version: 22.03\r[bke][2026-03-27 02:57:16][INFO] KERNEL: 5.10.0-216.0.0.115.oe2203sp4.aarch64\r[bke][2026-03-27 02:57:16][INFO] GOOS: linux\r[bke][2026-03-27 02:57:16][INFO] ARCH: arm64\r[bke][2026-03-27 02:57:16][INFO] CPU: 8\r[bke][2026-03-27 02:57:16][INFO] MEMORY: 16G\r[bke][2026-03-27 02:57:16][INFO] BKE Console: ENABLED\r[bke][2026-03-27 02:57:16][INFO] BKE initialize environment check...\r[bke][2026-03-27 02:57:16][WARN] Client authentication enabled but no credentials provided\r2026-03-27T02:57:16.485Z info infrastructure/infrastructure.go:53 The docker client is ready.\r[bke][2026-03-27 02:57:16][INFO] set up the host machine zone\r[bke][2026-03-27 02:57:16][INFO] set ntp server\rFri Mar 27 02:57:15 AM CST 2026\r[bke][2026-03-26 18:57:15][INFO] config local source\r[bke][2026-03-26 18:57:15][INFO] 在线模式：domain：deploy.bocloud.k8s 绑定到默认IP：10.17.30.131\r[bke][2026-03-26 18:57:49][INFO] iptables -V output: iptables v1.8.7 (legacy)\r[bke][2026-03-26 18:57:49][INFO] workDir /bke mod permission success\r[bke][2026-03-26 18:57:49][ERROR] Failed to start the container service, open /bke/mount/source_registry/files: no such file or directory 最新版似乎修改了命令参数，使用最新参数正常。\n[root@stl-fuyao-2603 fuyao-26.3-rc3]# ./bkeadm_linux_arm64 init --onlineImage cr.openfuyao.cn/openfuyao/bke-online-installed:latest\r--hostIP: 10.17.30.131\r--domain: deploy.bocloud.k8s\r--kubernetesPort: 36443\r--imageRepoPort: 40443\r--yumRepoPort: 40080\r--chartRepoPort: 38080\r--ntpServer: cn.pool.ntp.org:123\r--runtime: containerd\r--runtimeStorage: /var/lib/containerd\r--clusterAPI: 1.2.1\r--oFVersion: v26.03-rc.3\r--versionUrl: https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/version-config/\r--enableNTP: true\r--agentHealthPort: 58080\r--onlineImage: cr.openfuyao.cn/openfuyao/bke-online-installed:latest\rConfirm the parameters, press Y to continue N will exit. [Y/N]? y\r[bke][2026-03-27 11:36:51][INFO] BKE initialize ...\r[bke][2026-03-27 11:36:51][INFO] HOSTNAME: stl-fuyao-2603\r[bke][2026-03-27 11:36:51][INFO] PLATFORM: openeuler\r[bke][2026-03-27 11:36:51][INFO] Version: 22.03\r[bke][2026-03-27 11:36:51][INFO] KERNEL: 5.10.0-216.0.0.115.oe2203sp4.aarch64\r[bke][2026-03-27 11:36:51][INFO] GOOS: linux\r[bke][2026-03-27 11:36:51][INFO] ARCH: arm64\r[bke][2026-03-27 11:36:51][INFO] CPU: 8\r[bke][2026-03-27 11:36:51][INFO] MEMORY: 16G\r[bke][2026-03-27 11:36:51][INFO] BKE Console: ENABLED\r[bke][2026-03-27 11:36:51][INFO] BKE initialize environment check...\r[bke][2026-03-27 11:36:51][WARN] Client authentication enabled but no credentials provided\r[bke][2026-03-27 11:36:51][INFO] set up the host machine zone\r[bke][2026-03-27 11:36:51][INFO] set ntp server\rFri Mar 27 11:36:51 AM CST 2026\r[bke][2026-03-27 11:36:51][INFO] config local source\r[bke][2026-03-27 11:36:51][INFO] 在线模式：domain：deploy.bocloud.k8s 绑定到默认IP：10.17.30.131\r[bke][2026-03-27 11:36:51][WARN] 无法解析私有仓库地址，跳过CA证书配置\r[bke][2026-03-27 11:36:51][INFO] Using client certificate authentication(CA only)\r[bke][2026-03-27 11:36:51][INFO] Download source file...\r[bke][2026-03-27 11:36:53][INFO] Writing data...\r...\r[bke][2026-03-27 13:48:19][INFO] containerd sandbox image: hub.oepkgs.net/openfuyao/pause:3.9\r[bke][2026-03-27 13:48:19][INFO] Created offline special hosts.toml: /etc/containerd/certs.d/127.0.0.1:40443/hosts.toml\r[bke][2026-03-27 13:48:19][INFO] wait for containerd to start\r[bke][2026-03-27 13:48:19][INFO] Waiting for containerd to be ready\r...\r成功解压： /opt/cni/bin/vrf , 共处理了 4007138 个字符\r[bke][2026-03-27 13:48:20][INFO] Start the base dependency service\r[bke][2026-03-27 13:48:21][INFO] Image hub.oepkgs.net/openfuyao/registry:2.8.1 is downloading\r[bke][2026-03-27 13:48:29][INFO] Wait for the container mirroring service to start...\r[bke][2026-03-27 13:48:34][INFO] The container mirroring service is started by containerd. [bke][2026-03-27 13:48:34][INFO] Image hub.oepkgs.net/openfuyao/nginx:1.23.0-alpine is downloading\r[bke][2026-03-27 13:48:43][INFO] Wait for the container yum service to start...\r[bke][2026-03-27 13:48:48][INFO] The container yum service is started. [bke][2026-03-27 13:48:48][INFO] Image hub.oepkgs.net/openfuyao/helm/chartmuseum:v0.16.2 is downloading\r[bke][2026-03-27 13:49:05][INFO] Wait for the chart mirroring service to start...\r[bke][2026-03-27 13:49:10][INFO] The chart mirroring service is started. [bke][2026-03-27 13:49:10][INFO] Image hub.oepkgs.net/openfuyao/openebs/nfs-server-alpine:0.9.0 is downloading\r[bke][2026-03-27 13:49:17][INFO] Wait for the nfs mirroring service to start...\r[bke][2026-03-27 13:49:22][INFO] The nfs mirroring service is started. [bke][2026-03-27 13:49:22][INFO] Image hub.oepkgs.net/openfuyao/rancher/k3s:v1.25.16-k3s4 is downloading\r2026-03-27T13:50:07.914+0800 info k3s/k3s.go:314 params: onlineImage=cr.openfuyao.cn/openfuyao/bke-online-installed:latest otherRepo=, otherRepoIp=, hostIP=10.17.30.131, imageRepo=deploy.bocloud.k8s, imageRepoPort=40443, kubernetesPort=36443\r[bke][2026-03-27 13:50:07][INFO] Start the local Kubernetes cluster...\r[bke][2026-03-27 13:50:10][ERROR] Failed to copy kubectl from the container\r[bke][2026-03-27 13:50:10][ERROR] Failed to start kubernetes exit status 1\r[bke][2026-03-27 13:50:10][ERROR] Failed to start cluster API, exit status 1 似乎启动失败，居然是因为 tar 没有安装？\n[root@stl-fuyao-2603 fuyao-26.3-rc3]# nerdctl cp kubernetes:/bin/k3s /tmp/test-k3s\rFATA[0000] unable to copy: failed to find `tar` binary 安装 tar 后解决，顺利部署。\nNpu Operator NAMESPACE NAME READY STATUS RESTARTS AGE\rcluster-system bkeagent-deployer-h2flc 1/1 Running 0 65m\ringress-nginx ingress-nginx-admission-create-xqwmf 0/1 Completed 0 62m\ringress-nginx ingress-nginx-admission-patch-4dcjr 0/1 Completed 1 62m\ringress-nginx ingress-nginx-controller-p5nrm 1/1 Running 0 62m\rkube-system ascend-device-plugin-xtfkb 0/1 CrashLoopBackOff 7 (4m34s ago) 16m\rkube-system calico-kube-controllers-6d75d78f5d-tfjvf 1/1 Running 0 65m\rkube-system calico-node-xtd99 1/1 Running 0 65m\rkube-system coredns-6c6fdbdb66-24cn4 1/1 Running 0 65m\rkube-system coredns-6c6fdbdb66-w29mt 1/1 Running 1 (63m ago) 65m\rkube-system etcd-master1 1/1 Running 0 64m\rkube-system kube-apiserver-master1 1/1 Running 0 55m\rkube-system kube-controller-manager-master1 1/1 Running 1 (55m ago) 65m\rkube-system kube-proxy-xxgz4 1/1 Running 0 65m\rkube-system kube-scheduler-master1 1/1 Running 1 (55m ago) 65m\rkube-system metrics-server-586f979f47-4b6fz 1/1 Running 0 54m\rmindx-dl ascend-operator-manager-5d4d89f675-tbjpv 0/1 Pending 0 15m\rmindx-dl clusterd-5588c5dc88-2fd5g 1/1 Running 0 16m\rmindx-dl resilience-controller-8686bbd76f-jv5lp 1/1 Running 0 16m\rmonitoring alertmanager-main-0 2/2 Running 0 51m\rmonitoring alertmanager-main-1 2/2 Running 0 51m\rmonitoring alertmanager-main-2 2/2 Running 0 51m\rmonitoring blackbox-exporter-6d6fbbfc96-cl6sg 3/3 Running 0 56m\rmonitoring kube-state-metrics-677558db89-9rtbl 3/3 Running 0 56m\rmonitoring node-exporter-4mzzl 2/2 Running 0 56m\rmonitoring prometheus-k8s-0 2/2 Running 0 51m\rmonitoring prometheus-k8s-1 2/2 Running 0 51m\rmonitoring prometheus-operator-5cb64c846d-8m55t 2/2 Running 0 56m\rnpu ascend-runtime-containerd-pg5q4 1/1 Running 0 16m\rnpu npu-driver-66dqf 0/1 Init:0/1 0 103s\rnpu npu-feature-discovery-rr68r 1/1 Running 0 17m\rnpu npu-operator-5858d99c89-lgd24 1/1 Running 0 17m\rnpu npu-operator-node-feature-discovery-gc-5cf8bc768d-6w4b4 1/1 Running 0 17m\rnpu npu-operator-node-feature-discovery-master-5985b5cfcd-swdqs 1/1 Running 0 17m\rnpu npu-operator-node-feature-discovery-worker-q5ct6 1/1 Running 0 17m\ropenfuyao-system-controller modify-manifests-master1-sjxrv 0/1 Completed 0 55m\ropenfuyao-system-controller openfuyao-system-controller-8444679b95-jv8jg 1/1 Running 0 65m\ropenfuyao-system application-management-service-75799d4dd6-8vm9w 2/2 Running 0 55m\ropenfuyao-system console-service-84bbd85575-grtwx 1/1 Running 0 55m\ropenfuyao-system console-website-855c9d8f65-8btkl 1/1 Running 0 61m\ropenfuyao-system local-harbor-chartmuseum-7f96745849-d7vzk 1/1 Running 0 56m\ropenfuyao-system local-harbor-core-5f847798b8-khkf4 1/1 Running 1 (51m ago) 56m\ropenfuyao-system local-harbor-database-0 1/1 Running 0 56m\ropenfuyao-system local-harbor-jobservice-7d67f4f887-svklq 1/1 Running 3 (47m ago) 56m\ropenfuyao-system local-harbor-nginx-6449749746-pbzkc 1/1 Running 0 56m\ropenfuyao-system local-harbor-portal-78bf65c9-rqmk6 1/1 Running 0 56m\ropenfuyao-system local-harbor-redis-0 1/1 Running 0 56m\ropenfuyao-system local-harbor-registry-65884895bf-ff2wd 2/2 Running 0 56m\ropenfuyao-system marketplace-service-5c79cbcbfc-swg9r 2/2 Running 0 55m\ropenfuyao-system monitoring-service-79fc57c6b4-47vbm 2/2 Running 0 56m\ropenfuyao-system oauth-server-68b6655d95-c8pzx 1/1 Running 0 54m\ropenfuyao-system oauth-webhook-6995d46758-g47xn 1/1 Running 0 54m\ropenfuyao-system plugin-management-service-84bfcd6565-2bmz2 2/2 Running 0 54m\ropenfuyao-system user-management-operator-8d79bd8b8-jr4sk 1/1 Running 0 54m\ropenfuyao-system web-terminal-service-6d858d974-hpjw6 1/1 Running 0 54m\rvolcano-system volcano-controllers-6ffb787f8d-mxxph 1/1 Running 0 16m\rvolcano-system volcano-scheduler-867f9784bb-vsswv 0/1 Pending 0 16m kube-system ascend-device-plugin-sbxr7 0/1 CrashLoopBackOff 6 (100s ago) 9m57s [root@master1 ~]# kubectl -n kube-system logs ascend-device-plugin-sbxr7 Defaulted container \"device-plugin-01\" out of: device-plugin-01, init-permission (init) [INFO] 2026/03/27 07:27:47.189809 1 hwlog/api.go:108 devicePlugin.log's logger init success [INFO] 2026/03/27 07:27:47.190348 1 main.go:187 ascend device plugin starting and the version is v6.0.0_linux-aarch64 [INFO] 2026/03/27 07:27:47.190416 1 main.go:188 ascend device plugin starting scene is center 2026/03/27 07:27:47 command exec failed, exit status 1 [ERROR] 2026/03/27 07:27:47.192892 1 devmanager/devmanager.go:95 deviceManager init failed, prepare dcmi failed, err: cannot found valid driver lib, fromEnv: lib path is invalid, [], fromLdCmd: can't find valid lib: EOF [ERROR] 2026/03/27 07:27:47.192970 1 main.go:203 init devmanager failed, err: auto init failed, err: get chip info failed, err: device Manager is nil, may encounter an exception during initialization. You can check the system log to confirm 驱动安装失败：\n[root@master1 ~]# kubectl -n npu logs -f npu-driver-lxv5c -c npu-driver-installer\rChecking if /mnt/usr/local/sbin/npu-smi exists...\rmaster1 is not an option, please use -h to view help\r[2026-03-27 15:55:00, [INFO] No operation specified, default install operation on node: --\r[2026-03-27 15:55:00, [INFO] install npu-driver\r[2026-03-27 15:55:00, [INFO] copy npu-install to host\r[2026-03-27 15:55:00, [INFO] copy npu-install to host success\r[2026-03-27 15:55:00,303677070] [INFO] Install dependency packages\r[2026-03-27 15:55:00,305026980] [INFO] Using yum for package installation\r5 files removed\rrepo 4.3 MB/s | 33 kB 00:00 Metadata cache created.\r[2026-03-27 15:55:01,143913450] [INFO] jq is already installed, skipping...\r[2026-03-27 15:55:01,150749780] [INFO] wget is already installed, skipping...\r[2026-03-27 15:55:01,156894190] [INFO] Installing unzip...\rNo match for argument: unzip\rError: Unable to find a match: unzip\r[2026-03-27 15:55:01,599984660] [FATAL] Failed to install unzip using yum\r[2026-03-27 15:55:01, [FATAL] install failed: -- 因为主机缺少 unizp 导致失败，但是该容器没有任何异常，无法感知错误。 从清单可以看到 ascend-device-plugin-sbxr7 容器一直由于找不到驱动异常退出，而实际原因是 npu-driver-66dqf pod 没有正常安装驱动，但没有退出，反而正常运行。模糊了实际错误点。\n安装 unzip 后正常：\n[root@master1 ~]# kubectl -n npu logs -f npu-driver-66dqf -c npu-driver-installer\rChecking if /mnt/usr/local/sbin/npu-smi exists...\rmaster1 is not an option, please use -h to view help\r[2026-03-27 15:57:58, [INFO] No operation specified, default install operation on node: --\r[2026-03-27 15:57:58, [INFO] install npu-driver\r[2026-03-27 15:57:58, [INFO] copy npu-install to host\r[2026-03-27 15:57:58, [INFO] copy npu-install to host success\r[2026-03-27 15:57:58,069791170] [INFO] Install dependency packages\r[2026-03-27 15:57:58,070929430] [INFO] Using yum for package installation\r48 files removed\rrepo 5.1 MB/s | 33 kB 00:00 OS 67 MB/s | 3.3 MB 00:00 everything 76 MB/s | 17 MB 00:00 EPOL 65 MB/s | 4.7 MB 00:00 debuginfo 69 MB/s | 3.9 MB 00:00 source 59 MB/s | 1.8 MB 00:00 update 79 MB/s | 71 MB 00:00 可以看到花费了大量时间在 init 阶段，这样才是正常的：\nnpu npu-driver-66dqf 0/1 Init:0/1 0 3m51s 虚拟机运行似乎会有这个错误\nkubectl -n kube-system delete pod ascend-device-plugin-xtfkb\r[Driver] [2026-03-27 16:03:40] [INFO]upgradePercentage:100%\r[Driver] [2026-03-27 16:03:42] [INFO]Driver package installed successfully! The new version takes effect immediately.\r[Driver] [2026-03-27 16:03:42] [INFO]End time: 2026-03-27 16:03:42\r[Firmware] [2026-03-27 16:03:43] [INFO]Start time: 2026-03-27 16:03:43\r[Firmware] [2026-03-27 16:03:43] [INFO]LogFile: /var/log/ascend_seclog/ascend_install.log\r[Firmware] [2026-03-27 16:03:43] [INFO]OperationLogFile: /var/log/ascend_seclog/operation.log\r[Firmware] [2026-03-27 16:03:43] [WARNING]Do not power off or restart the system during the installation/upgrade\r[Firmware] [2026-03-27 16:03:43] [ERROR]Not a physical-machine, firmware upgrade does not support.\r[Firmware] [2026-03-27 16:03:43] [INFO]End time: 2026-03-27 16:03:43 但驱动等已经部署完毕：\n[root@master1 ~]# npu-smi info +--------------------------------------------------------------------------------------------------------+ | npu-smi 24.1.rc3 Version: 24.1.rc3 | +-------------------------------+-----------------+------------------------------------------------------+ | NPU Name | Health | Power(W) Temp(C) Hugepages-Usage(page) | | Chip Device | Bus-Id | AICore(%) Memory-Usage(MB) | +===============================+=================+======================================================+ | 176 310P3 | OK | NA 56 0 / 0 | | 0 0 | 0000:00:16.0 | 0 1838 / 21527 | +===============================+=================+======================================================+ +-------------------------------+-----------------+------------------------------------------------------+ | NPU Chip | Process id | Process name | Process memory(MB) | +===============================+=================+======================================================+ | No running processes found in NPU 176 | +===============================+=================+======================================================+ 但是这个容器依然无法正常运行：\n[root@master1 ~]# kubectl -n kube-system logs -f -l name=ascend-device-plugin-ds -c device-plugin-01\r[INFO] 2026/03/27 08:19:41.677826 1 hwlog/api.go:108 devicePlugin.log's logger init success\r[INFO] 2026/03/27 08:19:41.678051 1 main.go:187 ascend device plugin starting and the version is v6.0.0_linux-aarch64\r[INFO] 2026/03/27 08:19:41.678116 1 main.go:188 ascend device plugin starting scene is center\r[INFO] 2026/03/27 08:19:41.900653 1 devmanager/devmanager.go:104 the dcmi version is 24.1.rc3\r[ERROR] 2026/03/27 08:19:41.900744 1 devmanager/devmanager.go:211 get error card quantity: 0\r[ERROR] 2026/03/27 08:19:41.900780 1 devmanager/devmanager.go:195 get card list failed for init\r[ERROR] 2026/03/27 08:19:41.900828 1 main.go:203 init devmanager failed, err: auto init failed, err: get card list failed for init 部署后防火墙问题 另外发现 openEuler iptables 默认，还是 openFuyao 默认配置，iptables 默认 FORWARD 为 Drop，会导致部署后无法访问。\n[root@stl-fuyao-2603 ~]# iptables -L -n\rChain INPUT (policy ACCEPT)\rtarget prot opt source destination Chain FORWARD (policy DROP)\rtarget prot opt source destination CNI-ISOLATION-STAGE-1 all -- 0.0.0.0/0 0.0.0.0/0 /* CNI firewall plugin rules (ingressPolicy: same-bridge) */\rCNI-FORWARD all -- 0.0.0.0/0 0.0.0.0/0 /* CNI firewall plugin rules */\rChain OUTPUT (policy ACCEPT)\rtarget prot opt source destination 需 配置解决\niptables -P FORWARD ACCEPT 部署时软件源问题 [root@master1 ~]# cp /etc/yum.repos.d/b\rbak/ bke.repo 默认移除系统自带软件源，部署后无法再安装软件，需自行配置。 能否通过更加灵活的方式，如配置优先级的方式来规避直接移除软件源。\n压缩工具检查 建议参考这种：\nroot@hosthatch-us1:~# sudo -v ; curl https://rclone.org/install.sh | sudo bash\r% Total % Received % Xferd Average Speed Time Time Time Current Dload Upload Total Spent Left Speed\r100 4734 100 4734 0 0 8458 0 --:--:-- --:--:-- --:--:-- 8468\rNone of the supported tools for extracting zip archives (unzip 7z busybox) were found. Please install one of them and try again. 带有明确错误说明。\n","wordCount":"7872","inLanguage":"zh","image":"https://www.frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2026-04-13T09:01:27Z","dateModified":"2026-04-13T09:01:27Z","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.frytea.com/archives/1654/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://www.frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://www.frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/projects/ title="🗂 项目"><span>🗂 项目</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://www.frytea.com/>主页</a>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
+<a href=https://www.frytea.com/archives/>Archives</a></nav><h1 class=post-title><a href=https://www.frytea.com/archives/1654/>openFuyao 2603 共测测试报告</a></h1><div class=post-meta>April 13, 2026&nbsp;|&nbsp;16 分钟&nbsp;|&nbsp;7872 字&nbsp;|&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2026-04-13-1654.md rel="noopener noreferrer edit" target=_blank>PR</a>
+</span><span aria-hidden=true>&nbsp;|&nbsp;</span><span class=gc-pv-wrapper data-gc-path=/archives/1654/ style=display:inline-flex;align-items:center;gap:.28em;vertical-align:middle>
+<span class=gc-spinner></span>
+<span class=gc-pv-count style=align-items:center;gap:.28em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span class=gc-pv-num></span></span></span></div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5 aria-label=相关链接>相关链接</a></li><li><a href=#%e6%b5%8b%e8%af%95%e7%8e%af%e5%a2%83 aria-label=测试环境>测试环境</a></li><li><a href=#%e6%b5%8b%e8%af%95%e7%89%b9%e6%80%a7 aria-label=测试特性>测试特性</a></li><li><a href=#%e5%bb%ba%e8%ae%ae%e4%bc%98%e5%8c%96%e7%82%b9 aria-label=建议优化点>建议优化点</a></li><li><a href=#%e5%9c%ba%e6%99%af%e8%ae%b0%e5%bd%95 aria-label=场景记录>场景记录</a><ul><li><a href=#%e7%a6%bb%e7%ba%bf%e9%83%a8%e7%bd%b2%e7%ae%a1%e7%90%86%e9%9d%a2%e5%92%8c%e4%b8%9a%e5%8a%a1%e9%9d%a2%e9%9b%86%e7%be%a4 aria-label=离线部署管理面和业务面集群>离线部署管理面和业务面集群</a></li><li><a href=#%e7%8e%af%e5%a2%83%e6%a3%80%e6%9f%a5 aria-label=环境检查>环境检查</a></li><li><a href=#%e5%9c%a8%e7%ba%bf%e9%83%a8%e7%bd%b2 aria-label=在线部署>在线部署</a></li><li><a href=#npu-operator aria-label="Npu Operator">Npu Operator</a></li><li><a href=#%e9%83%a8%e7%bd%b2%e5%90%8e%e9%98%b2%e7%81%ab%e5%a2%99%e9%97%ae%e9%a2%98 aria-label=部署后防火墙问题>部署后防火墙问题</a></li><li><a href=#%e9%83%a8%e7%bd%b2%e6%97%b6%e8%bd%af%e4%bb%b6%e6%ba%90%e9%97%ae%e9%a2%98 aria-label=部署时软件源问题>部署时软件源问题</a></li><li><a href=#%e5%8e%8b%e7%bc%a9%e5%b7%a5%e5%85%b7%e6%a3%80%e6%9f%a5 aria-label=压缩工具检查>压缩工具检查</a></li></ul></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://www.frytea.com/archives/1654/>本文</a>
+首发于
+<a href=https://www.frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://www.frytea.com/archives/1654/>来源</a>。</p></blockquote><h1 id=相关链接>相关链接<a hidden class=anchor aria-hidden=true href=#相关链接>#</a></h1><ul><li>特性清单: <a href=https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md>https://gitcode.com/openFuyao/release-management/blob/main/openFuyao-26.03/release-plan.md</a></li><li>安装部署前置环境校验工具使用指导: <a href=https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md>https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md</a></li></ul><h1 id=测试环境>测试环境<a hidden class=anchor aria-hidden=true href=#测试环境>#</a></h1><ul><li>CPU: <code>Kunpeng-920</code></li><li>OS: <code>openEuler 24.03 LTS SP3 aarch64</code></li><li>Fuyao Version: <code>v26.03 rc3</code></li><li>docker: <code>2:18.09.0-346.oe2403sp3</code></li></ul><h1 id=测试特性>测试特性<a hidden class=anchor aria-hidden=true href=#测试特性>#</a></h1><ul><li><input disabled type=checkbox> 在线部署；</li><li><input disabled type=checkbox> 离线包制备；</li><li><input disabled type=checkbox> 离线部署；</li><li><input disabled type=checkbox> 安装部署前置检查工具；</li><li><input disabled type=checkbox> NPU Operator；</li><li><input disabled type=checkbox> AI推理套件；</li></ul><h1 id=建议优化点>建议优化点<a hidden class=anchor aria-hidden=true href=#建议优化点>#</a></h1><ul><li>环境检测工具，检查 iptables 默认策略是否放行，若未放行可能在部署成功后无法访问；默认防火墙策略为 FORWARD DROP ，对集群运行和访问带来的潜在问题；</li><li>运行 cli 前检查是否存在命令并及时抛出错误；检查 <code>tar</code> / <code>unzip</code> 是否安装，安装过程有很多地方会用到，而且出错时不会得到明显的解压失败报错，难以定位问题。</li><li>安装命令变化，考虑上下兼容性？</li></ul><h1 id=场景记录>场景记录<a hidden class=anchor aria-hidden=true href=#场景记录>#</a></h1><h2 id=离线部署管理面和业务面集群>离线部署管理面和业务面集群<a hidden class=anchor aria-hidden=true href=#离线部署管理面和业务面集群>#</a></h2><ul><li>CPU: <code>Kunpeng-920</code></li><li>OS: <code>openEuler 24.03 LTS SP3 aarch64</code></li><li>Fuyao Version: <code>v26.03 rc3</code></li><li>docker: <code>2:18.09.0-346.oe2403sp3</code></li></ul><hr><p>arm64 环境下构建离线制品包为什么会执行 amd64 的 bin</p><pre tabindex=0><code>[bke][2026-03-26 07:48:49][INFO] The bke binary file version is . sh: line 1: /root/fuyao-26-03/packages/usr/bin/bkeadm_linux_amd64: cannot execute binary file: Exec format error
+</code></pre><p>完整日志</p><pre tabindex=0><code>[root@master1 fuyao-26-03]# cat build-offline-package.log | grep -v sha256 
+2026-03-26T06:49:56.467+0800    info    infrastructure/infrastructure.go:53     The docker client is ready.
+[bke][2026-03-26 06:49:56][step.1] Configuration file check
+[bke][2026-03-26 06:49:56][step.2] Creates a workspace in the current directory
+[bke][2026-03-26 06:49:56][step.5] Collect the required image files
+[bke][2026-03-26 06:49:56][INFO] Try pulling away the mirror image cr.openfuyao.cn/openfuyao/registry:2.8.1
+[bke][2026-03-26 06:49:56][step.3] Collect host dependency packages and package files
+[bke][2026-03-26 06:49:56][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/arm64/kubectl to /root/fuyao-26-03/packages/tmp/packages/files/kubectl-v1.34.3-of.1-arm64
+[bke][2026-03-26 06:50:07][INFO] Try pulling away the mirror image cr.openfuyao.cn/openfuyao/registry:2.8.1
+[bke][2026-03-26 06:50:18][step.6] Collect images from the source repository to the target repository
+[bke][2026-03-26 06:50:18][INFO] Remove the image repository
+2026-03-26T06:50:18.026+0800    info    infrastructure/infrastructure.go:53     The docker client is ready.
+2026-03-26T06:50:18.028+0800    info    infrastructure/infrastructure.go:53     The docker client is ready.
+[bke][2026-03-26 06:50:20][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (1/3)...
+[bke][2026-03-26 06:50:21][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (2/3)...
+[bke][2026-03-26 06:50:22][WARN] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1, retrying (3/3)...
+[bke][2026-03-26 06:50:23][WARN] Get image cr.openfuyao.cn/openfuyao/registry:2.8.1 inspect failed: failed to inspect image cr.openfuyao.cn/openfuyao/registry:2.8.1 after 3 attempts: Error response from daemon: no such image: cr.openfuyao.cn/openfuyao/registry:2.8.1: No such image: cr.openfuyao.cn/openfuyao/registry:2.8.1
+[bke][2026-03-26 06:50:23][INFO] Image cr.openfuyao.cn/openfuyao/registry:2.8.1 is downloading
+[bke][2026-03-26 06:50:37][INFO] Wait for the container mirroring service to start...
+[bke][2026-03-26 06:50:42][INFO] The container mirroring service is started. 
+Getting image list signatures
+Copying 6 images generated from 6 images in list
+Getting image source signatures
+[bke][2026-03-26 06:50:56][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/arm64/kubelet to /root/fuyao-26-03/packages/tmp/packages/files/kubelet-v1.34.3-of.1-arm64
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 7 images generated from 7 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 06:52:10][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/amd64/kubectl to /root/fuyao-26-03/packages/tmp/packages/files/kubectl-v1.34.3-of.1-amd64
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 06:53:23][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/kubernetes/kubernetes/releases/download/1.34.3-of.1/bin/linux/amd64/kubelet to /root/fuyao-26-03/packages/tmp/packages/files/kubelet-v1.34.3-of.1-amd64
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 06:54:34][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containerd/containerd/releases/download/v2.1.1-origin/containerd-v2.1.1-linux-amd64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/containerd-v2.1.1-linux-amd64.tar.gz
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 3 images generated from 3 images in list
+Getting image source signatures
+[bke][2026-03-26 06:55:53][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containerd/containerd/releases/download/v2.1.1-origin/containerd-v2.1.1-linux-arm64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/containerd-v2.1.1-linux-arm64.tar.gz
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 06:57:07][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containernetworking/plugins/releases/download/v1.4.1/cni-plugins-linux-amd64-v1.4.1.tgz to /root/fuyao-26-03/packages/tmp/packages/files/cni-plugins-linux-amd64-v1.4.1.tgz
+[bke][2026-03-26 06:58:00][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/containernetworking/plugins/releases/download/v1.4.1/cni-plugins-linux-arm64-v1.4.1.tgz to /root/fuyao-26-03/packages/tmp/packages/files/cni-plugins-linux-arm64-v1.4.1.tgz
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 06:58:49][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/helm/releases/download/v3.14.2/helm-v3.14.2-linux-amd64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/helm-v3.14.2-linux-amd64.tar.gz
+[bke][2026-03-26 06:59:08][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/helm/releases/download/v3.14.2/helm-v3.14.2-linux-arm64.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/helm-v3.14.2-linux-arm64.tar.gz
+[bke][2026-03-26 06:59:24][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/yq_linux_arm64
+[bke][2026-03-26 06:59:35][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/yq_linux_amd64
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 10 images generated from 10 images in list
+Getting image source signatures
+[bke][2026-03-26 06:59:44][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/jqlang/jq/releases/download/v1.7.1/jq-linux-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/jq-linux-arm64
+[bke][2026-03-26 06:59:46][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/jqlang/jq/releases/download/v1.7.1/jq-linux-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/jq-linux-amd64
+[bke][2026-03-26 06:59:49][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl-certinfo_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl-certinfo_1.6.4_linux_arm64
+[bke][2026-03-26 07:00:00][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl-certinfo_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl-certinfo_1.6.4_linux_amd64
+[bke][2026-03-26 07:00:11][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl_1.6.4_linux_arm64
+[bke][2026-03-26 07:00:24][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssl_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssl_1.6.4_linux_amd64
+[bke][2026-03-26 07:00:38][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssljson_1.6.4_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssljson_1.6.4_linux_arm64
+[bke][2026-03-26 07:00:46][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/cloudflare/cfssl/releases/download/v1.6.4/cfssljson_1.6.4_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/cfssljson_1.6.4_linux_amd64
+[bke][2026-03-26 07:00:55][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/opencontainers/runc/releases/download/v1.1.12/runc-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/runc-arm64
+[bke][2026-03-26 07:01:07][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/opencontainers/runc/releases/download/v1.1.12/runc-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/runc-amd64
+[bke][2026-03-26 07:01:19][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/etcd-io/etcd/releases/download/v3.5.6/etcdctl-v3.5.6-linux-amd64 to /root/fuyao-26-03/packages/tmp/packages/files/etcdctl-v3.5.6-linux-amd64
+[bke][2026-03-26 07:01:40][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/etcd-io/etcd/releases/download/v3.5.6/etcdctl-v3.5.6-linux-arm64 to /root/fuyao-26-03/packages/tmp/packages/files/etcdctl-v3.5.6-linux-arm64
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 07:01:58][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/rpm/releases/download/v0.0.1/rpm.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/rpm.tar.gz
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 7 images generated from 7 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 8 images generated from 8 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+[bke][2026-03-26 07:45:30][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/nfs/nfsshare.tar.gz to /root/fuyao-26-03/packages/tmp/packages/files/nfsshare.tar.gz
+[bke][2026-03-26 07:45:30][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/bkeadm/releases/download/1.2.1/bkeadm_linux_amd64 to /root/fuyao-26-03/packages/tmp/packages/files/bkeadm_linux_amd64
+[bke][2026-03-26 07:46:48][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/bkeadm/releases/download/1.2.1/bkeadm_linux_arm64 to /root/fuyao-26-03/packages/tmp/packages/files/bkeadm_linux_arm64
+[bke][2026-03-26 07:48:03][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/oauth-webhook-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/oauth-webhook-1.0.2.tgz
+Writing manifest to image destination
+[bke][2026-03-26 07:48:03][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/oauth-server-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/oauth-server-1.0.3.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/console-website-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/console-website-1.0.4.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/monitoring-service-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/monitoring-service-1.0.4.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/console-service-1.0.4.tgz to /root/fuyao-26-03/packages/tmp/charts/console-service-1.0.4.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/marketplace-service-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/marketplace-service-1.0.3.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/application-management-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/application-management-service-1.0.2.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/plugin-management-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/plugin-management-service-1.0.2.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/user-management-operator-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/user-management-operator-1.0.2.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/web-terminal-service-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/web-terminal-service-1.0.3.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/installer-service-1.2.1.tgz to /root/fuyao-26-03/packages/tmp/charts/installer-service-1.2.1.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/installer-website-1.2.1.tgz to /root/fuyao-26-03/packages/tmp/charts/installer-website-1.2.1.tgz
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/harbor-1.11.4.tgz to /root/fuyao-26-03/packages/tmp/charts/harbor-1.11.4.tgz
+Getting image source signatures
+[bke][2026-03-26 07:48:04][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/bke-console-website-1.0.3.tgz to /root/fuyao-26-03/packages/tmp/charts/bke-console-website-1.0.3.tgz
+[bke][2026-03-26 07:48:05][INFO] Collecting file packages https://openfuyao.obs.cn-north-4.myhuaweicloud.com/charts/releases/download/bke-console-service-1.0.2.tgz to /root/fuyao-26-03/packages/tmp/charts/bke-console-service-1.0.2.tgz
+[bke][2026-03-26 07:48:49][step.4] Collect the bke binary file
+[bke][2026-03-26 07:48:49][INFO] The bke binary file version is . sh: line 1: /root/fuyao-26-03/packages/usr/bin/bkeadm_linux_amd64: cannot execute binary file: Exec format error
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 17 images generated from 17 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 16 images generated from 16 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 2 images generated from 2 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 10 images generated from 10 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+Getting image list signatures
+Copying 5 images generated from 5 images in list
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Getting image source signatures
+Writing manifest to image destination
+Writing manifest list to image destination
+Storing list signatures
+[bke][2026-03-26 08:41:56][INFO] The system starts to pack the image file.
+[bke][2026-03-26 08:43:49][INFO] Remove the image repository
+2026-03-26T08:43:49.940+0800    info    infrastructure/infrastructure.go:53     The docker client is ready.
+[bke][2026-03-26 08:43:51][step.7] Build the bke package, please wait for the larger package...
+[bke][2026-03-26 08:46:22][step.8] Packaging complete bke.tar.gz
+</code></pre><blockquote><p>openEuler 24.03 lts 部署 npu operator 有 pod 无法启动：</p></blockquote><pre tabindex=0><code>Every 1.0s: kubectl  get pod -A                                                                                                                                                                                                                                                                                                                          master1: Fri Mar 27 10:33:04 2026
+
+NAMESPACE                     NAME                                                 READY   STATUS             RESTARTS      AGE
+cluster-system                bkeagent-deployer-fcnfd                              1/1     Running            0             29m
+default                       mindio-acp-g67n9                                     1/1     Running            0             7m56s
+default                       mindio-tft-bk8mj                                     1/1     Running            0             7m57s
+ingress-nginx                 ingress-nginx-admission-create-fh4rv                 0/1     Completed          0             28m
+ingress-nginx                 ingress-nginx-admission-patch-nn79l                  0/1     Completed          2             28m
+ingress-nginx                 ingress-nginx-controller-jdb5s                       1/1     Running            0             28m
+kube-system                   ascend-device-plugin-5hmhf                           0/1     CrashLoopBackOff   6 (33s ago)   7m59s
+kube-system                   calico-kube-controllers-9c987b475-db86h              1/1     Running            0             29m
+kube-system                   calico-node-sfvjm                                    1/1     Running            0             29m
+kube-system                   coredns-6bd9b76578-2mqzh                             1/1     Running            2 (29m ago)   29m
+kube-system                   coredns-6bd9b76578-94pmp                             1/1     Running            2 (21m ago)   29m
+kube-system                   etcd-master1                                         1/1     Running            0             28m
+kube-system                   kube-apiserver-master1                               1/1     Running            0             27m
+kube-system                   kube-controller-manager-master1                      1/1     Running            1 (27m ago)   29m
+kube-system                   kube-proxy-rwpzc                                     1/1     Running            0             29m
+kube-system                   kube-scheduler-master1                               1/1     Running            1 (27m ago)   29m
+kube-system                   metrics-server-db68b78d-b8kkn                        1/1     Running            0             26m
+mindx-dl                      ascend-operator-manager-5d4d89f675-8dzn4             0/1     Pending            0             7m59s
+mindx-dl                      clusterd-5588c5dc88-qmblm                            0/1     Pending            0             7m57s
+mindx-dl                      noded-rc5lj                                          1/1     Running            0             7m59s
+mindx-dl                      resilience-controller-8686bbd76f-qzc2z               0/1     Pending            0             7m57s
+monitoring                    alertmanager-main-0                                  2/2     Running            0             28m
+monitoring                    alertmanager-main-1                                  2/2     Running            0             28m
+monitoring                    alertmanager-main-2                                  2/2     Running            0             28m
+monitoring                    blackbox-exporter-6877f5c5f7-66qn4                   3/3     Running            0             28m
+monitoring                    kube-state-metrics-6f6c47f5f4-4pt9s                  3/3     Running            0             28m
+monitoring                    node-exporter-ng468                                  2/2     Running            0             28m
+monitoring                    prometheus-k8s-0                                     2/2     Running            0             28m
+monitoring                    prometheus-k8s-1                                     2/2     Running            0             28m
+monitoring                    prometheus-operator-6698d7bc85-72xwx                 2/2     Running            0             28m
+npu-exporter                  npu-exporter-vnzk6                                   0/1     Pending            0             7m57s
+npu                           ascend-runtime-containerd-7s6jv                      1/1     Running            0             8m   
+npu                           npu-driver-l7rjp                                     1/1     Running            0             8m   
+npu                           npu-feature-discovery-xr7nt                          1/1     Running            0             19m
+npu                           npu-node-feature-discovery-gc-5d97746dbc-wvnx6       1/1     Running            0             9m52s
+npu                           npu-node-feature-discovery-master-664666b7bb-7qjfh   1/1     Running            0             9m43s
+npu                           npu-node-feature-discovery-worker-8mj5w              1/1     Running            0             9m38s
+npu                           npu-operator-5678cd59d4-ljvc8                        1/1     Running            0             19m
+openfuyao-system-controller   modify-manifests-master1-rhfqf                       0/1     Completed          0             27m
+openfuyao-system-controller   openfuyao-system-controller-798c4f6598-npmjs         1/1     Running            0             29m
+openfuyao-system              application-management-service-77457c5c85-g7b6z      2/2     Running            0             28m
+openfuyao-system              console-service-7fdb88c9c6-g2kp5                     1/1     Running            0             28m
+openfuyao-system              console-website-c78945fcc-dm6s4                      1/1     Running            0             28m
+openfuyao-system              local-harbor-chartmuseum-57fdd9949d-5xwh6            1/1     Running            0             28m
+openfuyao-system              local-harbor-core-6f7d4cc767-9rp6l                   1/1     Running            0             28m
+openfuyao-system              local-harbor-database-0                              1/1     Running            0             28m
+openfuyao-system              local-harbor-jobservice-7b8c9bf798-ms8qh             1/1     Running            4 (27m ago)   28m
+openfuyao-system              local-harbor-nginx-78b94f7b74-nflct                  1/1     Running            0             28m
+openfuyao-system              local-harbor-portal-6b8cbf6747-gq6wd                 1/1     Running            0             28m
+openfuyao-system              local-harbor-redis-0                                 1/1     Running            0             28m
+openfuyao-system              local-harbor-registry-7879c9d46d-d8wq6               2/2     Running            0             28m
+openfuyao-system              marketplace-service-5cf7cd6f5b-bmknq                 2/2     Running            0             28m
+openfuyao-system              monitoring-service-6fd8dbd59f-bwq96                  2/2     Running            0             28m
+openfuyao-system              oauth-server-64f6545c48-2hm7z                        1/1     Running            0             26m
+openfuyao-system              oauth-webhook-78cb864fc5-gsmw9                       1/1     Running            0             26m
+openfuyao-system              plugin-management-service-6fd8f64cc4-zvql8           2/2     Running            0             26m
+openfuyao-system              user-management-operator-9bb7bf64-6q9xg              1/1     Running            0             26m
+openfuyao-system              web-terminal-service-6f64b888f9-gdxpb                1/1     Running            0             26m
+volcano-system                volcano-controllers-6ffb787f8d-chk69                 0/1     Pending            0             7m58s
+volcano-system                volcano-scheduler-867f9784bb-tvhzh                   0/1     Pending            0             7m57s
+
+[root@master1 fuyao-26-03]# kubectl  -n kube-system logs ascend-device-plugin-5hmhf
+Defaulted container &#34;device-plugin-01&#34; out of: device-plugin-01, init-permission (init)
+[INFO]     2026/03/27 02:26:56.030212 1       hwlog/api.go:108    devicePlugin.log&#39;s logger init success
+[INFO]     2026/03/27 02:26:56.030715 1       main.go:187    ascend device plugin starting and the version is v6.0.0_linux-aarch64
+[INFO]     2026/03/27 02:26:56.030759 1       main.go:188    ascend device plugin starting scene is center
+2026/03/27 02:26:56 command exec failed, exit status 1
+[ERROR]    2026/03/27 02:26:56.032950 1       devmanager/devmanager.go:95    deviceManager init failed, prepare dcmi failed, err: cannot found valid driver lib, fromEnv: lib path is invalid, [], fromLdCmd: can&#39;t find valid lib: EOF
+[ERROR]    2026/03/27 02:26:56.033013 1       main.go:203    init devmanager failed, err: auto init failed, err: get chip info failed, err: device Manager is nil, may encounter an exception during initialization. You can check the system log to confirm
+</code></pre><h2 id=环境检查>环境检查<a hidden class=anchor aria-hidden=true href=#环境检查>#</a></h2><blockquote><p>参考 <a href=https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md>https://gitcode.com/openFuyao/sig-installation/blob/master/docs/zh/user_guide/cluster_installation_deployment/environment_pre_check_tool_guide.md</a></p></blockquote><pre tabindex=0><code>wget https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/env-check/releases/download/latest/bin/linux/arm64/envCheck
+wget https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/env-check/releases/download/latest/bin/linux/arm64/config.json
+</code></pre><p>文件检查：</p><pre tabindex=0><code>[root@localhost env]# ./envCheck query
+[INFO][2026-03-27 02:53:25] envCheck tool start
+[INFO][2026-03-27 02:53:25] mode: fileQuery
+[INFO][2026-03-27 02:53:25] file query start ......
+[INFO][2026-03-27 02:53:25] query path: [/root/.kube /etc/kubernetes /usr/local/bin/crictl /etc/sysctl.d/k8s.conf /etc/systemd/system/kubelet.service /etc/systemd/system/kubelet.service.d /var/lib/etcd /var/lib/kubelet /run/containerd/containerd.sock /usr/lib/systemd/system/kubelet.service.d /var/run/containerd/containerd.sock /var/run/docker.sock]
+[INFO][2026-03-27 02:53:25] path not exist: /root/.kube
+[INFO][2026-03-27 02:53:25] path not exist: /etc/kubernetes
+[INFO][2026-03-27 02:53:25] path not exist: /usr/local/bin/crictl
+[INFO][2026-03-27 02:53:25] path not exist: /etc/sysctl.d/k8s.conf
+[INFO][2026-03-27 02:53:25] path not exist: /etc/systemd/system/kubelet.service
+[INFO][2026-03-27 02:53:25] path not exist: /etc/systemd/system/kubelet.service.d
+[INFO][2026-03-27 02:53:25] path not exist: /var/lib/etcd
+[INFO][2026-03-27 02:53:25] path not exist: /var/lib/kubelet
+[INFO][2026-03-27 02:53:25] path not exist: /run/containerd/containerd.sock
+[INFO][2026-03-27 02:53:25] path not exist: /usr/lib/systemd/system/kubelet.service.d
+[INFO][2026-03-27 02:53:25] path not exist: /var/run/containerd/containerd.sock
+[WARNING][2026-03-27 02:53:25] file exist: /var/run/docker.sock
+[INFO][2026-03-27 02:53:25] file query completed
+
+Query Time: 2026-03-27 02:53:25
+
++-------------------------------------------+---------+---------+-------+--------+-------------+
+|                   Path                    | Exists  |  Type   | Owner | Group  | Permissions |
++-------------------------------------------+---------+---------+-------+--------+-------------+
+|                /root/.kube                | Missing | Missing |-------+--------+-------------+
+|              /etc/kubernetes              | Missing | Missing |-------+--------+-------------+
+|           /usr/local/bin/crictl           | Missing | Missing |-------+--------+-------------+
+|          /etc/sysctl.d/k8s.conf           | Missing | Missing |-------+--------+-------------+
+|    /etc/systemd/system/kubelet.service    | Missing | Missing |-------+--------+-------------+
+|   /etc/systemd/system/kubelet.service.d   | Missing | Missing |-------+--------+-------------+
+|               /var/lib/etcd               | Missing | Missing |-------+--------+-------------+
+|             /var/lib/kubelet              | Missing | Missing |-------+--------+-------------+
+|      /run/containerd/containerd.sock      | Missing | Missing |-------+--------+-------------+
+| /usr/lib/systemd/system/kubelet.service.d | Missing | Missing |-------+--------+-------------+
+|    /var/run/containerd/containerd.sock    | Missing | Missing |-------+--------+-------------+
+|           /var/run/docker.sock            | Exists  |  File   | root  | docker | Srw-rw----  |
++-------------------------------------------+---------+---------+-------+--------+-------------+
+
++-------------------+-------+
+|      Summary      | Count |
++-------------------+-------+
+|   Total Checked   |  12   |
+|   Total Exists    |   1   |
+|   Total Missing   |  11   |
+| Total Directories |   0   |
+|    Total Files    |   1   |
++-------------------+-------+
+
+
+[INFO][2026-03-27 02:53:25] completed
+</code></pre><p>程序存在性检测：</p><pre tabindex=0><code>[root@localhost env]# ./envCheck check
+[INFO][2026-03-27 02:54:04] envCheck tool start
+[INFO][2026-03-27 02:54:04] mode: programCheck
+[INFO][2026-03-27 02:54:04] program check start......
+[INFO][2026-03-27 02:54:04] os: linux, arch: arm64
+[INFO][2026-03-27 02:54:04] program list to check: [docker kubectl containerd]
+[INFO][2026-03-27 02:54:04] check program: docker
+[WARNING][2026-03-27 02:54:04] docker installed - version: Docker version 18.09.0, build d51e3ad
+[INFO][2026-03-27 02:54:04] check program: kubectl
+[INFO][2026-03-27 02:54:04] not install: kubectl
+[INFO][2026-03-27 02:54:04] check program: containerd
+[WARNING][2026-03-27 02:54:04] containerd installed - version: time=&#34;2026-03-27T02:54:04Z&#34; level=warning msg=&#34;init error, wrong runtimeTimeout format: time: invalid duration &#34;&#34;&#34; 
+containerd  version:1.2.0.320.oe2203sp4 871075eb7cc979944ba2d987719cb534bbb87e5c
+[INFO][2026-03-27 02:54:04] program check completed
+[WARNING][2026-03-27 02:54:04] detected installed application(s): docker, containerd. Please uninstall it(them) yourself
+
+Check Time: 2026-03-27 02:54:04
+
++------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+|  Program   |    Status     |                                                                                               Version                                                                                                |        Path         |
++------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+|   docker   |   Installed   |                                                                                Docker version 18.09.0, build d51e3ad                                                                                 |   /usr/bin/docker   |
+|  kubectl   | Not Installed |                                                                                               Unknown                                                                                                |      Not found      |
+| containerd |   Installed   | time=&#34;2026-03-27T02:54:04Z&#34; level=warning msg=&#34;init error, wrong runtimeTimeout format: time: invalid duration &#34;&#34;&#34; 
+containerd  version:1.2.0.320.oe2203sp4 871075eb7cc979944ba2d987719cb534bbb87e5c | /usr/bin/containerd |
++------------+---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+
++-----------------+-------+
+|     Summary     | Count |
++-----------------+-------+
+|  Total Checked  |   3   |
+| Total Installed |   2   |
+|  Total Missing  |   1   |
++-----------------+-------+
+
+
+[INFO][2026-03-27 02:54:04] completed
+</code></pre><h2 id=在线部署>在线部署<a hidden class=anchor aria-hidden=true href=#在线部署>#</a></h2><blockquote><p>部署完毕浏览 NPU Operator 文档才发现需满足 openEuler 22.03 lts 条件，故重装
+<a href=https://docs.openfuyao.cn/zh/docs/v25.12/user_guide/npu_operator.html#%E5%AE%89%E8%A3%85>https://docs.openfuyao.cn/zh/docs/v25.12/user_guide/npu_operator.html#%E5%AE%89%E8%A3%85</a></p></blockquote><ul><li>CPU: <code>Kunpeng-920</code></li><li>OS: <code>openEuler 22.03 (LTS-SP4) aarch64</code></li><li>Fuyao Version: <code>v26.03 rc3</code></li><li>docker: <code>2:18.09.0-346.oe2403sp3</code></li></ul><p>使用 <code>openEuler 22.03 (LTS-SP4) aarch64 cloud</code> 镜像全新安装、扩容硬盘后部署。</p><pre tabindex=0><code>[root@localhost fuyao-26.3-rc3]# ./bkeadm_linux_arm64 init --otherRepo cr.openfuyao.cn/openfuyao/bke-online-installed:latest
+--hostIP:            10.17.30.131
+--domain:            deploy.bocloud.k8s
+--kubernetesPort:    36443
+--imageRepoPort:     40443
+--yumRepoPort:       40080
+--chartRepoPort:     38080
+--ntpServer:         cn.pool.ntp.org:123
+--runtime:           containerd
+--runtimeStorage:    /var/lib/containerd
+--clusterAPI:        1.2.1
+--oFVersion:         v26.03-rc.3
+--versionUrl:        https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/version-config/
+--enableNTP:         true
+--agentHealthPort:   58080
+--otherRepo:         cr.openfuyao.cn/openfuyao/bke-online-installed:latest
+Confirm the parameters, press Y to continue N will exit. [Y/N]? y
+[bke][2026-03-27 02:57:16][INFO] BKE initialize ...
+[bke][2026-03-27 02:57:16][INFO] HOSTNAME: localhost
+[bke][2026-03-27 02:57:16][INFO] PLATFORM: openeuler
+[bke][2026-03-27 02:57:16][INFO] Version:  22.03
+[bke][2026-03-27 02:57:16][INFO] KERNEL:   5.10.0-216.0.0.115.oe2203sp4.aarch64
+[bke][2026-03-27 02:57:16][INFO] GOOS:     linux
+[bke][2026-03-27 02:57:16][INFO] ARCH:     arm64
+[bke][2026-03-27 02:57:16][INFO] CPU:      8
+[bke][2026-03-27 02:57:16][INFO] MEMORY:   16G
+[bke][2026-03-27 02:57:16][INFO] BKE Console: ENABLED
+[bke][2026-03-27 02:57:16][INFO] BKE initialize environment check...
+[bke][2026-03-27 02:57:16][WARN] Client authentication enabled but no credentials provided
+2026-03-27T02:57:16.485Z        info    infrastructure/infrastructure.go:53     The docker client is ready.
+[bke][2026-03-27 02:57:16][INFO] set up the host machine zone
+[bke][2026-03-27 02:57:16][INFO] set ntp server
+Fri Mar 27 02:57:15 AM CST 2026
+
+[bke][2026-03-26 18:57:15][INFO] config local source
+[bke][2026-03-26 18:57:15][INFO] 在线模式：domain：deploy.bocloud.k8s 绑定到默认IP：10.17.30.131
+[bke][2026-03-26 18:57:49][INFO] iptables -V output: iptables v1.8.7 (legacy)
+[bke][2026-03-26 18:57:49][INFO] workDir /bke mod permission success
+[bke][2026-03-26 18:57:49][ERROR] Failed to start the container service, open /bke/mount/source_registry/files: no such file or directory
+</code></pre><p>最新版似乎修改了命令参数，使用最新参数正常。</p><pre tabindex=0><code>[root@stl-fuyao-2603 fuyao-26.3-rc3]# ./bkeadm_linux_arm64 init --onlineImage cr.openfuyao.cn/openfuyao/bke-online-installed:latest
+--hostIP:            10.17.30.131
+--domain:            deploy.bocloud.k8s
+--kubernetesPort:    36443
+--imageRepoPort:     40443
+--yumRepoPort:       40080
+--chartRepoPort:     38080
+--ntpServer:         cn.pool.ntp.org:123
+--runtime:           containerd
+--runtimeStorage:    /var/lib/containerd
+--clusterAPI:        1.2.1
+--oFVersion:         v26.03-rc.3
+--versionUrl:        https://openfuyao.obs.cn-north-4.myhuaweicloud.com/openFuyao/version-config/
+--enableNTP:         true
+--agentHealthPort:   58080
+--onlineImage:       cr.openfuyao.cn/openfuyao/bke-online-installed:latest
+Confirm the parameters, press Y to continue N will exit. [Y/N]? y
+[bke][2026-03-27 11:36:51][INFO] BKE initialize ...
+[bke][2026-03-27 11:36:51][INFO] HOSTNAME: stl-fuyao-2603
+[bke][2026-03-27 11:36:51][INFO] PLATFORM: openeuler
+[bke][2026-03-27 11:36:51][INFO] Version:  22.03
+[bke][2026-03-27 11:36:51][INFO] KERNEL:   5.10.0-216.0.0.115.oe2203sp4.aarch64
+[bke][2026-03-27 11:36:51][INFO] GOOS:     linux
+[bke][2026-03-27 11:36:51][INFO] ARCH:     arm64
+[bke][2026-03-27 11:36:51][INFO] CPU:      8
+[bke][2026-03-27 11:36:51][INFO] MEMORY:   16G
+[bke][2026-03-27 11:36:51][INFO] BKE Console: ENABLED
+[bke][2026-03-27 11:36:51][INFO] BKE initialize environment check...
+[bke][2026-03-27 11:36:51][WARN] Client authentication enabled but no credentials provided
+[bke][2026-03-27 11:36:51][INFO] set up the host machine zone
+[bke][2026-03-27 11:36:51][INFO] set ntp server
+Fri Mar 27 11:36:51 AM CST 2026
+
+[bke][2026-03-27 11:36:51][INFO] config local source
+[bke][2026-03-27 11:36:51][INFO] 在线模式：domain：deploy.bocloud.k8s 绑定到默认IP：10.17.30.131
+[bke][2026-03-27 11:36:51][WARN] 无法解析私有仓库地址，跳过CA证书配置
+[bke][2026-03-27 11:36:51][INFO] Using client certificate authentication(CA only)
+[bke][2026-03-27 11:36:51][INFO] Download source file...
+[bke][2026-03-27 11:36:53][INFO] Writing data...
+...
+[bke][2026-03-27 13:48:19][INFO] containerd sandbox image: hub.oepkgs.net/openfuyao/pause:3.9
+[bke][2026-03-27 13:48:19][INFO] Created offline special hosts.toml: /etc/containerd/certs.d/127.0.0.1:40443/hosts.toml
+[bke][2026-03-27 13:48:19][INFO] wait for containerd to start
+[bke][2026-03-27 13:48:19][INFO] Waiting for containerd to be ready
+...
+成功解压： /opt/cni/bin/vrf , 共处理了 4007138 个字符
+[bke][2026-03-27 13:48:20][INFO] Start the base dependency service
+[bke][2026-03-27 13:48:21][INFO] Image hub.oepkgs.net/openfuyao/registry:2.8.1 is downloading
+[bke][2026-03-27 13:48:29][INFO] Wait for the container mirroring service to start...
+[bke][2026-03-27 13:48:34][INFO] The container mirroring service is started by containerd. 
+[bke][2026-03-27 13:48:34][INFO] Image hub.oepkgs.net/openfuyao/nginx:1.23.0-alpine is downloading
+[bke][2026-03-27 13:48:43][INFO] Wait for the container yum service to start...
+[bke][2026-03-27 13:48:48][INFO] The container yum service is started. 
+[bke][2026-03-27 13:48:48][INFO] Image hub.oepkgs.net/openfuyao/helm/chartmuseum:v0.16.2 is downloading
+[bke][2026-03-27 13:49:05][INFO] Wait for the chart mirroring service to start...
+[bke][2026-03-27 13:49:10][INFO] The chart mirroring service is started. 
+[bke][2026-03-27 13:49:10][INFO] Image hub.oepkgs.net/openfuyao/openebs/nfs-server-alpine:0.9.0 is downloading
+[bke][2026-03-27 13:49:17][INFO] Wait for the nfs mirroring service to start...
+[bke][2026-03-27 13:49:22][INFO] The nfs mirroring service is started. 
+[bke][2026-03-27 13:49:22][INFO] Image hub.oepkgs.net/openfuyao/rancher/k3s:v1.25.16-k3s4 is downloading
+2026-03-27T13:50:07.914+0800    info    k3s/k3s.go:314  params: onlineImage=cr.openfuyao.cn/openfuyao/bke-online-installed:latest otherRepo=, otherRepoIp=, hostIP=10.17.30.131, imageRepo=deploy.bocloud.k8s, imageRepoPort=40443, kubernetesPort=36443
+[bke][2026-03-27 13:50:07][INFO] Start the local Kubernetes cluster...
+[bke][2026-03-27 13:50:10][ERROR] Failed to copy kubectl from the container
+[bke][2026-03-27 13:50:10][ERROR] Failed to start kubernetes exit status 1
+[bke][2026-03-27 13:50:10][ERROR] Failed to start cluster API, exit status 1
+</code></pre><p>似乎启动失败，居然是因为 tar 没有安装？</p><pre tabindex=0><code>[root@stl-fuyao-2603 fuyao-26.3-rc3]# nerdctl cp kubernetes:/bin/k3s /tmp/test-k3s
+FATA[0000] unable to copy: failed to find `tar` binary 
+</code></pre><p>安装 tar 后解决，顺利部署。</p><h2 id=npu-operator>Npu Operator<a hidden class=anchor aria-hidden=true href=#npu-operator>#</a></h2><pre tabindex=0><code>NAMESPACE                     NAME                                                          READY   STATUS             RESTARTS        AGE
+cluster-system                bkeagent-deployer-h2flc                                       1/1     Running            0               65m
+ingress-nginx                 ingress-nginx-admission-create-xqwmf                          0/1     Completed          0               62m
+ingress-nginx                 ingress-nginx-admission-patch-4dcjr                           0/1     Completed          1               62m
+ingress-nginx                 ingress-nginx-controller-p5nrm                                1/1     Running            0               62m
+kube-system                   ascend-device-plugin-xtfkb                                    0/1     CrashLoopBackOff   7 (4m34s ago)   16m
+kube-system                   calico-kube-controllers-6d75d78f5d-tfjvf                      1/1     Running            0               65m
+kube-system                   calico-node-xtd99                                             1/1     Running            0               65m
+kube-system                   coredns-6c6fdbdb66-24cn4                                      1/1     Running            0               65m
+kube-system                   coredns-6c6fdbdb66-w29mt                                      1/1     Running            1 (63m ago)     65m
+kube-system                   etcd-master1                                                  1/1     Running            0               64m
+kube-system                   kube-apiserver-master1                                        1/1     Running            0               55m
+kube-system                   kube-controller-manager-master1                               1/1     Running            1 (55m ago)     65m
+kube-system                   kube-proxy-xxgz4                                              1/1     Running            0               65m
+kube-system                   kube-scheduler-master1                                        1/1     Running            1 (55m ago)     65m
+kube-system                   metrics-server-586f979f47-4b6fz                               1/1     Running            0               54m
+mindx-dl                      ascend-operator-manager-5d4d89f675-tbjpv                      0/1     Pending            0               15m
+mindx-dl                      clusterd-5588c5dc88-2fd5g                                     1/1     Running            0               16m
+mindx-dl                      resilience-controller-8686bbd76f-jv5lp                        1/1     Running            0               16m
+monitoring                    alertmanager-main-0                                           2/2     Running            0               51m
+monitoring                    alertmanager-main-1                                           2/2     Running            0               51m
+monitoring                    alertmanager-main-2                                           2/2     Running            0               51m
+monitoring                    blackbox-exporter-6d6fbbfc96-cl6sg                            3/3     Running            0               56m
+monitoring                    kube-state-metrics-677558db89-9rtbl                           3/3     Running            0               56m
+monitoring                    node-exporter-4mzzl                                           2/2     Running            0               56m
+monitoring                    prometheus-k8s-0                                              2/2     Running            0               51m
+monitoring                    prometheus-k8s-1                                              2/2     Running            0               51m
+monitoring                    prometheus-operator-5cb64c846d-8m55t                          2/2     Running            0               56m
+npu                           ascend-runtime-containerd-pg5q4                               1/1     Running            0               16m
+npu                           npu-driver-66dqf                                              0/1     Init:0/1           0               103s
+npu                           npu-feature-discovery-rr68r                                   1/1     Running            0               17m
+npu                           npu-operator-5858d99c89-lgd24                                 1/1     Running            0               17m
+npu                           npu-operator-node-feature-discovery-gc-5cf8bc768d-6w4b4       1/1     Running            0               17m
+npu                           npu-operator-node-feature-discovery-master-5985b5cfcd-swdqs   1/1     Running            0               17m
+npu                           npu-operator-node-feature-discovery-worker-q5ct6              1/1     Running            0               17m
+openfuyao-system-controller   modify-manifests-master1-sjxrv                                0/1     Completed          0               55m
+openfuyao-system-controller   openfuyao-system-controller-8444679b95-jv8jg                  1/1     Running            0               65m
+openfuyao-system              application-management-service-75799d4dd6-8vm9w               2/2     Running            0               55m
+openfuyao-system              console-service-84bbd85575-grtwx                              1/1     Running            0               55m
+openfuyao-system              console-website-855c9d8f65-8btkl                              1/1     Running            0               61m
+openfuyao-system              local-harbor-chartmuseum-7f96745849-d7vzk                     1/1     Running            0               56m
+openfuyao-system              local-harbor-core-5f847798b8-khkf4                            1/1     Running            1 (51m ago)     56m
+openfuyao-system              local-harbor-database-0                                       1/1     Running            0               56m
+openfuyao-system              local-harbor-jobservice-7d67f4f887-svklq                      1/1     Running            3 (47m ago)     56m
+openfuyao-system              local-harbor-nginx-6449749746-pbzkc                           1/1     Running            0               56m
+openfuyao-system              local-harbor-portal-78bf65c9-rqmk6                            1/1     Running            0               56m
+openfuyao-system              local-harbor-redis-0                                          1/1     Running            0               56m
+openfuyao-system              local-harbor-registry-65884895bf-ff2wd                        2/2     Running            0               56m
+openfuyao-system              marketplace-service-5c79cbcbfc-swg9r                          2/2     Running            0               55m
+openfuyao-system              monitoring-service-79fc57c6b4-47vbm                           2/2     Running            0               56m
+openfuyao-system              oauth-server-68b6655d95-c8pzx                                 1/1     Running            0               54m
+openfuyao-system              oauth-webhook-6995d46758-g47xn                                1/1     Running            0               54m
+openfuyao-system              plugin-management-service-84bfcd6565-2bmz2                    2/2     Running            0               54m
+openfuyao-system              user-management-operator-8d79bd8b8-jr4sk                      1/1     Running            0               54m
+openfuyao-system              web-terminal-service-6d858d974-hpjw6                          1/1     Running            0               54m
+volcano-system                volcano-controllers-6ffb787f8d-mxxph                          1/1     Running            0               16m
+volcano-system                volcano-scheduler-867f9784bb-vsswv                            0/1     Pending            0               16m
+</code></pre><pre tabindex=0><code>kube-system                   ascend-device-plugin-sbxr7                           0/1     CrashLoopBackOff   6 (100s ago)   9m57s
+</code></pre><pre tabindex=0><code>[root@master1 ~]# kubectl -n kube-system logs ascend-device-plugin-sbxr7  
+Defaulted container &#34;device-plugin-01&#34; out of: device-plugin-01, init-permission (init)  
+[INFO]     2026/03/27 07:27:47.189809 1       hwlog/api.go:108    devicePlugin.log&#39;s logger init success  
+[INFO]     2026/03/27 07:27:47.190348 1       main.go:187    ascend device plugin starting and the version is v6.0.0_linux-aarch64  
+[INFO]     2026/03/27 07:27:47.190416 1       main.go:188    ascend device plugin starting scene is center  
+2026/03/27 07:27:47 command exec failed, exit status 1  
+[ERROR]    2026/03/27 07:27:47.192892 1       devmanager/devmanager.go:95    deviceManager init failed, prepare dcmi failed, err: cannot found valid driver lib, fromEnv: lib path is invalid, [], fromLdCmd: can&#39;t find valid lib: EOF  
+[ERROR]    2026/03/27 07:27:47.192970 1       main.go:203    init devmanager failed, err: auto init failed, err: get chip info failed, err: device Manager is nil, may encounter an exception during initialization. You can check the system log to confirm
+</code></pre><p>驱动安装失败：</p><pre tabindex=0><code>[root@master1 ~]# kubectl -n npu logs -f npu-driver-lxv5c -c npu-driver-installer
+Checking if /mnt/usr/local/sbin/npu-smi exists...
+master1 is not an option, please use -h to view help
+[2026-03-27 15:55:00, [INFO] No operation specified, default install operation on node: --
+[2026-03-27 15:55:00, [INFO] install npu-driver
+[2026-03-27 15:55:00, [INFO] copy npu-install to host
+[2026-03-27 15:55:00, [INFO] copy npu-install to host success
+[2026-03-27 15:55:00,303677070] [INFO] Install dependency packages
+[2026-03-27 15:55:00,305026980] [INFO] Using yum for package installation
+5 files removed
+repo                                            4.3 MB/s |  33 kB     00:00    
+Metadata cache created.
+[2026-03-27 15:55:01,143913450] [INFO] jq is already installed, skipping...
+[2026-03-27 15:55:01,150749780] [INFO] wget is already installed, skipping...
+[2026-03-27 15:55:01,156894190] [INFO] Installing unzip...
+No match for argument: unzip
+Error: Unable to find a match: unzip
+[2026-03-27 15:55:01,599984660] [FATAL] Failed to install unzip using yum
+[2026-03-27 15:55:01, [FATAL] install failed: --
+</code></pre><blockquote><p>因为主机缺少 unizp 导致失败，但是该容器没有任何异常，无法感知错误。
+从清单可以看到 ascend-device-plugin-sbxr7 容器一直由于找不到驱动异常退出，而实际原因是 npu-driver-66dqf pod 没有正常安装驱动，但没有退出，反而正常运行。模糊了实际错误点。</p></blockquote><p>安装 unzip 后正常：</p><pre tabindex=0><code>[root@master1 ~]# kubectl -n npu logs -f npu-driver-66dqf -c npu-driver-installer
+Checking if /mnt/usr/local/sbin/npu-smi exists...
+master1 is not an option, please use -h to view help
+[2026-03-27 15:57:58, [INFO] No operation specified, default install operation on node: --
+[2026-03-27 15:57:58, [INFO] install npu-driver
+[2026-03-27 15:57:58, [INFO] copy npu-install to host
+[2026-03-27 15:57:58, [INFO] copy npu-install to host success
+[2026-03-27 15:57:58,069791170] [INFO] Install dependency packages
+[2026-03-27 15:57:58,070929430] [INFO] Using yum for package installation
+48 files removed
+repo                                            5.1 MB/s |  33 kB     00:00    
+OS                                               67 MB/s | 3.3 MB     00:00    
+everything                                       76 MB/s |  17 MB     00:00    
+EPOL                                             65 MB/s | 4.7 MB     00:00    
+debuginfo                                        69 MB/s | 3.9 MB     00:00    
+source                                           59 MB/s | 1.8 MB     00:00    
+update                                           79 MB/s |  71 MB     00:00 
+</code></pre><p>可以看到花费了大量时间在 init 阶段，这样才是正常的：</p><pre tabindex=0><code>npu                           npu-driver-66dqf                                              0/1     Init:0/1           0             3m51s
+</code></pre><p>虚拟机运行似乎会有这个错误</p><pre tabindex=0><code>kubectl  -n kube-system delete pod ascend-device-plugin-xtfkb
+
+[Driver] [2026-03-27 16:03:40] [INFO]upgradePercentage:100%
+[Driver] [2026-03-27 16:03:42] [INFO]Driver package installed successfully! The new version takes effect immediately.
+[Driver] [2026-03-27 16:03:42] [INFO]End time: 2026-03-27 16:03:42
+[Firmware] [2026-03-27 16:03:43] [INFO]Start time: 2026-03-27 16:03:43
+[Firmware] [2026-03-27 16:03:43] [INFO]LogFile: /var/log/ascend_seclog/ascend_install.log
+[Firmware] [2026-03-27 16:03:43] [INFO]OperationLogFile: /var/log/ascend_seclog/operation.log
+[Firmware] [2026-03-27 16:03:43] [WARNING]Do not power off or restart the system during the installation/upgrade
+[Firmware] [2026-03-27 16:03:43] [ERROR]Not a physical-machine, firmware upgrade does not support.
+[Firmware] [2026-03-27 16:03:43] [INFO]End time: 2026-03-27 16:03:43 
+</code></pre><p>但驱动等已经部署完毕：</p><pre tabindex=0><code>[root@master1 ~]# npu-smi info  
++--------------------------------------------------------------------------------------------------------+  
+| npu-smi 24.1.rc3                                 Version: 24.1.rc3                                     |  
++-------------------------------+-----------------+------------------------------------------------------+  
+| NPU     Name                  | Health          | Power(W)     Temp(C)           Hugepages-Usage(page) |  
+| Chip    Device                | Bus-Id          | AICore(%)    Memory-Usage(MB)                        |  
++===============================+=================+======================================================+  
+| 176     310P3                 | OK              | NA           56                0     / 0             |  
+| 0       0                     | 0000:00:16.0    | 0            1838 / 21527                            |  
++===============================+=================+======================================================+  
++-------------------------------+-----------------+------------------------------------------------------+  
+| NPU     Chip                  | Process id      | Process name             | Process memory(MB)        |  
++===============================+=================+======================================================+  
+| No running processes found in NPU 176                                                                  |  
++===============================+=================+======================================================+
+</code></pre><p>但是这个容器依然无法正常运行：</p><pre tabindex=0><code>[root@master1 ~]# kubectl -n kube-system logs -f -l name=ascend-device-plugin-ds -c device-plugin-01
+[INFO]     2026/03/27 08:19:41.677826 1       hwlog/api.go:108    devicePlugin.log&#39;s logger init success
+[INFO]     2026/03/27 08:19:41.678051 1       main.go:187    ascend device plugin starting and the version is v6.0.0_linux-aarch64
+[INFO]     2026/03/27 08:19:41.678116 1       main.go:188    ascend device plugin starting scene is center
+[INFO]     2026/03/27 08:19:41.900653 1       devmanager/devmanager.go:104    the dcmi version is 24.1.rc3
+[ERROR]    2026/03/27 08:19:41.900744 1       devmanager/devmanager.go:211    get error card quantity: 0
+[ERROR]    2026/03/27 08:19:41.900780 1       devmanager/devmanager.go:195    get card list failed for init
+[ERROR]    2026/03/27 08:19:41.900828 1       main.go:203    init devmanager failed, err: auto init failed, err: get card list failed for init
+</code></pre><h2 id=部署后防火墙问题>部署后防火墙问题<a hidden class=anchor aria-hidden=true href=#部署后防火墙问题>#</a></h2><p>另外发现 openEuler iptables 默认，还是 openFuyao 默认配置，iptables 默认 FORWARD 为 Drop，会导致部署后无法访问。</p><pre tabindex=0><code>[root@stl-fuyao-2603 ~]# iptables -L -n
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy DROP)
+target     prot opt source               destination         
+CNI-ISOLATION-STAGE-1  all  --  0.0.0.0/0            0.0.0.0/0            /* CNI firewall plugin rules (ingressPolicy: same-bridge) */
+CNI-FORWARD  all  --  0.0.0.0/0            0.0.0.0/0            /* CNI firewall plugin rules */
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+</code></pre><p>需 配置解决</p><pre tabindex=0><code>iptables -P FORWARD ACCEPT
+</code></pre><h2 id=部署时软件源问题>部署时软件源问题<a hidden class=anchor aria-hidden=true href=#部署时软件源问题>#</a></h2><pre tabindex=0><code>[root@master1 ~]# cp /etc/yum.repos.d/b
+bak/      bke.repo
+</code></pre><p>默认移除系统自带软件源，部署后无法再安装软件，需自行配置。
+能否通过更加灵活的方式，如配置优先级的方式来规避直接移除软件源。</p><h2 id=压缩工具检查>压缩工具检查<a hidden class=anchor aria-hidden=true href=#压缩工具检查>#</a></h2><p>建议参考这种：</p><pre tabindex=0><code>root@hosthatch-us1:~# sudo -v ; curl https://rclone.org/install.sh | sudo bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current               
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  4734  100  4734    0     0   8458      0 --:--:-- --:--:-- --:--:--  8468
+                                                                                              
+None of the supported tools for extracting zip archives (unzip 7z busybox) were found. Please install one of them and try again.
+</code></pre><p>带有明确错误说明。</p><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/>
+知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://www.frytea.com/tags/openfuyao/>🏷 OpenFuyao</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on twitter" href="https://twitter.com/intent/tweet/?text=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f&amp;hashtags=openFuyao"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f&amp;title=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a&amp;summary=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a&amp;source=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f&title=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on whatsapp" href="https://api.whatsapp.com/send?text=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a%20-%20https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share openFuyao 2603 共测测试报告 on telegram" href="https://telegram.me/share/url?text=openFuyao%202603%20%e5%85%b1%e6%b5%8b%e6%b5%8b%e8%af%95%e6%8a%a5%e5%91%8a&amp;url=https%3a%2f%2fwww.frytea.com%2farchives%2f1654%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://www.frytea.com/archives/1655/><span class=title>« 上一页</span>
+<span>openFuyao NPU-Operator故障排查</span>
+</a><a class=next href=https://www.frytea.com/archives/1653/><span class=title>下一页 »</span>
+<span>openFuyao InferNex AI推理集成部署 310P(300I Pro) 环境问题记录及解决</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://www.frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span class=footer-links><a href=/about/>关于</a>
+<span aria-hidden=true>•</span>
+<a href=/disclaimer/>免责声明</a>
+<span aria-hidden=true>•</span>
+<a href=/sitemap.xml target=view_window>站点地图</a>
+<span aria-hidden=true>•</span>
+<a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
+<span aria-hidden=true>•</span>
+<span class=gc-site-stats id=gc-site-stats style=display:none;align-items:center;gap:.3em;margin-top:0 title=全站浏览量><span class=gc-spinner id=gc-site-spinner></span>
+<span id=gc-site-count style=display:none;align-items:center;gap:.3em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span id=gc-site-num></span></span></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+  (function () {
+    
+    
+    var gcScript = document.querySelector('script[data-goatcounter]');
+    if (!gcScript) return;
+    var gcBase = gcScript.getAttribute('data-goatcounter').replace(/\/count$/, '');
+
+    
+    
+    
+    function fetchCount(path, onSuccess, onError) {
+      var cleanPath = (path || '/').trim();
+      if (cleanPath !== '/') cleanPath = cleanPath.replace(/\/+$/, '');
+      if (cleanPath && !cleanPath.startsWith('/')) cleanPath = '/' + cleanPath;
+
+      fetch(gcBase + '/counter' + cleanPath + '.json')
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (d) { onSuccess(d.count); })
+        .catch(function (e) { if (onError) onError(e); });
+    }
+
+    
+    document.querySelectorAll('.gc-pv-wrapper[data-gc-path]').forEach(function (wrapper) {
+      var path = wrapper.getAttribute('data-gc-path');
+      var spinner = wrapper.querySelector('.gc-spinner');
+      var countEl = wrapper.querySelector('.gc-pv-count');
+      var numEl = wrapper.querySelector('.gc-pv-num');
+      if (!path || !countEl || !numEl) return;
+
+      fetchCount(
+        path,
+        function (count) {
+          if (spinner) spinner.style.display = 'none';
+          numEl.textContent = count;
+          countEl.style.display = 'inline-flex';
+        },
+        function () {
+          wrapper.style.display = 'none';
+        }
+      );
+    });
+
+    
+    
+    
+    
+    var totalPath = '/';
+    var statsWrap = document.getElementById('gc-site-stats');
+    var siteSpinner = document.getElementById('gc-site-spinner');
+    var siteCount = document.getElementById('gc-site-count');
+    var siteNum = document.getElementById('gc-site-num');
+
+    if (statsWrap && siteNum) {
+      fetchCount(
+        totalPath,
+        function (count) {
+          if (siteSpinner) siteSpinner.style.display = 'none';
+          siteNum.textContent = count;
+          if (siteCount) siteCount.style.display = 'inline-flex';
+          statsWrap.style.display = 'inline-flex';
+        },
+        function () {
+          statsWrap.style.display = 'none';
+        }
+      );
+    }
+  })();
+</script><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+    
+    if ('serviceWorker' in navigator) {
+        
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script></body></html>

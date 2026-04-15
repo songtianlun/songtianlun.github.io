@@ -74,7 +74,38 @@
 <svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
 <svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://www.frytea.com/tags/ title="🏷️ 标签"><span>🏷️ 标签</span></a></li><li><a href=https://www.frytea.com/search/ title="🔍 索引 (Alt + /)" accesskey=/><span>🔍 索引</span></a></li><li><a href=https://www.frytea.com/projects/ title="🗂 项目"><span>🗂 项目</span></a></li><li><a href=https://www.frytea.com/friends title="🧑‍🤝‍🧑 友链"><span>🧑‍🤝‍🧑 友链</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><header class=page-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://www.frytea.com/>主页</a>
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
-<a href=https://www.frytea.com/categories/>Categories</a></nav><h1>技术笔记</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>Wordpress鼠标点击出现爱心</h2></header><section class=entry-content><p><p>同上文，眼馋各大博主博客令人眼前一亮的设计，想要给自己博客也打扮打扮，今天就来弄弄鼠标点击出现爱心的效果吧！
+<a href=https://www.frytea.com/categories/>Categories</a></nav><h1>技术笔记</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>Linux 常用命令</h2></header><section class=entry-content><p><p>Linux常用命令 端口占用查询 netstat -apn Centos查看端口占用情况命令 比如查看80端口占用情况使用如下命令：
+lsof -i tcp:80
+列出所有端口 netstat -ntlp
+程序归属（master为例） locate master | grep '/master$'
+初始化（新安装命令生效） sudo updatedb
+进程管理 查进程 ps命令查找与进程相关的PID号：
+ps a 显示现行终端机下的所有程序，包括其他用户的程序。
+ps -A 显示所有程序。
+ps c 列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。
+ps -e 此参数的效果和指定"A"参数相同。
+ps e 列出程序时，显示每个程序所使用的环境变量。
+ps f 用ASCII字符显示树状结构，表达程序间的相互关系。
+ps -H 显示树状结构，表示程序间的相互关系。
+ps -N 显示所有的程序，除了执行ps指令终端机下的程序之外。
+ps s 采用程序信号的格式显示程序状况。
+ps S 列出程序时，包括已中断的子程序资料。
+ps -t&lt;终端机编号> 指定终端机编号，并列出属于该终端机的程序的状况。
+ps u 以用户为主的格式来显示程序状况。
+ps x 显示所有程序，不以终端机来区分。
+杀进程 使用kill命令结束进程：kill xxx
+例：kill －9 324
+Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
+SSH使用 1 ssh远程登录服务器 ssh username@remote_ip #将username换成自己的用户名，将remote_ip换成远程服务器的ip地址 2 将文件/文件夹从远程服务器拷至本地(scp) scp -r username@remote_ip:/home/username/remotefile.txt 3 将文件/文件夹从本地拷至远程服务器(scp) scp -r localfile.txt username@remote_ip:/home/username/ 4 将文件/文件夹从远程服务器拷至本地(rsync) rsync -v -u -a --delete --rsh=ssh –stats username@remote_ip:/home/username/remotefile.txt . 5 将文件/文件夹从本地拷至远程服务器(rsync) rsync -v -u -a --delete --rsh=ssh --stats localfile.txt username@remote_ip:/home/username/ 6 连接远程ssh非22端口的服务器(ssh端口为12345) ssh -p 12345 username@remote_ip 7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345) scp -P 12345 local_file username@remote_ip:remote_dir
+scp -P 12345 username@remote_ip:remote_file local_dir
+scp -o port=12345 username@remote_ip:remote_file local_dir
+scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir 拷贝目录，-r是将目录下的目录递归拷贝。".*“是将隐藏文件也拷贝过去。需要先在远端创建好相应的目录。
+...</p></p></section><footer class=entry-footer>January 14, 2019&nbsp;|&nbsp;3 分钟&nbsp;|&nbsp;1423 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Linux 常用命令" href=https://www.frytea.com/archives/38/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>vps使用Shadowsocks搭建vpn</h2></header><section class=entry-content><p><p>简介 编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的 vpn 经历无一不遇奸商！于是下决心搭建自己的 vpn！就在今天，vpn 终于搭建成功，在这里分享一下成功的喜悦同时贴出自己搭建的过程仅供参考！
+...</p></p></section><footer class=entry-footer>January 12, 2019&nbsp;|&nbsp;3 分钟&nbsp;|&nbsp;1070 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to vps使用Shadowsocks搭建vpn" href=https://www.frytea.com/archives/30/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Wordpress鼠标指针样式自定义</h2></header><section class=entry-content><p><p>继续折腾自己的博客！
+今天要做的事自定义鼠标样式！需要做的是增加css样式！
+第一步：选择鼠标样式，最好是两个状态，正常和链接，即普通的箭头和小手
+第二步：将样式的cur文件上传至服务器
+...</p></p></section><footer class=entry-footer>January 11, 2019&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;270 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Wordpress鼠标指针样式自定义" href=https://www.frytea.com/archives/53/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Wordpress鼠标点击出现爱心</h2></header><section class=entry-content><p><p>同上文，眼馋各大博主博客令人眼前一亮的设计，想要给自己博客也打扮打扮，今天就来弄弄鼠标点击出现爱心的效果吧！
 采用了代码方式实现，很简单：
 第一步：在主题根目录创建js文件，写入如下代码：
 ...</p></p></section><footer class=entry-footer>January 11, 2019&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;309 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Wordpress鼠标点击出现爱心" href=https://www.frytea.com/archives/60/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Wordpress 添加下雪特效</h2></header><section class=entry-content><p><p>最近非常热衷于逛博客，各大博主博客都非常出彩，弄得我心里面痒痒的也想弄，就先从一个下雪效果开始吧！
