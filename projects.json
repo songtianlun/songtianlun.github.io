@@ -196,26 +196,10 @@
         "status": "active"
     },
     {
-        "name": "MinePin",
-        "description": "个人地理位置收藏与标记工具。",
-        "icon": "📍",
-        "github": "https://github.com/songtianlun/minepin",
-        "url": "",
-        "tags": [
-            "Go",
-            "Maps",
-            "Location"
-        ],
-        "language": "Go",
-        "year": "2022-01-01",
-        "status": "wip"
-    },
-    {
-        "name": "PlanAssistant",
-        "description": "面向日常记录与目标规划的 Android 应用。",
-        "icon": "📝",
-        "github": "https://github.com/songtianlun/PlanAssistant",
-        "url": "https://songtianlun.github.io/PlanAssistant/",
+        "name": "2md.run",
+        "description": "MarkItDown 的 web 封装， Markdown 文档的在线工具",
+        "year": "2025-09-22",
+        "status": "archived",
         "tags": [
             "Android",
             "Java"
@@ -225,11 +209,10 @@
         "status": "archived"
     },
     {
-        "name": "frytea.com",
-        "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
-        "icon": "🍵",
-        "github": "https://github.com/songtianlun/songtianlun.github.io",
-        "url": "https://www.frytea.com",
+        "name": "Flashcard Maker",
+        "description": "在线制作和管理学习闪卡的工具",
+        "year": "2025-10-03",
+        "status": "archived",
         "tags": [
             "Hugo",
             "Blog",
