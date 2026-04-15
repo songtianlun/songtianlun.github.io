@@ -27,8 +27,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    #slug: '{{year}}-{{month}}-{{day}}-{{hour}}{{minute}}{{second}}'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}-{{uuid_shorter}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
     summary: '{{year}} · {{title}}'
     sortable_fields: ['date', 'title']
     view_filters:
@@ -41,7 +40,7 @@ collections:
     fields:
       - { label: 标题, name: title, widget: string }
       - { label: 发布日期, name: date, widget: datetime, default: '{{now}}', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
-      #- { label: 固定链接标识, name: slug, widget: string, required: false, hint: '可选，建议填写英文短标识，用于最终 URL；例如 hermes-agent-bare-metal-security' }
+      - { label: 固定链接标识, name: slug, widget: hidden, default: '{{uuid_shorter}}' }
       - { label: 描述, name: description, widget: text, required: false }
       - { label: 分类, name: categories, widget: list, required: false }
       - { label: 标签, name: tags, widget: list, required: false }
