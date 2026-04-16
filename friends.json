@@ -1,0 +1,546 @@
+{
+  "sections": [
+    {
+      "title": "友链区",
+      "friends": [
+        {
+          "name": "Noisky",
+          "url": "https://www.noisky.cn/",
+          "logo": "https://imagehost-cdn.frytea.com/images/2020/01/31/20190505211940cdf2ef54c83ece56.png",
+          "word": ""
+        },
+        {
+          "name": "辣椒の酱",
+          "url": "https://removeif.github.io",
+          "logo": "https://removeif.github.io/images/tuzi.jpg",
+          "word": ""
+        },
+        {
+          "name": "Rat's Blog",
+          "url": "https://www.moerats.com/",
+          "logo": "https://www.moerats.com/usr/picture/rats.png",
+          "word": ""
+        },
+        {
+          "name": "LOGI",
+          "url": "https://logi.im",
+          "logo": "https://ae01.alicdn.com/kf/UTB8q2lYPFfFXKJk43Otxh4IPFXaQ.jpeg",
+          "word": ""
+        },
+        {
+          "name": "宇宙湾",
+          "url": "https://yuzhouwan.com",
+          "logo": "https://yuzhouwan.com/yuzhouwan_logo_128x128.ico",
+          "word": "大数据和人工智能的原创文章"
+        },
+        {
+          "name": "P3TERX ZONE",
+          "url": "https://p3terx.com",
+          "logo": "https://s.gravatar.com/avatar/c42fdfa8aca47ec27a7c35dfa7d1dc51?s=200",
+          "word": ""
+        },
+        {
+          "name": "Hong's Blog",
+          "url": "https://blog.mehoon.com",
+          "logo": "https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "iMaeGoo's Blog",
+          "url": "https://www.imaegoo.com",
+          "logo": "https://www.imaegoo.com/images/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "YOYLING",
+          "url": "https://yoyling.com",
+          "logo": "https://yoyling.com/favicon.png",
+          "word": ""
+        },
+        {
+          "name": "Kitcham 的归墟",
+          "url": "https://blog.uiharu.top/",
+          "logo": "https://cdn.uiharu.top/blog/home/img/avatar.png",
+          "word": ""
+        },
+        {
+          "name": "乙未博客",
+          "url": "https://yvii.cn",
+          "logo": "https://yvii.cn/img/favicon.png",
+          "word": ""
+        },
+        {
+          "name": "摩尔の镇 | モル·町",
+          "url": "https://www.mole9630.top",
+          "logo": "https://img.mole9630.top/blog-logo.png",
+          "word": ""
+        },
+        {
+          "name": "StubbornHuang's Blog",
+          "url": "https://www.stubbornhuang.com",
+          "logo": "https://www.stubbornhuang.com/wp-content/uploads/2019/11/2019112216333826.png",
+          "word": ""
+        },
+        {
+          "name": "BORBER",
+          "url": "https://borber.vercel.app",
+          "logo": "https://cdn.jsdelivr.net/gh/Borber/PublicPic1/headImg/head.png",
+          "word": ""
+        },
+        {
+          "name": "爱·绮梦",
+          "url": "https://x.iqimeng.com",
+          "logo": "https://m.iqimeng.com/images/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "静かな森",
+          "url": "https://innei.in/",
+          "logo": "https://imagehost-cdn.frytea.com/images/2021/09/07/202109070948567de3396c577ec6b9.png",
+          "word": "A NodeJS Full Stack Developer. An independent developer coding with love."
+        },
+        {
+          "name": "Colsrch",
+          "url": "https://colsrch.cn",
+          "logo": "https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "两双筷子",
+          "url": "https://www.dbkuaizi.com",
+          "logo": "https://cdn.dbkuaizi.com/static/image/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "晨鹤小站",
+          "url": "https://chenhe.me",
+          "logo": "https://gravatar.loli.net/avatar/e343865a5581e33479a3d6791891101e?s=200",
+          "word": ""
+        },
+        {
+          "name": "二丫讲梵",
+          "url": "https://wiki.eryajf.net/",
+          "logo": "https://wiki.eryajf.net/img/logo.png",
+          "word": ""
+        },
+        {
+          "name": "马春杰杰博客",
+          "url": "https://www.machunjie.com",
+          "logo": "https://ypyssl.machunjie.com/logo.png",
+          "word": ""
+        },
+        {
+          "name": "细语呢喃",
+          "url": "https://www.hrwhisper.me/",
+          "logo": "https://blog.frytea.com/usr/uploads/2019/11/1809897456.png",
+          "word": ""
+        },
+        {
+          "name": "Verne",
+          "url": "https://blog.einverne.info",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
+          "word": ""
+        },
+        {
+          "name": "webfem",
+          "url": "https://webfem.com",
+          "logo": "",
+          "word": "做有价值的博客"
+        },
+        {
+          "name": "左手平凡",
+          "url": "https://blog.perass.com/",
+          "logo": "",
+          "word": "程序猿、垃圾佬的个人博客。"
+        },
+        {
+          "name": "栖息地",
+          "url": "https://qixidi.top/",
+          "logo": "https://qixidi.top/img/logo.png",
+          "word": "他强任他强，清风拂山岗。"
+        },
+        {
+          "name": "Dejavu's Blog",
+          "url": "https://blog.dejavu.moe/",
+          "logo": "https://blog.dejavu.moe/avatar.webp",
+          "word": "请用绝对的理智和清醒的头脑克制心中的爱与难过"
+        },
+        {
+          "name": "叶子的花园",
+          "url": "https://mskclover.com",
+          "logo": "",
+          "word": "靡不有初，鲜克有终"
+        },
+        {
+          "name": "我不是咕咕鸽",
+          "url": "https://blog.laoda.de",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "VPS234",
+          "url": "https://www.vps234.com",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "老猫博客",
+          "url": "https://blog.lyh130.com/",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
+          "word": ""
+        },
+        {
+          "name": "Sulv's Blog",
+          "url": "https://www.sulvblog.cn",
+          "logo": "https://www.sulvblog.cn/img/Q.gif",
+          "word": ""
+        },
+        {
+          "name": "wshunli's Blog",
+          "url": "https://www.wshunli.com",
+          "logo": "https://cdn.wshunli.com/logo.png",
+          "word": ""
+        },
+        {
+          "name": "Michael翔",
+          "url": "https://michael728.github.io/think/",
+          "logo": "https://michael728.github.io/images/logo.jpg",
+          "word": ""
+        },
+        {
+          "name": "胡萝虎的博客",
+          "url": "https://www.huluohu.com",
+          "logo": "https://img.huluohu.com/avator_new.png",
+          "word": ""
+        },
+        {
+          "name": "Xhofe's Blog",
+          "url": "https://www.nn.ci",
+          "logo": "https://img.xhofe.top/2020/12/07/f6e43dc79d74a.png",
+          "word": ""
+        },
+        {
+          "name": "之石先生的小屋",
+          "url": "http://www.brewin073.top",
+          "logo": "https://blog.frytea.com/usr/uploads/2019/11/1809897456.png",
+          "word": ""
+        },
+        {
+          "name": "猕猴の那年记忆",
+          "url": "https://www.kiwiape.cn",
+          "logo": "https://kiwiape.cn/logo.jpg",
+          "word": ""
+        }
+      ]
+    },
+    {
+      "title": "收藏区",
+      "friends": [
+        {
+          "name": "康雨豪",
+          "url": "http://www.kkyyhh96.site",
+          "logo": "https://imagehost-cdn.frytea.com/images/2022/01/21/imageb416210dda9a4e0e.png",
+          "word": ""
+        },
+        {
+          "name": "相位",
+          "url": "https://shenyiming.life",
+          "logo": "https://shenyiming.life/apple-touch-icon.png",
+          "word": ""
+        },
+        {
+          "name": "k7tmiz",
+          "url": "https://k7tmiz.com/",
+          "logo": "",
+          "word": "k7tmiz 的个人网站/博客/作品集。一名文科生，很早就接触 Linux"
+        },
+        {
+          "name": "AI 故事生成器",
+          "url": "https://storygenerator.cc/",
+          "logo": "",
+          "word": "Free AI Story Generator，一个免费的 AI 故事生成器。"
+        },
+        {
+          "name": "全能计算器",
+          "url": "https://calc9.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "周数计算器",
+          "url": "https://weekcount.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "PlayUnb 畅玩无限",
+          "url": "https://playunb.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "自托管服务和工具目录",
+          "url": "https://selfhost-hub.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Jiekun's Blog",
+          "url": "https://jiekun.dev",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "前端小武的博客",
+          "url": "https://xuexb.com",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "merrier 说",
+          "url": "https://merrier.wang/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "三言三语",
+          "url": "https://best33.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Harttle Land",
+          "url": "https://harttle.land/",
+          "logo": "https://harttle.land/assets/img/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "Today AI Weather",
+          "url": "https://todayaiweather.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Kyrylo Silin",
+          "url": "https://kyrylo.org/",
+          "logo": "",
+          "word": "Software engineer, web developer, and budding entrepreneur. From Kharkiv, Ukraine"
+        },
+        {
+          "name": "Pleiades",
+          "url": "https://xyzttt.xyz/",
+          "logo": "",
+          "word": "我们谈论生活，讨论技术，借由文字，抵达心灵。"
+        },
+        {
+          "name": "Ramsay",
+          "url": "https://ramsayleung.github.io/zh/",
+          "logo": "",
+          "word": "有 Ramsay 的个人博客，他在其中撰写有关生活、软件引擎、分布式系统和思想的文章。Ramsay 是位软件工程师，以写程序为业，曾经就职于蚂蚁金服、微信，现供职于 AWS"
+        },
+        {
+          "name": "Mocha's Blog",
+          "url": "https://blog.shabby.in",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "印记",
+          "url": "https://yinji.org/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Cp Zhao",
+          "url": "https://chengpengzhao.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "木木木木木",
+          "url": "https://immmmm.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "全球机房 Ping 监控",
+          "url": "https://smokeping.frytea.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "lololoWe",
+          "url": "https://www.lololowe.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "DigVPS",
+          "url": "https://digvps.com/",
+          "logo": "",
+          "word": "专注 VPS 测评，欢迎访问我们专业的 VPS 测评平台。在这里，您将找到详尽的性能、网络、路由、解锁等测试数据，帮助您轻松找到最理想的 VPS 解决方案。"
+        },
+        {
+          "name": "品客VPS",
+          "url": "https://vps.pink/",
+          "logo": "https://vps.pink/upload/default.svg",
+          "word": "Know Before You Buy"
+        },
+        {
+          "name": "指月小筑(探索云原生)",
+          "url": "https://www.lixueduan.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "公益 GPT",
+          "url": "https://cgs.skybyte.me",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "myfreax",
+          "url": "https://www.myfreax.com/",
+          "logo": "",
+          "word": "myfreax 是一个 linux 爱好者和全栈开发者博客，发布 linux、kotlin、golang、javascript、typescript、esp32、物联网、c/c++、android、flutter、dart、python、html、css、shell、bash、node.js、cd/ci 文章和教程"
+        },
+        {
+          "name": "Lework",
+          "url": "https://lework.github.io/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Dolingou",
+          "url": "https://www.dolingou.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "阿小信的博客",
+          "url": "https://blog.axiaoxin.com/",
+          "logo": "",
+          "word": "人言成信 言兑才说"
+        },
+        {
+          "name": "Reimu's blog",
+          "url": "https://blog.k8s.li/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "迟博勋来自迟博勋博客",
+          "url": "https://www.chiboxun.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Escape",
+          "url": "https://www.escapelife.site/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "猫猫博客",
+          "url": "https://catcat.blog/",
+          "logo": "",
+          "word": "很多高性能 VPS 评测"
+        },
+        {
+          "name": "gyptazy",
+          "url": "https://gyptazy.com/",
+          "logo": "https://gyptazy.com/wp-content/uploads/2022/03/4150400.png",
+          "word": "an enthusiastic and passionated DevOps engineer and developer."
+        },
+        {
+          "name": "Alan's Blog",
+          "url": "https://toalan.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Skywind Inside",
+          "url": "https://skywind.me/blog/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Skywind Workshop",
+          "url": "https://skywind.me/wiki/start",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "从 01 开始",
+          "url": "https://www.peterjxl.com/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "乱世浮生-张晓辉",
+          "url": "https://atbug.com/",
+          "logo": "",
+          "word": "Flomesh 高级云原生架构师、布道师。LF APAC 开源布道师，CNCF Ambassador，云原生社区管委会成员，微软 Azure MVP。"
+        },
+        {
+          "name": "网友小宋",
+          "url": "https://xyzbz.cn",
+          "logo": "",
+          "word": "一介草民，只为生活！"
+        },
+        {
+          "name": "Jared the Nerd",
+          "url": "http://jaredthenerd.com/",
+          "logo": "https://image.frytea.com/images/2024/09/25/j4c863.png",
+          "word": "CTO, IT Advisor, Software Engineer, Public Speaker, Traveler, and 100% Nerd"
+        },
+        {
+          "name": "飞虫博客",
+          "url": "https://feichong.net/",
+          "logo": "",
+          "word": "记录工作日志，分享优惠信息、实用软件及工具"
+        },
+        {
+          "name": "SilverRainZ",
+          "url": "https://silverrainz.me/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "Zexi Li 李則熹",
+          "url": "https://zexilee.github.io/about-zexili//",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "handsome",
+          "url": "https://www.ihewro.com/archives/489/",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "程序员刘虎",
+          "url": "https://www.liuhu.net/",
+          "logo": "",
+          "word": "刘虎，一般人称老虎，半路出家的挨踢行业从业人员。又是一个 97 年开始的博客。"
+        },
+        {
+          "name": "程序员小辉",
+          "url": "https://www.xiaohui.com/",
+          "logo": "",
+          "word": "1997 年建立本站。2001 年开始从事自由职业，专注独立软件开发。个人领域: Freeware、Shareware、Web App 以及量化交易机器人。"
+        },
+        {
+          "name": "Oskyla AI 导航",
+          "url": "https://nav.oskyla.com/",
+          "logo": "",
+          "word": ""
+        }
+      ]
+    },
+    {
+      "title": "观察区",
+      "friends": []
+    }
+  ]
+}
