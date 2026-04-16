@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>转载 on Frytea</title>
+    <link>https://frytea.com/categories/%E8%BD%AC%E8%BD%BD/</link>
+    <description>Recent content in 转载 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/categories/%E8%BD%AC%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[翻译] 不要让 AI 替你写作</title>
+      <link>https://frytea.com/archives/2026-03-08-dont-let-ai-write-for-you/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/2026-03-08-dont-let-ai-write-for-you/</guid>
+      <description>每一篇由 LLM 生成的文档，都是一次错失的思考机会，也是一次错失的建立信任的机会。</description>
+    </item>
+  </channel>
+</rss>

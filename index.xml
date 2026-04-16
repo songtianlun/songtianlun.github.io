@@ -1356,6 +1356,13 @@ Unit npu-smi.service could not be found.
 &lt;p&gt;但问题是，Linux 桌面生态生态复杂，X11 Wayland Qt GTK 等等技术太过复杂，很难保证常用软件都能够正常显示全局菜单。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>[翻译] 不要让 AI 替你写作</title>
+      <link>https://frytea.com/archives/2026-03-08-dont-let-ai-write-for-you/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/2026-03-08-dont-let-ai-write-for-you/</guid>
+      <description>每一篇由 LLM 生成的文档，都是一次错失的思考机会，也是一次错失的建立信任的机会。</description>
+    </item>
+    <item>
       <title>终极指南：在 Linux 裸机服务器上快速部署 Moltbot (原 Clawbot) 并集成飞书</title>
       <link>https://frytea.com/archives/1617/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
