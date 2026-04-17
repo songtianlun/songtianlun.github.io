@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Jul 2025 01:26:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 01:22:03 +0000</lastBuildDate>
     <atom:link href="https://frytea.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus 4.7：优缺点与评测信息汇总</title>
+      <link>https://frytea.com/archives/1657/</link>
+      <pubDate>Fri, 17 Apr 2026 01:22:03 +0000</pubDate>
+      <guid>https://frytea.com/archives/1657/</guid>
+      <description>&lt;p&gt;以下内容转载自：&lt;a href=&#34;https://linux.do/t/topic/1984117&#34;&gt;https://linux.do/t/topic/1984117&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本资料&#34;&gt;基本资料&lt;/h2&gt;
+&lt;p&gt;官方文：https://www.anthropic.com/news/claude-opus-4-7
+官方文档：https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7
+官方模型卡：https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Claude Code Subagents 快速开始</title>
       <link>https://frytea.com/archives/1501/</link>

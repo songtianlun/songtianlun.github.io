@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 01:22:03 +0000</lastBuildDate>
     <atom:link href="https://frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>友链</title>
@@ -814,6 +814,17 @@
 &lt;h2 id=&#34;成为网友&#34;&gt;成为网友&lt;/h2&gt;
 &lt;p&gt;如果你也热爱分享、喜欢原创，或是充满好奇，就让我们互换链接，一起玩耍。
 欢迎在这留下您的博客信息，期待与您成为网邻！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.7：优缺点与评测信息汇总</title>
+      <link>https://frytea.com/archives/1657/</link>
+      <pubDate>Fri, 17 Apr 2026 01:22:03 +0000</pubDate>
+      <guid>https://frytea.com/archives/1657/</guid>
+      <description>&lt;p&gt;以下内容转载自：&lt;a href=&#34;https://linux.do/t/topic/1984117&#34;&gt;https://linux.do/t/topic/1984117&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本资料&#34;&gt;基本资料&lt;/h2&gt;
+&lt;p&gt;官方文：https://www.anthropic.com/news/claude-opus-4-7
+官方文档：https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7
+官方模型卡：https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf&lt;/p&gt;</description>
     </item>
     <item>
       <title>【翻译】如果你以为写代码速度是你的问题，那你还有更大的问题</title>
