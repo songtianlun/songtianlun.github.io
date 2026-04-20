@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>鼠标 on Frytea</title>
+    <link>https://frytea.com/tags/%E9%BC%A0%E6%A0%87/</link>
+    <description>Recent content in 鼠标 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 20 Apr 2026 07:18:12 +0000</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E9%BC%A0%E6%A0%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mouser：轻量开源的罗技鼠标驱动替代方案</title>
+      <link>https://frytea.com/archives/1658/</link>
+      <pubDate>Mon, 20 Apr 2026 07:18:12 +0000</pubDate>
+      <guid>https://frytea.com/archives/1658/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/TomBadash/Mouser&#34;&gt;Mouser&lt;/a&gt; 是一款轻量、开源的 Logitech Options+ 替代方案，用于对罗技 HID++ 鼠标进行按键重映射和设备配置，&lt;strong&gt;完全本地运行，无需账号、无遥测、无云端&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;对 &lt;strong&gt;MX Master 系列&lt;/strong&gt;支持最完善，同时对 MX Anywhere、MX Vertical 及其他罗技 HID++ 鼠标提供通用支持。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
