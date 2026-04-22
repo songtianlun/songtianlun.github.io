@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Apr 2026 01:36:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 02:15:09 +0000</lastBuildDate>
     <atom:link href="https://frytea.com/memos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://frytea.com/memos/fw5yasphuh6yp7zrv2tbjx/</link>
       <pubDate>Wed, 22 Apr 2026 01:35:23 +0000</pubDate>
       <guid>https://frytea.com/memos/fw5yasphuh6yp7zrv2tbjx/</guid>
-      <description>&lt;p&gt;test11221321&lt;/p&gt;</description>
+      <description>&lt;p&gt;通过 memos webhook 触发 n8n 流程(1.3s)，判断是否为公开笔记，如果是就触发 github actipn sync memos 流程(13s)，检查 memos 数据并增量同步到 github 仓库中，最后触发 edgeone 的构建(44s)，完成《时光》页面的实时更新。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
