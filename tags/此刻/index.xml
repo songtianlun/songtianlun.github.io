@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>时光 on Frytea</title>
-    <link>https://frytea.com/memos/</link>
-    <description>Recent content in 时光 on Frytea</description>
+    <title>此刻 on Frytea</title>
+    <link>https://frytea.com/tags/%E6%AD%A4%E5%88%BB/</link>
+    <description>Recent content in 此刻 on Frytea</description>
     <image>
       <title>Frytea</title>
       <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,26 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Apr 2026 01:36:03 +0000</lastBuildDate>
-    <atom:link href="https://frytea.com/memos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/fw5yasphuh6yp7zrv2tbjx/</link>
-      <pubDate>Wed, 22 Apr 2026 01:35:23 +0000</pubDate>
-      <guid>https://frytea.com/memos/fw5yasphuh6yp7zrv2tbjx/</guid>
-      <description>&lt;p&gt;test11221321&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/wrws5xrycqbapjnozhvjnc/</link>
-      <pubDate>Tue, 21 Apr 2026 07:59:15 +0000</pubDate>
-      <guid>https://frytea.com/memos/wrws5xrycqbapjnozhvjnc/</guid>
-      <description>&lt;p&gt;Tim Cook 都要卸任了，时间过得可真快呀。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/&#34;&gt;https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://v2ex.com/t/1207329&#34;&gt;https://v2ex.com/t/1207329&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
+    <lastBuildDate>Thu, 05 Jun 2025 02:18:24 +0000</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E6%AD%A4%E5%88%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://frytea.com/memos/7nkwj6pljmehec3vvmxbhk/</link>
@@ -73,13 +55,6 @@ CentOS 7 停止支持。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://frytea.com/memos/8xtvpnx4byrynl75jwgylt/</link>
-      <pubDate>Fri, 28 Jun 2024 03:14:25 +0000</pubDate>
-      <guid>https://frytea.com/memos/8xtvpnx4byrynl75jwgylt/</guid>
-      <description>&lt;p&gt;#工作 搭框架，需要的东西都可以塞进去。可以插件式扩充。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://frytea.com/memos/w7z8c2ewumqwda6zf42yqp/</link>
       <pubDate>Tue, 25 Jun 2024 01:26:33 +0000</pubDate>
       <guid>https://frytea.com/memos/w7z8c2ewumqwda6zf42yqp/</guid>
@@ -101,34 +76,10 @@ CentOS 7 停止支持。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://frytea.com/memos/e9mg2umxckakhyylvmwknx/</link>
-      <pubDate>Wed, 22 May 2024 00:36:47 +0000</pubDate>
-      <guid>https://frytea.com/memos/e9mg2umxckakhyylvmwknx/</guid>
-      <description>&lt;p&gt;#摘录 心流是重现了小时候全神贯注玩沙子的状态。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/g72gjsdpt4netezjqydeql/</link>
-      <pubDate>Sun, 19 May 2024 13:44:10 +0000</pubDate>
-      <guid>https://frytea.com/memos/g72gjsdpt4netezjqydeql/</guid>
-      <description>&lt;p&gt;#摘录
-杨箕村[Yángjī Cūn] 历史地名。位于广州市越秀区梅花村街道辖内。东临广州大道中，南达东兴北路，西濒杨箕涌，北近中山一路，面积 0.25 平方千米。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://frytea.com/memos/9yutj89dthnyzhr4sto634/</link>
       <pubDate>Sat, 18 May 2024 09:02:50 +0000</pubDate>
       <guid>https://frytea.com/memos/9yutj89dthnyzhr4sto634/</guid>
       <description>&lt;p&gt;#此刻 发现自己对于一段时间没有输入，学到什么，收获什么，会有很强的焦虑感。如果一段时间没有输入，我就无心去做其他事情。就像是没有吃饱，没有穿暖一样。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/hbybjyssamkcngankzlptd/</link>
-      <pubDate>Fri, 10 May 2024 10:40:15 +0000</pubDate>
-      <guid>https://frytea.com/memos/hbybjyssamkcngankzlptd/</guid>
-      <description>&lt;p&gt;#摘录
-我们便逐渐成为一名以长期学习代替临时学习，以过程导向代替结果导向的终身成长者，不在心急如焚的时刻计算回报，也不会只在需要时才去寻找解药。
-《内卷年代》&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -143,17 +94,6 @@ CentOS 7 停止支持。&lt;/p&gt;</description>
       <pubDate>Fri, 03 May 2024 09:43:20 +0000</pubDate>
       <guid>https://frytea.com/memos/8vdbzsem5tkysmcjvz8cgs/</guid>
       <description>&lt;p&gt;#此刻 今天把所有博客内容全部重建了，确定好满足自己需求的框架，后面就专注于内容。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/dd1e5ac2df34e76d/</link>
-      <pubDate>Mon, 26 Feb 2024 11:42:28 +0000</pubDate>
-      <guid>https://frytea.com/memos/dd1e5ac2df34e76d/</guid>
-      <description>&lt;p&gt;#摘录&lt;/p&gt;
-&lt;p&gt;一流企业做标准；
-二流企业做品牌；
-三流企业做产品；
-四流企业打价格；&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -181,25 +121,6 @@ CentOS 7 停止支持。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://frytea.com/memos/cbe0c5fa986494e0/</link>
-      <pubDate>Thu, 01 Feb 2024 01:40:00 +0000</pubDate>
-      <guid>https://frytea.com/memos/cbe0c5fa986494e0/</guid>
-      <description>&lt;p&gt;#折腾&lt;/p&gt;
-&lt;p&gt;上传了自己的 archlinux + asus zenbook 硬件支持性快照：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://linux-hardware.org/?computer=350c9cf3bf0b&#34;&gt;https://linux-hardware.org/?computer=350c9cf3bf0b&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;补充，2024-02-20 又上传了一个：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=a38ae05794&#34;&gt;https://linux-hardware.org/?probe=a38ae05794&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/3d5f50a92988f364/</link>
-      <pubDate>Thu, 01 Feb 2024 01:38:27 +0000</pubDate>
-      <guid>https://frytea.com/memos/3d5f50a92988f364/</guid>
-      <description>&lt;p&gt;#折腾&lt;/p&gt;
-&lt;p&gt;前两天把内核从 mainline 切换到 linux,结果发现睡眠不了，而且 sync 必定卡死，导致无法正常关机。以为是 xfce4 的问题，结果昨晚换回 linux-zen 或是 linux-mainline 之后，一切正常了。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://frytea.com/memos/cb5fe478b95f674b/</link>
       <pubDate>Wed, 24 Jan 2024 14:36:22 +0000</pubDate>
       <guid>https://frytea.com/memos/cb5fe478b95f674b/</guid>
@@ -216,40 +137,12 @@ CentOS 7 停止支持。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://frytea.com/memos/fd8577213d4eeecf/</link>
-      <pubDate>Sat, 30 Dec 2023 19:43:25 +0000</pubDate>
-      <guid>https://frytea.com/memos/fd8577213d4eeecf/</guid>
-      <description>&lt;p&gt;2023 最后一天了，折腾的很开心。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://frytea.com/memos/1b6643b89ea79841/</link>
       <pubDate>Sat, 09 Dec 2023 06:02:51 +0000</pubDate>
       <guid>https://frytea.com/memos/1b6643b89ea79841/</guid>
       <description>&lt;p&gt;在求知欲最强的时候学习，在食欲最好的时候吃东西，在最困的时候睡觉。&lt;/p&gt;
 &lt;p&gt;广东省 广州市 环市东路辅路&lt;/p&gt;
 &lt;p&gt;#此刻&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/9d04921630f6a5bf/</link>
-      <pubDate>Wed, 25 Oct 2023 04:47:33 +0000</pubDate>
-      <guid>https://frytea.com/memos/9d04921630f6a5bf/</guid>
-      <description>&lt;p&gt;#摘录&lt;/p&gt;
-&lt;p&gt;人的成长有三次——&lt;/p&gt;
-&lt;p&gt;第一次，是发现自己并不是世界的中心； 
-第二次，是发现有些事情，尽管拼尽全力，依然得不到想要的结果； 
-第三次，是知道未必有结果，但依然能全力以赴去做。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frytea.com/memos/0595c13d83753028/</link>
-      <pubDate>Sat, 02 Sep 2023 03:41:15 +0000</pubDate>
-      <guid>https://frytea.com/memos/0595c13d83753028/</guid>
-      <description>&lt;p&gt;#灵感&lt;/p&gt;
-&lt;p&gt;必须让自己走出去，特别是清晨。&lt;/p&gt;
-&lt;p&gt;休息日窝在房子里是不会有力量的，如果感觉灵感匮乏，缺乏动力，就带上平板走出家门，随便去哪里。&lt;/p&gt;
-&lt;p&gt;重要的是出门，是赶路的感觉。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

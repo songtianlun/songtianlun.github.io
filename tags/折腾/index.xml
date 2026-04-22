@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>折腾 on Frytea</title>
+    <link>https://frytea.com/tags/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Feb 2024 11:18:55 +0000</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/cbe0c5fa986494e0/</link>
+      <pubDate>Thu, 01 Feb 2024 01:40:00 +0000</pubDate>
+      <guid>https://frytea.com/memos/cbe0c5fa986494e0/</guid>
+      <description>&lt;p&gt;#折腾&lt;/p&gt;
+&lt;p&gt;上传了自己的 archlinux + asus zenbook 硬件支持性快照：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://linux-hardware.org/?computer=350c9cf3bf0b&#34;&gt;https://linux-hardware.org/?computer=350c9cf3bf0b&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;补充，2024-02-20 又上传了一个：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://linux-hardware.org/?probe=a38ae05794&#34;&gt;https://linux-hardware.org/?probe=a38ae05794&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/3d5f50a92988f364/</link>
+      <pubDate>Thu, 01 Feb 2024 01:38:27 +0000</pubDate>
+      <guid>https://frytea.com/memos/3d5f50a92988f364/</guid>
+      <description>&lt;p&gt;#折腾&lt;/p&gt;
+&lt;p&gt;前两天把内核从 mainline 切换到 linux,结果发现睡眠不了，而且 sync 必定卡死，导致无法正常关机。以为是 xfce4 的问题，结果昨晚换回 linux-zen 或是 linux-mainline 之后，一切正常了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
