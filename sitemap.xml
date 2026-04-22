@@ -6012,6 +6012,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://frytea.com/memos/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://frytea.com/projects/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
