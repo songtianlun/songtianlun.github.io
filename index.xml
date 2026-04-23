@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Apr 2026 10:27:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 00:32:50 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>友链</title>
@@ -814,6 +814,25 @@
 &lt;h2 id=&#34;成为网友&#34;&gt;成为网友&lt;/h2&gt;
 &lt;p&gt;如果你也热爱分享、喜欢原创，或是充满好奇，就让我们互换链接，一起玩耍。
 欢迎在这留下您的博客信息，期待与您成为网邻！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/esbtzjx2hyqguxwuvbtqqm/</link>
+      <pubDate>Fri, 24 Apr 2026 00:32:50 +0800</pubDate>
+      <guid>https://frytea.com/memos/esbtzjx2hyqguxwuvbtqqm/</guid>
+      <description>&lt;p&gt;感觉大晚上的 github 和 github copilot 都不太稳，action 拉取代码遇到多次 500 错误。&lt;/p&gt;
+&lt;p&gt;copilot 报错很多上游模型用不了。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i-cdn.frytea.com/2026/04/24/9c99406cecacc02666f6143b2e8577ee.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i-cdn.frytea.com/2026/04/24/8410eca7dd30640cdada1197530548a7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;从显示看很多模型都用不了。&lt;/p&gt;
+&lt;p&gt;不过也算把 rivulet 做的差不多了，发了 0.0.1 ，算是有收获，明天继续吧。不亏，睡眠时间更宝贵。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/gkjbxwbsysxqc29a6wq6ed/</link>
+      <pubDate>Thu, 23 Apr 2026 08:26:49 +0800</pubDate>
+      <guid>https://frytea.com/memos/gkjbxwbsysxqc29a6wq6ed/</guid>
+      <description>&lt;p&gt;2026年4月20日，github 发博客说暂停了 Copilot Pro/+ 新用户的注册，同时将 opus 模型从 Pro 订阅中移除，在 Pro+ 订阅中保留。&lt;a href=&#34;https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/&#34;&gt;Refs&lt;/a&gt; ，Business 不受影响，主要是个人用户受到影响。&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
