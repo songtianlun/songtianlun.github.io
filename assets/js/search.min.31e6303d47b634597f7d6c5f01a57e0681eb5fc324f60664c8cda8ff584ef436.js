@@ -73,7 +73,7 @@ var e,t;e=this,t=function(){"use strict";function e(t){return(e="function"==type
         let resultSet = "";
         for (let item in results) {
           console.log(results[item].item);
-          resultSet += `<li class="post-entry"><header class="entry-header">${results[item].item.title}&nbsp;\xBB</header><section class="entry-content"><p>${results[item].item.description}...</p></section><a href="${results[item].item.permalink}" aria-label="${results[item].item.title}"></a></li>`;
+          resultSet += `<li class="post-entry"><header class="entry-header">${results[item].item.title}&nbsp;\xBB</header><section class="entry-content"><p>${results[item].item.description}...</p></section><a class="entry-link" href="${results[item].item.permalink}" aria-label="${results[item].item.title}"></a></li>`;
         }
         resList.innerHTML = resultSet;
         resultsAvailable = true;
