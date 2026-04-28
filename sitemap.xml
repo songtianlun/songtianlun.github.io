@@ -6,12 +6,77 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/memos/dm5fqpcrwmpiutciv6va6g/</loc>
-    <lastmod>2026-04-24T11:26:05+08:00</lastmod>
+    <loc>https://frytea.com/tags/ai/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/archives/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/categories/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/archives/1662/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/hermesagent/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/k3s/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/kubernetes/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2026-04-27T16:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/containerd/</loc>
+    <lastmod>2026-04-27T15:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/linux/</loc>
+    <lastmod>2026-04-27T15:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/nerdctl/</loc>
+    <lastmod>2026-04-27T15:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/archives/1661/</loc>
+    <lastmod>2026-04-27T15:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/memos/dm5fqpcrwmpiutciv6va6g/</loc>
     <lastmod>2026-04-24T11:26:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -41,32 +106,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/archives/</loc>
-    <lastmod>2026-04-20T07:18:12+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/categories/</loc>
-    <lastmod>2026-04-20T07:18:12+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://frytea.com/archives/1658/</loc>
     <lastmod>2026-04-20T07:18:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/tags/</loc>
-    <lastmod>2026-04-20T07:18:12+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://frytea.com/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-04-20T07:18:12+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-04-20T07:18:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -83,11 +128,6 @@
   </url><url>
     <loc>https://frytea.com/tags/%E9%BC%A0%E6%A0%87/</loc>
     <lastmod>2026-04-20T07:18:12+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/ai/</loc>
-    <lastmod>2026-04-17T01:22:03+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -167,11 +207,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/archives/1650/</loc>
-    <lastmod>2026-04-01T05:55:30+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/linux/</loc>
     <lastmod>2026-04-01T05:55:30+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -257,11 +292,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/tags/k8s/</loc>
-    <lastmod>2025-11-11T00:16:58+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/kubernetes/</loc>
     <lastmod>2025-11-11T00:16:58+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -808,11 +838,6 @@
   </url><url>
     <loc>https://frytea.com/archives/1485/</loc>
     <lastmod>2025-05-11T05:02:11+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/k3s/</loc>
-    <lastmod>2025-05-08T13:26:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1403,11 +1428,6 @@
   </url><url>
     <loc>https://frytea.com/tags/golang/</loc>
     <lastmod>2024-12-18T10:17:17+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/containerd/</loc>
-    <lastmod>2024-12-18T10:17:08+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

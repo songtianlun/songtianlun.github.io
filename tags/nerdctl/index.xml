@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nerdctl on Frytea</title>
+    <link>https://frytea.com/tags/nerdctl/</link>
+    <description>Recent content in Nerdctl on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 27 Apr 2026 15:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/nerdctl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 K3s 节点上安装并使用 nerdctl</title>
+      <link>https://frytea.com/archives/1661/</link>
+      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1661/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;适用场景&lt;/strong&gt;：K3s 默认不附带 nerdctl，但其内置的 containerd 与 nerdctl 完全兼容。本教程讲解如何在 K3s 节点上以最小代价安装 nerdctl，并正确指向 K3s 的 containerd socket，无需重复安装 containerd 或 CNI。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

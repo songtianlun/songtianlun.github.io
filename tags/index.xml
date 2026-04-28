@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Apr 2026 07:18:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 16:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://frytea.com/tags/ai/</link>
+      <pubDate>Mon, 27 Apr 2026 16:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HermesAgent</title>
+      <link>https://frytea.com/tags/hermesagent/</link>
+      <pubDate>Mon, 27 Apr 2026 16:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/hermesagent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K3s</title>
+      <link>https://frytea.com/tags/k3s/</link>
+      <pubDate>Mon, 27 Apr 2026 16:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/k3s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://frytea.com/tags/kubernetes/</link>
+      <pubDate>Mon, 27 Apr 2026 16:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containerd</title>
+      <link>https://frytea.com/tags/containerd/</link>
+      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/containerd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://frytea.com/tags/linux/</link>
+      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nerdctl</title>
+      <link>https://frytea.com/tags/nerdctl/</link>
+      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/nerdctl/</guid>
+      <description></description>
+    </item>
     <item>
       <title>工具</title>
       <link>https://frytea.com/tags/%E5%B7%A5%E5%85%B7/</link>
@@ -39,13 +88,6 @@
       <link>https://frytea.com/tags/%E9%BC%A0%E6%A0%87/</link>
       <pubDate>Mon, 20 Apr 2026 07:18:12 +0000</pubDate>
       <guid>https://frytea.com/tags/%E9%BC%A0%E6%A0%87/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://frytea.com/tags/ai/</link>
-      <pubDate>Fri, 17 Apr 2026 01:22:03 +0000</pubDate>
-      <guid>https://frytea.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -88,13 +130,6 @@
       <link>https://frytea.com/tags/kde/</link>
       <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
       <guid>https://frytea.com/tags/kde/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://frytea.com/tags/linux/</link>
-      <pubDate>Wed, 01 Apr 2026 05:55:30 +0000</pubDate>
-      <guid>https://frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -151,13 +186,6 @@
       <link>https://frytea.com/tags/k8s/</link>
       <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
       <guid>https://frytea.com/tags/k8s/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://frytea.com/tags/kubernetes/</link>
-      <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
-      <guid>https://frytea.com/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
@@ -448,13 +476,6 @@
       <description></description>
     </item>
     <item>
-      <title>K3s</title>
-      <link>https://frytea.com/tags/k3s/</link>
-      <pubDate>Thu, 08 May 2025 13:21:00 +0000</pubDate>
-      <guid>https://frytea.com/tags/k3s/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DevOps</title>
       <link>https://frytea.com/tags/devops/</link>
       <pubDate>Wed, 07 May 2025 10:03:00 +0000</pubDate>
@@ -718,13 +739,6 @@
       <link>https://frytea.com/tags/golang/</link>
       <pubDate>Wed, 18 Dec 2024 10:17:17 +0000</pubDate>
       <guid>https://frytea.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Containerd</title>
-      <link>https://frytea.com/tags/containerd/</link>
-      <pubDate>Wed, 18 Dec 2024 10:17:08 +0000</pubDate>
-      <guid>https://frytea.com/tags/containerd/</guid>
       <description></description>
     </item>
     <item>

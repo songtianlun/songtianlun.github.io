@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HermesAgent on Frytea</title>
+    <link>https://frytea.com/tags/hermesagent/</link>
+    <description>Recent content in HermesAgent on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 27 Apr 2026 16:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/hermesagent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hermes Agent — 在 K3s / K8s 中运行指南</title>
+      <link>https://frytea.com/archives/1662/</link>
+      <pubDate>Mon, 27 Apr 2026 16:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1662/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文基于官方 Docker 文档，将 Hermes Agent 迁移到 Kubernetes / K3s 环境，使用 StatefulSet 管理持久化工作负载。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1-前置准备&#34;&gt;1. 前置准备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;K3s 或 K8s 集群已就绪（本文以 K3s 为例）&lt;/li&gt;
+&lt;li&gt;节点上已有 containerd（K3s 默认内置）&lt;/li&gt;
+&lt;li&gt;推荐安装 &lt;code&gt;nerdctl&lt;/code&gt; 作为容器管理工具（参考：&lt;a href=&#34;https://frytea.com/archives/1661/&#34;&gt;在 K3s 节点上安装并使用 nerdctl&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;镜像：&lt;code&gt;nousresearch/hermes-agent:latest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-初始化配置持久化数据目录&#34;&gt;2. 初始化配置（持久化数据目录）&lt;/h2&gt;
+&lt;p&gt;在首次运行前，需要先执行一次 Setup Wizard，将 API Keys 等配置写入宿主机目录，再挂载进容器使用。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

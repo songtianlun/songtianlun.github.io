@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Dec 2024 10:17:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 15:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/containerd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 K3s 节点上安装并使用 nerdctl</title>
+      <link>https://frytea.com/archives/1661/</link>
+      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1661/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;适用场景&lt;/strong&gt;：K3s 默认不附带 nerdctl，但其内置的 containerd 与 nerdctl 完全兼容。本教程讲解如何在 K3s 节点上以最小代价安装 nerdctl，并正确指向 K3s 的 containerd socket，无需重复安装 containerd 或 CNI。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>以沙箱的方式运行容器-安全容器Kata Containers</title>
       <link>https://frytea.com/archives/1393/</link>
