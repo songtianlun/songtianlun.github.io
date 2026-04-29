@@ -4,7 +4,7 @@ cron 命令
 crontab -e  – 编辑该用户的 crontab，当指定 crontab 不存在时新建。
 crontab -l – 列出该用户的 crontab。
 crontab -r – 删除该用户的 crontab。
-crontab -u<用户名称> – 指定要设定 crontab 的用户名称。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://frytea.com/archives/411/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.849d706916cdf34a1aae37e3ed08f9c691e0f43a80fa3f09938484fd8f90e1f5.css integrity="sha256-hJ1waRbN80oarjfj7Qj5xpHg9DqA+j8Jk4SE/Y+Q4fU=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://frytea.com/archives/411/><link rel=manifest href=/manifest.json><script type=text/javascript>
+crontab -u<用户名称> – 指定要设定 crontab 的用户名称。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://frytea.com/archives/411/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.8bd91426168afae9831f9f09e54c6d3fbbe25c30f34c60e34e984843e3e7b2e0.css integrity="sha256-i9kUJhaK+umDH58J5UxtP7viXDDzTGDjTphIQ+PnsuA=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://frytea.com/archives/411/><link rel=manifest href=/manifest.json><script type=text/javascript>
     function downloadJSAtOnload() {
     var element = document.createElement("script");
     element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
@@ -87,9 +87,140 @@ cron 命令 crontab -e – 编辑该用户的 crontab，当指定 crontab 不存
 </span><span aria-hidden=true>&nbsp;|&nbsp;</span><span class=gc-pv-wrapper data-gc-path=/archives/411/ style=display:inline-flex;align-items:center;gap:.28em;vertical-align:middle>
 <span class=gc-spinner></span>
 <span class=gc-pv-count style=align-items:center;gap:.28em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-<span class=gc-pv-num></span></span></span></div></header><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/01/15/d58654b98cc8af2cfabdfcacdf0431da.webp alt="【简记】Linux 计划任务 Crontab"></figure><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#cron-%e7%ae%80%e4%bb%8b aria-label="cron 简介">cron 简介</a></li><li><a href=#cron-%e5%91%bd%e4%bb%a4 aria-label="cron 命令">cron 命令</a></li><li><a href=#linux-crontab-%e6%a0%bc%e5%bc%8f aria-label="Linux Crontab 格式">Linux Crontab 格式</a></li><li><a href=#cron-%e5%ae%9e%e4%be%8b aria-label="cron 实例">cron 实例</a><ul><li><a href=#1%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c aria-label=1、特定时间执行>1、特定时间执行</a></li><li><a href=#2-%e5%ae%89%e6%8e%92%e5%a4%9a%e4%b8%aa%e5%ae%9e%e4%be%8b%e6%af%94%e5%a6%82%e4%b8%80%e5%a4%a9%e6%89%a7%e8%a1%8c%e4%b8%a4%e6%ac%a1 aria-label="2、 安排多个实例（比如一天执行两次）">2、 安排多个实例（比如一天执行两次）</a></li><li><a href=#3%e8%ae%a9%e4%bb%bb%e5%8a%a1%e5%8f%aa%e5%9c%a8%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c%e6%af%94%e5%a6%82%e4%bb%85%e5%bd%93%e5%b7%a5%e4%bd%9c%e6%97%a5%e6%97%b6%e6%89%a7%e8%a1%8c aria-label=3、让任务只在特定时间执行（比如仅当工作日时执行）>3、让任务只在特定时间执行（比如仅当工作日时执行）</a></li><li><a href=#4-%e5%ae%89%e6%8e%92%e6%af%8f%e5%88%86%e9%92%9f%e9%83%bd%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label="4、 安排每分钟都执行定时任务">4、 安排每分钟都执行定时任务</a></li><li><a href=#5%e5%ae%89%e6%8e%92%e5%90%8e%e5%8f%b0%e6%af%8f%e5%8d%81%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=5、安排后台每十分钟执行定时任务>5、安排后台每十分钟执行定时任务</a></li><li><a href=#6%e6%af%8f%e4%b8%80%e5%b9%b4%e7%9a%84%e7%ac%ac%e4%b8%80%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1yearly aria-label=6、每一年的第一分钟执行定时任务（@yearly）>6、每一年的第一分钟执行定时任务（@yearly）</a></li><li><a href=#7%e6%af%8f%e6%9c%88%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1mothly aria-label=7、每月执行定时任务（@mothly）>7、每月执行定时任务（@mothly）</a></li><li><a href=#8%e6%af%8f%e5%a4%a9%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1daily aria-label=8、每天执行定时任务（@daily）>8、每天执行定时任务（@daily）</a></li><li><a href=#9%e6%af%8f%e6%ac%a1%e9%87%8d%e5%90%af%e6%97%b6%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1reboot aria-label=9、每次重启时执行定时任务（@reboot）>9、每次重启时执行定时任务（@reboot）</a></li><li><a href=#10%e5%a6%82%e4%bd%95%e7%94%a8-mail-%e5%85%b3%e9%94%ae%e5%ad%97%e7%a6%81%e6%ad%a2%e9%87%8d%e5%ae%9a%e5%90%91-cron-%e7%9a%84%e9%82%ae%e4%bb%b6 aria-label="10、如何用 mail 关键字禁止/重定向 cron 的邮件">10、如何用 mail 关键字禁止/重定向 cron 的邮件</a></li><li><a href=#11%e5%a6%82%e4%bd%95%e7%b3%bb%e7%a7%92%e6%af%8f%e6%89%a7%e8%a1%8c%e4%b8%80%e4%b8%aa%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=11、如何系秒每执行一个定时任务>11、如何系秒每执行一个定时任务</a></li><li><a href=#12cron-%e4%b8%ad%e7%9a%84-path-%e5%8f%98%e9%87%8f aria-label="12、cron 中的 PATH 变量">12、cron 中的 PATH 变量</a></li><li><a href=#13%e4%bb%8e-cron-%e6%96%87%e4%bb%b6%e4%b8%ad%e5%ae%9a%e4%b9%89-cron-%e4%bb%bb%e5%8a%a1 aria-label="13、从 cron 文件中定义 cron 任务">13、从 cron 文件中定义 cron 任务</a></li><li><a href=#14%e6%9f%a5%e7%9c%8b%e6%89%80%e6%9c%89%e7%94%a8%e6%88%b7-cron-%e4%bb%bb%e5%8a%a1 aria-label="14、查看所有用户 cron 任务">14、查看所有用户 cron 任务</a></li></ul></li><li><a href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae aria-label=参考文献>参考文献</a></li></ul></div><div><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins></div><script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script></details></div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://frytea.com/archives/411/>本文</a>
+<span class=gc-pv-num></span></span></span></div></header><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/01/15/d58654b98cc8af2cfabdfcacdf0431da.webp alt="【简记】Linux 计划任务 Crontab"></figure><aside id=toc-sidebar class=toc-sidebar aria-label=目录><div class=toc-sidebar-header><span class=toc-title>目录</span></div><div class=toc-sidebar-body id=toc-sidebar-body><ul><li><a href=#cron-%e7%ae%80%e4%bb%8b aria-label="cron 简介">cron 简介</a></li><li><a href=#cron-%e5%91%bd%e4%bb%a4 aria-label="cron 命令">cron 命令</a></li><li><a href=#linux-crontab-%e6%a0%bc%e5%bc%8f aria-label="Linux Crontab 格式">Linux Crontab 格式</a></li><li><a href=#cron-%e5%ae%9e%e4%be%8b aria-label="cron 实例">cron 实例</a><ul><li><a href=#1%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c aria-label=1、特定时间执行>1、特定时间执行</a></li><li><a href=#2-%e5%ae%89%e6%8e%92%e5%a4%9a%e4%b8%aa%e5%ae%9e%e4%be%8b%e6%af%94%e5%a6%82%e4%b8%80%e5%a4%a9%e6%89%a7%e8%a1%8c%e4%b8%a4%e6%ac%a1 aria-label="2、 安排多个实例（比如一天执行两次）">2、 安排多个实例（比如一天执行两次）</a></li><li><a href=#3%e8%ae%a9%e4%bb%bb%e5%8a%a1%e5%8f%aa%e5%9c%a8%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c%e6%af%94%e5%a6%82%e4%bb%85%e5%bd%93%e5%b7%a5%e4%bd%9c%e6%97%a5%e6%97%b6%e6%89%a7%e8%a1%8c aria-label=3、让任务只在特定时间执行（比如仅当工作日时执行）>3、让任务只在特定时间执行（比如仅当工作日时执行）</a></li><li><a href=#4-%e5%ae%89%e6%8e%92%e6%af%8f%e5%88%86%e9%92%9f%e9%83%bd%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label="4、 安排每分钟都执行定时任务">4、 安排每分钟都执行定时任务</a></li><li><a href=#5%e5%ae%89%e6%8e%92%e5%90%8e%e5%8f%b0%e6%af%8f%e5%8d%81%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=5、安排后台每十分钟执行定时任务>5、安排后台每十分钟执行定时任务</a></li><li><a href=#6%e6%af%8f%e4%b8%80%e5%b9%b4%e7%9a%84%e7%ac%ac%e4%b8%80%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1yearly aria-label=6、每一年的第一分钟执行定时任务（@yearly）>6、每一年的第一分钟执行定时任务（@yearly）</a></li><li><a href=#7%e6%af%8f%e6%9c%88%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1mothly aria-label=7、每月执行定时任务（@mothly）>7、每月执行定时任务（@mothly）</a></li><li><a href=#8%e6%af%8f%e5%a4%a9%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1daily aria-label=8、每天执行定时任务（@daily）>8、每天执行定时任务（@daily）</a></li><li><a href=#9%e6%af%8f%e6%ac%a1%e9%87%8d%e5%90%af%e6%97%b6%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1reboot aria-label=9、每次重启时执行定时任务（@reboot）>9、每次重启时执行定时任务（@reboot）</a></li><li><a href=#10%e5%a6%82%e4%bd%95%e7%94%a8-mail-%e5%85%b3%e9%94%ae%e5%ad%97%e7%a6%81%e6%ad%a2%e9%87%8d%e5%ae%9a%e5%90%91-cron-%e7%9a%84%e9%82%ae%e4%bb%b6 aria-label="10、如何用 mail 关键字禁止/重定向 cron 的邮件">10、如何用 mail 关键字禁止/重定向 cron 的邮件</a></li><li><a href=#11%e5%a6%82%e4%bd%95%e7%b3%bb%e7%a7%92%e6%af%8f%e6%89%a7%e8%a1%8c%e4%b8%80%e4%b8%aa%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=11、如何系秒每执行一个定时任务>11、如何系秒每执行一个定时任务</a></li><li><a href=#12cron-%e4%b8%ad%e7%9a%84-path-%e5%8f%98%e9%87%8f aria-label="12、cron 中的 PATH 变量">12、cron 中的 PATH 变量</a></li><li><a href=#13%e4%bb%8e-cron-%e6%96%87%e4%bb%b6%e4%b8%ad%e5%ae%9a%e4%b9%89-cron-%e4%bb%bb%e5%8a%a1 aria-label="13、从 cron 文件中定义 cron 任务">13、从 cron 文件中定义 cron 任务</a></li><li><a href=#14%e6%9f%a5%e7%9c%8b%e6%89%80%e6%9c%89%e7%94%a8%e6%88%b7-cron-%e4%bb%bb%e5%8a%a1 aria-label="14、查看所有用户 cron 任务">14、查看所有用户 cron 任务</a></li></ul></li><li><a href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae aria-label=参考文献>参考文献</a></li></ul></div><div class=toc-sidebar-ad><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></aside><div id=toc-mobile-root><button id=toc-toggle-btn class=toc-toggle-btn accesskey=c aria-label=目录 title="目录 (Alt + C)">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="16" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg></button><div id=toc-backdrop class=toc-backdrop></div><div id=toc-drawer class=toc-drawer aria-hidden=true role=dialog aria-label=目录><div class=toc-drawer-header><span class=toc-drawer-title>目录</span>
+<button id=toc-drawer-close class=toc-drawer-close-btn aria-label=关闭目录>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class=toc-drawer-body id=toc-drawer-body><ul><li><a href=#cron-%e7%ae%80%e4%bb%8b aria-label="cron 简介">cron 简介</a></li><li><a href=#cron-%e5%91%bd%e4%bb%a4 aria-label="cron 命令">cron 命令</a></li><li><a href=#linux-crontab-%e6%a0%bc%e5%bc%8f aria-label="Linux Crontab 格式">Linux Crontab 格式</a></li><li><a href=#cron-%e5%ae%9e%e4%be%8b aria-label="cron 实例">cron 实例</a><ul><li><a href=#1%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c aria-label=1、特定时间执行>1、特定时间执行</a></li><li><a href=#2-%e5%ae%89%e6%8e%92%e5%a4%9a%e4%b8%aa%e5%ae%9e%e4%be%8b%e6%af%94%e5%a6%82%e4%b8%80%e5%a4%a9%e6%89%a7%e8%a1%8c%e4%b8%a4%e6%ac%a1 aria-label="2、 安排多个实例（比如一天执行两次）">2、 安排多个实例（比如一天执行两次）</a></li><li><a href=#3%e8%ae%a9%e4%bb%bb%e5%8a%a1%e5%8f%aa%e5%9c%a8%e7%89%b9%e5%ae%9a%e6%97%b6%e9%97%b4%e6%89%a7%e8%a1%8c%e6%af%94%e5%a6%82%e4%bb%85%e5%bd%93%e5%b7%a5%e4%bd%9c%e6%97%a5%e6%97%b6%e6%89%a7%e8%a1%8c aria-label=3、让任务只在特定时间执行（比如仅当工作日时执行）>3、让任务只在特定时间执行（比如仅当工作日时执行）</a></li><li><a href=#4-%e5%ae%89%e6%8e%92%e6%af%8f%e5%88%86%e9%92%9f%e9%83%bd%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label="4、 安排每分钟都执行定时任务">4、 安排每分钟都执行定时任务</a></li><li><a href=#5%e5%ae%89%e6%8e%92%e5%90%8e%e5%8f%b0%e6%af%8f%e5%8d%81%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=5、安排后台每十分钟执行定时任务>5、安排后台每十分钟执行定时任务</a></li><li><a href=#6%e6%af%8f%e4%b8%80%e5%b9%b4%e7%9a%84%e7%ac%ac%e4%b8%80%e5%88%86%e9%92%9f%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1yearly aria-label=6、每一年的第一分钟执行定时任务（@yearly）>6、每一年的第一分钟执行定时任务（@yearly）</a></li><li><a href=#7%e6%af%8f%e6%9c%88%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1mothly aria-label=7、每月执行定时任务（@mothly）>7、每月执行定时任务（@mothly）</a></li><li><a href=#8%e6%af%8f%e5%a4%a9%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1daily aria-label=8、每天执行定时任务（@daily）>8、每天执行定时任务（@daily）</a></li><li><a href=#9%e6%af%8f%e6%ac%a1%e9%87%8d%e5%90%af%e6%97%b6%e6%89%a7%e8%a1%8c%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1reboot aria-label=9、每次重启时执行定时任务（@reboot）>9、每次重启时执行定时任务（@reboot）</a></li><li><a href=#10%e5%a6%82%e4%bd%95%e7%94%a8-mail-%e5%85%b3%e9%94%ae%e5%ad%97%e7%a6%81%e6%ad%a2%e9%87%8d%e5%ae%9a%e5%90%91-cron-%e7%9a%84%e9%82%ae%e4%bb%b6 aria-label="10、如何用 mail 关键字禁止/重定向 cron 的邮件">10、如何用 mail 关键字禁止/重定向 cron 的邮件</a></li><li><a href=#11%e5%a6%82%e4%bd%95%e7%b3%bb%e7%a7%92%e6%af%8f%e6%89%a7%e8%a1%8c%e4%b8%80%e4%b8%aa%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1 aria-label=11、如何系秒每执行一个定时任务>11、如何系秒每执行一个定时任务</a></li><li><a href=#12cron-%e4%b8%ad%e7%9a%84-path-%e5%8f%98%e9%87%8f aria-label="12、cron 中的 PATH 变量">12、cron 中的 PATH 变量</a></li><li><a href=#13%e4%bb%8e-cron-%e6%96%87%e4%bb%b6%e4%b8%ad%e5%ae%9a%e4%b9%89-cron-%e4%bb%bb%e5%8a%a1 aria-label="13、从 cron 文件中定义 cron 任务">13、从 cron 文件中定义 cron 任务</a></li><li><a href=#14%e6%9f%a5%e7%9c%8b%e6%89%80%e6%9c%89%e7%94%a8%e6%88%b7-cron-%e4%bb%bb%e5%8a%a1 aria-label="14、查看所有用户 cron 任务">14、查看所有用户 cron 任务</a></li></ul></li><li><a href=#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae aria-label=参考文献>参考文献</a></li></ul></div></div></div><script>
+(function () {
+    "use strict";
+
+    function initToc() {
+     
+    var headings = Array.prototype.slice.call(
+        document.querySelectorAll(
+            ".post-content h1[id], .post-content h2[id], .post-content h3[id]," +
+            ".post-content h4[id], .post-content h5[id], .post-content h6[id]"
+        )
+    );
+    var allTocLinks = Array.prototype.slice.call(
+        document.querySelectorAll("#toc-sidebar-body a, #toc-drawer-body a")
+    );
+
+     
+    var currentActiveId = null;
+
+    function setActive(id) {
+        if (id === currentActiveId) return;
+        currentActiveId = id;
+        allTocLinks.forEach(function (link) {
+            var href = link.getAttribute("href") || "";
+            
+
+            if (decodeURIComponent(href.slice(1)) === id) {
+                link.classList.add("toc-active");
+            } else {
+                link.classList.remove("toc-active");
+            }
+        });
+         
+        var sidebarBody = document.getElementById("toc-sidebar-body");
+        if (sidebarBody) {
+            var activeLink = sidebarBody.querySelector("a.toc-active");
+            if (activeLink) {
+                var SCROLL_MARGIN_TOP    = 20;  
+                var SCROLL_MARGIN_BOTTOM = 40;  
+                var linkTop    = activeLink.offsetTop;
+                var bodyHeight = sidebarBody.clientHeight;
+                var scrollTop  = sidebarBody.scrollTop;
+                if (linkTop < scrollTop + SCROLL_MARGIN_TOP ||
+                    linkTop > scrollTop + bodyHeight - SCROLL_MARGIN_BOTTOM) {
+                    sidebarBody.scrollTo({
+                        top: linkTop - bodyHeight / 3,
+                        behavior: "smooth"
+                    });
+                }
+            }
+        }
+    }
+
+    function getActiveId() {
+        
+
+        var MIN_THRESHOLD_PX       = 80;    
+        var VIEWPORT_THRESHOLD_RATIO = 0.15;  
+        var threshold = Math.max(MIN_THRESHOLD_PX, window.innerHeight * VIEWPORT_THRESHOLD_RATIO);
+        var active = null;
+        headings.forEach(function (h) {
+            if (h.getBoundingClientRect().top <= threshold) {
+                active = h.id;
+            }
+        });
+         
+        if (!active && headings.length > 0) {
+            active = headings[0].id;
+        }
+        return active;
+    }
+
+    if (headings.length > 0) {
+        var ticking = false;
+        window.addEventListener("scroll", function () {
+            if (!ticking) {
+                window.requestAnimationFrame(function () {
+                    setActive(getActiveId());
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+         
+        setActive(getActiveId());
+    }
+
+     
+    var toggleBtn  = document.getElementById("toc-toggle-btn");
+    var drawer     = document.getElementById("toc-drawer");
+    var backdrop   = document.getElementById("toc-backdrop");
+    var closeBtn   = document.getElementById("toc-drawer-close");
+
+    function openDrawer() {
+        if (!drawer) return;
+        drawer.classList.add("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "false");
+        backdrop.classList.add("toc-backdrop-visible");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeDrawer() {
+        if (!drawer) return;
+        drawer.classList.remove("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "true");
+        backdrop.classList.remove("toc-backdrop-visible");
+        document.body.style.overflow = "";
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener("click", openDrawer);
+    if (closeBtn)  closeBtn.addEventListener("click",  closeDrawer);
+    if (backdrop)  backdrop.addEventListener("click",  closeDrawer);
+
+     
+    document.querySelectorAll("#toc-drawer-body a").forEach(function (link) {
+        link.addEventListener("click", closeDrawer);
+    });
+
+     
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeDrawer();
+    });
+    }  
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initToc);
+    } else {
+        initToc();
+    }
+}());
+</script><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://frytea.com/archives/411/>本文</a>
 首发于
 <a href=https://frytea.com/>🌱 煎茶</a>，
 <a href=/disclaimer/>转载</a> 请注明
