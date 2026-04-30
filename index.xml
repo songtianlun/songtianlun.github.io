@@ -10054,8 +10054,7 @@ pvecm delnode &amp;lt;YOUR DELETE NODE NAME&amp;gt;
       <link>https://frytea.com/archives/746/</link>
       <pubDate>Wed, 08 Mar 2023 09:52:58 +0000</pubDate>
       <guid>https://frytea.com/archives/746/</guid>
-      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-&lt;p&gt;近年来，聊天机器人越来越受欢迎，许多公司和个人使用它们与客户交互或进行对话。其中一种聊天机器人是 ChatGPT，因其生成类似人类响应的能力而引起关注。在本篇博客中，我们将概述 ChatGPT 现象及其对聊天机器人行业的影响。&lt;/p&gt;</description>
+      <description>&lt;p&gt;近年来，聊天机器人越来越受欢迎，许多公司和个人使用它们与客户交互或进行对话。其中一种聊天机器人是 ChatGPT，因其生成类似人类响应的能力而引起关注。在本篇博客中，我们将概述 ChatGPT 现象及其对聊天机器人行业的影响。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch Linux 高分屏缩放方案</title>
@@ -18779,6 +18778,13 @@ scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir
       <pubDate>Fri, 19 Oct 2018 08:47:00 +0000</pubDate>
       <guid>https://frytea.com/archives/105/</guid>
       <description>&lt;p&gt;读《山茶文具店》的这段日子，心里日常被温暖包围。无论发生了什么，睡前读几页书，可以感觉到从内而外的温暖。这真是一本好书，好到最后读到98%，不舍得往下读，又期待往下读，这般纠结的感觉。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>导航</title>
+      <link>https://frytea.com/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://frytea.com/navigation/</guid>
+      <description>站内常用页面与内容入口导航。</description>
     </item>
     <item>
       <title>关于</title>

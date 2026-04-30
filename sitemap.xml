@@ -146,6 +146,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://frytea.com/tags/byaigc/</loc>
+    <lastmod>2026-04-16T00:53:12+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</loc>
     <lastmod>2026-04-16T00:53:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -488,11 +493,6 @@
   </url><url>
     <loc>https://frytea.com/archives/1523/</loc>
     <lastmod>2025-09-28T15:43:43+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/byaigc/</loc>
-    <lastmod>2025-09-19T17:08:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -6207,6 +6207,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/navigation/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
