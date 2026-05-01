@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2026 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE</title>
+      <link>https://frytea.com/tags/cve/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/cve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://frytea.com/tags/linux/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>安全</title>
+      <link>https://frytea.com/tags/%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>漏洞</title>
+      <link>https://frytea.com/tags/%E6%BC%8F%E6%B4%9E/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E6%BC%8F%E6%B4%9E/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>提权</title>
+      <link>https://frytea.com/tags/%E6%8F%90%E6%9D%83/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E6%8F%90%E6%9D%83/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://frytea.com/tags/ai/</link>
@@ -46,13 +81,6 @@
       <link>https://frytea.com/tags/containerd/</link>
       <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
       <guid>https://frytea.com/tags/containerd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://frytea.com/tags/linux/</link>
-      <pubDate>Mon, 27 Apr 2026 15:00:00 +0800</pubDate>
-      <guid>https://frytea.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>

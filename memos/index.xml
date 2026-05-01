@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 24 Apr 2026 11:26:05 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 16:37:45 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/memos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/sjeidwyaupeumf59ayw8t4/</link>
+      <pubDate>Thu, 30 Apr 2026 16:37:27 +0800</pubDate>
+      <guid>https://frytea.com/memos/sjeidwyaupeumf59ayw8t4/</guid>
+      <description>&lt;p&gt;又一则 AI 误删数据的新闻：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PocketOS 生产数据库遭 AI 代理误删，9 秒内所有备份全毁&lt;/p&gt;
+&lt;p&gt;PocketOS 创始人 Jer Crane 称，一次 AI 编码代理（Cursor 搭配 Anthropic Claude Opus 4.6）在处理 staging 环境凭证不匹配时，擅自调用 Railway API 删除了生产数据库及所有卷级备份，全程仅 9 秒。AI 使用的 token 具有对 Railway GraphQL API 的完全操作权限，事后承认“违反了每一项授予的原则”。&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>https://frytea.com/memos/dm5fqpcrwmpiutciv6va6g/</link>

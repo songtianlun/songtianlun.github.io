@@ -11,8 +11,23 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2026 16:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/archives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copy Fail：Linux 内核 2017 年至今的高危漏洞（附临时缓解方案） | CVE-2026-31431</title>
+      <link>https://frytea.com/archives/1663/</link>
+      <pubDate>Thu, 30 Apr 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1663/</guid>
+      <description>&lt;p&gt;最近爆出一个 Linux 内核存在近10年的漏洞，随便找了一台最近在用的机器试了一下，直接成功提权：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~$ whoami
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;songtianlun
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~$ python3 test.py 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# whoami&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;root
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;临时解决方案如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于 SSH/OpenSSL 等安全基建库几乎都在使用自行维护的用户态加密库, 所以 AF_ALG 可以直接禁用, 为临时缓解措施 (仅供参考):&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hermes Agent — 在 K3s / K8s 中运行指南</title>
       <link>https://frytea.com/archives/1662/</link>
