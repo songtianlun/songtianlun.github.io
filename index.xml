@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Apr 2026 16:37:45 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 22:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>友链</title>
@@ -814,6 +814,33 @@
 &lt;h2 id=&#34;成为网友&#34;&gt;成为网友&lt;/h2&gt;
 &lt;p&gt;如果你也热爱分享、喜欢原创，或是充满好奇，就让我们互换链接，一起玩耍。
 欢迎在这留下您的博客信息，期待与您成为网邻！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）</title>
+      <link>https://frytea.com/archives/1664/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1664/</guid>
+      <description>&lt;p&gt;从开始工作，就一直想开发一款面向个人的财务管理软件，用来直观的分析自己的财务状况，对个人财务情况提供直观的反馈，帮助自己更好的存钱、消费和投资。获取正向反馈，激励自己更好的存钱。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/dwhcnvjyrhdzplv4le5xkp/</link>
+      <pubDate>Thu, 07 May 2026 09:06:28 +0800</pubDate>
+      <guid>https://frytea.com/memos/dwhcnvjyrhdzplv4le5xkp/</guid>
+      <description>&lt;p&gt;使用这个工具，可以查看自己的 Github Copilot 转换为按量付费后估算的开销：&lt;/p&gt;
+&lt;p&gt;使用非常简单：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx copilot-arewecooked
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;即可查看到类似下图的报告：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://i-cdn.frytea.com/2026/05/07/66a2779f40490dac7c0e1644408b1cae.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;refs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PanAchy/copilot-arewecooked&#34;&gt;https://github.com/PanAchy/copilot-arewecooked&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/GithubCopilot/comments/1t15b6d/github_has_just_launched_the_copilot_billing/&#34;&gt;https://www.reddit.com/r/GithubCopilot/comments/1t15b6d/github_has_just_launched_the_copilot_billing/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing&#34;&gt;https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/GithubCopilot/comments/1t4j87e/github_copilot_new_weekly_limit/&#34;&gt;https://www.reddit.com/r/GithubCopilot/comments/1t4j87e/github_copilot_new_weekly_limit/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title></title>

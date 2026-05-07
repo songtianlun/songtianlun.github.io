@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Apr 2026 16:37:45 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 09:07:45 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/memos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/dwhcnvjyrhdzplv4le5xkp/</link>
+      <pubDate>Thu, 07 May 2026 09:06:28 +0800</pubDate>
+      <guid>https://frytea.com/memos/dwhcnvjyrhdzplv4le5xkp/</guid>
+      <description>&lt;p&gt;使用这个工具，可以查看自己的 Github Copilot 转换为按量付费后估算的开销：&lt;/p&gt;
+&lt;p&gt;使用非常简单：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx copilot-arewecooked
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;即可查看到类似下图的报告：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image&#34; loading=&#34;lazy&#34; src=&#34;https://i-cdn.frytea.com/2026/05/07/66a2779f40490dac7c0e1644408b1cae.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;refs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PanAchy/copilot-arewecooked&#34;&gt;https://github.com/PanAchy/copilot-arewecooked&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/GithubCopilot/comments/1t15b6d/github_has_just_launched_the_copilot_billing/&#34;&gt;https://www.reddit.com/r/GithubCopilot/comments/1t15b6d/github_has_just_launched_the_copilot_billing/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing&#34;&gt;https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/prepare-for-your-move-to-usage-based-billing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/GithubCopilot/comments/1t4j87e/github_copilot_new_weekly_limit/&#34;&gt;https://www.reddit.com/r/GithubCopilot/comments/1t4j87e/github_copilot_new_weekly_limit/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>https://frytea.com/memos/sjeidwyaupeumf59ayw8t4/</link>

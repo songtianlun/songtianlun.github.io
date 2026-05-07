@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 22:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://frytea.com/tags/docker/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://frytea.com/tags/go/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rivulet</title>
+      <link>https://frytea.com/tags/rivulet/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/rivulet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>个人财务管理</title>
+      <link>https://frytea.com/tags/%E4%B8%AA%E4%BA%BA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E4%B8%AA%E4%BA%BA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CVE</title>
       <link>https://frytea.com/tags/cve/</link>
@@ -256,13 +284,6 @@
       <link>https://frytea.com/tags/macos/</link>
       <pubDate>Sat, 18 Oct 2025 16:31:21 +0000</pubDate>
       <guid>https://frytea.com/tags/macos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://frytea.com/tags/go/</link>
-      <pubDate>Tue, 14 Oct 2025 11:51:14 +0000</pubDate>
-      <guid>https://frytea.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
@@ -613,13 +634,6 @@
       <link>https://frytea.com/tags/rancher/</link>
       <pubDate>Mon, 31 Mar 2025 10:00:40 +0000</pubDate>
       <guid>https://frytea.com/tags/rancher/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://frytea.com/tags/docker/</link>
-      <pubDate>Mon, 31 Mar 2025 09:59:51 +0000</pubDate>
-      <guid>https://frytea.com/tags/docker/</guid>
       <description></description>
     </item>
     <item>

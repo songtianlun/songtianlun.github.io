@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rivulet on Frytea</title>
+    <link>https://frytea.com/tags/rivulet/</link>
+    <description>Recent content in Rivulet on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 07 May 2026 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/rivulet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）</title>
+      <link>https://frytea.com/archives/1664/</link>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1664/</guid>
+      <description>&lt;p&gt;从开始工作，就一直想开发一款面向个人的财务管理软件，用来直观的分析自己的财务状况，对个人财务情况提供直观的反馈，帮助自己更好的存钱、消费和投资。获取正向反馈，激励自己更好的存钱。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

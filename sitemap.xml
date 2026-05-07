@@ -6,28 +6,68 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/memos/sjeidwyaupeumf59ayw8t4/</loc>
-    <lastmod>2026-04-30T16:37:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/</loc>
-    <lastmod>2026-04-30T16:37:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/memos/</loc>
-    <lastmod>2026-04-30T16:37:45+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://frytea.com/archives/</loc>
-    <lastmod>2026-04-30T08:00:00+08:00</lastmod>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/categories/</loc>
-    <lastmod>2026-04-30T08:00:00+08:00</lastmod>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/docker/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/go/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/rivulet/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/%E4%B8%AA%E4%BA%BA%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/archives/1664/</loc>
+    <lastmod>2026-05-07T22:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/memos/dwhcnvjyrhdzplv4le5xkp/</loc>
+    <lastmod>2026-05-07T09:07:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/memos/</loc>
+    <lastmod>2026-05-07T09:07:45+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/memos/sjeidwyaupeumf59ayw8t4/</loc>
+    <lastmod>2026-04-30T16:37:45+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -42,11 +82,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/tags/linux/</loc>
-    <lastmod>2026-04-30T08:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/</loc>
     <lastmod>2026-04-30T08:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -222,11 +257,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/archives/1652/</loc>
-    <lastmod>2026-04-03T03:25:31+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2026-04-03T03:25:31+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -413,11 +443,6 @@
   </url><url>
     <loc>https://frytea.com/archives/1538/</loc>
     <lastmod>2025-10-14T13:36:33+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/go/</loc>
-    <lastmod>2025-10-14T11:51:14+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1113,11 +1138,6 @@
   </url><url>
     <loc>https://frytea.com/tags/rancher/</loc>
     <lastmod>2025-03-31T10:00:40+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/docker/</loc>
-    <lastmod>2025-03-31T09:59:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
