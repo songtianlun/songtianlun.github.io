@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:53:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 08:54:29 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/%E7%BF%BB%E8%AF%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【翻译】Programming Still Sucks：编程依然很糟糕</title>
+      <link>https://frytea.com/archives/1665/</link>
+      <pubDate>Fri, 08 May 2026 08:50:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1665/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;文章来源：stvn.sh / Writing&lt;/p&gt;
+&lt;p&gt;原文作者：Jerome Choo&lt;/p&gt;
+&lt;p&gt;原文标题：&lt;em&gt;Programming Still Sucks&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&#34;https://www.stvn.sh/writing/programming-still-sucks-fqffhyp&#34;&gt;https://www.stvn.sh/writing/programming-still-sucks-fqffhyp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文为全文翻译，译文由 AI 辅助整理，若有理解偏差欢迎指正。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【翻译】如果你以为写代码速度是你的问题，那你还有更大的问题</title>
       <link>https://frytea.com/archives/1656/</link>
