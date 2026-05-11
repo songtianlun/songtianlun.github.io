@@ -236,6 +236,22 @@
             ],
             "language": "HTML",
             "status": "active"
+        },
+        {
+            "name": "溪流记账 (Rivulet)",
+            "description": "一款简洁好用的个人财务管理应用，使用 go+svelet 开发，使用流畅，可自托管",
+            "icon": "💰",
+            "github": "https://github.com/songtianlun/rivulet-docs",
+            "url": "https://rivulet.app/",
+            "tags": [
+                "Finance",
+                "Web",
+                "Go",
+                "Svelte"
+            ],
+            "language": "Go",
+            "year": "2026-05-07",
+            "status": "active"
         }
     ]
 }
