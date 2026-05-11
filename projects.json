@@ -1,6 +1,19 @@
 {
     "projects": [
         {
+            "name": "frytea.com",
+            "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
+            "icon": "🍵",
+            "github": "https://github.com/songtianlun/songtianlun.github.io",
+            "url": "https://www.frytea.com",
+            "tags": [
+                "Web"
+            ],
+            "language": "HTML",
+            "year": "2018-10-07",
+            "status": "active"
+        },
+        {
             "name": "PlanAssistant",
             "description": "For people who like to record their lives and plan their goals.",
             "icon": "🗂️",
@@ -25,7 +38,7 @@
             ],
             "language": "Go",
             "year": "2022-01-01",
-            "status": "active"
+            "status": "archived"
         },
         {
             "name": "MinePin",
@@ -36,6 +49,7 @@
                 "Go",
                 "Tools"
             ],
+            "status": "archived",
             "github": "https://github.com/songtianlun/minepin"
         },
         {
@@ -205,18 +219,6 @@
             "language": "TypeScript",
             "year": "2025-10-03",
             "status": "archived"
-        },
-        {
-            "name": "frytea.com",
-            "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
-            "icon": "🍵",
-            "github": "https://github.com/songtianlun/songtianlun.github.io",
-            "url": "https://www.frytea.com",
-            "tags": [
-                "Web"
-            ],
-            "language": "HTML",
-            "status": "active"
         },
         {
             "name": "AI 创作阁楼 (AiLoft)",
