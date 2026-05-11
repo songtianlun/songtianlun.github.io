@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "frytea.com",
-            "description": "个人博客网站，基于 Hugo + PaperMod 主题构建，支持 PWA、暗色模式、全文搜索等特性。",
+            "description": "当前个人博客网站，使用 Hugo 和 PaperMod 定制。",
             "icon": "🍵",
             "github": "https://github.com/songtianlun/songtianlun.github.io",
             "url": "https://www.frytea.com",
@@ -169,6 +169,7 @@
             "name": "Calc9",
             "description": "用于健康、健身和日常场景的专业计算器集合。",
             "icon": "❤️",
+            "logo": "https://i-cdn.frytea.com/2026/05/11/9710be518df9ac514f510b2a36d7f8e4.png",
             "github": "",
             "url": "https://calc9.com/",
             "tags": [
@@ -224,6 +225,7 @@
             "name": "AI 创作阁楼 (AiLoft)",
             "description": "一个专注于 AI 创作工具和资源的在线平台，提供 AI 绘画、写作、音乐生成等多种工具，帮助用户轻松创作各种类型的内容。",
             "icon": "🛖",
+            "logo": "https://i-cdn.frytea.com/2026/05/11/5bafd68255ddbff8e6f0da803926ed03.png",
             "github": "",
             "url": "https://ailoft.net/",
             "tags": [
@@ -238,6 +240,7 @@
             "name": "Famous Landmarks",
             "description": "全球著名地标的图像生成和信息展示工具。",
             "icon": "🗽",
+            "logo": "https://i-cdn.frytea.com/2026/05/11/e2e006141c3d51108eded356d12af338.png",
             "github": "",
             "url": "https://famous-landmarks.com",
             "tags": [
@@ -253,6 +256,7 @@
             "name": "吾身 (Diarum)",
             "description": "一款基于 Go 和 Svelte 开发的个人日记应用，支持 Markdown 编辑、标签分类、数据导出等功能。",
             "icon": "📔",
+            "logo": "https://i-cdn.frytea.com/2026/05/11/58aa74433d4b070312403e9b525e4514.png",
             "github": "https://github.com/songtianlun/diarum",
             "url": "https://diarum.app/",
             "tags": [
@@ -268,6 +272,7 @@
             "name": "溪流记账 (Rivulet)",
             "description": "一款简洁好用的个人财务管理应用，使用 go+svelet 开发，使用流畅，可自托管",
             "icon": "💰",
+            "logo": "https://i-cdn.frytea.com/2026/05/11/818e3cb54d8fef83ee0a7a6628ebd716.png",
             "github": "https://github.com/songtianlun/rivulet-docs",
             "url": "https://rivulet.app/",
             "tags": [
