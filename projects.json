@@ -21,8 +21,7 @@
             "url": "https://bjpfd2.skybyte.me",
             "tags": [
                 "Go",
-                "Finance",
-                "Dashboard"
+                "Html"
             ],
             "language": "Go",
             "year": "2022-01-01",
@@ -35,8 +34,7 @@
             "year": "2022",
             "tags": [
                 "Go",
-                "Maps",
-                "Location"
+                "Tools"
             ],
             "github": "https://github.com/songtianlun/minepin"
         },
@@ -48,8 +46,6 @@
             "url": "https://todayaiweather.com/",
             "tags": [
                 "Ruby",
-                "AI",
-                "Art",
                 "Weather"
             ],
             "language": "Ruby",
@@ -80,8 +76,7 @@
             "url": "https://selfhost-hub.com/",
             "tags": [
                 "NextJS",
-                "React",
-                "Selfhost"
+                "React"
             ],
             "language": "TypeScript",
             "year": "2025-01-15",
@@ -94,9 +89,7 @@
             "github": "",
             "url": "https://fc.frytea.com/",
             "tags": [
-                "NextJS",
-                "Finance",
-                "Calculator"
+                "NextJS"
             ],
             "language": "TypeScript",
             "year": "2025-02-01",
@@ -110,8 +103,7 @@
             "url": "https://playunb.com/",
             "tags": [
                 "JavaScript",
-                "Games",
-                "Emulator"
+                "Games"
             ],
             "language": "JavaScript",
             "year": "2025-05-17",
@@ -125,9 +117,7 @@
             "url": "https://liquidglass.icu/",
             "docs": "https://frytea.com/archives/1489/",
             "tags": [
-                "NextJS",
-                "AI",
-                "Design"
+                "NextJS"
             ],
             "language": "TypeScript",
             "year": "2025-06-10",
@@ -141,8 +131,7 @@
             "url": "https://ud.frytea.com/",
             "tags": [
                 "NextJS",
-                "Analytics",
-                "Dashboard"
+                "Analytics"
             ],
             "language": "TypeScript",
             "year": "2025-03-01",
@@ -156,8 +145,7 @@
             "url": "https://weekcount.com/",
             "tags": [
                 "NextJS",
-                "Calendar",
-                "Utility"
+                "Tools"
             ],
             "language": "TypeScript",
             "year": "2025-06-24",
@@ -171,8 +159,7 @@
             "url": "https://calc9.com/",
             "tags": [
                 "NextJS",
-                "Health",
-                "Calculator"
+                "Tools"
             ],
             "language": "TypeScript",
             "year": "2025-06-30",
@@ -185,9 +172,7 @@
             "github": "",
             "url": "https://ava.skybyte.me/",
             "tags": [
-                "NextJS",
-                "AI",
-                "Comparison"
+                "NextJS"
             ],
             "language": "TypeScript",
             "year": "2025-04-01",
@@ -200,8 +185,7 @@
             "github": "",
             "url": "https://2md.run/",
             "tags": [
-                "Markdown",
-                "Tool",
+                "Tools",
                 "Web"
             ],
             "language": "TypeScript",
@@ -215,8 +199,7 @@
             "github": "",
             "url": "https://flashcard-maker.net/",
             "tags": [
-                "Flashcards",
-                "Education",
+                "Tools",
                 "Web"
             ],
             "language": "TypeScript",
@@ -230,11 +213,39 @@
             "github": "https://github.com/songtianlun/songtianlun.github.io",
             "url": "https://www.frytea.com",
             "tags": [
-                "Hugo",
-                "blog",
-                "web"
+                "Web"
             ],
             "language": "HTML",
+            "status": "active"
+        },
+        {
+            "name": "Famous Landmarks",
+            "description": "全球著名地标的图像生成和信息展示工具。",
+            "icon": "🗽",
+            "github": "",
+            "url": "https://famous-landmarks.com",
+            "tags": [
+                "Web",
+                "Tools",
+                "Astro"
+            ],
+            "language": "Astro",
+            "year": "2026-01-24",
+            "status": "active"
+        },
+        {
+            "name": "吾身 (Diarum)",
+            "description": "一款基于 Go 和 Svelte 开发的个人日记应用，支持 Markdown 编辑、标签分类、数据导出等功能。",
+            "icon": "📔",
+            "github": "https://github.com/songtianlun/diarum",
+            "url": "https://diarum.app/",
+            "tags": [
+                "Web",
+                "Go",
+                "Svelte"
+            ],
+            "language": "Go",
+            "year": "2026-02-01",
             "status": "active"
         },
         {
@@ -244,7 +255,6 @@
             "github": "https://github.com/songtianlun/rivulet-docs",
             "url": "https://rivulet.app/",
             "tags": [
-                "Finance",
                 "Web",
                 "Go",
                 "Svelte"
