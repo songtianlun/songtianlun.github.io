@@ -219,6 +219,20 @@
             "status": "active"
         },
         {
+            "name": "AI 创作阁楼 (AiLoft)",
+            "description": "一个专注于 AI 创作工具和资源的在线平台，提供 AI 绘画、写作、音乐生成等多种工具，帮助用户轻松创作各种类型的内容。",
+            "icon": "🛖",
+            "github": "",
+            "url": "https://ailoft.net/",
+            "tags": [
+                "Web",
+                "Tools"
+            ],
+            "language": "TypeScript",
+            "year": "2025-12-13",
+            "status": "active"
+        },
+        {
             "name": "Famous Landmarks",
             "description": "全球著名地标的图像生成和信息展示工具。",
             "icon": "🗽",
