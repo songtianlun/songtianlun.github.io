@@ -74,7 +74,9 @@
 <svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
 <svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://frytea.com/navigation/ title=🧭><span>🧭</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><header class=page-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://frytea.com/>主页</a>
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
-<a href=https://frytea.com/categories/>Categories</a></nav><h1>技术笔记</h1></header><article class="post-entry tag-entry"><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/01/15/e5f99a20f50e2e9681c5d86fefb01111.webp alt=网页版终端webssh2配置></figure><header class=entry-header><h2>网页版终端webssh2配置</h2></header><section class=entry-content><p><p>开源项目webssh2可以实现浏览器访问终端，参照网上教程实践后，记录步骤如下：
+<a href=https://frytea.com/categories/>Categories</a></nav><h1>技术笔记</h1></header><article class="post-entry tag-entry"><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/04/30/c219fba96f4102224945579c682ae797.jpg alt=Hexo在GitHub及gitee配置小记></figure><header class=entry-header><h2>Hexo在GitHub及gitee配置小记</h2></header><section class=entry-content><p><p>问题小记 hexo d操作后将源代码上传而不是上传静态网页 解决方案是设置git账户， $ git config --global user.name "liuxianan"// 你的github用户名，非昵称
+$ git config --global user.email "xxx@qq.com"// 填写你的github注册邮箱 猜测还有可能是因为cloud studio的不稳定性
+...</p></p></section><footer class=entry-footer>February 22, 2019&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;288 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Hexo在GitHub及gitee配置小记" href=https://frytea.com/archives/56/></a></article><article class="post-entry tag-entry"><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/01/15/e5f99a20f50e2e9681c5d86fefb01111.webp alt=网页版终端webssh2配置></figure><header class=entry-header><h2>网页版终端webssh2配置</h2></header><section class=entry-content><p><p>开源项目webssh2可以实现浏览器访问终端，参照网上教程实践后，记录步骤如下：
 安装NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 source ~/.bashrc
@@ -102,33 +104,7 @@ nvm install 8.14.1
 ...</p></p></section><footer class=entry-footer>January 15, 2019&nbsp;|&nbsp;5 分钟&nbsp;|&nbsp;2014 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to ArcGis综合运用实践" href=https://frytea.com/archives/46/></a></article><article class="post-entry tag-entry"><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/01/15/e5f99a20f50e2e9681c5d86fefb01111.webp alt=Wordpress评论区爆炸特效></figure><header class=entry-header><h2>Wordpress评论区爆炸特效</h2></header><section class=entry-content><p><p>一直羡慕别人的博客输入有这样一个特效，想自己做一个，终于在这个博客找到了解决方案，于是尝试一下成功了！
 WordPress优化：给博客添加评论输入特效
 第一步：下载js代码，放入网站目录某文件夹下，我放在【/www/wwwroot/blog.songtianlun.cn/wp-content/themes/hestia/mouseclink】目录下
-...</p></p></section><footer class=entry-footer>January 15, 2019&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;243 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Wordpress评论区爆炸特效" href=https://frytea.com/archives/54/></a></article><article class="post-entry tag-entry"><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/04/30/c219fba96f4102224945579c682ae797.jpg alt="Linux 常用命令"></figure><header class=entry-header><h2>Linux 常用命令</h2></header><section class=entry-content><p><p>Linux常用命令 端口占用查询 netstat -apn Centos查看端口占用情况命令 比如查看80端口占用情况使用如下命令：
-lsof -i tcp:80
-列出所有端口 netstat -ntlp
-程序归属（master为例） locate master | grep '/master$'
-初始化（新安装命令生效） sudo updatedb
-进程管理 查进程 ps命令查找与进程相关的PID号：
-ps a 显示现行终端机下的所有程序，包括其他用户的程序。
-ps -A 显示所有程序。
-ps c 列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。
-ps -e 此参数的效果和指定"A"参数相同。
-ps e 列出程序时，显示每个程序所使用的环境变量。
-ps f 用ASCII字符显示树状结构，表达程序间的相互关系。
-ps -H 显示树状结构，表示程序间的相互关系。
-ps -N 显示所有的程序，除了执行ps指令终端机下的程序之外。
-ps s 采用程序信号的格式显示程序状况。
-ps S 列出程序时，包括已中断的子程序资料。
-ps -t&lt;终端机编号> 指定终端机编号，并列出属于该终端机的程序的状况。
-ps u 以用户为主的格式来显示程序状况。
-ps x 显示所有程序，不以终端机来区分。
-杀进程 使用kill命令结束进程：kill xxx
-例：kill －9 324
-Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
-SSH使用 1 ssh远程登录服务器 ssh username@remote_ip #将username换成自己的用户名，将remote_ip换成远程服务器的ip地址 2 将文件/文件夹从远程服务器拷至本地(scp) scp -r username@remote_ip:/home/username/remotefile.txt 3 将文件/文件夹从本地拷至远程服务器(scp) scp -r localfile.txt username@remote_ip:/home/username/ 4 将文件/文件夹从远程服务器拷至本地(rsync) rsync -v -u -a --delete --rsh=ssh –stats username@remote_ip:/home/username/remotefile.txt . 5 将文件/文件夹从本地拷至远程服务器(rsync) rsync -v -u -a --delete --rsh=ssh --stats localfile.txt username@remote_ip:/home/username/ 6 连接远程ssh非22端口的服务器(ssh端口为12345) ssh -p 12345 username@remote_ip 7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345) scp -P 12345 local_file username@remote_ip:remote_dir
-scp -P 12345 username@remote_ip:remote_file local_dir
-scp -o port=12345 username@remote_ip:remote_file local_dir
-scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir 拷贝目录，-r是将目录下的目录递归拷贝。".*“是将隐藏文件也拷贝过去。需要先在远端创建好相应的目录。
-...</p></p></section><footer class=entry-footer>January 14, 2019&nbsp;|&nbsp;3 分钟&nbsp;|&nbsp;1423 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Linux 常用命令" href=https://frytea.com/archives/38/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/page/63/>« 上一页</a>
+...</p></p></section><footer class=entry-footer>January 15, 2019&nbsp;|&nbsp;1 分钟&nbsp;|&nbsp;243 字&nbsp;|&nbsp;Tianlun Song</footer><a class=entry-link aria-label="post link to Wordpress评论区爆炸特效" href=https://frytea.com/archives/54/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/page/63/>« 上一页</a>
 <a class=next href=https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/page/65/>下一页 »</a></nav></footer></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://frytea.com/>Frytea</a></span>
 <span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span class=footer-links><a href=/about/>关于</a>
 <span aria-hidden=true>•</span>
