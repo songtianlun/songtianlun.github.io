@@ -26,18 +26,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;启动程序增加这两个参数即可解决。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>【翻译】Programming Still Sucks：编程依然很糟糕</title>
-      <link>https://frytea.com/archives/1665/</link>
-      <pubDate>Fri, 08 May 2026 08:50:00 +0800</pubDate>
-      <guid>https://frytea.com/archives/1665/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;文章来源：stvn.sh / Writing&lt;/p&gt;
-&lt;p&gt;原文作者：Jerome Choo&lt;/p&gt;
-&lt;p&gt;原文标题：&lt;em&gt;Programming Still Sucks&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;原文链接：&lt;a href=&#34;https://www.stvn.sh/writing/programming-still-sucks-fqffhyp&#34;&gt;https://www.stvn.sh/writing/programming-still-sucks-fqffhyp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文为全文翻译，译文由 AI 辅助整理，若有理解偏差欢迎指正。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）</title>
       <link>https://frytea.com/archives/1664/</link>
       <pubDate>Thu, 07 May 2026 22:00:00 +0800</pubDate>
@@ -105,19 +93,6 @@
 &lt;p&gt;官方文：https://www.anthropic.com/news/claude-opus-4-7
 官方文档：https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7
 官方模型卡：https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【翻译】如果你以为写代码速度是你的问题，那你还有更大的问题</title>
-      <link>https://frytea.com/archives/1656/</link>
-      <pubDate>Thu, 16 Apr 2026 00:53:12 +0000</pubDate>
-      <guid>https://frytea.com/archives/1656/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;文章来源：Andrew Murphy&lt;/p&gt;
-&lt;p&gt;原文标题：&lt;em&gt;If You Thought the Speed of Writing Code Was Your Problem You Have Bigger Problems&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;原文链接：&lt;a href=&#34;https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems&#34;&gt;https://andrewmurphy.io/blog/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;本文为博主翻译，若有理解偏差欢迎指正。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;周二早上，你们 VP of Engineering 站在投影前，兴奋得像刚在 2017 年买到第一枚加密货币。TA 刚从某个大会（或者厂商晚宴）回来，三杯黑皮诺下肚，看完一场 Demo，然后带回了“好消息”：&lt;/p&gt;</description>
     </item>
     <item>
       <title>openFuyao NPU-Operator故障排查</title>
@@ -647,13 +622,6 @@ Unit npu-smi.service could not be found.
 &lt;p&gt;但问题是，Linux 桌面生态生态复杂，X11 Wayland Qt GTK 等等技术太过复杂，很难保证常用软件都能够正常显示全局菜单。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[翻译] 不要让 AI 替你写作</title>
-      <link>https://frytea.com/archives/1659/</link>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://frytea.com/archives/1659/</guid>
-      <description>每一篇由 LLM 生成的文档，都是一次错失的思考机会，也是一次错失的建立信任的机会。</description>
-    </item>
-    <item>
       <title>终极指南：在 Linux 裸机服务器上快速部署 Moltbot (原 Clawbot) 并集成飞书</title>
       <link>https://frytea.com/archives/1617/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:15 +0000</pubDate>
@@ -756,24 +724,6 @@ Starbucks
 &lt;blockquote&gt;
 &lt;p&gt;内容收集自 Telegram、NodeSeek、LowEndTalk 等途径，仅做信息汇集，不做购买建议。
 链接默认无 aff&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kubernetes kubectl --raw 使用指南</title>
-      <link>https://frytea.com/archives/1546/</link>
-      <pubDate>Mon, 10 Nov 2025 13:08:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1546/</guid>
-      <description>&lt;h2 id=&#34;什么是-kubectl-raw&#34;&gt;什么是 kubectl &amp;ndash;raw?&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;kubectl --raw&lt;/code&gt; 是一个强大的底层工具,允许你直接访问 Kubernetes API Server 的 REST API,绕过 kubectl 的客户端逻辑、准入控制器(Admission Controllers)和 Webhook。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>磁盘使用分析工具对比：du vs ncdu vs gdu vs dust</title>
-      <link>https://frytea.com/archives/1545/</link>
-      <pubDate>Mon, 03 Nov 2025 15:14:51 +0000</pubDate>
-      <guid>https://frytea.com/archives/1545/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Claude Sonnet 4.5 协助编写。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在日常的系统管理和磁盘空间清理工作中，我们经常需要分析磁盘使用情况。本文将对比四个常用的磁盘使用分析工具：传统的 &lt;code&gt;du&lt;/code&gt;、经典的交互式工具 &lt;code&gt;ncdu&lt;/code&gt;、现代化的 &lt;code&gt;gdu&lt;/code&gt; 和 &lt;code&gt;dust&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>彻底解决阿里云和 tailscale 冲突</title>
@@ -1145,13 +1095,6 @@ ssh -o &amp;#34;ProxyCommand ssh -W %h:%p user@jump-server.dealiaxy.com -p 10023
 &lt;p&gt;&lt;img alt=&#34;Reddit增长地图&#34; loading=&#34;lazy&#34; src=&#34;https://cdn-imagehost.frytea.com/images/2025/09/28/12pi66d.webp&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>云部署平台全面对比：Railway vs Render vs 其他主流方案（2025年版）</title>
-      <link>https://frytea.com/archives/1522/</link>
-      <pubDate>Fri, 19 Sep 2025 17:08:57 +0000</pubDate>
-      <guid>https://frytea.com/archives/1522/</guid>
-      <description>&lt;p&gt;随着 Heroku 免费套餐的终止，开发者们纷纷寻找新的云部署解决方案。本文将深入对比 Railway、Render 以及其他主流平台，帮你选择最适合项目需求的部署方案。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Synology 群晖重置 Syncthing 密码</title>
       <link>https://frytea.com/archives/1521/</link>
       <pubDate>Sat, 13 Sep 2025 17:07:13 +0000</pubDate>
@@ -1213,13 +1156,6 @@ ncdu -f ~/ncdu.txt
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>地图标记和兴趣点分享软件合集</title>
-      <link>https://frytea.com/archives/1517/</link>
-      <pubDate>Mon, 01 Sep 2025 03:19:33 +0000</pubDate>
-      <guid>https://frytea.com/archives/1517/</guid>
-      <description>&lt;p&gt;从学 GIS 开始，就一直想做/找一个地图兴趣点标记、分享软件。之前也做过，但是苦于时间、运维成本太高，就只能放在那里了。直到最近发现自己总是会碰到这种，需要标记和分享兴趣点的需求。特别是多点规划、形成规划的时候，有一个这样的软件比直接看地图要方便太多。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>harbor Chartmuseum helm 图表缓存刷新</title>
       <link>https://frytea.com/archives/1515/</link>
       <pubDate>Thu, 28 Aug 2025 14:33:00 +0000</pubDate>
@@ -1261,14 +1197,6 @@ ncdu -f ~/ncdu.txt
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>快速感受编程乐趣的编程语言推荐</title>
-      <link>https://frytea.com/archives/1513/</link>
-      <pubDate>Mon, 18 Aug 2025 14:16:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1513/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;快速看到效果对于感受编程乐趣非常重要，最近看完《计算机是怎样运行的》，推荐想要快速看到效果可以使用 VB。我认为这非常重要，现在编程语言非常多，但是能够稳定复现可以看到效果的，VB这样的方案是很少见的。如果没有可以运行 VB 的环境，可以尝试 &lt;code&gt;PyQt&lt;/code&gt; 来查看效果。下面用 Claude4 生成了一篇文章，给大家做参考。如果想要快速体验到编程的乐趣，可以看一看。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Debian 11 &#43; PVE LACP Mac 冲突问题调查与解决方案</title>
       <link>https://frytea.com/archives/1512/</link>
       <pubDate>Fri, 15 Aug 2025 00:25:46 +0000</pubDate>
@@ -1276,23 +1204,6 @@ ncdu -f ~/ncdu.txt
       <description>&lt;p&gt;By TL.S&lt;/p&gt;
 &lt;h2 id=&#34;问题背景&#34;&gt;问题背景&lt;/h2&gt;
 &lt;p&gt;在Debian 11 + Proxmox VE环境中，当配置LACP（Link Aggregation Control Protocol）绑定接口时，有一个环境遇到一个令人困惑的问题：&lt;strong&gt;相同硬件配置的多台服务器上，所有服务器的同名bond接口都被分配了相同的MAC地址&lt;/strong&gt;。这种情况会导致严重的网络连接问题，特别是在集群环境中。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rclone WebUI 选择指南：全面对比各种图形界面方案</title>
-      <link>https://frytea.com/archives/1511/</link>
-      <pubDate>Fri, 08 Aug 2025 06:45:14 +0000</pubDate>
-      <guid>https://frytea.com/archives/1511/</guid>
-      <description>&lt;p&gt;Rclone 作为强大的云存储同步工具，虽然命令行功能丰富，但对于普通用户来说学习曲线较陡。为了解决这个问题，社区开发了多种图形界面方案。本文将详细对比各种 Rclone WebUI 选择，帮助您找到最适合的解决方案。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>开源自托管数据备份解决方案全面对比</title>
-      <link>https://frytea.com/archives/1510/</link>
-      <pubDate>Fri, 08 Aug 2025 06:42:43 +0000</pubDate>
-      <guid>https://frytea.com/archives/1510/</guid>
-      <description>&lt;p&gt;在数据日益重要的今天，选择一个合适的备份解决方案至关重要。本文将对比介绍六个优秀的开源自托管数据备份方案，帮助您根据实际需求做出最佳选择。&lt;/p&gt;
-&lt;h2 id=&#34;方案概述&#34;&gt;方案概述&lt;/h2&gt;
-&lt;h3 id=&#34;1-duplicati---全能型备份工具&#34;&gt;1. Duplicati - 全能型备份工具&lt;/h3&gt;
-&lt;p&gt;Duplicati 是一个功能完善的备份解决方案，以其友好的用户界面和广泛的存储支持而闻名。它采用客户端-服务器架构，提供了直观的 Web 管理界面，特别适合需要定期备份到多种云存储的用户。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Claude Code 实用技巧</title>
@@ -1356,13 +1267,6 @@ ncdu -f ~/ncdu.txt
 &lt;p&gt;这里记录一下签发新的 ssl 证书并迁移的命令，方便后面使用。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>独立开发者云平台技术选型深度对比：Vercel vs Cloudflare vs Supabase</title>
-      <link>https://frytea.com/archives/1503/</link>
-      <pubDate>Sat, 02 Aug 2025 15:47:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1503/</guid>
-      <description>&lt;p&gt;在 2024-2025 年的云原生时代，独立开发者面临着前所未有的平台选择挑战。&lt;strong&gt;Vercel + Supabase 组合可降低 60% 开发时间，Cloudflare Workers 方案能节省 70% 运营成本，而技术选型错误可能导致月度支出增加 10 倍&lt;/strong&gt;。本文基于最新官方文档和实际测试数据，为构建 SaaS 应用和工具类应用的独立开发者提供全面的技术选型指南。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI提效之使用 cherry-studio &#43; k8sgpt 实现 AI 巡检 k8s</title>
       <link>https://frytea.com/archives/1502/</link>
       <pubDate>Tue, 29 Jul 2025 01:43:00 +0000</pubDate>
@@ -1396,28 +1300,6 @@ ncdu -f ~/ncdu.txt
       <guid>https://frytea.com/archives/1501/</guid>
       <description>&lt;p&gt;在Claude Code中的AI子代理，可用于特定任务的工作流程和改进的上下文管理。&lt;/p&gt;
 &lt;p&gt;Claude Code中的自定义子代理是专门的AI助手，可以被调用来处理特定类型的任务。它们通过提供具有自定义系统提示、工具和独立上下文窗口的特定任务配置，实现更高效的问题解决。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>边缘计算平台对比：Vercel vs Cloudflare Workers</title>
-      <link>https://frytea.com/archives/1500/</link>
-      <pubDate>Mon, 28 Jul 2025 15:10:47 +0000</pubDate>
-      <guid>https://frytea.com/archives/1500/</guid>
-      <description>&lt;h1 id=&#34;边缘计算平台对比vercel-vs-cloudflare-workers-及其他选择&#34;&gt;边缘计算平台对比：Vercel vs Cloudflare Workers 及其他选择&lt;/h1&gt;
-&lt;p&gt;在现代 Web 开发中，边缘计算平台已经成为提升应用性能和用户体验的关键技术。本文将深入对比几个主流的边缘计算和部署平台，特别关注它们对 Next.js SSR 的支持以及价格结构。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>媒体服务器对比：Emby vs Plex vs Jellyfin</title>
-      <link>https://frytea.com/archives/1499/</link>
-      <pubDate>Sun, 27 Jul 2025 14:45:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1499/</guid>
-      <description>&lt;p&gt;在数字化时代，拥有一个强大的媒体服务器来管理和流式传输您的个人媒体收藏变得越来越重要。本文将深入对比三个主流的媒体服务器解决方案：Emby、Plex 和 Jellyfin，帮助您选择最适合需求的方案。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kiro or Cursor? AI IDE工具全面对比：选择最适合的智能编程助手</title>
-      <link>https://frytea.com/archives/1497/</link>
-      <pubDate>Sun, 20 Jul 2025 10:17:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1497/</guid>
-      <description>&lt;p&gt;随着人工智能技术的快速发展，AI驱动的集成开发环境（IDE）正在重塑软件开发的格局。开发者现在面临众多选择，每个工具都有其独特的优势和特色。本文将深入对比四个主流的AI IDE工具：Cursor、Amazon Kiro、Claude Code和Augment Code，帮助开发者做出明智的选择。&lt;/p&gt;</description>
     </item>
     <item>
       <title> Lyra - AI Prompt Optimization Specialist</title>
@@ -1557,151 +1439,6 @@ ncdu -f ~/ncdu.txt
       <pubDate>Sat, 05 Jul 2025 06:29:24 +0000</pubDate>
       <guid>https://frytea.com/archives/1494/</guid>
       <description>&lt;p&gt;一直非常困扰各家理财平台的算法不一致，实际收益和标称差异大，很难各平台之间决策。于是做了这样一个简单的工具，可以在一个地方直观的对比各家理财产品，根据收益率、收益、预期收益等快速决策。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SEMrush vs Ahrefs vs SimilarWeb 功能对比表</title>
-      <link>https://frytea.com/archives/1493/</link>
-      <pubDate>Wed, 02 Jul 2025 10:19:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1493/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;By Claude Sonnet 4&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;功能对比表&#34;&gt;功能对比表&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;功能特性&lt;/th&gt;
-          &lt;th&gt;SEMrush&lt;/th&gt;
-          &lt;th&gt;Ahrefs&lt;/th&gt;
-          &lt;th&gt;SimilarWeb&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;关键词研究&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 强大的关键词工具&lt;br&gt;• 关键词难度分析&lt;br&gt;• 相关关键词建议&lt;br&gt;• 搜索量数据&lt;/td&gt;
-          &lt;td&gt;✅ 优秀的关键词工具&lt;br&gt;• Keywords Explorer&lt;br&gt;• 点击量预测&lt;br&gt;• 父主题分析&lt;/td&gt;
-          &lt;td&gt;⚠️ 基础关键词数据&lt;br&gt;• 主要关注流量分析&lt;br&gt;• 关键词功能相对有限&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;反向链接分析&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 全面的外链分析&lt;br&gt;• 外链审计工具&lt;br&gt;• 竞争对手外链&lt;br&gt;• Link Building工具&lt;/td&gt;
-          &lt;td&gt;⭐ 业界最强外链数据&lt;br&gt;• 最大的活跃爬虫&lt;br&gt;• Site Explorer功能&lt;br&gt;• 外链质量评估&lt;/td&gt;
-          &lt;td&gt;❌ 不提供外链分析&lt;br&gt;• 主要专注流量数据&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;网站流量分析&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 流量分析工具&lt;br&gt;• 有机搜索流量&lt;br&gt;• 付费流量分析&lt;br&gt;• 社交媒体流量&lt;/td&gt;
-          &lt;td&gt;✅ 基础流量估算&lt;br&gt;• 主要通过搜索数据&lt;br&gt;• 流量价值计算&lt;/td&gt;
-          &lt;td&gt;⭐ 最详细的流量数据&lt;br&gt;• 直接流量测量&lt;br&gt;• 用户行为分析&lt;br&gt;• 移动vs桌面流量&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;竞争对手分析&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 全面竞争分析&lt;br&gt;• 竞争对手关键词&lt;br&gt;• 广告策略分析&lt;br&gt;• 市场份额数据&lt;/td&gt;
-          &lt;td&gt;✅ 强大竞争分析&lt;br&gt;• 内容差距分析&lt;br&gt;• 竞争对手外链&lt;br&gt;• 排名对比&lt;/td&gt;
-          &lt;td&gt;⭐ 最佳行业分析&lt;br&gt;• 市场情报&lt;br&gt;• 受众重叠分析&lt;br&gt;• 行业基准对比&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;技术SEO审计&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 全面站点审计&lt;br&gt;• 技术问题检测&lt;br&gt;• 页面优化建议&lt;br&gt;• 站点健康评分&lt;/td&gt;
-          &lt;td&gt;✅ 优秀站点审计&lt;br&gt;• Site Audit工具&lt;br&gt;• 技术问题优先级&lt;br&gt;• 页面速度分析&lt;/td&gt;
-          &lt;td&gt;❌ 不提供技术SEO工具&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;内容营销&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 内容营销工具&lt;br&gt;• 话题研究&lt;br&gt;• 内容审计&lt;br&gt;• 社交媒体调度&lt;/td&gt;
-          &lt;td&gt;✅ 内容研究工具&lt;br&gt;• Content Explorer&lt;br&gt;• 热门内容分析&lt;br&gt;• 内容差距分析&lt;/td&gt;
-          &lt;td&gt;⚠️ 内容表现数据&lt;br&gt;• 社交分享数据&lt;br&gt;• 内容趋势分析&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;广告智能&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;⭐ 最强PPC分析&lt;br&gt;• Google Ads分析&lt;br&gt;• 展示广告研究&lt;br&gt;• 购物广告数据&lt;br&gt;• 广告文案分析&lt;/td&gt;
-          &lt;td&gt;✅ 基础PPC数据&lt;br&gt;• 付费搜索分析&lt;br&gt;• 广告历史数据&lt;/td&gt;
-          &lt;td&gt;✅ 展示广告分析&lt;br&gt;• 广告网络数据&lt;br&gt;• 创意广告研究&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;本地SEO&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 本地SEO工具&lt;br&gt;• 本地排名跟踪&lt;br&gt;• Google我的商家管理&lt;/td&gt;
-          &lt;td&gt;⚠️ 基础本地SEO功能&lt;/td&gt;
-          &lt;td&gt;❌ 不专注本地SEO&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;报告功能&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 丰富报告模板&lt;br&gt;• 自定义报告&lt;br&gt;• 自动化报告&lt;br&gt;• 品牌化报告&lt;/td&gt;
-          &lt;td&gt;✅ 清晰的报告&lt;br&gt;• 数据导出&lt;br&gt;• API访问&lt;/td&gt;
-          &lt;td&gt;✅ 专业报告&lt;br&gt;• 行业报告&lt;br&gt;• 高级数据可视化&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;数据准确性&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;✅ 良好准确性&lt;br&gt;• 大量数据源&lt;br&gt;• 定期更新&lt;/td&gt;
-          &lt;td&gt;⭐ 高度准确&lt;br&gt;• 实时数据更新&lt;br&gt;• 最新外链数据&lt;/td&gt;
-          &lt;td&gt;⭐ 最准确流量数据&lt;br&gt;• 直接测量&lt;br&gt;• 面板数据&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;-价格对比&#34;&gt;💰 价格对比&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;工具&lt;/th&gt;
-          &lt;th&gt;起始价格&lt;/th&gt;
-          &lt;th&gt;主要套餐&lt;/th&gt;
-          &lt;th&gt;企业级&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;SEMrush&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;$119.95/月&lt;/td&gt;
-          &lt;td&gt;Pro套餐&lt;/td&gt;
-          &lt;td&gt;定制价格&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Ahrefs&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;$99/月&lt;/td&gt;
-          &lt;td&gt;Lite套餐&lt;/td&gt;
-          &lt;td&gt;$999/月&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;SimilarWeb&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;定制价格&lt;/td&gt;
-          &lt;td&gt;企业级定价&lt;/td&gt;
-          &lt;td&gt;高端定制&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;-选择建议&#34;&gt;🎯 选择建议&lt;/h2&gt;
-&lt;h3 id=&#34;选择-semrush-如果您需要&#34;&gt;选择 &lt;strong&gt;SEMrush&lt;/strong&gt; 如果您需要：&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;全方位的数字营销工具套件&lt;/li&gt;
-&lt;li&gt;强大的PPC广告分析&lt;/li&gt;
-&lt;li&gt;社交媒体管理功能&lt;/li&gt;
-&lt;li&gt;本地SEO优化&lt;/li&gt;
-&lt;li&gt;内容营销和调度工具&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;选择-ahrefs-如果您需要&#34;&gt;选择 &lt;strong&gt;Ahrefs&lt;/strong&gt; 如果您需要：&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;最准确的反向链接数据&lt;/li&gt;
-&lt;li&gt;深度的SEO分析&lt;/li&gt;
-&lt;li&gt;内容研究和差距分析&lt;/li&gt;
-&lt;li&gt;技术SEO审计&lt;/li&gt;
-&lt;li&gt;清晰直观的用户界面&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;选择-similarweb-如果您需要&#34;&gt;选择 &lt;strong&gt;SimilarWeb&lt;/strong&gt; 如果您需要：&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;最准确的网站流量数据&lt;/li&gt;
-&lt;li&gt;深入的行业和市场分析&lt;/li&gt;
-&lt;li&gt;竞争情报和基准对比&lt;/li&gt;
-&lt;li&gt;用户行为和受众分析&lt;/li&gt;
-&lt;li&gt;企业级市场研究&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-最终建议&#34;&gt;💡 最终建议&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;初创公司/小企业&lt;/strong&gt;：推荐 Ahrefs（性价比高，功能全面）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;营销代理商&lt;/strong&gt;：推荐 SEMrush（工具最全面，报告功能强）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;大型企业/市场研究&lt;/strong&gt;：推荐 SimilarWeb（数据最准确，分析最深入）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;可以考虑先试用免费版本或申请演示，根据具体需求做最终决定。&lt;/p&gt;</description>
     </item>
     <item>
       <title>快速选出收益最高的理财产品 ｜ finance-calculator</title>
@@ -2843,13 +2580,6 @@ ERROR: Job failed: exit status 1
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;直接配置会提示报错：&lt;/p&gt;</description>
     </item>
     <item>
-      <title>常见 S3 存储服务多维度横评（附1TB存储传输成本）</title>
-      <link>https://frytea.com/archives/1467/</link>
-      <pubDate>Sat, 12 Apr 2025 16:18:00 +0000</pubDate>
-      <guid>https://frytea.com/archives/1467/</guid>
-      <description>&lt;p&gt;之前看到猫猫大佬的 &lt;a href=&#34;https://catcat.blog/object-storage-pricing-comparison-1tb-storage-transfer-benchmark.html&#34;&gt;对象存储服务商价格对比：1TB存储与1TB流量基准分析&lt;/a&gt; 这篇文章很有启发。正好最近在探索物美价廉、稳定可靠的 S3 数据存储方案，将自己熟悉的、网上常见的一些提供 S3 的厂商服务做个整理，按照 &lt;code&gt;1TB&lt;/code&gt; 数据存储和传输成本为指标做一个横评表格。希望给选购 S3 服务需求的人们有一些启发。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>k8s 触发 pod 重新拉取镜像平滑升级的方法</title>
       <link>https://frytea.com/archives/1466/</link>
       <pubDate>Thu, 10 Apr 2025 09:29:10 +0000</pubDate>
@@ -2990,23 +2720,6 @@ rake db:migrate:redo
 &lt;p&gt;来源： &lt;a href=&#34;https://harttle.land/2018/12/05/vim-debug.html&#34;&gt;如何调试 Vim 脚本&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;使用 &lt;code&gt;-D&lt;/code&gt; 参数可以开启 Debug 模式， 在 Debug 模式中可以使用 &lt;code&gt;cont&lt;/code&gt;, &lt;code&gt;next&lt;/code&gt;, &lt;code&gt;interrupt&lt;/code&gt;, &lt;code&gt;step&lt;/code&gt;, &lt;code&gt;quit&lt;/code&gt; 等调试命令， 以及 &lt;code&gt;breakadd&lt;/code&gt;, &lt;code&gt;breakdel&lt;/code&gt; 来添加和移除断点。 使用 &lt;code&gt;-u&lt;/code&gt; 来禁止加载任何配置文件，使用 &lt;code&gt;:source&lt;/code&gt; 命令逐个加载。 使用 &lt;code&gt;:set verbose&lt;/code&gt; 和 &lt;code&gt;:set verbosefile&lt;/code&gt; 等 &lt;a href=&#34;https://harttle.land/2017/01/30/variables-in-vim.html&#34;&gt;配置变量&lt;/a&gt; 可以设置日志级别和输出文件， &lt;code&gt;-V&lt;/code&gt; 启动参数也可以起到同样的作用。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>tailscale zerotier wireguard  横向对比</title>
-      <link>https://frytea.com/archives/1461/</link>
-      <pubDate>Mon, 07 Apr 2025 09:20:35 +0000</pubDate>
-      <guid>https://frytea.com/archives/1461/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;References: Gemini 2.5 Pro&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;本文对比一下 Tailscale、ZeroTier 和 WireGuard 这三个流行的虚拟网络/VPN 解决方案。&lt;/p&gt;
-&lt;p&gt;需要明确一点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;WireGuard&lt;/strong&gt; 是一个现代、快速、简单的 &lt;strong&gt;VPN 协议&lt;/strong&gt;。它本身只负责建立安全的点对点隧道，不包含用户管理、密钥分发、NAT 穿透等便捷功能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tailscale&lt;/strong&gt; 和 &lt;strong&gt;ZeroTier&lt;/strong&gt; 都是基于特定技术（Tailscale 基于 WireGuard，ZeroTier 有自己的协议）构建的&lt;strong&gt;完整解决方案或服务&lt;/strong&gt;。它们旨在简化虚拟网络的创建和管理，内置了用户认证、设备管理、NAT 穿透等功能。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;关键特性对比&#34;&gt;关键特性对比&lt;/h1&gt;
-&lt;p&gt;以下是它们的详细对比：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tailscale 自建 Derp</title>
@@ -10424,13 +10137,6 @@ sudo systemctl reset-failed
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://linux.die.net/man/1/virt-clone&#34;&gt;virt-clone(1) - Linux man page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ChatGPT 现象概述</title>
-      <link>https://frytea.com/archives/746/</link>
-      <pubDate>Wed, 08 Mar 2023 09:52:58 +0000</pubDate>
-      <guid>https://frytea.com/archives/746/</guid>
-      <description>&lt;p&gt;近年来，聊天机器人越来越受欢迎，许多公司和个人使用它们与客户交互或进行对话。其中一种聊天机器人是 ChatGPT，因其生成类似人类响应的能力而引起关注。在本篇博客中，我们将概述 ChatGPT 现象及其对聊天机器人行业的影响。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch Linux 高分屏缩放方案</title>
