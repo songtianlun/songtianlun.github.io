@@ -40,7 +40,8 @@ collections:
     fields:
       - { label: 标题, name: title, widget: string }
       - { label: 发布日期, name: date, widget: datetime, default: '{{now}}', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
-      - { label: 固定链接标识, name: slug, widget: hidden, default: '{{uuid_shorter}}' }
+      - { label: 更新时间, name: lastmod, widget: datetime, required: false, format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      - { label: 固定链接标识, name: slug, widget: string }
       - { label: 描述, name: description, widget: text, required: false }
       - { label: 分类, name: categories, widget: select, multiple: true, required: false, create: true, options: [bullet_journal, 个人项目, 观影笔记, 好文转载, 技术笔记, 生活笔记, 随笔思考, 优惠资讯, 阅读笔记, 主机资讯] }
       - { label: 标签, name: tags, widget: list, required: false }
