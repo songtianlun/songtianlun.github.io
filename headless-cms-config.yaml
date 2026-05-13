@@ -28,8 +28,8 @@ collections:
     extension: md
     format: frontmatter
     slug: '{{year}}-{{month}}-{{day}}-{{fields.slug}}'
-    summary: '{{year}} · {{title}}'
-    sortable_fields: ['date', 'title']
+    summary: '[{{categories}}/{{fields.slug}}] - {{title}}'
+    sortable_fields: ['date','lastmod' ,'title']
     view_filters:
       - label: 已发布
         field: draft
@@ -120,7 +120,7 @@ collections:
           - label: 项目列表
             name: projects
             widget: list
-            summary: '{{fields.name}} · {{fields.year}}'
+            summary: '{{fields.name}} / {{fields.year}} / {{fields.description}}'
             fields:
               - { label: 名称, name: name, widget: string }
               - { label: 描述, name: description, widget: text, required: false }
