@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>运维 on Frytea</title>
+    <link>https://frytea.com/tags/%E8%BF%90%E7%BB%B4/</link>
+    <description>Recent content in 运维 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 May 2026 16:23:07 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E8%BF%90%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD</title>
+      <link>https://frytea.com/archives/1667/</link>
+      <pubDate>Fri, 22 May 2026 16:23:07 +0800</pubDate>
+      <guid>https://frytea.com/archives/1667/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;文章来源：CrociDB&lt;/p&gt;
+&lt;p&gt;原文作者：CrociDB（Antonio Vivace）&lt;/p&gt;
+&lt;p&gt;原文标题：&lt;em&gt;This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;原文发布时间：2026-05-21&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

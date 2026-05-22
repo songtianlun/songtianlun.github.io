@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 May 2026 05:56:06 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 16:23:07 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD</title>
+      <link>https://frytea.com/archives/1667/</link>
+      <pubDate>Fri, 22 May 2026 16:23:07 +0800</pubDate>
+      <guid>https://frytea.com/archives/1667/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;文章来源：CrociDB&lt;/p&gt;
+&lt;p&gt;原文作者：CrociDB（Antonio Vivace）&lt;/p&gt;
+&lt;p&gt;原文标题：&lt;em&gt;This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;原文发布时间：2026-05-21&lt;/p&gt;</description>
+    </item>
     <item>
       <title>修复 Joplin on KDE 菜单栏显示问题</title>
       <link>https://frytea.com/archives/1666/</link>

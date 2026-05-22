@@ -1,0 +1,486 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD | Frytea</title><meta name=keywords content="翻译,Linux,FreeBSD,运维,ByAIGC"><meta name=description content="前言
+文章来源：CrociDB
+原文作者：CrociDB（Antonio Vivace）
+原文标题：This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD
+原文发布时间：2026-05-21"><meta name=author content="Tianlun Song"><link rel=canonical href=https://frytea.com/archives/1667/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.9393724e0cd36fdb2e1fb87d40bcf2f5e098168761bd70ee1a5a0b27c062c1e2.css integrity="sha256-k5NyTgzTb9suH7h9QLzy9eCYFodhvXDuGloLJ8BiweI=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://frytea.com/archives/1667/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script data-goatcounter=https://blog.stats.frytea.com/count async src=//gc.frytea.com/count.js></script><style>.gc-pv-wrapper{display:inline-flex;align-items:center;gap:.25em;line-height:1}.gc-spinner{display:inline-block;width:.75em;height:.75em;border:1.5px solid var(--border,#e0e0e0);border-top-color:var(--secondary,#999);border-radius:50%;animation:gc-spin .75s linear infinite;vertical-align:middle;flex-shrink:0}@keyframes gc-spin{to{transform:rotate(360deg)}}.gc-pv-count{display:none;align-items:center;gap:.25em;color:var(--secondary,#999);font-size:.85em}.gc-pv-count svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}.gc-site-stats{display:none;justify-content:center;align-items:center;gap:.35em;font-size:.78em;color:var(--secondary,#999);margin-top:6px}.gc-site-stats svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}</style><script defer data-domain=frytea.com src=https://plausible.frytea.com/js/script.js></script><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://frytea.com/archives/1667/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD"><meta property="og:description" content="前言 文章来源：CrociDB
+原文作者：CrociDB（Antonio Vivace）
+原文标题：This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD
+原文发布时间：2026-05-21"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2026-05-22T16:23:07+08:00"><meta property="article:modified_time" content="2026-05-22T16:23:07+08:00"><meta property="article:tag" content="翻译"><meta property="article:tag" content="Linux"><meta property="article:tag" content="FreeBSD"><meta property="article:tag" content="运维"><meta property="article:tag" content="ByAIGC"><meta property="og:image" content="https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD"><meta name=twitter:description content="前言 文章来源：CrociDB
+原文作者：CrociDB（Antonio Vivace）
+原文标题：This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD
+原文发布时间：2026-05-21"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD","item":"https://frytea.com/archives/1667/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD","name":"【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD","description":"前言 文章来源：CrociDB\n原文作者：CrociDB（Antonio Vivace）\n原文标题：This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD\n原文发布时间：2026-05-21\n","keywords":["翻译","Linux","FreeBSD","运维","ByAIGC"],"articleBody":"前言 文章来源：CrociDB\n原文作者：CrociDB（Antonio Vivace）\n原文标题：This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD\n原文发布时间：2026-05-21\n原文链接：https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/\n本文为全文翻译，译文由 AI 辅助整理，若有理解偏差欢迎指正。\n这篇博客已经在一台 DigitalOcean VPS 上运行了十多年。那是一台托管在纽约、运行着 Ubuntu 16.04 LTS 的机器。而这个 LTS 版本至少已经有 5 年不再受支持了。是时候做些改变了。经过一番权衡，我把它迁移到了一台 Hetzner 的虚拟机上：配置比我旧的 Ubuntu 机器强得多，价格还不到以前的一半，而且机房就在我所在国家的另一端。不仅如此，我还顺便挑战了一下自己，把整套栈迁到了 FreeBSD。这篇文章会有点长，但如果你愿意读下去，会看到一个关于 FreeBSD Jails、Bastille，以及一些有意思的网站负载测试结果的故事。\n动机 如果你了解 Ubuntu 的发布和支持周期（我自己其实也不算熟），就会知道一旦某个版本结束支持，apt 对应的软件仓库也就没了，你再也拿不到更新。运行这样一套过时系统会带来不少问题，其中最显而易见的一点就是：你的服务器不再那么安全了。互联网上肯定有各种机器人，专门扫描存在漏洞的节点，然后想办法塞进去恶意内容。幸运的是（我想大概算幸运），我这里一直没出过事。反正机器里也没什么特别重要的东西可偷。但我记得很久以前，我还有一个 WordPress 博客，也是跑在一台老旧 VPS 上，结果某天文章正文里突然被插满了可疑的赌场和赌博链接。\n我原本就有一台 Hetzner VPS，当作远程开发机来用，可以随时 SSH 上去，考虑到价格，它一直都很可靠。所以我决定先从对比配置开始。下面这台就是原来跑我的博客和其它网站的 droplet：\n（原文此处有旧 DigitalOcean 服务器截图）\n它有 2GB 内存、1 个 vCPU、50GB 磁盘、每月 2TB 流量，运行的是 Ubuntu 16.04 x64。机房位于纽约，这大概也是它比较贵的原因：我每个月要为它支付 13 美元。\nHetzner 是一家老牌欧洲 IT 公司，在德国有大型数据中心，而我也住在德国。它最便宜的一款服务器，只要 3.56 欧元，配置就已经比我原来那台更好了：\n（原文此处有 Hetzner 入门套餐截图）\n内存和 CPU 都翻倍，存储稍微少一点，但月流量多了十倍。不过我最后还是选了一台更“豪华”的配置，每月不到 6 欧元：\n（原文此处有更高配套餐截图）\n对我的这些站点来说，这配置甚至有点过头了，不过为什么不呢？\n旧的部署方式 我那套旧环境托管的不只是这个博客，还有几个别的网站。它们都不算热门；在所有站点里，这个博客流量算最高的了，但每个月也不过几千次页面浏览。除了偶尔有几篇文章在 Hacker News 上爆一下，平时根本没多少流量。说到底，这台机器基本就是在提供静态网站服务，没有复杂 CGI，也没有什么自定义后端代码在跑。整套栈很简单：所有内容都通过 nginx/1.10.3 以静态方式提供。我基本上就是在 /etc/nginx/sites-available 里给每个站点放一份配置文件。像静态站点生成器、LaTeX 套件之类的附加程序（比如这个博客就是用 Hugo 生成的）则通过 apt 或 snap 安装。事实上，我更新博客的流程一直是这样：\n在本地写文章 提交并推送到仓库 SSH 登录服务器 拉取仓库更新 运行 hugo 这台 VPS 刚开始用的那些年里，我还会拿它做一些测试和编程实验。所以机器里积累了很多已经不再使用的老旧软件，显得很臃肿。但它就是能跑，而且跑得还挺好。\n（原文此处有 Linux 4.4 截图）\n它甚至好到什么程度呢？我关机前，它的 uptime 达到了 1491 天，也就是差不多连续 4 年没中断过。\n为什么选 FreeBSD 说实话，我的主要动机之一就是想亲手折腾点不一样的东西。我最近读了很多、也看了很多关于 BSD 家族的内容，而我之前也曾短暂用过 FreeBSD，所以我觉得这是一个把它放到真实生产场景里试一试的好机会。FreeBSD 常常因为它的一体化设计、安全性以及 Jails 而被人称赞。后面我会详细展开。\n我不想装得好像自己一开始就完全知道该怎么做，但当我读到 Jails 时，我立刻就知道自己想怎么搭了。Jails 是一种虚拟化/容器化机制，已经存在于 FreeBSD 里超过 25 年了，比 Docker 诞生还早得多。乍一看，它实现的效果和你对 Docker 容器的预期很像：在系统里面隔离出一个“小系统”，你可以在里面运行一些拿不到宿主机权限的东西。但在我看来，Docker 以及其它容器方案更适合“打包程序”——它们强调短生命周期和不可变；容器内处理的数据来自外部，但容器内部本身最好始终保持一致。而 Jails 更像真正的子系统，几乎可以把它看作迷你虚拟机，只不过底层仍然共享同一个内核。\n除此之外，FreeBSD 的文件系统 ZFS 对服务器场景也确实非常好用。如果你来自 Linux 世界，大概听说过 Btrfs，它是近几年越来越多发行版开始采用的新文件系统。它和 ZFS 有一些相似点，比如数据完整性和快照。不过 ZFS 大概比 Btrfs 要成熟得多。如果我能频繁地给系统做快照，就不需要依赖 VPS 提供商的快照或备份服务，而那些通常都要额外付费。\n我的想法是：每个网站一个 Jail，里面装上构建这个网站所需的工具（比如博客需要 Hugo），再在 Jail 里运行一个 nginx 实例来提供服务；另外再单独放一个主 Web 服务器 Jail，通过反向代理把外部世界和这些站点连起来。这样一来，哪怕某个 Jail 被攻破了，我也可以把它直接销毁，再建一个新的。后面我会更具体地介绍配置过程。\nHetzner VPS 先给所有喜欢看系统信息的人一点细节：\n（原文此处有 fastfetch 截图）\n搭建过程 我会快速讲一下自己是如何把这台服务器搭起来的，以及其中最关键的几个点。平时我会记开发日志，所以这次也是边做边记。不过不要把这篇文章当作教程，因为我可能漏掉了一些步骤。更准确地说，这是一篇“在 Hetzner 上用 FreeBSD 搭 Web 服务器是什么感觉”的记录。\n安装 FreeBSD Hetzner 在创建虚拟机时会提供一些镜像，但选择其实非常有限：\n（原文此处有 “No BSD” 截图）\n不过我在 FreeBSD 官方 YouTube 频道 上看到了一份讲如何在 Hetzner 上安装 FreeBSD 的指南。顺带一提，这个频道非常推荐。\n关键在于：Hetzner 其实提供了 FreeBSD 镜像，只是藏得比较深，需要多点几步。它是以 ISO 镜像的形式提供的。所以在创建虚拟机、选择操作系统镜像的时候，你先随便选一个，反正稍后都要把它抹掉。创建完虚拟机后，只需要去控制台里的 ISO Images 标签页，挂载你想要的镜像即可：\n（原文此处有 FreeBSD ISO 镜像截图）\n我选的是 14.3。然后重启，基本上就按安装器一路走下去。印象里我没有改什么默认选项，当时是跟着官方 FreeBSD 频道里的安装视频一步步做的。很快，系统就装好并跑起来了。\nBastille 前面我已经提了好几次 Jails。但我用的不只是 Jails，还用了 Bastille，这是一个用来管理 Jails 的系统。原因很简单：手动创建 Jail 这件事比我想象中复杂，而且每新建一个 Jail，都有一堆独立步骤需要自己处理。Bastille 把这些都简化了，很多事情只差一条 bastille 命令。比如 bastille list 可以列出系统里的所有 Jail，bastille create 用来创建新 Jail，bastille console 则可以直接打开某个 Jail 的 shell，等等。\n安装并启用它（几乎）就像 官方文档 里说的这么简单：\npkg install bastille sysrc bastille_enable=\"YES\" 当然也有别的 Jail 管理器，我只是选了一个名字最酷的。\n整体架构 整套思路是：先有一个运行 Caddy 的 Jail，负责对外提供所有站点，并处理域名和 SSL 证书；然后每个站点再单独有自己的 Jail，里面安装各自构建和服务所需要的软件。这个“服务器 Jail”会把所有流量反向代理到对应的站点 Jail。所以第一步就是配置一个内部虚拟网卡。你可以把这套结构理解成：一组跑在同一个宿主机里的小型虚拟机网络。\n配置虚拟网络接口的方式如下：\nsudo sysrc cloned_interfaces+=\"lo1\" sudo sysrc ifconfig_lo1_name=\"bastille0\" sudo service netif cloneup sudo sysrc ifconfig_bastille0=\"inet 10.0.0.1 netmask 255.255.255.0\" 这几条命令本质上就是克隆一个回环接口，把它命名为 bastille0，再给它分配网络参数。所有 Jail 只会跑在这张网络接口上。至于 Caddy 所在的 Jail，因为它需要监听外部请求，就必须具备访问外网的能力。为此，我们要用 PF（Packet Filter，也就是 FreeBSD 的 防火墙）配置一条出网规则。\n我们需要编辑 /etc/pf.conf：\n# the main interface `vtnet0` and the virtual one we created `bastille0` ext_if = \"vtnet0\" int_if = \"bastille0\" vpn_if = \"tailscale1\" # skip internal traffic set skip on $int_if set skip on $vpn_if # allow outbound access to the internet from the jails nat on $ext_if from 10.0.0.0/24 to any -\u003e ($ext_if) # redirect HTTP/HTTPS traffic from the web to the server jail (10.0.0.5) rdr pass on $ext_if proto tcp from any to any port {80, 443} -\u003e 10.0.0.5 # block everything else block all # allows outbound traffic from host pass out quick on $ext_if keep state 正如配置里的注释所写，这段规则主要做了几件事：把 bastille0 和 tailscale1 上的内部流量跳过处理；允许 Jail 和宿主机出网；再把所有 80 和 443（HTTP/HTTPS）流量重定向到内部 IP 10.0.0.5，也就是我们的 Caddy 服务器。\n然后启用 PF：\nsysrc pf_enable=\"YES\" service pf start sysrc gateway_enable=\"YES\" 至此，网络层的基础就完成了。接下来开始创建 Caddy 服务器 Jail。\n创建第一个 Jail：Caddy Server 我的旧服务器一直在跑老朋友 nginx。除了早年短暂用过一点 Apache，我人生的大多数时间都在用 nginx。不过 nginx 有个烦人的点，而 Caddy 正好能漂亮地解决：SSL 证书。以前在旧服务器上，我得隔三差五跑一遍 certbot 去续域名证书，而且续签忘掉的次数比我愿意承认的要多。Caddy 会自动处理这些事情。\n要创建一个新 Jail，先得为当前要使用的 FreeBSD 版本做 bootstrap，在我的场景里是 14.3-RELEASE：\nbastille bootstrap 14.3-RELEASE 然后创建真正的 Jail：\nbastille create caddy 14.3-RELEASE 10.0.0.5 bastille0 bastille start caddy 这里我们创建了一个名为 caddy 的 Jail，使用 14.3-RELEASE，IP 为 10.0.0.5，挂在 bastille0 接口上。\n检查 Jail 状态：\n# bastille list JID Name Boot Prio State Type IP Address Published Ports Release Tags 3 caddy on 99 Up thin 10.0.0.5 - 14.3-RELEASE - 这样它就已经跑起来了！要记住，Jails 并不是像 Docker 容器那样追求 ephemeral 的东西。你不会先把容器完全定义好，然后指望它永远都保持一模一样。这里的感觉更接近虚拟机。你随时都可以通过下面的命令进到它的 shell：\n# bastille console caddy [caddy]: root@caddy:~ # 配置 Caddy Server 既然我们已经在 caddy 这个 Jail 里了，那只需要把 Caddy 装上：\npkg install caddy sysrc caddy_enable=\"YES\" service caddy start Caddy 的所有配置都放在 Jail 里的 /usr/local/etc/caddy/Caddyfile。如果我们想在宿主机上也能直接访问这份配置文件，就需要把宿主机上的一个目录挂载到 Jail 里。甚至还可以用只读模式挂载，这样 Jail 自己就无法修改配置。大概像这样：\nbastille mount caddy /usr/local/etc/my-caddy-config /usr/local/etc/caddy nullfs ro 0 0 好了，服务器差不多配完了，但我们还没有一个真正的站点。所以先建一个站点 Jail，然后再回来配置 Caddy。\n第一个站点：es.cro.to 疫情期间，巴西总统选择把 Covid-19 当作感冒来对待，没有采取任何紧急封锁政策。他不断强调国家不能停摆，承担不起代价，哪怕有人因此死掉也无所谓。这完全无视科学，甚至无视常识。历史已经证明他有多错。对此我很不爽，于是我想做一点“抗议”。\n所以我做了一个小页面 es.cro.to。它在葡萄牙语里字面上是“阴囊”的意思，但更常被用来形容一个人是个 混蛋、烂人，或者别的类似意思。我买下了 cro.to 这个域名（现在回头看，这域名其实挺酷的，英文里听起来也不错），然后加了一个 es 子域名。它刚好把这个词按字典式的音节拆开，于是我就在页面里放上了这个词的词义和对应生物的图片：\n（原文此处有 escroto 页面截图）\n它当然也是跑在我的旧服务器上的，而且在封锁那段时间还获得了不小的流量。我决定先从它开始迁，因为它本质上只是一个带着一张压得很惨照片的单页站点，而且现在也没那么重要了。\n这个站点和我其它站一样，也是一个 Git 仓库。所以我准备把所有网站都放在宿主机的 /usr/local/www 下，然后把各个站点对应的目录以只读方式挂载到对应 Jail 里。于是，当我把这个站点放到 /usr/local/www/escroto 后，就开始用 Bastille 创建 Jail。这次我直接用了一个用于 nginx 的 bastille 模板：www/nginx。模板其实就是预装一些软件的小脚本。其实不用也行，但既然有，为什么不用呢？\nbastille bootstrap https://github.com/bastillebsd/templates bastille create escroto 14.3-RELEASE 10.0.0.11 bastille0 bastille template escroto www/nginx 我给它分配的 IP 是 10.0.0.11，等会会用到。此时，这个 Jail 里的 nginx 已经在提供默认页面了。它的站点目录位于 /usr/local/www/nginx（注意，FreeBSD 几乎什么都放在 /usr/local 下）。\n接着，我把宿主机上的站点目录挂到 Jail 里：\nbastille mount escroto /usr/local/www/escroto /usr/local/www/escroto nullfs ro 0 0 这样一来，我在 Jail 内就能访问 /usr/local/www/escroto 这个站点目录了。因为它是个 Git 仓库，里面带有 .git 之类不该被直接提供出去的文件，所以我写了一个 deploy.sh 脚本，把 /usr/local/www/escroto/* 复制到 /usr/local/www/nginx/*，再删掉 .git 目录：\nrm -fr /usr/local/www/nginx/* cp -R /usr/local/www/escroto/* /usr/local/www/nginx/ rm -fr /usr/local/www/nginx/.git 这样以后每次要部署这个站点的新版本，只需要登录宿主机，更新仓库，然后执行这个脚本：\ncd /usr/local/www/escroto git pull bastille cmd escroto /root/deploy.sh 后来我发现这个思路挺好，于是也给其它站点都放了一份 /root/deploy.sh。\n让 Caddy 把域名指向这个 Jail 回到 Caddy 配置：\ncro.to { redir https://es.cro.to{uri} permanent } es.cro.to { reverse_proxy 10.0.0.11 } 配置非常简单：主域名重定向到 es.cro.to，再由后者反向代理到 10.0.0.11，也就是 escroto Jail。\n配置好 DNS 记录后，这个站点就上线了。\n部署这个博客 这个博客本身是用 Hugo 写的，仓库放在 GitHub 上。所以我把它克隆到了 /usr/local/www/blog，然后像 escroto 一样创建了一个新的 Jail：\nbastille create blog 14.3-RELEASE 10.0.0.12 bastille0 bastille template blog www/nginx bastille mount blog /usr/local/www/blog /usr/local/www/blog nullfs ro 0 0 然后在这个 Jail 里安装 Hugo：\nbastille pkg blog update bastille pkg blog install gohugo 部署脚本也很类似：\nrm -fr /usr/local/www/nginx/* cd /usr/local/www/blog hugo -d /usr/local/www/nginx 在正式把站点迁离旧服务器前，我想先做一些基准测试，所以先把博客绑定到了一个旧域名上：\ncrocidb.cro.to { reverse_proxy 10.0.0.12 } 就这么简单，博客已经在新服务器上跑起来了。\n给我的服务器做基准测试 在正式更新 DNS 记录前，我想确认这台新服务器到底能不能扛住流量。理论上看它当然行，但万一我哪里配错了呢？于是我开始琢磨，怎么比较旧服务器上的 crocidb.com 和新服务器上的 crocidb.cro.to。\n一开始我先想清楚，到底该测什么。测延迟没什么意义，因为我知道，对大多数访问我博客的人来说，新服务器的延迟本来就会稍微更长一些。这个站点的大部分流量通常来自北美，其次是欧洲，再然后是南美。不过那点差距其实不至于影响体验。所以更值得测的是：服务能力和高负载表现。\n市面上有一些免费的在线工具，可以做比较通用的测试，比如 GTMetrix、Pingdom 和 WebPageTest。但老实说，这两台服务器在这些工具里的差异几乎只体现在延迟上，其它方面基本差不多。所以我决定往更深一点挖。\n我发现了 wrk 和 hey 这两个 HTTP 压测工具。它们本质上就是对网站发起成千上万的并发请求，然后收集诸如请求延迟、错误响应、每秒传输量等信息。比如，我在另一台 Hetzner VPS 上跑了下面这个 wrk 命令：\nwrk -t4 -c100 -d30s --latency https://crocidb.com/ 这表示让 wrk 用 4 个线程、维持 100 个并发连接、持续压测 30 秒。这个数字其实也不算特别离谱。结果如下：\nRunning 30s test @ https://crocidb.com/ 4 threads and 100 connections Thread Stats Avg Stdev Max +/- Stdev Latency 89.63ms 18.31ms 189.09ms 95.29% Req/Sec 211.74 38.44 313.00 87.69% Requests/sec: 833.41 Transfer/sec: 8.29MB 而对 crocidb.cro.to 测出来是：\nRunning 30s test @ https://crocidb.cro.to/ 4 threads and 100 connections Thread Stats Avg Stdev Max +/- Stdev Latency 6.75ms 3.59ms 51.98ms 74.41% Req/Sec 3.08k 260.11 4.34k 81.83% Requests/sec: 12260.10 Transfer/sec: 130.80MB 旧服务器每秒能处理 833 个请求，而新服务器则达到 12,260。平均延迟则是 89ms 对 6ms。但这当然不公平：压测机器和新服务器在同一个数据中心。所以我想，要不试试挂 VPN，从不同地区去测？\n我用的是 Proton VPN，于是写了一个小脚本，从一组地点里选一个，连上 VPN，再跑 wrk。结果非常平淡：旧服务器平均大概 300 req/s，新服务器大概 800 req/s。测试地点如下：\nLOCATIONS=( \"US//New York|US - New York\" \"US//Los Angeles|US - Los Angeles\" \"BR//São Paulo|BR - São Paulo\" \"GB//London|GB - London\" \"DE//Frankfurt|DE - Frankfurt\" \"FR//Paris|FR - Paris\" \"SE//Stockholm|SE - Stockholm\" \"CH//Zurich|CH - Zurich\" \"IN//Mumbai|IN - Mumbai\" \"JP//Tokyo|JP - Tokyo\" \"KR//Seoul|KR - Seoul\" \"SG//Singapore|SG - Singapore\" \"AU//Sydney|AU - Sydney\" \"ZA//Johannesburg|ZA - Johannesburg\" \"AR//Buenos Aires|AR - Buenos Aires\" ) 于是我放弃了“用终端用户 VPN 视角来测”的思路，转而采用一种更硬核的办法：直接在世界各地的数据中心创建真正的 VPS 节点来跑测试。\nVultr VPS 基准测试 我需要一家不同于 DigitalOcean 和 Hetzner 的 VPS 提供商，以免底层基础设施带来额外优势。除了这两家，我唯一用过的 VPS 服务商就是 Vultr。于是我决定在不同地区各开一台机器跑测试。因为整个过程是手工完成的，所以最后只选了四个地区：伦敦、圣保罗、硅谷 和 东京。我在这些地区各创建了一台最便宜的 Fedora 虚拟机。\n经过几轮测试后，我发现 hey 更符合我的需求。于是我的流程就变成：SSH 登录测试机，执行脚本，然后把结果拷出来。第一个测试点是圣保罗：\ndnf install -y tmux vim htop wget https://storage.googleapis.com/hey-releases/hey_linux_amd64 chmod +x hey_linux_amd64 ./hey_linux_amd64 -n 1000000 -c 10000 -t 10 -z 5m -h2 https://crocidb.com/ \u003e crocidb.com.log ./hey_linux_amd64 -n 1000000 -c 10000 -t 10 -z 5m -h2 https://crocidb.cro.to/ \u003e crocidb.cro.to.log 这会下载 hey，然后以一种非常夸张的配置运行：总请求数 1M，并发 10k，超时 10s（也就是任意单个请求超过 10 秒就算失败），总时长 5m。\n第一次跑的时候，我很快就发现新 FreeBSD 服务器确实有个问题：它很早就开始失败，因为它根本扛不住 1 万并发连接。查了很多资料后，我发现可以用 netstat -Lan 查看 socket 队列大小，而我的队列值全都是 128。继续追下来才发现，原来 kern.ipc.somaxconn 的默认值就是这个数字。于是我把它调高了：\nsysctl kern.ipc.somaxconn=16384 差不多十分钟后，日志跑完了，我开始看结果：\n（原文此处有圣保罗 VPS 上 hey 输出对比图）\n左边是旧服务器，右边是新服务器，差异简直夸张。\n虽然两台机器都返回了不少错误，但 FreeBSD 这边至少完成了预期的 1M 请求，而 Ubuntu 那边连 20k 都没撑住！这个差距实在是太大了。\n基准结果分析 （原文此处有成功率图表）\n旧服务器 crocidb.com 只能完成极少一部分请求，这一点真的很惊人。实际上，它只完成了大约 7% 的请求，而 FreeBSD 服务器完成了 94%。东京地区里新服务器的成功率略微低一点，但我觉得还不至于值得担心。\n从每秒请求数来看，新服务器最少也有 3 倍提升，最高甚至能到 11 倍。\n（原文此处有 Requests per second 图表）\n这里的差距看起来更夸张，而我猜测东京那边的延迟可能确实更高一些。\n（原文此处有延迟百分位图表）\n如果看延迟百分位（例如 p50 表示 50% 的请求都比这个值更快返回），会发现两台服务器呈现出很不一样的曲线形态。新服务器直到大约 90% 之前都保持比较 线性 的增长，所以表现更可预测；而旧服务器的增长曲线则明显更不稳定。\n这说明，即使在高负载下，全球范围内 90% 的访问者在尝试加载我博客首页时，仍然能在 3.5 秒 内拿到内容。我觉得这已经相当不错了。\n我没有再继续深挖东京地区的问题，不过目前我也没那么担心。看 hey 的请求阶段分解（也就是它会拆分 DNS、连接、等待响应、读取响应等耗时），确实能看出日本方向的流量更慢一些：\n（原文此处有请求阶段耗时分解图）\n不过这些数据在我看来又有点怪。首先，第二个域名的 DNS 拨号和查询时间低得离谱，也许是因为它是个 CNAME 记录？其次，resp wait（基本可以理解成首字节时间）和 resp read（传输时间）在这里高得有点异常。但这也可能是因为它统计的只是成功请求：也就是说，旧服务器可能一开始响应很快，但很快就把新请求都拒掉了。\n结论 我并不认为这个差距是因为我选的这套栈本身就有多神奇。更有可能的原因是：旧 Ubuntu 系统本身就有一些配置问题，再加上我选的 Hetzner VPS 有 4 个 CPU 核，而旧 DigitalOcean 机器只有 1 个，自然能同时处理更多请求。我也不觉得这在实际意义上真的有多重要，因为这些服务器几乎不可能真的遇到这么大的并发量。也许跑一遍 WebPageTest 这样的 Web 基准工具就已经够了。\n真正切换 虽然这些基准测试还留下了很多未解答的问题，但我对结果已经很满意了。所以我直接更新了 DNS 记录。现在，这个博客已经正式跑在那台新机器上了。\n说到底，经过很多个小时的实验、折腾、构建、推倒重来之后，我意识到：搭一台用 FreeBSD 托管网站的机器，其实并没有我想象中那么复杂。满足我需求的 Web 托管服务其实也有不少，我本来也完全可以用别的方案。或者装一个 Proxmox，用图形化仪表盘来管理容器和系统。甚至也可以试试它在 FreeBSD 世界里的对应物 Sylve。但我还是很喜欢自己这次走过的这条路，因为整个过程让我学到了很多。\n其中几个最主要的收获是：\n那台 Ubuntu 服务器真的非常皮实。十年来，它一直把我这些站点的负载扛得很好。最后四年甚至一次都没重启过。而这一切并不需要多复杂的配置。 配置 FreeBSD 比我原本想象的容易。我很喜欢把系统配置集中在一个地方管理的感觉，而且它的在线文档也真的非常好。 想自己搭一台托管博客的机器，往往需要大量网络知识，而这些远远超出了一个游戏开发者通常具备的范围。 学习另一套系统真的很有趣。也许下次我会试试 OpenBSD 或 NetBSD。 不过说到底，这一切也没什么意义，因为我的大部分流量现在反正都来自各种 AI 抓取器……\nRefs This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD ","wordCount":"7855","inLanguage":"zh","image":"https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2026-05-22T16:23:07+08:00","dateModified":"2026-05-22T16:23:07+08:00","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://frytea.com/archives/1667/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://frytea.com/navigation/ title=🧭><span>🧭</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://frytea.com/>主页</a>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
+<a href=https://frytea.com/archives/>Archives</a></nav><h1 class=post-title><a href=https://frytea.com/archives/1667/>【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD</a></h1><div class=post-meta>May 22, 2026&nbsp;|&nbsp;16 分钟&nbsp;|&nbsp;7855 字&nbsp;|&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2026-05-22-1667.md rel="noopener noreferrer edit" target=_blank>PR</a>
+</span><span aria-hidden=true>&nbsp;|&nbsp;</span><span class=gc-pv-wrapper data-gc-path=/archives/1667/ style=display:inline-flex;align-items:center;gap:.28em;vertical-align:middle>
+<span class=gc-spinner></span>
+<span class=gc-pv-count style=align-items:center;gap:.28em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span class=gc-pv-num></span></span></span></div></header><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/04/30/d17a529dbb0ce3cde8989e62631efa3e.jpg alt="【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD"></figure><aside id=toc-sidebar class=toc-sidebar aria-label=目录><div class=toc-sidebar-header><span class=toc-title>目录</span></div><div class=toc-sidebar-body id=toc-sidebar-body><ul><ul><li><a href=#%e5%89%8d%e8%a8%80 aria-label=前言>前言</a></li></ul><li><a href=#%e5%8a%a8%e6%9c%ba aria-label=动机>动机</a><ul><li><a href=#%e6%97%a7%e7%9a%84%e9%83%a8%e7%bd%b2%e6%96%b9%e5%bc%8f aria-label=旧的部署方式>旧的部署方式</a></li><li><a href=#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89-freebsd aria-label="为什么选 FreeBSD">为什么选 FreeBSD</a></li><li><a href=#hetzner-vps aria-label="Hetzner VPS">Hetzner VPS</a></li></ul></li><li><a href=#%e6%90%ad%e5%bb%ba%e8%bf%87%e7%a8%8b aria-label=搭建过程>搭建过程</a><ul><li><a href=#%e5%ae%89%e8%a3%85-freebsd aria-label="安装 FreeBSD">安装 FreeBSD</a><ul><li><a href=#bastille aria-label=Bastille>Bastille</a></li></ul></li><li><a href=#%e6%95%b4%e4%bd%93%e6%9e%b6%e6%9e%84 aria-label=整体架构>整体架构</a><ul><li><a href=#%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%b8%80%e4%b8%aa-jailcaddy-server aria-label="创建第一个 Jail：Caddy Server">创建第一个 Jail：Caddy Server</a><ul><li><a href=#%e9%85%8d%e7%bd%ae-caddy-server aria-label="配置 Caddy Server">配置 Caddy Server</a></li></ul></li></ul></li><li><a href=#%e7%ac%ac%e4%b8%80%e4%b8%aa%e7%ab%99%e7%82%b9escroto aria-label=第一个站点：es.cro.to>第一个站点：<em>es.cro.to</em></a><ul><ul><li><a href=#%e8%ae%a9-caddy-%e6%8a%8a%e5%9f%9f%e5%90%8d%e6%8c%87%e5%90%91%e8%bf%99%e4%b8%aa-jail aria-label="让 Caddy 把域名指向这个 Jail">让 Caddy 把域名指向这个 Jail</a></li></ul></ul></li></ul></li><li><a href=#%e9%83%a8%e7%bd%b2%e8%bf%99%e4%b8%aa%e5%8d%9a%e5%ae%a2 aria-label=部署这个博客>部署这个博客</a></li><li><a href=#%e7%bb%99%e6%88%91%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%81%9a%e5%9f%ba%e5%87%86%e6%b5%8b%e8%af%95 aria-label=给我的服务器做基准测试>给我的服务器做基准测试</a><ul><ul><li><a href=#vultr-vps-%e5%9f%ba%e5%87%86%e6%b5%8b%e8%af%95 aria-label="Vultr VPS 基准测试">Vultr VPS 基准测试</a></li><li><a href=#%e5%9f%ba%e5%87%86%e7%bb%93%e6%9e%9c%e5%88%86%e6%9e%90 aria-label=基准结果分析>基准结果分析</a><ul><li><a href=#%e7%bb%93%e8%ae%ba aria-label=结论>结论</a></li></ul></li></ul></ul></li><li><a href=#%e7%9c%9f%e6%ad%a3%e5%88%87%e6%8d%a2 aria-label=真正切换>真正切换</a><ul><li><a href=#refs aria-label=Refs>Refs</a></li></ul></li></ul></div><div class=toc-sidebar-ad><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></aside><div id=toc-mobile-root><button id=toc-toggle-btn class=toc-toggle-btn accesskey=c aria-label=目录 title="目录 (Alt + C)">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="16" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg></button><div id=toc-backdrop class=toc-backdrop></div><div id=toc-drawer class=toc-drawer aria-hidden=true role=dialog aria-label=目录><div class=toc-drawer-header><span class=toc-drawer-title>目录</span>
+<button id=toc-drawer-close class=toc-drawer-close-btn aria-label=关闭目录>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class=toc-drawer-body id=toc-drawer-body><ul><ul><li><a href=#%e5%89%8d%e8%a8%80 aria-label=前言>前言</a></li></ul><li><a href=#%e5%8a%a8%e6%9c%ba aria-label=动机>动机</a><ul><li><a href=#%e6%97%a7%e7%9a%84%e9%83%a8%e7%bd%b2%e6%96%b9%e5%bc%8f aria-label=旧的部署方式>旧的部署方式</a></li><li><a href=#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89-freebsd aria-label="为什么选 FreeBSD">为什么选 FreeBSD</a></li><li><a href=#hetzner-vps aria-label="Hetzner VPS">Hetzner VPS</a></li></ul></li><li><a href=#%e6%90%ad%e5%bb%ba%e8%bf%87%e7%a8%8b aria-label=搭建过程>搭建过程</a><ul><li><a href=#%e5%ae%89%e8%a3%85-freebsd aria-label="安装 FreeBSD">安装 FreeBSD</a><ul><li><a href=#bastille aria-label=Bastille>Bastille</a></li></ul></li><li><a href=#%e6%95%b4%e4%bd%93%e6%9e%b6%e6%9e%84 aria-label=整体架构>整体架构</a><ul><li><a href=#%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%b8%80%e4%b8%aa-jailcaddy-server aria-label="创建第一个 Jail：Caddy Server">创建第一个 Jail：Caddy Server</a><ul><li><a href=#%e9%85%8d%e7%bd%ae-caddy-server aria-label="配置 Caddy Server">配置 Caddy Server</a></li></ul></li></ul></li><li><a href=#%e7%ac%ac%e4%b8%80%e4%b8%aa%e7%ab%99%e7%82%b9escroto aria-label=第一个站点：es.cro.to>第一个站点：<em>es.cro.to</em></a><ul><ul><li><a href=#%e8%ae%a9-caddy-%e6%8a%8a%e5%9f%9f%e5%90%8d%e6%8c%87%e5%90%91%e8%bf%99%e4%b8%aa-jail aria-label="让 Caddy 把域名指向这个 Jail">让 Caddy 把域名指向这个 Jail</a></li></ul></ul></li></ul></li><li><a href=#%e9%83%a8%e7%bd%b2%e8%bf%99%e4%b8%aa%e5%8d%9a%e5%ae%a2 aria-label=部署这个博客>部署这个博客</a></li><li><a href=#%e7%bb%99%e6%88%91%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%81%9a%e5%9f%ba%e5%87%86%e6%b5%8b%e8%af%95 aria-label=给我的服务器做基准测试>给我的服务器做基准测试</a><ul><ul><li><a href=#vultr-vps-%e5%9f%ba%e5%87%86%e6%b5%8b%e8%af%95 aria-label="Vultr VPS 基准测试">Vultr VPS 基准测试</a></li><li><a href=#%e5%9f%ba%e5%87%86%e7%bb%93%e6%9e%9c%e5%88%86%e6%9e%90 aria-label=基准结果分析>基准结果分析</a><ul><li><a href=#%e7%bb%93%e8%ae%ba aria-label=结论>结论</a></li></ul></li></ul></ul></li><li><a href=#%e7%9c%9f%e6%ad%a3%e5%88%87%e6%8d%a2 aria-label=真正切换>真正切换</a><ul><li><a href=#refs aria-label=Refs>Refs</a></li></ul></li></ul></div></div></div><script>
+(function () {
+    "use strict";
+
+    function initToc() {
+     
+    var headings = Array.prototype.slice.call(
+        document.querySelectorAll(
+            ".post-content h1[id], .post-content h2[id], .post-content h3[id]," +
+            ".post-content h4[id], .post-content h5[id], .post-content h6[id]"
+        )
+    );
+    var allTocLinks = Array.prototype.slice.call(
+        document.querySelectorAll("#toc-sidebar-body a, #toc-drawer-body a")
+    );
+
+     
+    var currentActiveId = null;
+
+    function setActive(id) {
+        if (id === currentActiveId) return;
+        currentActiveId = id;
+        allTocLinks.forEach(function (link) {
+            var href = link.getAttribute("href") || "";
+            
+
+            if (decodeURIComponent(href.slice(1)) === id) {
+                link.classList.add("toc-active");
+            } else {
+                link.classList.remove("toc-active");
+            }
+        });
+         
+        var sidebarBody = document.getElementById("toc-sidebar-body");
+        if (sidebarBody) {
+            var activeLink = sidebarBody.querySelector("a.toc-active");
+            if (activeLink) {
+                var SCROLL_MARGIN_TOP    = 20;  
+                var SCROLL_MARGIN_BOTTOM = 40;  
+                var linkTop    = activeLink.offsetTop;
+                var bodyHeight = sidebarBody.clientHeight;
+                var scrollTop  = sidebarBody.scrollTop;
+                if (linkTop < scrollTop + SCROLL_MARGIN_TOP ||
+                    linkTop > scrollTop + bodyHeight - SCROLL_MARGIN_BOTTOM) {
+                    sidebarBody.scrollTo({
+                        top: linkTop - bodyHeight / 3,
+                        behavior: "smooth"
+                    });
+                }
+            }
+        }
+    }
+
+    function getActiveId() {
+        
+
+        var MIN_THRESHOLD_PX       = 80;    
+        var VIEWPORT_THRESHOLD_RATIO = 0.15;  
+        var threshold = Math.max(MIN_THRESHOLD_PX, window.innerHeight * VIEWPORT_THRESHOLD_RATIO);
+        var active = null;
+        headings.forEach(function (h) {
+            if (h.getBoundingClientRect().top <= threshold) {
+                active = h.id;
+            }
+        });
+         
+        if (!active && headings.length > 0) {
+            active = headings[0].id;
+        }
+        return active;
+    }
+
+    if (headings.length > 0) {
+        var ticking = false;
+        window.addEventListener("scroll", function () {
+            if (!ticking) {
+                window.requestAnimationFrame(function () {
+                    setActive(getActiveId());
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+         
+        setActive(getActiveId());
+    }
+
+     
+    var toggleBtn  = document.getElementById("toc-toggle-btn");
+    var drawer     = document.getElementById("toc-drawer");
+    var backdrop   = document.getElementById("toc-backdrop");
+    var closeBtn   = document.getElementById("toc-drawer-close");
+
+    function openDrawer() {
+        if (!drawer) return;
+        drawer.classList.add("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "false");
+        backdrop.classList.add("toc-backdrop-visible");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeDrawer() {
+        if (!drawer) return;
+        drawer.classList.remove("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "true");
+        backdrop.classList.remove("toc-backdrop-visible");
+        document.body.style.overflow = "";
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener("click", openDrawer);
+    if (closeBtn)  closeBtn.addEventListener("click",  closeDrawer);
+    if (backdrop)  backdrop.addEventListener("click",  closeDrawer);
+
+     
+    document.querySelectorAll("#toc-drawer-body a").forEach(function (link) {
+        link.addEventListener("click", closeDrawer);
+    });
+
+     
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeDrawer();
+    });
+    }  
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initToc);
+    } else {
+        initToc();
+    }
+}());
+</script><div class=ai-generated-notice>🤖 <strong>AI 内容声明</strong>：本文内容由 AI 参与生成或整理，仅供参考，请以实际情况为准。如需深入了解，建议查阅原始资料。</div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://frytea.com/archives/1667/>本文</a>
+首发于
+<a href=https://frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://frytea.com/archives/1667/>来源</a>。</p></blockquote><h2 id=前言>前言<a hidden class=anchor aria-hidden=true href=#前言>#</a></h2><p>文章来源：CrociDB</p><p>原文作者：CrociDB（Antonio Vivace）</p><p>原文标题：<em>This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD</em></p><p>原文发布时间：2026-05-21</p><p>原文链接：<a href=https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/>https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/</a></p><p>本文为全文翻译，译文由 AI 辅助整理，若有理解偏差欢迎指正。</p><hr><p>这篇博客已经在一台 DigitalOcean VPS 上运行了十多年。那是一台托管在纽约、运行着 <strong>Ubuntu 16.04 LTS</strong> 的机器。而这个 LTS 版本至少已经有 5 年不再受支持了。是时候做些改变了。经过一番权衡，我把它迁移到了一台 Hetzner 的虚拟机上：配置比我旧的 Ubuntu 机器强得多，价格还不到以前的一半，而且机房就在我所在国家的另一端。不仅如此，我还顺便挑战了一下自己，把整套栈迁到了 <strong>FreeBSD</strong>。这篇文章会有点长，但如果你愿意读下去，会看到一个关于 <em>FreeBSD Jails</em>、<em>Bastille</em>，以及一些有意思的网站负载测试结果的故事。</p><h1 id=动机>动机<a hidden class=anchor aria-hidden=true href=#动机>#</a></h1><p>如果你了解 Ubuntu 的发布和支持周期（我自己其实也不算熟），就会知道一旦某个版本结束支持，<code>apt</code> 对应的软件仓库也就没了，你再也拿不到更新。运行这样一套过时系统会带来不少问题，其中最显而易见的一点就是：你的服务器不再那么安全了。互联网上肯定有各种机器人，专门扫描存在漏洞的节点，然后想办法塞进去恶意内容。幸运的是（我想大概算幸运），我这里一直没出过事。反正机器里也没什么特别重要的东西可偷。但我记得很久以前，我还有一个 WordPress 博客，也是跑在一台老旧 VPS 上，结果某天文章正文里突然被插满了可疑的赌场和赌博链接。</p><p>我原本就有一台 Hetzner VPS，当作远程开发机来用，可以随时 SSH 上去，考虑到价格，它一直都很可靠。所以我决定先从对比配置开始。下面这台就是原来跑我的博客和其它网站的 droplet：</p><p><em>（原文此处有旧 DigitalOcean 服务器截图）</em></p><p>它有 2GB 内存、1 个 vCPU、50GB 磁盘、每月 2TB 流量，运行的是 Ubuntu 16.04 x64。机房位于纽约，这大概也是它比较贵的原因：我每个月要为它支付 13 美元。</p><p>Hetzner 是一家老牌欧洲 IT 公司，在德国有大型数据中心，而我也住在德国。它最便宜的一款服务器，只要 <strong>3.56 欧元</strong>，配置就已经比我原来那台更好了：</p><p><em>（原文此处有 Hetzner 入门套餐截图）</em></p><p>内存和 CPU 都翻倍，存储稍微少一点，但月流量多了十倍。不过我最后还是选了一台更“豪华”的配置，每月不到 6 欧元：</p><p><em>（原文此处有更高配套餐截图）</em></p><p>对我的这些站点来说，这配置甚至有点过头了，不过为什么不呢？</p><h2 id=旧的部署方式>旧的部署方式<a hidden class=anchor aria-hidden=true href=#旧的部署方式>#</a></h2><p>我那套旧环境托管的不只是这个博客，还有几个别的网站。它们都不算热门；在所有站点里，这个博客流量算最高的了，但每个月也不过几千次页面浏览。除了偶尔有几篇文章在 Hacker News 上爆一下，平时根本没多少流量。说到底，这台机器基本就是在提供静态网站服务，没有复杂 CGI，也没有什么自定义后端代码在跑。整套栈很简单：所有内容都通过 <strong>nginx/1.10.3</strong> 以静态方式提供。我基本上就是在 <code>/etc/nginx/sites-available</code> 里给每个站点放一份配置文件。像静态站点生成器、LaTeX 套件之类的附加程序（比如这个博客就是用 <strong>Hugo</strong> 生成的）则通过 <code>apt</code> 或 <code>snap</code> 安装。事实上，我更新博客的流程一直是这样：</p><ul><li>在本地写文章</li><li>提交并推送到仓库</li><li>SSH 登录服务器</li><li>拉取仓库更新</li><li>运行 <code>hugo</code></li></ul><p>这台 VPS 刚开始用的那些年里，我还会拿它做一些测试和编程实验。所以机器里积累了很多已经不再使用的老旧软件，显得很臃肿。但它就是能跑，而且跑得还挺好。</p><p><em>（原文此处有 Linux 4.4 截图）</em></p><p>它甚至好到什么程度呢？我关机前，它的 uptime 达到了 1491 天，也就是差不多连续 4 年没中断过。</p><h2 id=为什么选-freebsd>为什么选 FreeBSD<a hidden class=anchor aria-hidden=true href=#为什么选-freebsd>#</a></h2><p>说实话，我的主要动机之一就是想亲手折腾点不一样的东西。我最近读了很多、也看了很多关于 BSD 家族的内容，而我之前也曾短暂用过 FreeBSD，所以我觉得这是一个把它放到真实生产场景里试一试的好机会。FreeBSD 常常因为它的一体化设计、安全性以及 <strong>Jails</strong> 而被人称赞。后面我会详细展开。</p><p>我不想装得好像自己一开始就完全知道该怎么做，但当我读到 <strong>Jails</strong> 时，我立刻就知道自己想怎么搭了。<strong>Jails</strong> 是一种虚拟化/容器化机制，已经存在于 FreeBSD 里超过 25 年了，比 Docker 诞生还早得多。乍一看，它实现的效果和你对 Docker 容器的预期很像：在系统里面隔离出一个“小系统”，你可以在里面运行一些拿不到宿主机权限的东西。但在我看来，Docker 以及其它容器方案更适合“打包程序”——它们强调短生命周期和不可变；容器内处理的数据来自外部，但容器内部本身最好始终保持一致。而 Jails 更像真正的子系统，几乎可以把它看作迷你虚拟机，只不过底层仍然共享同一个内核。</p><p>除此之外，FreeBSD 的文件系统 <strong>ZFS</strong> 对服务器场景也确实非常好用。如果你来自 Linux 世界，大概听说过 <strong>Btrfs</strong>，它是近几年越来越多发行版开始采用的新文件系统。它和 ZFS 有一些相似点，比如数据完整性和快照。不过 <strong>ZFS</strong> 大概比 Btrfs 要成熟得多。如果我能频繁地给系统做快照，就不需要依赖 VPS 提供商的快照或备份服务，而那些通常都要额外付费。</p><p>我的想法是：每个网站一个 Jail，里面装上构建这个网站所需的工具（比如博客需要 <strong>Hugo</strong>），再在 Jail 里运行一个 nginx 实例来提供服务；另外再单独放一个主 Web 服务器 Jail，通过反向代理把外部世界和这些站点连起来。这样一来，哪怕某个 Jail 被攻破了，我也可以把它直接销毁，再建一个新的。后面我会更具体地介绍配置过程。</p><h2 id=hetzner-vps>Hetzner VPS<a hidden class=anchor aria-hidden=true href=#hetzner-vps>#</a></h2><p>先给所有喜欢看系统信息的人一点细节：</p><p><em>（原文此处有 fastfetch 截图）</em></p><h1 id=搭建过程>搭建过程<a hidden class=anchor aria-hidden=true href=#搭建过程>#</a></h1><p>我会快速讲一下自己是如何把这台服务器搭起来的，以及其中最关键的几个点。平时我会记开发日志，所以这次也是边做边记。不过不要把这篇文章当作教程，因为我可能漏掉了一些步骤。更准确地说，这是一篇“在 Hetzner 上用 FreeBSD 搭 Web 服务器是什么感觉”的记录。</p><h2 id=安装-freebsd>安装 FreeBSD<a hidden class=anchor aria-hidden=true href=#安装-freebsd>#</a></h2><p>Hetzner 在创建虚拟机时会提供一些镜像，但选择其实非常有限：</p><p><em>（原文此处有 “No BSD” 截图）</em></p><p>不过我在 <a href="https://www.youtube.com/watch?v=8RGbstrTWUo">FreeBSD 官方 YouTube 频道</a> 上看到了一份讲如何在 Hetzner 上安装 FreeBSD 的指南。顺带一提，这个频道非常推荐。</p><p>关键在于：Hetzner 其实提供了 FreeBSD 镜像，只是藏得比较深，需要多点几步。它是以 ISO 镜像的形式提供的。所以在创建虚拟机、选择操作系统镜像的时候，你先随便选一个，反正稍后都要把它抹掉。创建完虚拟机后，只需要去控制台里的 <strong>ISO Images</strong> 标签页，挂载你想要的镜像即可：</p><p><em>（原文此处有 FreeBSD ISO 镜像截图）</em></p><p>我选的是 <strong>14.3</strong>。然后重启，基本上就按安装器一路走下去。印象里我没有改什么默认选项，当时是跟着官方 FreeBSD 频道里的安装视频一步步做的。很快，系统就装好并跑起来了。</p><h3 id=bastille>Bastille<a hidden class=anchor aria-hidden=true href=#bastille>#</a></h3><p>前面我已经提了好几次 Jails。但我用的不只是 Jails，还用了 <strong><a href=https://github.com/BastilleBSD/bastille>Bastille</a></strong>，这是一个用来管理 Jails 的系统。原因很简单：手动创建 Jail 这件事比我想象中复杂，而且每新建一个 Jail，都有一堆独立步骤需要自己处理。Bastille 把这些都简化了，很多事情只差一条 <code>bastille</code> 命令。比如 <code>bastille list</code> 可以列出系统里的所有 Jail，<code>bastille create</code> 用来创建新 Jail，<code>bastille console</code> 则可以直接打开某个 Jail 的 shell，等等。</p><p>安装并启用它（几乎）就像 <a href=https://bastillebsd.org/getting-started/>官方文档</a> 里说的这么简单：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>pkg install bastille
+</span></span><span style=display:flex><span>sysrc bastille_enable<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;YES&#34;</span>
+</span></span></code></pre></div><p>当然也有别的 Jail 管理器，我只是选了一个名字最酷的。</p><h2 id=整体架构>整体架构<a hidden class=anchor aria-hidden=true href=#整体架构>#</a></h2><p>整套思路是：先有一个运行 <strong>Caddy</strong> 的 Jail，负责对外提供所有站点，并处理域名和 SSL 证书；然后每个站点再单独有自己的 Jail，里面安装各自构建和服务所需要的软件。这个“服务器 Jail”会把所有流量反向代理到对应的站点 Jail。所以第一步就是配置一个内部虚拟网卡。你可以把这套结构理解成：一组跑在同一个宿主机里的小型虚拟机网络。</p><p>配置虚拟网络接口的方式如下：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>sudo sysrc cloned_interfaces<span style=color:#f92672>+=</span><span style=color:#e6db74>&#34;lo1&#34;</span>
+</span></span><span style=display:flex><span>sudo sysrc ifconfig_lo1_name<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;bastille0&#34;</span>
+</span></span><span style=display:flex><span>sudo service netif cloneup
+</span></span><span style=display:flex><span>sudo sysrc ifconfig_bastille0<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;inet 10.0.0.1 netmask 255.255.255.0&#34;</span>
+</span></span></code></pre></div><p>这几条命令本质上就是克隆一个回环接口，把它命名为 <code>bastille0</code>，再给它分配网络参数。所有 Jail 只会跑在这张网络接口上。至于 Caddy 所在的 Jail，因为它需要监听外部请求，就必须具备访问外网的能力。为此，我们要用 PF（Packet Filter，也就是 FreeBSD 的 <em>防火墙</em>）配置一条出网规则。</p><p>我们需要编辑 <code>/etc/pf.conf</code>：</p><pre tabindex=0><code class=language-conf data-lang=conf># the main interface `vtnet0` and the virtual one we created `bastille0`
+ext_if = &#34;vtnet0&#34;
+int_if = &#34;bastille0&#34;
+vpn_if = &#34;tailscale1&#34;
+
+# skip internal traffic
+set skip on $int_if
+set skip on $vpn_if
+
+# allow outbound access to the internet from the jails
+nat on $ext_if from 10.0.0.0/24 to any -&gt; ($ext_if)
+
+# redirect HTTP/HTTPS traffic from the web to the server jail (10.0.0.5)
+rdr pass on $ext_if proto tcp from any to any port {80, 443} -&gt; 10.0.0.5
+
+# block everything else
+block all
+
+# allows outbound traffic from host
+pass out quick on $ext_if keep state
+</code></pre><p>正如配置里的注释所写，这段规则主要做了几件事：把 <code>bastille0</code> 和 <code>tailscale1</code> 上的内部流量跳过处理；允许 Jail 和宿主机出网；再把所有 <code>80</code> 和 <code>443</code>（HTTP/HTTPS）流量重定向到内部 IP <code>10.0.0.5</code>，也就是我们的 Caddy 服务器。</p><p>然后启用 PF：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>sysrc pf_enable<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;YES&#34;</span>
+</span></span><span style=display:flex><span>service pf start
+</span></span><span style=display:flex><span>sysrc gateway_enable<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;YES&#34;</span>
+</span></span></code></pre></div><p>至此，网络层的基础就完成了。接下来开始创建 Caddy 服务器 Jail。</p><h3 id=创建第一个-jailcaddy-server>创建第一个 Jail：Caddy Server<a hidden class=anchor aria-hidden=true href=#创建第一个-jailcaddy-server>#</a></h3><p>我的旧服务器一直在跑老朋友 <code>nginx</code>。除了早年短暂用过一点 <code>Apache</code>，我人生的大多数时间都在用 nginx。不过 nginx 有个烦人的点，而 <code>Caddy</code> 正好能漂亮地解决：SSL 证书。以前在旧服务器上，我得隔三差五跑一遍 <code>certbot</code> 去续域名证书，而且续签忘掉的次数比我愿意承认的要多。Caddy 会自动处理这些事情。</p><p>要创建一个新 Jail，先得为当前要使用的 FreeBSD 版本做 bootstrap，在我的场景里是 <code>14.3-RELEASE</code>：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille bootstrap 14.3-RELEASE
+</span></span></code></pre></div><p>然后创建真正的 Jail：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille create caddy 14.3-RELEASE 10.0.0.5 bastille0
+</span></span><span style=display:flex><span>bastille start caddy
+</span></span></code></pre></div><p>这里我们创建了一个名为 <code>caddy</code> 的 Jail，使用 <code>14.3-RELEASE</code>，IP 为 <code>10.0.0.5</code>，挂在 <code>bastille0</code> 接口上。</p><p>检查 Jail 状态：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># bastille list</span>
+</span></span><span style=display:flex><span> JID  Name      Boot  Prio  State  Type   IP Address  Published Ports  Release       Tags
+</span></span><span style=display:flex><span> <span style=color:#ae81ff>3</span>    caddy     on    <span style=color:#ae81ff>99</span>    Up     thin   10.0.0.5    -                14.3-RELEASE  -
+</span></span></code></pre></div><p>这样它就已经跑起来了！要记住，Jails 并不是像 Docker 容器那样追求 <em>ephemeral</em> 的东西。你不会先把容器完全定义好，然后指望它永远都保持一模一样。这里的感觉更接近虚拟机。你随时都可以通过下面的命令进到它的 shell：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># bastille console caddy</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>[</span>caddy<span style=color:#f92672>]</span>:
+</span></span><span style=display:flex><span>root@caddy:~ <span style=color:#75715e>#</span>
+</span></span></code></pre></div><h4 id=配置-caddy-server>配置 Caddy Server<a hidden class=anchor aria-hidden=true href=#配置-caddy-server>#</a></h4><p>既然我们已经在 <code>caddy</code> 这个 Jail 里了，那只需要把 Caddy 装上：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>pkg install caddy
+</span></span><span style=display:flex><span>sysrc caddy_enable<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;YES&#34;</span>
+</span></span><span style=display:flex><span>service caddy start
+</span></span></code></pre></div><p>Caddy 的所有配置都放在 Jail 里的 <code>/usr/local/etc/caddy/Caddyfile</code>。如果我们想在宿主机上也能直接访问这份配置文件，就需要把宿主机上的一个目录挂载到 Jail 里。甚至还可以用只读模式挂载，这样 Jail 自己就无法修改配置。大概像这样：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille mount caddy /usr/local/etc/my-caddy-config /usr/local/etc/caddy nullfs ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>好了，服务器差不多配完了，但我们还没有一个真正的站点。所以先建一个站点 Jail，然后再回来配置 Caddy。</p><h2 id=第一个站点escroto>第一个站点：<em>es.cro.to</em><a hidden class=anchor aria-hidden=true href=#第一个站点escroto>#</a></h2><p>疫情期间，巴西总统选择把 Covid-19 当作感冒来对待，没有采取任何紧急封锁政策。他不断强调国家不能停摆，承担不起代价，哪怕有人因此死掉也无所谓。这完全无视科学，甚至无视常识。历史已经证明他有多错。对此我很不爽，于是我想做一点“抗议”。</p><p>所以我做了一个小页面 <code>es.cro.to</code>。它在葡萄牙语里字面上是“阴囊”的意思，但更常被用来形容一个人是个 <em>混蛋</em>、<em>烂人</em>，或者别的类似意思。我买下了 <code>cro.to</code> 这个域名（现在回头看，这域名其实挺酷的，英文里听起来也不错），然后加了一个 <code>es</code> 子域名。它刚好把这个词按字典式的音节拆开，于是我就在页面里放上了这个词的词义和对应生物的图片：</p><p><em>（原文此处有 escroto 页面截图）</em></p><p>它当然也是跑在我的旧服务器上的，而且在封锁那段时间还获得了不小的流量。我决定先从它开始迁，因为它本质上只是一个带着一张压得很惨照片的单页站点，而且现在也没那么重要了。</p><p>这个站点和我其它站一样，也是一个 Git <a href=https://github.com/crocidb/escroto>仓库</a>。所以我准备把所有网站都放在宿主机的 <code>/usr/local/www</code> 下，然后把各个站点对应的目录以只读方式挂载到对应 Jail 里。于是，当我把这个站点放到 <code>/usr/local/www/escroto</code> 后，就开始用 Bastille 创建 Jail。这次我直接用了一个用于 nginx 的 bastille 模板：<code>www/nginx</code>。模板其实就是预装一些软件的小脚本。其实不用也行，但既然有，为什么不用呢？</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille bootstrap https://github.com/bastillebsd/templates
+</span></span><span style=display:flex><span>bastille create escroto 14.3-RELEASE 10.0.0.11 bastille0
+</span></span><span style=display:flex><span>bastille template escroto www/nginx
+</span></span></code></pre></div><p>我给它分配的 IP 是 <code>10.0.0.11</code>，等会会用到。此时，这个 Jail 里的 nginx 已经在提供默认页面了。它的站点目录位于 <code>/usr/local/www/nginx</code>（注意，FreeBSD 几乎什么都放在 <code>/usr/local</code> 下）。</p><p>接着，我把宿主机上的站点目录挂到 Jail 里：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille mount escroto /usr/local/www/escroto /usr/local/www/escroto nullfs ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>这样一来，我在 Jail 内就能访问 <code>/usr/local/www/escroto</code> 这个站点目录了。因为它是个 Git 仓库，里面带有 <code>.git</code> 之类不该被直接提供出去的文件，所以我写了一个 <code>deploy.sh</code> 脚本，把 <code>/usr/local/www/escroto/*</code> 复制到 <code>/usr/local/www/nginx/*</code>，再删掉 <code>.git</code> 目录：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>rm -fr /usr/local/www/nginx/*
+</span></span><span style=display:flex><span>cp -R /usr/local/www/escroto/* /usr/local/www/nginx/
+</span></span><span style=display:flex><span>rm -fr /usr/local/www/nginx/.git
+</span></span></code></pre></div><p>这样以后每次要部署这个站点的新版本，只需要登录宿主机，更新仓库，然后执行这个脚本：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>cd /usr/local/www/escroto
+</span></span><span style=display:flex><span>git pull
+</span></span><span style=display:flex><span>bastille cmd escroto /root/deploy.sh
+</span></span></code></pre></div><p>后来我发现这个思路挺好，于是也给其它站点都放了一份 <code>/root/deploy.sh</code>。</p><h4 id=让-caddy-把域名指向这个-jail>让 Caddy 把域名指向这个 Jail<a hidden class=anchor aria-hidden=true href=#让-caddy-把域名指向这个-jail>#</a></h4><p>回到 Caddy 配置：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-Caddyfile data-lang=Caddyfile><span style=display:flex><span>cro.to {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>redir</span> <span style=color:#e6db74>https://es.cro.to</span><span style=color:#ae81ff>{uri}</span> <span style=color:#e6db74>permanent</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>es.cro.to {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>reverse_proxy</span> <span style=color:#ae81ff>10</span><span style=color:#e6db74>.0.0.11</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>配置非常简单：主域名重定向到 <code>es.cro.to</code>，再由后者反向代理到 <code>10.0.0.11</code>，也就是 <code>escroto</code> Jail。</p><p>配置好 DNS 记录后，这个站点就上线了。</p><h1 id=部署这个博客>部署这个博客<a hidden class=anchor aria-hidden=true href=#部署这个博客>#</a></h1><p>这个博客本身是用 <strong>Hugo</strong> 写的，仓库放在 <a href=https://github.com/crocidb/blog>GitHub</a> 上。所以我把它克隆到了 <code>/usr/local/www/blog</code>，然后像 <code>escroto</code> 一样创建了一个新的 Jail：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille create blog 14.3-RELEASE 10.0.0.12 bastille0
+</span></span><span style=display:flex><span>bastille template blog www/nginx
+</span></span><span style=display:flex><span>bastille mount blog /usr/local/www/blog /usr/local/www/blog nullfs ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>然后在这个 Jail 里安装 Hugo：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>bastille pkg blog update
+</span></span><span style=display:flex><span>bastille pkg blog install gohugo
+</span></span></code></pre></div><p>部署脚本也很类似：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>rm -fr /usr/local/www/nginx/*
+</span></span><span style=display:flex><span>cd /usr/local/www/blog
+</span></span><span style=display:flex><span>hugo -d /usr/local/www/nginx
+</span></span></code></pre></div><p>在正式把站点迁离旧服务器前，我想先做一些基准测试，所以先把博客绑定到了一个旧域名上：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-Caddyfile data-lang=Caddyfile><span style=display:flex><span>crocidb.cro.to {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>reverse_proxy</span> <span style=color:#ae81ff>10</span><span style=color:#e6db74>.0.0.12</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>就这么简单，博客已经在新服务器上跑起来了。</p><h1 id=给我的服务器做基准测试>给我的服务器做基准测试<a hidden class=anchor aria-hidden=true href=#给我的服务器做基准测试>#</a></h1><p>在正式更新 DNS 记录前，我想确认这台新服务器到底能不能扛住流量。理论上看它当然行，但万一我哪里配错了呢？于是我开始琢磨，怎么比较旧服务器上的 <code>crocidb.com</code> 和新服务器上的 <code>crocidb.cro.to</code>。</p><p>一开始我先想清楚，到底该测什么。测延迟没什么意义，因为我知道，对大多数访问我博客的人来说，新服务器的延迟本来就会稍微更长一些。这个站点的大部分流量通常来自北美，其次是欧洲，再然后是南美。不过那点差距其实不至于影响体验。所以更值得测的是：服务能力和高负载表现。</p><p>市面上有一些免费的在线工具，可以做比较通用的测试，比如 <a href=https://gtmetrix.com>GTMetrix</a>、<a href=https://pingdom.com>Pingdom</a> 和 <a href=https://www.catchpoint.com/webpagetest>WebPageTest</a>。但老实说，这两台服务器在这些工具里的差异几乎只体现在延迟上，其它方面基本差不多。所以我决定往更深一点挖。</p><p>我发现了 <a href=https://github.com/wg/wrk>wrk</a> 和 <a href=https://github.com/rakyll/hey>hey</a> 这两个 HTTP 压测工具。它们本质上就是对网站发起成千上万的并发请求，然后收集诸如请求延迟、错误响应、每秒传输量等信息。比如，我在另一台 Hetzner VPS 上跑了下面这个 <code>wrk</code> 命令：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>wrk -t4 -c100 -d30s --latency https://crocidb.com/
+</span></span></code></pre></div><p>这表示让 <code>wrk</code> 用 <code>4</code> 个线程、维持 <code>100</code> 个并发连接、持续压测 <code>30</code> 秒。这个数字其实也不算特别离谱。结果如下：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-text data-lang=text><span style=display:flex><span>Running 30s test @ https://crocidb.com/
+</span></span><span style=display:flex><span>  4 threads and 100 connections
+</span></span><span style=display:flex><span>  Thread Stats   Avg      Stdev     Max   +/- Stdev
+</span></span><span style=display:flex><span>    Latency    89.63ms   18.31ms 189.09ms   95.29%
+</span></span><span style=display:flex><span>    Req/Sec   211.74     38.44   313.00     87.69%
+</span></span><span style=display:flex><span>Requests/sec:    833.41
+</span></span><span style=display:flex><span>Transfer/sec:      8.29MB
+</span></span></code></pre></div><p>而对 <code>crocidb.cro.to</code> 测出来是：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-text data-lang=text><span style=display:flex><span>Running 30s test @ https://crocidb.cro.to/
+</span></span><span style=display:flex><span>  4 threads and 100 connections
+</span></span><span style=display:flex><span>  Thread Stats   Avg      Stdev     Max   +/- Stdev
+</span></span><span style=display:flex><span>    Latency     6.75ms    3.59ms  51.98ms   74.41%
+</span></span><span style=display:flex><span>    Req/Sec     3.08k   260.11     4.34k    81.83%
+</span></span><span style=display:flex><span>Requests/sec:  12260.10
+</span></span><span style=display:flex><span>Transfer/sec:    130.80MB
+</span></span></code></pre></div><p>旧服务器每秒能处理 <code>833</code> 个请求，而新服务器则达到 <code>12,260</code>。平均延迟则是 <code>89ms</code> 对 <code>6ms</code>。但这当然不公平：压测机器和新服务器在同一个数据中心。所以我想，要不试试挂 VPN，从不同地区去测？</p><p>我用的是 Proton VPN，于是写了一个小脚本，从一组地点里选一个，连上 VPN，再跑 <code>wrk</code>。结果非常平淡：旧服务器平均大概 <code>300</code> req/s，新服务器大概 <code>800</code> req/s。测试地点如下：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>LOCATIONS<span style=color:#f92672>=(</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;US//New York|US - New York&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;US//Los Angeles|US - Los Angeles&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;BR//São Paulo|BR - São Paulo&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;GB//London|GB - London&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;DE//Frankfurt|DE - Frankfurt&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;FR//Paris|FR - Paris&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;SE//Stockholm|SE - Stockholm&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;CH//Zurich|CH - Zurich&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;IN//Mumbai|IN - Mumbai&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;JP//Tokyo|JP - Tokyo&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;KR//Seoul|KR - Seoul&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;SG//Singapore|SG - Singapore&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;AU//Sydney|AU - Sydney&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;ZA//Johannesburg|ZA - Johannesburg&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;AR//Buenos Aires|AR - Buenos Aires&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>)</span>
+</span></span></code></pre></div><p>于是我放弃了“用终端用户 VPN 视角来测”的思路，转而采用一种更硬核的办法：直接在世界各地的数据中心创建真正的 VPS 节点来跑测试。</p><h3 id=vultr-vps-基准测试>Vultr VPS 基准测试<a hidden class=anchor aria-hidden=true href=#vultr-vps-基准测试>#</a></h3><p>我需要一家不同于 DigitalOcean 和 Hetzner 的 VPS 提供商，以免底层基础设施带来额外优势。除了这两家，我唯一用过的 VPS 服务商就是 Vultr。于是我决定在不同地区各开一台机器跑测试。因为整个过程是手工完成的，所以最后只选了四个地区：<strong>伦敦</strong>、<strong>圣保罗</strong>、<strong>硅谷</strong> 和 <strong>东京</strong>。我在这些地区各创建了一台最便宜的 Fedora 虚拟机。</p><p>经过几轮测试后，我发现 <code>hey</code> 更符合我的需求。于是我的流程就变成：SSH 登录测试机，执行脚本，然后把结果拷出来。第一个测试点是圣保罗：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>dnf install -y tmux vim htop
+</span></span><span style=display:flex><span>wget https://storage.googleapis.com/hey-releases/hey_linux_amd64
+</span></span><span style=display:flex><span>chmod +x hey_linux_amd64
+</span></span><span style=display:flex><span>./hey_linux_amd64 -n <span style=color:#ae81ff>1000000</span> -c <span style=color:#ae81ff>10000</span> -t <span style=color:#ae81ff>10</span> -z 5m -h2 https://crocidb.com/ &gt; crocidb.com.log
+</span></span><span style=display:flex><span>./hey_linux_amd64 -n <span style=color:#ae81ff>1000000</span> -c <span style=color:#ae81ff>10000</span> -t <span style=color:#ae81ff>10</span> -z 5m -h2 https://crocidb.cro.to/ &gt; crocidb.cro.to.log
+</span></span></code></pre></div><p>这会下载 <code>hey</code>，然后以一种非常夸张的配置运行：总请求数 <code>1M</code>，并发 <code>10k</code>，超时 <code>10s</code>（也就是任意单个请求超过 10 秒就算失败），总时长 <code>5m</code>。</p><p>第一次跑的时候，我很快就发现新 FreeBSD 服务器确实有个问题：它很早就开始失败，因为它根本扛不住 1 万并发连接。查了很多资料后，我发现可以用 <code>netstat -Lan</code> 查看 socket 队列大小，而我的队列值全都是 <code>128</code>。继续追下来才发现，原来 <code>kern.ipc.somaxconn</code> 的默认值就是这个数字。于是我把它调高了：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-shell data-lang=shell><span style=display:flex><span>sysctl kern.ipc.somaxconn<span style=color:#f92672>=</span><span style=color:#ae81ff>16384</span>
+</span></span></code></pre></div><p>差不多十分钟后，日志跑完了，我开始看结果：</p><p><em>（原文此处有圣保罗 VPS 上 hey 输出对比图）</em></p><p>左边是旧服务器，右边是新服务器，差异简直夸张。</p><p>虽然两台机器都返回了不少错误，但 FreeBSD 这边至少完成了预期的 <code>1M</code> 请求，而 Ubuntu 那边连 <code>20k</code> 都没撑住！这个差距实在是<strong>太大了</strong>。</p><h3 id=基准结果分析>基准结果分析<a hidden class=anchor aria-hidden=true href=#基准结果分析>#</a></h3><p><em>（原文此处有成功率图表）</em></p><p>旧服务器 <code>crocidb.com</code> 只能完成极少一部分请求，这一点真的很惊人。实际上，它只完成了大约 7% 的请求，而 FreeBSD 服务器完成了 94%。东京地区里新服务器的成功率略微低一点，但我觉得还不至于值得担心。</p><p>从每秒请求数来看，新服务器最少也有 3 倍提升，最高甚至能到 11 倍。</p><p><em>（原文此处有 Requests per second 图表）</em></p><p>这里的差距看起来更夸张，而我猜测东京那边的延迟可能确实更高一些。</p><p><em>（原文此处有延迟百分位图表）</em></p><p>如果看延迟百分位（例如 <code>p50</code> 表示 50% 的请求都比这个值更快返回），会发现两台服务器呈现出很不一样的曲线形态。新服务器直到大约 90% 之前都保持比较 <em>线性</em> 的增长，所以表现更可预测；而旧服务器的增长曲线则明显更不稳定。</p><p>这说明，即使在高负载下，全球范围内 90% 的访问者在尝试加载我博客首页时，仍然能在 <strong>3.5 秒</strong> 内拿到内容。我觉得这已经相当不错了。</p><p>我没有再继续深挖东京地区的问题，不过目前我也没那么担心。看 <code>hey</code> 的请求阶段分解（也就是它会拆分 DNS、连接、等待响应、读取响应等耗时），确实能看出日本方向的流量更慢一些：</p><p><em>（原文此处有请求阶段耗时分解图）</em></p><p>不过这些数据在我看来又有点怪。首先，第二个域名的 DNS 拨号和查询时间低得离谱，也许是因为它是个 CNAME 记录？其次，<code>resp wait</code>（基本可以理解成首字节时间）和 <code>resp read</code>（传输时间）在这里高得有点异常。但这也可能是因为它统计的只是成功请求：也就是说，旧服务器可能一开始响应很快，但很快就把新请求都拒掉了。</p><h4 id=结论>结论<a hidden class=anchor aria-hidden=true href=#结论>#</a></h4><p>我并不认为这个差距是因为我选的这套栈本身就有多神奇。更有可能的原因是：旧 Ubuntu 系统本身就有一些配置问题，再加上我选的 Hetzner VPS 有 4 个 CPU 核，而旧 DigitalOcean 机器只有 1 个，自然能同时处理更多请求。我也不觉得这在实际意义上真的有多重要，因为这些服务器几乎不可能真的遇到这么大的并发量。也许跑一遍 WebPageTest 这样的 Web 基准工具就已经够了。</p><h1 id=真正切换>真正切换<a hidden class=anchor aria-hidden=true href=#真正切换>#</a></h1><p>虽然这些基准测试还留下了很多未解答的问题，但我对结果已经很满意了。所以我直接更新了 DNS 记录。现在，这个博客已经正式跑在那台新机器上了。</p><p>说到底，经过很多个小时的实验、折腾、构建、推倒重来之后，我意识到：搭一台用 FreeBSD 托管网站的机器，其实并没有我想象中那么复杂。满足我需求的 Web 托管服务其实也有不少，我本来也完全可以用<a href=https://openbsd.amsterdam/>别的方案</a>。或者装一个 <a href=https://www.proxmox.com/en/>Proxmox</a>，用图形化仪表盘来管理容器和系统。甚至也可以试试它在 FreeBSD 世界里的对应物 <a href=https://sylve.io/>Sylve</a>。但我还是很喜欢自己这次走过的这条路，因为整个过程让我学到了很多。</p><p>其中几个最主要的收获是：</p><ul><li>那台 Ubuntu 服务器真的非常皮实。十年来，它一直把我这些站点的负载扛得很好。最后四年甚至一次都没重启过。而这一切并不需要多复杂的配置。</li><li>配置 FreeBSD 比我原本想象的容易。我很喜欢把系统配置集中在一个地方管理的感觉，而且它的在线文档也真的非常好。</li><li>想自己搭一台托管博客的机器，往往需要大量网络知识，而这些远远超出了一个游戏开发者通常具备的范围。</li><li>学习另一套系统真的很有趣。也许下次我会试试 OpenBSD 或 NetBSD。</li></ul><p>不过说到底，这一切也没什么意义，因为我的大部分流量现在反正都来自各种 AI 抓取器……</p><h2 id=refs>Refs<a hidden class=anchor aria-hidden=true href=#refs>#</a></h2><ul><li><a href=https://crocidb.com/post/this-blog-ran-on-ubuntu-16-04-for-10-years-i-migrated-it-to-freebsd/>This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD</a></li></ul><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/>
+知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://frytea.com/tags/%E7%BF%BB%E8%AF%91/>🏷️ 翻译</a></li><li><a href=https://frytea.com/tags/linux/>🏷️ Linux</a></li><li><a href=https://frytea.com/tags/freebsd/>🏷️ FreeBSD</a></li><li><a href=https://frytea.com/tags/%E8%BF%90%E7%BB%B4/>🏷️ 运维</a></li><li><a href=https://frytea.com/tags/byaigc/>🏷️ ByAIGC</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on twitter" href="https://twitter.com/intent/tweet/?text=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f&amp;hashtags=%e7%bf%bb%e8%af%91%2cLinux%2cFreeBSD%2c%e8%bf%90%e7%bb%b4%2cByAIGC"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f&amp;title=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD&amp;summary=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD&amp;source=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on reddit" href="https://reddit.com/submit?url=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f&title=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on whatsapp" href="https://api.whatsapp.com/send?text=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD%20-%20https%3a%2f%2ffrytea.com%2farchives%2f1667%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share 【翻译】这篇博客在 Ubuntu 16.04 上跑了 10 年，我把它迁移到了 FreeBSD on telegram" href="https://telegram.me/share/url?text=%e3%80%90%e7%bf%bb%e8%af%91%e3%80%91%e8%bf%99%e7%af%87%e5%8d%9a%e5%ae%a2%e5%9c%a8%20Ubuntu%2016.04%20%e4%b8%8a%e8%b7%91%e4%ba%86%2010%20%e5%b9%b4%ef%bc%8c%e6%88%91%e6%8a%8a%e5%ae%83%e8%bf%81%e7%a7%bb%e5%88%b0%e4%ba%86%20FreeBSD&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1667%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=next href=https://frytea.com/archives/1666/><span class=title>下一页 »</span>
+<span>修复 Joplin on KDE 菜单栏显示问题</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span class=footer-links><a href=/about/>关于</a>
+<span aria-hidden=true>•</span>
+<a href=/disclaimer/>免责声明</a>
+<span aria-hidden=true>•</span>
+<a href=/sitemap.xml target=view_window>站点地图</a>
+<span aria-hidden=true>•</span>
+<a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
+<span aria-hidden=true>•</span>
+<span class=gc-site-stats id=gc-site-stats style=display:none;align-items:center;gap:.3em;margin-top:0 title=全站浏览量><span class=gc-spinner id=gc-site-spinner></span>
+<span id=gc-site-count style=display:none;align-items:center;gap:.3em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span id=gc-site-num></span></span></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+  (function () {
+    
+    
+    var gcScript = document.querySelector('script[data-goatcounter]');
+    if (!gcScript) return;
+    var gcBase = gcScript.getAttribute('data-goatcounter').replace(/\/count$/, '');
+
+    
+    
+    
+    function fetchCount(path, onSuccess, onError) {
+      var cleanPath = (path || '/').trim();
+      if (cleanPath !== '/') cleanPath = cleanPath.replace(/\/+$/, '');
+      if (cleanPath && !cleanPath.startsWith('/')) cleanPath = '/' + cleanPath;
+
+      fetch(gcBase + '/counter' + cleanPath + '.json')
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (d) { onSuccess(d.count); })
+        .catch(function (e) { if (onError) onError(e); });
+    }
+
+    
+    document.querySelectorAll('.gc-pv-wrapper[data-gc-path]').forEach(function (wrapper) {
+      var path = wrapper.getAttribute('data-gc-path');
+      var spinner = wrapper.querySelector('.gc-spinner');
+      var countEl = wrapper.querySelector('.gc-pv-count');
+      var numEl = wrapper.querySelector('.gc-pv-num');
+      if (!path || !countEl || !numEl) return;
+
+      fetchCount(
+        path,
+        function (count) {
+          if (spinner) spinner.style.display = 'none';
+          numEl.textContent = count;
+          countEl.style.display = 'inline-flex';
+        },
+        function () {
+          wrapper.style.display = 'none';
+        }
+      );
+    });
+
+    
+    
+    
+    
+    var totalPath = '/';
+    var statsWrap = document.getElementById('gc-site-stats');
+    var siteSpinner = document.getElementById('gc-site-spinner');
+    var siteCount = document.getElementById('gc-site-count');
+    var siteNum = document.getElementById('gc-site-num');
+
+    if (statsWrap && siteNum) {
+      fetchCount(
+        totalPath,
+        function (count) {
+          if (siteSpinner) siteSpinner.style.display = 'none';
+          siteNum.textContent = count;
+          if (siteCount) siteCount.style.display = 'inline-flex';
+          statsWrap.style.display = 'inline-flex';
+        },
+        function () {
+          statsWrap.style.display = 'none';
+        }
+      );
+    }
+  })();
+</script><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+    
+    if ('serviceWorker' in navigator) {
+        
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script></body></html>
