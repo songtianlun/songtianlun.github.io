@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>开发效率 on Frytea</title>
+    <link>https://frytea.com/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/</link>
+    <description>Recent content in 开发效率 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 May 2026 14:24:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>主流编程智能体工具横向对比：Claude Code、Codex、OpenCode、CodeWhale、GitHub Copilot</title>
+      <link>https://frytea.com/archives/1668/</link>
+      <pubDate>Tue, 26 May 2026 14:18:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1668/</guid>
+      <description>&lt;p&gt;最近编程智能体（Coding Agent）工具更新非常快，不同产品在“自主程度、代码理解深度、集成能力、生态开放性、价格和上手门槛”上差异很大。本文把几个常见工具放在一起做一个实用导向的对比，帮助你按场景选型。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
