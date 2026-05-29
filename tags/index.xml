@@ -11,20 +11,41 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 May 2026 14:24:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 09:15:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ByAIGC</title>
+      <link>https://frytea.com/tags/byaigc/</link>
+      <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/byaigc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacBook</title>
+      <link>https://frytea.com/tags/macbook/</link>
+      <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/macbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://frytea.com/tags/macos/</link>
+      <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>翻译</title>
+      <link>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</link>
+      <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://frytea.com/tags/ai/</link>
       <pubDate>Tue, 26 May 2026 14:18:00 +0800</pubDate>
       <guid>https://frytea.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ByAIGC</title>
-      <link>https://frytea.com/tags/byaigc/</link>
-      <pubDate>Tue, 26 May 2026 14:18:00 +0800</pubDate>
-      <guid>https://frytea.com/tags/byaigc/</guid>
       <description></description>
     </item>
     <item>
@@ -53,13 +74,6 @@
       <link>https://frytea.com/tags/linux/</link>
       <pubDate>Fri, 22 May 2026 16:23:07 +0800</pubDate>
       <guid>https://frytea.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>翻译</title>
-      <link>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</link>
-      <pubDate>Fri, 22 May 2026 16:23:07 +0800</pubDate>
-      <guid>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</guid>
       <description></description>
     </item>
     <item>
@@ -312,13 +326,6 @@
       <link>https://frytea.com/tags/tailscale/</link>
       <pubDate>Mon, 27 Oct 2025 15:20:01 +0000</pubDate>
       <guid>https://frytea.com/tags/tailscale/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MacOS</title>
-      <link>https://frytea.com/tags/macos/</link>
-      <pubDate>Sat, 18 Oct 2025 16:31:21 +0000</pubDate>
-      <guid>https://frytea.com/tags/macos/</guid>
       <description></description>
     </item>
     <item>
@@ -1131,13 +1138,6 @@
       <link>https://frytea.com/tags/m1/</link>
       <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
       <guid>https://frytea.com/tags/m1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MacBook</title>
-      <link>https://frytea.com/tags/macbook/</link>
-      <pubDate>Sat, 11 Feb 2023 11:32:00 +0000</pubDate>
-      <guid>https://frytea.com/tags/macbook/</guid>
       <description></description>
     </item>
     <item>

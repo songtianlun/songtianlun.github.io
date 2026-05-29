@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Feb 2023 02:59:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 09:15:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【翻译】如何快速给 MacBook 预热</title>
+      <link>https://frytea.com/archives/1669/</link>
+      <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1669/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;文章来源：z3ugma.github.io&lt;/p&gt;
+&lt;p&gt;原文标题：&lt;em&gt;Warm up your MacBook&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;原文发布时间：2019-11-18&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&#34;https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/&#34;&gt;https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文根据原文内容翻译整理，并补充了适用范围与使用注意事项，译文由 AI 辅助完成。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Parallels m1 安装 arch 虚拟机并配置 KDE 和辅助程序</title>
       <link>https://frytea.com/archives/740/</link>
