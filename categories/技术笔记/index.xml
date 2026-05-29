@@ -11,8 +11,30 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 May 2026 14:24:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 15:20:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决 Linux Wayland 环境下 Joplin 使用 fcitx5 中文输入漏字问题</title>
+      <link>https://frytea.com/archives/1670/</link>
+      <pubDate>Fri, 29 May 2026 15:20:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1670/</guid>
+      <description>&lt;p&gt;在 Linux + Wayland 环境下使用 Joplin 时，如果配合 fcitx5 输入中文，可能会遇到输入漏字的问题。&lt;/p&gt;
+&lt;p&gt;下面这份配置可作为参考：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-diff&#34; data-lang=&#34;diff&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;➜  Downloads cat /usr/share/applications/joplin-desktop.desktop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Desktop Entry]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name=Joplin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Comment=Joplin for Desktop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-Exec=/usr/bin/joplin-desktop --gtk-version=3 --ozone-platform=x11
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;+Exec=/usr/bin/joplin-desktop --gtk-version=3 --ozone-platform-hint=auto --enable-wayland-ime
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Terminal=false
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Icon=joplin-desktop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;StartupWMClass=@joplin/app-desktop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Type=Application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Categories=Office;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MimeType=x-scheme-handler/joplin;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SingleMainWindow=true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;使用 &lt;code&gt;--ozone-platform=x11&lt;/code&gt; 可以解决 Joplin 全局菜单不显示的问题，但中文输入时可能会出现漏字。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>主流编程智能体工具横向对比：Claude Code、Codex、OpenCode、CodeWhale、GitHub Copilot</title>
       <link>https://frytea.com/archives/1668/</link>
