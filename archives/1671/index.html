@@ -1,0 +1,443 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>[转译] 用 100 年求解一个积分 | Frytea</title><meta name=keywords content="ByAIGC,数学,地图投影,微积分"><meta name=description content="来源：100 years to solve an integral - Lior Sinai
+作者：Lior Sinai
+
+说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。
+
+用 100 年求解一个积分
+墨卡托地图与正割积分的历史
+任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。"><meta name=author content="Tianlun Song"><link rel=canonical href=https://frytea.com/archives/1671/><meta name=yandex-verification content="73b1a797f62c0e98"><meta name=baidu-site-verification content="code-gnOrbP1RyC"><meta name=baidu_union_verify content="4c552c344295cb984c46ebe74962b067"><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/satouriko/LxgwWenKai_Webfonts@v1.101/dist/LXGWWenKai-Light.css><link crossorigin=anonymous href=/assets/css/stylesheet.min.9393724e0cd36fdb2e1fb87d40bcf2f5e098168761bd70ee1a5a0b27c062c1e2.css integrity="sha256-k5NyTgzTb9suH7h9QLzy9eCYFodhvXDuGloLJ8BiweI=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.min.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad();></script><link rel=icon href=https://frytea.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://frytea.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://frytea.com/favicon-32x32.png><link rel=apple-touch-icon href=https://frytea.com/apple-touch-icon.png><link rel=mask-icon href=https://frytea.com/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.160.1"><link rel=alternate hreflang=zh href=https://frytea.com/archives/1671/><link rel=manifest href=/manifest.json><script type=text/javascript>
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script><script async defer data-website-id=3d947a98-2774-46b0-805f-fe2e4877a1d7 src=https://umami.frytea.com/script.js></script><script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.skybyte.me/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script><link rel=stylesheet href=/libs/font-awesome-4.7.0/css/font-awesome.min.css><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script data-goatcounter=https://blog.stats.frytea.com/count async src=//gc.frytea.com/count.js></script><style>.gc-pv-wrapper{display:inline-flex;align-items:center;gap:.25em;line-height:1}.gc-spinner{display:inline-block;width:.75em;height:.75em;border:1.5px solid var(--border,#e0e0e0);border-top-color:var(--secondary,#999);border-radius:50%;animation:gc-spin .75s linear infinite;vertical-align:middle;flex-shrink:0}@keyframes gc-spin{to{transform:rotate(360deg)}}.gc-pv-count{display:none;align-items:center;gap:.25em;color:var(--secondary,#999);font-size:.85em}.gc-pv-count svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}.gc-site-stats{display:none;justify-content:center;align-items:center;gap:.35em;font-size:.78em;color:var(--secondary,#999);margin-top:6px}.gc-site-stats svg{width:.9em;height:.9em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;vertical-align:middle}</style><script defer data-domain=frytea.com src=https://plausible.frytea.com/js/script.js></script><script src=https://lf6-cdn-tos.bytecdntp.com/cdn/expire-4-w/mermaid/8.14.0/mermaid.min.js crossorigin=anonymous></script><script>
+    
+    const config = {
+        startOnLoad: true,
+        theme: 'forest',
+        themeVariables: {
+            lineColor: "#fafafa"    
+        },
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    
+    
+    window.onload = () => {
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+</script><script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?c49e2f5be5e009382be07455c33b1394";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-XZM7RBGQSG"></script><script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XZM7RBGQSG');
+        }
+      </script><meta property="og:url" content="https://frytea.com/archives/1671/"><meta property="og:site_name" content="Frytea"><meta property="og:title" content="[转译] 用 100 年求解一个积分"><meta property="og:description" content="来源：100 years to solve an integral - Lior Sinai
+作者：Lior Sinai
+说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。
+用 100 年求解一个积分 墨卡托地图与正割积分的历史 任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="archives"><meta property="article:published_time" content="2026-06-05T12:00:00+08:00"><meta property="article:modified_time" content="2026-06-05T12:00:00+08:00"><meta property="article:tag" content="ByAIGC"><meta property="article:tag" content="数学"><meta property="article:tag" content="地图投影"><meta property="article:tag" content="微积分"><meta property="og:image" content="https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="[转译] 用 100 年求解一个积分"><meta name=twitter:description content="来源：100 years to solve an integral - Lior Sinai
+作者：Lior Sinai
+说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。
+用 100 年求解一个积分 墨卡托地图与正割积分的历史 任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Archives","item":"https://frytea.com/archives/"},{"@type":"ListItem","position":2,"name":"[转译] 用 100 年求解一个积分","item":"https://frytea.com/archives/1671/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"[转译] 用 100 年求解一个积分","name":"[转译] 用 100 年求解一个积分","description":"来源：100 years to solve an integral - Lior Sinai\n作者：Lior Sinai\n说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。\n用 100 年求解一个积分 墨卡托地图与正割积分的历史 任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。\n","keywords":["ByAIGC","数学","地图投影","微积分"],"articleBody":"来源：100 years to solve an integral - Lior Sinai\n作者：Lior Sinai\n说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。\n用 100 年求解一个积分 墨卡托地图与正割积分的历史 任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。\n2021 年 3 月 13 日更新：补充了纳皮尔（Napier）如何计算对数三角函数表的说明。这源于本文在 Hacker News 上讨论时有人提出的一处修正。\n2021 年 10 月 10 日更新：大圆航线与恒向线图像现在由使用 Cartopy 的脚本生成。此前这些图像由 Matlab 应用生成。你可以在作者的 GitHub 仓库 中查看新脚本，并输入自己的坐标来生成对应的航线。\n正如 SMBC 的这幅漫画所调侃的那样，数学史往往并不那么直线前进。课堂上被例行讲授的定理、公式和记号，在当初也曾是洞见，甚至是偶然发现。本文讲述的正是这样一个公式：正割函数的积分。\n我第一次读到这个故事，大约是在十年前。当时我开始对制图学（cartography）产生兴趣：制图学既是地图制作的科学，也是地图制作的艺术。1 这个积分对于墨卡托地图至关重要，因此也影响了许多使用墨卡托投影的在线地图，例如 Apple Maps 和 Google Maps。\n这个故事此前已经被讲述过多次，可参见相关论文与综述资料。不过，这些资料大多是期刊文章，主要面向学术读者。本文希望在更轻松、更有色彩的语境中介绍它，让它更容易被理解。\n本文是一篇数学文章。若读者熟悉代数、三角函数、弧度制和基础微积分，会更容易阅读；这些内容通常出现在高中高阶数学课程或大学一年级数学课程中。\n大一数学课 大学一年级的数学课上，在学习了一个月的求导之后，我们开始学习它的反问题：积分。求导研究的是如何为曲线找到梯度函数；积分则是在反向追问：给定一个梯度函数，对应的曲线是什么？当时我的老师开始介绍三角函数的积分。他先写下：\n[ \\int \\sin(x) dx = -\\cos(x) + c \\quad\\text{and}\\quad \\int \\cos(x) dx = \\sin(x) + c ]\n这组关系很容易理解，因为正弦和余弦的导数只差一个符号。只要注意负号即可。接着他推导了正切函数的积分：\n[ \\int \\tan(x) dx = \\int \\frac{\\sin(x)}{\\cos(x)}dx = -\\ln|\\cos(x)| + c ]\n好吧，这就有点技巧了。这里并不能一眼看出可以使用链式法则的逆过程；不过，因为函数 $\\cos(x)$ 与它的导数 $\\sin(x)$ 同时出现，仔细想想也能说得通。然后老师说，下面是正割函数的积分，把它背下来：\n[ \\int \\sec(x) dx = \\ln|\\sec(x) + \\tan(x)| + c ]\n等一下，这个结果是从哪里来的？我的老师没有解释。通过求导验证它确实成立并不困难。2 但问题是：最初是谁、又是怎样想到这个形式的？\n函数 $\\ln|\\sec(x)+\\tan(x)|$ 的切线斜率为 $\\sec(x)$。发现这一事实，花了差不多 100 年。\n我认为在这个时刻，大多数像我一样的大一微积分学生，脑中都会闪过以下想法：\n积分比求导难多了。 某位数学家一定是先通过求导偶然撞见了这个结果。 反正这东西以后到底能在哪里用？ 事实上，第一点是真的；许多学生在考试之后都会作证。第二点是错的：它实际上是一位教师在查看原始数值表时发现的。用这种方式发现一个积分极其罕见，甚至可以猜测它可能是唯一一个以这种方式被发现的积分。在微积分课堂上，原始数字表如此少见，如果你试图靠查数表来求一个积分，大概会被人笑话。至于第三点，对我个人来说仍然是真的。\n不过，这并不意味着这个积分没有用。它被用来构造墨卡托地图。也正因为如此，那位教师才会在处理大量数字时，意外地意识到公式的真实形态。\n快速回顾：三角函数 正割函数是一个标准三角函数。对于直角三角形中角 $\\varphi$ 而言，它被定义为斜边 $c$ 与邻边 $a$ 的比值：\n[ \\sec(\\varphi) = \\frac{c}{a} ]\n它也是更常用的余弦函数的倒数：\n[ \\sec(\\varphi) = \\frac{1}{\\cos(\\varphi)} ]\n若画出从 $-2\\pi$（-360°）到 $2\\pi$（360°）范围内的正割函数与余弦函数图像，就能直观看到二者的关系。\n正割函数的积分可以解释为图像下方的面积。3\n制图学入门 地球无法在不产生畸变的情况下投影到平面地图上。多年来，制图师设计了许多不同的地图投影，试图在尽量减少畸变与保留其他性质之间取得平衡。这些投影形态各异。为了理解后文的墨卡托地图，下面先介绍两种最简单的投影。\n所有地图投影都可以表示为一组方程：它们把球面坐标转换为平面地图坐标。球面上的坐标是角度 $\\varphi$ 与 $\\lambda$，分别对应纬线（parallels）和经线（meridians）。平面地图上的坐标则是 $x$ 与 $y$。因此，地图投影就是从 $\\varphi, \\lambda$ 到 $x, y$ 的变换。\n最简单、也是已知最古老的投影之一，是等距圆柱投影（equirectangular projection）。\n它的做法是把经线和纬线分别映射为间距固定的竖直直线与水平直线。这会沿纬线方向拉伸物体。它的投影方程为：\n[ \\begin{align} y \u0026= R\\varphi\\ x \u0026= R\\lambda \\end{align} ]\n虽然方程很简单，但构造过程并不总是容易想象。可以把球面的一段剥离并压平来理解：沿经度方向把弧线拉成直线。弧线本身在这个过程中长度不变，但这要求沿 $x$ 轴方向拉伸两侧。因此，所有弧线相交的一个点会被拉伸成一条线。\n等距圆柱投影的总面积为 $(2\\pi R)(\\pi R)=2\\pi^2 R^2$，而球面的表面积为 $4\\pi R^2$。因此，这种投影会使面积产生一个 $\\frac{\\pi}{2}\\approx1.57$ 倍的畸变因子。\n另一类投影可以通过从球面向制图平面投射线来得到。兰伯特圆柱投影（Lambert cylindrical projection）就是一个例子。它可以理解为用一个圆柱包住球面，然后通过平行于 $x$ 轴的直线把点投射到圆柱上。\n对应的方程是：\n[ \\begin{align} y \u0026= R\\sin(\\varphi)\\ x \u0026= R\\lambda \\end{align} ]\n对于赤道附近的物体，这种投影产生的畸变很小，例如非洲附近。但靠近两极的物体会因为球面曲率而被压缩；格陵兰岛就是一个很明显的例子。\n这种地图有一个有用的性质：它的面积等于球面的表面积。平面地图面积为 $(2\\pi R)(2R)=4\\pi R^2$，与球面面积相同。因此，虽然物体形状发生了畸变，它们的面积仍然是正确的。格陵兰岛相对于非洲的比例，在这张地图中就得到了准确表示。\n墨卡托地图 1569 年，杰拉杜斯·墨卡托希望绘制一幅适合航海的全球地图。他生活在一个横跨大洋航行相当普遍的时代；1492 年，克里斯托弗·哥伦布就是从西班牙一路航行到美洲。前面介绍的那些地图适合作为艺术化印象图或一般用途图，却不适合导航。畸变会妨碍在地图上准确测量距离和方位。在局部尺度上，现实中彼此垂直相交的线（例如道路），在地图上可能会变得相互倾斜。\n墨卡托尤其希望制作一张能让恒向线（rhumb lines）表现为直线的地图。恒向线是相对于经线保持恒定方位角的曲线。沿恒向线航行时，导航员只需要在整个旅程中保持罗盘上的同一方位。例如，穿过现代纽约与开普敦的恒向线，在每一点上与经线的夹角都为 48.56°，这对应于从开普敦到纽约的方位角 311°26′18″。\n与恒向线相对的是大圆航线（great circle）。大圆是球面上圆心位于球心的圆；沿大圆航行总是更短。在纽约到开普敦这个例子中，大圆距离约为 12550 千米，而沿恒向线约为 12600 千米。借助现代技术，船舶和飞机很容易沿大圆航线行进。\n但在墨卡托的时代，这并不容易。因此，水手更倾向于沿恒向线航行：他们宁愿多走一点路抵达目的地，也不愿迷航后走更多冤枉路。\n墨卡托的想法是，在南北方向上拉伸一张圆柱投影地图，以保持形状与角度。观察兰伯特投影可以发现，4 每一个纬度所需的拉伸因子都不同：在赤道处不需要拉伸；在 45° 纬线上只需要少量向上拉伸；越接近两极，物体越需要被大幅拉伸，才能抵消原先的压缩。\n这个拉伸因子可以这样计算。\n首先，墨卡托把地球划分为等间距的经纬网格，间隔分别为 $\\delta\\varphi$ 与 $\\delta\\lambda$。沿经线方向，每个小网格的弧长为 $R\\delta\\varphi$。沿纬线方向，该纬圈半径为 $R\\cos(\\varphi)$，所以弧长为 $(R\\cos(\\varphi))\\delta\\lambda$。于是切线值可以近似为：\n[ \\tan(\\alpha) \\approx \\frac{R\\cos(\\varphi)\\delta\\lambda}{R\\delta\\varphi} ]\n接着，把这个小网格压平成一个矩形，并满足两个要求：\n保持角度不变，即令 $\\alpha=\\beta$。 像兰伯特投影那样，把纬线投影到 $x$ 轴方向。这意味着 $\\delta x = R\\delta\\lambda$。 因此，变换关系为：\n[ \\begin{align} \\tan(\\alpha) \u0026= \\tan(\\beta) \\ \\frac{R\\cos(\\varphi)\\delta\\lambda}{R\\delta\\varphi} \u0026= \\frac{\\delta x}{\\delta y} \\ \\delta y \u0026= \\frac{\\delta x}{\\delta \\lambda} \\frac{1}{\\cos(\\varphi)} \\delta \\varphi = R \\sec(\\varphi) \\delta \\varphi \\end{align} ]\n从这里再向前一步，就可以把它写成积分。不过，严格意义上的微积分要在墨卡托发表地图之后一个世纪才形成。墨卡托实际做的是意识到：可以把每一点上的拉伸因子逐项相加。第 $n$ 个网格处的拉伸，近似等于它下方网格的拉伸再加上 $R\\sec(\\varphi)\\delta\\varphi$。于是可以得到求和式：\n[ \\begin{align} y_n \u0026\\approx R \\sec(n \\cdot \\delta \\varphi) \\delta \\varphi + y_{n-1} \\ \u0026=\\sum^{n}_{k=0} R \\sec(k \\cdot \\delta \\varphi) \\delta \\varphi \\end{align} ]\n通过使用固定的 $\\delta\\varphi$，墨卡托便能计算出地图上的纬线间距，然后在其上绘制世界地图。现代渲染出的结果，就是我们熟悉的墨卡托地图。\n这张地图畸变非常严重。格陵兰岛现在看起来比非洲还大；大圆航线则呈现为奇怪的曲线。但恒向线是直线！只用一把尺子和量角器，就可以计算方位；不需要额外思考，也不需要复杂数学，更不需要在地球仪上使用精巧仪器。用现代的话说，它在水手中大受欢迎。\n对于在线地图而言，局部投影非常重要。如果你在城市中查路线，你最关心的是道路看起来是否正确。墨卡托地图被采用，正是因为它能保持道路网格之间的角度。其他地图投影无法满足这个简单要求。一个小问题是比例尺会随纬度变化；但在线地图可以在每个点上轻易计算这种变化。你可以在 Google Maps 中尝试观察：相同缩放级别下，不同纬度的比例尺长度并不相同。赤道附近比例尺可能最小为 5 米；接近两极时，由于被拉伸得更厉害，比例尺可能降到 1 米。不过，当你在地图上缩放到某一个具体地点时，通常不会注意到这一点。\n顺便说一句，如果你要在 Google Maps 上查看长距离范围，最好打开“地球视图”（Globe view）。\n三角函数表、墨卡托表与对数表 故事在这里出现了意外转折。为了理解这一点，需要先介绍另一段历史：数学表。\n今天，袖珍计算器和计算软件太常见，以至于我们已经忘记数学表曾经无处不在。即便到了 20 世纪 90 年代，情况仍然如此。\n过去，如果你想计算 $\\sec(36^\\circ)$，可以画一个大三角形，用尺子实际测量角度和边长，然后手工完成长除法。更常见、更现实的做法，是在三角函数表中查找这个值。这些表中的数字，需要通过近似公式和三角恒等式辛苦计算出来；但对于使用者来说，它们非常简单。\n你只需要查表即可；如果想要更高精度，偶尔在相邻数值之间做插值。这些表还有一个额外好处：反查也很方便。例如，如果你在正割表中查找数字 1.23606，会发现它对应 36°。\n1599 年，爱德华·赖特（Edward Wright）发表了赤道墨卡托地图方程所需的表格。他采用 $\\delta\\varphi=1’=\\frac{1}{60}1^\\circ$。他还给出了墨卡托地图的第一份数学描述；墨卡托本人并没有完整说明这一点。这使其他人更容易制作自己的墨卡托地图。\n1614 年，约翰·纳皮尔（John Napier）引入了对数。对数是指数运算的逆运算。用现代记法，以 $b$ 为底的 $x$ 的对数 $y$ 写作：\n[ y = \\log_b x \\quad ; \\quad b^y = x ]\n纳皮尔的主要动机，是寻找更容易执行乘法和除法的方法。例如，根据指数法则：\n[ 2^a \\div 2^b = 2^{a-b} ]\n因此，除法可以这样完成：\n[ 3764 \\div 873 = 2^{11.878} \\div 2^{9.770} = 2^{2.108} = 4.311 ]\n其中 $\\log_2(3764)=11.878$，$\\log_2(873)=9.770$。\n对数同样需要通过近似计算辛苦制表。纳皮尔使用了一种运动学框架来完成这件事。这个想法今天看来可能很奇特，但它与纳皮尔最初如何想象对数有关。5 他的最终表格把数字与其对数以及正弦联系起来。用户可以用这样的表查找对数，并同样享受方便反查的好处。这些表非常受欢迎——显然，过去的人们并不喜欢做乘除法。用加减法替代乘除法，也能降低出错概率，尤其是在连续计算中。\n随后，数学家把这类表扩展到了其他三角函数。\n1645 年，根据传说，一位名叫亨利·邦德（Henry Bond）的教师注意到一个奇怪现象：赖特的墨卡托表中的数字，与 $\\log_e(\\tan(\\varphi))$ 表中的数字非常相似。二者只是在表格中相差一个因子 2 和一个 45° 的偏移。因此，他本质上猜想：\n[ \\int_0^{\\varphi_1} \\sec(\\varphi) d\\varphi = \\ln \\left| \\tan \\left( \\frac{\\varphi_1}{2} + 45^\\circ \\right) \\right | ]\n数学家们注意到了这个断言，却无法证明它。当时微积分仍处于萌芽阶段。1668 年，也就是墨卡托首次绘制地图 99 年后、邦德给出结果 23 年后，詹姆斯·格雷戈里（James Gregory）终于证明了它。不过，这个证明被认为冗长而“令人疲惫”。1670 年，艾萨克·巴罗（Isaac Barrow）通过部分分式积分给出了更简洁的证明。\n最后，借助三角恒等式可以证明，下列三个公式完全等价：\n[ \\int \\sec(\\varphi) d\\varphi = \\begin{cases} \\ln |\\sec(\\varphi) + \\tan(\\varphi) | + c \\ \\ln \\left| \\tan \\left( \\frac{\\varphi}{2} + 45^\\circ \\right) \\right | + c\\ \\frac{1}{2}\\ln \\left| \\frac{1+\\sin(\\varphi)}{1-\\sin(\\varphi)} \\right| + c \\end{cases} ]\n结论 这是一篇很长的文章。希望你和我一样觉得这段历史引人入胜。对我来说，真正令人惊叹的是：一个出现在大一考试中的小公式，背后竟然有如此丰富多彩的历史。我确实认为，课堂上应该更多讲述它。已经有人尝试过这种教学方式；在小规模教学实验中，效果不错。\n如果你更关心 Google 如何制作地图，强烈建议阅读一位 Google 工程师写的相关博客文章。你能在 Google 的代码中找到正割积分的影子吗？\n最后，我还想补充一点。围绕墨卡托地图存在很多争议。它是一种极其常见的投影。我年轻时，墙上就挂过一张墨卡托投影的世界地图。不过，希望你现在已经充分理解：它的主要用途是导航。除此之外，它会不必要地扭曲形状，尤其会使美洲和欧洲看起来比真实情况大得多。人们把这种效果与殖民主义和种族主义联系起来，并非毫无道理。\n几十年来，制图师一直批评墨卡托投影被用于并不适合它的场景。6 甚至还有一段 20 世纪 90 年代电视剧中的有趣片段专门调侃这一点。\n地图投影有很多种，每一种都有自己的用途。我个人最喜欢的是温克尔三重投影（Winkel Tripel projection）。它是美国国家地理学会的官方地图投影。无论在最终呈现还是数学形式上，它都是形状与尺度之间优雅的折中。另一个广受喜爱的投影是罗宾森投影（Robinson projection）。它采用一种“艺术化方法”设计：不同于其他投影，亚瑟·H·罗宾森（Arthur H. Robinson）并没有使用方程，而是以 5° 为间隔手工确定比例因子。\n如果我没记错，当时我是在 Wikipedia 上漫游时读到这个故事的。途中我进入了正割函数积分页面，那里包含一段非常简短的历史。 ↩︎\n通过求导验证如下：\n[ \\begin{align} \u0026\\frac{d}{dx}\\ln|\\sec(x) + \\tan(x)| \\ \u0026= \\frac{d}{dx}\\ln|z| \\quad,\\quad z=\\sec(x)+\\tan(x) \\ \u0026= \\frac{1}{z} \\frac{dz}{dx} \\ \u0026= \\frac{1}{\\sec(x) + \\tan(x)}(\\sec(x)\\tan(x) + \\sec^2(x)) \\ \u0026= \\sec(x)\\frac{\\tan(x) + \\sec(x)}{\\sec(x) + \\tan(x)} \\ \u0026= \\sec(x) \\end{align} ]\n这里用到了链式法则，并假定下列结论已经证明：\n$\\frac{d}{dz}\\ln(z)=\\frac{1}{z}$ $\\frac{d}{dx}\\tan(x)=\\sec^2(x)$ $\\frac{d}{dx}\\sec(x)=\\sec(x)\\tan(x)$ ↩︎ 面积相对于 $x$ 轴方向的变化率就是函数值 $y$，也就是一条极薄矩形的高度。因此 $\\frac{dA}{dx}=y\\implies A=\\int y,dx$。 ↩︎\n作者并不确定墨卡托是否知道这种投影。兰伯特圆柱投影直到 1772 年才由约翰·海因里希·兰伯特正式描述。不过，它是最容易用来直观解释墨卡托投影构造过程的方式，因此原文采用了这种说明。 ↩︎\n简述纳皮尔的方法：他比较一个沿无限长直线运动的粒子与另一个沿长度为 $R$ 的有限线段运动的粒子。第一个粒子匀速运动，$\\frac{dx_1}{dt}=1$；第二个粒子的速度与它在有限线段上剩余的距离成正比，$\\frac{dx_2}{dt}=R-x_2$。第二个粒子走过的距离与第一个粒子的距离满足微分方程 $\\frac{dx_2}{dx_1}=R-x_2$。其解为：\n[ \\begin{align} x_1 \u0026= \\log_{\\frac{1}{e}} \\left(\\frac{R-x_2}{R}\\right) \\ \u0026\\approx \\log_{\\left(1-\\frac{1}{R}\\right)^R}\\left(\\sin(\\theta)\\right) \\end{align} ]\n更多信息可参见 Dynamic logarithms。原文最初曾称对数三角函数表出现在普通对数表之后；但由于纳皮尔推导近似公式的方法很特殊，这并不准确。这个问题由 Hacker News 评论指出。 ↩︎\n原文注：有几个流行的新冠疫情地图追踪器使用了墨卡托投影，令人遗憾。 ↩︎\n","wordCount":"6367","inLanguage":"zh","image":"https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E","datePublished":"2026-06-05T12:00:00+08:00","dateModified":"2026-06-05T12:00:00+08:00","author":{"@type":"Person","name":"Tianlun Song"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://frytea.com/archives/1671/"},"publisher":{"@type":"Organization","name":"Frytea","logo":{"@type":"ImageObject","url":"https://frytea.com/favicon.ico"}}}</script></head><body class=list id=top><script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script><header class=header><nav class=nav><div class=logo><a href=https://frytea.com/ accesskey=h title="🏡 Frytea (Alt + H)">🏡 Frytea</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)">
+<svg id="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://frytea.com/navigation/ title=🧭><span>🧭</span></a></li><li><a href=https://www.travellings.cn/go.html title=🚇><span>🚇</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><nav class=breadcrumbs role=navigation aria-label=Breadcrumb><a href=https://frytea.com/>主页</a>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
+<a href=https://frytea.com/archives/>Archives</a></nav><h1 class=post-title><a href=https://frytea.com/archives/1671/>[转译] 用 100 年求解一个积分</a></h1><div class=post-meta>June 5, 2026&nbsp;|&nbsp;13 分钟&nbsp;|&nbsp;6367 字&nbsp;|&nbsp;Tianlun Song&nbsp;|&nbsp;<span>
+<a href=https://github.com/songtianlun/songtianlun.github.io/edit/main/content/archives/2026-06-05-1671.md rel="noopener noreferrer edit" target=_blank>PR</a>
+</span><span aria-hidden=true>&nbsp;|&nbsp;</span><span class=gc-pv-wrapper data-gc-path=/archives/1671/ style=display:inline-flex;align-items:center;gap:.28em;vertical-align:middle>
+<span class=gc-spinner></span>
+<span class=gc-pv-count style=align-items:center;gap:.28em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span class=gc-pv-num></span></span></span></div></header><figure class="entry-cover entry-cover-default"><img loading=lazy src=https://i-cdn.frytea.com/2026/04/30/ea61b571bddd3ad53c66e0404b67ffc4.jpg alt="[转译] 用 100 年求解一个积分"></figure><aside id=toc-sidebar class=toc-sidebar aria-label=目录><div class=toc-sidebar-header><span class=toc-title>目录</span></div><div class=toc-sidebar-body id=toc-sidebar-body><ul><li><a href=#%e7%94%a8-100-%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86 aria-label="用 100 年求解一个积分">用 100 年求解一个积分</a><ul><li><a href=#%e5%a2%a8%e5%8d%a1%e6%89%98%e5%9c%b0%e5%9b%be%e4%b8%8e%e6%ad%a3%e5%89%b2%e7%a7%af%e5%88%86%e7%9a%84%e5%8e%86%e5%8f%b2 aria-label=墨卡托地图与正割积分的历史>墨卡托地图与正割积分的历史</a></li><li><a href=#%e5%a4%a7%e4%b8%80%e6%95%b0%e5%ad%a6%e8%af%be aria-label=大一数学课>大一数学课</a></li><li><a href=#%e5%bf%ab%e9%80%9f%e5%9b%9e%e9%a1%be%e4%b8%89%e8%a7%92%e5%87%bd%e6%95%b0 aria-label=快速回顾：三角函数>快速回顾：三角函数</a></li><li><a href=#%e5%88%b6%e5%9b%be%e5%ad%a6%e5%85%a5%e9%97%a8 aria-label=制图学入门>制图学入门</a></li><li><a href=#%e5%a2%a8%e5%8d%a1%e6%89%98%e5%9c%b0%e5%9b%be aria-label=墨卡托地图>墨卡托地图</a></li><li><a href=#%e4%b8%89%e8%a7%92%e5%87%bd%e6%95%b0%e8%a1%a8%e5%a2%a8%e5%8d%a1%e6%89%98%e8%a1%a8%e4%b8%8e%e5%af%b9%e6%95%b0%e8%a1%a8 aria-label=三角函数表、墨卡托表与对数表>三角函数表、墨卡托表与对数表</a></li><li><a href=#%e7%bb%93%e8%ae%ba aria-label=结论>结论</a></li></ul></li></ul></div><div class=toc-sidebar-ad><ins class=adsbygoogle style=display:block data-ad-client=ca-pub-7296634171837358 data-ad-slot=9161921641 data-ad-format=auto data-full-width-responsive=true></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></aside><div id=toc-mobile-root><button id=toc-toggle-btn class=toc-toggle-btn accesskey=c aria-label=目录 title="目录 (Alt + C)">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="16" y2="12"/><line x1="3" y1="18" x2="19" y2="18"/></svg></button><div id=toc-backdrop class=toc-backdrop></div><div id=toc-drawer class=toc-drawer aria-hidden=true role=dialog aria-label=目录><div class=toc-drawer-header><span class=toc-drawer-title>目录</span>
+<button id=toc-drawer-close class=toc-drawer-close-btn aria-label=关闭目录>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class=toc-drawer-body id=toc-drawer-body><ul><li><a href=#%e7%94%a8-100-%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86 aria-label="用 100 年求解一个积分">用 100 年求解一个积分</a><ul><li><a href=#%e5%a2%a8%e5%8d%a1%e6%89%98%e5%9c%b0%e5%9b%be%e4%b8%8e%e6%ad%a3%e5%89%b2%e7%a7%af%e5%88%86%e7%9a%84%e5%8e%86%e5%8f%b2 aria-label=墨卡托地图与正割积分的历史>墨卡托地图与正割积分的历史</a></li><li><a href=#%e5%a4%a7%e4%b8%80%e6%95%b0%e5%ad%a6%e8%af%be aria-label=大一数学课>大一数学课</a></li><li><a href=#%e5%bf%ab%e9%80%9f%e5%9b%9e%e9%a1%be%e4%b8%89%e8%a7%92%e5%87%bd%e6%95%b0 aria-label=快速回顾：三角函数>快速回顾：三角函数</a></li><li><a href=#%e5%88%b6%e5%9b%be%e5%ad%a6%e5%85%a5%e9%97%a8 aria-label=制图学入门>制图学入门</a></li><li><a href=#%e5%a2%a8%e5%8d%a1%e6%89%98%e5%9c%b0%e5%9b%be aria-label=墨卡托地图>墨卡托地图</a></li><li><a href=#%e4%b8%89%e8%a7%92%e5%87%bd%e6%95%b0%e8%a1%a8%e5%a2%a8%e5%8d%a1%e6%89%98%e8%a1%a8%e4%b8%8e%e5%af%b9%e6%95%b0%e8%a1%a8 aria-label=三角函数表、墨卡托表与对数表>三角函数表、墨卡托表与对数表</a></li><li><a href=#%e7%bb%93%e8%ae%ba aria-label=结论>结论</a></li></ul></li></ul></div></div></div><script>
+(function () {
+    "use strict";
+
+    function initToc() {
+     
+    var headings = Array.prototype.slice.call(
+        document.querySelectorAll(
+            ".post-content h1[id], .post-content h2[id], .post-content h3[id]," +
+            ".post-content h4[id], .post-content h5[id], .post-content h6[id]"
+        )
+    );
+    var allTocLinks = Array.prototype.slice.call(
+        document.querySelectorAll("#toc-sidebar-body a, #toc-drawer-body a")
+    );
+
+     
+    var currentActiveId = null;
+
+    function setActive(id) {
+        if (id === currentActiveId) return;
+        currentActiveId = id;
+        allTocLinks.forEach(function (link) {
+            var href = link.getAttribute("href") || "";
+            
+
+            if (decodeURIComponent(href.slice(1)) === id) {
+                link.classList.add("toc-active");
+            } else {
+                link.classList.remove("toc-active");
+            }
+        });
+         
+        var sidebarBody = document.getElementById("toc-sidebar-body");
+        if (sidebarBody) {
+            var activeLink = sidebarBody.querySelector("a.toc-active");
+            if (activeLink) {
+                var SCROLL_MARGIN_TOP    = 20;  
+                var SCROLL_MARGIN_BOTTOM = 40;  
+                var linkTop    = activeLink.offsetTop;
+                var bodyHeight = sidebarBody.clientHeight;
+                var scrollTop  = sidebarBody.scrollTop;
+                if (linkTop < scrollTop + SCROLL_MARGIN_TOP ||
+                    linkTop > scrollTop + bodyHeight - SCROLL_MARGIN_BOTTOM) {
+                    sidebarBody.scrollTo({
+                        top: linkTop - bodyHeight / 3,
+                        behavior: "smooth"
+                    });
+                }
+            }
+        }
+    }
+
+    function getActiveId() {
+        
+
+        var MIN_THRESHOLD_PX       = 80;    
+        var VIEWPORT_THRESHOLD_RATIO = 0.15;  
+        var threshold = Math.max(MIN_THRESHOLD_PX, window.innerHeight * VIEWPORT_THRESHOLD_RATIO);
+        var active = null;
+        headings.forEach(function (h) {
+            if (h.getBoundingClientRect().top <= threshold) {
+                active = h.id;
+            }
+        });
+         
+        if (!active && headings.length > 0) {
+            active = headings[0].id;
+        }
+        return active;
+    }
+
+    if (headings.length > 0) {
+        var ticking = false;
+        window.addEventListener("scroll", function () {
+            if (!ticking) {
+                window.requestAnimationFrame(function () {
+                    setActive(getActiveId());
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+         
+        setActive(getActiveId());
+    }
+
+     
+    var toggleBtn  = document.getElementById("toc-toggle-btn");
+    var drawer     = document.getElementById("toc-drawer");
+    var backdrop   = document.getElementById("toc-backdrop");
+    var closeBtn   = document.getElementById("toc-drawer-close");
+
+    function openDrawer() {
+        if (!drawer) return;
+        drawer.classList.add("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "false");
+        backdrop.classList.add("toc-backdrop-visible");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeDrawer() {
+        if (!drawer) return;
+        drawer.classList.remove("toc-drawer-open");
+        drawer.setAttribute("aria-hidden", "true");
+        backdrop.classList.remove("toc-backdrop-visible");
+        document.body.style.overflow = "";
+    }
+
+    if (toggleBtn) toggleBtn.addEventListener("click", openDrawer);
+    if (closeBtn)  closeBtn.addEventListener("click",  closeDrawer);
+    if (backdrop)  backdrop.addEventListener("click",  closeDrawer);
+
+     
+    document.querySelectorAll("#toc-drawer-body a").forEach(function (link) {
+        link.addEventListener("click", closeDrawer);
+    });
+
+     
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeDrawer();
+    });
+    }  
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initToc);
+    } else {
+        initToc();
+    }
+}());
+</script><div class=ai-generated-notice>🤖 <strong>AI 内容声明</strong>：本文内容由 AI 参与生成或整理，仅供参考，请以实际情况为准。如需深入了解，建议查阅原始资料。</div><div class=post-content><blockquote style=margin-top:8px><p style=text-align:center;text-indent:0><a href=https://frytea.com/archives/1671/>本文</a>
+首发于
+<a href=https://frytea.com/>🌱 煎茶</a>，
+<a href=/disclaimer/>转载</a> 请注明
+<a href=https://frytea.com/archives/1671/>来源</a>。</p></blockquote><p>来源：<a href=https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html>100 years to solve an integral - Lior Sinai</a></p><p>作者：<a href=https://liorsinai.github.io/>Lior Sinai</a></p><blockquote><p>说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。</p></blockquote><h1 id=用-100-年求解一个积分>用 100 年求解一个积分<a hidden class=anchor aria-hidden=true href=#用-100-年求解一个积分>#</a></h1><h2 id=墨卡托地图与正割积分的历史>墨卡托地图与正割积分的历史<a hidden class=anchor aria-hidden=true href=#墨卡托地图与正割积分的历史>#</a></h2><p>任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。</p><p>2021 年 3 月 13 日更新：补充了纳皮尔（Napier）如何计算对数三角函数表的说明。这源于本文在 <a href=https://news.ycombinator.com/>Hacker News</a> 上讨论时有人提出的一处修正。</p><p>2021 年 10 月 10 日更新：大圆航线与恒向线图像现在由使用 <a href=https://scitools.org.uk/>Cartopy</a> 的脚本生成。此前这些图像由 Matlab 应用生成。你可以在作者的 <a href=https://github.com/liorsinai>GitHub 仓库</a> 中查看新脚本，并输入自己的坐标来生成对应的航线。</p><p>正如 SMBC 的这幅<a href=https://www.smbc-comics.com/>漫画</a>所调侃的那样，数学史往往并不那么直线前进。课堂上被例行讲授的定理、公式和记号，在当初也曾是洞见，甚至是偶然发现。本文讲述的正是这样一个公式：正割函数的积分。</p><p>我第一次读到这个故事，大约是在十年前。当时我开始对制图学（cartography）产生兴趣：制图学既是地图制作的科学，也是地图制作的艺术。<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> 这个积分对于墨卡托地图至关重要，因此也影响了许多使用墨卡托投影的在线地图，例如 <a href=https://www.apple.com/maps/>Apple Maps</a> 和 <a href=https://www.google.com/maps>Google Maps</a>。</p><p>这个故事此前已经被讲述过多次，可参见相关论文与综述资料。不过，这些资料大多是期刊文章，主要面向学术读者。本文希望在更轻松、更有色彩的语境中介绍它，让它更容易被理解。</p><p>本文是一篇数学文章。若读者熟悉代数、三角函数、弧度制和基础微积分，会更容易阅读；这些内容通常出现在高中高阶数学课程或大学一年级数学课程中。</p><h2 id=大一数学课>大一数学课<a hidden class=anchor aria-hidden=true href=#大一数学课>#</a></h2><p>大学一年级的数学课上，在学习了一个月的求导之后，我们开始学习它的反问题：积分。求导研究的是如何为曲线找到梯度函数；积分则是在反向追问：给定一个梯度函数，对应的曲线是什么？当时我的老师开始介绍三角函数的积分。他先写下：</p><p>[
+\int \sin(x) dx = -\cos(x) + c \quad\text{and}\quad \int \cos(x) dx = \sin(x) + c
+]</p><p>这组关系很容易理解，因为正弦和余弦的导数只差一个符号。只要注意负号即可。接着他推导了正切函数的积分：</p><p>[
+\int \tan(x) dx = \int \frac{\sin(x)}{\cos(x)}dx = -\ln|\cos(x)| + c
+]</p><p>好吧，这就有点技巧了。这里并不能一眼看出可以使用链式法则的逆过程；不过，因为函数 $\cos(x)$ 与它的导数 $\sin(x)$ 同时出现，仔细想想也能说得通。然后老师说，下面是正割函数的积分，把它背下来：</p><p>[
+\int \sec(x) dx = \ln|\sec(x) + \tan(x)| + c
+]</p><p>等一下，这个结果是从哪里来的？我的老师没有解释。通过求导验证它确实成立并不困难。<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup> 但问题是：最初是谁、又是怎样想到这个形式的？</p><p>函数 $\ln|\sec(x)+\tan(x)|$ 的切线斜率为 $\sec(x)$。发现这一事实，花了差不多 100 年。</p><p>我认为在这个时刻，大多数像我一样的大一微积分学生，脑中都会闪过以下想法：</p><ol><li>积分比求导难多了。</li><li>某位数学家一定是先通过求导偶然撞见了这个结果。</li><li>反正这东西以后到底能在哪里用？</li></ol><p>事实上，第一点是真的；许多学生在考试之后都会作证。第二点是错的：它实际上是一位教师在查看原始数值表时发现的。用这种方式发现一个积分极其罕见，甚至可以猜测它可能是唯一一个以这种方式被发现的积分。在微积分课堂上，原始数字表如此少见，如果你试图靠查数表来求一个积分，大概会被人笑话。至于第三点，对我个人来说仍然是真的。</p><p>不过，这并不意味着这个积分没有用。它被用来构造墨卡托地图。也正因为如此，那位教师才会在处理大量数字时，意外地意识到公式的真实形态。</p><h2 id=快速回顾三角函数>快速回顾：三角函数<a hidden class=anchor aria-hidden=true href=#快速回顾三角函数>#</a></h2><p>正割函数是一个标准三角函数。对于直角三角形中角 $\varphi$ 而言，它被定义为斜边 $c$ 与邻边 $a$ 的比值：</p><p>[
+\sec(\varphi) = \frac{c}{a}
+]</p><p>它也是更常用的余弦函数的倒数：</p><p>[
+\sec(\varphi) = \frac{1}{\cos(\varphi)}
+]</p><p>若画出从 $-2\pi$（-360°）到 $2\pi$（360°）范围内的正割函数与余弦函数图像，就能直观看到二者的关系。</p><p>正割函数的积分可以解释为图像下方的面积。<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup></p><h2 id=制图学入门>制图学入门<a hidden class=anchor aria-hidden=true href=#制图学入门>#</a></h2><p>地球无法在不产生畸变的情况下投影到平面地图上。多年来，制图师设计了许多不同的地图投影，试图在尽量减少畸变与保留其他性质之间取得平衡。这些投影形态各异。为了理解后文的墨卡托地图，下面先介绍两种最简单的投影。</p><p>所有地图投影都可以表示为一组方程：它们把球面坐标转换为平面地图坐标。球面上的坐标是角度 $\varphi$ 与 $\lambda$，分别对应纬线（parallels）和经线（meridians）。平面地图上的坐标则是 $x$ 与 $y$。因此，地图投影就是从 $\varphi, \lambda$ 到 $x, y$ 的变换。</p><p>最简单、也是已知最古老的投影之一，是等距圆柱投影（equirectangular projection）。</p><p>它的做法是把经线和纬线分别映射为间距固定的竖直直线与水平直线。这会沿纬线方向拉伸物体。它的投影方程为：</p><p>[
+\begin{align}
+y &= R\varphi\
+x &= R\lambda
+\end{align}
+]</p><p>虽然方程很简单，但构造过程并不总是容易想象。可以把球面的一段剥离并压平来理解：沿经度方向把弧线拉成直线。弧线本身在这个过程中长度不变，但这要求沿 $x$ 轴方向拉伸两侧。因此，所有弧线相交的一个点会被拉伸成一条线。</p><p>等距圆柱投影的总面积为 $(2\pi R)(\pi R)=2\pi^2 R^2$，而球面的表面积为 $4\pi R^2$。因此，这种投影会使面积产生一个 $\frac{\pi}{2}\approx1.57$ 倍的畸变因子。</p><p>另一类投影可以通过从球面向制图平面投射线来得到。兰伯特圆柱投影（Lambert cylindrical projection）就是一个例子。它可以理解为用一个圆柱包住球面，然后通过平行于 $x$ 轴的直线把点投射到圆柱上。</p><p>对应的方程是：</p><p>[
+\begin{align}
+y &= R\sin(\varphi)\
+x &= R\lambda
+\end{align}
+]</p><p>对于赤道附近的物体，这种投影产生的畸变很小，例如非洲附近。但靠近两极的物体会因为球面曲率而被压缩；格陵兰岛就是一个很明显的例子。</p><p>这种地图有一个有用的性质：它的面积等于球面的表面积。平面地图面积为 $(2\pi R)(2R)=4\pi R^2$，与球面面积相同。因此，虽然物体形状发生了畸变，它们的面积仍然是正确的。格陵兰岛相对于非洲的比例，在这张地图中就得到了准确表示。</p><h2 id=墨卡托地图>墨卡托地图<a hidden class=anchor aria-hidden=true href=#墨卡托地图>#</a></h2><p>1569 年，杰拉杜斯·墨卡托希望绘制一幅适合航海的全球地图。他生活在一个横跨大洋航行相当普遍的时代；1492 年，克里斯托弗·哥伦布就是从西班牙一路航行到美洲。前面介绍的那些地图适合作为艺术化印象图或一般用途图，却不适合导航。畸变会妨碍在地图上准确测量距离和方位。在局部尺度上，现实中彼此垂直相交的线（例如道路），在地图上可能会变得相互倾斜。</p><p>墨卡托尤其希望制作一张能让恒向线（rhumb lines）表现为直线的地图。恒向线是相对于经线保持恒定方位角的曲线。沿恒向线航行时，导航员只需要在整个旅程中保持罗盘上的同一方位。例如，穿过现代纽约与开普敦的恒向线，在每一点上与经线的夹角都为 48.56°，这对应于从开普敦到纽约的方位角 311°26′18″。</p><p>与恒向线相对的是大圆航线（great circle）。大圆是球面上圆心位于球心的圆；沿大圆航行总是更短。在纽约到开普敦这个例子中，大圆距离约为 12550 千米，而沿恒向线约为 12600 千米。借助现代技术，船舶和飞机很容易沿大圆航线行进。</p><p>但在墨卡托的时代，这并不容易。因此，水手更倾向于沿恒向线航行：他们宁愿多走一点路抵达目的地，也不愿迷航后走更多冤枉路。</p><p>墨卡托的想法是，在南北方向上拉伸一张圆柱投影地图，以保持形状与角度。观察兰伯特投影可以发现，<sup id=fnref:4><a href=#fn:4 class=footnote-ref role=doc-noteref>4</a></sup> 每一个纬度所需的拉伸因子都不同：在赤道处不需要拉伸；在 45° 纬线上只需要少量向上拉伸；越接近两极，物体越需要被大幅拉伸，才能抵消原先的压缩。</p><p>这个拉伸因子可以这样计算。</p><p>首先，墨卡托把地球划分为等间距的经纬网格，间隔分别为 $\delta\varphi$ 与 $\delta\lambda$。沿经线方向，每个小网格的弧长为 $R\delta\varphi$。沿纬线方向，该纬圈半径为 $R\cos(\varphi)$，所以弧长为 $(R\cos(\varphi))\delta\lambda$。于是切线值可以近似为：</p><p>[
+\tan(\alpha) \approx \frac{R\cos(\varphi)\delta\lambda}{R\delta\varphi}
+]</p><p>接着，把这个小网格压平成一个矩形，并满足两个要求：</p><ol><li>保持角度不变，即令 $\alpha=\beta$。</li><li>像兰伯特投影那样，把纬线投影到 $x$ 轴方向。这意味着 $\delta x = R\delta\lambda$。</li></ol><p>因此，变换关系为：</p><p>[
+\begin{align}
+\tan(\alpha) &= \tan(\beta) \
+\frac{R\cos(\varphi)\delta\lambda}{R\delta\varphi} &= \frac{\delta x}{\delta y} \
+\delta y &= \frac{\delta x}{\delta \lambda} \frac{1}{\cos(\varphi)} \delta \varphi = R \sec(\varphi) \delta \varphi
+\end{align}
+]</p><p>从这里再向前一步，就可以把它写成积分。不过，严格意义上的微积分要在墨卡托发表地图之后一个世纪才形成。墨卡托实际做的是意识到：可以把每一点上的拉伸因子逐项相加。第 $n$ 个网格处的拉伸，近似等于它下方网格的拉伸再加上 $R\sec(\varphi)\delta\varphi$。于是可以得到求和式：</p><p>[
+\begin{align}
+y_n &\approx R \sec(n \cdot \delta \varphi) \delta \varphi + y_{n-1} \
+&=\sum^{n}_{k=0} R \sec(k \cdot \delta \varphi) \delta \varphi
+\end{align}
+]</p><p>通过使用固定的 $\delta\varphi$，墨卡托便能计算出地图上的纬线间距，然后在其上绘制世界地图。现代渲染出的结果，就是我们熟悉的墨卡托地图。</p><p>这张地图畸变非常严重。格陵兰岛现在看起来比非洲还大；大圆航线则呈现为奇怪的曲线。但恒向线是直线！只用一把尺子和量角器，就可以计算方位；不需要额外思考，也不需要复杂数学，更不需要在地球仪上使用精巧仪器。用现代的话说，它在水手中大受欢迎。</p><p>对于在线地图而言，局部投影非常重要。如果你在城市中查路线，你最关心的是道路看起来是否正确。墨卡托地图被采用，正是因为它能保持道路网格之间的角度。其他地图投影无法满足这个简单要求。一个小问题是比例尺会随纬度变化；但在线地图可以在每个点上轻易计算这种变化。你可以在 Google Maps 中尝试观察：相同缩放级别下，不同纬度的比例尺长度并不相同。赤道附近比例尺可能最小为 5 米；接近两极时，由于被拉伸得更厉害，比例尺可能降到 1 米。不过，当你在地图上缩放到某一个具体地点时，通常不会注意到这一点。</p><p>顺便说一句，如果你要在 Google Maps 上查看长距离范围，最好打开“地球视图”（Globe view）。</p><h2 id=三角函数表墨卡托表与对数表>三角函数表、墨卡托表与对数表<a hidden class=anchor aria-hidden=true href=#三角函数表墨卡托表与对数表>#</a></h2><p>故事在这里出现了意外转折。为了理解这一点，需要先介绍另一段历史：数学表。</p><p>今天，袖珍计算器和计算软件太常见，以至于我们已经忘记数学表曾经无处不在。即便到了 20 世纪 90 年代，情况仍然如此。</p><p>过去，如果你想计算 $\sec(36^\circ)$，可以画一个大三角形，用尺子实际测量角度和边长，然后手工完成长除法。更常见、更现实的做法，是在三角函数表中查找这个值。这些表中的数字，需要通过近似公式和三角恒等式辛苦计算出来；但对于使用者来说，它们非常简单。</p><p>你只需要查表即可；如果想要更高精度，偶尔在相邻数值之间做插值。这些表还有一个额外好处：反查也很方便。例如，如果你在正割表中查找数字 1.23606，会发现它对应 36°。</p><p>1599 年，爱德华·赖特（Edward Wright）发表了赤道墨卡托地图方程所需的表格。他采用 $\delta\varphi=1&rsquo;=\frac{1}{60}1^\circ$。他还给出了墨卡托地图的第一份数学描述；墨卡托本人并没有完整说明这一点。这使其他人更容易制作自己的墨卡托地图。</p><p>1614 年，约翰·纳皮尔（John Napier）引入了对数。对数是指数运算的逆运算。用现代记法，以 $b$ 为底的 $x$ 的对数 $y$ 写作：</p><p>[
+y = \log_b x \quad ; \quad b^y = x
+]</p><p>纳皮尔的主要动机，是寻找更容易执行乘法和除法的方法。例如，根据指数法则：</p><p>[
+2^a \div 2^b = 2^{a-b}
+]</p><p>因此，除法可以这样完成：</p><p>[
+3764 \div 873 = 2^{11.878} \div 2^{9.770} = 2^{2.108} = 4.311
+]</p><p>其中 $\log_2(3764)=11.878$，$\log_2(873)=9.770$。</p><p>对数同样需要通过近似计算辛苦制表。纳皮尔使用了一种运动学框架来完成这件事。这个想法今天看来可能很奇特，但它与纳皮尔最初如何想象对数有关。<sup id=fnref:5><a href=#fn:5 class=footnote-ref role=doc-noteref>5</a></sup> 他的最终表格把数字与其对数以及正弦联系起来。用户可以用这样的表查找对数，并同样享受方便反查的好处。这些表非常受欢迎——显然，过去的人们并不喜欢做乘除法。用加减法替代乘除法，也能降低出错概率，尤其是在连续计算中。</p><p>随后，数学家把这类表扩展到了其他三角函数。</p><p>1645 年，根据传说，一位名叫亨利·邦德（Henry Bond）的教师注意到一个奇怪现象：赖特的墨卡托表中的数字，与 $\log_e(\tan(\varphi))$ 表中的数字非常相似。二者只是在表格中相差一个因子 2 和一个 45° 的偏移。因此，他本质上猜想：</p><p>[
+\int_0^{\varphi_1} \sec(\varphi) d\varphi = \ln \left| \tan \left( \frac{\varphi_1}{2} + 45^\circ \right) \right |
+]</p><p>数学家们注意到了这个断言，却无法证明它。当时微积分仍处于萌芽阶段。1668 年，也就是墨卡托首次绘制地图 99 年后、邦德给出结果 23 年后，詹姆斯·格雷戈里（James Gregory）终于证明了它。不过，这个证明被认为冗长而“令人疲惫”。1670 年，艾萨克·巴罗（Isaac Barrow）通过部分分式积分给出了更简洁的证明。</p><p>最后，借助三角恒等式可以证明，下列三个公式完全等价：</p><p>[
+\int \sec(\varphi) d\varphi = \begin{cases}
+\ln |\sec(\varphi) + \tan(\varphi) | + c \
+\ln \left| \tan \left( \frac{\varphi}{2} + 45^\circ \right) \right | + c\
+\frac{1}{2}\ln \left| \frac{1+\sin(\varphi)}{1-\sin(\varphi)} \right| + c
+\end{cases}
+]</p><h2 id=结论>结论<a hidden class=anchor aria-hidden=true href=#结论>#</a></h2><p>这是一篇很长的文章。希望你和我一样觉得这段历史引人入胜。对我来说，真正令人惊叹的是：一个出现在大一考试中的小公式，背后竟然有如此丰富多彩的历史。我确实认为，课堂上应该更多讲述它。已经有人尝试过这种教学方式；在小规模教学实验中，效果不错。</p><p>如果你更关心 Google 如何制作地图，强烈建议阅读一位 Google 工程师写的相关博客文章。你能在 Google 的代码中找到正割积分的影子吗？</p><p>最后，我还想补充一点。围绕墨卡托地图存在很多争议。它是一种极其常见的投影。我年轻时，墙上就挂过一张墨卡托投影的世界地图。不过，希望你现在已经充分理解：它的主要用途是导航。除此之外，它会不必要地扭曲形状，尤其会使美洲和欧洲看起来比真实情况大得多。人们把这种效果与殖民主义和种族主义联系起来，并非毫无道理。</p><p>几十年来，制图师一直批评墨卡托投影被用于并不适合它的场景。<sup id=fnref:6><a href=#fn:6 class=footnote-ref role=doc-noteref>6</a></sup> 甚至还有一段 20 世纪 90 年代电视剧中的有趣片段专门调侃这一点。</p><p>地图投影有很多种，每一种都有自己的用途。我个人最喜欢的是温克尔三重投影（Winkel Tripel projection）。它是美国国家地理学会的官方地图投影。无论在最终呈现还是数学形式上，它都是形状与尺度之间优雅的折中。另一个广受喜爱的投影是罗宾森投影（Robinson projection）。它采用一种“艺术化方法”设计：不同于其他投影，亚瑟·H·罗宾森（Arthur H. Robinson）并没有使用方程，而是以 5° 为间隔手工确定比例因子。</p><hr><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>如果我没记错，当时我是在 Wikipedia 上漫游时读到这个故事的。途中我进入了<a href=https://en.wikipedia.org/wiki/Integral_of_the_secant_function>正割函数积分</a>页面，那里包含一段非常简短的历史。&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>通过求导验证如下：</p><p>[
+\begin{align}
+&\frac{d}{dx}\ln|\sec(x) + \tan(x)| \
+&= \frac{d}{dx}\ln|z| \quad,\quad z=\sec(x)+\tan(x) \
+&= \frac{1}{z} \frac{dz}{dx} \
+&= \frac{1}{\sec(x) + \tan(x)}(\sec(x)\tan(x) + \sec^2(x)) \
+&= \sec(x)\frac{\tan(x) + \sec(x)}{\sec(x) + \tan(x)} \
+&= \sec(x)
+\end{align}
+]</p><p>这里用到了链式法则，并假定下列结论已经证明：</p><ul><li>$\frac{d}{dz}\ln(z)=\frac{1}{z}$</li><li>$\frac{d}{dx}\tan(x)=\sec^2(x)$</li><li>$\frac{d}{dx}\sec(x)=\sec(x)\tan(x)$</li></ul>&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></li><li id=fn:3><p>面积相对于 $x$ 轴方向的变化率就是函数值 $y$，也就是一条极薄矩形的高度。因此 $\frac{dA}{dx}=y\implies A=\int y,dx$。&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:4><p>作者并不确定墨卡托是否知道这种投影。兰伯特圆柱投影直到 1772 年才由约翰·海因里希·兰伯特正式描述。不过，它是最容易用来直观解释墨卡托投影构造过程的方式，因此原文采用了这种说明。&#160;<a href=#fnref:4 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:5><p>简述纳皮尔的方法：他比较一个沿无限长直线运动的粒子与另一个沿长度为 $R$ 的有限线段运动的粒子。第一个粒子匀速运动，$\frac{dx_1}{dt}=1$；第二个粒子的速度与它在有限线段上剩余的距离成正比，$\frac{dx_2}{dt}=R-x_2$。第二个粒子走过的距离与第一个粒子的距离满足微分方程 $\frac{dx_2}{dx_1}=R-x_2$。其解为：</p><p>[
+\begin{align}
+x_1 &= \log_{\frac{1}{e}} \left(\frac{R-x_2}{R}\right) \
+&\approx \log_{\left(1-\frac{1}{R}\right)^R}\left(\sin(\theta)\right)
+\end{align}
+]</p><p>更多信息可参见 <a href=https://plus.maths.org/content/dynamic-logarithms>Dynamic logarithms</a>。原文最初曾称对数三角函数表出现在普通对数表之后；但由于纳皮尔推导近似公式的方法很特殊，这并不准确。这个问题由 Hacker News 评论指出。&#160;<a href=#fnref:5 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:6><p>原文注：有几个流行的新冠疫情地图追踪器使用了墨卡托投影，令人遗憾。&#160;<a href=#fnref:6 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div><div class=post-meta></hr>注：本作品采用<a rel=license target=view_window href=http://creativecommons.org/licenses/by-nc-sa/4.0/>
+知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 </a>进行许可。</div></div><footer class=post-footer><ul class=post-tags><li><a href=https://frytea.com/tags/byaigc/>🏷️ ByAIGC</a></li><li><a href=https://frytea.com/tags/%E6%95%B0%E5%AD%A6/>🏷️ 数学</a></li><li><a href=https://frytea.com/tags/%E5%9C%B0%E5%9B%BE%E6%8A%95%E5%BD%B1/>🏷️ 地图投影</a></li><li><a href=https://frytea.com/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/>🏷️ 微积分</a></li></ul><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on twitter" href="https://twitter.com/intent/tweet/?text=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f&amp;hashtags=ByAIGC%2c%e6%95%b0%e5%ad%a6%2c%e5%9c%b0%e5%9b%be%e6%8a%95%e5%bd%b1%2c%e5%be%ae%e7%a7%af%e5%88%86"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f&amp;title=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86&amp;summary=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86&amp;source=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f&title=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on whatsapp" href="https://api.whatsapp.com/send?text=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86%20-%20https%3a%2f%2ffrytea.com%2farchives%2f1671%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label="share [转译] 用 100 年求解一个积分 on telegram" href="https://telegram.me/share/url?text=%5b%e8%bd%ac%e8%af%91%5d%20%e7%94%a8%20100%20%e5%b9%b4%e6%b1%82%e8%a7%a3%e4%b8%80%e4%b8%aa%e7%a7%af%e5%88%86&amp;url=https%3a%2f%2ffrytea.com%2farchives%2f1671%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div><nav class=paginav><a class=prev href=https://frytea.com/archives/1672/><span class=title>« 上一页</span>
+<span>[转译] 获得报酬的三种方式</span>
+</a><a class=next href=https://frytea.com/archives/1670/><span class=title>下一页 »</span>
+<span>解决 Linux Wayland 环境下 Joplin 使用 fcitx5 中文输入漏字问题</span></a></nav></footer><script src=https://giscus.app/client.js data-repo=songtianlun/songtianlun.github.io data-repo-id=R_kgDOGQ9BVQ data-category=Announcements data-category-id=DIC_kwDOGQ9BVc4CX1qg data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=zh-CN data-loading=lazy crossorigin=anonymous async>
+</script></article></main><footer class=footer><span>Copyright &copy; 2026 • <a href=https://frytea.com/>Frytea</a></span>
+<span>• <a href=http://beian.miit.gov.cn/ target=view_window>粤 ICP 备 19144283 号</a></span><div><span class=footer-links><a href=/about/>关于</a>
+<span aria-hidden=true>•</span>
+<a href=/disclaimer/>免责声明</a>
+<span aria-hidden=true>•</span>
+<a href=/sitemap.xml target=view_window>站点地图</a>
+<span aria-hidden=true>•</span>
+<a href=https://www.foreverblog.cn/go.html target=view_window>虫洞</a>
+<span aria-hidden=true>•</span>
+<span class=gc-site-stats id=gc-site-stats style=display:none;align-items:center;gap:.3em;margin-top:0 title=全站浏览量><span class=gc-spinner id=gc-site-spinner></span>
+<span id=gc-site-count style=display:none;align-items:center;gap:.3em;line-height:1><svg viewBox="0 0 24 24" aria-hidden="true" style="display:block;position:relative;top:-1px"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+<span id=gc-site-num></span></span></span></span></div></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>
+  (function () {
+    
+    
+    var gcScript = document.querySelector('script[data-goatcounter]');
+    if (!gcScript) return;
+    var gcBase = gcScript.getAttribute('data-goatcounter').replace(/\/count$/, '');
+
+    
+    
+    
+    function fetchCount(path, onSuccess, onError) {
+      var cleanPath = (path || '/').trim();
+      if (cleanPath !== '/') cleanPath = cleanPath.replace(/\/+$/, '');
+      if (cleanPath && !cleanPath.startsWith('/')) cleanPath = '/' + cleanPath;
+
+      fetch(gcBase + '/counter' + cleanPath + '.json')
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (d) { onSuccess(d.count); })
+        .catch(function (e) { if (onError) onError(e); });
+    }
+
+    
+    document.querySelectorAll('.gc-pv-wrapper[data-gc-path]').forEach(function (wrapper) {
+      var path = wrapper.getAttribute('data-gc-path');
+      var spinner = wrapper.querySelector('.gc-spinner');
+      var countEl = wrapper.querySelector('.gc-pv-count');
+      var numEl = wrapper.querySelector('.gc-pv-num');
+      if (!path || !countEl || !numEl) return;
+
+      fetchCount(
+        path,
+        function (count) {
+          if (spinner) spinner.style.display = 'none';
+          numEl.textContent = count;
+          countEl.style.display = 'inline-flex';
+        },
+        function () {
+          wrapper.style.display = 'none';
+        }
+      );
+    });
+
+    
+    
+    
+    
+    var totalPath = '/';
+    var statsWrap = document.getElementById('gc-site-stats');
+    var siteSpinner = document.getElementById('gc-site-spinner');
+    var siteCount = document.getElementById('gc-site-count');
+    var siteNum = document.getElementById('gc-site-num');
+
+    if (statsWrap && siteNum) {
+      fetchCount(
+        totalPath,
+        function (count) {
+          if (siteSpinner) siteSpinner.style.display = 'none';
+          siteNum.textContent = count;
+          if (siteCount) siteCount.style.display = 'inline-flex';
+          statsWrap.style.display = 'inline-flex';
+        },
+        function () {
+          statsWrap.style.display = 'none';
+        }
+      );
+    }
+  })();
+</script><script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script><script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script><script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script><meta name=”apple-mobile-web-app-capable” content=”yes”><script>
+    
+    if ('serviceWorker' in navigator) {
+        
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script></body></html>

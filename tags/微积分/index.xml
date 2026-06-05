@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>微积分 on Frytea</title>
+    <link>https://frytea.com/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/</link>
+    <description>Recent content in 微积分 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 05 Jun 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[转译] 用 100 年求解一个积分</title>
+      <link>https://frytea.com/archives/1671/</link>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1671/</guid>
+      <description>&lt;p&gt;来源：&lt;a href=&#34;https://liorsinai.github.io/mathematics/2020/08/27/secant-mercator.html&#34;&gt;100 years to solve an integral - Lior Sinai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：&lt;a href=&#34;https://liorsinai.github.io/&#34;&gt;Lior Sinai&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;用-100-年求解一个积分&#34;&gt;用 100 年求解一个积分&lt;/h1&gt;
+&lt;h2 id=&#34;墨卡托地图与正割积分的历史&#34;&gt;墨卡托地图与正割积分的历史&lt;/h2&gt;
+&lt;p&gt;任何初学微积分的学生都很熟悉正割函数的积分。然而，这个积分曾经是数学史上一个悬而未决的重要问题。1569 年，杰拉杜斯·墨卡托（Gerardus Mercator）为了绘制他著名的地图而首次提出了它。他没能求出精确解，只好采用近似方法。86 年后的 1645 年，这个精确解在没有微积分工具的情况下被偶然发现。此后又过了二十多年，直到 1668 年才出现形式化证明；距离墨卡托首次提出这个问题，已经过去了 99 年。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 May 2026 14:24:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 12:20:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[转译] Vibe Coding 不是工程</title>
+      <link>https://frytea.com/archives/1673/</link>
+      <pubDate>Fri, 05 Jun 2026 12:20:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1673/</guid>
+      <description>&lt;p&gt;来源：&lt;a href=&#34;https://phroneses.com/articles/build/notes/vibe-coding-is-not-engineering.html&#34;&gt;Vibe Coding Is Not Engineering - Phroneses&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者：Jh Evans&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;说明：本文为 AIGC 辅助翻译版本，已进行简单人工校对，具体细节请自行甄别。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;vibe-coding-不是工程&#34;&gt;Vibe Coding 不是工程&lt;/h1&gt;
+&lt;p&gt;Vibe coding 能产出代码。工程则产出系统，因为工程会定义那些位于生成代码之外、却能让解决方案长期在生产环境中持续运行的要素。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>主流编程智能体工具横向对比：Claude Code、Codex、OpenCode、CodeWhale、GitHub Copilot</title>
       <link>https://frytea.com/archives/1668/</link>
