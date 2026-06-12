@@ -283,6 +283,35 @@
             "language": "Go",
             "year": "2026-05-07",
             "status": "active"
+        },
+        {
+            "name": "驾途 (DriveLedger)",
+            "description": "一个租车情况管理分析软件，用于记录和分析我的租车记录，自用，暂未开源，使用 go+svelet 开发，使用流畅，可自托管",
+            "icon": "🚗",
+            "github": "https://github.com/songtianlun/drive-ledger",
+            "tags": [
+                "Web",
+                "Go",
+                "Svelte"
+            ],
+            "language": "Go",
+            "year": "2026-05-07",
+            "status": "active"
+        },
+        {
+            "name": "MythologyStories",
+            "description": "一个神话故事阅读平台，提供丰富的经典神话故事资源。",
+            "logo": "https://mythologystories.app/logo.png",
+            "url": "https://mythologystories.app",
+            "tags": [
+                "Web",
+                "Astro"
+            ],
+            "language": "Astro",
+            "year": "2026-06-06",
+            "status": "active"
         }
     ]
+}
+]
 }
