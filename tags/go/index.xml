@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 May 2026 22:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[转译] 别墨迹了，用 Go 就完事了</title>
+      <link>https://frytea.com/archives/1674/</link>
+      <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1674/</guid>
+      <description>&lt;p&gt;来源：&lt;a href=&#34;https://blainsmith.com/articles/just-fucking-use-go/&#34;&gt;Just Fucking Use Go - Blain Smith&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;说明：本文为 AIGC 辅助翻译整理版本（对原文各段落做了转述与浓缩，非逐句全文翻译），已进行简单人工校对，具体细节请自行甄别，建议参阅原文。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）</title>
       <link>https://frytea.com/archives/1664/</link>
