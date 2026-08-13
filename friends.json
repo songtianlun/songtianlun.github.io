@@ -230,6 +230,12 @@
           "url": "https://www.kiwiape.cn",
           "logo": "https://kiwiape.cn/logo.jpg",
           "word": ""
+        },
+        {
+          "name": "MingBlog",
+          "url": "https://mingblog.site",
+          "logo": "https://mingblog.site/favicon.svg",
+          "word": "记录日常生活、城市影像、旅行与观察，以及认真看过、读过和听过的作品。"
         }
       ]
     },
