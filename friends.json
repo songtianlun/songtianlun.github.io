@@ -28,33 +28,15 @@
           "word": ""
         },
         {
-          "name": "宇宙湾",
-          "url": "https://yuzhouwan.com",
-          "logo": "https://yuzhouwan.com/yuzhouwan_logo_128x128.ico",
-          "word": "大数据和人工智能的原创文章"
-        },
-        {
           "name": "P3TERX ZONE",
           "url": "https://p3terx.com",
           "logo": "https://s.gravatar.com/avatar/c42fdfa8aca47ec27a7c35dfa7d1dc51?s=200",
           "word": ""
         },
         {
-          "name": "Hong's Blog",
-          "url": "https://blog.mehoon.com",
-          "logo": "https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg",
-          "word": ""
-        },
-        {
           "name": "iMaeGoo's Blog",
           "url": "https://www.imaegoo.com",
           "logo": "https://www.imaegoo.com/images/avatar.jpg",
-          "word": ""
-        },
-        {
-          "name": "YOYLING",
-          "url": "https://yoyling.com",
-          "logo": "https://yoyling.com/favicon.png",
           "word": ""
         },
         {
@@ -67,12 +49,6 @@
           "name": "乙未博客",
           "url": "https://yvii.cn",
           "logo": "https://yvii.cn/img/favicon.png",
-          "word": ""
-        },
-        {
-          "name": "摩尔の镇 | モル·町",
-          "url": "https://www.mole9630.top",
-          "logo": "https://img.mole9630.top/blog-logo.png",
           "word": ""
         },
         {
@@ -90,7 +66,7 @@
         {
           "name": "爱·绮梦",
           "url": "https://x.iqimeng.com",
-          "logo": "https://m.iqimeng.com/images/avatar.jpg",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": ""
         },
         {
@@ -100,15 +76,9 @@
           "word": "A NodeJS Full Stack Developer. An independent developer coding with love."
         },
         {
-          "name": "Colsrch",
-          "url": "https://colsrch.cn",
-          "logo": "https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg",
-          "word": ""
-        },
-        {
           "name": "两双筷子",
           "url": "https://www.dbkuaizi.com",
-          "logo": "https://cdn.dbkuaizi.com/static/image/avatar.jpg",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": ""
         },
         {
@@ -132,7 +102,7 @@
         {
           "name": "细语呢喃",
           "url": "https://www.hrwhisper.me/",
-          "logo": "https://blog.frytea.com/usr/uploads/2019/11/1809897456.png",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": ""
         },
         {
@@ -144,13 +114,13 @@
         {
           "name": "webfem",
           "url": "https://webfem.com",
-          "logo": "",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": "做有价值的博客"
         },
         {
           "name": "左手平凡",
           "url": "https://blog.perass.com/",
-          "logo": "",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": "程序猿、垃圾佬的个人博客。"
         },
         {
@@ -168,31 +138,13 @@
         {
           "name": "叶子的花园",
           "url": "https://mskclover.com",
-          "logo": "",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
           "word": "靡不有初，鲜克有终"
         },
         {
           "name": "我不是咕咕鸽",
           "url": "https://blog.laoda.de",
-          "logo": "",
-          "word": ""
-        },
-        {
-          "name": "VPS234",
-          "url": "https://www.vps234.com",
-          "logo": "",
-          "word": ""
-        },
-        {
-          "name": "老猫博客",
-          "url": "https://blog.lyh130.com/",
           "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
-          "word": ""
-        },
-        {
-          "name": "Sulv's Blog",
-          "url": "https://www.sulvblog.cn",
-          "logo": "https://www.sulvblog.cn/img/Q.gif",
           "word": ""
         },
         {
@@ -202,27 +154,9 @@
           "word": ""
         },
         {
-          "name": "Michael翔",
-          "url": "https://michael728.github.io/think/",
-          "logo": "https://michael728.github.io/images/logo.jpg",
-          "word": ""
-        },
-        {
           "name": "胡萝虎的博客",
           "url": "https://www.huluohu.com",
           "logo": "https://img.huluohu.com/avator_new.png",
-          "word": ""
-        },
-        {
-          "name": "Xhofe's Blog",
-          "url": "https://www.nn.ci",
-          "logo": "https://img.xhofe.top/2020/12/07/f6e43dc79d74a.png",
-          "word": ""
-        },
-        {
-          "name": "之石先生的小屋",
-          "url": "http://www.brewin073.top",
-          "logo": "https://blog.frytea.com/usr/uploads/2019/11/1809897456.png",
           "word": ""
         },
         {
@@ -546,7 +480,74 @@
     },
     {
       "title": "观察区",
-      "friends": []
+      "friends": [
+        {
+          "name": "宇宙湾",
+          "url": "https://yuzhouwan.com",
+          "logo": "https://yuzhouwan.com/yuzhouwan_logo_128x128.ico",
+          "word": "大数据和人工智能的原创文章"
+        },
+        {
+          "name": "Hong's Blog",
+          "url": "https://blog.mehoon.com",
+          "logo": "https://blog.mehoon.com/wp-content/uploads/2021/06/cropped-avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "YOYLING",
+          "url": "https://yoyling.com",
+          "logo": "https://yoyling.com/favicon.png",
+          "word": ""
+        },
+        {
+          "name": "摩尔の镇 | モル·町",
+          "url": "https://www.mole9630.top",
+          "logo": "https://img.mole9630.top/blog-logo.png",
+          "word": ""
+        },
+        {
+          "name": "Colsrch",
+          "url": "https://colsrch.cn",
+          "logo": "https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg",
+          "word": ""
+        },
+        {
+          "name": "VPS234",
+          "url": "https://www.vps234.com",
+          "logo": "",
+          "word": ""
+        },
+        {
+          "name": "老猫博客",
+          "url": "https://blog.lyh130.com/",
+          "logo": "https://imagehost-cdn.frytea.com/images/2023/08/13/12fxeub-2.png",
+          "word": ""
+        },
+        {
+          "name": "Michael翔",
+          "url": "https://michael728.github.io/think/",
+          "logo": "https://michael728.github.io/images/logo.jpg",
+          "word": ""
+        },
+        {
+          "name": "Xhofe's Blog",
+          "url": "https://www.nn.ci",
+          "logo": "https://img.xhofe.top/2020/12/07/f6e43dc79d74a.png",
+          "word": ""
+        },
+        {
+          "name": "之石先生的小屋",
+          "url": "http://www.brewin073.top",
+          "logo": "https://blog.frytea.com/usr/uploads/2019/11/1809897456.png",
+          "word": ""
+        },
+        {
+          "name": "Sulv's Blog",
+          "url": "https://www.sulvblog.cn",
+          "logo": "https://www.sulvblog.cn/img/Q.gif",
+          "word": ""
+        }
+      ]
     }
   ]
 }
