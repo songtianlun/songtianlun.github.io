@@ -11,20 +11,20 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术笔记</title>
+      <link>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
     <item>
       <title>好文转载</title>
       <link>https://frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/</link>
       <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
       <guid>https://frytea.com/categories/%E5%A5%BD%E6%96%87%E8%BD%AC%E8%BD%BD/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术笔记</title>
-      <link>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Fri, 29 May 2026 15:20:00 +0800</pubDate>
-      <guid>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>远程 on Frytea</title>
+    <link>https://frytea.com/tags/%E8%BF%9C%E7%A8%8B/</link>
+    <description>Recent content in 远程 on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 15 Aug 2026 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/%E8%BF%9C%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零搭 AI 编程代理（七）：Lody，手机远程指挥电脑</title>
+      <link>https://frytea.com/archives/1681/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1681/</guid>
+      <description>把本系列装好的 opencode、Codex、Claude Code、Kimi 等代理接入 Lody，实现用手机在任何地方指挥电脑干活。</description>
+    </item>
+  </channel>
+</rss>

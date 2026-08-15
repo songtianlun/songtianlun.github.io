@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/byaigc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零搭 AI 编程代理（七）：Lody，手机远程指挥电脑</title>
+      <link>https://frytea.com/archives/1681/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1681/</guid>
+      <description>把本系列装好的 opencode、Codex、Claude Code、Kimi 等代理接入 Lody，实现用手机在任何地方指挥电脑干活。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（六）：Kimi Code</title>
+      <link>https://frytea.com/archives/1680/</link>
+      <pubDate>Sat, 15 Aug 2026 13:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1680/</guid>
+      <description>安装并配置月之暗面（Moonshot AI）官方的 Kimi Code CLI —— 单二进制、免 Node、启动极快的终端编码代理。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（五）：Claude Code</title>
+      <link>https://frytea.com/archives/1679/</link>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1679/</guid>
+      <description>安装并配置 Anthropic 官方的 Claude Code —— 功能全面的终端/编辑器/桌面/网页 AI 编码助手。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（四）：DeepSeek Harness</title>
+      <link>https://frytea.com/archives/1678/</link>
+      <pubDate>Sat, 15 Aug 2026 11:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1678/</guid>
+      <description>安装并运行 DeepSeek 官方开源的代理框架 DeepSeek Harness（dsh），基于 Node.js，一切皆插件。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（三）：Codex CLI</title>
+      <link>https://frytea.com/archives/1677/</link>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1677/</guid>
+      <description>安装并配置 OpenAI 官方的 Codex CLI —— 一个在终端里运行的轻量编码代理。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（二）：opencode</title>
+      <link>https://frytea.com/archives/1676/</link>
+      <pubDate>Sat, 15 Aug 2026 09:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1676/</guid>
+      <description>安装并配置 opencode —— 一款开源、支持任意大模型提供商的终端 AI 编程代理。</description>
+    </item>
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（一）：通用前置配置</title>
+      <link>https://frytea.com/archives/1675/</link>
+      <pubDate>Sat, 15 Aug 2026 08:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1675/</guid>
+      <description>本系列第一篇。安装 AI 编程代理前，先把环境基础打好：Node.js、npm、Git、好用的终端。一次搞定，后面所有工具都用得上。</description>
+    </item>
     <item>
       <title>[转译] 别墨迹了，用 Go 就完事了</title>
       <link>https://frytea.com/archives/1674/</link>

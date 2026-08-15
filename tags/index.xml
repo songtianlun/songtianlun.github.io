@@ -11,13 +11,104 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 14:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://frytea.com/tags/ai/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ByAIGC</title>
       <link>https://frytea.com/tags/byaigc/</link>
-      <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
       <guid>https://frytea.com/tags/byaigc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lody</title>
+      <link>https://frytea.com/tags/lody/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/lody/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://frytea.com/tags/windows/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编程工具</title>
+      <link>https://frytea.com/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>远程</title>
+      <link>https://frytea.com/tags/%E8%BF%9C%E7%A8%8B/</link>
+      <pubDate>Sat, 15 Aug 2026 14:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/%E8%BF%9C%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimi</title>
+      <link>https://frytea.com/tags/kimi/</link>
+      <pubDate>Sat, 15 Aug 2026 13:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/kimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Moonshot</title>
+      <link>https://frytea.com/tags/moonshot/</link>
+      <pubDate>Sat, 15 Aug 2026 13:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/moonshot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://frytea.com/tags/anthropic/</link>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://frytea.com/tags/claude/</link>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepSeek</title>
+      <link>https://frytea.com/tags/deepseek/</link>
+      <pubDate>Sat, 15 Aug 2026 11:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/deepseek/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codex</title>
+      <link>https://frytea.com/tags/codex/</link>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/codex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>https://frytea.com/tags/openai/</link>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opencode</title>
+      <link>https://frytea.com/tags/opencode/</link>
+      <pubDate>Sat, 15 Aug 2026 09:00:00 +0800</pubDate>
+      <guid>https://frytea.com/tags/opencode/</guid>
       <description></description>
     </item>
     <item>
@@ -39,13 +130,6 @@
       <link>https://frytea.com/tags/%E5%90%8E%E7%AB%AF/</link>
       <pubDate>Fri, 10 Jul 2026 08:00:00 +0800</pubDate>
       <guid>https://frytea.com/tags/%E5%90%8E%E7%AB%AF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://frytea.com/tags/ai/</link>
-      <pubDate>Fri, 05 Jun 2026 12:20:00 +0800</pubDate>
-      <guid>https://frytea.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -151,13 +235,6 @@
       <link>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</link>
       <pubDate>Fri, 29 May 2026 09:15:00 +0800</pubDate>
       <guid>https://frytea.com/tags/%E7%BF%BB%E8%AF%91/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>编程工具</title>
-      <link>https://frytea.com/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Tue, 26 May 2026 14:18:00 +0800</pubDate>
-      <guid>https://frytea.com/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     <item>
@@ -301,13 +378,6 @@
       <description></description>
     </item>
     <item>
-      <title>Claude</title>
-      <link>https://frytea.com/tags/claude/</link>
-      <pubDate>Fri, 17 Apr 2026 01:22:03 +0000</pubDate>
-      <guid>https://frytea.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>OpenFuyao</title>
       <link>https://frytea.com/tags/openfuyao/</link>
       <pubDate>Mon, 13 Apr 2026 09:01:27 +0000</pubDate>
@@ -347,13 +417,6 @@
       <link>https://frytea.com/tags/claude-code/</link>
       <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
       <guid>https://frytea.com/tags/claude-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>https://frytea.com/tags/windows/</link>
-      <pubDate>Fri, 09 Jan 2026 08:28:00 +0000</pubDate>
-      <guid>https://frytea.com/tags/windows/</guid>
       <description></description>
     </item>
     <item>
@@ -774,13 +837,6 @@
       <link>https://frytea.com/tags/pve/</link>
       <pubDate>Tue, 04 Mar 2025 01:32:45 +0000</pubDate>
       <guid>https://frytea.com/tags/pve/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DeepSeek</title>
-      <link>https://frytea.com/tags/deepseek/</link>
-      <pubDate>Tue, 18 Feb 2025 07:19:37 +0000</pubDate>
-      <guid>https://frytea.com/tags/deepseek/</guid>
       <description></description>
     </item>
     <item>
@@ -1299,13 +1355,6 @@
       <link>https://frytea.com/tags/%E5%BE%AE%E4%BF%A1/</link>
       <pubDate>Fri, 09 Dec 2022 14:00:00 +0000</pubDate>
       <guid>https://frytea.com/tags/%E5%BE%AE%E4%BF%A1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenAI</title>
-      <link>https://frytea.com/tags/openai/</link>
-      <pubDate>Tue, 06 Dec 2022 15:25:00 +0000</pubDate>
-      <guid>https://frytea.com/tags/openai/</guid>
       <description></description>
     </item>
     <item>

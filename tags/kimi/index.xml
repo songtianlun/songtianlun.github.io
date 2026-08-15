@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kimi on Frytea</title>
+    <link>https://frytea.com/tags/kimi/</link>
+    <description>Recent content in Kimi on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 15 Aug 2026 13:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/kimi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（六）：Kimi Code</title>
+      <link>https://frytea.com/archives/1680/</link>
+      <pubDate>Sat, 15 Aug 2026 13:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1680/</guid>
+      <description>安装并配置月之暗面（Moonshot AI）官方的 Kimi Code CLI —— 单二进制、免 Node、启动极快的终端编码代理。</description>
+    </item>
+  </channel>
+</rss>

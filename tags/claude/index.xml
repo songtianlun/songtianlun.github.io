@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Apr 2026 01:22:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（五）：Claude Code</title>
+      <link>https://frytea.com/archives/1679/</link>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1679/</guid>
+      <description>安装并配置 Anthropic 官方的 Claude Code —— 功能全面的终端/编辑器/桌面/网页 AI 编码助手。</description>
+    </item>
     <item>
       <title>Claude Opus 4.7：优缺点与评测信息汇总</title>
       <link>https://frytea.com/archives/1657/</link>

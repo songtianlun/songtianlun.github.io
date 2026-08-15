@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Codex on Frytea</title>
+    <link>https://frytea.com/tags/codex/</link>
+    <description>Recent content in Codex on Frytea</description>
+    <image>
+      <title>Frytea</title>
+      <url>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://frytea.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 15 Aug 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://frytea.com/tags/codex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（三）：Codex CLI</title>
+      <link>https://frytea.com/archives/1677/</link>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1677/</guid>
+      <description>安装并配置 OpenAI 官方的 Codex CLI —— 一个在终端里运行的轻量编码代理。</description>
+    </item>
+  </channel>
+</rss>

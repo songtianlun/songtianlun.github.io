@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 Dec 2022 15:26:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 10:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（三）：Codex CLI</title>
+      <link>https://frytea.com/archives/1677/</link>
+      <pubDate>Sat, 15 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1677/</guid>
+      <description>安装并配置 OpenAI 官方的 Codex CLI —— 一个在终端里运行的轻量编码代理。</description>
+    </item>
     <item>
       <title>ChatGPT 注册方法（附万能接码方法）</title>
       <link>https://frytea.com/archives/671/</link>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 18 Feb 2025 07:19:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 11:00:00 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/tags/deepseek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ByAIGC] Windows 从零装 AI 编程代理（四）：DeepSeek Harness</title>
+      <link>https://frytea.com/archives/1678/</link>
+      <pubDate>Sat, 15 Aug 2026 11:00:00 +0800</pubDate>
+      <guid>https://frytea.com/archives/1678/</guid>
+      <description>安装并运行 DeepSeek 官方开源的代理框架 DeepSeek Harness（dsh），基于 Node.js，一切皆插件。</description>
+    </item>
     <item>
       <title>ArchLinux 快速本地部署 DeepSeek</title>
       <link>https://frytea.com/archives/1444/</link>
