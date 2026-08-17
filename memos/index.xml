@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Aug 2026 09:42:57 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 14:03:21 +0800</lastBuildDate>
     <atom:link href="https://frytea.com/memos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://frytea.com/memos/etw9qnzkhvnke7tdm7f7hq/</link>
+      <pubDate>Mon, 17 Aug 2026 14:03:21 +0800</pubDate>
+      <guid>https://frytea.com/memos/etw9qnzkhvnke7tdm7f7hq/</guid>
+      <description>&lt;p&gt;发现这个软件，可以在 Linux 下更好的使用 AppImage，使用这个软件打开 AppImage
+软件（双击即可），自动询问是否移动到 &lt;code&gt;~/Application&lt;/code&gt; 并创建桌面快捷方式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/TheAssassin/AppImageLauncher&#34;&gt;https://github.com/TheAssassin/AppImageLauncher&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title></title>
       <link>https://frytea.com/memos/rqmuvylanqviskdukzwivh/</link>
