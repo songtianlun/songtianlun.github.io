@@ -6,12 +6,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/memos/etw9qnzkhvnke7tdm7f7hq/</loc>
-    <lastmod>2026-08-17T14:03:21+08:00</lastmod>
+    <loc>https://frytea.com/archives/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/byaigc/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/categories/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/claude/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/gemini/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/tags/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/archives/1682/</loc>
+    <lastmod>2026-09-09T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://frytea.com/memos/etw9qnzkhvnke7tdm7f7hq/</loc>
     <lastmod>2026-08-17T14:03:21+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,32 +71,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://frytea.com/archives/</loc>
-    <lastmod>2026-08-15T14:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/byaigc/</loc>
-    <lastmod>2026-08-15T14:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/categories/</loc>
-    <lastmod>2026-08-15T14:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://frytea.com/tags/lody/</loc>
     <lastmod>2026-08-15T14:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/series/</loc>
-    <lastmod>2026-08-15T14:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/</loc>
     <lastmod>2026-08-15T14:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -72,11 +92,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/tags/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-08-15T14:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2026-08-15T14:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -107,11 +122,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://frytea.com/tags/anthropic/</loc>
-    <lastmod>2026-08-15T12:00:00+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://frytea.com/tags/claude/</loc>
     <lastmod>2026-08-15T12:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
